@@ -2,12 +2,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2018-06-17 21:24+0200\n"
-"PO-Revision-Date: 2018-06-18 00:38+0200\n"
+"PO-Revision-Date: 2018-06-18 21:47+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 1.8.7\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -22,7 +22,7 @@ msgstr "Par défaut"
 
 #: GeneralSettings.cpp:12
 msgid "Configure paths"
-msgstr "Configurer les dossiers"
+msgstr "Configurer les chemins"
 
 #: GeneralSettings.cpp:20
 msgid "Language:"
@@ -86,7 +86,7 @@ msgstr "Zone morte"
 #: InputPanelGamepad.cpp:148 InputPanelPro.cpp:87 InputPanelPro.cpp:148
 #: InputPanelWiimote.cpp:170
 msgid "Range"
-msgstr "Plage"
+msgstr "Radius"
 
 #: InputPanelClassic.cpp:98 InputPanelGamepad.cpp:98 InputPanelPro.cpp:98
 #: InputPanelWiimote.cpp:115
@@ -100,7 +100,7 @@ msgstr "Axe droit"
 #: InputPanelClassic.cpp:163 InputPanelGamepad.cpp:179 InputPanelPro.cpp:163
 #: InputPanelWiimote.cpp:78
 msgid "D-pad"
-msgstr "Par numérique"
+msgstr "Croix directionnelle"
 
 #: InputPanelGamepad.cpp:13 InputPanelGamepad.cpp:16 InputPanelPro.cpp:13
 #: InputPanelPro.cpp:16
@@ -113,11 +113,11 @@ msgstr "Volume"
 
 #: InputPanelGamepad.cpp:203
 msgid "blow mic"
-msgstr "souffler dans le micro"
+msgstr "Souffle sur micro"
 
 #: InputPanelGamepad.cpp:215
 msgid "show screen"
-msgstr "afficher l'écran"
+msgstr "Afficher l'écran"
 
 #: InputPanelWiimote.cpp:37
 msgid "Extensions:"
@@ -168,7 +168,7 @@ msgstr "Supprimer"
 
 #: InputSettings.cpp:177
 msgid "Emulate Controller"
-msgstr "Emuler la manette"
+msgstr "Émuler la manette"
 
 #: InputSettings.cpp:191 optionsControllerWindow.cpp:143
 msgid "Controller API:"
@@ -176,19 +176,19 @@ msgstr "API pour la manette :"
 
 #: InputSettings.cpp:223 optionsControllerWindow.cpp:167
 msgid "Controller:"
-msgstr "Manette:"
+msgstr "Manette"
 
 #: InputSettings.cpp:234
 msgid "Test if the controller is connected"
-msgstr "Vérifie que la manette est connectée"
+msgstr "Teste si la manette est connectée"
 
 #: InputSettings.cpp:238 optionsControllerWindow.cpp:193
 msgid "Calibrate"
-msgstr "Etalonner"
+msgstr "Calibrer"
 
 #: InputSettings.cpp:240
 msgid "Reset the default state of the controller"
-msgstr "Remettre la manette à l'état par défaut"
+msgstr "Remettre la manette à son stade par défaut"
 
 #: InputSettings.cpp:244 optionsControllerWindow.cpp:197
 #: toolMemorySearcher.cpp:170
@@ -197,7 +197,7 @@ msgstr "Effacer"
 
 #: InputSettings.cpp:246
 msgid "Clear all currently set input settings"
-msgstr "Effacer tous les réglages d'entrées déjà paramétrés"
+msgstr "Réinitialise tous les paramètres de touches"
 
 #: InputSettings.cpp:437 InputSettings.cpp:548
 msgid "No profile name selected!"
@@ -205,7 +205,7 @@ msgstr "Aucun nom de profil sélectionné !"
 
 #: InputSettings.cpp:443 InputSettings.cpp:530
 msgid "The given profile name is not valid!"
-msgstr "Le nom de profil donnée n'est pas valide !"
+msgstr "Le nom de profil n'est pas valide !"
 
 #: InputSettings.cpp:510 optionsControllerWindow.cpp:677
 msgid "Couldn't load the selected profile!"
@@ -213,7 +213,7 @@ msgstr "Impossible de charger le profil sélectionné !"
 
 #: InputSettings.cpp:524 optionsControllerWindow.cpp:693
 msgid "No profile name entered!"
-msgstr "Aucun noom de profil entré !"
+msgstr "Aucun nom de profil entré !"
 
 #: InputSettings.cpp:535
 msgid "Couldn't save the profile!"
@@ -237,7 +237,7 @@ msgstr "DLC"
 
 #: MainWindow.cpp:291
 msgid "You've played"
-msgstr "Vous y avez joué"
+msgstr "Vous avez joué"
 
 #: MainWindow.cpp:297
 msgid "Last played"
@@ -254,22 +254,22 @@ msgstr "Fichier \"meta.xml\" non valide."
 #: MainWindow.cpp:393
 msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
 msgstr ""
-"Impossible de trouver le \"title_id\" dans le fichier \"meta.xml\" fourni."
+"Impossible de trouver le \"title_id\" dans le fichier \"meta.xml\" choisi."
 
 #: MainWindow.cpp:411
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
 msgstr ""
 "Impossible de trouver le \"title_version\" dans le fichier \"meta.xml\" "
-"fourni."
+"choisi."
 
 #: MainWindow.cpp:415
 msgid "The given \"meta.xml\" file is no update or DLC."
-msgstr "Le ficheir \"meta.xml\" founi n'est pas une mise à jour ni un DLC."
+msgstr "Le fichier \"meta.xml\" choisi n'est pas une mise à jour ni un DLC."
 
 #: MainWindow.cpp:420
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
 msgstr ""
-"Impossible de trouver \"longname_en\" dans le fichier \"meta.xml\" fourni."
+"Impossible de trouver le \"longname_en\" dans le fichier \"meta.xml\" choisi."
 
 #: MainWindow.cpp:447
 msgid "Invalid folder structure"
@@ -317,7 +317,7 @@ msgstr "Mise à jour installée !"
 
 #: MainWindow.cpp:553
 msgid "Success"
-msgstr "Réussite"
+msgstr "Succès"
 
 #: MainWindow.cpp:558
 msgid "Update installation has been canceled!"
@@ -337,7 +337,7 @@ msgstr "Impossible de démarrer le fichier."
 
 #: MainWindow.cpp:644 MainWindow.cpp:672
 msgid "Open file to launch"
-msgstr "Ouvrir le fichier à démarrer"
+msgstr "Ouvrir le fichier à lancer"
 
 #: MainWindow.cpp:685
 msgid "Open file to load"
@@ -349,11 +349,11 @@ msgstr "Impossible d'ouvrir le fichier"
 
 #: MainWindow.cpp:696 MainWindow.cpp:719
 msgid "Not a valid NFC NTAG215 file"
-msgstr "Ceci n'est pas un fichier NFC NTAG215 valide."
+msgstr "Ceci n'est pas un fichier NFC NTAG215 valide"
 
 #: MainWindow.cpp:810
 msgid "Cemu must be restarted to apply the selected UI language."
-msgstr "Cemu doit être redémarré afin d'utiliser la langue sélectionnée."
+msgstr "Cemu doit être redémarré afin d'appliquer le changement de langue."
 
 #: MainWindow.cpp:810
 msgid "Information"
@@ -366,18 +366,18 @@ msgid ""
 "are willing to risk losing online access with your Wii U and/or NNID."
 msgstr ""
 "ATTENTION - Soyez conscients que le mode en ligne vous connecte aux serveurs "
-"OFFICIELS et qu'il y a par conséquent un risque d'être banni. Veuillez "
-"continuer uniquement si vous voulez prendre le risque de perdre votre accès "
-"en ligne sur votre Wii U et/ou NNID."
+"OFFICIELS et qu'il y a par conséquent un risque d'être banni. Continuez "
+"uniquement si vous voulez prendre le risque de perdre votre accès en ligne "
+"sur votre Wii U et/ou NNID."
 
 #: MainWindow.cpp:1452
 msgid "You can configure game paths in the general settings."
 msgstr ""
-"Vous pouvez configurer les chemins des jeux dans les réglages généraux."
+"Vous pouvez configurer les chemins des jeux dans les paramètres généraux."
 
 #: MainWindow.cpp:1524
 msgid "Loading, please wait!"
-msgstr "&Chargement en cours, veuillez patienter !"
+msgstr "Chargement en cours, veuillez patienter !"
 
 #: MainWindow.cpp:1914
 msgid "&Load"
@@ -425,7 +425,7 @@ msgstr "&Taiwan"
 
 #: MainWindow.cpp:1955
 msgid "&English"
-msgstr "A&nglais"
+msgstr "&Anglais"
 
 #: MainWindow.cpp:1956
 msgid "&Japanese"
@@ -453,7 +453,7 @@ msgstr "&Chinois"
 
 #: MainWindow.cpp:1962
 msgid "&Korean"
-msgstr "&Coréen"
+msgstr "C&oréen"
 
 #: MainWindow.cpp:1963
 msgid "&Dutch"
@@ -473,7 +473,7 @@ msgstr "&Taiwanais"
 
 #: MainWindow.cpp:1972
 msgid "&High (slow)"
-msgstr "&Grande (lent)"
+msgstr "&Élevée (lent)"
 
 #: MainWindow.cpp:1973
 msgid "&Medium"
@@ -497,7 +497,7 @@ msgstr "&Garder le rapport hauteur/largeur"
 
 #: MainWindow.cpp:1982
 msgid "&Stretch"
-msgstr "&Etirer"
+msgstr "&Étirer"
 
 #: MainWindow.cpp:1986
 msgid "&Fullscreen"
@@ -517,11 +517,11 @@ msgstr "&Filtre d'upscaling"
 
 #: MainWindow.cpp:1994
 msgid "&Fullscreen scaling"
-msgstr "&Echelle en plein écran"
+msgstr "&Mise à l'échelle en plein écran"
 
 #: MainWindow.cpp:1995
 msgid "&GPU buffer cache accuracy"
-msgstr "Précision du &cache du buffer du GPU"
+msgstr "Précision du &cache du GPU"
 
 #: MainWindow.cpp:1996
 msgid "&Separate GamePad view"
@@ -529,15 +529,15 @@ msgstr "&Vue séparée du GamePad"
 
 #: MainWindow.cpp:1999
 msgid "&General settings"
-msgstr "Réglages &généraux"
+msgstr "Paramètres &généraux"
 
 #: MainWindow.cpp:2000
 msgid "&Audio settings"
-msgstr "Réglages &audio"
+msgstr "Paramètres &audio"
 
 #: MainWindow.cpp:2001
 msgid "&Input settings"
-msgstr "Réglages des &manettes"
+msgstr "Paramètres des &manettes"
 
 #: MainWindow.cpp:2006
 msgid "&Enable BotW crash workaround"
@@ -565,7 +565,7 @@ msgstr "&Activer le mode en ligne"
 
 #: MainWindow.cpp:2020
 msgid "&Experimental"
-msgstr "&Experimental"
+msgstr "&Expérimental"
 
 #: MainWindow.cpp:2023
 msgid "&Console region"
@@ -625,7 +625,7 @@ msgstr "&CPU"
 
 #: MainWindow.cpp:2053
 msgid "&Scan NFC tag from file"
-msgstr "&Scanner un NFC depuis un fichier"
+msgstr "&Scanner un tag NFC depuis un fichier"
 
 #: MainWindow.cpp:2054
 msgid "&NFC"
@@ -685,7 +685,7 @@ msgstr "&Journaux"
 
 #: MainWindow.cpp:2079
 msgid "&Dump"
-msgstr "&Capture"
+msgstr "&Dump"
 
 #: MainWindow.cpp:2083 MainWindow.cpp:2088
 msgid "&Render upside-down"
@@ -697,23 +697,23 @@ msgstr "&Afficher les flux PPC"
 
 #: MainWindow.cpp:2093
 msgid "&View PPC debugger"
-msgstr "Afficher le débugueur &PPC"
+msgstr "Afficher le débogueur &PPC"
 
 #: MainWindow.cpp:2095
 msgid "&View audio debugger"
-msgstr "Afficher le débugueur &audio"
+msgstr "Afficher le débogueur &audio"
 
 #: MainWindow.cpp:2097
 msgid "&Dump current RAM"
-msgstr "&Capturer la RAM à cet instant"
+msgstr "&Dumper la RAM"
 
 #: MainWindow.cpp:2100
 msgid "&Debug"
-msgstr "&Debug"
+msgstr "&Débug"
 
 #: MainWindow.cpp:2105
 msgid "&About"
-msgstr "A &propos"
+msgstr "&À propos"
 
 #: MainWindow.cpp:2106
 msgid "&Help"
@@ -721,19 +721,19 @@ msgstr "&Aide"
 
 #: MainWindow.cpp:2129
 msgid "otp.bin could not be found"
-msgstr "Impossible de trouver otp.bin"
+msgstr "Le fichier otp.bin est introuvable"
 
 #: MainWindow.cpp:2133
 msgid "otp.bin is corrupted or has invalid size"
-msgstr "otp.bin est corrompu ou a une taille non valide"
+msgstr "Le fichier otp.bin est corrompu ou a une taille non valide"
 
 #: MainWindow.cpp:2137
 msgid "seeprom.bin could not be found"
-msgstr "Impossible de trouver seeprom.bin"
+msgstr "Le fichier seeprom.bin est introuvable"
 
 #: MainWindow.cpp:2141
 msgid "seeprom.bin is corrupted or has invalid size"
-msgstr "seeprom.bin est corrompu ou a une taille non valide"
+msgstr "Le fichier seeprom.bin est corrompu ou a une taille invalide"
 
 #: MainWindow.cpp:2154
 msgid "Unknown error occured"
@@ -749,15 +749,15 @@ msgstr "Dossier de &sauvegarde"
 
 #: MainWindow.cpp:2266
 msgid "&Update directory"
-msgstr "&Dossier de mise à jour"
+msgstr "Dossier de &mise à jour"
 
 #: MainWindow.cpp:2267
 msgid "&DLC directory"
-msgstr "&Dossier du DLC"
+msgstr "Dossier du &DLC"
 
 #: MainWindow.cpp:2269
 msgid "&Open game profile"
-msgstr "&Ouvrir un profil de jeu"
+msgstr "&Ouvrir le profil du jeu"
 
 #: MainWindow.cpp:2270
 msgid "&Create game profile"
@@ -805,7 +805,7 @@ msgstr "LR"
 
 #: debugPPCThreadsWindow.cpp:68
 msgid "State"
-msgstr "Etat"
+msgstr "État"
 
 #: debugPPCThreadsWindow.cpp:73
 msgid "Affinity"
@@ -837,7 +837,7 @@ msgstr "Rafraîchir"
 
 #: debugPPCThreadsWindow.cpp:200
 msgid "UNDEFINED"
-msgstr "NON DEFINI"
+msgstr "INDEFINI"
 
 #: debugPPCThreadsWindow.cpp:202
 msgid "SUSPENDED"
@@ -853,11 +853,11 @@ msgstr "PRET"
 
 #: debugPPCThreadsWindow.cpp:208
 msgid "RUNNING"
-msgstr "EXECUTION"
+msgstr "EN COURS"
 
 #: debugPPCThreadsWindow.cpp:210
 msgid "WAITING"
-msgstr "ATTEND"
+msgstr "EN ATTENTE"
 
 #: debugPPCThreadsWindow.cpp:212
 msgid "MORIBUND"
@@ -904,7 +904,7 @@ msgid ""
 "The currently running game is corrupted or incomplete. (Missing /meta/meta."
 "xml) Graphic packs cannot be applied."
 msgstr ""
-"Le jeu en cours est corrompu ou incomplet (il manque /meta/meta.xml). Les "
+"Le jeu en cours est corrompu ou incomplet (/meta/meta.xml introuvable). Les "
 "packs graphiques ne peuvent être appliqués."
 
 #: graphicPacksWindow.cpp:75 graphicPacksWindow.cpp:114
@@ -930,7 +930,7 @@ msgstr "Surround 5.1"
 
 #: optionsAudioWindow.cpp:29
 msgid "Audio settings"
-msgstr "Réglages audio"
+msgstr "Paramètres audio"
 
 #: optionsAudioWindow.cpp:40
 msgid "Volume:"
@@ -942,15 +942,15 @@ msgstr "Canaux :"
 
 #: optionsControllerWindow.cpp:126
 msgid "Emulate Controller:"
-msgstr "Emuler la manette :"
+msgstr "Émuler la manette :"
 
 #: optionsControllerWindow.cpp:680
 msgid "No profile selected!"
-msgstr "Aucun profil sélectionné!"
+msgstr "Aucun profil sélectionné !"
 
 #: optionsControllerWindow.cpp:700 optionsControllerWindow.cpp:713
 msgid "The given profile name is invalid!"
-msgstr "Le nom de profil indiqué n'est pas valide !"
+msgstr "Le nom de profil choisi n'est pas valide !"
 
 #: toolMemorySearcher.cpp:43
 msgid "Memory Searcher"
@@ -978,7 +978,7 @@ msgstr "valeur"
 
 #: toolMemorySearcher.cpp:95
 msgid "Stored Entries"
-msgstr "Entrées enregistrées"
+msgstr "Entrées stockées"
 
 #: toolMemorySearcher.cpp:100
 msgid "description"
@@ -990,13 +990,11 @@ msgstr "type"
 
 #: toolMemorySearcher.cpp:104
 msgid "freeze"
-msgstr "geler"
+msgstr "gel"
 
 #: toolMemorySearcher.cpp:164
 msgid "Your entered value is not valid for the selected datatype."
-msgstr ""
-"La valeur que vous avez entrée n'est pas valide pour le type de données "
-"sélectionné."
+msgstr "La valeur entrée n'est pas valide pour le type de données sélectionné."
 
 #: toolMemorySearcher.cpp:389
 msgid "&Add new entry"
