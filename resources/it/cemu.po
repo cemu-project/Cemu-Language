@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: Francesco \"Fs00\" Saltori <francescosaltori@gmail.com>\n"
+"Last-Translator: \n"
 "Language: it\n"
 
 #: GeneralSettings.cpp:8
@@ -18,7 +18,7 @@ msgstr "<doppio clic per aggiungere una nuova voce>"
 
 #: GeneralSettings.cpp:9
 msgid "Default"
-msgstr "Default"
+msgstr "Predefinito"
 
 #: GeneralSettings.cpp:12
 msgid "Configure paths"
@@ -30,19 +30,19 @@ msgstr "Lingua:"
 
 #: GeneralSettings.cpp:41
 msgid "Game paths:"
-msgstr "Cartelle contenenti giochi:"
+msgstr "Percorsi che contengono giochi:"
 
 #: GeneralSettings.cpp:107
 msgid "Select a directory containing games."
-msgstr "Seleziona una cartella contenente giochi."
+msgstr "Seleziona un percorso che contiene giochi."
 
 #: GeneralSettings.cpp:161
 msgid "&Add game path"
-msgstr "&Aggiungi cartella"
+msgstr "&Aggiungi percorso"
 
 #: GeneralSettings.cpp:164
 msgid "&Delete game path"
-msgstr "&Elimina cartella"
+msgstr "&Rimuovi percorso"
 
 #: InputPanelClassic.cpp:13 InputPanelClassic.cpp:16 InputPanelClassic.cpp:18
 #: InputPanelGamepad.cpp:13 InputPanelGamepad.cpp:16 InputPanelGamepad.cpp:18
@@ -133,7 +133,7 @@ msgstr "Nunchuck"
 
 #: InputSettings.cpp:45
 msgid "Input Settings"
-msgstr "Impostazioni input"
+msgstr "Impostazioni dell'input"
 
 #: InputSettings.cpp:97
 msgid "Couldn't save settings for controller {0}"
@@ -172,7 +172,7 @@ msgstr "Controller emulato"
 
 #: InputSettings.cpp:191 optionsControllerWindow.cpp:143
 msgid "Controller API:"
-msgstr "API controller:"
+msgstr "API del controller:"
 
 #: InputSettings.cpp:223 optionsControllerWindow.cpp:167
 msgid "Controller:"
@@ -188,7 +188,7 @@ msgstr "Calibra"
 
 #: InputSettings.cpp:240
 msgid "Reset the default state of the controller"
-msgstr "Reimposta lo stato di default del controller"
+msgstr "Ripristina lo stato predefinito del controller"
 
 #: InputSettings.cpp:244 optionsControllerWindow.cpp:197
 #: toolMemorySearcher.cpp:170
@@ -197,7 +197,7 @@ msgstr "Pulisci"
 
 #: InputSettings.cpp:246
 msgid "Clear all currently set input settings"
-msgstr "Resetta le impostazioni correnti"
+msgstr "Ripristina tutte le impostazioni di input correnti"
 
 #: InputSettings.cpp:437 InputSettings.cpp:548
 msgid "No profile name selected!"
@@ -368,9 +368,9 @@ msgid ""
 "are willing to risk losing online access with your Wii U and/or NNID."
 msgstr ""
 "ATTENZIONE - Sii consapevole che la modalità online consente di connettersi "
-"ai server UFFICIALI e di conseguenza c'è il rischio di essere bannati. "
+"ai server UFFICIALI e di conseguenza c'è il rischio di essere banditi. "
 "Procedi solo se accetti la possibilità di perdere l'accesso online con la "
-"tua WiiU e/o il tuo Nintendo Network ID."
+"tua Wii U e/o il tuo Nintendo Network ID."
 
 #: MainWindow.cpp:1452
 msgid "You can configure game paths in the general settings."
@@ -379,7 +379,7 @@ msgstr ""
 
 #: MainWindow.cpp:1524
 msgid "Loading, please wait!"
-msgstr "Caricamento, attendi..."
+msgstr "Caricamento in corso, attendi!"
 
 #: MainWindow.cpp:1914
 msgid "&Load"
@@ -515,7 +515,7 @@ msgstr "&Pack grafici"
 
 #: MainWindow.cpp:1993
 msgid "&Upscale filter"
-msgstr "&Filtro di upscaling"
+msgstr "&Filtro di ridimensione"
 
 #: MainWindow.cpp:1994
 msgid "&Fullscreen scaling"
@@ -583,7 +583,7 @@ msgstr "&Opzioni"
 
 #: MainWindow.cpp:2029
 msgid "&Memory searcher"
-msgstr "&Ricerca in memoria"
+msgstr "&Cerca nella memoria"
 
 #: MainWindow.cpp:2031
 msgid "&Tools"
@@ -611,7 +611,7 @@ msgstr "Timer &cycle-based"
 
 #: MainWindow.cpp:2044
 msgid "&Host based timer (recommended)"
-msgstr "Timer &host-based (raccomandato)"
+msgstr "Timer &host-based (consigliato)"
 
 #: MainWindow.cpp:2047
 msgid "&Mode"
@@ -747,15 +747,15 @@ msgstr "&Gioca"
 
 #: MainWindow.cpp:2265
 msgid "Sa&ve directory"
-msgstr "Cartella &salvataggi"
+msgstr "Percorso &salvataggi"
 
 #: MainWindow.cpp:2266
 msgid "&Update directory"
-msgstr "Cartella &aggiornamenti"
+msgstr "Percorso &aggiornamenti"
 
 #: MainWindow.cpp:2267
 msgid "&DLC directory"
-msgstr "Cartella &DLC"
+msgstr "Percorso &DLC"
 
 #: MainWindow.cpp:2269
 msgid "&Open game profile"
@@ -875,11 +875,11 @@ msgstr "Aumenta priorità (-1)"
 
 #: debugPPCThreadsWindow.cpp:333
 msgid "Decrease priority (+5)"
-msgstr "Decrementa priorità (+5)"
+msgstr "Riduci priorità (+5)"
 
 #: debugPPCThreadsWindow.cpp:334
 msgid "Decrease priority (+1)"
-msgstr "Decrementa priorità (+1)"
+msgstr "Riduci priorità (+1)"
 
 #: debugPPCThreadsWindow.cpp:335
 msgid "Suspend"
@@ -891,7 +891,7 @@ msgstr "Pack grafici"
 
 #: graphicPacksWindow.cpp:48
 msgid "On/Off"
-msgstr "On/Off"
+msgstr "Attivi/disattivi"
 
 #: graphicPacksWindow.cpp:53
 msgid "Name"
@@ -956,7 +956,7 @@ msgstr "Il nome scelto non è valido!"
 
 #: toolMemorySearcher.cpp:43
 msgid "Memory Searcher"
-msgstr "Ricerca in memoria"
+msgstr "Cerca nella memoria"
 
 #: toolMemorySearcher.cpp:59 toolMemorySearcher.cpp:425
 msgid "Search"
@@ -1047,4 +1047,4 @@ msgstr ""
 
 #: updateWindow.cpp:154
 msgid "Info"
-msgstr "Info"
+msgstr "Informazioni"
