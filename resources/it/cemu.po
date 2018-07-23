@@ -515,7 +515,7 @@ msgstr "&Pack grafici"
 
 #: MainWindow.cpp:1993
 msgid "&Upscale filter"
-msgstr "&Filtro di ridimensione"
+msgstr "&Filtro di upscaling"
 
 #: MainWindow.cpp:1994
 msgid "&Fullscreen scaling"
