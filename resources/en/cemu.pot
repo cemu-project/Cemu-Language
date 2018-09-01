@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2018-08-06 02:51+0200\n"
+"POT-Creation-Date: 2018-09-01 13:32+0200\n"
 "PO-Revision-Date: 2018-06-12 19:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -13,173 +13,133 @@ msgstr ""
 "X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: GeneralSettings.cpp:8
-msgid "<double click to add a new entry>"
-msgstr ""
-
-#: GeneralSettings.cpp:9 GeneralSettings2.cpp:24
-msgid "Default"
-msgstr ""
-
-#: GeneralSettings.cpp:10 GeneralSettings2.cpp:25
-msgid "English"
-msgstr ""
-
-#: GeneralSettings.cpp:13 GeneralSettings2.cpp:47
+#: GeneralSettings2.cpp:34
 msgid "General settings"
 msgstr ""
 
-#: GeneralSettings.cpp:21
-msgid "Language:"
-msgstr ""
-
-#: GeneralSettings.cpp:45
-msgid "Game paths:"
-msgstr ""
-
-#: GeneralSettings.cpp:119 GeneralSettings2.cpp:762
-msgid "Select a directory containing games."
-msgstr ""
-
-#: GeneralSettings.cpp:173
-msgid "&Add game path"
-msgstr ""
-
-#: GeneralSettings.cpp:176
-msgid "&Delete game path"
-msgstr ""
-
-#: GeneralSettings2.cpp:17 optionsAudioWindow.cpp:22
-msgid "Mono"
-msgstr ""
-
-#: GeneralSettings2.cpp:18 optionsAudioWindow.cpp:23
-msgid "Stereo"
-msgstr ""
-
-#: GeneralSettings2.cpp:19
-msgid "Surround"
-msgstr ""
-
-#: GeneralSettings2.cpp:21
-msgid "Disabled"
-msgstr ""
-
-#: GeneralSettings2.cpp:22
-msgid "Online disabled"
-msgstr ""
-
-#: GeneralSettings2.cpp:29
-msgid "Bilinear"
-msgstr ""
-
-#: GeneralSettings2.cpp:30
-msgid "Bicubic"
-msgstr ""
-
-#: GeneralSettings2.cpp:32
-msgid "Keep aspect ratio"
-msgstr ""
-
-#: GeneralSettings2.cpp:33
-msgid "Stretch"
-msgstr ""
-
-#: GeneralSettings2.cpp:61
+#: GeneralSettings2.cpp:48
 msgid "Interface"
 msgstr ""
 
-#: GeneralSettings2.cpp:68
+#: GeneralSettings2.cpp:55
 msgid "Language"
 msgstr ""
 
-#: GeneralSettings2.cpp:79
+#: GeneralSettings2.cpp:57
+msgid "Default"
+msgstr ""
+
+#: GeneralSettings2.cpp:57
+msgid "English"
+msgstr ""
+
+#: GeneralSettings2.cpp:67
 msgid "Discord Presence"
 msgstr ""
 
-#: GeneralSettings2.cpp:89
+#: GeneralSettings2.cpp:77
 msgid "Game Paths"
 msgstr ""
 
-#: GeneralSettings2.cpp:100
+#: GeneralSettings2.cpp:88
 msgid "Add"
 msgstr ""
 
-#: GeneralSettings2.cpp:104
+#: GeneralSettings2.cpp:92
 msgid "Remove"
 msgstr ""
 
-#: GeneralSettings2.cpp:113 GeneralSettings2.cpp:167
+#: GeneralSettings2.cpp:101 GeneralSettings2.cpp:155
 msgid "General"
 msgstr ""
 
-#: GeneralSettings2.cpp:121
+#: GeneralSettings2.cpp:109
 msgid "Misc"
 msgstr ""
 
-#: GeneralSettings2.cpp:128
+#: GeneralSettings2.cpp:116
 msgid "VSync"
 msgstr ""
 
-#: GeneralSettings2.cpp:131
+#: GeneralSettings2.cpp:119
 msgid "Full sync at GX2DrawDone()"
 msgstr ""
 
-#: GeneralSettings2.cpp:134
+#: GeneralSettings2.cpp:122
 msgid "Use separable shaders"
 msgstr ""
 
-#: GeneralSettings2.cpp:137
+#: GeneralSettings2.cpp:125
 msgid "Disable precompiled shaders"
 msgstr ""
 
-#: GeneralSettings2.cpp:146
+#: GeneralSettings2.cpp:133
+msgid "Bilinear"
+msgstr ""
+
+#: GeneralSettings2.cpp:133
+msgid "Bicubic"
+msgstr ""
+
+#: GeneralSettings2.cpp:134
 msgid "Upscale filter"
 msgstr ""
 
-#: GeneralSettings2.cpp:152
+#: GeneralSettings2.cpp:139
+msgid "Keep aspect ratio"
+msgstr ""
+
+#: GeneralSettings2.cpp:139
+msgid "Stretch"
+msgstr ""
+
+#: GeneralSettings2.cpp:140
 msgid "Fullscreen scaling"
 msgstr ""
 
-#: GeneralSettings2.cpp:157
+#: GeneralSettings2.cpp:145
 msgid "Graphics"
 msgstr ""
 
-#: GeneralSettings2.cpp:174
+#: GeneralSettings2.cpp:162
 msgid "API"
 msgstr ""
 
-#: GeneralSettings2.cpp:190
+#: GeneralSettings2.cpp:180
+msgid "Stereo"
+msgstr ""
+
+#: GeneralSettings2.cpp:182
 msgid "TV"
 msgstr ""
 
-#: GeneralSettings2.cpp:197 GeneralSettings2.cpp:232
+#: GeneralSettings2.cpp:189 GeneralSettings2.cpp:225
 msgid "Device"
 msgstr ""
 
-#: GeneralSettings2.cpp:204 GeneralSettings2.cpp:237
+#: GeneralSettings2.cpp:197 GeneralSettings2.cpp:230
 msgid "Channels"
 msgstr ""
 
-#: GeneralSettings2.cpp:211 GeneralSettings2.cpp:243 InputPanelGamepad.cpp:168
+#: GeneralSettings2.cpp:204 GeneralSettings2.cpp:236 InputPanelGamepad.cpp:168
 #: InputPanelWiimote.cpp:100
 msgid "Volume"
 msgstr ""
 
-#: GeneralSettings2.cpp:225
+#: GeneralSettings2.cpp:218
 msgid "Gamepad"
 msgstr ""
 
-#: GeneralSettings2.cpp:260
+#: GeneralSettings2.cpp:251
 msgid "Audio"
 msgstr ""
 
-#: GeneralSettings2.cpp:268 MainWindow.cpp:488 MainWindow.cpp:507
-#: MainWindow.cpp:513 MainWindow.cpp:1021
+#: GeneralSettings2.cpp:259 MainWindow.cpp:486 MainWindow.cpp:505
+#: MainWindow.cpp:511 MainWindow.cpp:1019
 msgid "Warning"
 msgstr ""
 
-#: GeneralSettings2.cpp:271
+#: GeneralSettings2.cpp:262
 msgid ""
 "Please be aware that online mode lets you connect to OFFICIAL servers and "
 "therefore there is a risk of getting banned.\n"
@@ -187,16 +147,48 @@ msgid ""
 "and/or NNID."
 msgstr ""
 
-#: GeneralSettings2.cpp:279
+#: GeneralSettings2.cpp:270
 msgid "Account settings"
 msgstr ""
 
-#: GeneralSettings2.cpp:298
+#: GeneralSettings2.cpp:277
+msgid "Active account"
+msgstr ""
+
+#: GeneralSettings2.cpp:289
 msgid "Account information"
 msgstr ""
 
-#: GeneralSettings2.cpp:325
+#: GeneralSettings2.cpp:297
+msgid "Id"
+msgstr ""
+
+#: GeneralSettings2.cpp:300
+msgid "E-Mail"
+msgstr ""
+
+#: GeneralSettings2.cpp:303
+msgid "Birthday"
+msgstr ""
+
+#: GeneralSettings2.cpp:306
+msgid "Country"
+msgstr ""
+
+#: GeneralSettings2.cpp:316
 msgid "Online"
+msgstr ""
+
+#: GeneralSettings2.cpp:419 GeneralSettings2.cpp:562
+msgid "Online disabled"
+msgstr ""
+
+#: GeneralSettings2.cpp:476 GeneralSettings2.cpp:477
+msgid "Disabled"
+msgstr ""
+
+#: GeneralSettings2.cpp:776
+msgid "Select a directory containing games."
 msgstr ""
 
 #: GraphicPacksWindow2.cpp:41 graphicPacksWindow.cpp:36
@@ -292,9 +284,9 @@ msgstr ""
 
 #: InputSettings.cpp:96 InputSettings.cpp:436 InputSettings.cpp:442
 #: InputSettings.cpp:509 InputSettings.cpp:523 InputSettings.cpp:529
-#: InputSettings.cpp:534 InputSettings.cpp:547 MainWindow.cpp:2293
-#: MainWindow.cpp:2297 MainWindow.cpp:2301 MainWindow.cpp:2305
-#: MainWindow.cpp:2310 MainWindow.cpp:2318 toolMemorySearcher.cpp:164
+#: InputSettings.cpp:534 InputSettings.cpp:547 MainWindow.cpp:2292
+#: MainWindow.cpp:2296 MainWindow.cpp:2300 MainWindow.cpp:2304
+#: MainWindow.cpp:2309 MainWindow.cpp:2317 toolMemorySearcher.cpp:164
 msgid "Error"
 msgstr ""
 
@@ -370,486 +362,486 @@ msgstr ""
 msgid "Searching for wiimotes..."
 msgstr ""
 
-#: MainWindow.cpp:278
+#: MainWindow.cpp:276
 msgid "Game"
 msgstr ""
 
-#: MainWindow.cpp:284
+#: MainWindow.cpp:282
 msgid "Version"
 msgstr ""
 
-#: MainWindow.cpp:291
+#: MainWindow.cpp:289
 msgid "DLC"
 msgstr ""
 
-#: MainWindow.cpp:298
+#: MainWindow.cpp:296
 msgid "You've played"
 msgstr ""
 
-#: MainWindow.cpp:304
+#: MainWindow.cpp:302
 msgid "Last played"
 msgstr ""
 
-#: MainWindow.cpp:391 MainWindow.cpp:397
+#: MainWindow.cpp:389 MainWindow.cpp:395
 msgid "Can't open the file."
 msgstr ""
 
-#: MainWindow.cpp:401
+#: MainWindow.cpp:399
 msgid "Invalid \"meta.xml\" file."
 msgstr ""
 
-#: MainWindow.cpp:405
+#: MainWindow.cpp:403
 msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
 msgstr ""
 
-#: MainWindow.cpp:423
+#: MainWindow.cpp:421
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
 msgstr ""
 
-#: MainWindow.cpp:427
+#: MainWindow.cpp:425
 msgid "The given \"meta.xml\" file is no update or DLC."
 msgstr ""
 
-#: MainWindow.cpp:432
+#: MainWindow.cpp:430
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
 msgstr ""
 
-#: MainWindow.cpp:459
+#: MainWindow.cpp:457
 msgid "Invalid folder structure"
 msgstr ""
 
-#: MainWindow.cpp:488
+#: MainWindow.cpp:486
 msgid ""
 "It seems that a DLC is already installed, do you still want to install it?"
 msgstr ""
 
-#: MainWindow.cpp:507
+#: MainWindow.cpp:505
 msgid ""
 "It seems that the selected update is already installed, do you want to "
 "reinstall it?"
 msgstr ""
 
-#: MainWindow.cpp:513
+#: MainWindow.cpp:511
 msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
 msgstr ""
 
-#: MainWindow.cpp:528
+#: MainWindow.cpp:526
 msgid ""
 "Not enough space available.\n"
 "Required: {0} MB\n"
 "Available: {1} MB"
 msgstr ""
 
-#: MainWindow.cpp:565
+#: MainWindow.cpp:563
 msgid "Update installed!"
 msgstr ""
 
-#: MainWindow.cpp:565
+#: MainWindow.cpp:563
 msgid "Success"
 msgstr ""
 
-#: MainWindow.cpp:570
+#: MainWindow.cpp:568
 msgid "Update installation has been canceled!"
 msgstr ""
 
-#: MainWindow.cpp:590
+#: MainWindow.cpp:588
 msgid "Unable to open file."
 msgstr ""
 
-#: MainWindow.cpp:592
+#: MainWindow.cpp:590
 msgid "Unknown file type."
 msgstr ""
 
-#: MainWindow.cpp:594
+#: MainWindow.cpp:592
 msgid "Failed to launch file."
 msgstr ""
 
-#: MainWindow.cpp:659 MainWindow.cpp:687
+#: MainWindow.cpp:657 MainWindow.cpp:685
 msgid "Open file to launch"
 msgstr ""
 
-#: MainWindow.cpp:700
+#: MainWindow.cpp:698
 msgid "Open file to load"
 msgstr ""
 
-#: MainWindow.cpp:709 MainWindow.cpp:732
+#: MainWindow.cpp:707 MainWindow.cpp:730
 msgid "Cannot open file"
 msgstr ""
 
-#: MainWindow.cpp:711 MainWindow.cpp:734
+#: MainWindow.cpp:709 MainWindow.cpp:732
 msgid "Not a valid NFC NTAG215 file"
 msgstr ""
 
-#: MainWindow.cpp:845
+#: MainWindow.cpp:843
 msgid "Cemu must be restarted to apply the selected UI language."
 msgstr ""
 
-#: MainWindow.cpp:845
+#: MainWindow.cpp:843
 msgid "Information"
 msgstr ""
 
-#: MainWindow.cpp:1020
+#: MainWindow.cpp:1018
 msgid ""
 "WARNING - Please be aware that online mode lets you connect to OFFICIAL "
 "servers and therefore there is a risk of getting banned. Only proceed if you "
 "are willing to risk losing online access with your Wii U and/or NNID."
 msgstr ""
 
-#: MainWindow.cpp:1512
+#: MainWindow.cpp:1510
 msgid "You can configure game paths in the general settings."
 msgstr ""
 
-#: MainWindow.cpp:1584
+#: MainWindow.cpp:1582
 msgid "Loading, please wait!"
 msgstr ""
 
-#: MainWindow.cpp:2076
+#: MainWindow.cpp:2075
 msgid "&Load"
 msgstr ""
 
-#: MainWindow.cpp:2077
+#: MainWindow.cpp:2076
 msgid "&Install game update or DLC"
 msgstr ""
 
-#: MainWindow.cpp:2101
+#: MainWindow.cpp:2100
 msgid "&Exit"
 msgstr ""
 
-#: MainWindow.cpp:2102
+#: MainWindow.cpp:2101
 msgid "&File"
 msgstr ""
 
-#: MainWindow.cpp:2105
+#: MainWindow.cpp:2104
 msgid "&Auto"
 msgstr ""
 
-#: MainWindow.cpp:2107
+#: MainWindow.cpp:2106
 msgid "&USA"
 msgstr ""
 
-#: MainWindow.cpp:2108
+#: MainWindow.cpp:2107
 msgid "&Europe"
 msgstr ""
 
-#: MainWindow.cpp:2109
+#: MainWindow.cpp:2108
 msgid "&Japan"
 msgstr ""
 
-#: MainWindow.cpp:2111
+#: MainWindow.cpp:2110
 msgid "&China"
 msgstr ""
 
-#: MainWindow.cpp:2112
+#: MainWindow.cpp:2111
 msgid "&Korea"
 msgstr ""
 
-#: MainWindow.cpp:2113
+#: MainWindow.cpp:2112
 msgid "&Taiwan"
 msgstr ""
 
-#: MainWindow.cpp:2117
+#: MainWindow.cpp:2116
 msgid "&English"
 msgstr ""
 
-#: MainWindow.cpp:2118
+#: MainWindow.cpp:2117
 msgid "&Japanese"
 msgstr ""
 
-#: MainWindow.cpp:2119
+#: MainWindow.cpp:2118
 msgid "&French"
 msgstr ""
 
-#: MainWindow.cpp:2120
+#: MainWindow.cpp:2119
 msgid "&German"
 msgstr ""
 
-#: MainWindow.cpp:2121
+#: MainWindow.cpp:2120
 msgid "&Italian"
 msgstr ""
 
-#: MainWindow.cpp:2122
+#: MainWindow.cpp:2121
 msgid "&Spanish"
 msgstr ""
 
-#: MainWindow.cpp:2123
+#: MainWindow.cpp:2122
 msgid "&Chinese"
 msgstr ""
 
-#: MainWindow.cpp:2124
+#: MainWindow.cpp:2123
 msgid "&Korean"
 msgstr ""
 
-#: MainWindow.cpp:2125
+#: MainWindow.cpp:2124
 msgid "&Dutch"
 msgstr ""
 
-#: MainWindow.cpp:2126
+#: MainWindow.cpp:2125
 msgid "&Portuguese"
 msgstr ""
 
-#: MainWindow.cpp:2127
+#: MainWindow.cpp:2126
 msgid "&Russian"
 msgstr ""
 
-#: MainWindow.cpp:2128
+#: MainWindow.cpp:2127
 msgid "&Taiwanese"
 msgstr ""
 
-#: MainWindow.cpp:2134
+#: MainWindow.cpp:2133
 msgid "&High (slow)"
 msgstr ""
 
-#: MainWindow.cpp:2135
+#: MainWindow.cpp:2134
 msgid "&Medium"
 msgstr ""
 
-#: MainWindow.cpp:2136
+#: MainWindow.cpp:2135
 msgid "&Low (fast)"
 msgstr ""
 
-#: MainWindow.cpp:2148
+#: MainWindow.cpp:2147
 msgid "&Fullscreen"
 msgstr ""
 
-#: MainWindow.cpp:2153
+#: MainWindow.cpp:2152
 msgid "&Graphic packs"
 msgstr ""
 
-#: MainWindow.cpp:2158
+#: MainWindow.cpp:2157
 msgid "&GPU buffer cache accuracy"
 msgstr ""
 
-#: MainWindow.cpp:2159
+#: MainWindow.cpp:2158
 msgid "&Separate GamePad view"
 msgstr ""
 
-#: MainWindow.cpp:2163
+#: MainWindow.cpp:2162
 msgid "&General settings"
 msgstr ""
 
-#: MainWindow.cpp:2165
+#: MainWindow.cpp:2164
 msgid "&Input settings"
 msgstr ""
 
-#: MainWindow.cpp:2175
+#: MainWindow.cpp:2174
 msgid "&Use RDTSC"
 msgstr ""
 
-#: MainWindow.cpp:2184
+#: MainWindow.cpp:2183
 msgid "&Experimental"
 msgstr ""
 
-#: MainWindow.cpp:2187
+#: MainWindow.cpp:2186
 msgid "&Console region"
 msgstr ""
 
-#: MainWindow.cpp:2188
+#: MainWindow.cpp:2187
 msgid "&Console language"
 msgstr ""
 
-#: MainWindow.cpp:2189
+#: MainWindow.cpp:2188
 msgid "&Options"
 msgstr ""
 
-#: MainWindow.cpp:2193
+#: MainWindow.cpp:2192
 msgid "&Memory searcher"
 msgstr ""
 
-#: MainWindow.cpp:2195
+#: MainWindow.cpp:2194
 msgid "&Tools"
 msgstr ""
 
-#: MainWindow.cpp:2200
+#: MainWindow.cpp:2199
 msgid "&Single-core interpreter"
 msgstr ""
 
-#: MainWindow.cpp:2201
+#: MainWindow.cpp:2200
 msgid "&Single-core recompiler (fast)"
 msgstr ""
 
-#: MainWindow.cpp:2202
+#: MainWindow.cpp:2201
 msgid "&Dual-core recompiler (fast, unstable!)"
 msgstr ""
 
-#: MainWindow.cpp:2203
+#: MainWindow.cpp:2202
 msgid "&Triple-core recompiler (fast, unstable!)"
 msgstr ""
 
-#: MainWindow.cpp:2207
+#: MainWindow.cpp:2206
 msgid "&Cycle based timer"
 msgstr ""
 
-#: MainWindow.cpp:2208
+#: MainWindow.cpp:2207
 msgid "&Host based timer (recommended)"
 msgstr ""
 
-#: MainWindow.cpp:2211
+#: MainWindow.cpp:2210
 msgid "&Mode"
 msgstr ""
 
-#: MainWindow.cpp:2212
+#: MainWindow.cpp:2211
 msgid "&Timer"
 msgstr ""
 
-#: MainWindow.cpp:2213
+#: MainWindow.cpp:2212
 msgid "&CPU"
 msgstr ""
 
-#: MainWindow.cpp:2217
+#: MainWindow.cpp:2216
 msgid "&Scan NFC tag from file"
 msgstr ""
 
-#: MainWindow.cpp:2218
+#: MainWindow.cpp:2217
 msgid "&NFC"
 msgstr ""
 
-#: MainWindow.cpp:2224
+#: MainWindow.cpp:2223
 msgid "&Unsupported API calls"
 msgstr ""
 
-#: MainWindow.cpp:2225
+#: MainWindow.cpp:2224
 msgid "&Coreinit File-Access"
 msgstr ""
 
-#: MainWindow.cpp:2226
+#: MainWindow.cpp:2225
 msgid "&Coreinit Thread-Synchronization API"
 msgstr ""
 
-#: MainWindow.cpp:2227
+#: MainWindow.cpp:2226
 msgid "&Coreinit Memory API"
 msgstr ""
 
-#: MainWindow.cpp:2228
+#: MainWindow.cpp:2227
 msgid "&GX2 API"
 msgstr ""
 
-#: MainWindow.cpp:2229
+#: MainWindow.cpp:2228
 msgid "&Audio API"
 msgstr ""
 
-#: MainWindow.cpp:2230
+#: MainWindow.cpp:2229
 msgid "&Input API"
 msgstr ""
 
-#: MainWindow.cpp:2231
+#: MainWindow.cpp:2230
 msgid "&Socket API"
 msgstr ""
 
-#: MainWindow.cpp:2232
+#: MainWindow.cpp:2231
 msgid "&Save API"
 msgstr ""
 
-#: MainWindow.cpp:2233
+#: MainWindow.cpp:2232
 msgid "&H264 API"
 msgstr ""
 
-#: MainWindow.cpp:2237
+#: MainWindow.cpp:2236
 msgid "&Textures"
 msgstr ""
 
-#: MainWindow.cpp:2238
+#: MainWindow.cpp:2237
 msgid "&Shaders"
 msgstr ""
 
-#: MainWindow.cpp:2242
+#: MainWindow.cpp:2241
 msgid "&Logging"
 msgstr ""
 
-#: MainWindow.cpp:2243
+#: MainWindow.cpp:2242
 msgid "&Dump"
 msgstr ""
 
-#: MainWindow.cpp:2247 MainWindow.cpp:2252
+#: MainWindow.cpp:2246 MainWindow.cpp:2251
 msgid "&Render upside-down"
 msgstr ""
 
-#: MainWindow.cpp:2255
+#: MainWindow.cpp:2254
 msgid "&View PPC threads"
 msgstr ""
 
-#: MainWindow.cpp:2257
+#: MainWindow.cpp:2256
 msgid "&View PPC debugger"
 msgstr ""
 
-#: MainWindow.cpp:2259
+#: MainWindow.cpp:2258
 msgid "&View audio debugger"
 msgstr ""
 
-#: MainWindow.cpp:2261
+#: MainWindow.cpp:2260
 msgid "&Dump current RAM"
 msgstr ""
 
-#: MainWindow.cpp:2264
+#: MainWindow.cpp:2263
 msgid "&Debug"
 msgstr ""
 
-#: MainWindow.cpp:2269
+#: MainWindow.cpp:2268
 msgid "&About"
 msgstr ""
 
-#: MainWindow.cpp:2270
+#: MainWindow.cpp:2269
 msgid "&Help"
 msgstr ""
 
-#: MainWindow.cpp:2293
+#: MainWindow.cpp:2292
 msgid "otp.bin could not be found"
 msgstr ""
 
-#: MainWindow.cpp:2297
+#: MainWindow.cpp:2296
 msgid "otp.bin is corrupted or has invalid size"
 msgstr ""
 
-#: MainWindow.cpp:2301
+#: MainWindow.cpp:2300
 msgid "seeprom.bin could not be found"
 msgstr ""
 
-#: MainWindow.cpp:2305
+#: MainWindow.cpp:2304
 msgid "seeprom.bin is corrupted or has invalid size"
 msgstr ""
 
-#: MainWindow.cpp:2318
+#: MainWindow.cpp:2317
 msgid "Unknown error occured"
 msgstr ""
 
-#: MainWindow.cpp:2429
+#: MainWindow.cpp:2428
 msgid "&Start"
 msgstr ""
 
-#: MainWindow.cpp:2431
+#: MainWindow.cpp:2430
 msgid "Sa&ve directory"
 msgstr ""
 
-#: MainWindow.cpp:2432
+#: MainWindow.cpp:2431
 msgid "&Update directory"
 msgstr ""
 
-#: MainWindow.cpp:2433
+#: MainWindow.cpp:2432
 msgid "&DLC directory"
 msgstr ""
 
-#: MainWindow.cpp:2435
+#: MainWindow.cpp:2434
 msgid "&Open game profile"
 msgstr ""
 
-#: MainWindow.cpp:2436
+#: MainWindow.cpp:2435
 msgid "&Create game profile"
 msgstr ""
 
-#: MainWindow.cpp:2438
+#: MainWindow.cpp:2437
 msgid "&Refresh game list"
 msgstr ""
 
-#: MainWindow.cpp:2452
+#: MainWindow.cpp:2451
 msgid "&Refresh games"
 msgstr ""
 
-#: MainWindow.cpp:2514
+#: MainWindow.cpp:2513
 msgid "Updating game list..."
 msgstr ""
 
-#: MainWindow.cpp:2758
+#: MainWindow.cpp:2757
 msgid "never"
 msgstr ""
 
@@ -857,103 +849,83 @@ msgstr ""
 msgid "PPC threads"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:43
+#: debugPPCThreadsWindow.cpp:42
 msgid "Address"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:48
+#: debugPPCThreadsWindow.cpp:47
 msgid "Entry"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:53
+#: debugPPCThreadsWindow.cpp:52
 msgid "Stack"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:58
+#: debugPPCThreadsWindow.cpp:57
 msgid "PC"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:63
+#: debugPPCThreadsWindow.cpp:62
 msgid "LR"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:68
+#: debugPPCThreadsWindow.cpp:67
 msgid "State"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:73
+#: debugPPCThreadsWindow.cpp:72
 msgid "Affinity"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:78
+#: debugPPCThreadsWindow.cpp:77
 msgid "Priority"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:83
+#: debugPPCThreadsWindow.cpp:82
 msgid "SliceStart"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:88
+#: debugPPCThreadsWindow.cpp:87
 msgid "SumWakeTime"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:93
+#: debugPPCThreadsWindow.cpp:92
 msgid "ThreadName"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:98
+#: debugPPCThreadsWindow.cpp:97
 msgid "GPR"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:105
+#: debugPPCThreadsWindow.cpp:104
 msgid "Refresh"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:200
-msgid "UNDEFINED"
+#: debugPPCThreadsWindow.cpp:107
+msgid "Auto refresh"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:202
-msgid "SUSPENDED"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:204
-msgid "NONE"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:206
-msgid "READY"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:208
-msgid "RUNNING"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:210
-msgid "WAITING"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:212
-msgid "MORIBUND"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:331
+#: debugPPCThreadsWindow.cpp:319
 msgid "Boost priority (-5)"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:332
+#: debugPPCThreadsWindow.cpp:320
 msgid "Boost priority (-1)"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:333
+#: debugPPCThreadsWindow.cpp:322
 msgid "Decrease priority (+5)"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:334
+#: debugPPCThreadsWindow.cpp:323
 msgid "Decrease priority (+1)"
 msgstr ""
 
-#: debugPPCThreadsWindow.cpp:335
+#: debugPPCThreadsWindow.cpp:325
+msgid "Resume"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp:326
 msgid "Suspend"
 msgstr ""
 
@@ -982,22 +954,6 @@ msgstr ""
 
 #: graphicPacksWindow.cpp:165
 msgid "Yes"
-msgstr ""
-
-#: optionsAudioWindow.cpp:24
-msgid "Surround 5.1"
-msgstr ""
-
-#: optionsAudioWindow.cpp:29
-msgid "Audio settings"
-msgstr ""
-
-#: optionsAudioWindow.cpp:40
-msgid "Volume:"
-msgstr ""
-
-#: optionsAudioWindow.cpp:44
-msgid "Channels:"
 msgstr ""
 
 #: toolMemorySearcher.cpp:43
