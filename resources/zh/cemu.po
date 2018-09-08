@@ -1,184 +1,144 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2018-08-06 02:51+0200\n"
-"PO-Revision-Date: 2018-09-07 12:48+0800\n"
+"POT-Creation-Date: 2018-09-01 13:32+0200\n"
+"PO-Revision-Date: 2018-09-08 12:01+0800\n"
+"Last-Translator: 翻译：贴吧@DarkStarSys/游侠@EPYC\n"
 "Language-Team: \n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Last-Translator: 贴吧@DarkStarSys/游侠@EPYC\n"
-"Language: zh\n"
 
-#: GeneralSettings.cpp:8
-msgid "<double click to add a new entry>"
-msgstr "<双击以添加新的入口>"
-
-#: GeneralSettings.cpp:9 GeneralSettings2.cpp:24
-msgid "Default"
-msgstr "默认"
-
-#: GeneralSettings.cpp:10 GeneralSettings2.cpp:25
-msgid "English"
-msgstr "英语"
-
-#: GeneralSettings.cpp:13 GeneralSettings2.cpp:47
+#: GeneralSettings2.cpp:34
 msgid "General settings"
 msgstr "常规设定"
 
-#: GeneralSettings.cpp:21
-msgid "Language:"
-msgstr "语言"
-
-#: GeneralSettings.cpp:45
-msgid "Game paths:"
-msgstr "游戏路径"
-
-#: GeneralSettings.cpp:119 GeneralSettings2.cpp:762
-msgid "Select a directory containing games."
-msgstr "选择包含游戏文件的目录"
-
-#: GeneralSettings.cpp:173
-msgid "&Add game path"
-msgstr "&添加游戏路径"
-
-#: GeneralSettings.cpp:176
-msgid "&Delete game path"
-msgstr "&移除游戏路径"
-
-#: GeneralSettings2.cpp:17 optionsAudioWindow.cpp:22
-msgid "Mono"
-msgstr "单声道"
-
-#: GeneralSettings2.cpp:18 optionsAudioWindow.cpp:23
-msgid "Stereo"
-msgstr "立体声"
-
-#: GeneralSettings2.cpp:19
-msgid "Surround"
-msgstr "环绕声"
-
-#: GeneralSettings2.cpp:21
-msgid "Disabled"
-msgstr "禁用"
-
-#: GeneralSettings2.cpp:22
-msgid "Online disabled"
-msgstr "禁用线上模式"
-
-#: GeneralSettings2.cpp:29
-msgid "Bilinear"
-msgstr "双线性"
-
-#: GeneralSettings2.cpp:30
-msgid "Bicubic"
-msgstr "双三次"
-
-#: GeneralSettings2.cpp:32
-msgid "Keep aspect ratio"
-msgstr "保持纵横比"
-
-#: GeneralSettings2.cpp:33
-msgid "Stretch"
-msgstr "拉伸"
-
-#: GeneralSettings2.cpp:61
+#: GeneralSettings2.cpp:48
 msgid "Interface"
 msgstr "界面"
 
-#: GeneralSettings2.cpp:68
+#: GeneralSettings2.cpp:55
 msgid "Language"
 msgstr "语言"
 
-#: GeneralSettings2.cpp:79
+#: GeneralSettings2.cpp:57
+msgid "Default"
+msgstr "默认"
+
+#: GeneralSettings2.cpp:57
+msgid "English"
+msgstr "英语"
+
+#: GeneralSettings2.cpp:67
 msgid "Discord Presence"
 msgstr "Discord 显示"
 
-#: GeneralSettings2.cpp:89
+#: GeneralSettings2.cpp:77
 msgid "Game Paths"
 msgstr "游戏路径"
 
-#: GeneralSettings2.cpp:100
+#: GeneralSettings2.cpp:88
 msgid "Add"
 msgstr "添加"
 
-#: GeneralSettings2.cpp:104
+#: GeneralSettings2.cpp:92
 msgid "Remove"
 msgstr "移除"
 
-#: GeneralSettings2.cpp:113 GeneralSettings2.cpp:167
+#: GeneralSettings2.cpp:101 GeneralSettings2.cpp:155
 msgid "General"
 msgstr "常规"
 
-#: GeneralSettings2.cpp:121
+#: GeneralSettings2.cpp:109
 msgid "Misc"
 msgstr "杂项"
 
-#: GeneralSettings2.cpp:128
+#: GeneralSettings2.cpp:116
 msgid "VSync"
 msgstr "垂直同步"
 
-#: GeneralSettings2.cpp:131
+#: GeneralSettings2.cpp:119
 msgid "Full sync at GX2DrawDone()"
 msgstr "完全同步于 GX2DrawDone()"
 
-#: GeneralSettings2.cpp:134
+#: GeneralSettings2.cpp:122
 msgid "Use separable shaders"
 msgstr "使用可分离着色器"
 
-#: GeneralSettings2.cpp:137
+#: GeneralSettings2.cpp:125
 msgid "Disable precompiled shaders"
 msgstr "禁用预编译着色器"
 
-#: GeneralSettings2.cpp:146
+#: GeneralSettings2.cpp:133
+msgid "Bilinear"
+msgstr "双线性"
+
+#: GeneralSettings2.cpp:133
+msgid "Bicubic"
+msgstr "双三次"
+
+#: GeneralSettings2.cpp:134
 msgid "Upscale filter"
 msgstr "高级过滤"
 
-#: GeneralSettings2.cpp:152
+#: GeneralSettings2.cpp:139
+msgid "Keep aspect ratio"
+msgstr "保持纵横比"
+
+#: GeneralSettings2.cpp:139
+msgid "Stretch"
+msgstr "拉伸"
+
+#: GeneralSettings2.cpp:140
 msgid "Fullscreen scaling"
 msgstr "全屏缩放"
 
-#: GeneralSettings2.cpp:157
+#: GeneralSettings2.cpp:145
 msgid "Graphics"
 msgstr "显示"
 
-#: GeneralSettings2.cpp:174
+#: GeneralSettings2.cpp:162
 msgid "API"
 msgstr "应用程序编程接口(API)"
 
-#: GeneralSettings2.cpp:190
+#: GeneralSettings2.cpp:180
+msgid "Stereo"
+msgstr "立体声"
+
+#: GeneralSettings2.cpp:182
 msgid "TV"
 msgstr "电视"
 
-#: GeneralSettings2.cpp:197 GeneralSettings2.cpp:232
+#: GeneralSettings2.cpp:189 GeneralSettings2.cpp:225
 msgid "Device"
 msgstr "设备"
 
-#: GeneralSettings2.cpp:204 GeneralSettings2.cpp:237
+#: GeneralSettings2.cpp:197 GeneralSettings2.cpp:230
 msgid "Channels"
 msgstr "声道"
 
-#: GeneralSettings2.cpp:211 GeneralSettings2.cpp:243 InputPanelGamepad.cpp:168
+#: GeneralSettings2.cpp:204 GeneralSettings2.cpp:236 InputPanelGamepad.cpp:168
 #: InputPanelWiimote.cpp:100
 msgid "Volume"
 msgstr "音量"
 
-#: GeneralSettings2.cpp:225
+#: GeneralSettings2.cpp:218
 msgid "Gamepad"
 msgstr "Gamepad"
 
-#: GeneralSettings2.cpp:260
+#: GeneralSettings2.cpp:251
 msgid "Audio"
 msgstr "音频"
 
-#: GeneralSettings2.cpp:268 MainWindow.cpp:488 MainWindow.cpp:507
-#: MainWindow.cpp:513 MainWindow.cpp:1021
+#: GeneralSettings2.cpp:259 MainWindow.cpp:486 MainWindow.cpp:505
+#: MainWindow.cpp:511 MainWindow.cpp:1019
 msgid "Warning"
 msgstr "警告"
 
-#: GeneralSettings2.cpp:271
+#: GeneralSettings2.cpp:262
 msgid ""
 "Please be aware that online mode lets you connect to OFFICIAL servers and "
 "therefore there is a risk of getting banned.\n"
@@ -188,17 +148,49 @@ msgstr ""
 "请注意：在线模式将使你连接到任天堂官方服务器，可能会导致封禁\n"
 "如果你愿意承担失去WiiU和NNID在线访问许可的风险，请继续"
 
-#: GeneralSettings2.cpp:279
+#: GeneralSettings2.cpp:270
 msgid "Account settings"
 msgstr "账户设置"
 
-#: GeneralSettings2.cpp:298
+#: GeneralSettings2.cpp:277
+msgid "Active account"
+msgstr "激活账户"
+
+#: GeneralSettings2.cpp:289
 msgid "Account information"
 msgstr "账户信息"
 
-#: GeneralSettings2.cpp:325
+#: GeneralSettings2.cpp:297
+msgid "Id"
+msgstr "Id"
+
+#: GeneralSettings2.cpp:300
+msgid "E-Mail"
+msgstr "电子邮件"
+
+#: GeneralSettings2.cpp:303
+msgid "Birthday"
+msgstr "生日"
+
+#: GeneralSettings2.cpp:306
+msgid "Country"
+msgstr "国家/地区"
+
+#: GeneralSettings2.cpp:316
 msgid "Online"
 msgstr "线上模式"
+
+#: GeneralSettings2.cpp:419 GeneralSettings2.cpp:562
+msgid "Online disabled"
+msgstr "禁用线上模式"
+
+#: GeneralSettings2.cpp:476 GeneralSettings2.cpp:477
+msgid "Disabled"
+msgstr "禁用"
+
+#: GeneralSettings2.cpp:776
+msgid "Select a directory containing games."
+msgstr "选择包含游戏文件的目录"
 
 #: GraphicPacksWindow2.cpp:41 graphicPacksWindow.cpp:36
 msgid "Graphic packs"
@@ -222,11 +214,11 @@ msgstr "控制"
 
 #: GraphicPacksWindow2.cpp:224
 msgid "This is an old graphic pack, therefore it has no description."
-msgstr "这是旧版本图形包，因此没有简介"
+msgstr "这是旧版本图形包，因此没有说明"
 
 #: GraphicPacksWindow2.cpp:248
 msgid "This graphic pack has no description"
-msgstr "这个图形包没有简介"
+msgstr "这个图形包没有说明"
 
 #: GraphicPacksWindow2.cpp:305 GraphicPacksWindow2.cpp:347
 #: GraphicPacksWindow2.cpp:359
@@ -293,9 +285,9 @@ msgstr "未能为控制器 {0} 保存配置文件"
 
 #: InputSettings.cpp:96 InputSettings.cpp:436 InputSettings.cpp:442
 #: InputSettings.cpp:509 InputSettings.cpp:523 InputSettings.cpp:529
-#: InputSettings.cpp:534 InputSettings.cpp:547 MainWindow.cpp:2293
-#: MainWindow.cpp:2297 MainWindow.cpp:2301 MainWindow.cpp:2305
-#: MainWindow.cpp:2310 MainWindow.cpp:2318 toolMemorySearcher.cpp:164
+#: InputSettings.cpp:534 InputSettings.cpp:547 MainWindow.cpp:2292
+#: MainWindow.cpp:2296 MainWindow.cpp:2300 MainWindow.cpp:2304
+#: MainWindow.cpp:2309 MainWindow.cpp:2317 toolMemorySearcher.cpp:164
 msgid "Error"
 msgstr "错误"
 
@@ -371,72 +363,72 @@ msgstr "无法保存配置文件"
 msgid "Searching for wiimotes..."
 msgstr "搜寻Wii手柄..."
 
-#: MainWindow.cpp:278
+#: MainWindow.cpp:276
 msgid "Game"
 msgstr "游戏"
 
-#: MainWindow.cpp:284
+#: MainWindow.cpp:282
 msgid "Version"
 msgstr "版本"
 
-#: MainWindow.cpp:291
+#: MainWindow.cpp:289
 msgid "DLC"
 msgstr "DLC"
 
-#: MainWindow.cpp:298
+#: MainWindow.cpp:296
 msgid "You've played"
 msgstr "游玩时长"
 
-#: MainWindow.cpp:304
+#: MainWindow.cpp:302
 msgid "Last played"
 msgstr "上次游玩时间"
 
-#: MainWindow.cpp:391 MainWindow.cpp:397
+#: MainWindow.cpp:389 MainWindow.cpp:395
 msgid "Can't open the file."
 msgstr "无法打开文件"
 
-#: MainWindow.cpp:401
+#: MainWindow.cpp:399
 msgid "Invalid \"meta.xml\" file."
 msgstr "无效的“meta.xml”文件"
 
-#: MainWindow.cpp:405
+#: MainWindow.cpp:403
 msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
 msgstr "在给定的“meta.xml”文件中找不到“title_id”"
 
-#: MainWindow.cpp:423
+#: MainWindow.cpp:421
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
 msgstr "在给定的“meta.xml”文件中找不到“title_version”"
 
-#: MainWindow.cpp:427
+#: MainWindow.cpp:425
 msgid "The given \"meta.xml\" file is no update or DLC."
 msgstr "给定的“meta.xml”文件不是更新档或DLC"
 
-#: MainWindow.cpp:432
+#: MainWindow.cpp:430
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
 msgstr "在给定的“meta.xml”文件中找不到“longname_en”"
 
-#: MainWindow.cpp:459
+#: MainWindow.cpp:457
 msgid "Invalid folder structure"
 msgstr "无效的文件目录结构"
 
-#: MainWindow.cpp:488
+#: MainWindow.cpp:486
 msgid ""
 "It seems that a DLC is already installed, do you still want to install it?"
 msgstr "此DLC已安装，仍要继续安装？"
 
-#: MainWindow.cpp:507
+#: MainWindow.cpp:505
 msgid ""
 "It seems that the selected update is already installed, do you want to "
 "reinstall it?"
 msgstr "此更新档已安装，仍要继续安装？"
 
-#: MainWindow.cpp:513
+#: MainWindow.cpp:511
 msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
 msgstr "已安装较新版本的更新档，仍要安装旧版本？"
 
-#: MainWindow.cpp:528
+#: MainWindow.cpp:526
 msgid ""
 "Not enough space available.\n"
 "Required: {0} MB\n"
@@ -446,55 +438,55 @@ msgstr ""
 "需要: {0} MB\n"
 "可用: {1} MB"
 
-#: MainWindow.cpp:565
+#: MainWindow.cpp:563
 msgid "Update installed!"
 msgstr "更新档已安装"
 
-#: MainWindow.cpp:565
+#: MainWindow.cpp:563
 msgid "Success"
 msgstr "成功"
 
-#: MainWindow.cpp:570
+#: MainWindow.cpp:568
 msgid "Update installation has been canceled!"
 msgstr "已取消更新档安装"
 
-#: MainWindow.cpp:590
+#: MainWindow.cpp:588
 msgid "Unable to open file."
 msgstr "无法打开文件"
 
-#: MainWindow.cpp:592
+#: MainWindow.cpp:590
 msgid "Unknown file type."
 msgstr "未知文件类型"
 
-#: MainWindow.cpp:594
+#: MainWindow.cpp:592
 msgid "Failed to launch file."
 msgstr "载入文件失败"
 
-#: MainWindow.cpp:659 MainWindow.cpp:687
+#: MainWindow.cpp:657 MainWindow.cpp:685
 msgid "Open file to launch"
 msgstr "选择文件"
 
-#: MainWindow.cpp:700
+#: MainWindow.cpp:698
 msgid "Open file to load"
 msgstr "选择文件"
 
-#: MainWindow.cpp:709 MainWindow.cpp:732
+#: MainWindow.cpp:707 MainWindow.cpp:730
 msgid "Cannot open file"
 msgstr "无法打开文件"
 
-#: MainWindow.cpp:711 MainWindow.cpp:734
+#: MainWindow.cpp:709 MainWindow.cpp:732
 msgid "Not a valid NFC NTAG215 file"
 msgstr "无效NFC NTAG215(amiibo)文件"
 
-#: MainWindow.cpp:845
+#: MainWindow.cpp:843
 msgid "Cemu must be restarted to apply the selected UI language."
 msgstr "重启Cemu以应用变更"
 
-#: MainWindow.cpp:845
+#: MainWindow.cpp:843
 msgid "Information"
 msgstr "信息"
 
-#: MainWindow.cpp:1020
+#: MainWindow.cpp:1018
 msgid ""
 "WARNING - Please be aware that online mode lets you connect to OFFICIAL "
 "servers and therefore there is a risk of getting banned. Only proceed if you "
@@ -503,465 +495,445 @@ msgstr ""
 "警告 - 请注意：在线模式将使你连接到任天堂官方服务器，可能会导致封禁\n"
 "如果你愿意承担失去WiiU和NNID在线访问许可的风险，请继续"
 
-#: MainWindow.cpp:1512
+#: MainWindow.cpp:1510
 msgid "You can configure game paths in the general settings."
 msgstr "可在常规设定中设置游戏路径"
 
-#: MainWindow.cpp:1584
+#: MainWindow.cpp:1582
 msgid "Loading, please wait!"
 msgstr "载入中...请稍候"
 
-#: MainWindow.cpp:2076
+#: MainWindow.cpp:2075
 msgid "&Load"
 msgstr "&载入"
 
-#: MainWindow.cpp:2077
+#: MainWindow.cpp:2076
 msgid "&Install game update or DLC"
 msgstr "&安装游戏升级档或DLC"
 
-#: MainWindow.cpp:2101
+#: MainWindow.cpp:2100
 msgid "&Exit"
 msgstr "&退出"
 
-#: MainWindow.cpp:2102
+#: MainWindow.cpp:2101
 msgid "&File"
 msgstr "&文件"
 
-#: MainWindow.cpp:2105
+#: MainWindow.cpp:2104
 msgid "&Auto"
 msgstr "&自动"
 
-#: MainWindow.cpp:2107
+#: MainWindow.cpp:2106
 msgid "&USA"
 msgstr "&美国"
 
-#: MainWindow.cpp:2108
+#: MainWindow.cpp:2107
 msgid "&Europe"
 msgstr "&欧洲"
 
-#: MainWindow.cpp:2109
+#: MainWindow.cpp:2108
 msgid "&Japan"
 msgstr "&日本"
 
-#: MainWindow.cpp:2111
+#: MainWindow.cpp:2110
 msgid "&China"
 msgstr "&中国"
 
-#: MainWindow.cpp:2112
+#: MainWindow.cpp:2111
 msgid "&Korea"
 msgstr "&韩国"
 
-#: MainWindow.cpp:2113
+#: MainWindow.cpp:2112
 msgid "&Taiwan"
 msgstr "&台湾"
 
-#: MainWindow.cpp:2117
+#: MainWindow.cpp:2116
 msgid "&English"
 msgstr "&英语"
 
-#: MainWindow.cpp:2118
+#: MainWindow.cpp:2117
 msgid "&Japanese"
 msgstr "&日语"
 
-#: MainWindow.cpp:2119
+#: MainWindow.cpp:2118
 msgid "&French"
 msgstr "&法语"
 
-#: MainWindow.cpp:2120
+#: MainWindow.cpp:2119
 msgid "&German"
 msgstr "&德语"
 
-#: MainWindow.cpp:2121
+#: MainWindow.cpp:2120
 msgid "&Italian"
 msgstr "&意大利语"
 
-#: MainWindow.cpp:2122
+#: MainWindow.cpp:2121
 msgid "&Spanish"
 msgstr "&西班牙语"
 
-#: MainWindow.cpp:2123
+#: MainWindow.cpp:2122
 msgid "&Chinese"
 msgstr "&简体中文"
 
-#: MainWindow.cpp:2124
+#: MainWindow.cpp:2123
 msgid "&Korean"
 msgstr "&朝鲜语"
 
-#: MainWindow.cpp:2125
+#: MainWindow.cpp:2124
 msgid "&Dutch"
 msgstr "&荷兰语"
 
-#: MainWindow.cpp:2126
+#: MainWindow.cpp:2125
 msgid "&Portuguese"
 msgstr "&葡萄牙语"
 
-#: MainWindow.cpp:2127
+#: MainWindow.cpp:2126
 msgid "&Russian"
 msgstr "&俄语"
 
-#: MainWindow.cpp:2128
+#: MainWindow.cpp:2127
 msgid "&Taiwanese"
 msgstr "&繁体中文"
 
-#: MainWindow.cpp:2134
+#: MainWindow.cpp:2133
 msgid "&High (slow)"
 msgstr "&高质量"
 
-#: MainWindow.cpp:2135
+#: MainWindow.cpp:2134
 msgid "&Medium"
 msgstr "&中等质量"
 
-#: MainWindow.cpp:2136
+#: MainWindow.cpp:2135
 msgid "&Low (fast)"
 msgstr "&低质量"
 
-#: MainWindow.cpp:2148
+#: MainWindow.cpp:2147
 msgid "&Fullscreen"
 msgstr "&全屏"
 
-#: MainWindow.cpp:2153
+#: MainWindow.cpp:2152
 msgid "&Graphic packs"
 msgstr "&图形包"
 
-#: MainWindow.cpp:2158
+#: MainWindow.cpp:2157
 msgid "&GPU buffer cache accuracy"
 msgstr "&GPU缓存精度"
 
-#: MainWindow.cpp:2159
+#: MainWindow.cpp:2158
 msgid "&Separate GamePad view"
 msgstr "&单独GamePad窗口"
 
-#: MainWindow.cpp:2163
+#: MainWindow.cpp:2162
 msgid "&General settings"
 msgstr "常规设定"
 
-#: MainWindow.cpp:2165
+#: MainWindow.cpp:2164
 msgid "&Input settings"
 msgstr "&输入设定"
 
-#: MainWindow.cpp:2175
+#: MainWindow.cpp:2174
 msgid "&Use RDTSC"
 msgstr "&使用RDTSC"
 
-#: MainWindow.cpp:2184
+#: MainWindow.cpp:2183
 msgid "&Experimental"
 msgstr "&实验性功能"
 
-#: MainWindow.cpp:2187
+#: MainWindow.cpp:2186
 msgid "&Console region"
 msgstr "&主机区域"
 
-#: MainWindow.cpp:2188
+#: MainWindow.cpp:2187
 msgid "&Console language"
 msgstr "&主机语言"
 
-#: MainWindow.cpp:2189
+#: MainWindow.cpp:2188
 msgid "&Options"
 msgstr "&选项"
 
-#: MainWindow.cpp:2193
+#: MainWindow.cpp:2192
 msgid "&Memory searcher"
 msgstr "&内存修改器"
 
-#: MainWindow.cpp:2195
+#: MainWindow.cpp:2194
 msgid "&Tools"
 msgstr "&工具"
 
-#: MainWindow.cpp:2200
+#: MainWindow.cpp:2199
 msgid "&Single-core interpreter"
 msgstr "&单核心解释器"
 
-#: MainWindow.cpp:2201
+#: MainWindow.cpp:2200
 msgid "&Single-core recompiler (fast)"
 msgstr "&单核心重编译器(快速)"
 
-#: MainWindow.cpp:2202
+#: MainWindow.cpp:2201
 msgid "&Dual-core recompiler (fast, unstable!)"
 msgstr "&双核心重编译器(快速，实验性)"
 
-#: MainWindow.cpp:2203
+#: MainWindow.cpp:2202
 msgid "&Triple-core recompiler (fast, unstable!)"
 msgstr "&三核心重编译器(快速，实验性)"
 
-#: MainWindow.cpp:2207
+#: MainWindow.cpp:2206
 msgid "&Cycle based timer"
 msgstr "&基于循环的计时器"
 
-#: MainWindow.cpp:2208
+#: MainWindow.cpp:2207
 msgid "&Host based timer (recommended)"
 msgstr "&基于主机的计时器(推荐)"
 
-#: MainWindow.cpp:2211
+#: MainWindow.cpp:2210
 msgid "&Mode"
 msgstr "&模式"
 
-#: MainWindow.cpp:2212
+#: MainWindow.cpp:2211
 msgid "&Timer"
 msgstr "&计时器"
 
-#: MainWindow.cpp:2213
+#: MainWindow.cpp:2212
 msgid "&CPU"
 msgstr "&中央处理器(CPU)"
 
-#: MainWindow.cpp:2217
+#: MainWindow.cpp:2216
 msgid "&Scan NFC tag from file"
 msgstr "&从文件载入NFC标签(Amiibo)"
 
-#: MainWindow.cpp:2218
+#: MainWindow.cpp:2217
 msgid "&NFC"
 msgstr "&近场通信(NFC)"
 
-#: MainWindow.cpp:2224
+#: MainWindow.cpp:2223
 msgid "&Unsupported API calls"
 msgstr "&未支持的API调用"
 
-#: MainWindow.cpp:2225
+#: MainWindow.cpp:2224
 msgid "&Coreinit File-Access"
-msgstr ""
+msgstr "&Coreinit 文件访问"
+
+#: MainWindow.cpp:2225
+msgid "&Coreinit Thread-Synchronization API"
+msgstr "&Coreinit 线程同步 API"
 
 #: MainWindow.cpp:2226
-msgid "&Coreinit Thread-Synchronization API"
-msgstr ""
+msgid "&Coreinit Memory API"
+msgstr "&Coreinit 内存 API"
 
 #: MainWindow.cpp:2227
-msgid "&Coreinit Memory API"
-msgstr ""
+msgid "&GX2 API"
+msgstr "&GX2 API"
 
 #: MainWindow.cpp:2228
-msgid "&GX2 API"
-msgstr ""
+msgid "&Audio API"
+msgstr "&音频 API"
 
 #: MainWindow.cpp:2229
-msgid "&Audio API"
-msgstr ""
+msgid "&Input API"
+msgstr "&输入 API"
 
 #: MainWindow.cpp:2230
-msgid "&Input API"
-msgstr ""
+msgid "&Socket API"
+msgstr "&Socket API"
 
 #: MainWindow.cpp:2231
-msgid "&Socket API"
-msgstr ""
+msgid "&Save API"
+msgstr "&Save API"
 
 #: MainWindow.cpp:2232
-msgid "&Save API"
-msgstr ""
-
-#: MainWindow.cpp:2233
 msgid "&H264 API"
-msgstr ""
+msgstr "&H264 API"
+
+#: MainWindow.cpp:2236
+msgid "&Textures"
+msgstr "&材质"
 
 #: MainWindow.cpp:2237
-msgid "&Textures"
-msgstr ""
-
-#: MainWindow.cpp:2238
 msgid "&Shaders"
-msgstr ""
+msgstr "&着色器"
+
+#: MainWindow.cpp:2241
+msgid "&Logging"
+msgstr "&日志"
 
 #: MainWindow.cpp:2242
-msgid "&Logging"
-msgstr ""
-
-#: MainWindow.cpp:2243
 msgid "&Dump"
-msgstr ""
+msgstr "&转储"
 
-#: MainWindow.cpp:2247 MainWindow.cpp:2252
+#: MainWindow.cpp:2246 MainWindow.cpp:2251
 msgid "&Render upside-down"
 msgstr "&上下颠倒渲染"
 
-#: MainWindow.cpp:2255
+#: MainWindow.cpp:2254
 msgid "&View PPC threads"
 msgstr "&查看 PPC 线程"
 
-#: MainWindow.cpp:2257
+#: MainWindow.cpp:2256
 msgid "&View PPC debugger"
 msgstr "&查看 PPC 调试器"
 
-#: MainWindow.cpp:2259
+#: MainWindow.cpp:2258
 msgid "&View audio debugger"
 msgstr "&查看音频调试器"
 
-#: MainWindow.cpp:2261
+#: MainWindow.cpp:2260
 msgid "&Dump current RAM"
 msgstr "&转储当前内存"
 
-#: MainWindow.cpp:2264
+#: MainWindow.cpp:2263
 msgid "&Debug"
 msgstr "&调试"
 
-#: MainWindow.cpp:2269
+#: MainWindow.cpp:2268
 msgid "&About"
 msgstr "&关于"
 
-#: MainWindow.cpp:2270
+#: MainWindow.cpp:2269
 msgid "&Help"
 msgstr "&帮助"
 
-#: MainWindow.cpp:2293
+#: MainWindow.cpp:2292
 msgid "otp.bin could not be found"
 msgstr "找不到otp.bin文件"
 
-#: MainWindow.cpp:2297
+#: MainWindow.cpp:2296
 msgid "otp.bin is corrupted or has invalid size"
 msgstr "otp.bin已损坏"
 
-#: MainWindow.cpp:2301
+#: MainWindow.cpp:2300
 msgid "seeprom.bin could not be found"
 msgstr "找不到seeprom.bin文件"
 
-#: MainWindow.cpp:2305
+#: MainWindow.cpp:2304
 msgid "seeprom.bin is corrupted or has invalid size"
 msgstr "seeprom.bin已损坏"
 
-#: MainWindow.cpp:2318
+#: MainWindow.cpp:2317
 msgid "Unknown error occured"
 msgstr "发生未知错误"
 
-#: MainWindow.cpp:2429
+#: MainWindow.cpp:2428
 msgid "&Start"
 msgstr "&开始"
 
-#: MainWindow.cpp:2431
+#: MainWindow.cpp:2430
 msgid "Sa&ve directory"
 msgstr "存&档目录"
 
-#: MainWindow.cpp:2432
+#: MainWindow.cpp:2431
 msgid "&Update directory"
 msgstr "&更新档目录"
 
-#: MainWindow.cpp:2433
+#: MainWindow.cpp:2432
 msgid "&DLC directory"
 msgstr "&DLC目录"
 
-#: MainWindow.cpp:2435
+#: MainWindow.cpp:2434
 msgid "&Open game profile"
 msgstr "&打开游戏配置文件"
 
-#: MainWindow.cpp:2436
+#: MainWindow.cpp:2435
 msgid "&Create game profile"
 msgstr "&创建游戏配置文件"
 
-#: MainWindow.cpp:2438
+#: MainWindow.cpp:2437
 msgid "&Refresh game list"
 msgstr "&刷新游戏列表"
 
-#: MainWindow.cpp:2452
+#: MainWindow.cpp:2451
 msgid "&Refresh games"
 msgstr "&刷新游戏"
 
-#: MainWindow.cpp:2514
+#: MainWindow.cpp:2513
 msgid "Updating game list..."
 msgstr "更新游戏列表..."
 
-#: MainWindow.cpp:2758
+#: MainWindow.cpp:2757
 msgid "never"
-msgstr "永不"
+msgstr "从未"
 
 #: debugPPCThreadsWindow.cpp:30
 msgid "PPC threads"
-msgstr ""
+msgstr "PPC线程"
 
-#: debugPPCThreadsWindow.cpp:43
+#: debugPPCThreadsWindow.cpp:42
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
-#: debugPPCThreadsWindow.cpp:48
+#: debugPPCThreadsWindow.cpp:47
 msgid "Entry"
-msgstr ""
+msgstr "入口"
 
-#: debugPPCThreadsWindow.cpp:53
+#: debugPPCThreadsWindow.cpp:52
 msgid "Stack"
-msgstr ""
+msgstr "堆栈"
 
-#: debugPPCThreadsWindow.cpp:58
+#: debugPPCThreadsWindow.cpp:57
 msgid "PC"
-msgstr ""
+msgstr "PC"
 
-#: debugPPCThreadsWindow.cpp:63
+#: debugPPCThreadsWindow.cpp:62
 msgid "LR"
-msgstr ""
+msgstr "LR"
 
-#: debugPPCThreadsWindow.cpp:68
+#: debugPPCThreadsWindow.cpp:67
 msgid "State"
-msgstr ""
+msgstr "状态"
 
-#: debugPPCThreadsWindow.cpp:73
+#: debugPPCThreadsWindow.cpp:72
 msgid "Affinity"
-msgstr ""
+msgstr "相似"
 
-#: debugPPCThreadsWindow.cpp:78
+#: debugPPCThreadsWindow.cpp:77
 msgid "Priority"
-msgstr ""
+msgstr "优先级"
 
-#: debugPPCThreadsWindow.cpp:83
+#: debugPPCThreadsWindow.cpp:82
 msgid "SliceStart"
-msgstr ""
+msgstr "SliceStart"
 
-#: debugPPCThreadsWindow.cpp:88
+#: debugPPCThreadsWindow.cpp:87
 msgid "SumWakeTime"
-msgstr ""
+msgstr "SumWakeTime"
 
-#: debugPPCThreadsWindow.cpp:93
+#: debugPPCThreadsWindow.cpp:92
 msgid "ThreadName"
-msgstr ""
+msgstr "线程名"
 
-#: debugPPCThreadsWindow.cpp:98
+#: debugPPCThreadsWindow.cpp:97
 msgid "GPR"
-msgstr ""
+msgstr "通用暂存器"
 
-#: debugPPCThreadsWindow.cpp:105
+#: debugPPCThreadsWindow.cpp:104
 msgid "Refresh"
-msgstr ""
+msgstr "刷新"
 
-#: debugPPCThreadsWindow.cpp:200
-msgid "UNDEFINED"
-msgstr ""
+#: debugPPCThreadsWindow.cpp:107
+msgid "Auto refresh"
+msgstr "自动刷新"
 
-#: debugPPCThreadsWindow.cpp:202
-msgid "SUSPENDED"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:204
-msgid "NONE"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:206
-msgid "READY"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:208
-msgid "RUNNING"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:210
-msgid "WAITING"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:212
-msgid "MORIBUND"
-msgstr ""
-
-#: debugPPCThreadsWindow.cpp:331
+#: debugPPCThreadsWindow.cpp:319
 msgid "Boost priority (-5)"
-msgstr ""
+msgstr "提升优先级 (-5)"
 
-#: debugPPCThreadsWindow.cpp:332
+#: debugPPCThreadsWindow.cpp:320
 msgid "Boost priority (-1)"
-msgstr ""
+msgstr "提升优先级 (-1)"
 
-#: debugPPCThreadsWindow.cpp:333
+#: debugPPCThreadsWindow.cpp:322
 msgid "Decrease priority (+5)"
-msgstr ""
+msgstr "降低优先级 (+5)"
 
-#: debugPPCThreadsWindow.cpp:334
+#: debugPPCThreadsWindow.cpp:323
 msgid "Decrease priority (+1)"
-msgstr ""
+msgstr "降低优先级 (+1)"
 
-#: debugPPCThreadsWindow.cpp:335
+#: debugPPCThreadsWindow.cpp:325
+msgid "Resume"
+msgstr "继续"
+
+#: debugPPCThreadsWindow.cpp:326
 msgid "Suspend"
-msgstr "暂停"
+msgstr "挂起"
 
 #: graphicPacksWindow.cpp:48
 msgid "On/Off"
@@ -992,22 +964,6 @@ msgstr "重启Cemu以应用变更"
 msgid "Yes"
 msgstr "确认"
 
-#: optionsAudioWindow.cpp:24
-msgid "Surround 5.1"
-msgstr "5.1环绕声"
-
-#: optionsAudioWindow.cpp:29
-msgid "Audio settings"
-msgstr "音频设定"
-
-#: optionsAudioWindow.cpp:40
-msgid "Volume:"
-msgstr "音量"
-
-#: optionsAudioWindow.cpp:44
-msgid "Channels:"
-msgstr "声道"
-
 #: toolMemorySearcher.cpp:43
 msgid "Memory Searcher"
 msgstr "内存修改器"
@@ -1026,27 +982,27 @@ msgstr "结果"
 
 #: toolMemorySearcher.cpp:85 toolMemorySearcher.cpp:101
 msgid "address"
-msgstr ""
+msgstr "地址"
 
 #: toolMemorySearcher.cpp:90 toolMemorySearcher.cpp:103
 msgid "value"
-msgstr ""
+msgstr "值"
 
 #: toolMemorySearcher.cpp:95
 msgid "Stored Entries"
-msgstr ""
+msgstr "已存储入口"
 
 #: toolMemorySearcher.cpp:100
 msgid "description"
-msgstr ""
+msgstr "说明"
 
 #: toolMemorySearcher.cpp:102
 msgid "type"
-msgstr ""
+msgstr "类型"
 
 #: toolMemorySearcher.cpp:104
 msgid "freeze"
-msgstr ""
+msgstr "冻结"
 
 #: toolMemorySearcher.cpp:164
 msgid "Your entered value is not valid for the selected datatype."
@@ -1101,3 +1057,36 @@ msgstr ""
 #: updateWindow.cpp:154
 msgid "Info"
 msgstr "信息"
+
+#~ msgid "<double click to add a new entry>"
+#~ msgstr "<双击以添加新的入口>"
+
+#~ msgid "Language:"
+#~ msgstr "语言"
+
+#~ msgid "Game paths:"
+#~ msgstr "游戏路径"
+
+#~ msgid "&Add game path"
+#~ msgstr "&添加游戏路径"
+
+#~ msgid "&Delete game path"
+#~ msgstr "&移除游戏路径"
+
+#~ msgid "Mono"
+#~ msgstr "单声道"
+
+#~ msgid "Surround"
+#~ msgstr "环绕声"
+
+#~ msgid "Surround 5.1"
+#~ msgstr "5.1环绕声"
+
+#~ msgid "Audio settings"
+#~ msgstr "音频设定"
+
+#~ msgid "Volume:"
+#~ msgstr "音量"
+
+#~ msgid "Channels:"
+#~ msgstr "声道"
