@@ -36,7 +36,7 @@ msgstr "Английский"
 
 #: GeneralSettings2.cpp:67
 msgid "Discord Presence"
-msgstr ""
+msgstr "Discord Presence"
 
 #: GeneralSettings2.cpp:77
 msgid "Game Paths"
@@ -882,11 +882,11 @@ msgstr "Стэк"
 
 #: debugPPCThreadsWindow.cpp:57
 msgid "PC"
-msgstr ""
+msgstr "PC"
 
 #: debugPPCThreadsWindow.cpp:62
 msgid "LR"
-msgstr ""
+msgstr "LR"
 
 #: debugPPCThreadsWindow.cpp:67
 msgid "State"
@@ -901,13 +901,12 @@ msgid "Priority"
 msgstr "Приоритет"
 
 #: debugPPCThreadsWindow.cpp:82
-#, fuzzy
 msgid "SliceStart"
-msgstr "Начало среза"
+msgstr "SliceStart"
 
 #: debugPPCThreadsWindow.cpp:87
 msgid "SumWakeTime"
-msgstr ""
+msgstr "SumWakeTime"
 
 #: debugPPCThreadsWindow.cpp:92
 msgid "ThreadName"
