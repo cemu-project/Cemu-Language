@@ -904,11 +904,11 @@ msgstr "Prioriteit"
 
 #: debugPPCThreadsWindow.cpp:82
 msgid "SliceStart"
-msgstr "DeelStart"
+msgstr "SliceStart"
 
 #: debugPPCThreadsWindow.cpp:87
 msgid "SumWakeTime"
-msgstr "SomWakkerTijd"
+msgstr "SumWakeTime"
 
 #: debugPPCThreadsWindow.cpp:92
 msgid "ThreadName"
@@ -1113,26 +1113,7 @@ msgstr "Info"
 #~ msgid "&Enable online mode"
 #~ msgstr "&Schakel online modus in"
 
-#~ msgid "UNDEFINED"
-#~ msgstr "ONGEDEFINIEERD"
 
-#~ msgid "SUSPENDED"
-#~ msgstr "UITGESTELD"
-
-#~ msgid "NONE"
-#~ msgstr "NIKS"
-
-#~ msgid "READY"
-#~ msgstr "KLAAR"
-
-#~ msgid "RUNNING"
-#~ msgstr "LOPEND"
-
-#~ msgid "WAITING"
-#~ msgstr "WACHTEND"
-
-#~ msgid "MORIBUND"
-#~ msgstr "MORIBUND"
 
 #~ msgid "Mono"
 #~ msgstr "Mono"
