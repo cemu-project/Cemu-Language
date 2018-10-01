@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2018-09-01 13:32+0200\n"
-"PO-Revision-Date: 2018-09-08 12:01+0800\n"
+"PO-Revision-Date: 2018-10-01 16:25+0200\n"
 "Last-Translator: 翻译：贴吧@DarkStarSys/游侠@EPYC\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -34,7 +34,7 @@ msgstr "英语"
 
 #: GeneralSettings2.cpp:67
 msgid "Discord Presence"
-msgstr "Discord 显示"
+msgstr "在 Discord 中显示"
 
 #: GeneralSettings2.cpp:77
 msgid "Game Paths"
@@ -74,19 +74,19 @@ msgstr "禁用预编译着色器"
 
 #: GeneralSettings2.cpp:133
 msgid "Bilinear"
-msgstr "双线性"
+msgstr "双线性过滤"
 
 #: GeneralSettings2.cpp:133
 msgid "Bicubic"
-msgstr "双三次"
+msgstr "双三次过滤"
 
 #: GeneralSettings2.cpp:134
 msgid "Upscale filter"
-msgstr "高级过滤"
+msgstr "高级过滤选项"
 
 #: GeneralSettings2.cpp:139
 msgid "Keep aspect ratio"
-msgstr "保持纵横比"
+msgstr "保持长宽比"
 
 #: GeneralSettings2.cpp:139
 msgid "Stretch"
@@ -98,11 +98,11 @@ msgstr "全屏缩放"
 
 #: GeneralSettings2.cpp:145
 msgid "Graphics"
-msgstr "显示"
+msgstr "图像"
 
 #: GeneralSettings2.cpp:162
 msgid "API"
-msgstr "应用程序编程接口(API)"
+msgstr "API"
 
 #: GeneralSettings2.cpp:180
 msgid "Stereo"
@@ -110,7 +110,7 @@ msgstr "立体声"
 
 #: GeneralSettings2.cpp:182
 msgid "TV"
-msgstr "电视"
+msgstr "播放"
 
 #: GeneralSettings2.cpp:189 GeneralSettings2.cpp:225
 msgid "Device"
@@ -170,7 +170,7 @@ msgstr "电子邮件"
 
 #: GeneralSettings2.cpp:303
 msgid "Birthday"
-msgstr "生日"
+msgstr "出生日期"
 
 #: GeneralSettings2.cpp:306
 msgid "Country"
@@ -190,35 +190,35 @@ msgstr "禁用"
 
 #: GeneralSettings2.cpp:776
 msgid "Select a directory containing games."
-msgstr "选择包含游戏文件的目录"
+msgstr "选择包含游戏的目录"
 
 #: GraphicPacksWindow2.cpp:41 graphicPacksWindow.cpp:36
 msgid "Graphic packs"
-msgstr "图形包"
+msgstr "图像插件"
 
 #: GraphicPacksWindow2.cpp:71
 msgid "Graphic pack"
-msgstr "图形包"
+msgstr "当前图像插件"
 
 #: GraphicPacksWindow2.cpp:81
 msgid "Active preset"
-msgstr "激活预设"
+msgstr "已激活预设"
 
 #: GraphicPacksWindow2.cpp:93
 msgid "Description"
-msgstr "描述"
+msgstr "简介"
 
 #: GraphicPacksWindow2.cpp:103
 msgid "Control"
-msgstr "控制"
+msgstr "操作选项"
 
 #: GraphicPacksWindow2.cpp:224
 msgid "This is an old graphic pack, therefore it has no description."
-msgstr "这是旧版本图形包，因此没有说明"
+msgstr "此旧版图像插件无简介"
 
 #: GraphicPacksWindow2.cpp:248
 msgid "This graphic pack has no description"
-msgstr "这个图形包没有说明"
+msgstr "此图像插件无简介"
 
 #: GraphicPacksWindow2.cpp:305 GraphicPacksWindow2.cpp:347
 #: GraphicPacksWindow2.cpp:359
@@ -377,11 +377,11 @@ msgstr "DLC"
 
 #: MainWindow.cpp:296
 msgid "You've played"
-msgstr "游玩时长"
+msgstr "游戏时长"
 
 #: MainWindow.cpp:302
 msgid "Last played"
-msgstr "上次游玩时间"
+msgstr "上次运行时间"
 
 #: MainWindow.cpp:389 MainWindow.cpp:395
 msgid "Can't open the file."
@@ -426,7 +426,7 @@ msgstr "此更新档已安装，仍要继续安装？"
 msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
-msgstr "已安装较新版本的更新档，仍要安装旧版本？"
+msgstr "已安装新版本的更新档，仍要安装此旧版本？"
 
 #: MainWindow.cpp:526
 msgid ""
@@ -476,7 +476,7 @@ msgstr "无法打开文件"
 
 #: MainWindow.cpp:709 MainWindow.cpp:732
 msgid "Not a valid NFC NTAG215 file"
-msgstr "无效NFC NTAG215(amiibo)文件"
+msgstr "无效NFC NTAG215文件"
 
 #: MainWindow.cpp:843
 msgid "Cemu must be restarted to apply the selected UI language."
@@ -497,7 +497,7 @@ msgstr ""
 
 #: MainWindow.cpp:1510
 msgid "You can configure game paths in the general settings."
-msgstr "可在常规设定中设置游戏路径"
+msgstr "常规设定中可设置游戏路径"
 
 #: MainWindow.cpp:1582
 msgid "Loading, please wait!"
@@ -597,7 +597,7 @@ msgstr "&繁体中文"
 
 #: MainWindow.cpp:2133
 msgid "&High (slow)"
-msgstr "&高质量"
+msgstr "&高质量（慢速）"
 
 #: MainWindow.cpp:2134
 msgid "&Medium"
@@ -605,7 +605,7 @@ msgstr "&中等质量"
 
 #: MainWindow.cpp:2135
 msgid "&Low (fast)"
-msgstr "&低质量"
+msgstr "&低质量（快速）"
 
 #: MainWindow.cpp:2147
 msgid "&Fullscreen"
@@ -613,7 +613,7 @@ msgstr "&全屏"
 
 #: MainWindow.cpp:2152
 msgid "&Graphic packs"
-msgstr "&图形包"
+msgstr "&图像插件"
 
 #: MainWindow.cpp:2157
 msgid "&GPU buffer cache accuracy"
@@ -625,7 +625,7 @@ msgstr "&单独GamePad窗口"
 
 #: MainWindow.cpp:2162
 msgid "&General settings"
-msgstr "常规设定"
+msgstr "&常规设定"
 
 #: MainWindow.cpp:2164
 msgid "&Input settings"
@@ -661,19 +661,19 @@ msgstr "&工具"
 
 #: MainWindow.cpp:2199
 msgid "&Single-core interpreter"
-msgstr "&单核心解释器"
+msgstr "&单核解释器"
 
 #: MainWindow.cpp:2200
 msgid "&Single-core recompiler (fast)"
-msgstr "&单核心重编译器(快速)"
+msgstr "&单核重编译器(快速)"
 
 #: MainWindow.cpp:2201
 msgid "&Dual-core recompiler (fast, unstable!)"
-msgstr "&双核心重编译器(快速，实验性)"
+msgstr "&双核重编译器(快速，实验性)"
 
 #: MainWindow.cpp:2202
 msgid "&Triple-core recompiler (fast, unstable!)"
-msgstr "&三核心重编译器(快速，实验性)"
+msgstr "&三核重编译器(快速，实验性)"
 
 #: MainWindow.cpp:2206
 msgid "&Cycle based timer"
@@ -693,31 +693,31 @@ msgstr "&计时器"
 
 #: MainWindow.cpp:2212
 msgid "&CPU"
-msgstr "&中央处理器(CPU)"
+msgstr "&CPU"
 
 #: MainWindow.cpp:2216
 msgid "&Scan NFC tag from file"
-msgstr "&从文件载入NFC标签(Amiibo)"
+msgstr "&载入NFC文件"
 
 #: MainWindow.cpp:2217
 msgid "&NFC"
-msgstr "&近场通信(NFC)"
+msgstr "&NFC"
 
 #: MainWindow.cpp:2223
 msgid "&Unsupported API calls"
-msgstr "&未支持的API调用"
+msgstr "&Unsupported API calls"
 
 #: MainWindow.cpp:2224
 msgid "&Coreinit File-Access"
-msgstr "&Coreinit 文件访问"
+msgstr "&Coreinit File-Access"
 
 #: MainWindow.cpp:2225
 msgid "&Coreinit Thread-Synchronization API"
-msgstr "&Coreinit 线程同步 API"
+msgstr "&Coreinit Thread-Synchronization API"
 
 #: MainWindow.cpp:2226
 msgid "&Coreinit Memory API"
-msgstr "&Coreinit 内存 API"
+msgstr "&Coreinit Memory API"
 
 #: MainWindow.cpp:2227
 msgid "&GX2 API"
@@ -725,11 +725,11 @@ msgstr "&GX2 API"
 
 #: MainWindow.cpp:2228
 msgid "&Audio API"
-msgstr "&音频 API"
+msgstr "&Audio API"
 
 #: MainWindow.cpp:2229
 msgid "&Input API"
-msgstr "&输入 API"
+msgstr "&Input API"
 
 #: MainWindow.cpp:2230
 msgid "&Socket API"
@@ -777,7 +777,7 @@ msgstr "&查看音频调试器"
 
 #: MainWindow.cpp:2260
 msgid "&Dump current RAM"
-msgstr "&转储当前内存"
+msgstr "&转储当前RAM"
 
 #: MainWindow.cpp:2263
 msgid "&Debug"
@@ -861,7 +861,7 @@ msgstr "地址"
 
 #: debugPPCThreadsWindow.cpp:47
 msgid "Entry"
-msgstr "入口"
+msgstr ""
 
 #: debugPPCThreadsWindow.cpp:52
 msgid "Stack"
@@ -951,14 +951,12 @@ msgstr "激活"
 msgid ""
 "The currently running game is corrupted or incomplete. (Missing /meta/meta."
 "xml) Graphic packs cannot be applied."
-msgstr ""
-"当前运行的游戏已损坏或不完整(缺少/meta/meta.xml)\n"
-"图形包无法应用"
+msgstr "当前运行的游戏已损坏或不完整(缺少/meta/meta.xml) 图像插件无法启用"
 
 #: graphicPacksWindow.cpp:75 graphicPacksWindow.cpp:114
 #: graphicPacksWindow.cpp:131
 msgid "Restart of Cemu required"
-msgstr "重启Cemu以应用变更"
+msgstr "需要重启Cemu"
 
 #: graphicPacksWindow.cpp:165
 msgid "Yes"
@@ -1010,7 +1008,7 @@ msgstr "输入的值对此数据类型无效"
 
 #: toolMemorySearcher.cpp:389
 msgid "&Add new entry"
-msgstr "添加新的路径"
+msgstr "&添加新的路径"
 
 #: toolMemorySearcher.cpp:390
 msgid "&Remove entry"
