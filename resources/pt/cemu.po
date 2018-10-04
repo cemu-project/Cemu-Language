@@ -1010,7 +1010,7 @@ msgstr "Tipo"
 
 #: textureRelationWindow.cpp:61
 msgid "PhysAddr"
-msgstr "EndFísico"
+msgstr "PhysAddr"
 
 #: textureRelationWindow.cpp:66
 msgid "Dim"
