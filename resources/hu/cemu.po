@@ -1012,7 +1012,7 @@ msgstr "Fizikus Cím"
 
 #: textureRelationWindow.cpp:66
 msgid "Dim"
-msgstr "Sötétítés"
+msgstr "Dim"
 
 #: textureRelationWindow.cpp:71
 msgid "Resolution"
@@ -1024,11 +1024,11 @@ msgstr "Formátum"
 
 #: textureRelationWindow.cpp:81
 msgid "Pitch"
-msgstr "Magasság"
+msgstr "Pitch"
 
 #: textureRelationWindow.cpp:86
 msgid "Tilemode"
-msgstr "Tilemód"
+msgstr "Tilemode"
 
 #: textureRelationWindow.cpp:91
 msgid "SliceRange"
@@ -1165,27 +1165,6 @@ msgstr "Információ"
 
 #~ msgid "Surround"
 #~ msgstr "Surround Sound"
-
-#~ msgid "UNDEFINED"
-#~ msgstr "NINCS MEGADVA"
-
-#~ msgid "SUSPENDED"
-#~ msgstr "FELFÜGGESZTVE"
-
-#~ msgid "NONE"
-#~ msgstr "NINCS"
-
-#~ msgid "READY"
-#~ msgstr "KÉSZ"
-
-#~ msgid "RUNNING"
-#~ msgstr "FUT"
-
-#~ msgid "WAITING"
-#~ msgstr "VÁRAKOZÁS"
-
-#~ msgid "MORIBUND"
-#~ msgstr "HALDOKLÁS"
 
 #~ msgid "Surround 5.1"
 #~ msgstr "Surround 5.1"
