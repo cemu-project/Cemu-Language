@@ -1027,7 +1027,7 @@ msgstr "Format"
 
 #: textureRelationWindow.cpp:81
 msgid "Pitch"
-msgstr "Wysokość tonu"
+msgstr "Pitch"
 
 #: textureRelationWindow.cpp:86
 msgid "Tilemode"
@@ -1171,27 +1171,6 @@ msgstr "Informacja"
 
 #~ msgid "Surround"
 #~ msgstr "Surround"
-
-#~ msgid "UNDEFINED"
-#~ msgstr "UNDEFINED"
-
-#~ msgid "SUSPENDED"
-#~ msgstr "SUSPENDED"
-
-#~ msgid "NONE"
-#~ msgstr "NONE"
-
-#~ msgid "READY"
-#~ msgstr "READY"
-
-#~ msgid "RUNNING"
-#~ msgstr "RUNNING"
-
-#~ msgid "WAITING"
-#~ msgstr "WAITING"
-
-#~ msgid "MORIBUND"
-#~ msgstr "MORIBUND"
 
 #~ msgid "Surround 5.1"
 #~ msgstr "Surround 5.1"
