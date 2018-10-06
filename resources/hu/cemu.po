@@ -1,184 +1,156 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2018-08-06 02:51+0200\n"
-"PO-Revision-Date: 2018-08-06 11:17+0200\n"
+"POT-Creation-Date: 2018-10-03 21:35+0200\n"
+"PO-Revision-Date: 2018-10-06 16:52+0200\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language: hu\n"
 
-#: GeneralSettings.cpp:8
-msgid "<double click to add a new entry>"
-msgstr ""
-
-#: GeneralSettings.cpp:9 GeneralSettings2.cpp:24
-msgid "Default"
-msgstr "Alapértelmezett"
-
-#: GeneralSettings.cpp:10 GeneralSettings2.cpp:25
-msgid "English"
-msgstr "Angol"
-
-#: GeneralSettings.cpp:13 GeneralSettings2.cpp:47
+#: GeneralSettings2.cpp:36
 msgid "General settings"
 msgstr "Általános beállítások"
 
-#: GeneralSettings.cpp:21
-msgid "Language:"
-msgstr "Nyelv:"
-
-#: GeneralSettings.cpp:45
-msgid "Game paths:"
-msgstr "Játékok útvonalai:"
-
-#: GeneralSettings.cpp:119 GeneralSettings2.cpp:762
-msgid "Select a directory containing games."
-msgstr "Válassz ki egy könyvtárat, ami játékokat tartalmaz."
-
-#: GeneralSettings.cpp:173
-msgid "&Add game path"
-msgstr "&Játékútvonal hozzáadása"
-
-#: GeneralSettings.cpp:176
-msgid "&Delete game path"
-msgstr "&Játékútvonal eltávolítása"
-
-#: GeneralSettings2.cpp:17 optionsAudioWindow.cpp:22
-msgid "Mono"
-msgstr "Monó"
-
-#: GeneralSettings2.cpp:18 optionsAudioWindow.cpp:23
-msgid "Stereo"
-msgstr "Sztereó"
-
-#: GeneralSettings2.cpp:19
-msgid "Surround"
-msgstr "Surround Sound"
-
-#: GeneralSettings2.cpp:21
-msgid "Disabled"
-msgstr "Letiltva"
-
-#: GeneralSettings2.cpp:22
-msgid "Online disabled"
-msgstr "Online letiltva"
-
-#: GeneralSettings2.cpp:29
-msgid "Bilinear"
-msgstr "Bilineáris"
-
-#: GeneralSettings2.cpp:30
-msgid "Bicubic"
-msgstr "Bikubikus"
-
-#: GeneralSettings2.cpp:32
-msgid "Keep aspect ratio"
-msgstr "Képarány tartása"
-
-#: GeneralSettings2.cpp:33
-msgid "Stretch"
-msgstr "Nyújtás"
-
-#: GeneralSettings2.cpp:61
+#: GeneralSettings2.cpp:50
 msgid "Interface"
 msgstr "Kezelőfelület"
 
-#: GeneralSettings2.cpp:68
+#: GeneralSettings2.cpp:57
 msgid "Language"
 msgstr "Nyelv"
 
-#: GeneralSettings2.cpp:79
+#: GeneralSettings2.cpp:59
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: GeneralSettings2.cpp:59
+msgid "English"
+msgstr "Angol"
+
+#: GeneralSettings2.cpp:75
 msgid "Discord Presence"
 msgstr "Discord Presence"
 
-#: GeneralSettings2.cpp:89
-msgid "Game Paths"
-msgstr "Játkok útvonalai"
+#: GeneralSettings2.cpp:81
+msgid "Fullscreen menu bar"
+msgstr "Teljes képernyős menüsor"
 
-#: GeneralSettings2.cpp:100
+#: GeneralSettings2.cpp:91
+msgid "MLC Path"
+msgstr "MLC elérési út"
+
+#: GeneralSettings2.cpp:109
+msgid "Game Paths"
+msgstr "Játkok elérési útjai"
+
+#: GeneralSettings2.cpp:120
 msgid "Add"
 msgstr "Hozzáadás"
 
-#: GeneralSettings2.cpp:104
+#: GeneralSettings2.cpp:124
 msgid "Remove"
 msgstr "Eltávolítás"
 
-#: GeneralSettings2.cpp:113 GeneralSettings2.cpp:167
+#: GeneralSettings2.cpp:133 GeneralSettings2.cpp:187
 msgid "General"
 msgstr "Általános"
 
-#: GeneralSettings2.cpp:121
+#: GeneralSettings2.cpp:141
 msgid "Misc"
 msgstr "Vegyes"
 
-#: GeneralSettings2.cpp:128
+#: GeneralSettings2.cpp:148
 msgid "VSync"
 msgstr "VSync"
 
-#: GeneralSettings2.cpp:131
+#: GeneralSettings2.cpp:151
 msgid "Full sync at GX2DrawDone()"
 msgstr "Teljes sync a GXDrawDone()-nál"
 
-#: GeneralSettings2.cpp:134
+#: GeneralSettings2.cpp:154
 msgid "Use separable shaders"
 msgstr "Szétválasztható shaderek használata"
 
-#: GeneralSettings2.cpp:137
+#: GeneralSettings2.cpp:157
 msgid "Disable precompiled shaders"
 msgstr "Előre összeállított shaderek letiltása"
 
-#: GeneralSettings2.cpp:146
+#: GeneralSettings2.cpp:165
+msgid "Bilinear"
+msgstr "Bilineáris"
+
+#: GeneralSettings2.cpp:165
+msgid "Bicubic"
+msgstr "Bikubikus"
+
+#: GeneralSettings2.cpp:166
 msgid "Upscale filter"
 msgstr "Felbontásnövelő filter"
 
-#: GeneralSettings2.cpp:152
+#: GeneralSettings2.cpp:171
+msgid "Keep aspect ratio"
+msgstr "Képarány tartása"
+
+#: GeneralSettings2.cpp:171
+msgid "Stretch"
+msgstr "Nyújtás"
+
+#: GeneralSettings2.cpp:172
 msgid "Fullscreen scaling"
 msgstr "Teljes képernyős méretezés"
 
-#: GeneralSettings2.cpp:157
+#: GeneralSettings2.cpp:177
 msgid "Graphics"
 msgstr "Grafika"
 
-#: GeneralSettings2.cpp:174
+#: GeneralSettings2.cpp:194
 msgid "API"
 msgstr "API"
 
-#: GeneralSettings2.cpp:190
+#: GeneralSettings2.cpp:211
+msgid "Latency"
+msgstr "Késés"
+
+#: GeneralSettings2.cpp:224
+msgid "Stereo"
+msgstr "Sztereó"
+
+#: GeneralSettings2.cpp:226
 msgid "TV"
 msgstr "TV"
 
-#: GeneralSettings2.cpp:197 GeneralSettings2.cpp:232
+#: GeneralSettings2.cpp:233 GeneralSettings2.cpp:269
 msgid "Device"
 msgstr "Készülék"
 
-#: GeneralSettings2.cpp:204 GeneralSettings2.cpp:237
+#: GeneralSettings2.cpp:241 GeneralSettings2.cpp:274
 msgid "Channels"
 msgstr "Csatornák"
 
-#: GeneralSettings2.cpp:211 GeneralSettings2.cpp:243 InputPanelGamepad.cpp:168
+#: GeneralSettings2.cpp:248 GeneralSettings2.cpp:280 InputPanelGamepad.cpp:168
 #: InputPanelWiimote.cpp:100
 msgid "Volume"
 msgstr "Hangerő"
 
-#: GeneralSettings2.cpp:225
+#: GeneralSettings2.cpp:262
 msgid "Gamepad"
 msgstr "Gamepad"
 
-#: GeneralSettings2.cpp:260
+#: GeneralSettings2.cpp:295
 msgid "Audio"
 msgstr "Hang"
 
-#: GeneralSettings2.cpp:268 MainWindow.cpp:488 MainWindow.cpp:507
-#: MainWindow.cpp:513 MainWindow.cpp:1021
+#: GeneralSettings2.cpp:303 MainWindow.cpp:513 MainWindow.cpp:532
+#: MainWindow.cpp:538 MainWindow.cpp:1056
 msgid "Warning"
 msgstr "Figyelmeztetés"
 
-#: GeneralSettings2.cpp:271
+#: GeneralSettings2.cpp:306
 msgid ""
 "Please be aware that online mode lets you connect to OFFICIAL servers and "
 "therefore there is a risk of getting banned.\n"
@@ -190,17 +162,53 @@ msgstr ""
 "Csak akkor engedélyezd, ha hajnaldó vagy megkockáztatni a Wii U-d online "
 "képességeinek és/vagy az NNID-d elvesztését."
 
-#: GeneralSettings2.cpp:279
+#: GeneralSettings2.cpp:314
 msgid "Account settings"
 msgstr "Fiókbeállítások"
 
-#: GeneralSettings2.cpp:298
+#: GeneralSettings2.cpp:321
+msgid "Active account"
+msgstr "Aktív felhasználói fiók"
+
+#: GeneralSettings2.cpp:333
 msgid "Account information"
 msgstr "Fiókadatok"
 
-#: GeneralSettings2.cpp:325
+#: GeneralSettings2.cpp:342
+msgid "Id"
+msgstr "Azonosító"
+
+#: GeneralSettings2.cpp:345
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: GeneralSettings2.cpp:348
+msgid "Birthday"
+msgstr "Születésnap"
+
+#: GeneralSettings2.cpp:351
+msgid "Country"
+msgstr "Ország"
+
+#: GeneralSettings2.cpp:361
 msgid "Online"
 msgstr "Online"
+
+#: GeneralSettings2.cpp:472 GeneralSettings2.cpp:645
+msgid "Online disabled"
+msgstr "Online letiltva"
+
+#: GeneralSettings2.cpp:554 GeneralSettings2.cpp:555
+msgid "Disabled"
+msgstr "Letiltva"
+
+#: GeneralSettings2.cpp:875
+msgid "Select a directory containing games."
+msgstr "Válassz ki egy könyvtárat, ami játékokat tartalmaz."
+
+#: GeneralSettings2.cpp:910
+msgid "Select a mlc directory"
+msgstr "Válassz ki egy mlc könyvtárat"
 
 #: GraphicPacksWindow2.cpp:41 graphicPacksWindow.cpp:36
 msgid "Graphic packs"
@@ -295,9 +303,9 @@ msgstr "A(z) {0}. kontroller beállításainak mentése sikertelen"
 
 #: InputSettings.cpp:96 InputSettings.cpp:436 InputSettings.cpp:442
 #: InputSettings.cpp:509 InputSettings.cpp:523 InputSettings.cpp:529
-#: InputSettings.cpp:534 InputSettings.cpp:547 MainWindow.cpp:2293
-#: MainWindow.cpp:2297 MainWindow.cpp:2301 MainWindow.cpp:2305
-#: MainWindow.cpp:2310 MainWindow.cpp:2318 toolMemorySearcher.cpp:164
+#: InputSettings.cpp:534 InputSettings.cpp:547 MainWindow.cpp:2289
+#: MainWindow.cpp:2293 MainWindow.cpp:2297 MainWindow.cpp:2301
+#: MainWindow.cpp:2306 MainWindow.cpp:2314 toolMemorySearcher.cpp:164
 msgid "Error"
 msgstr "Hiba"
 
@@ -369,7 +377,7 @@ msgstr "Nem adtál meg profilnevet!"
 msgid "Couldn't save the profile!"
 msgstr "A profil mentése sikertelen!"
 
-#: InputSettings.cpp:856
+#: InputSettings.cpp:882
 msgid "Searching for wiimotes..."
 msgstr "Wiimote-ok keresése folyamatban..."
 
@@ -393,41 +401,41 @@ msgstr "Már játszottad"
 msgid "Last played"
 msgstr "Legutóbb játszottad"
 
-#: MainWindow.cpp:391 MainWindow.cpp:397
+#: MainWindow.cpp:416 MainWindow.cpp:422
 msgid "Can't open the file."
 msgstr "A fájl megnyitása sikertelen."
 
-#: MainWindow.cpp:401
+#: MainWindow.cpp:426
 msgid "Invalid \"meta.xml\" file."
 msgstr "Érvénytelen „meta.xml” fájl."
 
-#: MainWindow.cpp:405
+#: MainWindow.cpp:430
 msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
 msgstr "A megadott „meta.xml” fájlban nem található „title_id”."
 
-#: MainWindow.cpp:423
+#: MainWindow.cpp:448
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
 msgstr "A megadott „meta.xml” fájlban nem található „title_version”."
 
-#: MainWindow.cpp:427
+#: MainWindow.cpp:452
 msgid "The given \"meta.xml\" file is no update or DLC."
 msgstr "A megadott „meta.xml” fájl nem frissítés vagy DLC."
 
-#: MainWindow.cpp:432
+#: MainWindow.cpp:457
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
 msgstr "A megadott „meta.xml” fájlban nem található „longname_en”."
 
-#: MainWindow.cpp:459
+#: MainWindow.cpp:484
 msgid "Invalid folder structure"
 msgstr "Érvénytelen könyvtárfelépítés"
 
-#: MainWindow.cpp:488
+#: MainWindow.cpp:513
 msgid ""
 "It seems that a DLC is already installed, do you still want to install it?"
 msgstr ""
 "A jelek szerint már van egy telepített DLC. Biztosan telepíteni akarod?"
 
-#: MainWindow.cpp:507
+#: MainWindow.cpp:532
 msgid ""
 "It seems that the selected update is already installed, do you want to "
 "reinstall it?"
@@ -435,7 +443,7 @@ msgstr ""
 "A jelek szerint a kiválasztott frissítés már telepítve van. Szeretnéd "
 "újratelepíteni?"
 
-#: MainWindow.cpp:513
+#: MainWindow.cpp:538
 msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
@@ -443,7 +451,7 @@ msgstr ""
 "A jelek szerint már egy újabb frissítés telepítve van. Szeretnéd a régebbi "
 "verziót telepíteni?"
 
-#: MainWindow.cpp:528
+#: MainWindow.cpp:553
 msgid ""
 "Not enough space available.\n"
 "Required: {0} MB\n"
@@ -453,56 +461,56 @@ msgstr ""
 "Szükséges hely: {0} MB\n"
 "Szabad hely: {1} MB"
 
-#: MainWindow.cpp:565
+#: MainWindow.cpp:590
 msgid "Update installed!"
 msgstr "Frissítés telepítve!"
 
-#: MainWindow.cpp:565
+#: MainWindow.cpp:590
 msgid "Success"
 msgstr "Sikeres"
 
-#: MainWindow.cpp:570
+#: MainWindow.cpp:595
 msgid "Update installation has been canceled!"
 msgstr "A frissítés telepítése meg lett szakítva!"
 
-#: MainWindow.cpp:590
+#: MainWindow.cpp:615
 msgid "Unable to open file."
 msgstr "A fájl megnyitása sikertelen."
 
-#: MainWindow.cpp:592
+#: MainWindow.cpp:617
 msgid "Unknown file type."
 msgstr "Ismeretlen fájltípus."
 
-#: MainWindow.cpp:594
+#: MainWindow.cpp:619
 msgid "Failed to launch file."
 msgstr "A fájl indítása sikertelen."
 
-#: MainWindow.cpp:659 MainWindow.cpp:687
+#: MainWindow.cpp:688 MainWindow.cpp:716
 msgid "Open file to launch"
 msgstr "Nyisd meg az indítani való fájlt"
 
-#: MainWindow.cpp:700
+#: MainWindow.cpp:729
 msgid "Open file to load"
 msgstr "Nyisd meg a betölteni való fájlt"
 
-#: MainWindow.cpp:709 MainWindow.cpp:732
+#: MainWindow.cpp:738 MainWindow.cpp:761
 msgid "Cannot open file"
 msgstr "Fájl megnyitása sikertelen"
 
-#: MainWindow.cpp:711 MainWindow.cpp:734
+#: MainWindow.cpp:740 MainWindow.cpp:763
 msgid "Not a valid NFC NTAG215 file"
 msgstr "Ez nem egy érvényes NFC NTAG215 fájl"
 
-#: MainWindow.cpp:845
+#: MainWindow.cpp:880
 msgid "Cemu must be restarted to apply the selected UI language."
 msgstr ""
 "A kiválasztott nyelv érvénybe léptetéséhez újra kell indítanod a Cemu-t."
 
-#: MainWindow.cpp:845
+#: MainWindow.cpp:880
 msgid "Information"
 msgstr "Információ"
 
-#: MainWindow.cpp:1020
+#: MainWindow.cpp:1055
 msgid ""
 "WARNING - Please be aware that online mode lets you connect to OFFICIAL "
 "servers and therefore there is a risk of getting banned. Only proceed if you "
@@ -513,123 +521,123 @@ msgstr ""
 "ha hajnaldó vagy megkockáztatni a Wii U-d online képességeinek és/vagy az "
 "NNID-d elvesztését."
 
-#: MainWindow.cpp:1512
+#: MainWindow.cpp:1570
 msgid "You can configure game paths in the general settings."
 msgstr "A játékok útvonalát az általános beállításokban tudod megadni."
 
-#: MainWindow.cpp:1584
+#: MainWindow.cpp:1642
 msgid "Loading, please wait!"
 msgstr "Betöltés folyamatban, egy pillanat!"
 
-#: MainWindow.cpp:2076
+#: MainWindow.cpp:2092
 msgid "&Load"
 msgstr "&Betöltés"
 
-#: MainWindow.cpp:2077
+#: MainWindow.cpp:2093
 msgid "&Install game update or DLC"
 msgstr "&Frissítés vagy DLC telepítése"
 
-#: MainWindow.cpp:2101
+#: MainWindow.cpp:2117
 msgid "&Exit"
 msgstr "&Kilépés"
 
-#: MainWindow.cpp:2102
+#: MainWindow.cpp:2118
 msgid "&File"
 msgstr "&Fájl"
 
-#: MainWindow.cpp:2105
+#: MainWindow.cpp:2121
 msgid "&Auto"
 msgstr "&Automatikus"
 
-#: MainWindow.cpp:2107
+#: MainWindow.cpp:2123
 msgid "&USA"
 msgstr "&Amerika"
 
-#: MainWindow.cpp:2108
+#: MainWindow.cpp:2124
 msgid "&Europe"
 msgstr "&Európa"
 
-#: MainWindow.cpp:2109
+#: MainWindow.cpp:2125
 msgid "&Japan"
 msgstr "&Japán"
 
-#: MainWindow.cpp:2111
+#: MainWindow.cpp:2127
 msgid "&China"
 msgstr "&Kína"
 
-#: MainWindow.cpp:2112
+#: MainWindow.cpp:2128
 msgid "&Korea"
 msgstr "&Korea"
 
-#: MainWindow.cpp:2113
+#: MainWindow.cpp:2129
 msgid "&Taiwan"
 msgstr "&Tajvan"
 
-#: MainWindow.cpp:2117
+#: MainWindow.cpp:2133
 msgid "&English"
 msgstr "&Angol"
 
-#: MainWindow.cpp:2118
+#: MainWindow.cpp:2134
 msgid "&Japanese"
 msgstr "&Japán"
 
-#: MainWindow.cpp:2119
+#: MainWindow.cpp:2135
 msgid "&French"
 msgstr "&Francia"
 
-#: MainWindow.cpp:2120
+#: MainWindow.cpp:2136
 msgid "&German"
 msgstr "&Német"
 
-#: MainWindow.cpp:2121
+#: MainWindow.cpp:2137
 msgid "&Italian"
 msgstr "&Olasz"
 
-#: MainWindow.cpp:2122
+#: MainWindow.cpp:2138
 msgid "&Spanish"
 msgstr "&Spanyol"
 
-#: MainWindow.cpp:2123
+#: MainWindow.cpp:2139
 msgid "&Chinese"
 msgstr "&Kínai"
 
-#: MainWindow.cpp:2124
+#: MainWindow.cpp:2140
 msgid "&Korean"
 msgstr "&Koreai"
 
-#: MainWindow.cpp:2125
+#: MainWindow.cpp:2141
 msgid "&Dutch"
 msgstr "&Holland"
 
-#: MainWindow.cpp:2126
+#: MainWindow.cpp:2142
 msgid "&Portuguese"
 msgstr "&Portugál"
 
-#: MainWindow.cpp:2127
+#: MainWindow.cpp:2143
 msgid "&Russian"
 msgstr "&Orosz"
 
-#: MainWindow.cpp:2128
+#: MainWindow.cpp:2144
 msgid "&Taiwanese"
 msgstr "&Tajvani"
 
-#: MainWindow.cpp:2134
+#: MainWindow.cpp:2150
 msgid "&High (slow)"
 msgstr "&Magas (lassú)"
 
-#: MainWindow.cpp:2135
+#: MainWindow.cpp:2151
 msgid "&Medium"
 msgstr "&Közepes"
 
-#: MainWindow.cpp:2136
+#: MainWindow.cpp:2152
 msgid "&Low (fast)"
 msgstr "&Alacsony (gyors)"
 
-#: MainWindow.cpp:2148
+#: MainWindow.cpp:2156
 msgid "&Fullscreen"
 msgstr "&Teljes képernyő"
 
-#: MainWindow.cpp:2153
+#: MainWindow.cpp:2157
 msgid "&Graphic packs"
 msgstr "&Grafikus csomagok"
 
@@ -641,231 +649,239 @@ msgstr "&GPU-gyorsítótár pontossága"
 msgid "&Separate GamePad view"
 msgstr "&GamePad megjelenítése külön ablakban"
 
-#: MainWindow.cpp:2163
+#: MainWindow.cpp:2162
 msgid "&General settings"
 msgstr "&Általános beállításaok"
 
-#: MainWindow.cpp:2165
+#: MainWindow.cpp:2163
 msgid "&Input settings"
 msgstr "&Irányítási beállítások"
 
-#: MainWindow.cpp:2175
+#: MainWindow.cpp:2168
 msgid "&Use RDTSC"
 msgstr "&RDTSC használata"
 
-#: MainWindow.cpp:2184
+#: MainWindow.cpp:2176
 msgid "&Experimental"
 msgstr "&Kísérleti"
 
-#: MainWindow.cpp:2187
+#: MainWindow.cpp:2179
 msgid "&Console region"
 msgstr "&Konzol régiója"
 
-#: MainWindow.cpp:2188
+#: MainWindow.cpp:2180
 msgid "&Console language"
 msgstr "&Konzol nyelve"
 
-#: MainWindow.cpp:2189
+#: MainWindow.cpp:2181
 msgid "&Options"
 msgstr "&Beállítások"
 
-#: MainWindow.cpp:2193
+#: MainWindow.cpp:2185
 msgid "&Memory searcher"
 msgstr "&Memóriakereső"
 
-#: MainWindow.cpp:2195
+#: MainWindow.cpp:2187
 msgid "&Tools"
 msgstr "&Eszközök"
 
-#: MainWindow.cpp:2200
+#: MainWindow.cpp:2192
 msgid "&Single-core interpreter"
 msgstr "&Egymagos interpreter"
 
-#: MainWindow.cpp:2201
+#: MainWindow.cpp:2193
 msgid "&Single-core recompiler (fast)"
 msgstr "&Egymagos recompiler  (gyors)"
 
-#: MainWindow.cpp:2202
+#: MainWindow.cpp:2194
 msgid "&Dual-core recompiler (fast, unstable!)"
 msgstr "&Kétmagos recompiler (gyors, instabil!)"
 
-#: MainWindow.cpp:2203
+#: MainWindow.cpp:2195
 msgid "&Triple-core recompiler (fast, unstable!)"
 msgstr "&Hárommagos recompiler (gyors, instabil!)"
 
-#: MainWindow.cpp:2207
+#: MainWindow.cpp:2199
 msgid "&Cycle based timer"
 msgstr "&Ciklusalapú időzítő"
 
-#: MainWindow.cpp:2208
+#: MainWindow.cpp:2200
 msgid "&Host based timer (recommended)"
 msgstr "&Hostalapú időzítő (ajánlott)"
 
-#: MainWindow.cpp:2211
+#: MainWindow.cpp:2203
 msgid "&Mode"
 msgstr "&Mód"
 
-#: MainWindow.cpp:2212
+#: MainWindow.cpp:2204
 msgid "&Timer"
 msgstr "&Időzítő"
 
-#: MainWindow.cpp:2213
+#: MainWindow.cpp:2205
 msgid "&CPU"
 msgstr "&CPU"
 
-#: MainWindow.cpp:2217
+#: MainWindow.cpp:2209
 msgid "&Scan NFC tag from file"
 msgstr "&NFC-címke olvasása fájlból"
 
-#: MainWindow.cpp:2218
+#: MainWindow.cpp:2210
 msgid "&NFC"
 msgstr "&NFC"
 
-#: MainWindow.cpp:2224
+#: MainWindow.cpp:2216
 msgid "&Unsupported API calls"
 msgstr "&Nem támogatott API-funkciók"
 
-#: MainWindow.cpp:2225
+#: MainWindow.cpp:2217
 msgid "&Coreinit File-Access"
 msgstr "&Coreinit fájl-hozzáférés"
 
-#: MainWindow.cpp:2226
+#: MainWindow.cpp:2218
 msgid "&Coreinit Thread-Synchronization API"
 msgstr "&Coreinit szál-szinkronizáló API"
 
-#: MainWindow.cpp:2227
+#: MainWindow.cpp:2219
 msgid "&Coreinit Memory API"
 msgstr "&Coreinit memória API"
 
-#: MainWindow.cpp:2228
+#: MainWindow.cpp:2220
 msgid "&GX2 API"
 msgstr "&GX2 API"
 
-#: MainWindow.cpp:2229
+#: MainWindow.cpp:2221
 msgid "&Audio API"
 msgstr "&Hang API"
 
-#: MainWindow.cpp:2230
+#: MainWindow.cpp:2222
 msgid "&Input API"
 msgstr "&Irányítási API"
 
-#: MainWindow.cpp:2231
+#: MainWindow.cpp:2223
 msgid "&Socket API"
 msgstr "&Socket API"
 
-#: MainWindow.cpp:2232
+#: MainWindow.cpp:2224
 msgid "&Save API"
 msgstr "&Mentési API"
 
-#: MainWindow.cpp:2233
+#: MainWindow.cpp:2225
 msgid "&H264 API"
 msgstr "&H264 API"
 
-#: MainWindow.cpp:2237
+#: MainWindow.cpp:2227
+msgid "&OpenGL debug output"
+msgstr "&OpenGL debug napló"
+
+#: MainWindow.cpp:2231
 msgid "&Textures"
 msgstr "&Textúrák"
 
-#: MainWindow.cpp:2238
+#: MainWindow.cpp:2232
 msgid "&Shaders"
 msgstr "&Shaderek"
 
-#: MainWindow.cpp:2242
+#: MainWindow.cpp:2236
 msgid "&Logging"
 msgstr "&Naplózás"
 
-#: MainWindow.cpp:2243
+#: MainWindow.cpp:2237
 msgid "&Dump"
 msgstr "&Dumpolás"
 
-#: MainWindow.cpp:2247 MainWindow.cpp:2252
+#: MainWindow.cpp:2241 MainWindow.cpp:2246
 msgid "&Render upside-down"
 msgstr "&Renderelés fejjel lefelé"
 
-#: MainWindow.cpp:2255
+#: MainWindow.cpp:2249
 msgid "&View PPC threads"
 msgstr "&PPC-szálak megtekintése"
 
-#: MainWindow.cpp:2257
+#: MainWindow.cpp:2251
 msgid "&View PPC debugger"
 msgstr "&PPC-debugger megnyitása"
 
-#: MainWindow.cpp:2259
+#: MainWindow.cpp:2253
 msgid "&View audio debugger"
 msgstr "&Hang-debugger megnyitása"
 
-#: MainWindow.cpp:2261
+#: MainWindow.cpp:2254
+msgid "&View texture cache info"
+msgstr "&Textúragyorsítótár-infó megtekintése"
+
+#: MainWindow.cpp:2256
 msgid "&Dump current RAM"
 msgstr "&RAM jelenlegi állásának dumpolása"
 
-#: MainWindow.cpp:2264
+#: MainWindow.cpp:2259
 msgid "&Debug"
 msgstr "&Debuggolás"
 
-#: MainWindow.cpp:2269
+#: MainWindow.cpp:2264
 msgid "&About"
 msgstr "&Névjegy"
 
-#: MainWindow.cpp:2270
+#: MainWindow.cpp:2265
 msgid "&Help"
 msgstr "&Súgó"
 
-#: MainWindow.cpp:2293
+#: MainWindow.cpp:2289
 msgid "otp.bin could not be found"
 msgstr "az otp.bin nem található"
 
-#: MainWindow.cpp:2297
+#: MainWindow.cpp:2293
 msgid "otp.bin is corrupted or has invalid size"
 msgstr "az otp.bin korrupt vagy érvénytelen méretű"
 
-#: MainWindow.cpp:2301
+#: MainWindow.cpp:2297
 msgid "seeprom.bin could not be found"
 msgstr "a seeprom.bin nem található"
 
-#: MainWindow.cpp:2305
+#: MainWindow.cpp:2301
 msgid "seeprom.bin is corrupted or has invalid size"
 msgstr "a seeprom.bin korrupt vagy érvénytelen méretű"
 
-#: MainWindow.cpp:2318
+#: MainWindow.cpp:2314
 msgid "Unknown error occured"
 msgstr "Ismeretlen hiba"
 
-#: MainWindow.cpp:2429
+#: MainWindow.cpp:2427
 msgid "&Start"
 msgstr "&Indítás"
 
-#: MainWindow.cpp:2431
+#: MainWindow.cpp:2429
 msgid "Sa&ve directory"
 msgstr "&Mentési könyvtár"
 
-#: MainWindow.cpp:2432
+#: MainWindow.cpp:2430
 msgid "&Update directory"
 msgstr "&Frissítési könyvtár"
 
-#: MainWindow.cpp:2433
+#: MainWindow.cpp:2431
 msgid "&DLC directory"
 msgstr "&DLC könyvtár"
 
-#: MainWindow.cpp:2435
+#: MainWindow.cpp:2433
 msgid "&Open game profile"
 msgstr "&Játékprofil megnyitása"
 
-#: MainWindow.cpp:2436
+#: MainWindow.cpp:2434
 msgid "&Create game profile"
 msgstr "&Játékprofil létrehozása"
 
-#: MainWindow.cpp:2438
+#: MainWindow.cpp:2436
 msgid "&Refresh game list"
 msgstr "&Játéklista frissítése"
 
-#: MainWindow.cpp:2452
+#: MainWindow.cpp:2450
 msgid "&Refresh games"
 msgstr "&Játékok frissítése"
 
-#: MainWindow.cpp:2514
+#: MainWindow.cpp:2512
 msgid "Updating game list..."
 msgstr "Játéklista frissítése folyamatban..."
 
-#: MainWindow.cpp:2758
+#: MainWindow.cpp:2694
 msgid "never"
 msgstr "soha"
 
@@ -873,103 +889,83 @@ msgstr "soha"
 msgid "PPC threads"
 msgstr "PPC-szálak"
 
-#: debugPPCThreadsWindow.cpp:43
+#: debugPPCThreadsWindow.cpp:42
 msgid "Address"
 msgstr "Cím"
 
-#: debugPPCThreadsWindow.cpp:48
+#: debugPPCThreadsWindow.cpp:47
 msgid "Entry"
 msgstr "Bejegyzés"
 
-#: debugPPCThreadsWindow.cpp:53
+#: debugPPCThreadsWindow.cpp:52
 msgid "Stack"
 msgstr "Stack"
 
-#: debugPPCThreadsWindow.cpp:58
+#: debugPPCThreadsWindow.cpp:57
 msgid "PC"
 msgstr "PC"
 
-#: debugPPCThreadsWindow.cpp:63
+#: debugPPCThreadsWindow.cpp:62
 msgid "LR"
 msgstr "LR"
 
-#: debugPPCThreadsWindow.cpp:68
+#: debugPPCThreadsWindow.cpp:67
 msgid "State"
 msgstr "Állapot"
 
-#: debugPPCThreadsWindow.cpp:73
+#: debugPPCThreadsWindow.cpp:72
 msgid "Affinity"
 msgstr "Affinitás"
 
-#: debugPPCThreadsWindow.cpp:78
+#: debugPPCThreadsWindow.cpp:77
 msgid "Priority"
 msgstr "Prioritás"
 
-#: debugPPCThreadsWindow.cpp:83
+#: debugPPCThreadsWindow.cpp:82
 msgid "SliceStart"
 msgstr "SliceStart"
 
-#: debugPPCThreadsWindow.cpp:88
+#: debugPPCThreadsWindow.cpp:87
 msgid "SumWakeTime"
 msgstr "SumWakeTime"
 
-#: debugPPCThreadsWindow.cpp:93
+#: debugPPCThreadsWindow.cpp:92
 msgid "ThreadName"
 msgstr "ThreadName"
 
-#: debugPPCThreadsWindow.cpp:98
+#: debugPPCThreadsWindow.cpp:97
 msgid "GPR"
 msgstr "GPR"
 
-#: debugPPCThreadsWindow.cpp:105
+#: debugPPCThreadsWindow.cpp:104 textureRelationWindow.cpp:115
 msgid "Refresh"
 msgstr "Frissítés"
 
-#: debugPPCThreadsWindow.cpp:200
-msgid "UNDEFINED"
-msgstr "NINCS MEGADVA"
+#: debugPPCThreadsWindow.cpp:107
+msgid "Auto refresh"
+msgstr "Automatikus frissítés"
 
-#: debugPPCThreadsWindow.cpp:202
-msgid "SUSPENDED"
-msgstr "FELFÜGGESZTVE"
-
-#: debugPPCThreadsWindow.cpp:204
-msgid "NONE"
-msgstr "NINCS"
-
-#: debugPPCThreadsWindow.cpp:206
-msgid "READY"
-msgstr "KÉSZ"
-
-#: debugPPCThreadsWindow.cpp:208
-msgid "RUNNING"
-msgstr "FUT"
-
-#: debugPPCThreadsWindow.cpp:210
-msgid "WAITING"
-msgstr "VÁRAKOZÁS"
-
-#: debugPPCThreadsWindow.cpp:212
-msgid "MORIBUND"
-msgstr "HALDOKLÁS"
-
-#: debugPPCThreadsWindow.cpp:331
+#: debugPPCThreadsWindow.cpp:319
 msgid "Boost priority (-5)"
 msgstr "Prioritás emelése (-5)"
 
-#: debugPPCThreadsWindow.cpp:332
+#: debugPPCThreadsWindow.cpp:320
 msgid "Boost priority (-1)"
 msgstr "Prioritás emelése (-1)"
 
-#: debugPPCThreadsWindow.cpp:333
+#: debugPPCThreadsWindow.cpp:322
 msgid "Decrease priority (+5)"
 msgstr "Prioritás csökkentése (+5)"
 
-#: debugPPCThreadsWindow.cpp:334
+#: debugPPCThreadsWindow.cpp:323
 msgid "Decrease priority (+1)"
 msgstr "Prioritás csökkentése (+1)"
 
-#: debugPPCThreadsWindow.cpp:335
+#: debugPPCThreadsWindow.cpp:325
+msgid "Resume"
+msgstr "Folytatás"
+
+#: debugPPCThreadsWindow.cpp:326
 msgid "Suspend"
 msgstr "Felfüggesztés"
 
@@ -1002,21 +998,61 @@ msgstr "A Cemu újraindítása szükséges"
 msgid "Yes"
 msgstr "Igen"
 
-#: optionsAudioWindow.cpp:24
-msgid "Surround 5.1"
-msgstr "Surround 5.1"
+#: textureRelationWindow.cpp:39
+msgid "Texture cache"
+msgstr "Textúragyorsítótár"
 
-#: optionsAudioWindow.cpp:29
-msgid "Audio settings"
-msgstr "Hangbeállítások"
+#: textureRelationWindow.cpp:56
+msgid "Type"
+msgstr "Típus"
 
-#: optionsAudioWindow.cpp:40
-msgid "Volume:"
-msgstr "Hangerő:"
+#: textureRelationWindow.cpp:61
+msgid "PhysAddr"
+msgstr "Fizikus Cím"
 
-#: optionsAudioWindow.cpp:44
-msgid "Channels:"
-msgstr "Csatornák:"
+#: textureRelationWindow.cpp:66
+msgid "Dim"
+msgstr "Sötétítés"
+
+#: textureRelationWindow.cpp:71
+msgid "Resolution"
+msgstr "Felbontás"
+
+#: textureRelationWindow.cpp:76
+msgid "Format"
+msgstr "Formátum"
+
+#: textureRelationWindow.cpp:81
+msgid "Pitch"
+msgstr "Magasság"
+
+#: textureRelationWindow.cpp:86
+msgid "Tilemode"
+msgstr "Tilemód"
+
+#: textureRelationWindow.cpp:91
+msgid "SliceRange"
+msgstr "SliceRange"
+
+#: textureRelationWindow.cpp:96
+msgid "MipRange"
+msgstr "MipRange"
+
+#: textureRelationWindow.cpp:101
+msgid "Last access"
+msgstr "Legutóbbi hozzáférés"
+
+#: textureRelationWindow.cpp:106
+msgid "OverwriteRes"
+msgstr "OverwriteRes"
+
+#: textureRelationWindow.cpp:118
+msgid "Show only active"
+msgstr "Csak aktív mutatása"
+
+#: textureRelationWindow.cpp:121
+msgid "Show views"
+msgstr "Nézetek mutatása"
 
 #: toolMemorySearcher.cpp:43
 msgid "Memory Searcher"
@@ -1111,3 +1147,54 @@ msgstr ""
 #: updateWindow.cpp:154
 msgid "Info"
 msgstr "Információ"
+
+#~ msgid "Language:"
+#~ msgstr "Nyelv:"
+
+#~ msgid "Game paths:"
+#~ msgstr "Játékok útvonalai:"
+
+#~ msgid "&Add game path"
+#~ msgstr "&Játékútvonal hozzáadása"
+
+#~ msgid "&Delete game path"
+#~ msgstr "&Játékútvonal eltávolítása"
+
+#~ msgid "Mono"
+#~ msgstr "Monó"
+
+#~ msgid "Surround"
+#~ msgstr "Surround Sound"
+
+#~ msgid "UNDEFINED"
+#~ msgstr "NINCS MEGADVA"
+
+#~ msgid "SUSPENDED"
+#~ msgstr "FELFÜGGESZTVE"
+
+#~ msgid "NONE"
+#~ msgstr "NINCS"
+
+#~ msgid "READY"
+#~ msgstr "KÉSZ"
+
+#~ msgid "RUNNING"
+#~ msgstr "FUT"
+
+#~ msgid "WAITING"
+#~ msgstr "VÁRAKOZÁS"
+
+#~ msgid "MORIBUND"
+#~ msgstr "HALDOKLÁS"
+
+#~ msgid "Surround 5.1"
+#~ msgstr "Surround 5.1"
+
+#~ msgid "Audio settings"
+#~ msgstr "Hangbeállítások"
+
+#~ msgid "Volume:"
+#~ msgstr "Hangerő:"
+
+#~ msgid "Channels:"
+#~ msgstr "Csatornák:"
