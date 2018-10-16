@@ -2,473 +2,447 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-12 22:31+0200\n"
-"PO-Revision-Date: 2018-08-05 18:10+0000\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2018-10-03 21:35+0200\n"
+"PO-Revision-Date: 2018-10-16 15:28+0200\n"
+"Last-Translator: Bartuzen\n"
 "Language-Team: Turkish (Turkey)\n"
-"Language: tr-TR\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Loco-Source-Locale: tr_TR\n"
-"X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Parser: loco_parse_mo"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.1.1\n"
 
-msgid "&About"
-msgstr "&Hakkında"
+#: GeneralSettings2.cpp:36
+msgid "General settings"
+msgstr "Genel ayarlar"
 
-msgid "&Add game path"
-msgstr "&Oyun klasörü ekle"
+#: GeneralSettings2.cpp:50
+msgid "Interface"
+msgstr "Arayüz"
 
-msgid "&Add new entry"
-msgstr "&Yeni girdi ekle"
+#: GeneralSettings2.cpp:57
+msgid "Language"
+msgstr "Dil"
 
-msgid "&Audio API"
-msgstr "&Ses API"
-
-msgid "&Audio settings"
-msgstr "&Ses ayarları"
-
-msgid "&Auto"
-msgstr "&Otomatik"
-
-msgid "&Bicubic"
-msgstr "&Çift kübik"
-
-msgid "&Bilinear"
-msgstr "&Çift çigili"
-
-msgid "&CPU"
-msgstr "&CPU"
-
-msgid "&China"
-msgstr "&Çin"
-
-msgid "&Chinese"
-msgstr "&Çince"
-
-msgid "&Console language"
-msgstr "&Konsol dili"
-
-msgid "&Console region"
-msgstr "&Konsol bölgesi"
-
-msgid "&Coreinit File-Access"
-msgstr "&Çekirdek İçi Dosya Erişimi"
-
-msgid "&Coreinit Memory API"
-msgstr "&Çekirdek İçi Hafıza API"
-
-msgid "&Coreinit Thread-Synchronization API"
-msgstr "&Çekirdek İçi İş Parçacığı-Senkronizasyon API"
-
-msgid "&Create game profile"
-msgstr "&Oyun profili oluştur"
-
-msgid "&Cycle based timer"
-msgstr "&Döngü tabanlı zamanlayıcı"
-
-msgid "&DLC directory"
-msgstr "&DLC klasörü"
-
-msgid "&Debug"
-msgstr "&Ayıklama"
-
-msgid "&Delete game path"
-msgstr "&Oyun klasörünü sil"
-
-msgid "&Disable precompiled shaders"
-msgstr "&Önceden derlenmiş shaderleri kapat"
-
-msgid "&Dual-core recompiler (fast, unstable!)"
-msgstr "&Çift-çekirdek derleyici (hızlı, dengesiz!)"
-
-msgid "&Dump current RAM"
-msgstr "&Geçerli RAM'i boşalt"
-
-msgid "&Dutch"
-msgstr "&Flemenkçe"
-
-msgid "&Enable BotW crash workaround"
-msgstr "&BotW çökme çözümünü aktifleştir"
-
-msgid "&Enable VSync"
-msgstr "&VSync'ı aktif et"
-
-msgid "&Enable online mode"
-msgstr "&Online modu aç"
-
-msgid "&English"
-msgstr "&İngilizce"
-
-msgid "&Europe"
-msgstr "&Avrupa"
-
-msgid "&Exit"
-msgstr "&Çıkış"
-
-msgid "&Experimental"
-msgstr "&Deneysel"
-
-msgid "&File"
-msgstr "&Dosya"
-
-msgid "&French"
-msgstr "&Fransızca"
-
-msgid "&Full sync at GX2DrawDone()"
-msgstr "&GX2DrawDone() tam senkronize"
-
-msgid "&Fullscreen"
-msgstr "&Tam Ekran"
-
-msgid "&Fullscreen scaling"
-msgstr "&Tam ekran ölçeği"
-
-msgid "&GPU buffer cache accuracy"
-msgstr "&GPU önbellek doğruluğu"
-
-msgid "&GX2 API"
-msgstr "&GX2 API"
-
-msgid "&General settings"
-msgstr "&Genel ayarlar"
-
-msgid "&German"
-msgstr "&Almanca"
-
-msgid "&Graphic packs"
-msgstr "&Grafik paketleri"
-
-msgid "&H264 API"
-msgstr "&H264 API"
-
-msgid "&Help"
-msgstr "&Yardım"
-
-msgid "&High (slow)"
-msgstr "&Yüksek (yavaş)"
-
-msgid "&Host based timer (recommended)"
-msgstr "&Ana bilgisayar tabanlı zamanlayıcı"
-
-msgid "&Input API"
-msgstr "&Tuş API"
-
-msgid "&Input settings"
-msgstr "&Tuş ayarları"
-
-msgid "&Install game update or DLC"
-msgstr "&Güncelle veya DLC yükle"
-
-msgid "&Italian"
-msgstr "&İtalyanca"
-
-msgid "&Japan"
-msgstr "&Japonya"
-
-msgid "&Japanese"
-msgstr "&Japonca"
-
-msgid "&Keep aspect ratio"
-msgstr "&En boy oranını koru"
-
-msgid "&Korea"
-msgstr "&Kore"
-
-msgid "&Korean"
-msgstr "&Korece"
-
-msgid "&Load"
-msgstr "&Aç"
-
-msgid "&Logging"
-msgstr "&Kayıtlar"
-
-msgid "&Low (fast)"
-msgstr "&Düşük (hızlı)"
-
-msgid "&Medium"
-msgstr "&Orta"
-
-msgid "&Memory searcher"
-msgstr "&Bellek arayıcı"
-
-msgid "&Mode"
-msgstr "&Mod"
-
-msgid "&NFC"
-msgstr "&NFC"
-
-msgid "&Open game profile"
-msgstr "&Oyun profilini aç"
-
-msgid "&Options"
-msgstr "&Ayarlar"
-
-msgid "&Portuguese"
-msgstr "&Portekizce"
-
-msgid "&Refresh game list"
-msgstr "&Oyun listesini yenile"
-
-msgid "&Refresh games"
-msgstr "&Oyunları yenile"
-
-msgid "&Remove entry"
-msgstr "&Girdiyi sil"
-
-msgid "&Render upside-down"
-msgstr "&Ters göster"
-
-msgid "&Russian"
-msgstr "&Rusça"
-
-msgid "&Save API"
-msgstr "&Kaydetme API"
-
-msgid "&Scan NFC tag from file"
-msgstr "&Dosyadan NFC etiketi tara"
-
-msgid "&Separate GamePad view"
-msgstr "&Kumanda görüntüsünü ayır"
-
-msgid "&Shaders"
-msgstr "&Shaderlar"
-
-msgid "&Single-core interpreter"
-msgstr "&Tek-çekirdek yorumlayıcı"
-
-msgid "&Single-core recompiler (fast)"
-msgstr "&Tek-çekirdek derleyici (hızlı)"
-
-msgid "&Socket API"
-msgstr "&Soket  API"
-
-msgid "&Spanish"
-msgstr "&İspanyolca"
-
-msgid "&Start"
-msgstr "&Başla"
-
-msgid "&Stretch"
-msgstr "&Uzat"
-
-msgid "&Taiwan"
-msgstr "&Tayvan"
-
-msgid "&Taiwanese"
-msgstr "&Tayvanca"
-
-msgid "&Textures"
-msgstr "&Dokular"
-
-msgid "&Timer"
-msgstr "&Zamanlayıcı"
-
-msgid "&Tools"
-msgstr "&Ayarlar"
-
-msgid "&Triple-core recompiler (fast, unstable!)"
-msgstr "&Üçlü-çekirdek derleyici (hızlı, dengesiz!)"
-
-msgid "&USA"
-msgstr "&ADB"
-
-msgid "&Unsupported API calls"
-msgstr "&Desteklenmeyen API çağrıları"
-
-msgid "&Update directory"
-msgstr "&Güncelleme klasörü"
-
-msgid "&Upscale filter"
-msgstr "&Genişletme filtresi"
-
-msgid "&Use RDTSC"
-msgstr "&RDTSC kullan"
-
-msgid "&Use separable shaders"
-msgstr "&Ayrılabilir shader kullan"
-
-msgid "&View PPC debugger"
-msgstr "&PPC ayıklayıcısını göster"
-
-msgid "&View PPC threads"
-msgstr "&PPC iş parçacıklarını göster"
-
-msgid "&View audio debugger"
-msgstr "&Ses ayıklayıcısını göster"
-
-msgid "<double click to add a new entry>"
-msgstr "<yeni bir kayıt eklemek için çift tıkla>"
-
-msgid "Active"
-msgstr "Aktif"
-
-msgid "Address"
-msgstr "Adres"
-
-msgid "Affinity"
-msgstr "İlgi"
-
-msgid "Audio settings"
-msgstr "Ses ayarları"
-
-msgid "Boost priority (-1)"
-msgstr "Öncelik artır (-1)"
-
-msgid "Boost priority (-5)"
-msgstr "Öncelik artır (-5)"
-
-msgid "Calibrate"
-msgstr "Kalibrasyon"
-
-msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
-msgstr "Seçilen \"meta.xml\" dosyasında \"longname_en\" bulunamıyor."
-
-msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
-msgstr "Seçilen \"meta.xml\" dosyasında \"title_id\" bulunamıyor."
-
-msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
-msgstr "Seçilen \"meta.xml\" dosyasında \"title_version\" bulunamıyor."
-
-msgid "Can't open the file."
-msgstr "Dosya açılamıyor."
-
-msgid "Cancel"
-msgstr "İptal"
-
-msgid "Cannot open file"
-msgstr "Dosya açılamıyor"
-
-msgid "Cemu must be restarted to apply the selected UI language."
-msgstr "Dil ayarlarının uygulanması için Cemu yeniden başlatılmalı."
-
-msgid "Channels:"
-msgstr "Kanallar:"
-
-msgid "Clear"
-msgstr "Temizle"
-
-msgid "Clear all currently set input settings"
-msgstr "Ayarlanmış bütün tuşları temizle"
-
-msgid "Configure paths"
-msgstr "Oyun klasörlerini yapılandır"
-
-msgid "Controller API:"
-msgstr "Kumanda API:"
-
-msgid "Controller:"
-msgstr "Kumanda:"
-
-msgid "Couldn't load the selected profile!"
-msgstr "Seçilen profil yüklenemedi!"
-
-msgid "Couldn't save settings for controller {0}"
-msgstr "{0} kumandası için ayarlar kaydedilemedi"
-
-msgid "Couldn't save the profile!"
-msgstr "Profil kaydedilemedi!"
-
-msgid "Current file:"
-msgstr "Geçerli dosya:"
-
-msgid "D-pad"
-msgstr "Yön Düğmeleri"
-
-msgid "DLC"
-msgstr "DLC"
-
-msgid "Deadzone"
-msgstr "Hassasiyet"
-
-msgid "Decrease priority (+1)"
-msgstr "Öncelik azalt (+1)"
-
-msgid "Decrease priority (+5)"
-msgstr "Öncelik azalt (+5)"
-
+#: GeneralSettings2.cpp:59
 msgid "Default"
 msgstr "Varsayılan"
 
-msgid "Delete"
-msgstr "Sil"
+#: GeneralSettings2.cpp:59
+msgid "English"
+msgstr "İngilizce"
 
+#: GeneralSettings2.cpp:75
+msgid "Discord Presence"
+msgstr "Discord Presence"
+
+#: GeneralSettings2.cpp:81
+msgid "Fullscreen menu bar"
+msgstr "Tam ekran menü barı"
+
+#: GeneralSettings2.cpp:91
+msgid "MLC Path"
+msgstr "MLC Klasörü"
+
+#: GeneralSettings2.cpp:109
+msgid "Game Paths"
+msgstr "Oyun Klasörleri"
+
+#: GeneralSettings2.cpp:120
+msgid "Add"
+msgstr "Ekle"
+
+#: GeneralSettings2.cpp:124
+msgid "Remove"
+msgstr "Kaldır"
+
+#: GeneralSettings2.cpp:133 GeneralSettings2.cpp:187
+msgid "General"
+msgstr "Genel"
+
+#: GeneralSettings2.cpp:141
+msgid "Misc"
+msgstr "Çeşitli"
+
+#: GeneralSettings2.cpp:148
+msgid "VSync"
+msgstr "VSync"
+
+#: GeneralSettings2.cpp:151
+msgid "Full sync at GX2DrawDone()"
+msgstr "GX2DrawDone() tam senkronize"
+
+#: GeneralSettings2.cpp:154
+msgid "Use separable shaders"
+msgstr "Ayrılabilir shader kullan (Seperable)"
+
+#: GeneralSettings2.cpp:157
+msgid "Disable precompiled shaders"
+msgstr "Önceden derlenmiş shaderleri kapat"
+
+#: GeneralSettings2.cpp:165
+msgid "Bilinear"
+msgstr "Çift çigili (Bilinear)"
+
+#: GeneralSettings2.cpp:165
+msgid "Bicubic"
+msgstr "Çift kübik (Bicubic)"
+
+#: GeneralSettings2.cpp:166
+msgid "Upscale filter"
+msgstr "Genişletme filtresi"
+
+#: GeneralSettings2.cpp:171
+msgid "Keep aspect ratio"
+msgstr "En boy oranını koru"
+
+#: GeneralSettings2.cpp:171
+msgid "Stretch"
+msgstr "Uzat"
+
+#: GeneralSettings2.cpp:172
+msgid "Fullscreen scaling"
+msgstr "Tam ekran ölçeği"
+
+#: GeneralSettings2.cpp:177
+msgid "Graphics"
+msgstr "Grafik"
+
+#: GeneralSettings2.cpp:194
+msgid "API"
+msgstr "API"
+
+#: GeneralSettings2.cpp:211
+msgid "Latency"
+msgstr "Gecikme"
+
+#: GeneralSettings2.cpp:224
+msgid "Stereo"
+msgstr "Stereo"
+
+#: GeneralSettings2.cpp:226
+msgid "TV"
+msgstr "Televizyon"
+
+#: GeneralSettings2.cpp:233 GeneralSettings2.cpp:269
+msgid "Device"
+msgstr "Cihaz"
+
+#: GeneralSettings2.cpp:241 GeneralSettings2.cpp:274
+msgid "Channels"
+msgstr "Kanallar"
+
+#: GeneralSettings2.cpp:248 GeneralSettings2.cpp:280 InputPanelGamepad.cpp:168
+#: InputPanelWiimote.cpp:100
+msgid "Volume"
+msgstr "Ses"
+
+#: GeneralSettings2.cpp:262
+msgid "Gamepad"
+msgstr "Kumanda"
+
+#: GeneralSettings2.cpp:295
+msgid "Audio"
+msgstr "Ses"
+
+#: GeneralSettings2.cpp:303 MainWindow.cpp:513 MainWindow.cpp:532
+#: MainWindow.cpp:538 MainWindow.cpp:1056
+msgid "Warning"
+msgstr "Uyarı"
+
+#: GeneralSettings2.cpp:306
 msgid ""
-"Do you really want to cancel the update process?\n"
-"\n"
-"Canceling the process will delete the applied update."
+"Please be aware that online mode lets you connect to OFFICIAL servers and "
+"therefore there is a risk of getting banned.\n"
+"Only proceed if you are willing to risk losing online access with your Wii U "
+"and/or NNID."
 msgstr ""
-"Güncelleme işlemini durdurmak istediğinden emin misin?\n"
-"\n"
-"İşlemi iptal etmek geçerli güncellemeyi silecek."
+"Lütfen bu çevrimiçi modun sizi RESMİ sunuculara bağladığından ve bu nedenle "
+"yasaklanma riskiniz olduğunu unutmayın.\n"
+"Sadece eğer Wii U'nuzun çevrimiçi özelliğini ve/veya NNID'nizi  kaybetme "
+"riskini göze alıyorsanız devam edin."
 
-msgid "Emulate Controller"
-msgstr "Taklit Edilecek Kumanda"
+#: GeneralSettings2.cpp:314
+msgid "Account settings"
+msgstr "Hesap ayarları"
 
-msgid "Emulate Controller:"
-msgstr "Kumanda Taklit Et:"
+#: GeneralSettings2.cpp:321
+msgid "Active account"
+msgstr "Aktif hesap"
 
-msgid "Entry"
-msgstr "Girdi"
+#: GeneralSettings2.cpp:333
+msgid "Account information"
+msgstr "Hesap bilgisi"
 
-msgid "Error"
-msgstr "Hata"
+#: GeneralSettings2.cpp:342
+msgid "Id"
+msgstr "Id"
 
-msgid "Error Code:"
-msgstr "Hata Kodu:"
+#: GeneralSettings2.cpp:345
+msgid "E-Mail"
+msgstr "E-Posta"
 
-msgid "Error:"
-msgstr "Hata:"
+#: GeneralSettings2.cpp:348
+msgid "Birthday"
+msgstr "Doğum Günü"
 
-msgid "Extensions:"
-msgstr "Eklentiler:"
+#: GeneralSettings2.cpp:351
+msgid "Country"
+msgstr "Ülke"
 
-msgid "Failed to launch file."
-msgstr "Dosya açılamadı."
+#: GeneralSettings2.cpp:361
+msgid "Online"
+msgstr "Çevrimiçi"
 
-msgid "Filter"
-msgstr "Filtre"
+#: GeneralSettings2.cpp:472 GeneralSettings2.cpp:645
+msgid "Online disabled"
+msgstr "Çevrimiçi pasif"
 
-msgid "GPR"
-msgstr "GPR"
+#: GeneralSettings2.cpp:554 GeneralSettings2.cpp:555
+msgid "Disabled"
+msgstr "Pasif"
 
-msgid "Game"
-msgstr "Oyun"
+#: GeneralSettings2.cpp:875
+msgid "Select a directory containing games."
+msgstr "Oyunları içeren bir klasör seç."
 
-msgid "Game paths:"
-msgstr "Oyun klasörleri:"
+#: GeneralSettings2.cpp:910
+msgid "Select a mlc directory"
+msgstr "Bir mlc klasörü seçin"
 
+#: GraphicPacksWindow2.cpp:41 graphicPacksWindow.cpp:36
 msgid "Graphic packs"
 msgstr "Grafik paketleri"
 
-msgid "Info"
-msgstr "Bilgi"
+#: GraphicPacksWindow2.cpp:71
+msgid "Graphic pack"
+msgstr "Grafik paketi"
 
-msgid "Information"
-msgstr "Bilgi"
+#: GraphicPacksWindow2.cpp:81
+msgid "Active preset"
+msgstr "Aktif paket"
 
+#: GraphicPacksWindow2.cpp:93
+msgid "Description"
+msgstr "Açıklama"
+
+#: GraphicPacksWindow2.cpp:103
+msgid "Control"
+msgstr "Kontrol"
+
+#: GraphicPacksWindow2.cpp:224
+msgid "This is an old graphic pack, therefore it has no description."
+msgstr "Bu eski bir grafik paketi, bu nedenle açıklaması yok."
+
+#: GraphicPacksWindow2.cpp:248
+msgid "This graphic pack has no description"
+msgstr "Bu grafik paketinin açıklaması yok"
+
+#: GraphicPacksWindow2.cpp:305 GraphicPacksWindow2.cpp:347
+#: GraphicPacksWindow2.cpp:359
+msgid "Restart of Cemu required for changes to take effect"
+msgstr ""
+"Değişikliklerin uygulanması için Cemu'nun yeniden başlatılması gerekiyor"
+
+#: InputPanelClassic.cpp:54 InputPanelGamepad.cpp:66 InputPanelPro.cpp:48
+msgid "Left Axis"
+msgstr "Sol Çubuk"
+
+#: InputPanelClassic.cpp:76 InputPanelClassic.cpp:135 InputPanelGamepad.cpp:88
+#: InputPanelGamepad.cpp:147 InputPanelPro.cpp:70 InputPanelPro.cpp:129
+#: InputPanelWiimote.cpp:159
+msgid "Deadzone"
+msgstr "Hassasiyet"
+
+#: InputPanelClassic.cpp:86 InputPanelClassic.cpp:145 InputPanelGamepad.cpp:98
+#: InputPanelGamepad.cpp:157 InputPanelPro.cpp:80 InputPanelPro.cpp:139
+#: InputPanelWiimote.cpp:170
+msgid "Range"
+msgstr "Menzil"
+
+#: InputPanelClassic.cpp:97 InputPanelGamepad.cpp:109 InputPanelPro.cpp:91
+#: InputPanelWiimote.cpp:115
+msgid "Rumble"
+msgstr "Titreşim"
+
+#: InputPanelClassic.cpp:112 InputPanelGamepad.cpp:124 InputPanelPro.cpp:106
+msgid "Right Axis"
+msgstr "Sağ Çubuk"
+
+#: InputPanelClassic.cpp:160 InputPanelGamepad.cpp:188 InputPanelPro.cpp:154
+#: InputPanelWiimote.cpp:78
+msgid "D-pad"
+msgstr "Yön Düğmeleri"
+
+#: InputPanelGamepad.cpp:210
+msgid "blow mic"
+msgstr "mik. üfleme"
+
+#: InputPanelGamepad.cpp:222
+msgid "show screen"
+msgstr "Ekranı göster"
+
+#: InputPanelWiimote.cpp:37
+msgid "Extensions:"
+msgstr "Eklentiler:"
+
+#: InputPanelWiimote.cpp:40
+msgid "MotionPlus"
+msgstr "MotionPlus:"
+
+#: InputPanelWiimote.cpp:44 InputPanelWiimote.cpp:131
+msgid "Nunchuck"
+msgstr "Nunchuck"
+
+#: InputSettings.cpp:44
 msgid "Input Settings"
 msgstr "Tuş Ayarları"
 
-msgid "Installing DLC ..."
-msgstr "DLC yükleniyor ..."
+#: InputSettings.cpp:96
+msgid "Couldn't save settings for controller {0}"
+msgstr "{0} kumandası için ayarlar kaydedilemedi"
 
-msgid "Installing update ..."
-msgstr "Güncelleme yükleniyor ..."
+#: InputSettings.cpp:96 InputSettings.cpp:436 InputSettings.cpp:442
+#: InputSettings.cpp:509 InputSettings.cpp:523 InputSettings.cpp:529
+#: InputSettings.cpp:534 InputSettings.cpp:547 MainWindow.cpp:2289
+#: MainWindow.cpp:2293 MainWindow.cpp:2297 MainWindow.cpp:2301
+#: MainWindow.cpp:2306 MainWindow.cpp:2314 toolMemorySearcher.cpp:164
+msgid "Error"
+msgstr "Hata"
 
+#: InputSettings.cpp:153
+msgid "Profile"
+msgstr "Profil"
+
+#: InputSettings.cpp:161
+msgid "Load"
+msgstr "Yükle"
+
+#: InputSettings.cpp:165
+msgid "Save"
+msgstr "Kaydet"
+
+#: InputSettings.cpp:169
+msgid "Delete"
+msgstr "Sil"
+
+#: InputSettings.cpp:176
+msgid "Emulate Controller"
+msgstr "Taklit Edilecek Kumanda"
+
+#: InputSettings.cpp:190
+msgid "Controller API:"
+msgstr "Kumanda API:"
+
+#: InputSettings.cpp:222
+msgid "Controller:"
+msgstr "Kumanda:"
+
+#: InputSettings.cpp:233
+msgid "Test if the controller is connected"
+msgstr "Kumandanın bağlanıp bağlanmadığını kontrol et"
+
+#: InputSettings.cpp:237
+msgid "Calibrate"
+msgstr "Kalibrasyon"
+
+#: InputSettings.cpp:239
+msgid "Reset the default state of the controller"
+msgstr "Kumandanın varsayılan ayarlarına döndür"
+
+#: InputSettings.cpp:243 toolMemorySearcher.cpp:170
+msgid "Clear"
+msgstr "Temizle"
+
+#: InputSettings.cpp:245
+msgid "Clear all currently set input settings"
+msgstr "Ayarlanmış bütün tuşları temizle"
+
+#: InputSettings.cpp:436 InputSettings.cpp:547
+msgid "No profile name selected!"
+msgstr "Profil seçilmedi!"
+
+#: InputSettings.cpp:442 InputSettings.cpp:529
+msgid "The given profile name is not valid!"
+msgstr "Bu profil geçerli değil!"
+
+#: InputSettings.cpp:509
+msgid "Couldn't load the selected profile!"
+msgstr "Seçilen profil yüklenemedi!"
+
+#: InputSettings.cpp:523
+msgid "No profile name entered!"
+msgstr "Profil adı girilmedi!"
+
+#: InputSettings.cpp:534
+msgid "Couldn't save the profile!"
+msgstr "Profil kaydedilemedi!"
+
+#: InputSettings.cpp:882
+msgid "Searching for wiimotes..."
+msgstr "Wiimoteler aranıyor..."
+
+#: MainWindow.cpp:278
+msgid "Game"
+msgstr "Oyun"
+
+#: MainWindow.cpp:284
+msgid "Version"
+msgstr "Sürüm"
+
+#: MainWindow.cpp:291
+msgid "DLC"
+msgstr "DLC"
+
+#: MainWindow.cpp:298
+msgid "You've played"
+msgstr "Oynama Süren"
+
+#: MainWindow.cpp:304
+msgid "Last played"
+msgstr "Son oynama"
+
+#: MainWindow.cpp:416 MainWindow.cpp:422
+msgid "Can't open the file."
+msgstr "Dosya açılamıyor."
+
+#: MainWindow.cpp:426
 msgid "Invalid \"meta.xml\" file."
 msgstr "Geçersiz \"meta.xml\" dosyası."
 
+#: MainWindow.cpp:430
+msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
+msgstr "Seçilen \"meta.xml\" dosyasında \"title_id\" bulunamıyor."
+
+#: MainWindow.cpp:448
+msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
+msgstr "Seçilen \"meta.xml\" dosyasında \"title_version\" bulunamıyor."
+
+#: MainWindow.cpp:452
+msgid "The given \"meta.xml\" file is no update or DLC."
+msgstr "Verilen \"meta.xml\" güncelleme veya DLC değil."
+
+#: MainWindow.cpp:457
+msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
+msgstr "Seçilen \"meta.xml\" dosyasında \"longname_en\" bulunamıyor."
+
+#: MainWindow.cpp:484
 msgid "Invalid folder structure"
 msgstr "Bilinmeyen dosya yapısı"
 
+#: MainWindow.cpp:513
 msgid ""
 "It seems that a DLC is already installed, do you still want to install it?"
 msgstr "DLC zaten yüklenmiş, yeniden yüklemek ister misin?"
 
+#: MainWindow.cpp:532
+msgid ""
+"It seems that the selected update is already installed, do you want to "
+"reinstall it?"
+msgstr "Güncelleme zaten yüklenmiş, yeniden yüklemek ister misin?"
+
+#: MainWindow.cpp:538
 msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
@@ -476,59 +450,7 @@ msgstr ""
 "Daha yeni bir sürüm zaten yüklenmiş, yine de eski sürümü yüklemek ister "
 "misin?"
 
-msgid ""
-"It seems that the selected update is already installed, do you want to "
-"reinstall it?"
-msgstr "Güncelleme zaten yüklenmiş, yeniden yüklemek ister misin?"
-
-msgid "LR"
-msgstr "LR"
-
-msgid "Language:"
-msgstr "Dil:"
-
-msgid "Last played"
-msgstr "Son oynama"
-
-msgid "Left Axis"
-msgstr "Sol Çubuk"
-
-msgid "Load"
-msgstr "Yükle"
-
-msgid "Loading, please wait!"
-msgstr "Yükleniyor, lütfen bekle!"
-
-msgid "MORIBUND"
-msgstr "CAN ÇEKİŞİYOR"
-
-msgid "Memory Searcher"
-msgstr "Hafıza Arayıcı"
-
-msgid "Mono"
-msgstr "Mono"
-
-msgid "MotionPlus"
-msgstr "MotionPlus:"
-
-msgid "NONE"
-msgstr "YOK"
-
-msgid "Name"
-msgstr "İsim"
-
-msgid "No profile name entered!"
-msgstr "Profil adı girilmedi!"
-
-msgid "No profile name selected!"
-msgstr "Profil seçilmedi!"
-
-msgid "No profile selected!"
-msgstr "Profil seçilmedi!"
-
-msgid "Not a valid NFC NTAG215 file"
-msgstr "Geçerli bir NFC NTAG215 dosyası değil"
-
+#: MainWindow.cpp:553
 msgid ""
 "Not enough space available.\n"
 "Required: {0} MB\n"
@@ -538,160 +460,55 @@ msgstr ""
 "Gereken: {0} MB\n"
 "Bulunan: {1} MB"
 
-msgid "Nunchuck"
-msgstr "Nunchuck"
-
-msgid "On/Off"
-msgstr "Açık/Kapalı"
-
-msgid "Open file to launch"
-msgstr "Başlatma için dosya seç"
-
-msgid "Open file to load"
-msgstr "Yüklemek için dosya seç"
-
-msgid "PC"
-msgstr "PC"
-
-msgid "PPC threads"
-msgstr "PPC iş parçacıkları"
-
-msgid "Priority"
-msgstr "Öncelik"
-
-msgid "Profile"
-msgstr "Profil"
-
-msgid "READY"
-msgstr "HAZIR"
-
-msgid "RUNNING"
-msgstr "ÇALIŞIYOR"
-
-msgid "Range"
-msgstr "Menzil"
-
-msgid "Refresh"
-msgstr "Yenile"
-
-msgid "Reset the default state of the controller"
-msgstr "Kumandanın varsayılan ayarlarına döndür"
-
-msgid "Restart of Cemu required"
-msgstr "Cemu yeniden başlatılmalı"
-
-msgid "Results"
-msgstr "Sonuçlar"
-
-msgid "Results ({0})"
-msgstr "Sonuçlar ({0})"
-
-msgid "Right Axis"
-msgstr "Sağ Çubuk"
-
-msgid "Rumble"
-msgstr "Titreşim"
-
-msgid "SUSPENDED"
-msgstr "ASKIYA ALINDI"
-
-msgid "Sa&ve directory"
-msgstr "&Kayıt klaösür"
-
-msgid "Save"
-msgstr "Kaydet"
-
-msgid "Search"
-msgstr "Ara"
-
-msgid "Searching for wiimotes..."
-msgstr "Wiimoteler aranıyor..."
-
-msgid "Select a directory containing games."
-msgstr "Oyunları içeren bir klasör seç."
-
-msgid "SliceStart"
-msgstr "DilimBaşlangıç"
-
-msgid "Stack"
-msgstr "Yığın"
-
-msgid "State"
-msgstr "Durum"
-
-msgid "Stereo"
-msgstr "Stero"
-
-msgid "Stored Entries"
-msgstr "Depolanmış Girdiler"
-
-msgid "Success"
-msgstr "Başarılı"
-
-msgid "SumWakeTime"
-msgstr "ToplamUyanıkZaman"
-
-msgid "Surround 5.1"
-msgstr "Çevrele 5.1"
-
-msgid "Suspend"
-msgstr "Askıya al"
-
-msgid "Test if the controller is connected"
-msgstr "Kumandanın bağlanıp bağlanmadığını kontrol et"
-
-msgid ""
-"The currently running game is corrupted or incomplete. (Missing /meta/meta."
-"xml) Graphic packs cannot be applied."
-msgstr ""
-"Bu oyun ya bozulmuş yada tamamlanmamış. (/meta/meta.xml eksik) Grafik "
-"paketleri uygulanmadı"
-
-msgid "The given \"meta.xml\" file is no update or DLC."
-msgstr "Verilen \"meta.xml\" güncelleme veya DLC değil."
-
-msgid "The given profile name is invalid!"
-msgstr "Seçilen profil geçersiz"
-
-msgid "The given profile name is not valid!"
-msgstr "Bu profil geçerli değil!"
-
-msgid "ThreadName"
-msgstr "İşParçacığıAdı"
-
-msgid "UNDEFINED"
-msgstr "BELİRLENMEDİ"
-
-msgid "Unable to open file."
-msgstr "Dosya açılamıyor."
-
-msgid "Unknown error occured"
-msgstr "Bilinmeyen bir hata oldu"
-
-msgid "Unknown file type."
-msgstr "Bilinmeyen dosya türü."
-
-msgid "Update installation has been canceled!"
-msgstr "Güncelleme yüklemesi iptal edildi!"
-
+#: MainWindow.cpp:590
 msgid "Update installed!"
 msgstr "Güncelleme yüklendi!"
 
-msgid "Updating game list..."
-msgstr "&Oyun listesi güncelleniyor..."
+#: MainWindow.cpp:590
+msgid "Success"
+msgstr "Başarılı"
 
-msgid "Version"
-msgstr "Sürüm"
+#: MainWindow.cpp:595
+msgid "Update installation has been canceled!"
+msgstr "Güncelleme yüklemesi iptal edildi!"
 
-msgid "Volume"
-msgstr "Ses"
+#: MainWindow.cpp:615
+msgid "Unable to open file."
+msgstr "Dosya açılamıyor."
 
-msgid "Volume:"
-msgstr "Ses:"
+#: MainWindow.cpp:617
+msgid "Unknown file type."
+msgstr "Bilinmeyen dosya türü."
 
-msgid "WAITING"
-msgstr "BEKLİYOR"
+#: MainWindow.cpp:619
+msgid "Failed to launch file."
+msgstr "Dosya açılamadı."
 
+#: MainWindow.cpp:688 MainWindow.cpp:716
+msgid "Open file to launch"
+msgstr "Başlatma için dosya seç"
+
+#: MainWindow.cpp:729
+msgid "Open file to load"
+msgstr "Yüklemek için dosya seç"
+
+#: MainWindow.cpp:738 MainWindow.cpp:761
+msgid "Cannot open file"
+msgstr "Dosya açılamıyor"
+
+#: MainWindow.cpp:740 MainWindow.cpp:763
+msgid "Not a valid NFC NTAG215 file"
+msgstr "Geçerli bir NFC NTAG215 dosyası değil"
+
+#: MainWindow.cpp:880
+msgid "Cemu must be restarted to apply the selected UI language."
+msgstr "Dil ayarlarının uygulanması için Cemu yeniden başlatılmalı."
+
+#: MainWindow.cpp:880
+msgid "Information"
+msgstr "Bilgi"
+
+#: MainWindow.cpp:1055
 msgid ""
 "WARNING - Please be aware that online mode lets you connect to OFFICIAL "
 "servers and therefore there is a risk of getting banned. Only proceed if you "
@@ -702,68 +519,711 @@ msgstr ""
 "çevrimiçi özelliğini ve/veya NNID'nizi  kaybetme riskini göze alıyorsanız "
 "devam edin."
 
-msgid "Warning"
-msgstr "Uyarı"
-
-msgid "Yes"
-msgstr "Evet"
-
+#: MainWindow.cpp:1570
 msgid "You can configure game paths in the general settings."
 msgstr "Oyun klasörlerini genel ayarlardan yapılandırabilirsin."
 
-msgid "You've played"
-msgstr "Oynadın"
+#: MainWindow.cpp:1642
+msgid "Loading, please wait!"
+msgstr "Yükleniyor, lütfen bekle!"
 
-msgid "Your entered value is not valid for the selected datatype."
-msgstr "Girdiğin değer bu veri tipine uygun değil."
+#: MainWindow.cpp:2092
+msgid "&Load"
+msgstr "&Aç"
 
-msgid "address"
-msgstr "adres"
+#: MainWindow.cpp:2093
+msgid "&Install game update or DLC"
+msgstr "&Güncelle veya DLC yükle"
 
-msgid "blow mic"
-msgstr "mik. üfleme"
+#: MainWindow.cpp:2117
+msgid "&Exit"
+msgstr "&Çıkış"
 
-msgid "click"
-msgstr "Tıklama"
+#: MainWindow.cpp:2118
+msgid "&File"
+msgstr "&Dosya"
 
-msgid "description"
-msgstr "açıklama"
+#: MainWindow.cpp:2121
+msgid "&Auto"
+msgstr "&Otomatik"
 
-msgid "down"
-msgstr "Aşağı"
+#: MainWindow.cpp:2123
+msgid "&USA"
+msgstr "&ADB"
 
-msgid "freeze"
-msgstr "Dondur"
+#: MainWindow.cpp:2124
+msgid "&Europe"
+msgstr "&Avrupa"
 
-msgid "left"
-msgstr "Sol"
+#: MainWindow.cpp:2125
+msgid "&Japan"
+msgstr "&Japonya"
 
-msgid "never"
-msgstr "Asla"
+#: MainWindow.cpp:2127
+msgid "&China"
+msgstr "&Çin"
 
+#: MainWindow.cpp:2128
+msgid "&Korea"
+msgstr "&Kore"
+
+#: MainWindow.cpp:2129
+msgid "&Taiwan"
+msgstr "&Tayvan"
+
+#: MainWindow.cpp:2133
+msgid "&English"
+msgstr "&İngilizce"
+
+#: MainWindow.cpp:2134
+msgid "&Japanese"
+msgstr "&Japonca"
+
+#: MainWindow.cpp:2135
+msgid "&French"
+msgstr "&Fransızca"
+
+#: MainWindow.cpp:2136
+msgid "&German"
+msgstr "&Almanca"
+
+#: MainWindow.cpp:2137
+msgid "&Italian"
+msgstr "&İtalyanca"
+
+#: MainWindow.cpp:2138
+msgid "&Spanish"
+msgstr "&İspanyolca"
+
+#: MainWindow.cpp:2139
+msgid "&Chinese"
+msgstr "&Çince"
+
+#: MainWindow.cpp:2140
+msgid "&Korean"
+msgstr "&Korece"
+
+#: MainWindow.cpp:2141
+msgid "&Dutch"
+msgstr "&Flemenkçe"
+
+#: MainWindow.cpp:2142
+msgid "&Portuguese"
+msgstr "&Portekizce"
+
+#: MainWindow.cpp:2143
+msgid "&Russian"
+msgstr "&Rusça"
+
+#: MainWindow.cpp:2144
+msgid "&Taiwanese"
+msgstr "&Tayvanca"
+
+#: MainWindow.cpp:2150
+msgid "&High (slow)"
+msgstr "&Yüksek (yavaş)"
+
+#: MainWindow.cpp:2151
+msgid "&Medium"
+msgstr "&Orta"
+
+#: MainWindow.cpp:2152
+msgid "&Low (fast)"
+msgstr "&Düşük (hızlı)"
+
+#: MainWindow.cpp:2156
+msgid "&Fullscreen"
+msgstr "&Tam ekran"
+
+#: MainWindow.cpp:2157
+msgid "&Graphic packs"
+msgstr "&Grafik paketleri"
+
+#: MainWindow.cpp:2158
+msgid "&GPU buffer cache accuracy"
+msgstr "&GPU önbellek doğruluğu"
+
+#: MainWindow.cpp:2159
+msgid "&Separate GamePad view"
+msgstr "&Kumanda görüntüsünü ayır"
+
+#: MainWindow.cpp:2162
+msgid "&General settings"
+msgstr "&Genel ayarlar"
+
+#: MainWindow.cpp:2163
+msgid "&Input settings"
+msgstr "&Tuş ayarları"
+
+#: MainWindow.cpp:2168
+msgid "&Use RDTSC"
+msgstr "&RDTSC kullan"
+
+#: MainWindow.cpp:2176
+msgid "&Experimental"
+msgstr "&Deneysel"
+
+#: MainWindow.cpp:2179
+msgid "&Console region"
+msgstr "&Konsol bölgesi"
+
+#: MainWindow.cpp:2180
+msgid "&Console language"
+msgstr "&Konsol dili"
+
+#: MainWindow.cpp:2181
+msgid "&Options"
+msgstr "&Ayarlar"
+
+#: MainWindow.cpp:2185
+msgid "&Memory searcher"
+msgstr "&Bellek arayıcı"
+
+#: MainWindow.cpp:2187
+msgid "&Tools"
+msgstr "&Araçlar"
+
+#: MainWindow.cpp:2192
+msgid "&Single-core interpreter"
+msgstr "&Tek-çekirdek yorumlayıcı"
+
+#: MainWindow.cpp:2193
+msgid "&Single-core recompiler (fast)"
+msgstr "&Tek-çekirdek derleyici (hızlı)"
+
+#: MainWindow.cpp:2194
+msgid "&Dual-core recompiler (fast, unstable!)"
+msgstr "&Çift-çekirdek derleyici (hızlı, dengesiz!)"
+
+#: MainWindow.cpp:2195
+msgid "&Triple-core recompiler (fast, unstable!)"
+msgstr "&Üçlü-çekirdek derleyici (hızlı, dengesiz!)"
+
+#: MainWindow.cpp:2199
+msgid "&Cycle based timer"
+msgstr "&Döngü tabanlı zamanlayıcı"
+
+#: MainWindow.cpp:2200
+msgid "&Host based timer (recommended)"
+msgstr "&Ana bilgisayar tabanlı zamanlayıcı (tavsiye edilen)"
+
+#: MainWindow.cpp:2203
+msgid "&Mode"
+msgstr "&Mod"
+
+#: MainWindow.cpp:2204
+msgid "&Timer"
+msgstr "&Zamanlayıcı"
+
+#: MainWindow.cpp:2205
+msgid "&CPU"
+msgstr "&CPU"
+
+#: MainWindow.cpp:2209
+msgid "&Scan NFC tag from file"
+msgstr "&Dosyadan NFC etiketi tara"
+
+#: MainWindow.cpp:2210
+msgid "&NFC"
+msgstr "&NFC"
+
+#: MainWindow.cpp:2216
+msgid "&Unsupported API calls"
+msgstr "&Desteklenmeyen API çağrıları"
+
+#: MainWindow.cpp:2217
+msgid "&Coreinit File-Access"
+msgstr "&Çekirdek İçi Dosya Erişimi"
+
+#: MainWindow.cpp:2218
+msgid "&Coreinit Thread-Synchronization API"
+msgstr "&Çekirdek İçi İş Parçacığı-Senkronizasyon API"
+
+#: MainWindow.cpp:2219
+msgid "&Coreinit Memory API"
+msgstr "&Çekirdek İçi Hafıza API"
+
+#: MainWindow.cpp:2220
+msgid "&GX2 API"
+msgstr "&GX2 API"
+
+#: MainWindow.cpp:2221
+msgid "&Audio API"
+msgstr "&Ses API"
+
+#: MainWindow.cpp:2222
+msgid "&Input API"
+msgstr "&Tuş API"
+
+#: MainWindow.cpp:2223
+msgid "&Socket API"
+msgstr "&Soket  API"
+
+#: MainWindow.cpp:2224
+msgid "&Save API"
+msgstr "&Kaydetme API"
+
+#: MainWindow.cpp:2225
+msgid "&H264 API"
+msgstr "&H264 API"
+
+#: MainWindow.cpp:2227
+msgid "&OpenGL debug output"
+msgstr "&OpenGL ayıklama çıkışı (debug)"
+
+#: MainWindow.cpp:2231
+msgid "&Textures"
+msgstr "&Dokular"
+
+#: MainWindow.cpp:2232
+msgid "&Shaders"
+msgstr "&Shaderlar"
+
+#: MainWindow.cpp:2236
+msgid "&Logging"
+msgstr "&Kayıtlar"
+
+#: MainWindow.cpp:2237
+msgid "&Dump"
+msgstr "&Boşalt"
+
+#: MainWindow.cpp:2241 MainWindow.cpp:2246
+msgid "&Render upside-down"
+msgstr "&Ters göster"
+
+#: MainWindow.cpp:2249
+msgid "&View PPC threads"
+msgstr "&PPC iş parçacıklarını göster"
+
+#: MainWindow.cpp:2251
+msgid "&View PPC debugger"
+msgstr "&PPC ayıklayıcısını göster"
+
+#: MainWindow.cpp:2253
+msgid "&View audio debugger"
+msgstr "&Ses ayıklayıcısını göster"
+
+#: MainWindow.cpp:2254
+msgid "&View texture cache info"
+msgstr "&Doku önbelleği bilgisin göster"
+
+#: MainWindow.cpp:2256
+msgid "&Dump current RAM"
+msgstr "&Geçerli RAM'i boşalt"
+
+#: MainWindow.cpp:2259
+msgid "&Debug"
+msgstr "&Ayıklama"
+
+#: MainWindow.cpp:2264
+msgid "&About"
+msgstr "&Hakkında"
+
+#: MainWindow.cpp:2265
+msgid "&Help"
+msgstr "&Yardım"
+
+#: MainWindow.cpp:2289
 msgid "otp.bin could not be found"
 msgstr "otp.bin bulunamadı"
 
+#: MainWindow.cpp:2293
 msgid "otp.bin is corrupted or has invalid size"
 msgstr "otp.bin bozuk veya boyutu geçersiz"
 
-msgid "right"
-msgstr "Sağ"
-
+#: MainWindow.cpp:2297
 msgid "seeprom.bin could not be found"
 msgstr "seeprom.bin bulunamadı"
 
+#: MainWindow.cpp:2301
 msgid "seeprom.bin is corrupted or has invalid size"
 msgstr "seeprom.bin bozuk veya boyutu geçersiz"
 
-msgid "show screen"
-msgstr "Ekranı göster"
+#: MainWindow.cpp:2314
+msgid "Unknown error occured"
+msgstr "Bilinmeyen bir hata oldu"
 
-msgid "type"
+#: MainWindow.cpp:2427
+msgid "&Start"
+msgstr "&Başla"
+
+#: MainWindow.cpp:2429
+msgid "Sa&ve directory"
+msgstr "&Kayıt klaösür"
+
+#: MainWindow.cpp:2430
+msgid "&Update directory"
+msgstr "&Güncelleme klasörü"
+
+#: MainWindow.cpp:2431
+msgid "&DLC directory"
+msgstr "&DLC klasörü"
+
+#: MainWindow.cpp:2433
+msgid "&Open game profile"
+msgstr "&Oyun profilini aç"
+
+#: MainWindow.cpp:2434
+msgid "&Create game profile"
+msgstr "&Oyun profili oluştur"
+
+#: MainWindow.cpp:2436
+msgid "&Refresh game list"
+msgstr "&Oyun listesini yenile"
+
+#: MainWindow.cpp:2450
+msgid "&Refresh games"
+msgstr "&Oyunları yenile"
+
+#: MainWindow.cpp:2512
+msgid "Updating game list..."
+msgstr "Oyun listesi güncelleniyor..."
+
+#: MainWindow.cpp:2694
+msgid "never"
+msgstr "asla"
+
+#: debugPPCThreadsWindow.cpp:30
+msgid "PPC threads"
+msgstr "PPC iş parçacıkları"
+
+#: debugPPCThreadsWindow.cpp:42
+msgid "Address"
+msgstr "Adres"
+
+#: debugPPCThreadsWindow.cpp:47
+msgid "Entry"
+msgstr "Girdi"
+
+#: debugPPCThreadsWindow.cpp:52
+msgid "Stack"
+msgstr "Yığın"
+
+#: debugPPCThreadsWindow.cpp:57
+msgid "PC"
+msgstr "PC"
+
+#: debugPPCThreadsWindow.cpp:62
+msgid "LR"
+msgstr "LR"
+
+#: debugPPCThreadsWindow.cpp:67
+msgid "State"
+msgstr "Durum"
+
+#: debugPPCThreadsWindow.cpp:72
+msgid "Affinity"
+msgstr "İlgi"
+
+#: debugPPCThreadsWindow.cpp:77
+msgid "Priority"
+msgstr "Öncelik"
+
+#: debugPPCThreadsWindow.cpp:82
+msgid "SliceStart"
+msgstr "SliceStart"
+
+#: debugPPCThreadsWindow.cpp:87
+msgid "SumWakeTime"
+msgstr "SumWakeTime"
+
+#: debugPPCThreadsWindow.cpp:92
+msgid "ThreadName"
+msgstr "İşParçacığıAdı"
+
+#: debugPPCThreadsWindow.cpp:97
+msgid "GPR"
+msgstr "GPR"
+
+#: debugPPCThreadsWindow.cpp:104 textureRelationWindow.cpp:115
+msgid "Refresh"
+msgstr "Yenile"
+
+#: debugPPCThreadsWindow.cpp:107
+msgid "Auto refresh"
+msgstr "Otomatik yenileme"
+
+#: debugPPCThreadsWindow.cpp:319
+msgid "Boost priority (-5)"
+msgstr "Öncelik artır (-5)"
+
+#: debugPPCThreadsWindow.cpp:320
+msgid "Boost priority (-1)"
+msgstr "Öncelik artır (-1)"
+
+#: debugPPCThreadsWindow.cpp:322
+msgid "Decrease priority (+5)"
+msgstr "Öncelik azalt (+5)"
+
+#: debugPPCThreadsWindow.cpp:323
+msgid "Decrease priority (+1)"
+msgstr "Öncelik azalt (+1)"
+
+#: debugPPCThreadsWindow.cpp:325
+msgid "Resume"
+msgstr "Devam"
+
+#: debugPPCThreadsWindow.cpp:326
+msgid "Suspend"
+msgstr "Askıya al"
+
+#: graphicPacksWindow.cpp:48
+msgid "On/Off"
+msgstr "Açık/Kapalı"
+
+#: graphicPacksWindow.cpp:53
+msgid "Name"
+msgstr "İsim"
+
+#: graphicPacksWindow.cpp:58
+msgid "Active"
+msgstr "Aktif"
+
+#: graphicPacksWindow.cpp:72
+msgid ""
+"The currently running game is corrupted or incomplete. (Missing /meta/meta."
+"xml) Graphic packs cannot be applied."
+msgstr ""
+"Bu oyun ya bozulmuş yada tamamlanmamış. (/meta/meta.xml eksik) Grafik "
+"paketleri uygulanmadı"
+
+#: graphicPacksWindow.cpp:75 graphicPacksWindow.cpp:114
+#: graphicPacksWindow.cpp:131
+msgid "Restart of Cemu required"
+msgstr "Cemu yeniden başlatılmalı"
+
+#: graphicPacksWindow.cpp:165
+msgid "Yes"
+msgstr "Evet"
+
+#: textureRelationWindow.cpp:39
+msgid "Texture cache"
+msgstr "Doku önbelleği"
+
+#: textureRelationWindow.cpp:56
+msgid "Type"
 msgstr "Tip"
 
-msgid "up"
-msgstr "Yukarı"
+# It stands for "Physical Address". Better not translate it since it's an internal variable name.
+#: textureRelationWindow.cpp:61
+msgid "PhysAddr"
+msgstr "PhysAddr"
 
+# It refers to the number of dimensions of a texture. Better not translate it since it's an internal variable name.
+#: textureRelationWindow.cpp:66
+msgid "Dim"
+msgstr "Dim"
+
+#: textureRelationWindow.cpp:71
+msgid "Resolution"
+msgstr "Çözünürlük"
+
+#: textureRelationWindow.cpp:76
+msgid "Format"
+msgstr "Format"
+
+# Technical term that refers to the distance, in bytes, between two memory addresses that represent the beginning of one bitmap line and the beginning of the next bitmap line.
+# Shouldn't be translated.
+#: textureRelationWindow.cpp:81
+msgid "Pitch"
+msgstr "Pitch"
+
+#: textureRelationWindow.cpp:86
+msgid "Tilemode"
+msgstr "Tilemode"
+
+#: textureRelationWindow.cpp:91
+msgid "SliceRange"
+msgstr "SliceRange"
+
+#: textureRelationWindow.cpp:96
+msgid "MipRange"
+msgstr "MipRange"
+
+#: textureRelationWindow.cpp:101
+msgid "Last access"
+msgstr "Son erişim"
+
+#: textureRelationWindow.cpp:106
+msgid "OverwriteRes"
+msgstr "OverwriteRes"
+
+#: textureRelationWindow.cpp:118
+msgid "Show only active"
+msgstr "Sadece aktif olanları göster"
+
+#: textureRelationWindow.cpp:121
+msgid "Show views"
+msgstr "Görüntülenmeleri göster"
+
+#: toolMemorySearcher.cpp:43
+msgid "Memory Searcher"
+msgstr "Hafıza Arayıcı"
+
+#: toolMemorySearcher.cpp:59 toolMemorySearcher.cpp:425
+msgid "Search"
+msgstr "Ara"
+
+#: toolMemorySearcher.cpp:60
+msgid "Filter"
+msgstr "Filtre"
+
+#: toolMemorySearcher.cpp:79 toolMemorySearcher.cpp:426
+msgid "Results"
+msgstr "Sonuçlar"
+
+#: toolMemorySearcher.cpp:85 toolMemorySearcher.cpp:101
+msgid "address"
+msgstr "adres"
+
+#: toolMemorySearcher.cpp:90 toolMemorySearcher.cpp:103
 msgid "value"
 msgstr "değer"
+
+#: toolMemorySearcher.cpp:95
+msgid "Stored Entries"
+msgstr "Depolanmış Girdiler"
+
+#: toolMemorySearcher.cpp:100
+msgid "description"
+msgstr "açıklama"
+
+#: toolMemorySearcher.cpp:102
+msgid "type"
+msgstr "tip"
+
+#: toolMemorySearcher.cpp:104
+msgid "freeze"
+msgstr "dondur"
+
+#: toolMemorySearcher.cpp:164
+msgid "Your entered value is not valid for the selected datatype."
+msgstr "Girdiğin değer bu veri tipine uygun değil."
+
+#: toolMemorySearcher.cpp:389
+msgid "&Add new entry"
+msgstr "&Yeni girdi ekle"
+
+#: toolMemorySearcher.cpp:390
+msgid "&Remove entry"
+msgstr "&Girdiyi sil"
+
+#: toolMemorySearcher.cpp:483
+msgid "Results ({0})"
+msgstr "Sonuçlar ({0})"
+
+#: updateWindow.cpp:15
+msgid "Installing DLC ..."
+msgstr "DLC yükleniyor ..."
+
+#: updateWindow.cpp:17
+msgid "Installing update ..."
+msgstr "Güncelleme yükleniyor ..."
+
+#: updateWindow.cpp:24
+msgid "Cancel"
+msgstr "İptal"
+
+#: updateWindow.cpp:101
+msgid "Error:"
+msgstr "Hata:"
+
+#: updateWindow.cpp:106
+msgid "Error Code:"
+msgstr "Hata Kodu:"
+
+#: updateWindow.cpp:112
+msgid "Current file:"
+msgstr "Geçerli dosya:"
+
+#: updateWindow.cpp:154
+msgid ""
+"Do you really want to cancel the update process?\n"
+"\n"
+"Canceling the process will delete the applied update."
+msgstr ""
+"Güncelleme işlemini durdurmak istediğinden emin misin?\n"
+"\n"
+"İşlemi iptal etmek geçerli güncellemeyi silecek."
+
+#: updateWindow.cpp:154
+msgid "Info"
+msgstr "Bilgi"
+
+#~ msgid "&Add game path"
+#~ msgstr "&Oyun klasörü ekle"
+
+#~ msgid "&Audio settings"
+#~ msgstr "&Ses ayarları"
+
+#~ msgid "&Delete game path"
+#~ msgstr "&Oyun klasörünü sil"
+
+#~ msgid "&Enable BotW crash workaround"
+#~ msgstr "&BotW çökme çözümünü aktifleştir"
+
+#~ msgid "&Enable VSync"
+#~ msgstr "&VSync'ı aktif et"
+
+#~ msgid "&Enable online mode"
+#~ msgstr "&Online modu aç"
+
+#~ msgid "<double click to add a new entry>"
+#~ msgstr "<yeni bir kayıt eklemek için çift tıkla>"
+
+#~ msgid "Configure paths"
+#~ msgstr "Oyun klasörlerini yapılandır"
+
+#~ msgid "Emulate Controller:"
+#~ msgstr "Kumanda Taklit Et:"
+
+#~ msgid "MORIBUND"
+#~ msgstr "CAN ÇEKİŞİYOR"
+
+#~ msgid "Mono"
+#~ msgstr "Mono"
+
+#~ msgid "NONE"
+#~ msgstr "YOK"
+
+#~ msgid "No profile selected!"
+#~ msgstr "Profil seçilmedi!"
+
+#~ msgid "READY"
+#~ msgstr "HAZIR"
+
+#~ msgid "RUNNING"
+#~ msgstr "ÇALIŞIYOR"
+
+#~ msgid "SUSPENDED"
+#~ msgstr "ASKIYA ALINDI"
+
+#~ msgid "Surround 5.1"
+#~ msgstr "Çevrele 5.1"
+
+#~ msgid "The given profile name is invalid!"
+#~ msgstr "Seçilen profil geçersiz"
+
+#~ msgid "UNDEFINED"
+#~ msgstr "BELİRLENMEDİ"
+
+#~ msgid "Volume:"
+#~ msgstr "Ses:"
+
+#~ msgid "WAITING"
+#~ msgstr "BEKLİYOR"
+
+#~ msgid "click"
+#~ msgstr "Tıklama"
+
+#~ msgid "down"
+#~ msgstr "Aşağı"
+
+#~ msgid "left"
+#~ msgstr "Sol"
+
+#~ msgid "right"
+#~ msgstr "Sağ"
+
+#~ msgid "up"
+#~ msgstr "Yukarı"
