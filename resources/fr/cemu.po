@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2018-10-23 22:30+0200\n"
-"PO-Revision-Date: 2018-10-23 22:41+0200\n"
+"POT-Creation-Date: 2018-10-28 20:59+0100\n"
+"PO-Revision-Date: 2018-10-28 20:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -132,8 +132,8 @@ msgstr "Périphérique"
 msgid "Channels"
 msgstr "Canaux"
 
-#: GeneralSettings2.cpp:248 GeneralSettings2.cpp:280 InputPanelGamepad.cpp:168
-#: InputPanelWiimote.cpp:100
+#: GeneralSettings2.cpp:248 GeneralSettings2.cpp:280 InputPanelGamepad.cpp:171
+#: InputPanelWiimote.cpp:98
 msgid "Volume"
 msgstr "Volume"
 
@@ -145,8 +145,8 @@ msgstr "Manette"
 msgid "Audio"
 msgstr "Audio"
 
-#: GeneralSettings2.cpp:303 MainWindow.cpp:513 MainWindow.cpp:532
-#: MainWindow.cpp:538 MainWindow.cpp:1056
+#: GeneralSettings2.cpp:303 MainWindow.cpp:515 MainWindow.cpp:534
+#: MainWindow.cpp:540 MainWindow.cpp:1058
 msgid "Warning"
 msgstr "Attention"
 
@@ -210,74 +210,74 @@ msgstr "Sélectionner un dossier contenant des jeux."
 msgid "Select a mlc directory"
 msgstr "Sélectionner le dossier contenant la MLC"
 
-#: GraphicPacksWindow2.cpp:41 graphicPacksWindow.cpp:36
+#: GraphicPacksWindow2.cpp:42 graphicPacksWindow.cpp:36
 msgid "Graphic packs"
 msgstr "Packs graphiques"
 
-#: GraphicPacksWindow2.cpp:71
+#: GraphicPacksWindow2.cpp:72
 msgid "Graphic pack"
 msgstr "Packs graphiques"
 
-#: GraphicPacksWindow2.cpp:81
+#: GraphicPacksWindow2.cpp:82
 msgid "Active preset"
 msgstr "Réglage actif"
 
-#: GraphicPacksWindow2.cpp:93
+#: GraphicPacksWindow2.cpp:94
 msgid "Description"
 msgstr "Description"
 
-#: GraphicPacksWindow2.cpp:103
+#: GraphicPacksWindow2.cpp:104
 msgid "Control"
 msgstr "Contrôle"
 
-#: GraphicPacksWindow2.cpp:224
+#: GraphicPacksWindow2.cpp:231
 msgid "This is an old graphic pack, therefore it has no description."
 msgstr "Ceci est un ancien pack graphique, il n'a donc pas de description."
 
-#: GraphicPacksWindow2.cpp:248
+#: GraphicPacksWindow2.cpp:255
 msgid "This graphic pack has no description"
 msgstr "Ce pack graphique n'a aucune description"
 
-#: GraphicPacksWindow2.cpp:305 GraphicPacksWindow2.cpp:347
-#: GraphicPacksWindow2.cpp:359
+#: GraphicPacksWindow2.cpp:312 GraphicPacksWindow2.cpp:354
+#: GraphicPacksWindow2.cpp:366
 msgid "Restart of Cemu required for changes to take effect"
 msgstr "Vous devez redémarrer Cemu pour que ce changement prenne effet"
 
-#: InputPanelClassic.cpp:54 InputPanelGamepad.cpp:66 InputPanelPro.cpp:48
+#: InputPanelClassic.cpp:53 InputPanelGamepad.cpp:66 InputPanelPro.cpp:47
 msgid "Left Axis"
 msgstr "Axe gauche"
 
-#: InputPanelClassic.cpp:76 InputPanelClassic.cpp:135 InputPanelGamepad.cpp:88
-#: InputPanelGamepad.cpp:147 InputPanelPro.cpp:70 InputPanelPro.cpp:129
-#: InputPanelWiimote.cpp:159
+#: InputPanelClassic.cpp:74 InputPanelClassic.cpp:132 InputPanelGamepad.cpp:87
+#: InputPanelGamepad.cpp:150 InputPanelPro.cpp:68 InputPanelPro.cpp:126
+#: InputPanelWiimote.cpp:156
 msgid "Deadzone"
 msgstr "Zone morte"
 
-#: InputPanelClassic.cpp:86 InputPanelClassic.cpp:145 InputPanelGamepad.cpp:98
-#: InputPanelGamepad.cpp:157 InputPanelPro.cpp:80 InputPanelPro.cpp:139
-#: InputPanelWiimote.cpp:170
+#: InputPanelClassic.cpp:84 InputPanelClassic.cpp:142 InputPanelGamepad.cpp:97
+#: InputPanelGamepad.cpp:160 InputPanelPro.cpp:78 InputPanelPro.cpp:136
+#: InputPanelWiimote.cpp:167
 msgid "Range"
 msgstr "Radius"
 
-#: InputPanelClassic.cpp:97 InputPanelGamepad.cpp:109 InputPanelPro.cpp:91
-#: InputPanelWiimote.cpp:115
+#: InputPanelClassic.cpp:95 InputPanelGamepad.cpp:113 InputPanelPro.cpp:89
+#: InputPanelWiimote.cpp:113
 msgid "Rumble"
 msgstr "Vibreur"
 
-#: InputPanelClassic.cpp:112 InputPanelGamepad.cpp:124 InputPanelPro.cpp:106
+#: InputPanelClassic.cpp:110 InputPanelGamepad.cpp:128 InputPanelPro.cpp:104
 msgid "Right Axis"
 msgstr "Axe droit"
 
-#: InputPanelClassic.cpp:160 InputPanelGamepad.cpp:188 InputPanelPro.cpp:154
-#: InputPanelWiimote.cpp:78
+#: InputPanelClassic.cpp:157 InputPanelGamepad.cpp:191 InputPanelPro.cpp:151
+#: InputPanelWiimote.cpp:77
 msgid "D-pad"
 msgstr "Croix directionnelle"
 
-#: InputPanelGamepad.cpp:210
+#: InputPanelGamepad.cpp:212
 msgid "blow mic"
 msgstr "Souffle sur micro"
 
-#: InputPanelGamepad.cpp:222
+#: InputPanelGamepad.cpp:223
 msgid "show screen"
 msgstr "Afficher l'écran"
 
@@ -289,7 +289,7 @@ msgstr "Extensions :"
 msgid "MotionPlus"
 msgstr "MotionPlus"
 
-#: InputPanelWiimote.cpp:44 InputPanelWiimote.cpp:131
+#: InputPanelWiimote.cpp:44 InputPanelWiimote.cpp:129
 msgid "Nunchuck"
 msgstr "Nunchuck"
 
@@ -303,9 +303,9 @@ msgstr "Impossible de sauvegarder les réglages pour la manette {0}"
 
 #: InputSettings.cpp:96 InputSettings.cpp:436 InputSettings.cpp:442
 #: InputSettings.cpp:509 InputSettings.cpp:523 InputSettings.cpp:529
-#: InputSettings.cpp:534 InputSettings.cpp:547 MainWindow.cpp:2289
-#: MainWindow.cpp:2293 MainWindow.cpp:2297 MainWindow.cpp:2301
-#: MainWindow.cpp:2306 MainWindow.cpp:2314 toolMemorySearcher.cpp:164
+#: InputSettings.cpp:534 InputSettings.cpp:547 MainWindow.cpp:2301
+#: MainWindow.cpp:2305 MainWindow.cpp:2309 MainWindow.cpp:2313
+#: MainWindow.cpp:2318 MainWindow.cpp:2326 toolMemorySearcher.cpp:164
 msgid "Error"
 msgstr "Erreur"
 
@@ -401,45 +401,45 @@ msgstr "Vous avez joué"
 msgid "Last played"
 msgstr "Joué la dernière fois le"
 
-#: MainWindow.cpp:416 MainWindow.cpp:422
+#: MainWindow.cpp:418 MainWindow.cpp:424
 msgid "Can't open the file."
 msgstr "Impossible d'ouvrir le fichier."
 
-#: MainWindow.cpp:426
+#: MainWindow.cpp:428
 msgid "Invalid \"meta.xml\" file."
 msgstr "Fichier \"meta.xml\" non valide."
 
-#: MainWindow.cpp:430
+#: MainWindow.cpp:432
 msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
 msgstr ""
 "Impossible de trouver le \"title_id\" dans le fichier \"meta.xml\" choisi."
 
-#: MainWindow.cpp:448
+#: MainWindow.cpp:450
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
 msgstr ""
 "Impossible de trouver le \"title_version\" dans le fichier \"meta.xml\" "
 "choisi."
 
-#: MainWindow.cpp:452
+#: MainWindow.cpp:454
 msgid "The given \"meta.xml\" file is no update or DLC."
 msgstr "Le fichier \"meta.xml\" choisi n'est pas une mise à jour ni un DLC."
 
-#: MainWindow.cpp:457
+#: MainWindow.cpp:459
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
 msgstr ""
 "Impossible de trouver le \"longname_en\" dans le fichier \"meta.xml\" choisi."
 
-#: MainWindow.cpp:484
+#: MainWindow.cpp:486
 msgid "Invalid folder structure"
 msgstr "Structure de dossiers non valide"
 
-#: MainWindow.cpp:513
+#: MainWindow.cpp:515
 msgid ""
 "It seems that a DLC is already installed, do you still want to install it?"
 msgstr ""
 "Il semble qu'un DLC soit déjà installé, souhaitez-vous toujours l'installer ?"
 
-#: MainWindow.cpp:532
+#: MainWindow.cpp:534
 msgid ""
 "It seems that the selected update is already installed, do you want to "
 "reinstall it?"
@@ -447,7 +447,7 @@ msgstr ""
 "Il semble que la mise à jour sélectionnée soit déjà installée, souhaitez-"
 "vous la réinstaller ?"
 
-#: MainWindow.cpp:538
+#: MainWindow.cpp:540
 msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
@@ -455,7 +455,7 @@ msgstr ""
 "Il semble qu'une mise à jour plus récente soit déjà installée, souhaitez-"
 "vous toujours installer la version plus ancienne ?"
 
-#: MainWindow.cpp:553
+#: MainWindow.cpp:555
 msgid ""
 "Not enough space available.\n"
 "Required: {0} MB\n"
@@ -465,55 +465,55 @@ msgstr ""
 "Requis : {0} Mio\n"
 "Disponible : {1} Mio"
 
-#: MainWindow.cpp:590
+#: MainWindow.cpp:592
 msgid "Update installed!"
 msgstr "Mise à jour installée !"
 
-#: MainWindow.cpp:590
+#: MainWindow.cpp:592
 msgid "Success"
 msgstr "Succès"
 
-#: MainWindow.cpp:595
+#: MainWindow.cpp:597
 msgid "Update installation has been canceled!"
 msgstr "L'installation de la mise à jour a été annulée !"
 
-#: MainWindow.cpp:615
+#: MainWindow.cpp:617
 msgid "Unable to open file."
 msgstr "Impossible d'ouvrir le fichier."
 
-#: MainWindow.cpp:617
+#: MainWindow.cpp:619
 msgid "Unknown file type."
 msgstr "Type de fichier inconnu."
 
-#: MainWindow.cpp:619
+#: MainWindow.cpp:621
 msgid "Failed to launch file."
 msgstr "Impossible de démarrer le fichier."
 
-#: MainWindow.cpp:688 MainWindow.cpp:716
+#: MainWindow.cpp:690 MainWindow.cpp:718
 msgid "Open file to launch"
 msgstr "Ouvrir le fichier à lancer"
 
-#: MainWindow.cpp:729
+#: MainWindow.cpp:731
 msgid "Open file to load"
 msgstr "Ouvrir le fichier à charger"
 
-#: MainWindow.cpp:738 MainWindow.cpp:761
+#: MainWindow.cpp:740 MainWindow.cpp:763
 msgid "Cannot open file"
 msgstr "Impossible d'ouvrir le fichier"
 
-#: MainWindow.cpp:740 MainWindow.cpp:763
+#: MainWindow.cpp:742 MainWindow.cpp:765
 msgid "Not a valid NFC NTAG215 file"
 msgstr "Ceci n'est pas un fichier NFC NTAG215 valide"
 
-#: MainWindow.cpp:880
+#: MainWindow.cpp:882
 msgid "Cemu must be restarted to apply the selected UI language."
 msgstr "Cemu doit être redémarré afin d'appliquer le changement de langue."
 
-#: MainWindow.cpp:880
+#: MainWindow.cpp:882
 msgid "Information"
 msgstr "Information"
 
-#: MainWindow.cpp:1055
+#: MainWindow.cpp:1057
 msgid ""
 "WARNING - Please be aware that online mode lets you connect to OFFICIAL "
 "servers and therefore there is a risk of getting banned. Only proceed if you "
@@ -524,368 +524,372 @@ msgstr ""
 "uniquement si vous voulez prendre le risque de perdre votre accès en ligne "
 "sur votre Wii U et/ou NNID."
 
-#: MainWindow.cpp:1570
+#: MainWindow.cpp:1572
 msgid "You can configure game paths in the general settings."
 msgstr ""
 "Vous pouvez configurer les chemins des jeux dans les paramètres généraux."
 
-#: MainWindow.cpp:1642
+#: MainWindow.cpp:1644
 msgid "Loading, please wait!"
 msgstr "Chargement en cours, veuillez patienter !"
 
-#: MainWindow.cpp:2092
+#: MainWindow.cpp:2102
 msgid "&Load"
 msgstr "&Charger"
 
-#: MainWindow.cpp:2093
+#: MainWindow.cpp:2103
 msgid "&Install game update or DLC"
 msgstr "&Installer une mise à jour ou un DLC d'un jeu"
 
-#: MainWindow.cpp:2117
+#: MainWindow.cpp:2127
 msgid "&Exit"
 msgstr "&Quitter"
 
-#: MainWindow.cpp:2118
+#: MainWindow.cpp:2128
 msgid "&File"
 msgstr "&Fichier"
 
-#: MainWindow.cpp:2121
+#: MainWindow.cpp:2131
 msgid "&Auto"
 msgstr "&Auto"
 
-#: MainWindow.cpp:2123
+#: MainWindow.cpp:2133
 msgid "&USA"
 msgstr "&USA"
 
-#: MainWindow.cpp:2124
+#: MainWindow.cpp:2134
 msgid "&Europe"
 msgstr "&Europe"
 
-#: MainWindow.cpp:2125
+#: MainWindow.cpp:2135
 msgid "&Japan"
 msgstr "&Japon"
 
-#: MainWindow.cpp:2127
+#: MainWindow.cpp:2137
 msgid "&China"
 msgstr "&Chine"
 
-#: MainWindow.cpp:2128
+#: MainWindow.cpp:2138
 msgid "&Korea"
 msgstr "C&orée"
 
-#: MainWindow.cpp:2129
+#: MainWindow.cpp:2139
 msgid "&Taiwan"
 msgstr "&Taiwan"
 
-#: MainWindow.cpp:2133
+#: MainWindow.cpp:2143
 msgid "&English"
 msgstr "&Anglais"
 
-#: MainWindow.cpp:2134
+#: MainWindow.cpp:2144
 msgid "&Japanese"
 msgstr "&Japonais"
 
-#: MainWindow.cpp:2135
+#: MainWindow.cpp:2145
 msgid "&French"
 msgstr "&Français"
 
-#: MainWindow.cpp:2136
+#: MainWindow.cpp:2146
 msgid "&German"
 msgstr "A&llemand"
 
-#: MainWindow.cpp:2137
+#: MainWindow.cpp:2147
 msgid "&Italian"
 msgstr "&Italien"
 
-#: MainWindow.cpp:2138
+#: MainWindow.cpp:2148
 msgid "&Spanish"
 msgstr "&Espagnol"
 
-#: MainWindow.cpp:2139
+#: MainWindow.cpp:2149
 msgid "&Chinese"
 msgstr "&Chinois"
 
-#: MainWindow.cpp:2140
+#: MainWindow.cpp:2150
 msgid "&Korean"
 msgstr "C&oréen"
 
-#: MainWindow.cpp:2141
+#: MainWindow.cpp:2151
 msgid "&Dutch"
 msgstr "&Hollandais"
 
-#: MainWindow.cpp:2142
+#: MainWindow.cpp:2152
 msgid "&Portuguese"
 msgstr "&Portugais"
 
-#: MainWindow.cpp:2143
+#: MainWindow.cpp:2153
 msgid "&Russian"
 msgstr "&Russe"
 
-#: MainWindow.cpp:2144
+#: MainWindow.cpp:2154
 msgid "&Taiwanese"
 msgstr "&Taiwanais"
 
-#: MainWindow.cpp:2150
+#: MainWindow.cpp:2160
 msgid "&High (slow)"
 msgstr "&Élevée (lent)"
 
-#: MainWindow.cpp:2151
+#: MainWindow.cpp:2161
 msgid "&Medium"
 msgstr "&Moyenne"
 
-#: MainWindow.cpp:2152
+#: MainWindow.cpp:2162
 msgid "&Low (fast)"
 msgstr "&Faible (rapide)"
 
-#: MainWindow.cpp:2156
+#: MainWindow.cpp:2166
 msgid "&Fullscreen"
 msgstr "&Plein écran"
 
-#: MainWindow.cpp:2157
+#: MainWindow.cpp:2167
 msgid "&Graphic packs"
 msgstr "Packs &graphiques"
 
-#: MainWindow.cpp:2158
+#: MainWindow.cpp:2168
 msgid "&GPU buffer cache accuracy"
 msgstr "Précision du &cache du GPU"
 
-#: MainWindow.cpp:2159
+#: MainWindow.cpp:2169
 msgid "&Separate GamePad view"
 msgstr "&Vue séparée du GamePad"
 
-#: MainWindow.cpp:2162
+#: MainWindow.cpp:2172
 msgid "&General settings"
 msgstr "Paramètres &généraux"
 
-#: MainWindow.cpp:2163
+#: MainWindow.cpp:2173
 msgid "&Input settings"
 msgstr "Paramètres des &manettes"
 
-#: MainWindow.cpp:2168
+#: MainWindow.cpp:2178
 msgid "&Use RDTSC"
 msgstr "&Utiliser RDTSC"
 
-#: MainWindow.cpp:2176
+#: MainWindow.cpp:2186
 msgid "&Experimental"
 msgstr "&Expérimental"
 
-#: MainWindow.cpp:2179
+#: MainWindow.cpp:2189
 msgid "&Console region"
 msgstr "&Région de la console"
 
-#: MainWindow.cpp:2180
+#: MainWindow.cpp:2190
 msgid "&Console language"
 msgstr "&Langue de la console"
 
-#: MainWindow.cpp:2181
+#: MainWindow.cpp:2191
 msgid "&Options"
 msgstr "&Options"
 
-#: MainWindow.cpp:2185
+#: MainWindow.cpp:2195
 msgid "&Memory searcher"
 msgstr "&Rechercher dans la mémoire"
 
-#: MainWindow.cpp:2187
+#: MainWindow.cpp:2197
 msgid "&Tools"
 msgstr "&Outils"
 
-#: MainWindow.cpp:2192
+#: MainWindow.cpp:2202
 msgid "&Single-core interpreter"
 msgstr "&Interpréteur mono-cœur"
 
-#: MainWindow.cpp:2193
+#: MainWindow.cpp:2203
 msgid "&Single-core recompiler (fast)"
 msgstr "&Recompilateur mono-cœur (rapide)"
 
-#: MainWindow.cpp:2194
+#: MainWindow.cpp:2204
 msgid "&Dual-core recompiler (fast, unstable!)"
 msgstr "Recompilateur &double-cœur (rapide, instable !)"
 
-#: MainWindow.cpp:2195
+#: MainWindow.cpp:2205
 msgid "&Triple-core recompiler (fast, unstable!)"
 msgstr "Recompilateur &triple-cœur (rapide, instable !)"
 
-#: MainWindow.cpp:2199
+#: MainWindow.cpp:2209
 msgid "&Cycle based timer"
 msgstr "&Horloge basée sur les cycles"
 
-#: MainWindow.cpp:2200
+#: MainWindow.cpp:2210
 msgid "&Host based timer (recommended)"
 msgstr "&Horloge basée sur l'hôte (recommandé)"
 
-#: MainWindow.cpp:2203
+#: MainWindow.cpp:2213
 msgid "&Mode"
 msgstr "&Mode"
 
-#: MainWindow.cpp:2204
+#: MainWindow.cpp:2214
 msgid "&Timer"
 msgstr "&Horloge"
 
-#: MainWindow.cpp:2205
+#: MainWindow.cpp:2215
 msgid "&CPU"
 msgstr "&CPU"
 
-#: MainWindow.cpp:2209
+#: MainWindow.cpp:2219
 msgid "&Scan NFC tag from file"
 msgstr "&Scanner un tag NFC depuis un fichier"
 
-#: MainWindow.cpp:2210
+#: MainWindow.cpp:2220
 msgid "&NFC"
 msgstr "&NFC"
 
-#: MainWindow.cpp:2216
+#: MainWindow.cpp:2226
 msgid "&Unsupported API calls"
 msgstr "&Appels d'API non pris en charge"
 
-#: MainWindow.cpp:2217
+#: MainWindow.cpp:2227
 msgid "&Coreinit File-Access"
 msgstr "Accès de fichiers &Coreinit"
 
-#: MainWindow.cpp:2218
+#: MainWindow.cpp:2228
 msgid "&Coreinit Thread-Synchronization API"
 msgstr "API de &synchronisation de flux Coreinit"
 
-#: MainWindow.cpp:2219
+#: MainWindow.cpp:2229
 msgid "&Coreinit Memory API"
 msgstr "API &mémoire Coreinit"
 
-#: MainWindow.cpp:2220
+#: MainWindow.cpp:2230
 msgid "&GX2 API"
 msgstr "API &GX2"
 
-#: MainWindow.cpp:2221
+#: MainWindow.cpp:2231
 msgid "&Audio API"
 msgstr "API &audio"
 
-#: MainWindow.cpp:2222
+#: MainWindow.cpp:2232
 msgid "&Input API"
 msgstr "API des &entrées"
 
-#: MainWindow.cpp:2223
+#: MainWindow.cpp:2233
 msgid "&Socket API"
 msgstr "API du &socket"
 
-#: MainWindow.cpp:2224
+#: MainWindow.cpp:2234
 msgid "&Save API"
 msgstr "API des &sauvegardes"
 
-#: MainWindow.cpp:2225
+#: MainWindow.cpp:2235
 msgid "&H264 API"
 msgstr "API &H264"
 
-#: MainWindow.cpp:2227
+#: MainWindow.cpp:2237
+msgid "&Texture cache warnings"
+msgstr "Avertissements de cache de &texture"
+
+#: MainWindow.cpp:2239
 msgid "&OpenGL debug output"
 msgstr "Sortie de débogage &OpenGL"
 
-#: MainWindow.cpp:2231
+#: MainWindow.cpp:2243
 msgid "&Textures"
 msgstr "&Textures"
 
-#: MainWindow.cpp:2232
+#: MainWindow.cpp:2244
 msgid "&Shaders"
 msgstr "&Shaders"
 
-#: MainWindow.cpp:2236
+#: MainWindow.cpp:2248
 msgid "&Logging"
 msgstr "&Journaux"
 
-#: MainWindow.cpp:2237
+#: MainWindow.cpp:2249
 msgid "&Dump"
 msgstr "&Dump"
 
-#: MainWindow.cpp:2241 MainWindow.cpp:2246
+#: MainWindow.cpp:2253 MainWindow.cpp:2258
 msgid "&Render upside-down"
 msgstr "&Rendu retourné"
 
-#: MainWindow.cpp:2249
+#: MainWindow.cpp:2261
 msgid "&View PPC threads"
 msgstr "&Afficher les flux PPC"
 
-#: MainWindow.cpp:2251
+#: MainWindow.cpp:2263
 msgid "&View PPC debugger"
 msgstr "Afficher le débogueur &PPC"
 
-#: MainWindow.cpp:2253
+#: MainWindow.cpp:2265
 msgid "&View audio debugger"
 msgstr "Afficher le débogueur &audio"
 
-#: MainWindow.cpp:2254
+#: MainWindow.cpp:2266
 msgid "&View texture cache info"
 msgstr "&Afficher les infos des caches de texture"
 
-#: MainWindow.cpp:2256
+#: MainWindow.cpp:2268
 msgid "&Dump current RAM"
 msgstr "&Dumper la RAM"
 
-#: MainWindow.cpp:2259
+#: MainWindow.cpp:2271
 msgid "&Debug"
 msgstr "&Débug"
 
-#: MainWindow.cpp:2264
+#: MainWindow.cpp:2276
 msgid "&About"
 msgstr "&À propos"
 
-#: MainWindow.cpp:2265
+#: MainWindow.cpp:2277
 msgid "&Help"
 msgstr "&Aide"
 
-#: MainWindow.cpp:2289
+#: MainWindow.cpp:2301
 msgid "otp.bin could not be found"
 msgstr "Le fichier otp.bin est introuvable"
 
-#: MainWindow.cpp:2293
+#: MainWindow.cpp:2305
 msgid "otp.bin is corrupted or has invalid size"
 msgstr "Le fichier otp.bin est corrompu ou a une taille non valide"
 
-#: MainWindow.cpp:2297
+#: MainWindow.cpp:2309
 msgid "seeprom.bin could not be found"
 msgstr "Le fichier seeprom.bin est introuvable"
 
-#: MainWindow.cpp:2301
+#: MainWindow.cpp:2313
 msgid "seeprom.bin is corrupted or has invalid size"
 msgstr "Le fichier seeprom.bin est corrompu ou a une taille invalide"
 
-#: MainWindow.cpp:2314
+#: MainWindow.cpp:2326
 msgid "Unknown error occured"
 msgstr "Une erreur inconnue est survenue"
 
-#: MainWindow.cpp:2427
+#: MainWindow.cpp:2439
 msgid "&Start"
 msgstr "&Démarrer"
 
-#: MainWindow.cpp:2429
+#: MainWindow.cpp:2441
 msgid "Sa&ve directory"
 msgstr "Dossier de &sauvegarde"
 
-#: MainWindow.cpp:2430
+#: MainWindow.cpp:2442
 msgid "&Update directory"
 msgstr "Dossier de &mise à jour"
 
-#: MainWindow.cpp:2431
+#: MainWindow.cpp:2443
 msgid "&DLC directory"
 msgstr "Dossier du &DLC"
 
-#: MainWindow.cpp:2433
+#: MainWindow.cpp:2445
 msgid "&Open game profile"
 msgstr "&Ouvrir le profil du jeu"
 
-#: MainWindow.cpp:2434
+#: MainWindow.cpp:2446
 msgid "&Create game profile"
 msgstr "&Créer un profil de jeu"
 
-#: MainWindow.cpp:2436
+#: MainWindow.cpp:2448
 msgid "&Refresh game list"
 msgstr "&Rafraîchir la liste des jeux"
 
-#: MainWindow.cpp:2450
+#: MainWindow.cpp:2462
 msgid "&Refresh games"
 msgstr "&Rafraîchir les jeux"
 
-#: MainWindow.cpp:2512
+#: MainWindow.cpp:2524
 msgid "Updating game list..."
 msgstr "Mise à jour de la liste des jeux..."
 
-#: MainWindow.cpp:2694
+#: MainWindow.cpp:2706
 msgid "never"
 msgstr "jamais"
 
