@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2018-10-03 21:35+0200\n"
-"PO-Revision-Date: 2018-10-04 00:00-0300\n"
+"PO-Revision-Date: 2018-10-29 11:23-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -157,7 +157,7 @@ msgid ""
 "Only proceed if you are willing to risk losing online access with your Wii U "
 "and/or NNID."
 msgstr ""
-"AVISO - Esteja ciente que o modo online permite que você se conecte a "
+"AVISO - Esteja ciente de que o modo online permite que você se conecte a "
 "servidores OFICIAIS, existindo a chance de ser banido.\n"
 "Prossiga somente se você estiver disposto a arriscar perder o acesso online "
 "do seu Wii U e/ou NNID."
@@ -232,11 +232,11 @@ msgstr "Controle"
 
 #: GraphicPacksWindow2.cpp:224
 msgid "This is an old graphic pack, therefore it has no description."
-msgstr "Este é um pacote gráfico antigo - logo, ele não tem uma descrição."
+msgstr "Por este ser um pacote gráfico antigo, ele não possui uma descrição."
 
 #: GraphicPacksWindow2.cpp:248
 msgid "This graphic pack has no description"
-msgstr "Este pacote gráfico não tem descrição"
+msgstr "Este pacote gráfico não possui uma descrição"
 
 #: GraphicPacksWindow2.cpp:305 GraphicPacksWindow2.cpp:347
 #: GraphicPacksWindow2.cpp:359
@@ -245,7 +245,7 @@ msgstr "É necessário reiniciar o Cemu para que as alterações sejam aplicadas
 
 #: InputPanelClassic.cpp:54 InputPanelGamepad.cpp:66 InputPanelPro.cpp:48
 msgid "Left Axis"
-msgstr "Eixo Esquerdo"
+msgstr "Eixo esquerdo"
 
 #: InputPanelClassic.cpp:76 InputPanelClassic.cpp:135 InputPanelGamepad.cpp:88
 #: InputPanelGamepad.cpp:147 InputPanelPro.cpp:70 InputPanelPro.cpp:129
@@ -266,20 +266,20 @@ msgstr "Vibração"
 
 #: InputPanelClassic.cpp:112 InputPanelGamepad.cpp:124 InputPanelPro.cpp:106
 msgid "Right Axis"
-msgstr "Eixo Direito"
+msgstr "Eixo direito"
 
 #: InputPanelClassic.cpp:160 InputPanelGamepad.cpp:188 InputPanelPro.cpp:154
 #: InputPanelWiimote.cpp:78
 msgid "D-pad"
-msgstr "Botões Digitais"
+msgstr "Botões digitais"
 
 #: InputPanelGamepad.cpp:210
 msgid "blow mic"
-msgstr "soprar mic"
+msgstr "Soprar mic"
 
 #: InputPanelGamepad.cpp:222
 msgid "show screen"
-msgstr "mostrar tela"
+msgstr "Mostrar tela"
 
 #: InputPanelWiimote.cpp:37
 msgid "Extensions:"
@@ -347,7 +347,7 @@ msgstr "Calibrar"
 
 #: InputSettings.cpp:239
 msgid "Reset the default state of the controller"
-msgstr "Reiniciar ao estado padrão do controle"
+msgstr "Restaurar o estado padrão do controle"
 
 #: InputSettings.cpp:243 toolMemorySearcher.cpp:170
 msgid "Clear"
@@ -417,12 +417,12 @@ msgstr ""
 #: MainWindow.cpp:448
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
 msgstr ""
-"Não foi possível encontrar o \"title_version\" no arquivo \"meta.xml\" "
+"Não foi possível encontrar a \"title_version\" no arquivo \"meta.xml\" "
 "utilizado."
 
 #: MainWindow.cpp:452
 msgid "The given \"meta.xml\" file is no update or DLC."
-msgstr "O arquivo \"meta.xml\" não pertence a atualização ou DLC."
+msgstr "O arquivo \"meta.xml\" utilizado não é uma atualização ou DLC."
 
 #: MainWindow.cpp:457
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
@@ -432,7 +432,7 @@ msgstr ""
 
 #: MainWindow.cpp:484
 msgid "Invalid folder structure"
-msgstr "Estrutura de pasta inválida"
+msgstr "Estrutura de pastas inválida"
 
 #: MainWindow.cpp:513
 msgid ""
@@ -506,7 +506,7 @@ msgstr "Arquivo NFC NTAG215 inválido"
 
 #: MainWindow.cpp:880
 msgid "Cemu must be restarted to apply the selected UI language."
-msgstr "O Cemu precisa ser reiniciado para aplicar a mudança de idioma."
+msgstr "O Cemu precisa ser reiniciado para aplicar a alteração de idioma."
 
 #: MainWindow.cpp:880
 msgid "Information"
@@ -529,7 +529,7 @@ msgstr "Você pode configurar pastas de jogos nas configurações gerais."
 
 #: MainWindow.cpp:1642
 msgid "Loading, please wait!"
-msgstr "Carregando. Por favor, aguarde!"
+msgstr "Carregando, aguarde..."
 
 #: MainWindow.cpp:2092
 msgid "&Load"
@@ -645,7 +645,7 @@ msgstr "&Pacotes gráficos"
 
 #: MainWindow.cpp:2158
 msgid "&GPU buffer cache accuracy"
-msgstr "&Precisão do cache do buffer da GPU"
+msgstr "P&recisão do cache do buffer da GPU"
 
 #: MainWindow.cpp:2159
 msgid "&Separate GamePad view"
@@ -653,11 +653,11 @@ msgstr "&Separar tela do GamePad"
 
 #: MainWindow.cpp:2162
 msgid "&General settings"
-msgstr "&Configurações gerais"
+msgstr "Configurações &gerais"
 
 #: MainWindow.cpp:2163
 msgid "&Input settings"
-msgstr "&Configurações de controles"
+msgstr "Configurações de &controles"
 
 #: MainWindow.cpp:2168
 msgid "&Use RDTSC"
@@ -669,7 +669,7 @@ msgstr "&Experimental"
 
 #: MainWindow.cpp:2179
 msgid "&Console region"
-msgstr "&Região do console"
+msgstr "Regiã&o do console"
 
 #: MainWindow.cpp:2180
 msgid "&Console language"
@@ -693,23 +693,23 @@ msgstr "&Interpretador single-core"
 
 #: MainWindow.cpp:2193
 msgid "&Single-core recompiler (fast)"
-msgstr "&Recompilador single-core (rápido)"
+msgstr "Recompilador &single-core (rápido)"
 
 #: MainWindow.cpp:2194
 msgid "&Dual-core recompiler (fast, unstable!)"
-msgstr "&Recompilador dual-core (rápido, instável!)"
+msgstr "Recompilador &dual-core (rápido, instável!)"
 
 #: MainWindow.cpp:2195
 msgid "&Triple-core recompiler (fast, unstable!)"
-msgstr "&Recompilador triple-core (rápido, instável!)"
+msgstr "Recompilador &triple-core (rápido, instável!)"
 
 #: MainWindow.cpp:2199
 msgid "&Cycle based timer"
-msgstr "&Timer baseado em ciclos"
+msgstr "Timer baseado em &ciclos"
 
 #: MainWindow.cpp:2200
 msgid "&Host based timer (recommended)"
-msgstr "&Timer baseado no host (recomendado)"
+msgstr "Timer baseado no &host (recomendado)"
 
 #: MainWindow.cpp:2203
 msgid "&Mode"
@@ -737,15 +737,15 @@ msgstr "&Chamadas de API incompatíveis"
 
 #: MainWindow.cpp:2217
 msgid "&Coreinit File-Access"
-msgstr "Coreinit &File-Access"
+msgstr "&Coreinit File-Access"
 
 #: MainWindow.cpp:2218
 msgid "&Coreinit Thread-Synchronization API"
-msgstr "Coreinit &Thread-Synchronization API"
+msgstr "&Coreinit Thread-Synchronization API"
 
 #: MainWindow.cpp:2219
 msgid "&Coreinit Memory API"
-msgstr "Coreinit &Memory API"
+msgstr "&Coreinit Memory API"
 
 #: MainWindow.cpp:2220
 msgid "&GX2 API"
@@ -785,11 +785,11 @@ msgstr "&Shaders"
 
 #: MainWindow.cpp:2236
 msgid "&Logging"
-msgstr "&Logging"
+msgstr "&Registrar"
 
 #: MainWindow.cpp:2237
 msgid "&Dump"
-msgstr "&Dump"
+msgstr "&Despejar"
 
 #: MainWindow.cpp:2241 MainWindow.cpp:2246
 msgid "&Render upside-down"
@@ -813,11 +813,11 @@ msgstr "Ver informações do cache de te&xturas"
 
 #: MainWindow.cpp:2256
 msgid "&Dump current RAM"
-msgstr "&Coletar e salvar RAM atual"
+msgstr "&Despejar RAM atual"
 
 #: MainWindow.cpp:2259
 msgid "&Debug"
-msgstr "&Debug"
+msgstr "&Depuração"
 
 #: MainWindow.cpp:2264
 msgid "&About"
@@ -825,23 +825,23 @@ msgstr "&Sobre"
 
 #: MainWindow.cpp:2265
 msgid "&Help"
-msgstr "&Ajuda"
+msgstr "A&juda"
 
 #: MainWindow.cpp:2289
 msgid "otp.bin could not be found"
-msgstr "otp.bin não foi encontrado"
+msgstr "O arquivo otp.bin não foi encontrado"
 
 #: MainWindow.cpp:2293
 msgid "otp.bin is corrupted or has invalid size"
-msgstr "otp.bin está corrompido ou tem tamanho inválido"
+msgstr "O arquivo otp.bin está corrompido ou possui um tamanho inválido"
 
 #: MainWindow.cpp:2297
 msgid "seeprom.bin could not be found"
-msgstr "seeprom.bin não foi encontrado"
+msgstr "O arquivo seeprom.bin não foi encontrado"
 
 #: MainWindow.cpp:2301
 msgid "seeprom.bin is corrupted or has invalid size"
-msgstr "seeprom.bin está corrompido ou tem tamanho inválido"
+msgstr "O arquivo seeprom.bin está corrompido ou possui um tamanho inválido"
 
 #: MainWindow.cpp:2314
 msgid "Unknown error occured"
@@ -989,7 +989,7 @@ msgid ""
 "xml) Graphic packs cannot be applied."
 msgstr ""
 "O jogo rodando no momento está corrompido ou incompleto. (/meta/meta.xml não "
-"encontrado). Os pacotes gráficos não puderam ser aplicados."
+"encontrado). Os pacotes gráficos não podem ser aplicados."
 
 #: graphicPacksWindow.cpp:75 graphicPacksWindow.cpp:114
 #: graphicPacksWindow.cpp:131
@@ -1010,7 +1010,7 @@ msgstr "Tipo"
 
 #: textureRelationWindow.cpp:61
 msgid "PhysAddr"
-msgstr "PhysAddr"
+msgstr "EndFísico"
 
 #: textureRelationWindow.cpp:66
 msgid "Dim"
@@ -1105,11 +1105,11 @@ msgstr "Você digitou um valor inválido para o tipo de dado selecionado."
 
 #: toolMemorySearcher.cpp:389
 msgid "&Add new entry"
-msgstr "&Adicionar nova entrada"
+msgstr "&Adicionar novo registro"
 
 #: toolMemorySearcher.cpp:390
 msgid "&Remove entry"
-msgstr "&Remover entrada"
+msgstr "&Remover registro"
 
 #: toolMemorySearcher.cpp:483
 msgid "Results ({0})"
