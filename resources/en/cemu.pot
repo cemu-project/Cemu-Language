@@ -994,10 +994,12 @@ msgid "Type"
 msgstr ""
 
 #: textureRelationWindow.cpp:61
+# It stands for "Physical Address". Better not translate it since it's an internal variable name. 
 msgid "PhysAddr"
 msgstr ""
 
 #: textureRelationWindow.cpp:66
+# It refers to the number of dimensions of a texture. Better not translate it since it's an internal variable name. 
 msgid "Dim"
 msgstr ""
 
@@ -1010,6 +1012,8 @@ msgid "Format"
 msgstr ""
 
 #: textureRelationWindow.cpp:81
+# Technical term that refers to the distance, in bytes, between two memory addresses that represent the beginning of one bitmap line and the beginning of the next bitmap line.
+# Shouldn't be translated.
 msgid "Pitch"
 msgstr ""
 
