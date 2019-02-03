@@ -74,7 +74,7 @@ msgstr "英语"
 
 #: GeneralSettings2.cpp:77
 msgid "Discord Presence"
-msgstr "在 Discord 中显示"
+msgstr "Discord Presence"
 
 #: GeneralSettings2.cpp:83
 msgid "Fullscreen menu bar"
@@ -138,11 +138,11 @@ msgstr "近邻取样"
 
 #: GeneralSettings2.cpp:168
 msgid "Upscale filter"
-msgstr "高级过滤选项"
+msgstr "放大过滤选项"
 
 #: GeneralSettings2.cpp:171
 msgid "Downscale filter"
-msgstr "下阶过滤选项"
+msgstr "缩小过滤选项"
 
 #: GeneralSettings2.cpp:176
 msgid "Keep aspect ratio"
@@ -170,27 +170,27 @@ msgstr "禁用"
 
 #: GeneralSettings2.cpp:191
 msgid "Top left"
-msgstr "顶置居左"
+msgstr "左上角"
 
 #: GeneralSettings2.cpp:191
 msgid "Top center"
-msgstr "顶置居中"
+msgstr "顶部居中"
 
 #: GeneralSettings2.cpp:191
 msgid "Top right"
-msgstr "顶置居右"
+msgstr "右上角"
 
 #: GeneralSettings2.cpp:191
 msgid "Bottom left"
-msgstr "底置居左"
+msgstr "左下角"
 
 #: GeneralSettings2.cpp:191
 msgid "Bottom center"
-msgstr "底置居中"
+msgstr "底部居中"
 
 #: GeneralSettings2.cpp:191
 msgid "Bottom right"
-msgstr "底置居右"
+msgstr "右下角"
 
 #: GeneralSettings2.cpp:198
 msgid "Text Color"
@@ -198,11 +198,11 @@ msgstr "文本颜色"
 
 #: GeneralSettings2.cpp:209
 msgid "FPS"
-msgstr "帧速率"
+msgstr "每秒帧数"
 
 #: GeneralSettings2.cpp:210
 msgid "The number of frames per second. Average over last 5 seconds"
-msgstr "每秒生成帧的速率（基于过去5秒的平均值计算）"
+msgstr "每秒生成帧的数量（基于过去5秒的平均值计算）"
 
 #: GeneralSettings2.cpp:213
 msgid "Draw calls per frame"
@@ -222,12 +222,12 @@ msgstr "Cemu的CPU使用率 %"
 
 #: GeneralSettings2.cpp:221
 msgid "CPU per core usage"
-msgstr "CPU每核心使用率"
+msgstr "CPU各核心使用率"
 
 #: GeneralSettings2.cpp:222
 #, c-format
 msgid "Total cpu usage in % for each core"
-msgstr "每个核心的总CPU使用率 %f"
+msgstr "各CPU核心分别的使用率"
 
 #: GeneralSettings2.cpp:225
 msgid "RAM usage"
@@ -235,7 +235,7 @@ msgstr "内存使用"
 
 #: GeneralSettings2.cpp:226
 msgid "Cemu RAM usage in MB"
-msgstr "Cemu内存使用以MB计算"
+msgstr "Cemu以MB计的内存使用率"
 
 #: GeneralSettings2.cpp:235
 msgid "Graphics"
@@ -255,7 +255,7 @@ msgstr "立体声"
 
 #: GeneralSettings2.cpp:284
 msgid "TV"
-msgstr "播放"
+msgstr "TV端"
 
 #: GeneralSettings2.cpp:291 GeneralSettings2.cpp:327
 msgid "Device"
@@ -272,7 +272,7 @@ msgstr "音量"
 
 #: GeneralSettings2.cpp:320
 msgid "Gamepad"
-msgstr "Gamepad"
+msgstr "Gamepad端"
 
 #: GeneralSettings2.cpp:355
 msgid "Audio"
@@ -363,7 +363,7 @@ msgstr "下载最新版本图像插件"
 
 #: GraphicPacksWindow2.cpp:299
 msgid "This is an old graphic pack, therefore it has no description."
-msgstr "旧版图像插件无简介."
+msgstr "此图像插件为旧版，因此无简介."
 
 #: GraphicPacksWindow2.cpp:329
 msgid "This graphic pack has no description"
@@ -645,7 +645,7 @@ msgstr "无效NFC NTAG215文件"
 
 #: MainWindow.cpp:874
 msgid "Cemu must be restarted to apply the selected UI language."
-msgstr "重启Cemu以应用变更."
+msgstr "重启Cemu以应用界面语言变更."
 
 #: MainWindow.cpp:874
 msgid "Information"
