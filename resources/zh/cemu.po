@@ -227,7 +227,7 @@ msgstr "CPU各核心使用率"
 #: GeneralSettings2.cpp:222
 #, c-format
 msgid "Total cpu usage in % for each core"
-msgstr "各CPU核心分别的使用率 %f"
+msgstr "各CPU核心分别的使用率"
 
 #: GeneralSettings2.cpp:225
 msgid "RAM usage"
