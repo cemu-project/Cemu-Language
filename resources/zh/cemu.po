@@ -138,11 +138,11 @@ msgstr "近邻取样"
 
 #: GeneralSettings2.cpp:168
 msgid "Upscale filter"
-msgstr "高级过滤选项"
+msgstr "放大过滤器"
 
 #: GeneralSettings2.cpp:171
 msgid "Downscale filter"
-msgstr "下阶过滤选项"
+msgstr "缩小过滤器"
 
 #: GeneralSettings2.cpp:176
 msgid "Keep aspect ratio"
