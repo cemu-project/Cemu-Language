@@ -74,7 +74,7 @@ msgstr "英语"
 
 #: GeneralSettings2.cpp:77
 msgid "Discord Presence"
-msgstr "在 Discord 中显示状态"
+msgstr "Discord Presence"
 
 #: GeneralSettings2.cpp:83
 msgid "Fullscreen menu bar"
