@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2018-10-03 21:35+0200\n"
-"PO-Revision-Date: 2019-02-03 13:03+0100\n"
+"PO-Revision-Date: 2019-02-03 16:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -411,11 +411,11 @@ msgstr "Érvénytelen „meta.xml” fájl."
 
 #: MainWindow.cpp:430
 msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
-msgstr "A megadott „meta.xml” fájlban nem található „title_id.”"
+msgstr "A megadott „meta.xml” fájlban nem található „title_id”."
 
 #: MainWindow.cpp:448
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
-msgstr "A megadott „meta.xml” fájlban nem található „title_version.”"
+msgstr "A megadott „meta.xml” fájlban nem található „title_version”."
 
 #: MainWindow.cpp:452
 msgid "The given \"meta.xml\" file is no update or DLC."
@@ -423,7 +423,7 @@ msgstr "A megadott „meta.xml” fájl nem frissítés vagy DLC."
 
 #: MainWindow.cpp:457
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
-msgstr "A megadott „meta.xml” fájlban nem található „longname_en.”"
+msgstr "A megadott „meta.xml” fájlban nem található „longname_en”."
 
 #: MainWindow.cpp:484
 msgid "Invalid folder structure"
