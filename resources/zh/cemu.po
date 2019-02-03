@@ -235,7 +235,7 @@ msgstr "内存使用"
 
 #: GeneralSettings2.cpp:226
 msgid "Cemu RAM usage in MB"
-msgstr "Cemu内存使用，以MB计算"
+msgstr "Cemu以MB计的内存使用率"
 
 #: GeneralSettings2.cpp:235
 msgid "Graphics"
