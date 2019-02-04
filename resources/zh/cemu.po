@@ -20,7 +20,7 @@ msgstr "图像插件"
 
 #: DownloadGraphicPacksWindow.cpp:131
 msgid "Graphic packs cannot be updated while a game is running."
-msgstr "图像插件在游戏运行时无法更改."
+msgstr "图像插件在游戏运行时无法更改。"
 
 #: DownloadGraphicPacksWindow.cpp:169 DownloadGraphicPacksWindow.cpp:235
 msgid "Failed to connect to server"
@@ -28,7 +28,7 @@ msgstr "未能连接到服务器"
 
 #: DownloadGraphicPacksWindow.cpp:217
 msgid "No updates available."
-msgstr "无可用更新."
+msgstr "无可用更新。"
 
 #: DownloadGraphicPacksWindow.cpp:224
 msgid ""
@@ -158,7 +158,7 @@ msgstr "全屏缩放"
 
 #: GeneralSettings2.cpp:182
 msgid "Overlay"
-msgstr "统计用叠加层"
+msgstr "统计信息叠加层"
 
 #: GeneralSettings2.cpp:189
 msgid "Position"
@@ -202,7 +202,7 @@ msgstr "每秒帧数"
 
 #: GeneralSettings2.cpp:210
 msgid "The number of frames per second. Average over last 5 seconds"
-msgstr "每秒生成帧的数量（基于过去5秒的平均值计算）"
+msgstr "每秒生成帧的数量（过去5秒的平均值）"
 
 #: GeneralSettings2.cpp:213
 msgid "Draw calls per frame"
@@ -210,7 +210,7 @@ msgstr "每帧渲染调用"
 
 #: GeneralSettings2.cpp:214
 msgid "The number of draw calls per frame. Average over last 5 seconds"
-msgstr "每帧调用渲染的次数（基于过去5秒的平均值计算）"
+msgstr "每帧调用渲染的次数（过去5秒的平均值）"
 
 #: GeneralSettings2.cpp:217
 msgid "CPU usage"
@@ -290,8 +290,8 @@ msgid ""
 "Only proceed if you are willing to risk losing online access with your Wii U "
 "and/or NNID."
 msgstr ""
-"请注意：在线模式将使你连接到任天堂官方服务器，可能会导致封禁\n"
-"如果你愿意承担失去WiiU和NNID在线访问许可的风险，请继续."
+"请注意：在线模式将使你连接到任天堂官方服务器，可能会导致封禁。\n"
+"如果你愿意承担失去WiiU和NNID在线访问许可的风险，请继续。"
 
 #: GeneralSettings2.cpp:374
 msgid "Account settings"
@@ -331,7 +331,7 @@ msgstr "禁用线上模式"
 
 #: GeneralSettings2.cpp:998
 msgid "Select a directory containing games."
-msgstr "选择包含游戏的目录."
+msgstr "选择包含游戏的目录。"
 
 #: GeneralSettings2.cpp:1033
 msgid "Select a mlc directory"
@@ -359,11 +359,11 @@ msgstr "操作选项"
 
 #: GraphicPacksWindow2.cpp:219
 msgid "Download latest community graphic packs"
-msgstr "下载最新版本图像插件"
+msgstr "下载最新图像插件"
 
 #: GraphicPacksWindow2.cpp:299
 msgid "This is an old graphic pack, therefore it has no description."
-msgstr "此图像插件为旧版，因此无简介."
+msgstr "此图像插件为旧版，因此无简介。"
 
 #: GraphicPacksWindow2.cpp:329
 msgid "This graphic pack has no description"
@@ -372,7 +372,7 @@ msgstr "此图像插件无简介"
 #: GraphicPacksWindow2.cpp:393 GraphicPacksWindow2.cpp:435
 #: GraphicPacksWindow2.cpp:447
 msgid "Restart of Cemu required for changes to take effect"
-msgstr "重启Cemu以应用变更"
+msgstr "重启Cemu以使更改生效"
 
 #: InputPanelClassic.cpp:53 InputPanelGamepad.cpp:66 InputPanelPro.cpp:47
 msgid "Left Axis"
@@ -413,11 +413,11 @@ msgstr "扩展:"
 
 #: InputPanelWiimote.cpp:40
 msgid "MotionPlus"
-msgstr "体感加速器(MotionPlus)"
+msgstr "体感增强器(MotionPlus)"
 
 #: InputPanelWiimote.cpp:44 InputPanelWiimote.cpp:124
 msgid "Nunchuck"
-msgstr "左手柄(Nunchuck)"
+msgstr "双节棍(Nunchuck)"
 
 #: InputPanelWiimote.cpp:48
 msgid "Classic"
@@ -429,7 +429,7 @@ msgstr "输入设定"
 
 #: InputSettings.cpp:101
 msgid "Couldn't save settings for controller {0}"
-msgstr "未能为控制器 {0} 保存配置文件"
+msgstr "无法保存控制器 {0} 的设定"
 
 #: InputSettings.cpp:101 InputSettings.cpp:495 InputSettings.cpp:501
 #: InputSettings.cpp:570 InputSettings.cpp:584 InputSettings.cpp:590
@@ -441,7 +441,7 @@ msgstr "错误"
 
 #: InputSettings.cpp:158
 msgid "Profile"
-msgstr "配置文件"
+msgstr "配置"
 
 #: InputSettings.cpp:166
 msgid "Load"
@@ -506,23 +506,23 @@ msgstr "用于识别扳机键/摇杆发生操作的阈值"
 
 #: InputSettings.cpp:495 InputSettings.cpp:608
 msgid "No profile name selected!"
-msgstr "没有选择配置文件名称!"
+msgstr "没有选择配置名称!"
 
 #: InputSettings.cpp:501 InputSettings.cpp:590
 msgid "The given profile name is not valid!"
-msgstr "给定的配置文件名称无效!"
+msgstr "输入的配置名称无效!"
 
 #: InputSettings.cpp:570
 msgid "Couldn't load the selected profile!"
-msgstr "无法加载选定的配置文件!"
+msgstr "无法加载选择的配置!"
 
 #: InputSettings.cpp:584
 msgid "No profile name entered!"
-msgstr "没有输入配置文件名称!"
+msgstr "没有输入配置名称!"
 
 #: InputSettings.cpp:595
 msgid "Couldn't save the profile!"
-msgstr "无法保存配置文件!"
+msgstr "无法保存配置!"
 
 #: InputSettings.cpp:914
 msgid "Searching for wiimotes..."
@@ -550,31 +550,31 @@ msgstr "上次运行时间"
 
 #: MainWindow.cpp:415 MainWindow.cpp:421
 msgid "Can't open the file."
-msgstr "无法打开文件."
+msgstr "无法打开文件。"
 
 #: MainWindow.cpp:425
 msgid "Invalid \"meta.xml\" file."
-msgstr "无效的“meta.xml”文件."
+msgstr "无效的“meta.xml”文件。"
 
 #: MainWindow.cpp:429
 msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
-msgstr "在给定的“meta.xml”文件中找不到“title_id”."
+msgstr "选择的“meta.xml”文件中找不到“title_id”。"
 
 #: MainWindow.cpp:447
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
-msgstr "在给定的“meta.xml”文件中找不到“title_version”."
+msgstr "选择的“meta.xml”文件中找不到“title_version”。"
 
 #: MainWindow.cpp:451
 msgid "The given \"meta.xml\" file is no update or DLC."
-msgstr "给定的“meta.xml”文件不是更新档或DLC."
+msgstr "选择的“meta.xml”文件不是更新档或DLC。"
 
 #: MainWindow.cpp:456
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
-msgstr "在给定的“meta.xml”文件中找不到“longname_en”."
+msgstr "选择的“meta.xml”文件中找不到“longname_en”。"
 
 #: MainWindow.cpp:483
 msgid "Invalid folder structure"
-msgstr "无效的文件目录结构"
+msgstr "无效的文件夹结构"
 
 #: MainWindow.cpp:512
 msgid ""
@@ -591,7 +591,7 @@ msgstr "此更新档已安装，仍要继续安装？"
 msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
-msgstr "已安装新版本的更新档，仍要安装此旧版本？"
+msgstr "已安装较新版本的更新档，仍要安装此旧版本？"
 
 #: MainWindow.cpp:552
 msgid ""
@@ -599,7 +599,7 @@ msgid ""
 "Required: {0} MB\n"
 "Available: {1} MB"
 msgstr ""
-"存储空间不足\n"
+"存储空间不足。\n"
 "需要: {0} MB\n"
 "可用: {1} MB"
 
@@ -617,15 +617,15 @@ msgstr "已取消更新档安装!"
 
 #: MainWindow.cpp:614
 msgid "Unable to open file."
-msgstr "无法打开文件."
+msgstr "无法打开文件。"
 
 #: MainWindow.cpp:616
 msgid "Unknown file type."
-msgstr "未知文件类型."
+msgstr "未知文件类型。"
 
 #: MainWindow.cpp:618
 msgid "Failed to launch file."
-msgstr "载入文件失败."
+msgstr "载入文件失败。"
 
 #: MainWindow.cpp:687 MainWindow.cpp:716
 msgid "Open file to launch"
@@ -641,11 +641,11 @@ msgstr "无法打开文件"
 
 #: MainWindow.cpp:740 MainWindow.cpp:763
 msgid "Not a valid NFC NTAG215 file"
-msgstr "无效NFC NTAG215文件"
+msgstr "无效的NFC NTAG215文件"
 
 #: MainWindow.cpp:874
 msgid "Cemu must be restarted to apply the selected UI language."
-msgstr "重启Cemu以应用界面语言变更."
+msgstr "重启Cemu以应用界面语言变更。"
 
 #: MainWindow.cpp:874
 msgid "Information"
@@ -657,12 +657,12 @@ msgid ""
 "servers and therefore there is a risk of getting banned. Only proceed if you "
 "are willing to risk losing online access with your Wii U and/or NNID."
 msgstr ""
-"警告 - 请注意：在线模式将使你连接到任天堂官方服务器，可能会导致封禁\n"
-"如果你愿意承担失去WiiU和NNID在线访问许可的风险，请继续."
+"警告 - 请注意：在线模式将使你连接到任天堂官方服务器，可能会导致封禁。\n"
+"如果你愿意承担失去WiiU和NNID在线访问许可的风险，请继续。"
 
 #: MainWindow.cpp:1565
 msgid "You can configure game paths in the general settings."
-msgstr "常规设定中可设置游戏路径."
+msgstr "可以在常规设定中设置游戏路径。"
 
 #: MainWindow.cpp:1637
 msgid "Loading, please wait!"
@@ -742,7 +742,7 @@ msgstr "&简体中文"
 
 #: MainWindow.cpp:2142
 msgid "&Korean"
-msgstr "&朝鲜语"
+msgstr "&韩语"
 
 #: MainWindow.cpp:2143
 msgid "&Dutch"
@@ -926,7 +926,7 @@ msgstr "&着色器"
 
 #: MainWindow.cpp:2240
 msgid "&Logging"
-msgstr "&日志"
+msgstr "&记录"
 
 #: MainWindow.cpp:2241
 msgid "&Dump"
@@ -934,7 +934,7 @@ msgstr "&转储"
 
 #: MainWindow.cpp:2245 MainWindow.cpp:2250
 msgid "&Render upside-down"
-msgstr "&上下颠倒渲染"
+msgstr "&上下反转渲染"
 
 #: MainWindow.cpp:2253
 msgid "&View PPC threads"
@@ -974,7 +974,7 @@ msgstr "找不到otp.bin文件"
 
 #: MainWindow.cpp:2293
 msgid "otp.bin is corrupted or has invalid size"
-msgstr "otp.bin已损坏"
+msgstr "otp.bin已损坏或者大小无效"
 
 #: MainWindow.cpp:2297
 msgid "seeprom.bin could not be found"
@@ -982,7 +982,7 @@ msgstr "找不到seeprom.bin文件"
 
 #: MainWindow.cpp:2301
 msgid "seeprom.bin is corrupted or has invalid size"
-msgstr "seeprom.bin已损坏"
+msgstr "seeprom.bin已损坏或者大小无效"
 
 #: MainWindow.cpp:2314
 msgid "Unknown error occured"
@@ -1114,7 +1114,7 @@ msgstr "挂起"
 
 #: graphicPack.cpp:578
 msgid "Cemu detected outdated graphic packs and automatically disabled them."
-msgstr "Cemu检测到了过时的图像插件且已自动禁用之."
+msgstr "Cemu检测到过时的图像插件并已自动将其禁用。"
 
 #: graphicPack.cpp:578
 msgid "Outdated graphic packs"
@@ -1218,7 +1218,7 @@ msgstr "冻结"
 
 #: toolMemorySearcher.cpp:164
 msgid "Your entered value is not valid for the selected datatype."
-msgstr "输入的值对此数据类型无效."
+msgstr "输入的值对选择的数据类型无效。"
 
 #: toolMemorySearcher.cpp:389
 msgid "&Add new entry"
@@ -1260,7 +1260,7 @@ msgid ""
 msgstr ""
 "您真的想取消更新过程吗？\n"
 "\n"
-"将撤销所应用的更新."
+"将撤销所应用的更新。"
 
 #: updateWindow.cpp:154
 msgid "Info"
@@ -1278,7 +1278,7 @@ msgstr "信息"
 #~ msgid ""
 #~ "The currently running game is corrupted or incomplete. (Missing /meta/"
 #~ "meta.xml) Graphic packs cannot be applied."
-#~ msgstr "当前运行的游戏已损坏或不完整(缺少/meta/meta.xml) 图像插件无法启用"
+#~ msgstr "当前运行的游戏已损坏或不完整(缺少/meta/meta.xml)。图像插件无法启用。"
 
 #~ msgid "Restart of Cemu required"
 #~ msgstr "需要重启Cemu"
