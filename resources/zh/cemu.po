@@ -417,7 +417,7 @@ msgstr "体感增强器(MotionPlus)"
 
 #: InputPanelWiimote.cpp:44 InputPanelWiimote.cpp:124
 msgid "Nunchuck"
-msgstr "左手柄(Nunchuck)"
+msgstr "双节棍(Nunchuck)"
 
 #: InputPanelWiimote.cpp:48
 msgid "Classic"
