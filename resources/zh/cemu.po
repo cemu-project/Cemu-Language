@@ -413,7 +413,7 @@ msgstr "扩展:"
 
 #: InputPanelWiimote.cpp:40
 msgid "MotionPlus"
-msgstr "体感加速器(MotionPlus)"
+msgstr "体感增强器(MotionPlus)"
 
 #: InputPanelWiimote.cpp:44 InputPanelWiimote.cpp:124
 msgid "Nunchuck"
