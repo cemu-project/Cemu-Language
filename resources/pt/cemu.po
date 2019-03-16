@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2019-01-28 22:51+0100\n"
-"PO-Revision-Date: 2019-02-02 23:42-0300\n"
+"PO-Revision-Date: 2019-03-16 15:33-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -367,7 +367,7 @@ msgstr "Controle"
 
 #: GraphicPacksWindow2.cpp:219
 msgid "Download latest community graphic packs"
-msgstr "Baixando pacotes gráficos mais recentes da comunidade"
+msgstr "Baixar pacotes gráficos mais recentes da comunidade"
 
 #: GraphicPacksWindow2.cpp:299
 msgid "This is an old graphic pack, therefore it has no description."
