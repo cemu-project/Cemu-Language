@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2019-05-04 01:10+0200\n"
-"PO-Revision-Date: 2019-05-09 10:53-0300\n"
+"PO-Revision-Date: 2019-05-09 12:56-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: BreakpointWindow.cpp:41
@@ -397,11 +397,13 @@ msgstr ""
 
 #: GeneralSettings2.cpp:88
 msgid "Remember pad window position"
-msgstr ""
+msgstr "Lembrar posição da janela de controles"
 
 #: GeneralSettings2.cpp:90
 msgid "Restores the last known pad window position and size when opening it"
 msgstr ""
+"Restaura a última posição e tamanho conhecidos da janela de configuração de "
+"controles ao abri-la"
 
 #: GeneralSettings2.cpp:94
 msgid "Discord Presence"
