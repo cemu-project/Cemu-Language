@@ -1,20 +1,133 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2019-01-28 22:51+0100\n"
-"PO-Revision-Date: 2019-03-16 15:33-0300\n"
+"POT-Creation-Date: 2019-05-04 01:10+0200\n"
+"PO-Revision-Date: 2019-05-09 13:08-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: BreakpointWindow.cpp:41
+msgid "On"
+msgstr "Em"
+
+#: BreakpointWindow.cpp:47 ModuleWindow.cpp:39 debugPPCThreadsWindow.cpp:43
+msgid "Address"
+msgstr "Endereço"
+
+#: BreakpointWindow.cpp:53 textureRelationWindow.cpp:58
+msgid "Type"
+msgstr "Tipo"
+
+#: BreakpointWindow.cpp:59
+msgid "Comment"
+msgstr "Comentário"
+
+#: BreakpointWindow.cpp:201 DisasmCtrl.cpp:506
+msgid "Enter a new comment."
+msgstr "Digite um novo comentário."
+
+#: BreakpointWindow.cpp:201
+#, c-format
+msgid "Set comment for breakpoint at address %08x"
+msgstr "Definir um comentário para o ponto de interrupção no endereço %08x"
+
+#: BreakpointWindow.cpp:229
+msgid "Create memory breakpoint (read)"
+msgstr "Criar ponto de interrupção na memória (leitura)"
+
+#: BreakpointWindow.cpp:230
+msgid "Create memory breakpoint (write)"
+msgstr "Criar ponto de interrupção na memória (escrita)"
+
+#: BreakpointWindow.cpp:261
+msgid "Enter a memory address"
+msgstr "Digite um endereço de memória"
+
+#: BreakpointWindow.cpp:261
+msgid "Memory breakpoint"
+msgstr "Ponto de interrupção na memória"
+
+#: DebuggerWindow2.cpp:170
+msgid "GoTo (CTRL + G)"
+msgstr "Ir para (Ctrl+G)"
+
+#: DebuggerWindow2.cpp:173
+msgid "Toggle Breakpoint (F9)"
+msgstr "Alternar ponto de interrupção (F9)"
+
+#: DebuggerWindow2.cpp:178 DebuggerWindow2.cpp:425
+msgid "Break (F5)"
+msgstr "Interromper (F5)"
+
+#: DebuggerWindow2.cpp:180
+msgid "Step Into (F11)"
+msgstr "Pular dentro (F11)"
+
+#: DebuggerWindow2.cpp:181
+msgid "Step Over (F10)"
+msgstr "Pular sobre (F10)"
+
+#: DebuggerWindow2.cpp:414
+msgid "Run (F5)"
+msgstr "Executar (F5)"
+
+#: DebuggerWindow2.cpp:543
+msgid "E&xit"
+msgstr "Sa&ir"
+
+#: DebuggerWindow2.cpp:546 MainWindow.cpp:2159
+msgid "&File"
+msgstr "&Arquivo"
+
+#: DebuggerWindow2.cpp:550
+msgid "&Pin to main window"
+msgstr "&Fixar na janela principal"
+
+#: DebuggerWindow2.cpp:552 MainWindow.cpp:2215
+msgid "&Options"
+msgstr "&Opções"
+
+#: DebuggerWindow2.cpp:556
+msgid "&Registers"
+msgstr "&Registros"
+
+#: DebuggerWindow2.cpp:557
+msgid "&Memory Dump"
+msgstr "&Despejo de memória"
+
+#: DebuggerWindow2.cpp:558
+msgid "&Breakpoints"
+msgstr "&Pontos de interrupção"
+
+#: DebuggerWindow2.cpp:559
+msgid "Module&list"
+msgstr "&Lista de módulos"
+
+#: DebuggerWindow2.cpp:561
+msgid "&Window"
+msgstr "&Janela"
+
+#: DisasmCtrl.cpp:483
+msgid "Enter a new instruction."
+msgstr "Digite uma nova instrução."
+
+#: DisasmCtrl.cpp:569 DumpCtrl.cpp:187
+msgid "Enter a target address."
+msgstr "Digite um endereço de destino."
+
+#: DisasmCtrl.cpp:569 DumpCtrl.cpp:187
+msgid "GoTo address"
+msgstr "Ir para endereço"
 
 #: DownloadGraphicPacksWindow.cpp:123 DownloadGraphicPacksWindow.cpp:131
 #: DownloadGraphicPacksWindow.cpp:217 DownloadGraphicPacksWindow.cpp:224
-#: GraphicPacksWindow2.cpp:139
+#: GraphicPacksWindow2.cpp:201
 msgid "Graphic packs"
 msgstr "Pacotes gráficos"
 
@@ -39,257 +152,570 @@ msgstr ""
 "Existem pacotes gráficos atualizados disponíveis. Deseja baixá-los e instalá-"
 "los?"
 
-#: DownloadGraphicPacksWindow.cpp:329
+#: DownloadGraphicPacksWindow.cpp:333
 msgid "Checking version..."
 msgstr "Verificando versão..."
 
-#: DownloadGraphicPacksWindow.cpp:336 updateWindow.cpp:24
+#: DownloadGraphicPacksWindow.cpp:340 updateWindow.cpp:24
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: DownloadGraphicPacksWindow.cpp:405
+#: DownloadGraphicPacksWindow.cpp:409
 msgid "Downloading graphic packs..."
 msgstr "Baixando pacotes gráficos..."
 
-#: DownloadGraphicPacksWindow.cpp:409
+#: DownloadGraphicPacksWindow.cpp:413
 msgid "Extracting..."
 msgstr "Extraindo..."
 
-#: GeneralSettings2.cpp:38
-msgid "General settings"
-msgstr "Configurações gerais"
+#: DumpCtrl.cpp:172 RegisterCtrl.cpp:205 RegisterCtrl.cpp:224
+#: RegisterCtrl.cpp:238 RegisterWindow.cpp:258 RegisterWindow.cpp:274
+#: RegisterWindow.cpp:290
+msgid "Enter a new value."
+msgstr "Digite um novo valor."
 
-#: GeneralSettings2.cpp:52
-msgid "Interface"
-msgstr "Interface"
+#: DumpCtrl.cpp:235 InputSettings.cpp:101 InputSettings.cpp:496
+#: InputSettings.cpp:502 InputSettings.cpp:571 InputSettings.cpp:585
+#: InputSettings.cpp:591 InputSettings.cpp:596 InputSettings.cpp:609
+#: MainWindow.cpp:2317 MainWindow.cpp:2321 MainWindow.cpp:2325
+#: MainWindow.cpp:2329 MainWindow.cpp:2334 MainWindow.cpp:2342
+#: toolMemorySearcher.cpp:164
+msgid "Error"
+msgstr "Erro"
 
-#: GeneralSettings2.cpp:59
-msgid "Language"
-msgstr "Idioma"
+#: GameProfileWindow.cpp:16 GameProfileWindow.cpp:234
+msgid "Edit game profile"
+msgstr "Editar perfil do jogo"
 
-#: GeneralSettings2.cpp:61
-msgid "Default"
-msgstr "Padrão"
-
-#: GeneralSettings2.cpp:61
-msgid "English"
-msgstr "Inglês"
-
-#: GeneralSettings2.cpp:77
-msgid "Discord Presence"
-msgstr "Presença no Discord"
-
-#: GeneralSettings2.cpp:83
-msgid "Fullscreen menu bar"
-msgstr "Barra de menus em tela cheia"
-
-#: GeneralSettings2.cpp:93
-msgid "MLC Path"
-msgstr "Pasta MLC"
-
-#: GeneralSettings2.cpp:111
-msgid "Game Paths"
-msgstr "Pastas de jogos"
-
-#: GeneralSettings2.cpp:122
-msgid "Add"
-msgstr "Adicionar"
-
-#: GeneralSettings2.cpp:126
-msgid "Remove"
-msgstr "Remover"
-
-#: GeneralSettings2.cpp:135 GeneralSettings2.cpp:245
+#: GameProfileWindow.cpp:32 GameProfileWindow.cpp:80 GeneralSettings2.cpp:158
+#: GeneralSettings2.cpp:166 GeneralSettings2.cpp:300
 msgid "General"
 msgstr "Geral"
 
+#: GameProfileWindow.cpp:35
+msgid "Load shared libraries"
+msgstr "Carregar bibliotecas compartilhadas"
+
+#: GameProfileWindow.cpp:36
+msgid ""
+"EXPERT OPTION\n"
+"This option will load libraries from the cafeLibs directory"
+msgstr ""
+"OPÇÃO AVANÇADA\n"
+"Esta opção carregará bibliotecas da pasta cafeLibs"
+
+#: GameProfileWindow.cpp:43
+msgid "CPU"
+msgstr "CPU"
+
+#: GameProfileWindow.cpp:50
+msgid "Mode"
+msgstr "Modo"
+
+#: GameProfileWindow.cpp:52
+msgid "Singlecore-Interpreter"
+msgstr "Interpretador single-core"
+
+#: GameProfileWindow.cpp:52
+msgid "Singlecore-Recompiler"
+msgstr "Recompilador single-core"
+
+#: GameProfileWindow.cpp:52
+msgid "Dualcore-Recompiler"
+msgstr "Recompilador dual-core"
+
+#: GameProfileWindow.cpp:52
+msgid "Triplecore-Recompiler"
+msgstr "Recompilador triple-core"
+
+#: GameProfileWindow.cpp:55
+msgid "Set the CPU emulation mode"
+msgstr "Define o modo de emulação de CPU"
+
+#: GameProfileWindow.cpp:60
+msgid "Thread quantum"
+msgstr "Quantum da thread"
+
+#: GameProfileWindow.cpp:65
+msgid ""
+"EXPERT OPTION\n"
+"Set the maximum thread slice runtime (in virtual cycles)"
+msgstr ""
+"OPÇÃO AVANÇADA\n"
+"Define a fatia máxima de tempo de execução da thread (em ciclos virtuais)"
+
+#: GameProfileWindow.cpp:68
+msgid "cycles"
+msgstr "ciclos"
+
+#: GameProfileWindow.cpp:90
+msgid "Extended texture readback"
+msgstr "Releitura de texturas estendida"
+
+#: GameProfileWindow.cpp:91
+msgid ""
+"Improves emulation accuracy of CPU to GPU memory access at the cost of "
+"performance. Required for some games."
+msgstr ""
+"Melhora a precisão da emulação do acesso de memória da CPU para a GPU, ao "
+"custo do desempenho. Necessária para alguns jogos."
+
+#: GameProfileWindow.cpp:98 GeneralSettings2.cpp:190
+msgid "Precompiled shaders"
+msgstr "Shaders pré-compilados"
+
+#: GameProfileWindow.cpp:99 GeneralSettings2.cpp:191
+msgid "auto"
+msgstr "auto"
+
+#: GameProfileWindow.cpp:99 GeneralSettings2.cpp:191
+msgid "enable"
+msgstr "ativar"
+
+#: GameProfileWindow.cpp:99 GeneralSettings2.cpp:191
+msgid "disable"
+msgstr "desativar"
+
+#: GameProfileWindow.cpp:102 GeneralSettings2.cpp:195
+msgid ""
+"Precompiled shaders can speed up the load time on the shader loading "
+"screen.\n"
+"Auto will enable it for AMD/Intel but disable it for NVIDIA GPUs as a "
+"workaround for a driver bug.\n"
+"\n"
+"Recommended: Auto"
+msgstr ""
+"Shaders pré-compilados podem acelerar o tempo de carregamento dos shaders no "
+"início da emulação.\n"
+"A opção \"auto\" ativará isto para AMD/Intel, mas deixará desativado em GPUs "
+"da NVIDIA como solução para um bug no driver.\n"
+"\n"
+"Recomendado: Auto"
+
+#: GameProfileWindow.cpp:105
+msgid "Shader mul accuracy"
+msgstr "Precisão da multip. de shaders"
+
+#: GameProfileWindow.cpp:107
+msgid "false"
+msgstr "desativada"
+
+#: GameProfileWindow.cpp:107
+msgid "true"
+msgstr "ativada"
+
+#: GameProfileWindow.cpp:107
+msgid "minimal"
+msgstr "mínima"
+
+#: GameProfileWindow.cpp:109
+msgid ""
+"EXPERT OPTION\n"
+"Controls the accuracy of floating point multiplication in shaders.\n"
+"\n"
+"Recommended: true"
+msgstr ""
+"OPÇÃO AVANÇADA\n"
+"Controla a precisão da multiplicação de pontos flutuantes em shaders.\n"
+"\n"
+"Recomendado: true"
+
+#: GameProfileWindow.cpp:112
+msgid "GPU buffer cache accuracy"
+msgstr "Precisão do cache do buffer da GPU"
+
+#: GameProfileWindow.cpp:113
+msgid "high"
+msgstr "alta"
+
+#: GameProfileWindow.cpp:113
+msgid "medium"
+msgstr "média"
+
+#: GameProfileWindow.cpp:113
+msgid "low"
+msgstr "baixa"
+
+#: GameProfileWindow.cpp:115
+msgid ""
+"Lower value results in higher performance, but may cause graphical issues"
+msgstr ""
+"Quanto menor o valor, maior o desempenho (e maiores as chances de causar "
+"problemas gráficos)"
+
+#: GameProfileWindow.cpp:124
+msgid "Graphic"
+msgstr "Gráficos"
+
+#: GameProfileWindow.cpp:155 GameProfileWindow.cpp:170
+msgid "Controller"
+msgstr "Controles"
+
+#: GameProfileWindow.cpp:161
+msgid "Forces a given controller profile"
+msgstr "Força um determinado perfil de controle"
+
+#: GeneralSettings2.cpp:39
+msgid "General settings"
+msgstr "Configurações gerais"
+
+#: GeneralSettings2.cpp:53
+msgid "Interface"
+msgstr "Interface"
+
+#: GeneralSettings2.cpp:61
+msgid "Language"
+msgstr "Idioma"
+
+#: GeneralSettings2.cpp:63
+msgid "Default"
+msgstr "Padrão"
+
+#: GeneralSettings2.cpp:63
+msgid "English"
+msgstr "Inglês"
+
+#: GeneralSettings2.cpp:66
+msgid ""
+"Changes the interface language of Cemu\n"
+"Available languages are stored in the translation directory\n"
+"A restard will be required after changing the language"
+msgstr ""
+"Altera o idioma da interface do Cemu\n"
+"Os idiomas disponíveis estão armazenados na pasta de traduções\n"
+"Será necessário reiniciar o emulador para a alteração fazer efeito"
+
+#: GeneralSettings2.cpp:83
+msgid "Remember main window position"
+msgstr "Lembrar posição da janela principal"
+
+#: GeneralSettings2.cpp:85
+msgid "Restores the last known window position and size when starting Cemu"
+msgstr ""
+"Restaura a última posição e tamanho conhecidos da janela ao inicializar o "
+"Cemu"
+
+#: GeneralSettings2.cpp:88
+msgid "Remember pad window position"
+msgstr "Lembrar posição da janela de controles"
+
+#: GeneralSettings2.cpp:90
+msgid "Restores the last known pad window position and size when opening it"
+msgstr ""
+"Restaura a última posição e tamanho conhecidos da janela de configuração de "
+"controles ao abri-la"
+
+#: GeneralSettings2.cpp:94
+msgid "Discord Presence"
+msgstr "Presença no Discord"
+
+#: GeneralSettings2.cpp:96
+msgid ""
+"Enables the Discord Rich Presence feature\n"
+"You will also need to enable it in the Discord settings itself!"
+msgstr ""
+"Ativa a funcionalidade do Discord Rich Presence\n"
+"Também será necessário deixá-la ativada nas configurações do Discord"
+
+#: GeneralSettings2.cpp:101
+msgid "Fullscreen menu bar"
+msgstr "Barra de menus em tela cheia"
+
+#: GeneralSettings2.cpp:103
+msgid ""
+"Displays the menu bar when Cemu is running in fullscreen mode and the mouse "
+"cursor is moved to the top"
+msgstr ""
+"Mostra a barra de menu quando o Cemu estiver em modo tela cheia e o cursor "
+"do mouse for movido para a parte superior da tela"
+
+#: GeneralSettings2.cpp:113
+msgid "MLC Path"
+msgstr "Pasta MLC"
+
+#: GeneralSettings2.cpp:123
+msgid ""
+"Select a custom mlc path\n"
+"The mlc path is used to store Wii U related files like save games, game "
+"updates and dlc data"
+msgstr ""
+"Define uma pasta MLC personalizada\n"
+"A pasta MLC é usada para armazenar arquivos relacionados ao Wii U tais como "
+"jogos salvos, atualizações de jogo e dados de DLCs"
+
+#: GeneralSettings2.cpp:132
+msgid "Game Paths"
+msgstr "Pastas de jogos"
+
 #: GeneralSettings2.cpp:143
-msgid "Misc"
-msgstr "Diversos"
+msgid "Add"
+msgstr "Adicionar"
+
+#: GeneralSettings2.cpp:145
+msgid ""
+"Adds a game path to scan for games displayed in the game list\n"
+"If you have unpacked games, make sure to select the root folder of a game"
+msgstr ""
+"Adiciona uma pasta para verificar em busca de jogos, que serão mostrados na "
+"lista de jogos\n"
+"Se você tiver jogos em formato extraído, tenha certeza de selecionar a pasta "
+"raiz do jogo"
+
+#: GeneralSettings2.cpp:148
+msgid "Remove"
+msgstr "Remover"
 
 #: GeneralSettings2.cpp:150
+msgid "Removes the currently selected game path from the game list"
+msgstr "Remove a pasta selecionada da lista de jogos"
+
+#: GeneralSettings2.cpp:173
+msgid "Graphics API"
+msgstr "API gráfica"
+
+#: GeneralSettings2.cpp:204
 msgid "VSync"
 msgstr "VSync"
 
-#: GeneralSettings2.cpp:153
+#: GeneralSettings2.cpp:205
+msgid "Controls the vsync state"
+msgstr "Ativa/desativa a sincronização vertical"
+
+#: GeneralSettings2.cpp:208
 msgid "Full sync at GX2DrawDone()"
 msgstr "Sincronização total com o GX2DrawDone()"
 
-#: GeneralSettings2.cpp:156
-msgid "Use separable shaders"
-msgstr "Usar shaders separáveis"
+#: GeneralSettings2.cpp:209
+msgid ""
+"If synchronization is requested by the game, the emulated CPU will wait for "
+"the GPU to finish all operations.\n"
+"This is more accurate behavior, but may cause lower performance"
+msgstr ""
+"Se o jogo exigir sincronização, a CPU emulada aguardará até que a GPU "
+"termine todas as operações.\n"
+"Este comportamento torna a emulação mais precisa, mas pode causar queda de "
+"desempenho."
 
-#: GeneralSettings2.cpp:159
-msgid "Disable precompiled shaders"
-msgstr "Desativar shaders pré-compiladas"
-
-#: GeneralSettings2.cpp:167
+#: GeneralSettings2.cpp:217
 msgid "Bilinear"
 msgstr "Bilinear"
 
-#: GeneralSettings2.cpp:167
+#: GeneralSettings2.cpp:217
 msgid "Bicubic"
 msgstr "Bicúbico"
 
-#: GeneralSettings2.cpp:167
+#: GeneralSettings2.cpp:217
 msgid "Hermite"
 msgstr "Hermite"
 
-#: GeneralSettings2.cpp:167
+#: GeneralSettings2.cpp:217
 msgid "Nearest Neighbor"
 msgstr "Vizinho mais próximo"
 
-#: GeneralSettings2.cpp:168
+#: GeneralSettings2.cpp:218
 msgid "Upscale filter"
 msgstr "Filtro de ampliação"
 
-#: GeneralSettings2.cpp:171
+#: GeneralSettings2.cpp:219
+msgid ""
+"Upscaling filters are used when the game resolution is smaller than the "
+"window size"
+msgstr ""
+"Filtros de ampliação são usados quando a resolução do jogo é menor que o "
+"tamanho da janela"
+
+#: GeneralSettings2.cpp:222
 msgid "Downscale filter"
 msgstr "Filtro de redução"
 
-#: GeneralSettings2.cpp:176
+#: GeneralSettings2.cpp:223
+msgid ""
+"Downscaling filters are used when the game resolution is bigger than the "
+"window size"
+msgstr ""
+"Filtros de redução são usados quando a resolução do jogo é maior que o "
+"tamanho da janela"
+
+#: GeneralSettings2.cpp:228
 msgid "Keep aspect ratio"
 msgstr "Manter taxa de proporção"
 
-#: GeneralSettings2.cpp:176
+#: GeneralSettings2.cpp:228
 msgid "Stretch"
 msgstr "Esticar"
 
-#: GeneralSettings2.cpp:177
+#: GeneralSettings2.cpp:229
 msgid "Fullscreen scaling"
 msgstr "Escala em tela cheia"
 
-#: GeneralSettings2.cpp:182
+#: GeneralSettings2.cpp:230
+msgid ""
+"Controls the output aspect ratio when it doesn't match the ratio of the game"
+msgstr ""
+"Controla a taxa de proporção da emulação quando ela não corresponder com a "
+"do jogo"
+
+#: GeneralSettings2.cpp:235
 msgid "Overlay"
 msgstr "Sobreposição"
 
-#: GeneralSettings2.cpp:189
+#: GeneralSettings2.cpp:242
 msgid "Position"
 msgstr "Posição"
 
-#: GeneralSettings2.cpp:191 GeneralSettings2.cpp:621 GeneralSettings2.cpp:622
+#: GeneralSettings2.cpp:244 GeneralSettings2.cpp:698 GeneralSettings2.cpp:699
 msgid "Disabled"
 msgstr "Desativado"
 
-#: GeneralSettings2.cpp:191
+#: GeneralSettings2.cpp:244
 msgid "Top left"
 msgstr "Superior esquerda"
 
-#: GeneralSettings2.cpp:191
+#: GeneralSettings2.cpp:244
 msgid "Top center"
 msgstr "Superior centralizada"
 
-#: GeneralSettings2.cpp:191
+#: GeneralSettings2.cpp:244
 msgid "Top right"
 msgstr "Superior direita"
 
-#: GeneralSettings2.cpp:191
+#: GeneralSettings2.cpp:244
 msgid "Bottom left"
 msgstr "Inferior esquerda"
 
-#: GeneralSettings2.cpp:191
+#: GeneralSettings2.cpp:244
 msgid "Bottom center"
 msgstr "Inferior centralizada"
 
-#: GeneralSettings2.cpp:191
+#: GeneralSettings2.cpp:244
 msgid "Bottom right"
 msgstr "Inferior direita"
 
-#: GeneralSettings2.cpp:198
+#: GeneralSettings2.cpp:247
+msgid "Controls the overlay which displays technical information while playing"
+msgstr ""
+"Controla a sobreposição que mostra informações técnicas durante a emulação"
+
+#: GeneralSettings2.cpp:252
 msgid "Text Color"
 msgstr "Cor do texto"
 
-#: GeneralSettings2.cpp:209
+#: GeneralSettings2.cpp:254
+msgid "Sets the text color of the overlay"
+msgstr "Define a cor do texto da sobreposição"
+
+#: GeneralSettings2.cpp:264
 msgid "FPS"
 msgstr "FPS"
 
-#: GeneralSettings2.cpp:210
+#: GeneralSettings2.cpp:265
 msgid "The number of frames per second. Average over last 5 seconds"
 msgstr ""
 "O número de quadros por segundo. Exibe uma média dos últimos 5 segundos."
 
-#: GeneralSettings2.cpp:213
+#: GeneralSettings2.cpp:268
 msgid "Draw calls per frame"
 msgstr "Draw calls por quadro"
 
-#: GeneralSettings2.cpp:214
+#: GeneralSettings2.cpp:269
 msgid "The number of draw calls per frame. Average over last 5 seconds"
 msgstr ""
 "O número de draw calls (chamadas de desenho à API gráfica) por quadro. Exibe "
 "uma média dos últimos 5 segundos."
 
-#: GeneralSettings2.cpp:217
+#: GeneralSettings2.cpp:272
 msgid "CPU usage"
 msgstr "Uso de CPU"
 
-#: GeneralSettings2.cpp:218
-msgid "CPU usage of Cemu in %"
+#: GeneralSettings2.cpp:273
+msgid "CPU usage of Cemu in percent"
 msgstr "A porcentagem de uso de CPU do Cemu."
 
-#: GeneralSettings2.cpp:221
+#: GeneralSettings2.cpp:276
 msgid "CPU per core usage"
 msgstr "Uso de CPU por núcleo"
 
-#: GeneralSettings2.cpp:222
-#, c-format
-msgid "Total cpu usage in % for each core"
+#: GeneralSettings2.cpp:277
+msgid "Total cpu usage in percent for each core"
 msgstr "A porcentagem de uso total de CPU em cada núcleo."
 
-#: GeneralSettings2.cpp:225
+#: GeneralSettings2.cpp:280
 msgid "RAM usage"
 msgstr "Uso de RAM"
 
-#: GeneralSettings2.cpp:226
+#: GeneralSettings2.cpp:281
 msgid "Cemu RAM usage in MB"
 msgstr "Uso de RAM do Cemu em MB."
 
-#: GeneralSettings2.cpp:235
+#: GeneralSettings2.cpp:290
 msgid "Graphics"
 msgstr "Gráficos"
 
-#: GeneralSettings2.cpp:252
+#: GeneralSettings2.cpp:307
 msgid "API"
 msgstr "API"
 
-#: GeneralSettings2.cpp:269
+#: GeneralSettings2.cpp:318
+msgid "Select one of the available audio back ends"
+msgstr "Selecione um dos backends de áudio disponíveis"
+
+#: GeneralSettings2.cpp:325
 msgid "Latency"
 msgstr "Latência"
 
-#: GeneralSettings2.cpp:282
+#: GeneralSettings2.cpp:327
+msgid ""
+"Controls the amount of buffered audio data\n"
+"Higher values will create a delay in audio playback, but may avoid audio "
+"problems when emulation is too slow"
+msgstr ""
+"Controla a quantidade de dados de áudio armazenados em buffer\n"
+"Valores mais altos criarão um atraso no áudio, mas podem evitar problemas de "
+"áudio quando a emulação estiver muito lenta"
+
+#: GeneralSettings2.cpp:339
 msgid "Stereo"
 msgstr "Estéreo"
 
-#: GeneralSettings2.cpp:284
+#: GeneralSettings2.cpp:341
 msgid "TV"
 msgstr "TV"
 
-#: GeneralSettings2.cpp:291 GeneralSettings2.cpp:327
+#: GeneralSettings2.cpp:348 GeneralSettings2.cpp:386
 msgid "Device"
 msgstr "Dispositivo"
 
-#: GeneralSettings2.cpp:299 GeneralSettings2.cpp:335
+#: GeneralSettings2.cpp:351
+msgid "Select the active audio output device for Wii U TV"
+msgstr "Selecione o dispositivo de saída do áudio do Wii U na TV"
+
+#: GeneralSettings2.cpp:357 GeneralSettings2.cpp:394
 msgid "Channels"
 msgstr "Canais"
 
-#: GeneralSettings2.cpp:306 GeneralSettings2.cpp:341 InputPanelGamepad.cpp:160
+#: GeneralSettings2.cpp:361
+msgid "Select the active audio output device for Wii U GamePad"
+msgstr "Selecione o dispositivo de saída do áudio do GamePad do Wii U"
+
+#: GeneralSettings2.cpp:365 GeneralSettings2.cpp:400 InputPanelGamepad.cpp:160
 #: InputPanelWiimote.cpp:103
 msgid "Volume"
 msgstr "Volume"
 
-#: GeneralSettings2.cpp:320
+#: GeneralSettings2.cpp:379
 msgid "Gamepad"
 msgstr "Controle de jogo"
 
-#: GeneralSettings2.cpp:355
+#: GeneralSettings2.cpp:414
 msgid "Audio"
 msgstr "Áudio"
 
-#: GeneralSettings2.cpp:363 MainWindow.cpp:512 MainWindow.cpp:531
-#: MainWindow.cpp:537 MainWindow.cpp:1050
+#: GeneralSettings2.cpp:422 MainWindow.cpp:482 MainWindow.cpp:501
+#: MainWindow.cpp:507
 msgid "Warning"
 msgstr "Atenção"
 
-#: GeneralSettings2.cpp:366
+#: GeneralSettings2.cpp:425
 msgid ""
 "Please be aware that online mode lets you connect to OFFICIAL servers and "
 "therefore there is a risk of getting banned.\n"
@@ -301,84 +727,88 @@ msgstr ""
 "Prossiga somente se você estiver disposto a arriscar perder o acesso online "
 "do seu Wii U e/ou NNID."
 
-#: GeneralSettings2.cpp:374
+#: GeneralSettings2.cpp:433
 msgid "Account settings"
 msgstr "Configurações da conta"
 
-#: GeneralSettings2.cpp:381
+#: GeneralSettings2.cpp:440
 msgid "Active account"
 msgstr "Conta ativa"
 
-#: GeneralSettings2.cpp:393
+#: GeneralSettings2.cpp:452
 msgid "Account information"
 msgstr "Informações da conta"
 
-#: GeneralSettings2.cpp:402
+#: GeneralSettings2.cpp:461
 msgid "Id"
 msgstr "ID"
 
-#: GeneralSettings2.cpp:405
+#: GeneralSettings2.cpp:464
 msgid "E-Mail"
 msgstr "E-mail"
 
-#: GeneralSettings2.cpp:408
+#: GeneralSettings2.cpp:467
 msgid "Birthday"
 msgstr "Aniversário"
 
-#: GeneralSettings2.cpp:411
+#: GeneralSettings2.cpp:470
 msgid "Country"
 msgstr "País"
 
-#: GeneralSettings2.cpp:421
+#: GeneralSettings2.cpp:480
 msgid "Online"
 msgstr "Online"
 
-#: GeneralSettings2.cpp:527 GeneralSettings2.cpp:712
+#: GeneralSettings2.cpp:592 GeneralSettings2.cpp:799
 msgid "Online disabled"
 msgstr "Online desativado"
 
-#: GeneralSettings2.cpp:998
+#: GeneralSettings2.cpp:1087
 msgid "Select a directory containing games."
 msgstr "Selecione uma pasta contendo jogos."
 
-#: GeneralSettings2.cpp:1033
+#: GeneralSettings2.cpp:1122
 msgid "Select a mlc directory"
 msgstr "Selecione uma pasta mlc"
 
-#: GraphicPacksWindow2.cpp:52
+#: GraphicPacksWindow2.cpp:63
 msgid "Uncategorized graphic packs"
 msgstr "Pacotes gráficos sem categoria"
 
-#: GraphicPacksWindow2.cpp:169
+#: GraphicPacksWindow2.cpp:224 toolMemorySearcher.cpp:60
+msgid "Filter"
+msgstr "Filtro"
+
+#: GraphicPacksWindow2.cpp:249
 msgid "Graphic pack"
 msgstr "Pacote gráfico"
 
-#: GraphicPacksWindow2.cpp:179
+#: GraphicPacksWindow2.cpp:259
 msgid "Active preset"
 msgstr "Predefinição ativa"
 
-#: GraphicPacksWindow2.cpp:191
+#: GraphicPacksWindow2.cpp:271
 msgid "Description"
 msgstr "Descrição"
 
-#: GraphicPacksWindow2.cpp:201
+#: GraphicPacksWindow2.cpp:281
 msgid "Control"
 msgstr "Controle"
 
-#: GraphicPacksWindow2.cpp:219
+#: GraphicPacksWindow2.cpp:299
 msgid "Download latest community graphic packs"
 msgstr "Baixar pacotes gráficos mais recentes da comunidade"
 
-#: GraphicPacksWindow2.cpp:299
+#: GraphicPacksWindow2.cpp:383
 msgid "This is an old graphic pack, therefore it has no description."
 msgstr "Por este ser um pacote gráfico antigo, ele não possui uma descrição."
 
-#: GraphicPacksWindow2.cpp:329
+#: GraphicPacksWindow2.cpp:413
 msgid "This graphic pack has no description"
 msgstr "Este pacote gráfico não possui uma descrição"
 
-#: GraphicPacksWindow2.cpp:393 GraphicPacksWindow2.cpp:435
-#: GraphicPacksWindow2.cpp:447
+#: GraphicPacksWindow2.cpp:477 GraphicPacksWindow2.cpp:519
+#: GraphicPacksWindow2.cpp:531
 msgid "Restart of Cemu required for changes to take effect"
 msgstr "É necessário reiniciar o Cemu para que as alterações sejam aplicadas"
 
@@ -439,14 +869,6 @@ msgstr "Configurações de controle"
 msgid "Couldn't save settings for controller {0}"
 msgstr "Não foi possível salvar as configurações do controle {0}"
 
-#: InputSettings.cpp:101 InputSettings.cpp:495 InputSettings.cpp:501
-#: InputSettings.cpp:570 InputSettings.cpp:584 InputSettings.cpp:590
-#: InputSettings.cpp:595 InputSettings.cpp:608 MainWindow.cpp:2289
-#: MainWindow.cpp:2293 MainWindow.cpp:2297 MainWindow.cpp:2301
-#: MainWindow.cpp:2306 MainWindow.cpp:2314 toolMemorySearcher.cpp:164
-msgid "Error"
-msgstr "Erro"
-
 #: InputSettings.cpp:158
 msgid "Profile"
 msgstr "Perfil"
@@ -495,115 +917,115 @@ msgstr "Limpar"
 msgid "Clear all currently set input settings"
 msgstr "Limpar todas as configurações de controle"
 
-#: InputSettings.cpp:333
+#: InputSettings.cpp:332
 msgid "Additional settings"
 msgstr "Configurações adicionais"
 
-#: InputSettings.cpp:341
+#: InputSettings.cpp:340
 msgid "Rumble"
 msgstr "Vibração"
 
-#: InputSettings.cpp:354
+#: InputSettings.cpp:352
 msgid "Button Threshold"
 msgstr "Limiar dos botões"
 
-#: InputSettings.cpp:357
+#: InputSettings.cpp:355
 msgid ""
 "The threshold of a button to recognizes a press from a trigger/axis value"
 msgstr ""
 "O limiar usado para detectar a força de pressionamento de um gatilho ou "
 "direcional analógico."
 
-#: InputSettings.cpp:495 InputSettings.cpp:608
+#: InputSettings.cpp:496 InputSettings.cpp:609
 msgid "No profile name selected!"
 msgstr "Nenhum nome de perfil selecionado!"
 
-#: InputSettings.cpp:501 InputSettings.cpp:590
+#: InputSettings.cpp:502 InputSettings.cpp:591
 msgid "The given profile name is not valid!"
 msgstr "O nome de perfil digitado não é valido!"
 
-#: InputSettings.cpp:570
+#: InputSettings.cpp:571
 msgid "Couldn't load the selected profile!"
 msgstr "Não foi possível carregar o perfil selecionado!"
 
-#: InputSettings.cpp:584
+#: InputSettings.cpp:585
 msgid "No profile name entered!"
 msgstr "Nenhum nome de perfil selecionado!"
 
-#: InputSettings.cpp:595
+#: InputSettings.cpp:596
 msgid "Couldn't save the profile!"
 msgstr "Não foi possível salvar o perfil!"
 
-#: InputSettings.cpp:914
+#: InputSettings.cpp:918
 msgid "Searching for wiimotes..."
 msgstr "Procurando por Wiimotes..."
 
-#: MainWindow.cpp:272
+#: MainWindow.cpp:269
 msgid "Game"
 msgstr "Jogo"
 
-#: MainWindow.cpp:278
+#: MainWindow.cpp:275
 msgid "Version"
 msgstr "Versão"
 
-#: MainWindow.cpp:285
+#: MainWindow.cpp:282
 msgid "DLC"
 msgstr "DLC"
 
-#: MainWindow.cpp:292
+#: MainWindow.cpp:289
 msgid "You've played"
 msgstr "Você jogou"
 
-#: MainWindow.cpp:298
+#: MainWindow.cpp:295
 msgid "Last played"
 msgstr "Última vez jogado"
 
-#: MainWindow.cpp:415 MainWindow.cpp:421
+#: MainWindow.cpp:385 MainWindow.cpp:391
 msgid "Can't open the file."
 msgstr "Não foi possível abrir o arquivo."
 
-#: MainWindow.cpp:425
+#: MainWindow.cpp:395
 msgid "Invalid \"meta.xml\" file."
 msgstr "Arquivo \"meta.xml\" inválido."
 
-#: MainWindow.cpp:429
+#: MainWindow.cpp:399
 msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
 msgstr ""
 "Não foi possível encontrar o \"title_id\" no arquivo \"meta.xml\" utilizado."
 
-#: MainWindow.cpp:447
+#: MainWindow.cpp:417
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
 msgstr ""
 "Não foi possível encontrar a \"title_version\" no arquivo \"meta.xml\" "
 "utilizado."
 
-#: MainWindow.cpp:451
+#: MainWindow.cpp:421
 msgid "The given \"meta.xml\" file is no update or DLC."
 msgstr "O arquivo \"meta.xml\" utilizado não é uma atualização ou DLC."
 
-#: MainWindow.cpp:456
+#: MainWindow.cpp:426
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
 msgstr ""
 "Não foi possível encontrar o \"longname_en\" no arquivo \"meta.xml\" "
 "utilizado."
 
-#: MainWindow.cpp:483
+#: MainWindow.cpp:453
 msgid "Invalid folder structure"
 msgstr "Estrutura de pastas inválida"
 
-#: MainWindow.cpp:512
+#: MainWindow.cpp:482
 msgid ""
 "It seems that a DLC is already installed, do you still want to install it?"
 msgstr "Parece que uma DLC já está instalada. Deseja instalá-la mesmo assim?"
 
-#: MainWindow.cpp:531
+#: MainWindow.cpp:501
 msgid ""
 "It seems that the selected update is already installed, do you want to "
 "reinstall it?"
 msgstr ""
 "Parece que a atualização selecionada já foi instalada. Deseja reinstalá-la?"
 
-#: MainWindow.cpp:537
+#: MainWindow.cpp:507
 msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
@@ -611,7 +1033,7 @@ msgstr ""
 "Parece que já existe uma atualização mais recente instalada. Você ainda "
 "deseja instalar esta versão mais antiga?"
 
-#: MainWindow.cpp:552
+#: MainWindow.cpp:522
 msgid ""
 "Not enough space available.\n"
 "Required: {0} MB\n"
@@ -621,440 +1043,455 @@ msgstr ""
 "Necessário: {0} MB\n"
 "Disponível: {1} MB"
 
-#: MainWindow.cpp:589
+#: MainWindow.cpp:559
 msgid "Update installed!"
 msgstr "Atualização instalada!"
 
-#: MainWindow.cpp:589
+#: MainWindow.cpp:559
 msgid "Success"
 msgstr "Sucesso"
 
-#: MainWindow.cpp:594
+#: MainWindow.cpp:564
 msgid "Update installation has been canceled!"
 msgstr "A instalação da atualização foi cancelada!"
 
-#: MainWindow.cpp:614
+#: MainWindow.cpp:584
 msgid "Unable to open file."
 msgstr "Não foi possível abrir o arquivo."
 
-#: MainWindow.cpp:616
+#: MainWindow.cpp:586
 msgid "Unknown file type."
 msgstr "Tipo de arquivo desconhecido."
 
-#: MainWindow.cpp:618
+#: MainWindow.cpp:588
 msgid "Failed to launch file."
 msgstr "Falha ao executar arquivo."
 
-#: MainWindow.cpp:687 MainWindow.cpp:716
+#: MainWindow.cpp:698 MainWindow.cpp:727
 msgid "Open file to launch"
 msgstr "Abrir um arquivo para iniciar"
 
-#: MainWindow.cpp:729
+#: MainWindow.cpp:740
 msgid "Open file to load"
 msgstr "Abrir um arquivo para carregar"
 
-#: MainWindow.cpp:738 MainWindow.cpp:761
+#: MainWindow.cpp:749 MainWindow.cpp:772
 msgid "Cannot open file"
 msgstr "Não foi possível abrir o arquivo"
 
-#: MainWindow.cpp:740 MainWindow.cpp:763
+#: MainWindow.cpp:751 MainWindow.cpp:774
 msgid "Not a valid NFC NTAG215 file"
 msgstr "Arquivo NFC NTAG215 inválido"
 
-#: MainWindow.cpp:874
+#: MainWindow.cpp:915
 msgid "Cemu must be restarted to apply the selected UI language."
 msgstr "O Cemu precisa ser reiniciado para aplicar a alteração de idioma."
 
-#: MainWindow.cpp:874
+#: MainWindow.cpp:915
 msgid "Information"
 msgstr "Informação"
 
-#: MainWindow.cpp:1049
+#: MainWindow.cpp:1083
 msgid ""
-"WARNING - Please be aware that online mode lets you connect to OFFICIAL "
-"servers and therefore there is a risk of getting banned. Only proceed if you "
-"are willing to risk losing online access with your Wii U and/or NNID."
+"All files from the currently running game will be dumped to /dump/"
+"<gamefolder>. This process can take a few minutes."
 msgstr ""
-"AVISO - Esteja ciente que o modo online permite que você se conecte a "
-"servidores OFICIAIS, existindo a chance de ser banido. Prossiga somente se "
-"você estiver disposto a arriscar perder o acesso online do seu Wii U e/ou "
-"NNID."
+"Todos os arquivos do jogo rodando atualmente serão extraídos para /dump/"
+"<pastadojogo>. Este processo pode demorar alguns minutos."
 
-#: MainWindow.cpp:1565
+#: MainWindow.cpp:1084
+msgid "Dump WUD"
+msgstr "Despejar WUD"
+
+#: MainWindow.cpp:1088
+msgid "Dump complete"
+msgstr "Despejo concluído"
+
+#: MainWindow.cpp:1581
 msgid "You can configure game paths in the general settings."
 msgstr "Você pode configurar pastas de jogos nas configurações gerais."
 
-#: MainWindow.cpp:1637
+#: MainWindow.cpp:1653
 msgid "Loading, please wait!"
 msgstr "Carregando, aguarde..."
 
-#: MainWindow.cpp:2094
+#: MainWindow.cpp:2133
 msgid "&Load"
 msgstr "&Carregar"
 
-#: MainWindow.cpp:2095
+#: MainWindow.cpp:2134
 msgid "&Install game update or DLC"
 msgstr "&Instalar atualização ou DLC de jogo"
 
-#: MainWindow.cpp:2119
+#: MainWindow.cpp:2158
 msgid "&Exit"
 msgstr "&Sair"
 
-#: MainWindow.cpp:2120
-msgid "&File"
-msgstr "&Arquivo"
-
-#: MainWindow.cpp:2123
+#: MainWindow.cpp:2162
 msgid "&Auto"
 msgstr "&Auto"
 
-#: MainWindow.cpp:2125
+#: MainWindow.cpp:2164
 msgid "&USA"
 msgstr "&EUA"
 
-#: MainWindow.cpp:2126
+#: MainWindow.cpp:2165
 msgid "&Europe"
 msgstr "&Europa"
 
-#: MainWindow.cpp:2127
+#: MainWindow.cpp:2166
 msgid "&Japan"
 msgstr "&Japão"
 
-#: MainWindow.cpp:2129
+#: MainWindow.cpp:2168
 msgid "&China"
 msgstr "&China"
 
-#: MainWindow.cpp:2130
+#: MainWindow.cpp:2169
 msgid "&Korea"
 msgstr "&Coréia"
 
-#: MainWindow.cpp:2131
+#: MainWindow.cpp:2170
 msgid "&Taiwan"
 msgstr "&Taiwan"
 
-#: MainWindow.cpp:2135
+#: MainWindow.cpp:2174
 msgid "&English"
 msgstr "&Inglês"
 
-#: MainWindow.cpp:2136
+#: MainWindow.cpp:2175
 msgid "&Japanese"
 msgstr "&Japonês"
 
-#: MainWindow.cpp:2137
+#: MainWindow.cpp:2176
 msgid "&French"
 msgstr "&Francês"
 
-#: MainWindow.cpp:2138
+#: MainWindow.cpp:2177
 msgid "&German"
 msgstr "&Alemão"
 
-#: MainWindow.cpp:2139
+#: MainWindow.cpp:2178
 msgid "&Italian"
 msgstr "&Italiano"
 
-#: MainWindow.cpp:2140
+#: MainWindow.cpp:2179
 msgid "&Spanish"
 msgstr "&Espanhol"
 
-#: MainWindow.cpp:2141
+#: MainWindow.cpp:2180
 msgid "&Chinese"
 msgstr "&Chinês"
 
-#: MainWindow.cpp:2142
+#: MainWindow.cpp:2181
 msgid "&Korean"
 msgstr "&Coreano"
 
-#: MainWindow.cpp:2143
+#: MainWindow.cpp:2182
 msgid "&Dutch"
 msgstr "&Holandês"
 
-#: MainWindow.cpp:2144
+#: MainWindow.cpp:2183
 msgid "&Portuguese"
 msgstr "&Português"
 
-#: MainWindow.cpp:2145
+#: MainWindow.cpp:2184
 msgid "&Russian"
 msgstr "&Russo"
 
-#: MainWindow.cpp:2146
+#: MainWindow.cpp:2185
 msgid "&Taiwanese"
 msgstr "&Taiwanês"
 
-#: MainWindow.cpp:2152
+#: MainWindow.cpp:2191
 msgid "&High (slow)"
 msgstr "&Alta (lento)"
 
-#: MainWindow.cpp:2153
+#: MainWindow.cpp:2192
 msgid "&Medium"
 msgstr "&Média"
 
-#: MainWindow.cpp:2154
+#: MainWindow.cpp:2193
 msgid "&Low (fast)"
 msgstr "&Baixa (rápido)"
 
-#: MainWindow.cpp:2158
+#: MainWindow.cpp:2197
 msgid "&Fullscreen"
 msgstr "&Tela cheia"
 
-#: MainWindow.cpp:2159
+#: MainWindow.cpp:2198
 msgid "&Graphic packs"
 msgstr "&Pacotes gráficos"
 
-#: MainWindow.cpp:2160
+#: MainWindow.cpp:2199
 msgid "&GPU buffer cache accuracy"
 msgstr "P&recisão do cache do buffer da GPU"
 
-#: MainWindow.cpp:2161
+#: MainWindow.cpp:2200
 msgid "&Separate GamePad view"
 msgstr "&Separar tela do GamePad"
 
-#: MainWindow.cpp:2164
+#: MainWindow.cpp:2203
 msgid "&General settings"
 msgstr "Configurações &gerais"
 
-#: MainWindow.cpp:2165
+#: MainWindow.cpp:2204
 msgid "&Input settings"
 msgstr "Configurações de &controles"
 
-#: MainWindow.cpp:2170
-msgid "&Use RDTSC"
-msgstr "&Utilizar RDTSC"
-
-#: MainWindow.cpp:2178
-msgid "&Experimental"
-msgstr "&Experimental"
-
-#: MainWindow.cpp:2181
+#: MainWindow.cpp:2213
 msgid "&Console region"
 msgstr "Regiã&o do console"
 
-#: MainWindow.cpp:2182
+#: MainWindow.cpp:2214
 msgid "&Console language"
 msgstr "&Idioma do console"
 
-#: MainWindow.cpp:2183
-msgid "&Options"
-msgstr "&Opções"
-
-#: MainWindow.cpp:2187
+#: MainWindow.cpp:2219
 msgid "&Memory searcher"
 msgstr "&Pesquisador de memória"
 
-#: MainWindow.cpp:2189
+#: MainWindow.cpp:2221
 msgid "&Tools"
 msgstr "&Ferramentas"
 
-#: MainWindow.cpp:2194
+#: MainWindow.cpp:2226
 msgid "&Single-core interpreter"
 msgstr "&Interpretador single-core"
 
-#: MainWindow.cpp:2195
+#: MainWindow.cpp:2227
 msgid "&Single-core recompiler (fast)"
 msgstr "Recompilador &single-core (rápido)"
 
-#: MainWindow.cpp:2196
+#: MainWindow.cpp:2228
 msgid "&Dual-core recompiler (fast, unstable!)"
 msgstr "Recompilador &dual-core (rápido, instável!)"
 
-#: MainWindow.cpp:2197
+#: MainWindow.cpp:2229
 msgid "&Triple-core recompiler (fast, unstable!)"
 msgstr "Recompilador &triple-core (rápido, instável!)"
 
-#: MainWindow.cpp:2201
-msgid "&Cycle based timer"
-msgstr "Timer baseado em &ciclos"
-
-#: MainWindow.cpp:2202
-msgid "&Host based timer (recommended)"
-msgstr "Timer baseado no &host (recomendado)"
-
-#: MainWindow.cpp:2205
+#: MainWindow.cpp:2232
 msgid "&Mode"
 msgstr "&Modo"
 
-#: MainWindow.cpp:2206
-msgid "&Timer"
-msgstr "&Timer"
-
-#: MainWindow.cpp:2207
+#: MainWindow.cpp:2233
 msgid "&CPU"
 msgstr "&CPU"
 
-#: MainWindow.cpp:2211
+#: MainWindow.cpp:2237
 msgid "&Scan NFC tag from file"
 msgstr "&Escanear tag NFC de um arquivo"
 
-#: MainWindow.cpp:2212
+#: MainWindow.cpp:2238
 msgid "&NFC"
 msgstr "&NFC"
 
-#: MainWindow.cpp:2218
+#: MainWindow.cpp:2244
 msgid "&Unsupported API calls"
 msgstr "&Chamadas de API incompatíveis"
 
-#: MainWindow.cpp:2219
+#: MainWindow.cpp:2245
 msgid "&Coreinit File-Access"
 msgstr "&Coreinit File-Access"
 
-#: MainWindow.cpp:2220
+#: MainWindow.cpp:2246
 msgid "&Coreinit Thread-Synchronization API"
 msgstr "&Coreinit Thread-Synchronization API"
 
-#: MainWindow.cpp:2221
+#: MainWindow.cpp:2247
 msgid "&Coreinit Memory API"
 msgstr "&Coreinit Memory API"
 
-#: MainWindow.cpp:2222
+#: MainWindow.cpp:2248
 msgid "&GX2 API"
 msgstr "&GX2 API"
 
-#: MainWindow.cpp:2223
+#: MainWindow.cpp:2249
 msgid "&Audio API"
 msgstr "&Audio API"
 
-#: MainWindow.cpp:2224
+#: MainWindow.cpp:2250
 msgid "&Input API"
 msgstr "&Input API"
 
-#: MainWindow.cpp:2225
+#: MainWindow.cpp:2251
 msgid "&Socket API"
 msgstr "&Socket API"
 
-#: MainWindow.cpp:2226
+#: MainWindow.cpp:2252
 msgid "&Save API"
 msgstr "&Save API"
 
-#: MainWindow.cpp:2227
+#: MainWindow.cpp:2253
 msgid "&H264 API"
 msgstr "&H264 API"
 
-#: MainWindow.cpp:2229
+#: MainWindow.cpp:2255
 msgid "&Texture cache warnings"
 msgstr "A&visos do cache de texturas"
 
-#: MainWindow.cpp:2231
+#: MainWindow.cpp:2257
 msgid "&OpenGL debug output"
 msgstr "Saída de depuração do &OpenGL"
 
-#: MainWindow.cpp:2235
+#: MainWindow.cpp:2261
 msgid "&Textures"
 msgstr "&Texturas"
 
-#: MainWindow.cpp:2236
+#: MainWindow.cpp:2262
 msgid "&Shaders"
 msgstr "&Shaders"
 
-#: MainWindow.cpp:2240
+#: MainWindow.cpp:2266
 msgid "&Logging"
 msgstr "&Registrar"
 
-#: MainWindow.cpp:2241
+#: MainWindow.cpp:2267
 msgid "&Dump"
 msgstr "&Despejar"
 
-#: MainWindow.cpp:2245 MainWindow.cpp:2250
+#: MainWindow.cpp:2271 MainWindow.cpp:2276
 msgid "&Render upside-down"
 msgstr "&Renderizar de cabeça para baixo"
 
-#: MainWindow.cpp:2253
+#: MainWindow.cpp:2279
 msgid "&View PPC threads"
 msgstr "Ver &threads PPC"
 
-#: MainWindow.cpp:2254
+#: MainWindow.cpp:2280
 msgid "&View PPC debugger"
 msgstr "Ver &depurador PPC"
 
-#: MainWindow.cpp:2255
+#: MainWindow.cpp:2281
 msgid "&View audio debugger"
 msgstr "Ver depurador de &áudio"
 
-#: MainWindow.cpp:2256
+#: MainWindow.cpp:2282
 msgid "&View texture cache info"
 msgstr "Ver informações do cache de te&xturas"
 
-#: MainWindow.cpp:2257
+#: MainWindow.cpp:2283
+msgid "&Show frame profiler"
+msgstr "Ver &perfilador de quadros"
+
+#: MainWindow.cpp:2284
 msgid "&Dump current RAM"
 msgstr "&Despejar RAM atual"
 
-#: MainWindow.cpp:2259
+#: MainWindow.cpp:2285
+msgid "&Dump WUD filesystem"
+msgstr "Despejar sistema de arquivos &WUD"
+
+#: MainWindow.cpp:2287
 msgid "&Debug"
 msgstr "&Depuração"
 
-#: MainWindow.cpp:2264
+#: MainWindow.cpp:2292
 msgid "&About"
 msgstr "&Sobre"
 
-#: MainWindow.cpp:2265
+#: MainWindow.cpp:2293
 msgid "&Help"
 msgstr "A&juda"
 
-#: MainWindow.cpp:2289
+#: MainWindow.cpp:2317
 msgid "otp.bin could not be found"
 msgstr "O arquivo otp.bin não foi encontrado"
 
-#: MainWindow.cpp:2293
+#: MainWindow.cpp:2321
 msgid "otp.bin is corrupted or has invalid size"
 msgstr "O arquivo otp.bin está corrompido ou possui um tamanho inválido"
 
-#: MainWindow.cpp:2297
+#: MainWindow.cpp:2325
 msgid "seeprom.bin could not be found"
 msgstr "O arquivo seeprom.bin não foi encontrado"
 
-#: MainWindow.cpp:2301
+#: MainWindow.cpp:2329
 msgid "seeprom.bin is corrupted or has invalid size"
 msgstr "O arquivo seeprom.bin está corrompido ou possui um tamanho inválido"
 
-#: MainWindow.cpp:2314
+#: MainWindow.cpp:2342
 msgid "Unknown error occured"
 msgstr "Ocorreu um erro desconhecido"
 
-#: MainWindow.cpp:2427
+#: MainWindow.cpp:2447
 msgid "&Start"
 msgstr "&Iniciar"
 
-#: MainWindow.cpp:2429
-msgid "Sa&ve directory"
+#: MainWindow.cpp:2449
+msgid "&Save directory"
 msgstr "&Pasta de jogos salvos"
 
-#: MainWindow.cpp:2430
+#: MainWindow.cpp:2450
 msgid "&Update directory"
 msgstr "&Pasta de atualizações"
 
-#: MainWindow.cpp:2431
+#: MainWindow.cpp:2451
 msgid "&DLC directory"
 msgstr "&Pasta de DLC"
 
-#: MainWindow.cpp:2433
-msgid "&Open game profile"
-msgstr "&Abrir perfil do jogo"
+#: MainWindow.cpp:2453
+msgid "&Edit graphic packs"
+msgstr "&Editar pacotes gráficos"
 
-#: MainWindow.cpp:2434
-msgid "&Create game profile"
-msgstr "&Criar perfil do jogo"
+#: MainWindow.cpp:2454
+msgid "&Edit game profile"
+msgstr "&Editar perfil do jogo"
 
-#: MainWindow.cpp:2436
+#: MainWindow.cpp:2456
 msgid "&Refresh game list"
 msgstr "&Atualizar lista de jogos"
 
-#: MainWindow.cpp:2450
+#: MainWindow.cpp:2468
 msgid "&Refresh games"
 msgstr "&Atualizar a lista"
 
-#: MainWindow.cpp:2512
+#: MainWindow.cpp:2530
 msgid "Updating game list..."
 msgstr "Atualizando lista de jogos..."
 
-#: MainWindow.cpp:2694
+#: MainWindow.cpp:2696
 msgid "never"
 msgstr "nunca"
+
+#: ModuleWindow.cpp:33
+msgid "Name"
+msgstr "Nome"
+
+#: ModuleWindow.cpp:46
+msgid "Size"
+msgstr "Tamanho"
+
+#: RegisterWindow.cpp:333
+msgid "&Zero"
+msgstr "&Zero"
+
+#: RegisterWindow.cpp:334
+msgid "&Increment"
+msgstr "&Incrementar"
+
+#: RegisterWindow.cpp:335
+#| msgid "&Experimental"
+msgid "&Decrement"
+msgstr "&Decrementar"
+
+#: RegisterWindow.cpp:337
+msgid "&Copy"
+msgstr "&Copiar"
+
+#: RegisterWindow.cpp:339
+msgid "&Goto Disasm"
+msgstr "&Ir para Disasm"
+
+#: RegisterWindow.cpp:340
+#| msgid "&Dump"
+msgid "G&oto Dump"
+msgstr "I&r para o despejo"
 
 #: debugPPCThreadsWindow.cpp:31
 msgid "PPC threads"
 msgstr "Threads PPC"
-
-#: debugPPCThreadsWindow.cpp:43
-msgid "Address"
-msgstr "Endereço"
 
 #: debugPPCThreadsWindow.cpp:48
 msgid "Entry"
@@ -1100,7 +1537,7 @@ msgstr "ThreadName"
 msgid "GPR"
 msgstr "GPR"
 
-#: debugPPCThreadsWindow.cpp:105 textureRelationWindow.cpp:115
+#: debugPPCThreadsWindow.cpp:105 textureRelationWindow.cpp:117
 msgid "Refresh"
 msgstr "Atualizar"
 
@@ -1142,59 +1579,55 @@ msgstr ""
 msgid "Outdated graphic packs"
 msgstr "Pacotes gráficos desatualizados"
 
-#: textureRelationWindow.cpp:39
+#: textureRelationWindow.cpp:41
 msgid "Texture cache"
 msgstr "Cache de texturas"
 
-#: textureRelationWindow.cpp:56
-msgid "Type"
-msgstr "Tipo"
-
-#: textureRelationWindow.cpp:61
+#: textureRelationWindow.cpp:63
 msgid "PhysAddr"
 msgstr "PhysAddr"
 
-#: textureRelationWindow.cpp:66
+#: textureRelationWindow.cpp:68
 msgid "Dim"
 msgstr "Dim"
 
-#: textureRelationWindow.cpp:71
+#: textureRelationWindow.cpp:73
 msgid "Resolution"
 msgstr "Resolução"
 
-#: textureRelationWindow.cpp:76
+#: textureRelationWindow.cpp:78
 msgid "Format"
 msgstr "Formato"
 
-#: textureRelationWindow.cpp:81
+#: textureRelationWindow.cpp:83
 msgid "Pitch"
 msgstr "Pitch"
 
-#: textureRelationWindow.cpp:86
+#: textureRelationWindow.cpp:88
 msgid "Tilemode"
 msgstr "Tilemode"
 
-#: textureRelationWindow.cpp:91
+#: textureRelationWindow.cpp:93
 msgid "SliceRange"
 msgstr "SliceRange"
 
-#: textureRelationWindow.cpp:96
+#: textureRelationWindow.cpp:98
 msgid "MipRange"
 msgstr "MipRange"
 
-#: textureRelationWindow.cpp:101
+#: textureRelationWindow.cpp:103
 msgid "Last access"
 msgstr "Último acesso"
 
-#: textureRelationWindow.cpp:106
+#: textureRelationWindow.cpp:108
 msgid "OverwriteRes"
 msgstr "OverwriteRes"
 
-#: textureRelationWindow.cpp:118
+#: textureRelationWindow.cpp:120
 msgid "Show only active"
 msgstr "Mostrar apenas ativo"
 
-#: textureRelationWindow.cpp:121
+#: textureRelationWindow.cpp:123
 msgid "Show views"
 msgstr "Mostrar views"
 
@@ -1205,10 +1638,6 @@ msgstr "Pesquisador de memória"
 #: toolMemorySearcher.cpp:59 toolMemorySearcher.cpp:425
 msgid "Search"
 msgstr "Buscar"
-
-#: toolMemorySearcher.cpp:60
-msgid "Filter"
-msgstr "Filtro"
 
 #: toolMemorySearcher.cpp:79 toolMemorySearcher.cpp:426
 msgid "Results"
@@ -1288,11 +1717,36 @@ msgstr ""
 msgid "Info"
 msgstr "Informação"
 
+#~ msgid "Misc"
+#~ msgstr "Diversos"
+
+#~ msgid "Use separable shaders"
+#~ msgstr "Usar shaders separáveis"
+
+#~ msgid ""
+#~ "WARNING - Please be aware that online mode lets you connect to OFFICIAL "
+#~ "servers and therefore there is a risk of getting banned. Only proceed if "
+#~ "you are willing to risk losing online access with your Wii U and/or NNID."
+#~ msgstr ""
+#~ "AVISO - Esteja ciente que o modo online permite que você se conecte a "
+#~ "servidores OFICIAIS, existindo a chance de ser banido. Prossiga somente "
+#~ "se você estiver disposto a arriscar perder o acesso online do seu Wii U e/"
+#~ "ou NNID."
+
+#~ msgid "&Use RDTSC"
+#~ msgstr "&Utilizar RDTSC"
+
+#~ msgid "&Cycle based timer"
+#~ msgstr "Timer baseado em &ciclos"
+
+#~ msgid "&Host based timer (recommended)"
+#~ msgstr "Timer baseado no &host (recomendado)"
+
+#~ msgid "&Timer"
+#~ msgstr "&Timer"
+
 #~ msgid "On/Off"
 #~ msgstr "Ativar/desativar"
-
-#~ msgid "Name"
-#~ msgstr "Nome"
 
 #~ msgid "Active"
 #~ msgstr "Ativo"
