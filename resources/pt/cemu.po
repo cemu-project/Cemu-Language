@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2019-05-04 01:10+0200\n"
-"PO-Revision-Date: 2019-05-09 12:56-0300\n"
+"PO-Revision-Date: 2019-05-09 13:08-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -230,7 +230,7 @@ msgstr "Recompilador triple-core"
 
 #: GameProfileWindow.cpp:55
 msgid "Set the CPU emulation mode"
-msgstr "Defina o modo de emulação de CPU"
+msgstr "Define o modo de emulação de CPU"
 
 #: GameProfileWindow.cpp:60
 msgid "Thread quantum"
@@ -258,7 +258,7 @@ msgid ""
 "performance. Required for some games."
 msgstr ""
 "Melhora a precisão da emulação do acesso de memória da CPU para a GPU, ao "
-"custo do desempenho. Necessário para alguns jogos."
+"custo do desempenho. Necessária para alguns jogos."
 
 #: GameProfileWindow.cpp:98 GeneralSettings2.cpp:190
 msgid "Precompiled shaders"
@@ -349,7 +349,7 @@ msgstr "Gráficos"
 
 #: GameProfileWindow.cpp:155 GameProfileWindow.cpp:170
 msgid "Controller"
-msgstr "Controle"
+msgstr "Controles"
 
 #: GameProfileWindow.cpp:161
 msgid "Forces a given controller profile"
@@ -1482,7 +1482,7 @@ msgstr "&Copiar"
 
 #: RegisterWindow.cpp:339
 msgid "&Goto Disasm"
-msgstr "&Ir para disasm"
+msgstr "&Ir para Disasm"
 
 #: RegisterWindow.cpp:340
 #| msgid "&Dump"
