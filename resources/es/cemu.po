@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2019-05-04 01:10+0200\n"
-"PO-Revision-Date: 2019-05-14 18:11-0500\n"
+"PO-Revision-Date: 2019-05-15 15:43-0500\n"
 "Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.2\n"
 "X-Poedit-Basepath: ../../../coffee4u\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Flags-xgettext: --keyword=_\n"
@@ -287,7 +287,7 @@ msgstr "ciclos"
 
 #: GameProfileWindow.cpp:90
 msgid "Extended texture readback"
-msgstr "Relectura de textura extendida"
+msgstr "Read back de textura extendido"
 
 #: GameProfileWindow.cpp:91
 msgid ""
@@ -331,7 +331,7 @@ msgstr ""
 
 #: GameProfileWindow.cpp:105
 msgid "Shader mul accuracy"
-msgstr "Precisión del sombreador mul"
+msgstr "Multiplicación precisa en sombreadores"
 
 #: GameProfileWindow.cpp:107
 msgid "false"
@@ -1043,7 +1043,7 @@ msgstr "No se encontró \"longname_en\" en el archivo \"meta.xml\"."
 
 #: MainWindow.cpp:453
 msgid "Invalid folder structure"
-msgstr "Estructura de directorio inválida"
+msgstr "Estructura de carpeta no válida"
 
 #: MainWindow.cpp:482
 msgid ""
@@ -1114,7 +1114,7 @@ msgstr "Error al abrir el archivo"
 
 #: MainWindow.cpp:751 MainWindow.cpp:774
 msgid "Not a valid NFC NTAG215 file"
-msgstr "Archivo NFC NTAG215 inválido"
+msgstr "No es un archivo NFC NTAG215 válido"
 
 #: MainWindow.cpp:915
 msgid "Cemu must be restarted to apply the selected UI language."
@@ -1578,11 +1578,11 @@ msgstr "Actualizar automáticamente"
 
 #: debugPPCThreadsWindow.cpp:320
 msgid "Boost priority (-5)"
-msgstr "Prioridad de Boost (-5)"
+msgstr "Aumentar la prioridad (-5)"
 
 #: debugPPCThreadsWindow.cpp:321
 msgid "Boost priority (-1)"
-msgstr "Prioridad de Boost (-1)"
+msgstr "Aumentar la prioridad (-1)"
 
 #: debugPPCThreadsWindow.cpp:323
 msgid "Decrease priority (+5)"
@@ -1619,7 +1619,7 @@ msgstr "Dirección física"
 
 #: textureRelationWindow.cpp:68
 msgid "Dim"
-msgstr "Dimensión"
+msgstr "Dim"
 
 #: textureRelationWindow.cpp:73
 msgid "Resolution"
@@ -1631,7 +1631,7 @@ msgstr "Formato"
 
 #: textureRelationWindow.cpp:83
 msgid "Pitch"
-msgstr "Paso"
+msgstr "Pitch"
 
 #: textureRelationWindow.cpp:88
 msgid "Tilemode"
