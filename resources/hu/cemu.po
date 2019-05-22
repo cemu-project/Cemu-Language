@@ -14,7 +14,7 @@ msgstr ""
 
 #: BreakpointWindow.cpp:41
 msgid "On"
-msgstr "Be"
+msgstr "Aktív"
 
 #: BreakpointWindow.cpp:47 ModuleWindow.cpp:39 debugPPCThreadsWindow.cpp:43
 msgid "Address"
@@ -292,7 +292,7 @@ msgstr ""
 
 #: GameProfileWindow.cpp:105
 msgid "Shader mul accuracy"
-msgstr "Shader mul pontosság"
+msgstr "Shader szorzó pontosság"
 
 #: GameProfileWindow.cpp:107
 msgid "false"
@@ -410,7 +410,7 @@ msgid ""
 "Enables the Discord Rich Presence feature\n"
 "You will also need to enable it in the Discord settings itself!"
 msgstr ""
-"Engedélyezi a Discord Rick Presence-funkcióját\n"
+"Engedélyezi a Discord Rich Presence-funkcióját\n"
 "Ezt a Discord beállításaiban is be kell kapcsolnod!"
 
 #: GeneralSettings2.cpp:101
@@ -435,7 +435,7 @@ msgid ""
 "The mlc path is used to store Wii U related files like save games, game "
 "updates and dlc data"
 msgstr ""
-"Adj meg egy egyéni MLC  elérési utat\n"
+"Adj meg egy egyéni MLC elérési utat\n"
 "Ez a Wii U-val kapcsolatos fájlok tárolására használatos, például a "
 "játékmentésekhez, a frissítésekhez, és a DLC adatokhoz"
 
@@ -1253,7 +1253,7 @@ msgstr "&Egymagos interpreter"
 
 #: MainWindow.cpp:2227
 msgid "&Single-core recompiler (fast)"
-msgstr "&Egymagos recompiler  (gyors)"
+msgstr "&Egymagos recompiler (gyors)"
 
 #: MainWindow.cpp:2228
 msgid "&Dual-core recompiler (fast, unstable!)"
