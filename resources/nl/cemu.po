@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2019-05-31 20:07+0200\n"
-"PO-Revision-Date: 2019-06-14 16:34+0200\n"
+"PO-Revision-Date: 2019-06-15 23:56+0200\n"
 "Last-Translator: Crementif\n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -602,13 +602,11 @@ msgstr "Veranderd de tekst kleur van de overlay"
 
 #: GeneralSettings2.cpp:259 GeneralSettings2.cpp:315
 msgid "Scale"
-msgstr ""
+msgstr "Grootte"
 
 #: GeneralSettings2.cpp:261
-#, fuzzy
-#| msgid "Sets the text color of the overlay"
 msgid "Sets the scale of the overlay text"
-msgstr "Veranderd de tekst kleur van de overlay"
+msgstr "Veranderd de grootte van de tekst in de overlay"
 
 #: GeneralSettings2.cpp:268
 msgid "FPS"
