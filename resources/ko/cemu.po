@@ -2,12 +2,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2018-06-12 22:31+0200\n"
-"PO-Revision-Date: 2018-07-10 19:28+0900\n"
+"PO-Revision-Date: 2019-07-06 15:07+0900\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.2.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Last-Translator: \n"
 "Language: ko\n"
@@ -49,28 +49,28 @@ msgstr "&게임 경로 삭제"
 #: InputPanelPro.cpp:13 InputPanelPro.cpp:16 InputPanelPro.cpp:18
 #: InputPanelWiimote.cpp:16 InputPanelWiimote.cpp:22
 msgid "up"
-msgstr "up"
+msgstr "위"
 
 #: InputPanelClassic.cpp:13 InputPanelClassic.cpp:16 InputPanelClassic.cpp:18
 #: InputPanelGamepad.cpp:13 InputPanelGamepad.cpp:16 InputPanelGamepad.cpp:18
 #: InputPanelPro.cpp:13 InputPanelPro.cpp:16 InputPanelPro.cpp:18
 #: InputPanelWiimote.cpp:16 InputPanelWiimote.cpp:22
 msgid "down"
-msgstr "down"
+msgstr "아래"
 
 #: InputPanelClassic.cpp:13 InputPanelClassic.cpp:16 InputPanelClassic.cpp:18
 #: InputPanelGamepad.cpp:13 InputPanelGamepad.cpp:16 InputPanelGamepad.cpp:18
 #: InputPanelPro.cpp:13 InputPanelPro.cpp:16 InputPanelPro.cpp:18
 #: InputPanelWiimote.cpp:16 InputPanelWiimote.cpp:22
 msgid "left"
-msgstr "left"
+msgstr "왼쪽"
 
 #: InputPanelClassic.cpp:13 InputPanelClassic.cpp:16 InputPanelClassic.cpp:18
 #: InputPanelGamepad.cpp:13 InputPanelGamepad.cpp:16 InputPanelGamepad.cpp:18
 #: InputPanelPro.cpp:13 InputPanelPro.cpp:16 InputPanelPro.cpp:18
 #: InputPanelWiimote.cpp:16 InputPanelWiimote.cpp:22
 msgid "right"
-msgstr "right"
+msgstr "오른쪽"
 
 #: InputPanelClassic.cpp:55 InputPanelGamepad.cpp:55 InputPanelPro.cpp:55
 msgid "Left Axis"
@@ -180,7 +180,7 @@ msgstr "컨트롤러:"
 
 #: InputSettings.cpp:234
 msgid "Test if the controller is connected"
-msgstr "Test if the controller is connected"
+msgstr "컨트롤러가 연결되어 있는지 테스트합니다."
 
 #: InputSettings.cpp:238 optionsControllerWindow.cpp:193
 msgid "Calibrate"
@@ -193,15 +193,15 @@ msgstr "컨트롤러의 기본 상태를 리셋합니다"
 #: InputSettings.cpp:244 optionsControllerWindow.cpp:197
 #: toolMemorySearcher.cpp:170
 msgid "Clear"
-msgstr "치우기"
+msgstr "지우기"
 
 #: InputSettings.cpp:246
 msgid "Clear all currently set input settings"
-msgstr "현재의 입력 설정을 전부 청소합니다"
+msgstr "현재의 입력 설정을 전부 지웁니다."
 
 #: InputSettings.cpp:437 InputSettings.cpp:548
 msgid "No profile name selected!"
-msgstr "프로필의 이름이 선택되지 않았습니다!"
+msgstr "프로필 이름이 선택되지 않았습니다!"
 
 #: InputSettings.cpp:443 InputSettings.cpp:530
 msgid "The given profile name is not valid!"
@@ -221,7 +221,7 @@ msgstr "프로필을 저장할 수 없습니다!"
 
 #: InputSettings.cpp:857
 msgid "Searching for wiimotes..."
-msgstr "위모트들을 검색중입니다..."
+msgstr "위모트를 검색 중입니다..."
 
 #: MainWindow.cpp:271
 msgid "Game"
@@ -229,7 +229,7 @@ msgstr "게임"
 
 #: MainWindow.cpp:277
 msgid "Version"
-msgstr "버젼"
+msgstr "버전"
 
 #: MainWindow.cpp:284
 msgid "DLC"
@@ -237,11 +237,11 @@ msgstr "DLC"
 
 #: MainWindow.cpp:291
 msgid "You've played"
-msgstr "당신이 플레이 했던 것"
+msgstr "총 플레이 시간"
 
 #: MainWindow.cpp:297
 msgid "Last played"
-msgstr "마지막으로 플레이 했던 것"
+msgstr "마지막으로 플레이한 시간"
 
 #: MainWindow.cpp:379 MainWindow.cpp:385
 msgid "Can't open the file."
@@ -249,23 +249,23 @@ msgstr "파일을 열 수 없습니다."
 
 #: MainWindow.cpp:389
 msgid "Invalid \"meta.xml\" file."
-msgstr "유효하지 않은 \"meta.xml\" 파일 입니다."
+msgstr "유효하지 않은 \"meta.xml\" 파일입니다."
 
 #: MainWindow.cpp:393
 msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
-msgstr "주어진 \"meta.xml\" 에 정의된 \"title_id\" 를 찾을 수 없습니다."
+msgstr "주어진 \"meta.xml\"에서 \"title_id\"를 찾을 수 없습니다."
 
 #: MainWindow.cpp:411
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
-msgstr "주어진 \"meta.xml\" 에 정의된 \"title_version\" 를 찾을 수 없습니다."
+msgstr "주어진 \"meta.xml\"에서 \"title_version\"를 찾을 수 없습니다."
 
 #: MainWindow.cpp:415
 msgid "The given \"meta.xml\" file is no update or DLC."
-msgstr "주어진 \"meta.xml\" 파일이 update 나 DLC 가 아닙니다."
+msgstr "주어진 \"meta.xml\" 파일이 update나 DLC가 아닙니다."
 
 #: MainWindow.cpp:420
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
-msgstr "주어진 \"meta.xml\" 에 정의된 \"longname_en\" 을 찾을 수 없습니다."
+msgstr "주어진 \"meta.xml\"에서 \"longname_en\"을 찾을 수 없습니다."
 
 #: MainWindow.cpp:447
 msgid "Invalid folder structure"
@@ -275,8 +275,7 @@ msgstr "유효하지 않은 폴더 구조"
 msgid ""
 "It seems that a DLC is already installed, do you still want to install it?"
 msgstr ""
-"이미 해당 DLC는 설치 되어 있는 것 으로 보입니다, 여전히 설치하기를 원하십니"
-"까?"
+"이미 해당 DLC는 설치되어 있는 것으로 보입니다, 그래도 설치하시겠습니까?"
 
 #: MainWindow.cpp:476 MainWindow.cpp:495 MainWindow.cpp:501 MainWindow.cpp:960
 msgid "Warning"
@@ -287,15 +286,15 @@ msgid ""
 "It seems that the selected update is already installed, do you want to "
 "reinstall it?"
 msgstr ""
-"선택된 업데이트는 이미 설치 되어 있는 것 으로 보입니다, 재설치를 원하십니까?"
+"선택된 업데이트는 이미 설치되어 있는 것으로 보입니다, 재설치하시겠습니까?"
 
 #: MainWindow.cpp:501
 msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
 msgstr ""
-"이미 더 신규의 업데이트가 설치 되어 있는 것 으로 보입니다, 예전 버젼의 설치"
-"를 여전히 원하십니까?"
+"이미 최신 업데이트가 설치되어 있는 것으로 보입니다, 그래도 예전 버전을 설치하"
+"시겠습니까?"
 
 #: MainWindow.cpp:516
 msgid ""
@@ -303,13 +302,13 @@ msgid ""
 "Required: {0} MB\n"
 "Available: {1} MB"
 msgstr ""
-"사용 가능한 여유 공간이 부족합니다.\n"
+"여유 공간이 부족합니다.\n"
 "필요: {0} MB\n"
 "사용가능: {1} MB"
 
 #: MainWindow.cpp:553
 msgid "Update installed!"
-msgstr "업데이트가 설치 되었습니다!"
+msgstr "업데이트가 설치되었습니다!"
 
 #: MainWindow.cpp:553
 msgid "Success"
@@ -317,7 +316,7 @@ msgstr "성공"
 
 #: MainWindow.cpp:558
 msgid "Update installation has been canceled!"
-msgstr "업데이트의 설치가 취소 되었습니다!"
+msgstr "업데이트 설치가 취소되었습니다!"
 
 #: MainWindow.cpp:578
 msgid "Unable to open file."
@@ -349,7 +348,7 @@ msgstr "유효하지 않은 NFC NTAG215 파일"
 
 #: MainWindow.cpp:810
 msgid "Cemu must be restarted to apply the selected UI language."
-msgstr "선택된 UI 언어를 적용하려면 Cemu 는 재시작 해야만 합니다."
+msgstr "선택된 UI 언어를 적용하려면 Cemu를 재시작해야 합니다."
 
 #: MainWindow.cpp:810
 msgid "Information"
@@ -361,17 +360,17 @@ msgid ""
 "servers and therefore there is a risk of getting banned. Only proceed if you "
 "are willing to risk losing online access with your Wii U and/or NNID."
 msgstr ""
-"경고 - Please be aware that online mode lets you connect to OFFICIAL servers "
-"and therefore there is a risk of getting banned. Only proceed if you are "
-"willing to risk losing online access with your Wii U and/or NNID."
+"경고 - 온라인 모드는 공식 서버에 연결해 주기 때문에 밴을 당할 위험이 있음에 "
+"유의해 주십시오. Wii U나 NNID의 온라인 접근을 잃는 위험을 무릅쓸 경우만 진행"
+"해 주십시오."
 
 #: MainWindow.cpp:1452
 msgid "You can configure game paths in the general settings."
-msgstr "게임 경로 설정은 일반 설정란에서 구성 가능합니다."
+msgstr "게임 경로는 일반 설정에서 설정할 수 있습니다."
 
 #: MainWindow.cpp:1524
 msgid "Loading, please wait!"
-msgstr "로딩중, 기다려 주세요!"
+msgstr "로딩 중, 기다려 주세요!"
 
 #: MainWindow.cpp:1914
 msgid "&Load"
@@ -675,11 +674,11 @@ msgstr "&쉐이더"
 
 #: MainWindow.cpp:2078
 msgid "&Logging"
-msgstr "&Logging"
+msgstr "&로깅"
 
 #: MainWindow.cpp:2079
 msgid "&Dump"
-msgstr "&Dump"
+msgstr "&덤프"
 
 #: MainWindow.cpp:2083 MainWindow.cpp:2088
 msgid "&Render upside-down"
@@ -687,19 +686,19 @@ msgstr "&렌더링을 상하반전"
 
 #: MainWindow.cpp:2091
 msgid "&View PPC threads"
-msgstr "&PPC 스레드들 보기"
+msgstr "&PPC 스레드 보기"
 
 #: MainWindow.cpp:2093
 msgid "&View PPC debugger"
-msgstr "&PPC 디버거를 보기"
+msgstr "&PPC 디버거 보기"
 
 #: MainWindow.cpp:2095
 msgid "&View audio debugger"
-msgstr "&오디오 디버거를 보기"
+msgstr "&오디오 디버거 보기"
 
 #: MainWindow.cpp:2097
 msgid "&Dump current RAM"
-msgstr "&Dump current RAM"
+msgstr "&현재 램 덤프"
 
 #: MainWindow.cpp:2100
 msgid "&Debug"
@@ -707,7 +706,7 @@ msgstr "&디버그"
 
 #: MainWindow.cpp:2105
 msgid "&About"
-msgstr "&About"
+msgstr "&정보"
 
 #: MainWindow.cpp:2106
 msgid "&Help"
@@ -715,19 +714,19 @@ msgstr "&도움말"
 
 #: MainWindow.cpp:2129
 msgid "otp.bin could not be found"
-msgstr "otp.bin 을 찾을 수 없습니다"
+msgstr "otp.bin을 찾을 수 없습니다"
 
 #: MainWindow.cpp:2133
 msgid "otp.bin is corrupted or has invalid size"
-msgstr "otp.bin 이 변조 되었거나 사이즈가 유효하지 않습니다"
+msgstr "otp.bin이 변조 되었거나 사이즈가 유효하지 않습니다"
 
 #: MainWindow.cpp:2137
 msgid "seeprom.bin could not be found"
-msgstr "seeprom.bin 을 찾을 수 없습니다"
+msgstr "seeprom.bin을 찾을 수 없습니다"
 
 #: MainWindow.cpp:2141
 msgid "seeprom.bin is corrupted or has invalid size"
-msgstr "seeprom.bin 이 변조 되었거나 사이즈가 유효하지 않습니다"
+msgstr "seeprom.bin이 변조 되었거나 사이즈가 유효하지 않습니다"
 
 #: MainWindow.cpp:2154
 msgid "Unknown error occured"
@@ -735,10 +734,10 @@ msgstr "알 수 없는 오류 발생"
 
 #: MainWindow.cpp:2263
 msgid "&Start"
-msgstr "&Start"
+msgstr "&시작"
 
 #: MainWindow.cpp:2265
-msgid "Sa&ve directory"
+msgid "&Save directory"
 msgstr "&세이브 디렉토리"
 
 #: MainWindow.cpp:2266
@@ -775,7 +774,7 @@ msgstr "never"
 
 #: debugPPCThreadsWindow.cpp:30
 msgid "PPC threads"
-msgstr "PPC 스레드들"
+msgstr "PPC 스레드"
 
 #: debugPPCThreadsWindow.cpp:43
 msgid "Address"
@@ -1000,15 +999,15 @@ msgstr "&Remove entry"
 
 #: toolMemorySearcher.cpp:483
 msgid "Results ({0})"
-msgstr "Results ({0})"
+msgstr "결과 ({0})"
 
 #: updateWindow.cpp:15
 msgid "Installing DLC ..."
-msgstr "DLC 설치중 ..."
+msgstr "DLC 설치 중 ..."
 
 #: updateWindow.cpp:17
 msgid "Installing update ..."
-msgstr "업데이트 설치중 ..."
+msgstr "업데이트 설치 중 ..."
 
 #: updateWindow.cpp:24
 msgid "Cancel"
@@ -1032,9 +1031,9 @@ msgid ""
 "\n"
 "Canceling the process will delete the applied update."
 msgstr ""
-"업데이트 과정을 정말로 취소 하시겠습니까?\n"
+"업데이트 과정을 정말로 취소하시겠습니까?\n"
 "\n"
-"취소 과정 중에는 적용된 업데이트가 삭제될 것 입니다."
+"취소하면 적용된 업데이트가 삭제됩니다."
 
 #: updateWindow.cpp:154
 msgid "Info"
