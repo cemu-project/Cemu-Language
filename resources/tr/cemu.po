@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Cemu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-31 20:07+0200\n"
-"PO-Revision-Date: 2019-07-22 22:24+0300\n"
+"PO-Revision-Date: 2019-07-23 16:11+0300\n"
 "Last-Translator: Bartuzen#1957\n"
 "Language-Team: Turkish (Turkey)\n"
 "Language: tr_TR\n"
@@ -248,7 +248,7 @@ msgstr "döngüler"
 
 #: GameProfileWindow.cpp:95
 msgid "Extended texture readback"
-msgstr "Genişletilmiş doku okuma"
+msgstr "Extended texture readback"
 
 #: GameProfileWindow.cpp:96
 msgid ""
@@ -286,14 +286,14 @@ msgstr ""
 "Önceden derlenmiş shaderlar, shader yükleme ekranında yükleme süresini "
 "hızlandırabilir.\n"
 "Otomatik, bu ayarı AMD/Intel için aktifleştirecek, ancak NVIDIA GPU'lar için "
-"bir sürücü hatasından dolayı+ geçici bir çözüm olarak devre dışı "
+"bir sürücü hatasından dolayı geçici bir çözüm olarak devre dışı "
 "bırakacaktır.\n"
 "\n"
 "Önerilen: Otomatik"
 
 #: GameProfileWindow.cpp:110
 msgid "Shader mul accuracy"
-msgstr "Shader mul doğruluğu"
+msgstr "Shader çoğaltması doğruluğu"
 
 #: GameProfileWindow.cpp:112
 msgid "false"
