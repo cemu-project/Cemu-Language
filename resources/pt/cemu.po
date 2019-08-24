@@ -598,7 +598,7 @@ msgstr ""
 
 #: GeneralSettings2.cpp:115
 msgid "Automatically check for updates"
-msgstr "Verificar autom. por atualizações."
+msgstr "Verificar autom. por atualizações"
 
 #: GeneralSettings2.cpp:117
 msgid "Automatically checks for new cemu versions on startup"
