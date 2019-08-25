@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2019-05-31 20:07+0200\n"
-"PO-Revision-Date: 2019-05-31 21:13+0200\n"
+"POT-Creation-Date: 2019-08-24 10:19+0000\n"
+"PO-Revision-Date: 2019-08-25 17:11+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -28,7 +28,7 @@ msgstr "Típus"
 msgid "Comment"
 msgstr "Megjegyzés"
 
-#: BreakpointWindow.cpp:201 DisasmCtrl.cpp:506
+#: BreakpointWindow.cpp:201 DisasmCtrl.cpp:524
 msgid "Enter a new comment."
 msgstr "Írj be egy új megjegyzést."
 
@@ -52,6 +52,71 @@ msgstr "Írj be egy memória címet"
 #: BreakpointWindow.cpp:261
 msgid "Memory breakpoint"
 msgstr "Memória szünet"
+
+#: CemuUpdateWindow.cpp:41
+msgid "Update"
+msgstr "Frissítés"
+
+#: CemuUpdateWindow.cpp:45 DownloadGraphicPacksWindow.cpp:338
+#: GameUpdateWindow.cpp:215
+msgid "Cancel"
+msgstr "Mégse"
+
+#: CemuUpdateWindow.cpp:52
+msgid "Changelog"
+msgstr "Frissítési napló"
+
+#: CemuUpdateWindow.cpp:55
+msgid "Overwrite game profiles"
+msgstr "Játékprofilok felülírása"
+
+#: CemuUpdateWindow.cpp:57
+msgid ""
+"This will update all available gameprofiles and might delete custom game "
+"settings you've changed"
+msgstr ""
+"Ez frissíteni fogja az összes elérhető játékprofilt és bizonyos esetekben "
+"törölheti a személyre szabott játékbeállításokat"
+
+#: CemuUpdateWindow.cpp:506 CemuUpdateWindow.cpp:527
+msgid "Exit"
+msgstr "Kilépés"
+
+#: CemuUpdateWindow.cpp:507
+msgid "No update available!"
+msgstr "Nincs elérhető frissítés!"
+
+#: CemuUpdateWindow.cpp:526
+msgid "Update available!"
+msgstr "Van elérhető frissítés!"
+
+#: CemuUpdateWindow.cpp:531
+msgid "Extracting update..."
+msgstr "Frissítés kicsomagolása..."
+
+#: CemuUpdateWindow.cpp:536
+msgid "Couldn't download the update!"
+msgstr "A frissítés letöltése meghiúsult!"
+
+#: CemuUpdateWindow.cpp:539
+msgid "Applying update..."
+msgstr "Frissítés telepítése..."
+
+#: CemuUpdateWindow.cpp:547
+msgid "Extracting failed!"
+msgstr "A kicsomagolás meghiúsult!"
+
+#: CemuUpdateWindow.cpp:553 MainWindow.cpp:438
+msgid "Success"
+msgstr "Sikeres"
+
+#: CemuUpdateWindow.cpp:554
+msgid "Restart"
+msgstr "Újraindítás"
+
+#: CemuUpdateWindow.cpp:578
+msgid "Downloading update..."
+msgstr "Frissítés letöltése..."
 
 #: DebuggerWindow2.cpp:170
 msgid "GoTo (CTRL + G)"
@@ -81,7 +146,7 @@ msgstr "Futtatás (F5)"
 msgid "E&xit"
 msgstr "&Kilépés"
 
-#: DebuggerWindow2.cpp:546 MainWindow.cpp:2169
+#: DebuggerWindow2.cpp:546 MainWindow.cpp:2287
 msgid "&File"
 msgstr "&Fájl"
 
@@ -89,7 +154,7 @@ msgstr "&Fájl"
 msgid "&Pin to main window"
 msgstr "&Rögzítés a főablakhoz"
 
-#: DebuggerWindow2.cpp:552 MainWindow.cpp:2225
+#: DebuggerWindow2.cpp:552 MainWindow.cpp:2336
 msgid "&Options"
 msgstr "&Beállítások"
 
@@ -113,37 +178,37 @@ msgstr "&Modullista"
 msgid "&Window"
 msgstr "&Ablak"
 
-#: DisasmCtrl.cpp:483
+#: DisasmCtrl.cpp:501
 msgid "Enter a new instruction."
 msgstr "Írj be egy új utasítást."
 
-#: DisasmCtrl.cpp:569 DumpCtrl.cpp:187
+#: DisasmCtrl.cpp:587 DumpCtrl.cpp:187
 msgid "Enter a target address."
 msgstr "Írj be egy célcímet."
 
-#: DisasmCtrl.cpp:569 DumpCtrl.cpp:187
+#: DisasmCtrl.cpp:587 DumpCtrl.cpp:187
 msgid "GoTo address"
 msgstr "Ugrás címhez"
 
-#: DownloadGraphicPacksWindow.cpp:123 DownloadGraphicPacksWindow.cpp:131
-#: DownloadGraphicPacksWindow.cpp:217 DownloadGraphicPacksWindow.cpp:224
-#: GraphicPacksWindow2.cpp:201
+#: DownloadGraphicPacksWindow.cpp:125 DownloadGraphicPacksWindow.cpp:133
+#: DownloadGraphicPacksWindow.cpp:215 DownloadGraphicPacksWindow.cpp:222
+#: GraphicPacksWindow2.cpp:149
 msgid "Graphic packs"
 msgstr "Grafikus csomagok"
 
-#: DownloadGraphicPacksWindow.cpp:131
+#: DownloadGraphicPacksWindow.cpp:133
 msgid "Graphic packs cannot be updated while a game is running."
 msgstr "Nem frissíthetsz grafikus csomagokat, miközben egy játék fut."
 
-#: DownloadGraphicPacksWindow.cpp:169 DownloadGraphicPacksWindow.cpp:235
+#: DownloadGraphicPacksWindow.cpp:167 DownloadGraphicPacksWindow.cpp:233
 msgid "Failed to connect to server"
 msgstr "A szerverhez való kapcsolódás sikertelen"
 
-#: DownloadGraphicPacksWindow.cpp:217
+#: DownloadGraphicPacksWindow.cpp:215
 msgid "No updates available."
 msgstr "Nincs elérhető frissítés."
 
-#: DownloadGraphicPacksWindow.cpp:224
+#: DownloadGraphicPacksWindow.cpp:222
 msgid ""
 "Updated graphic packs are available. Do you want to download and install "
 "them?"
@@ -151,43 +216,39 @@ msgstr ""
 "Frissített grafikus csomagok állnak rendelkezésre. Szeretnéd letölteni és "
 "telepíteni őket?"
 
-#: DownloadGraphicPacksWindow.cpp:333
+#: DownloadGraphicPacksWindow.cpp:331
 msgid "Checking version..."
 msgstr "Verzió ellenőrzése..."
 
-#: DownloadGraphicPacksWindow.cpp:340 updateWindow.cpp:24
-msgid "Cancel"
-msgstr "Mégse"
-
-#: DownloadGraphicPacksWindow.cpp:409
+#: DownloadGraphicPacksWindow.cpp:407
 msgid "Downloading graphic packs..."
 msgstr "Grafikus csomagok letöltése..."
 
-#: DownloadGraphicPacksWindow.cpp:413
+#: DownloadGraphicPacksWindow.cpp:411
 msgid "Extracting..."
 msgstr "Kicsomagolás..."
 
 #: DumpCtrl.cpp:172 RegisterCtrl.cpp:205 RegisterCtrl.cpp:224
-#: RegisterCtrl.cpp:238 RegisterWindow.cpp:258 RegisterWindow.cpp:274
-#: RegisterWindow.cpp:290
+#: RegisterCtrl.cpp:238 RegisterWindow.cpp:292 RegisterWindow.cpp:308
+#: RegisterWindow.cpp:324
 msgid "Enter a new value."
 msgstr "Írj be egy új értéket."
 
 #: DumpCtrl.cpp:235 InputSettings.cpp:101 InputSettings.cpp:496
 #: InputSettings.cpp:502 InputSettings.cpp:571 InputSettings.cpp:585
 #: InputSettings.cpp:591 InputSettings.cpp:596 InputSettings.cpp:609
-#: MainWindow.cpp:2328 MainWindow.cpp:2332 MainWindow.cpp:2336
-#: MainWindow.cpp:2340 MainWindow.cpp:2345 MainWindow.cpp:2353
-#: toolMemorySearcher.cpp:164
+#: MainWindow.cpp:2442 MainWindow.cpp:2446 MainWindow.cpp:2450
+#: MainWindow.cpp:2454 MainWindow.cpp:2459 MainWindow.cpp:2467 helpers.cpp:59
+#: helpers.cpp:76 toolMemorySearcher.cpp:164
 msgid "Error"
 msgstr "Hiba"
 
-#: GameProfileWindow.cpp:16 GameProfileWindow.cpp:239
+#: GameProfileWindow.cpp:16 GameProfileWindow.cpp:243
 msgid "Edit game profile"
 msgstr "Játékprofil szerkesztése"
 
-#: GameProfileWindow.cpp:33 GameProfileWindow.cpp:85 GeneralSettings2.cpp:158
-#: GeneralSettings2.cpp:166 GeneralSettings2.cpp:357
+#: GameProfileWindow.cpp:33 GameProfileWindow.cpp:89 GeneralSettings2.cpp:181
+#: GeneralSettings2.cpp:189 GeneralSettings2.cpp:387
 msgid "General"
 msgstr "Általános"
 
@@ -200,41 +261,54 @@ msgid ""
 "EXPERT OPTION\n"
 "This option will load libraries from the cafeLibs directory"
 msgstr ""
-"CSAK HALADÓKNAK\vEz a parancs a cafeLibs mappából fog könyvtárakat betölteni"
+"CSAK HALADÓKNAK\n"
+"Ez a parancs a cafeLibs mappából fog könyvtárakat betölteni"
 
-#: GameProfileWindow.cpp:44
+#: GameProfileWindow.cpp:40
+msgid "Launch with gamepad view"
+msgstr "Indítás GamePad nézetben"
+
+#: GameProfileWindow.cpp:41
+msgid ""
+"Games will be launched with gamepad view toggled as default. The view can be "
+"toggled with CTRL + TAB"
+msgstr ""
+"Indításkor a GamePad-nézet lesz az alapértemezett. A CTRL + TAB "
+"billentyűkombinácóval válthatsz nézetet"
+
+#: GameProfileWindow.cpp:48
 msgid "CPU"
 msgstr "CPU"
 
-#: GameProfileWindow.cpp:51
+#: GameProfileWindow.cpp:55
 msgid "Mode"
 msgstr "Mód"
 
-#: GameProfileWindow.cpp:53
+#: GameProfileWindow.cpp:57
 msgid "Singlecore-Interpreter"
 msgstr "Egymagos interpreter"
 
-#: GameProfileWindow.cpp:53
+#: GameProfileWindow.cpp:57
 msgid "Singlecore-Recompiler"
 msgstr "Egymagos recompiler"
 
-#: GameProfileWindow.cpp:53
+#: GameProfileWindow.cpp:57
 msgid "Dualcore-Recompiler"
 msgstr "Kétmagos recompiler"
 
-#: GameProfileWindow.cpp:53
+#: GameProfileWindow.cpp:57
 msgid "Triplecore-Recompiler"
 msgstr "Hárommagos recompiler"
 
-#: GameProfileWindow.cpp:56
+#: GameProfileWindow.cpp:60
 msgid "Set the CPU emulation mode"
 msgstr "Állítsd be a CPU-emulációs módot"
 
-#: GameProfileWindow.cpp:59
+#: GameProfileWindow.cpp:63
 msgid "Thread quantum"
 msgstr "Thread quantum"
 
-#: GameProfileWindow.cpp:69
+#: GameProfileWindow.cpp:73
 msgid ""
 "EXPERT OPTION\n"
 "Set the maximum thread slice runtime (in virtual cycles)"
@@ -242,15 +316,15 @@ msgstr ""
 "CSAK HALADÓKNAK\n"
 "Állítsd be a legmagasabb szál slice futásidejét (virtuális ciklusokban)"
 
-#: GameProfileWindow.cpp:72
+#: GameProfileWindow.cpp:76
 msgid "cycles"
 msgstr "ciklus"
 
-#: GameProfileWindow.cpp:95
+#: GameProfileWindow.cpp:99
 msgid "Extended texture readback"
 msgstr "Kiterjesztett textúra-visszaolvasás"
 
-#: GameProfileWindow.cpp:96
+#: GameProfileWindow.cpp:100
 msgid ""
 "Improves emulation accuracy of CPU to GPU memory access at the cost of "
 "performance. Required for some games."
@@ -258,23 +332,23 @@ msgstr ""
 "Segít a CPU-GPU memóriahozzáférés emulációs pontosságán a teljesítmény "
 "feláldozásával. Néhány játékhoz kötelező."
 
-#: GameProfileWindow.cpp:103 GeneralSettings2.cpp:190
+#: GameProfileWindow.cpp:107 GeneralSettings2.cpp:220
 msgid "Precompiled shaders"
 msgstr "Előre összeállított shaderek"
 
-#: GameProfileWindow.cpp:104 GeneralSettings2.cpp:191
+#: GameProfileWindow.cpp:108 GeneralSettings2.cpp:221
 msgid "auto"
 msgstr "automatikus"
 
-#: GameProfileWindow.cpp:104 GeneralSettings2.cpp:191
+#: GameProfileWindow.cpp:108 GeneralSettings2.cpp:221
 msgid "enable"
 msgstr "engedélyezés"
 
-#: GameProfileWindow.cpp:104 GeneralSettings2.cpp:191
+#: GameProfileWindow.cpp:108 GeneralSettings2.cpp:221
 msgid "disable"
 msgstr "letiltás"
 
-#: GameProfileWindow.cpp:107 GeneralSettings2.cpp:195
+#: GameProfileWindow.cpp:111 GeneralSettings2.cpp:225
 msgid ""
 "Precompiled shaders can speed up the load time on the shader loading "
 "screen.\n"
@@ -290,23 +364,23 @@ msgstr ""
 "\n"
 "Javasolt érték: Automatikus"
 
-#: GameProfileWindow.cpp:110
+#: GameProfileWindow.cpp:114
 msgid "Shader mul accuracy"
 msgstr "Shader szorzó pontosság"
 
-#: GameProfileWindow.cpp:112
+#: GameProfileWindow.cpp:116
 msgid "false"
 msgstr "hamis"
 
-#: GameProfileWindow.cpp:112
+#: GameProfileWindow.cpp:116
 msgid "true"
 msgstr "igaz"
 
-#: GameProfileWindow.cpp:112
+#: GameProfileWindow.cpp:116
 msgid "minimal"
 msgstr "minimális"
 
-#: GameProfileWindow.cpp:114
+#: GameProfileWindow.cpp:118
 msgid ""
 "EXPERT OPTION\n"
 "Controls the accuracy of floating point multiplication in shaders.\n"
@@ -318,62 +392,150 @@ msgstr ""
 "\n"
 "Javasolt érték: igaz"
 
-#: GameProfileWindow.cpp:117
+#: GameProfileWindow.cpp:121
 msgid "GPU buffer cache accuracy"
 msgstr "GPU-gyorsítótár pontossága"
 
-#: GameProfileWindow.cpp:118
+#: GameProfileWindow.cpp:122
 msgid "high"
 msgstr "magas"
 
-#: GameProfileWindow.cpp:118
+#: GameProfileWindow.cpp:122
 msgid "medium"
 msgstr "közepes"
 
-#: GameProfileWindow.cpp:118
+#: GameProfileWindow.cpp:122
 msgid "low"
 msgstr "alacsony"
 
-#: GameProfileWindow.cpp:120
+#: GameProfileWindow.cpp:124
 msgid ""
 "Lower value results in higher performance, but may cause graphical issues"
 msgstr ""
 "Az alacsonyabb érték javít a teljesítményen, viszont grafikai problémákat "
 "okozhat"
 
-#: GameProfileWindow.cpp:129
+#: GameProfileWindow.cpp:133
 msgid "Graphic"
 msgstr "Grafika"
 
-#: GameProfileWindow.cpp:160 GameProfileWindow.cpp:175
+#: GameProfileWindow.cpp:164 GameProfileWindow.cpp:179
 msgid "Controller"
 msgstr "Kontroller"
 
-#: GameProfileWindow.cpp:166
+#: GameProfileWindow.cpp:170
 msgid "Forces a given controller profile"
 msgstr "Egy megadott kontrollerprofilt kényszerít"
 
-#: GeneralSettings2.cpp:39
+#: GameUpdateWindow.cpp:22 GameUpdateWindow.cpp:30
+msgid "Can't open the file."
+msgstr "A fájl megnyitása sikertelen."
+
+#: GameUpdateWindow.cpp:34
+msgid "Invalid \"meta.xml\" file."
+msgstr "Érvénytelen „meta.xml” fájl."
+
+#: GameUpdateWindow.cpp:38
+msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
+msgstr "A megadott „meta.xml” fájlban nem található „title_id”."
+
+#: GameUpdateWindow.cpp:47
+msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
+msgstr "A megadott „meta.xml” fájlban nem található „title_version”."
+
+#: GameUpdateWindow.cpp:52
+msgid "Can't find the \"product_code\" in the given \"meta.xml\" file."
+msgstr "A megadott „meta.xml” fájlban nem található „product_code”."
+
+#: GameUpdateWindow.cpp:68
+msgid "The given \"meta.xml\" file is no update or DLC."
+msgstr "A megadott „meta.xml” fájl nem frissítés vagy DLC."
+
+#: GameUpdateWindow.cpp:72
+msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
+msgstr "A megadott „meta.xml” fájlban nem található „longname_en”."
+
+#: GameUpdateWindow.cpp:98
+msgid "Invalid folder structure"
+msgstr "A könyvtárak felépítése érvénytelen"
+
+#: GameUpdateWindow.cpp:132
+msgid ""
+"It seems that the selected update is already installed, do you want to "
+"reinstall it?"
+msgstr ""
+"A jelek szerint a kiválasztott frissítés már telepítve van. Szeretnéd "
+"újratelepíteni?"
+
+#: GameUpdateWindow.cpp:132 GameUpdateWindow.cpp:138 GeneralSettings2.cpp:509
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+#: GameUpdateWindow.cpp:138
+msgid ""
+"It seems that a newer update is already installed, do you still want to "
+"install the older version?"
+msgstr ""
+"A jelek szerint már egy újabb frissítés telepítve van. Mégis szeretnéd a "
+"régebbi verziót telepíteni?"
+
+#: GameUpdateWindow.cpp:180
+msgid ""
+"Not enough space available.\n"
+"Required: {0} MB\n"
+"Available: {1} MB"
+msgstr ""
+"Nincs elég hely a lemezen.\n"
+"Szükséges hely: {0} MB\n"
+"Szabad hely: {1} MB"
+
+#: GameUpdateWindow.cpp:206
+msgid "Installing DLC ..."
+msgstr "DLC telepítése..."
+
+#: GameUpdateWindow.cpp:208
+msgid "Installing update ..."
+msgstr "Frissítés telepítése..."
+
+#: GameUpdateWindow.cpp:288
+msgid "Current file:"
+msgstr "Jelenlegi fájl:"
+
+#: GameUpdateWindow.cpp:320
+msgid ""
+"Do you really want to cancel the update process?\n"
+"\n"
+"Canceling the process will delete the applied update."
+msgstr ""
+"Biztosan meg akarod szakítani a frissítést?\n"
+"\n"
+"A folyamat megszakítása törölni fogja a frissítést."
+
+#: GameUpdateWindow.cpp:320
+msgid "Info"
+msgstr "Információ"
+
+#: GeneralSettings2.cpp:48
 msgid "General settings"
 msgstr "Általános beállítások"
 
-#: GeneralSettings2.cpp:53
+#: GeneralSettings2.cpp:62
 msgid "Interface"
 msgstr "Kezelőfelület"
 
-#: GeneralSettings2.cpp:61
+#: GeneralSettings2.cpp:70
 msgid "Language"
 msgstr "Nyelv"
 
-#: GeneralSettings2.cpp:63
+#: GeneralSettings2.cpp:72
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: GeneralSettings2.cpp:63
+#: GeneralSettings2.cpp:72
 msgid "English"
 msgstr "Angol"
 
-#: GeneralSettings2.cpp:66
+#: GeneralSettings2.cpp:75
 msgid ""
 "Changes the interface language of Cemu\n"
 "Available languages are stored in the translation directory\n"
@@ -383,29 +545,29 @@ msgstr ""
 "A választható nyelvek a nyelvi könyvtárban találhatóak\n"
 "A választás alkalmazásához újraindítás szükséges"
 
-#: GeneralSettings2.cpp:83
+#: GeneralSettings2.cpp:92
 msgid "Remember main window position"
 msgstr "Főablak pozíciójának megjegyzése"
 
-#: GeneralSettings2.cpp:85
+#: GeneralSettings2.cpp:94
 msgid "Restores the last known window position and size when starting Cemu"
 msgstr ""
 "Visszaállítja az ablak legutóbbi helyzetét és méretét a Cemu indításakor"
 
-#: GeneralSettings2.cpp:88
+#: GeneralSettings2.cpp:97
 msgid "Remember pad window position"
 msgstr "Mellékablak pozíciójának megjegyzése"
 
-#: GeneralSettings2.cpp:90
+#: GeneralSettings2.cpp:99
 msgid "Restores the last known pad window position and size when opening it"
 msgstr ""
 "Visszaállítja a mellékablak legutóbbi helyzetét és méretét a megnyitásakor"
 
-#: GeneralSettings2.cpp:94
+#: GeneralSettings2.cpp:103
 msgid "Discord Presence"
 msgstr "Discord Presence"
 
-#: GeneralSettings2.cpp:96
+#: GeneralSettings2.cpp:105
 msgid ""
 "Enables the Discord Rich Presence feature\n"
 "You will also need to enable it in the Discord settings itself!"
@@ -413,11 +575,11 @@ msgstr ""
 "Engedélyezi a Discord Rich Presence-funkcióját\n"
 "Ezt a Discord beállításaiban is be kell kapcsolnod!"
 
-#: GeneralSettings2.cpp:101
+#: GeneralSettings2.cpp:110
 msgid "Fullscreen menu bar"
 msgstr "Teljes képernyős menüsor"
 
-#: GeneralSettings2.cpp:103
+#: GeneralSettings2.cpp:112
 msgid ""
 "Displays the menu bar when Cemu is running in fullscreen mode and the mouse "
 "cursor is moved to the top"
@@ -425,11 +587,35 @@ msgstr ""
 "Megjeleníti a menüsort, ha teljes képernyős módban az egérmutatót feltolod a "
 "képernyő tetejére"
 
-#: GeneralSettings2.cpp:113
+#: GeneralSettings2.cpp:115
+msgid "Automatically check for updates"
+msgstr "Frissítések automatikus ellenőrzése"
+
+#: GeneralSettings2.cpp:117
+msgid "Automatically checks for new cemu versions on startup"
+msgstr ""
+"Induláskor a program automatikusan ellenőrzi, hogy van-e elérhető frissítés"
+
+#: GeneralSettings2.cpp:122
+msgid "Save screenshot"
+msgstr "Képernyőmentés rögzítése"
+
+#: GeneralSettings2.cpp:124
+msgid "Saves a screenshot directly to a file"
+msgstr "Egy fájlba menti a képernyőmentést"
+
+#: GeneralSettings2.cpp:134
 msgid "MLC Path"
 msgstr "MLC elérési út"
 
-#: GeneralSettings2.cpp:123
+#: GeneralSettings2.cpp:140
+msgid ""
+"The mlc directory contains your save games and installed game update/dlc data"
+msgstr ""
+"Az MLC könyvtárban a mentéseidet, és a telepített frissítéseket és DLC "
+"adatokat találod"
+
+#: GeneralSettings2.cpp:146
 msgid ""
 "Select a custom mlc path\n"
 "The mlc path is used to store Wii U related files like save games, game "
@@ -439,15 +625,23 @@ msgstr ""
 "Ez a Wii U-val kapcsolatos fájlok tárolására használatos, például a "
 "játékmentésekhez, a frissítésekhez, és a DLC adatokhoz"
 
-#: GeneralSettings2.cpp:132
+#: GeneralSettings2.cpp:154
 msgid "Game Paths"
 msgstr "Játékok elérési útjai"
 
-#: GeneralSettings2.cpp:143
+#: GeneralSettings2.cpp:159
+msgid ""
+"Add the root directory of your game(s). It will scan all directories in it "
+"for games"
+msgstr ""
+"A játékaid gyökérkönyvtárának megadása. A program az ezt tartalmazó "
+"mappákban fog játékok után kutatni"
+
+#: GeneralSettings2.cpp:166
 msgid "Add"
 msgstr "Hozzáadás"
 
-#: GeneralSettings2.cpp:145
+#: GeneralSettings2.cpp:168
 msgid ""
 "Adds a game path to scan for games displayed in the game list\n"
 "If you have unpacked games, make sure to select the root folder of a game"
@@ -456,31 +650,43 @@ msgstr ""
 "játéklistán jelennek meg\n"
 "Ha vannak kicsomagolt játékaid, akkor egy adott játék gyökérmappáját add meg"
 
-#: GeneralSettings2.cpp:148
+#: GeneralSettings2.cpp:171
 msgid "Remove"
 msgstr "Eltávolítás"
 
-#: GeneralSettings2.cpp:150
+#: GeneralSettings2.cpp:173
 msgid "Removes the currently selected game path from the game list"
 msgstr "A jelenleg kiválasztott elérési út eltávolítása"
 
-#: GeneralSettings2.cpp:173
+#: GeneralSettings2.cpp:196
 msgid "Graphics API"
 msgstr "Grafikus API"
 
-#: GeneralSettings2.cpp:204
+#: GeneralSettings2.cpp:210
+msgid "Select one of the available graphic back ends"
+msgstr "Válassz ki egy elérhető grafikus backend-et"
+
+#: GeneralSettings2.cpp:214
+msgid "Graphics Device"
+msgstr "Grafikus eszköz"
+
+#: GeneralSettings2.cpp:217
+msgid "Select the used graphic device"
+msgstr "Válaszd ki a használni kívánt grafikus eszközt"
+
+#: GeneralSettings2.cpp:234
 msgid "VSync"
 msgstr "VSync"
 
-#: GeneralSettings2.cpp:205
+#: GeneralSettings2.cpp:235
 msgid "Controls the vsync state"
 msgstr "A VSync állapotát kapcsolja"
 
-#: GeneralSettings2.cpp:208
+#: GeneralSettings2.cpp:238
 msgid "Full sync at GX2DrawDone()"
 msgstr "Teljes sync a GXDrawDone()-nál"
 
-#: GeneralSettings2.cpp:209
+#: GeneralSettings2.cpp:239
 msgid ""
 "If synchronization is requested by the game, the emulated CPU will wait for "
 "the GPU to finish all operations.\n"
@@ -490,27 +696,27 @@ msgstr ""
 "GPU befejezzen minden feladatot.\n"
 "Ez a viselkedés pontosabb, viszont teljesítménycsökkenéshez vezethet"
 
-#: GeneralSettings2.cpp:217
+#: GeneralSettings2.cpp:247
 msgid "Bilinear"
 msgstr "Simított"
 
-#: GeneralSettings2.cpp:217
+#: GeneralSettings2.cpp:247
 msgid "Bicubic"
 msgstr "Négyzetesen simított"
 
-#: GeneralSettings2.cpp:217
+#: GeneralSettings2.cpp:247
 msgid "Hermite"
 msgstr "Hermite"
 
-#: GeneralSettings2.cpp:217
+#: GeneralSettings2.cpp:247
 msgid "Nearest Neighbor"
 msgstr "Legközelebbi egész"
 
-#: GeneralSettings2.cpp:218
+#: GeneralSettings2.cpp:248
 msgid "Upscale filter"
 msgstr "Felbontásnövelő filter"
 
-#: GeneralSettings2.cpp:219
+#: GeneralSettings2.cpp:249
 msgid ""
 "Upscaling filters are used when the game resolution is smaller than the "
 "window size"
@@ -518,11 +724,11 @@ msgstr ""
 "A felbontásnövelő filterek akkor használatosak, amikor a játék felbontása "
 "kisebb, mint az ablak mérete"
 
-#: GeneralSettings2.cpp:222
+#: GeneralSettings2.cpp:252
 msgid "Downscale filter"
 msgstr "Felbontáscsökkentő filter"
 
-#: GeneralSettings2.cpp:223
+#: GeneralSettings2.cpp:253
 msgid ""
 "Downscaling filters are used when the game resolution is bigger than the "
 "window size"
@@ -530,193 +736,193 @@ msgstr ""
 "A felbontáscsökkentő filterek akkor használatosak, amikor a játék felbontása "
 "nagyobb, mint az ablak mérete"
 
-#: GeneralSettings2.cpp:228
+#: GeneralSettings2.cpp:258
 msgid "Keep aspect ratio"
 msgstr "Képarány tartása"
 
-#: GeneralSettings2.cpp:228
+#: GeneralSettings2.cpp:258
 msgid "Stretch"
 msgstr "Nyújtás"
 
-#: GeneralSettings2.cpp:229
+#: GeneralSettings2.cpp:259
 msgid "Fullscreen scaling"
 msgstr "Teljes képernyős méretezés"
 
-#: GeneralSettings2.cpp:230
+#: GeneralSettings2.cpp:260
 msgid ""
 "Controls the output aspect ratio when it doesn't match the ratio of the game"
 msgstr ""
 "A kimeneti képarányt szabályozza, ha az nem egyezik meg a játék képarányával"
 
-#: GeneralSettings2.cpp:234 GeneralSettings2.cpp:765 GeneralSettings2.cpp:766
+#: GeneralSettings2.cpp:264 GeneralSettings2.cpp:824 GeneralSettings2.cpp:825
 msgid "Disabled"
 msgstr "Letiltva"
 
-#: GeneralSettings2.cpp:234
+#: GeneralSettings2.cpp:264
 msgid "Top left"
 msgstr "Bal felső sarok"
 
-#: GeneralSettings2.cpp:234
+#: GeneralSettings2.cpp:264
 msgid "Top center"
 msgstr "Középen felül"
 
-#: GeneralSettings2.cpp:234
+#: GeneralSettings2.cpp:264
 msgid "Top right"
 msgstr "Jobb felső sarok"
 
-#: GeneralSettings2.cpp:234
+#: GeneralSettings2.cpp:264
 msgid "Bottom left"
 msgstr "Bal alsó sarok"
 
-#: GeneralSettings2.cpp:234
+#: GeneralSettings2.cpp:264
 msgid "Bottom center"
 msgstr "Középen alul"
 
-#: GeneralSettings2.cpp:234
+#: GeneralSettings2.cpp:264
 msgid "Bottom right"
 msgstr "Jobb alsó sarok"
 
-#: GeneralSettings2.cpp:237
+#: GeneralSettings2.cpp:267
 msgid "Overlay"
 msgstr "Átfedés"
 
-#: GeneralSettings2.cpp:244 GeneralSettings2.cpp:301
+#: GeneralSettings2.cpp:274 GeneralSettings2.cpp:331
 msgid "Position"
 msgstr "Elhelyezkedés"
 
-#: GeneralSettings2.cpp:247
+#: GeneralSettings2.cpp:277
 msgid "Controls the overlay which displays technical information while playing"
 msgstr ""
 "Azt az átfedést szabályozza, ami játék közben a technikai információt "
 "jeleníti meg"
 
-#: GeneralSettings2.cpp:252 GeneralSettings2.cpp:310
+#: GeneralSettings2.cpp:282 GeneralSettings2.cpp:340
 msgid "Text Color"
 msgstr "Betűszín"
 
-#: GeneralSettings2.cpp:254
+#: GeneralSettings2.cpp:284
 msgid "Sets the text color of the overlay"
 msgstr "Az átfedés betűszínét szabályozza"
 
-#: GeneralSettings2.cpp:259 GeneralSettings2.cpp:315
+#: GeneralSettings2.cpp:289 GeneralSettings2.cpp:345
 msgid "Scale"
 msgstr "Méretezés"
 
-#: GeneralSettings2.cpp:261
+#: GeneralSettings2.cpp:291
 msgid "Sets the scale of the overlay text"
 msgstr "Az átfedés betűméretét szabályozza"
 
-#: GeneralSettings2.cpp:268
+#: GeneralSettings2.cpp:298
 msgid "FPS"
 msgstr "FPS"
 
-#: GeneralSettings2.cpp:269
+#: GeneralSettings2.cpp:299
 msgid "The number of frames per second. Average over last 5 seconds"
 msgstr ""
 "Az egy másodperc alatt megjelenő képkockák. A mutatott érték az utolsó 5 "
 "másodperc átlaga"
 
-#: GeneralSettings2.cpp:272
+#: GeneralSettings2.cpp:302
 msgid "Draw calls per frame"
 msgstr "Rajzolások másodpercenként"
 
-#: GeneralSettings2.cpp:273
+#: GeneralSettings2.cpp:303
 msgid "The number of draw calls per frame. Average over last 5 seconds"
 msgstr ""
 "Az egy másodperc történő rajzolások. A mutatott érték az utolsó 5 másodperc "
 "átlaga"
 
-#: GeneralSettings2.cpp:276
+#: GeneralSettings2.cpp:306
 msgid "CPU usage"
 msgstr "CPU használat"
 
-#: GeneralSettings2.cpp:277
+#: GeneralSettings2.cpp:307
 msgid "CPU usage of Cemu in percent"
 msgstr "A Cemu CPU használata százalékban"
 
-#: GeneralSettings2.cpp:280
+#: GeneralSettings2.cpp:310
 msgid "CPU per core usage"
 msgstr "CPU használat magonként"
 
-#: GeneralSettings2.cpp:281
+#: GeneralSettings2.cpp:311
 msgid "Total cpu usage in percent for each core"
 msgstr "CPU használat, magokra bontva, százalékban"
 
-#: GeneralSettings2.cpp:284
+#: GeneralSettings2.cpp:314
 msgid "RAM usage"
 msgstr "RAM használat"
 
-#: GeneralSettings2.cpp:285
+#: GeneralSettings2.cpp:315
 msgid "Cemu RAM usage in MB"
 msgstr "A Cemu RAM használata MB-ban"
 
-#: GeneralSettings2.cpp:294
+#: GeneralSettings2.cpp:324
 msgid "Notifications"
 msgstr "Értesítések"
 
-#: GeneralSettings2.cpp:305
+#: GeneralSettings2.cpp:335
 msgid "Controls the notification position while playing"
 msgstr "Az értesítések elhelyezkedését szabályozza játék közben"
 
-#: GeneralSettings2.cpp:312
+#: GeneralSettings2.cpp:342
 msgid "Sets the text color of notifications"
 msgstr "Az értesítések betűszínét adja meg"
 
-#: GeneralSettings2.cpp:317
+#: GeneralSettings2.cpp:347
 msgid "Sets the scale of the notification text"
 msgstr "Az értesítések betűméretét adja meg"
 
-#: GeneralSettings2.cpp:324
+#: GeneralSettings2.cpp:354
 msgid "Controller profiles"
 msgstr "Kontroller profilok"
 
-#: GeneralSettings2.cpp:325
+#: GeneralSettings2.cpp:355
 msgid "Displays the active controller profile when starting a game"
 msgstr "Megjeleníti a használatban lévő kontroller profilt játék indításakor"
 
-#: GeneralSettings2.cpp:328
+#: GeneralSettings2.cpp:358
 msgid "Low battery"
 msgstr "Alacsony telepfeszültség"
 
-#: GeneralSettings2.cpp:329
+#: GeneralSettings2.cpp:359
 msgid "Shows a notification when a low controller battery has been detected"
 msgstr "Értesít amikor a kontroller merülőfélben van"
 
-#: GeneralSettings2.cpp:332
+#: GeneralSettings2.cpp:362
 msgid "Shader compiler"
 msgstr "Shader compiler"
 
-#: GeneralSettings2.cpp:333
+#: GeneralSettings2.cpp:363
 msgid "Shows a notification after shaders have been compiled"
 msgstr "Éresít amikor a shaderek compilálása befejeződött"
 
-#: GeneralSettings2.cpp:336
+#: GeneralSettings2.cpp:366
 msgid "Friend list"
 msgstr "Barátlista"
 
-#: GeneralSettings2.cpp:337
+#: GeneralSettings2.cpp:367
 msgid "Shows friend list related data if online"
 msgstr ""
 "Megjeleníti a barátlistával kapcsolatos adatokat fennálló hálózati kapcsolat "
 "mellett"
 
-#: GeneralSettings2.cpp:347
+#: GeneralSettings2.cpp:377
 msgid "Graphics"
 msgstr "Grafika"
 
-#: GeneralSettings2.cpp:364
+#: GeneralSettings2.cpp:394
 msgid "API"
 msgstr "API"
 
-#: GeneralSettings2.cpp:375
+#: GeneralSettings2.cpp:405
 msgid "Select one of the available audio back ends"
 msgstr "Válassz ki egy elérhető hang-backend-et"
 
-#: GeneralSettings2.cpp:382
+#: GeneralSettings2.cpp:412
 msgid "Latency"
 msgstr "Késleltetés"
 
-#: GeneralSettings2.cpp:384
+#: GeneralSettings2.cpp:414
 msgid ""
 "Controls the amount of buffered audio data\n"
 "Higher values will create a delay in audio playback, but may avoid audio "
@@ -726,49 +932,44 @@ msgstr ""
 "A magasabb értékek a hang késését eredményezik, viszont kiküszöbölhetik a "
 "hangi problémákat, ha az emuláció túl lassú"
 
-#: GeneralSettings2.cpp:396
+#: GeneralSettings2.cpp:426
 msgid "Stereo"
 msgstr "Sztereó"
 
-#: GeneralSettings2.cpp:398
+#: GeneralSettings2.cpp:428
 msgid "TV"
 msgstr "TV"
 
-#: GeneralSettings2.cpp:405 GeneralSettings2.cpp:442
+#: GeneralSettings2.cpp:435 GeneralSettings2.cpp:472
 msgid "Device"
 msgstr "Készülék"
 
-#: GeneralSettings2.cpp:408
+#: GeneralSettings2.cpp:438
 msgid "Select the active audio output device for Wii U TV"
 msgstr "Válaszd ki a hangkimeneti készüléket a Wii U TV-hez"
 
-#: GeneralSettings2.cpp:414 GeneralSettings2.cpp:451
+#: GeneralSettings2.cpp:444 GeneralSettings2.cpp:481
 msgid "Channels"
 msgstr "Csatornák"
 
-#: GeneralSettings2.cpp:421 GeneralSettings2.cpp:457 InputPanelGamepad.cpp:160
+#: GeneralSettings2.cpp:451 GeneralSettings2.cpp:487 InputPanelGamepad.cpp:160
 #: InputPanelWiimote.cpp:103
 msgid "Volume"
 msgstr "Hangerő"
 
-#: GeneralSettings2.cpp:435
+#: GeneralSettings2.cpp:465
 msgid "Gamepad"
 msgstr "Gamepad"
 
-#: GeneralSettings2.cpp:445
+#: GeneralSettings2.cpp:475
 msgid "Select the active audio output device for Wii U GamePad"
 msgstr "Válaszd ki a hangkimeneti készüléket a Wii U GamePad-hez"
 
-#: GeneralSettings2.cpp:471
+#: GeneralSettings2.cpp:501
 msgid "Audio"
 msgstr "Hang"
 
-#: GeneralSettings2.cpp:479 MainWindow.cpp:485 MainWindow.cpp:504
-#: MainWindow.cpp:510
-msgid "Warning"
-msgstr "Figyelmeztetés"
-
-#: GeneralSettings2.cpp:482
+#: GeneralSettings2.cpp:512
 msgid ""
 "Please be aware that online mode lets you connect to OFFICIAL servers and "
 "therefore there is a risk of getting banned.\n"
@@ -780,88 +981,83 @@ msgstr ""
 "Csak akkor engedélyezd, ha hajnaldó vagy megkockáztatni a Wii U-d online "
 "képességeinek és/vagy az NNID-d elvesztését."
 
-#: GeneralSettings2.cpp:490
+#: GeneralSettings2.cpp:520
 msgid "Account settings"
 msgstr "Fiókbeállítások"
 
-#: GeneralSettings2.cpp:497
+#: GeneralSettings2.cpp:527
 msgid "Active account"
 msgstr "Aktív felhasználói fiók"
 
-#: GeneralSettings2.cpp:509
+#: GeneralSettings2.cpp:539
 msgid "Account information"
 msgstr "Fiókadatok"
 
-#: GeneralSettings2.cpp:518
+#: GeneralSettings2.cpp:548
 msgid "Id"
 msgstr "Azonosító"
 
-#: GeneralSettings2.cpp:521
+#: GeneralSettings2.cpp:551
 msgid "E-Mail"
 msgstr "E-Mail"
 
-#: GeneralSettings2.cpp:524
+#: GeneralSettings2.cpp:554
 msgid "Birthday"
 msgstr "Születésnap"
 
-#: GeneralSettings2.cpp:527
+#: GeneralSettings2.cpp:557
 msgid "Country"
 msgstr "Ország"
 
-#: GeneralSettings2.cpp:537
+#: GeneralSettings2.cpp:567
 msgid "Online"
 msgstr "Online"
 
-#: GeneralSettings2.cpp:659 GeneralSettings2.cpp:866
+#: GeneralSettings2.cpp:712 GeneralSettings2.cpp:923
 msgid "Online disabled"
 msgstr "Online letiltva"
 
-#: GeneralSettings2.cpp:1172
+#: GeneralSettings2.cpp:1276
 msgid "Select a directory containing games."
 msgstr "Válassz ki egy könyvtárat, ami játékokat tartalmaz."
 
-#: GeneralSettings2.cpp:1207
+#: GeneralSettings2.cpp:1311
 msgid "Select a mlc directory"
 msgstr "Válassz ki egy mlc könyvtárat"
 
-#: GraphicPacksWindow2.cpp:63
-msgid "Uncategorized graphic packs"
-msgstr "Rendezetlen grafikus csomagok"
-
-#: GraphicPacksWindow2.cpp:224 toolMemorySearcher.cpp:60
+#: GraphicPacksWindow2.cpp:173 LoggingWindow.cpp:21 toolMemorySearcher.cpp:60
 msgid "Filter"
 msgstr "Filter"
 
-#: GraphicPacksWindow2.cpp:249
+#: GraphicPacksWindow2.cpp:181
+msgid "Installed games"
+msgstr "Telepített játékok"
+
+#: GraphicPacksWindow2.cpp:203
 msgid "Graphic pack"
 msgstr "Grafikus csomag"
 
-#: GraphicPacksWindow2.cpp:259
+#: GraphicPacksWindow2.cpp:213
 msgid "Active preset"
 msgstr "Aktív beállítás"
 
-#: GraphicPacksWindow2.cpp:271
+#: GraphicPacksWindow2.cpp:225
 msgid "Description"
 msgstr "Leírás"
 
-#: GraphicPacksWindow2.cpp:281
+#: GraphicPacksWindow2.cpp:235
 msgid "Control"
 msgstr "Ellenőrzés"
 
-#: GraphicPacksWindow2.cpp:299
+#: GraphicPacksWindow2.cpp:253
 msgid "Download latest community graphic packs"
 msgstr "Legújabb közösségi grafikus csomagok letöltése"
 
-#: GraphicPacksWindow2.cpp:383
-msgid "This is an old graphic pack, therefore it has no description."
-msgstr "Ez egy régi grafikus csomag, ezért nem rendelkezik leírással."
-
-#: GraphicPacksWindow2.cpp:413
+#: GraphicPacksWindow2.cpp:344
 msgid "This graphic pack has no description"
 msgstr "Ennek a grafikus csomagnak nincs leírása"
 
-#: GraphicPacksWindow2.cpp:477 GraphicPacksWindow2.cpp:519
-#: GraphicPacksWindow2.cpp:531
+#: GraphicPacksWindow2.cpp:434 GraphicPacksWindow2.cpp:446
 msgid "Restart of Cemu required for changes to take effect"
 msgstr "A beállítások érvénybe léptetéséhez újra kell indítanod a Cemu-t"
 
@@ -1012,136 +1208,84 @@ msgstr "A profil mentése sikertelen!"
 msgid "Searching for wiimotes..."
 msgstr "Wiimote-ok keresése folyamatban..."
 
-#: MainWindow.cpp:271
+#: LoggingWindow.cpp:15
+msgid "Logging window"
+msgstr "Naplóablak"
+
+#: LoggingWindow.cpp:29
+msgid "Filter messages"
+msgstr "Üzenetek szűrése"
+
+#: MainWindow.cpp:287
 msgid "Game"
 msgstr "Játék"
 
-#: MainWindow.cpp:277
+#: MainWindow.cpp:293
 msgid "Version"
 msgstr "Verzió"
 
-#: MainWindow.cpp:284
+#: MainWindow.cpp:300
 msgid "DLC"
 msgstr "DLC"
 
-#: MainWindow.cpp:291
+#: MainWindow.cpp:307
 msgid "You've played"
 msgstr "Már játszottad"
 
-#: MainWindow.cpp:297
+#: MainWindow.cpp:313
 msgid "Last played"
 msgstr "Legutóbb játszottad"
 
-#: MainWindow.cpp:388 MainWindow.cpp:394
-msgid "Can't open the file."
-msgstr "A fájl megnyitása sikertelen."
-
-#: MainWindow.cpp:398
-msgid "Invalid \"meta.xml\" file."
-msgstr "Érvénytelen „meta.xml” fájl."
-
-#: MainWindow.cpp:402
-msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
-msgstr "A megadott „meta.xml” fájlban nem található „title_id”."
-
-#: MainWindow.cpp:420
-msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
-msgstr "A megadott „meta.xml” fájlban nem található „title_version”."
-
-#: MainWindow.cpp:424
-msgid "The given \"meta.xml\" file is no update or DLC."
-msgstr "A megadott „meta.xml” fájl nem frissítés vagy DLC."
-
-#: MainWindow.cpp:429
-msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
-msgstr "A megadott „meta.xml” fájlban nem található „longname_en”."
-
-#: MainWindow.cpp:456
-msgid "Invalid folder structure"
-msgstr "A könyvtárak felépítése érvénytelen"
-
-#: MainWindow.cpp:485
-msgid ""
-"It seems that a DLC is already installed, do you still want to install it?"
-msgstr ""
-"A jelek szerint már van egy telepített DLC. Biztosan telepíteni akarod?"
-
-#: MainWindow.cpp:504
-msgid ""
-"It seems that the selected update is already installed, do you want to "
-"reinstall it?"
-msgstr ""
-"A jelek szerint a kiválasztott frissítés már telepítve van. Szeretnéd "
-"újratelepíteni?"
-
-#: MainWindow.cpp:510
-msgid ""
-"It seems that a newer update is already installed, do you still want to "
-"install the older version?"
-msgstr ""
-"A jelek szerint már egy újabb frissítés telepítve van. Mégis szeretnéd a "
-"régebbi verziót telepíteni?"
-
-#: MainWindow.cpp:525
-msgid ""
-"Not enough space available.\n"
-"Required: {0} MB\n"
-"Available: {1} MB"
-msgstr ""
-"Nincs elég hely a lemezen.\n"
-"Szükséges hely: {0} MB\n"
-"Szabad hely: {1} MB"
-
-#: MainWindow.cpp:562
+#: MainWindow.cpp:438
 msgid "Update installed!"
 msgstr "Frissítés telepítve!"
 
-#: MainWindow.cpp:562
-msgid "Success"
-msgstr "Sikeres"
-
-#: MainWindow.cpp:567
+#: MainWindow.cpp:443
 msgid "Update installation has been canceled!"
 msgstr "A frissítés telepítése meg lett szakítva!"
 
-#: MainWindow.cpp:587
+#: MainWindow.cpp:456
+msgid "Update error"
+msgstr "Frissítési hiba"
+
+#: MainWindow.cpp:467
 msgid "Unable to open file."
 msgstr "A fájl megnyitása sikertelen."
 
-#: MainWindow.cpp:589
+#: MainWindow.cpp:469
 msgid "Unknown file type."
 msgstr "Ismeretlen fájltípus."
 
-#: MainWindow.cpp:591
+#: MainWindow.cpp:471
 msgid "Failed to launch file."
 msgstr "A fájl indítása sikertelen."
 
-#: MainWindow.cpp:701 MainWindow.cpp:730
+#: MainWindow.cpp:586 MainWindow.cpp:620
 msgid "Open file to launch"
 msgstr "Nyisd meg az indítani való fájlt"
 
-#: MainWindow.cpp:743
+#: MainWindow.cpp:633
 msgid "Open file to load"
 msgstr "Nyisd meg a betölteni való fájlt"
 
-#: MainWindow.cpp:752 MainWindow.cpp:775
+#: MainWindow.cpp:642 MainWindow.cpp:665
 msgid "Cannot open file"
 msgstr "Fájl megnyitása sikertelen"
 
-#: MainWindow.cpp:754 MainWindow.cpp:777
+#: MainWindow.cpp:644 MainWindow.cpp:667
 msgid "Not a valid NFC NTAG215 file"
 msgstr "Ez nem egy érvényes NFC NTAG215 fájl"
 
-#: MainWindow.cpp:919
+#: MainWindow.cpp:827
 msgid "Cemu must be restarted to apply the selected UI language."
 msgstr ""
 "A kiválasztott nyelv érvénybe léptetéséhez újra kell indítanod a Cemu-t."
 
-#: MainWindow.cpp:919
+#: MainWindow.cpp:827
 msgid "Information"
 msgstr "Információ"
 
-#: MainWindow.cpp:1087
+#: MainWindow.cpp:961
 msgid ""
 "All files from the currently running game will be dumped to /dump/"
 "<gamefolder>. This process can take a few minutes."
@@ -1149,363 +1293,391 @@ msgstr ""
 "A jelenleg futó játék minden fájlja a /dump/<játék mappája> könyvtárba lesz "
 "dumpolva. Ez a folyamat eltarthat pár percig."
 
-#: MainWindow.cpp:1088
+#: MainWindow.cpp:962
 msgid "Dump WUD"
 msgstr "WUD dumpolása"
 
-#: MainWindow.cpp:1092
+#: MainWindow.cpp:966
 msgid "Dump complete"
 msgstr "Dumpolás befejezve"
 
-#: MainWindow.cpp:1590
+#: MainWindow.cpp:1536
 msgid "You can configure game paths in the general settings."
 msgstr "A játékok útvonalát az általános beállításokban tudod megadni."
 
-#: MainWindow.cpp:1662
+#: MainWindow.cpp:1608
 msgid "Loading, please wait!"
 msgstr "Betöltés folyamatban, egy pillanat!"
 
-#: MainWindow.cpp:2143
+#: MainWindow.cpp:2182
+msgid ""
+"There's a new update available.\n"
+"Do you want to update?"
+msgstr ""
+"Van elérhető frissítés.\n"
+"Szeretnél frissíteni?"
+
+#: MainWindow.cpp:2182
+msgid "Update notification"
+msgstr "Frissítési értesítés"
+
+#: MainWindow.cpp:2261
 msgid "&Load"
 msgstr "&Betöltés"
 
-#: MainWindow.cpp:2144
+#: MainWindow.cpp:2262
 msgid "&Install game update or DLC"
 msgstr "&Frissítés vagy DLC telepítése"
 
-#: MainWindow.cpp:2168
+#: MainWindow.cpp:2286
 msgid "&Exit"
 msgstr "&Kilépés"
 
-#: MainWindow.cpp:2172
+#: MainWindow.cpp:2290
 msgid "&Auto"
 msgstr "&Automatikus"
 
-#: MainWindow.cpp:2174
+#: MainWindow.cpp:2292
 msgid "&USA"
 msgstr "&Amerika"
 
-#: MainWindow.cpp:2175
+#: MainWindow.cpp:2293
 msgid "&Europe"
 msgstr "&Európa"
 
-#: MainWindow.cpp:2176
+#: MainWindow.cpp:2294
 msgid "&Japan"
 msgstr "&Japán"
 
-#: MainWindow.cpp:2178
+#: MainWindow.cpp:2296
 msgid "&China"
 msgstr "&Kína"
 
-#: MainWindow.cpp:2179
+#: MainWindow.cpp:2297
 msgid "&Korea"
 msgstr "&Korea"
 
-#: MainWindow.cpp:2180
+#: MainWindow.cpp:2298
 msgid "&Taiwan"
 msgstr "&Tajvan"
 
-#: MainWindow.cpp:2184
+#: MainWindow.cpp:2302
 msgid "&English"
 msgstr "&Angol"
 
-#: MainWindow.cpp:2185
+#: MainWindow.cpp:2303
 msgid "&Japanese"
 msgstr "&Japán"
 
-#: MainWindow.cpp:2186
+#: MainWindow.cpp:2304
 msgid "&French"
 msgstr "&Francia"
 
-#: MainWindow.cpp:2187
+#: MainWindow.cpp:2305
 msgid "&German"
 msgstr "&Német"
 
-#: MainWindow.cpp:2188
+#: MainWindow.cpp:2306
 msgid "&Italian"
 msgstr "&Olasz"
 
-#: MainWindow.cpp:2189
+#: MainWindow.cpp:2307
 msgid "&Spanish"
 msgstr "&Spanyol"
 
-#: MainWindow.cpp:2190
+#: MainWindow.cpp:2308
 msgid "&Chinese"
 msgstr "&Kínai"
 
-#: MainWindow.cpp:2191
+#: MainWindow.cpp:2309
 msgid "&Korean"
 msgstr "&Koreai"
 
-#: MainWindow.cpp:2192
+#: MainWindow.cpp:2310
 msgid "&Dutch"
 msgstr "&Holland"
 
-#: MainWindow.cpp:2193
+#: MainWindow.cpp:2311
 msgid "&Portuguese"
 msgstr "&Portugál"
 
-#: MainWindow.cpp:2194
+#: MainWindow.cpp:2312
 msgid "&Russian"
 msgstr "&Orosz"
 
-#: MainWindow.cpp:2195
+#: MainWindow.cpp:2313
 msgid "&Taiwanese"
 msgstr "&Tajvani"
 
-#: MainWindow.cpp:2201
+#: MainWindow.cpp:2318
 msgid "&High (slow)"
 msgstr "&Magas (lassú)"
 
-#: MainWindow.cpp:2202
+#: MainWindow.cpp:2319
 msgid "&Medium"
 msgstr "&Közepes"
 
-#: MainWindow.cpp:2203
+#: MainWindow.cpp:2320
 msgid "&Low (fast)"
 msgstr "&Alacsony (gyors)"
 
-#: MainWindow.cpp:2207
+#: MainWindow.cpp:2324
 msgid "&Fullscreen"
 msgstr "&Teljes képernyő"
 
-#: MainWindow.cpp:2208
+#: MainWindow.cpp:2325
 msgid "&Graphic packs"
 msgstr "&Grafikus csomagok"
 
-#: MainWindow.cpp:2209
+#: MainWindow.cpp:2326
 msgid "&GPU buffer cache accuracy"
 msgstr "&GPU-gyorsítótár pontossága"
 
-#: MainWindow.cpp:2210
+#: MainWindow.cpp:2327
 msgid "&Separate GamePad view"
 msgstr "&GamePad megjelenítése külön ablakban"
 
-#: MainWindow.cpp:2213
+#: MainWindow.cpp:2330
 msgid "&General settings"
 msgstr "&Általános beállításaok"
 
-#: MainWindow.cpp:2214
+#: MainWindow.cpp:2331
 msgid "&Input settings"
 msgstr "&Irányítási beállítások"
 
-#: MainWindow.cpp:2223
+#: MainWindow.cpp:2334
 msgid "&Console region"
 msgstr "&Konzol régiója"
 
-#: MainWindow.cpp:2224
+#: MainWindow.cpp:2335
 msgid "&Console language"
 msgstr "&Konzol nyelve"
 
-#: MainWindow.cpp:2229
+#: MainWindow.cpp:2340
 msgid "&Memory searcher"
 msgstr "&Memóriakereső"
 
-#: MainWindow.cpp:2231
+#: MainWindow.cpp:2342
 msgid "&Tools"
 msgstr "&Eszközök"
 
-#: MainWindow.cpp:2236
+#: MainWindow.cpp:2347
 msgid "&Single-core interpreter"
 msgstr "&Egymagos interpreter"
 
-#: MainWindow.cpp:2237
+#: MainWindow.cpp:2348
 msgid "&Single-core recompiler (fast)"
 msgstr "&Egymagos recompiler (gyors)"
 
-#: MainWindow.cpp:2238
+#: MainWindow.cpp:2349
 msgid "&Dual-core recompiler (fast, unstable!)"
 msgstr "&Kétmagos recompiler (gyors, instabil!)"
 
-#: MainWindow.cpp:2239
+#: MainWindow.cpp:2350
 msgid "&Triple-core recompiler (fast, unstable!)"
 msgstr "&Hárommagos recompiler (gyors, instabil!)"
 
-#: MainWindow.cpp:2242
+#: MainWindow.cpp:2353
 msgid "&Mode"
 msgstr "&Mód"
 
-#: MainWindow.cpp:2243
+#: MainWindow.cpp:2354
 msgid "&CPU"
 msgstr "&CPU"
 
-#: MainWindow.cpp:2247
+#: MainWindow.cpp:2358
 msgid "&Scan NFC tag from file"
 msgstr "&NFC-címke olvasása fájlból"
 
-#: MainWindow.cpp:2248
+#: MainWindow.cpp:2359
 msgid "&NFC"
 msgstr "&NFC"
 
-#: MainWindow.cpp:2254
+#: MainWindow.cpp:2363
 msgid "&Unsupported API calls"
 msgstr "&Nem támogatott API-funkciók"
 
-#: MainWindow.cpp:2255
+#: MainWindow.cpp:2364
 msgid "&Coreinit File-Access"
 msgstr "&Coreinit fájl-hozzáférés"
 
-#: MainWindow.cpp:2256
+#: MainWindow.cpp:2365
 msgid "&Coreinit Thread-Synchronization API"
 msgstr "&Coreinit szál-szinkronizáló API"
 
-#: MainWindow.cpp:2257
+#: MainWindow.cpp:2366
 msgid "&Coreinit Memory API"
 msgstr "&Coreinit memória API"
 
-#: MainWindow.cpp:2258
+#: MainWindow.cpp:2367
 msgid "&GX2 API"
 msgstr "&GX2 API"
 
-#: MainWindow.cpp:2259
+#: MainWindow.cpp:2368
 msgid "&Audio API"
 msgstr "&Hang API"
 
-#: MainWindow.cpp:2260
+#: MainWindow.cpp:2369
 msgid "&Input API"
 msgstr "&Irányítási API"
 
-#: MainWindow.cpp:2261
+#: MainWindow.cpp:2370
 msgid "&Socket API"
 msgstr "&Socket API"
 
-#: MainWindow.cpp:2262
+#: MainWindow.cpp:2371
 msgid "&Save API"
 msgstr "&Mentési API"
 
-#: MainWindow.cpp:2263
+#: MainWindow.cpp:2372
 msgid "&H264 API"
 msgstr "&H264 API"
 
-#: MainWindow.cpp:2265
+#: MainWindow.cpp:2374
 msgid "&Texture cache warnings"
 msgstr "&Textúragyorsítótár-figyelmeztetések"
 
-#: MainWindow.cpp:2267
+#: MainWindow.cpp:2376
 msgid "&OpenGL debug output"
 msgstr "&OpenGL debug napló"
 
-#: MainWindow.cpp:2271
+#: MainWindow.cpp:2377
+msgid "&Vulkan validation layer"
+msgstr "&Vulkan érvényesítési réteg"
+
+#: MainWindow.cpp:2381
 msgid "&Textures"
 msgstr "&Textúrák"
 
-#: MainWindow.cpp:2272
+#: MainWindow.cpp:2382
 msgid "&Shaders"
 msgstr "&Shaderek"
 
-#: MainWindow.cpp:2273
+#: MainWindow.cpp:2383
 msgid "&nlibcurl HTTP/HTTPS requests"
 msgstr "&nlibcurl HTTP/HTTPS-lekérdezések"
 
-#: MainWindow.cpp:2277
+#: MainWindow.cpp:2387
 msgid "&Logging"
 msgstr "&Naplózás"
 
-#: MainWindow.cpp:2278
+#: MainWindow.cpp:2388
 msgid "&Dump"
 msgstr "&Dumpolás"
 
-#: MainWindow.cpp:2282 MainWindow.cpp:2287
+#: MainWindow.cpp:2392 MainWindow.cpp:2397
 msgid "&Render upside-down"
 msgstr "&Fejjel lefelé renderelés"
 
-#: MainWindow.cpp:2290
+#: MainWindow.cpp:2401
+msgid "&Open logging window"
+msgstr "&Napló megnyitása"
+
+#: MainWindow.cpp:2403
 msgid "&View PPC threads"
 msgstr "&PPC-szálak megtekintése"
 
-#: MainWindow.cpp:2291
+#: MainWindow.cpp:2404
 msgid "&View PPC debugger"
 msgstr "&PPC-debugger megnyitása"
 
-#: MainWindow.cpp:2292
+#: MainWindow.cpp:2405
 msgid "&View audio debugger"
 msgstr "&Hang-debugger megnyitása"
 
-#: MainWindow.cpp:2293
+#: MainWindow.cpp:2406
 msgid "&View texture cache info"
 msgstr "&Textúragyorsítótár-infó megtekintése"
 
-#: MainWindow.cpp:2294
+#: MainWindow.cpp:2407
 msgid "&Show frame profiler"
 msgstr "&Frame profiler mutatása"
 
-#: MainWindow.cpp:2295
+#: MainWindow.cpp:2408
 msgid "&Dump current RAM"
 msgstr "&RAM jelenlegi állásának dumpolása"
 
-#: MainWindow.cpp:2296
+#: MainWindow.cpp:2409
 msgid "&Dump WUD filesystem"
 msgstr "&WUD fájlrendszer dumpolása"
 
-#: MainWindow.cpp:2298
+#: MainWindow.cpp:2411
 msgid "&Debug"
 msgstr "&Debuggolás"
 
-#: MainWindow.cpp:2303
+#: MainWindow.cpp:2416
+msgid "&Check for updates"
+msgstr "&Frissítések keresése"
+
+#: MainWindow.cpp:2417
 msgid "&About"
 msgstr "&Névjegy"
 
-#: MainWindow.cpp:2304
+#: MainWindow.cpp:2418
 msgid "&Help"
 msgstr "&Súgó"
 
-#: MainWindow.cpp:2328
+#: MainWindow.cpp:2442
 msgid "otp.bin could not be found"
 msgstr "az otp.bin nem található"
 
-#: MainWindow.cpp:2332
+#: MainWindow.cpp:2446
 msgid "otp.bin is corrupted or has invalid size"
 msgstr "az otp.bin korrupt vagy érvénytelen méretű"
 
-#: MainWindow.cpp:2336
+#: MainWindow.cpp:2450
 msgid "seeprom.bin could not be found"
 msgstr "a seeprom.bin nem található"
 
-#: MainWindow.cpp:2340
+#: MainWindow.cpp:2454
 msgid "seeprom.bin is corrupted or has invalid size"
 msgstr "a seeprom.bin korrupt vagy érvénytelen méretű"
 
-#: MainWindow.cpp:2353
+#: MainWindow.cpp:2467
 msgid "Unknown error occured"
 msgstr "Ismeretlen hiba"
 
-#: MainWindow.cpp:2458
-msgid "&Start"
-msgstr "&Indítás"
+#: MainWindow.cpp:2552
+msgid "Stop emulation"
+msgstr "Emuláció megállítása"
 
-#: MainWindow.cpp:2460
-msgid "&Save directory"
-msgstr "&Mentési könyvtár"
-
-#: MainWindow.cpp:2461
-msgid "&Update directory"
-msgstr "&Frissítési könyvtár"
-
-#: MainWindow.cpp:2462
-msgid "&DLC directory"
-msgstr "&DLC könyvtár"
-
-#: MainWindow.cpp:2464
-msgid "&Edit graphic packs"
-msgstr "&Grafikus csomagok szerkesztése"
-
-#: MainWindow.cpp:2465
-msgid "&Edit game profile"
-msgstr "&Játékprofil szerkesztése"
-
-#: MainWindow.cpp:2467
-msgid "&Refresh game list"
-msgstr "&Játéklista frissítése"
-
-#: MainWindow.cpp:2479
-msgid "&Refresh games"
-msgstr "&Játékok frissítése"
-
-#: MainWindow.cpp:2541
+#: MainWindow.cpp:2645
 msgid "Updating game list..."
 msgstr "Játéklista frissítése folyamatban..."
 
-#: MainWindow.cpp:2707
+#: MainWindow.cpp:2661
+msgid "&Start"
+msgstr "&Indítás"
+
+#: MainWindow.cpp:2663
+msgid "&Favorite"
+msgstr "&Kedvenc"
+
+#: MainWindow.cpp:2665
+msgid "&Save directory"
+msgstr "&Mentési könyvtár"
+
+#: MainWindow.cpp:2666
+msgid "&Update directory"
+msgstr "&Frissítési könyvtár"
+
+#: MainWindow.cpp:2667
+msgid "&DLC directory"
+msgstr "&DLC könyvtár"
+
+#: MainWindow.cpp:2669
+msgid "&Edit graphic packs"
+msgstr "&Grafikus csomagok szerkesztése"
+
+#: MainWindow.cpp:2670
+msgid "&Edit game profile"
+msgstr "&Játékprofil szerkesztése"
+
+#: MainWindow.cpp:2672
+msgid "&Refresh game list"
+msgstr "&Játéklista frissítése"
+
+#: MainWindow.cpp:2856
 msgid "never"
 msgstr "soha"
 
@@ -1517,27 +1689,27 @@ msgstr "Név"
 msgid "Size"
 msgstr "Méret"
 
-#: RegisterWindow.cpp:333
+#: RegisterWindow.cpp:367
 msgid "&Zero"
 msgstr "&Nulla"
 
-#: RegisterWindow.cpp:334
+#: RegisterWindow.cpp:368
 msgid "&Increment"
 msgstr "&Hozzáadás"
 
-#: RegisterWindow.cpp:335
+#: RegisterWindow.cpp:369
 msgid "&Decrement"
 msgstr "&Kivonás"
 
-#: RegisterWindow.cpp:337
+#: RegisterWindow.cpp:371
 msgid "&Copy"
 msgstr "&Másolás"
 
-#: RegisterWindow.cpp:339
+#: RegisterWindow.cpp:373
 msgid "&Goto Disasm"
 msgstr "&Ugrás: Disasm"
 
-#: RegisterWindow.cpp:340
+#: RegisterWindow.cpp:374
 msgid "G&oto Dump"
 msgstr "&Ugrás: Dump"
 
@@ -1621,13 +1793,9 @@ msgstr "Folytatás"
 msgid "Suspend"
 msgstr "Felfüggesztés"
 
-#: graphicPack.cpp:578
-msgid "Cemu detected outdated graphic packs and automatically disabled them."
-msgstr "A Cemu elavult grafikus csomagokat érzékelt, ezért letiltotta azokat."
-
-#: graphicPack.cpp:578
-msgid "Outdated graphic packs"
-msgstr "Elavult grafikus csomagok"
+#: helpers.cpp:64 helpers.cpp:81
+msgid "Error code"
+msgstr "Hibakód"
 
 #: textureRelationWindow.cpp:41
 msgid "Texture cache"
@@ -1733,39 +1901,30 @@ msgstr "&Érték eltávolítása"
 msgid "Results ({0})"
 msgstr "Találatok {{0}}"
 
-#: updateWindow.cpp:15
-msgid "Installing DLC ..."
-msgstr "DLC telepítése..."
+#~ msgid "Uncategorized graphic packs"
+#~ msgstr "Rendezetlen grafikus csomagok"
 
-#: updateWindow.cpp:17
-msgid "Installing update ..."
-msgstr "Frissítés telepítése..."
+#~ msgid "This is an old graphic pack, therefore it has no description."
+#~ msgstr "Ez egy régi grafikus csomag, ezért nem rendelkezik leírással."
 
-#: updateWindow.cpp:101
-msgid "Error:"
-msgstr "Hiba:"
+#~ msgid ""
+#~ "It seems that a DLC is already installed, do you still want to install it?"
+#~ msgstr ""
+#~ "A jelek szerint már van egy telepített DLC. Biztosan telepíteni akarod?"
 
-#: updateWindow.cpp:106
-msgid "Error Code:"
-msgstr "Hibakód:"
+#~ msgid "&Refresh games"
+#~ msgstr "&Játékok frissítése"
 
-#: updateWindow.cpp:112
-msgid "Current file:"
-msgstr "Jelenlegi fájl:"
+#~ msgid ""
+#~ "Cemu detected outdated graphic packs and automatically disabled them."
+#~ msgstr ""
+#~ "A Cemu elavult grafikus csomagokat érzékelt, ezért letiltotta azokat."
 
-#: updateWindow.cpp:154
-msgid ""
-"Do you really want to cancel the update process?\n"
-"\n"
-"Canceling the process will delete the applied update."
-msgstr ""
-"Biztosan meg akarod szakítani a frissítést?\n"
-"\n"
-"A folyamat megszakítása törölni fogja a frissítést."
+#~ msgid "Outdated graphic packs"
+#~ msgstr "Elavult grafikus csomagok"
 
-#: updateWindow.cpp:154
-msgid "Info"
-msgstr "Információ"
+#~ msgid "Error:"
+#~ msgstr "Hiba:"
 
 #~ msgid "Misc"
 #~ msgstr "Vegyes"
