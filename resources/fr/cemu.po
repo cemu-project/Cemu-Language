@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2019-08-25 01:02+0200\n"
-"PO-Revision-Date: 2019-08-25 01:23+0200\n"
+"PO-Revision-Date: 2019-08-28 08:50+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -891,7 +891,7 @@ msgstr "Profils des manettes"
 
 #: GeneralSettings2.cpp:355
 msgid "Displays the active controller profile when starting a game"
-msgstr "Affiche le profil actif de manette au démarrage du jeu"
+msgstr "Affiche le profil de la manette active au démarrage du jeu"
 
 #: GeneralSettings2.cpp:358
 msgid "Low battery"
@@ -908,7 +908,7 @@ msgstr "Compilateur de shader"
 
 #: GeneralSettings2.cpp:363
 msgid "Shows a notification after shaders have been compiled"
-msgstr "Affiche un message lors que des shaders ont été compilés"
+msgstr "Affiche un message lorsque des shaders ont été compilés"
 
 #: GeneralSettings2.cpp:366
 msgid "Friend list"
