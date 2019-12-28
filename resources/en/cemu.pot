@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2019-12-20 16:30+0100\n"
+"POT-Creation-Date: 2019-12-28 01:44+0100\n"
 "PO-Revision-Date: 2018-06-12 19:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -13,11 +13,8 @@ msgstr ""
 
 #: bootGame.cpp
 msgid ""
-"Cemu detected a DLC installed at a wrong or outdated location:\n"
-"{}\n"
-"\n"
-"Do you want to move it to the correct location:\n"
-"{}"
+"Cemu detected DLC installed at multiple different locations.\n"
+"Do you want to remove the DLC installed at outdated locations?"
 msgstr ""
 
 #: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
@@ -26,8 +23,17 @@ msgstr ""
 
 #: bootGame.cpp DumpCtrl.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp
 #: helpers.cpp InputSettings.cpp MainWindow.cpp toolMemorySearcher.cpp
-#: wxCreateAccountDialog.cpp
+#: VulkanCanvas.cpp wxCreateAccountDialog.cpp
 msgid "Error"
+msgstr ""
+
+#: bootGame.cpp
+msgid ""
+"Cemu detected a DLC installed at a wrong or outdated location:\n"
+"{}\n"
+"\n"
+"Do you want to move it to the correct location:\n"
+"{}"
 msgstr ""
 
 #: BreakpointWindow.cpp
@@ -619,7 +625,7 @@ msgstr ""
 msgid ""
 "Changes the interface language of Cemu\n"
 "Available languages are stored in the translation directory\n"
-"A restard will be required after changing the language"
+"A restart will be required after changing the language"
 msgstr ""
 
 #: GeneralSettings2.cpp
@@ -1130,11 +1136,12 @@ msgid ""
 "The stored shader cache for this game was created with a Cemu version prior "
 "to 1.16.0.\n"
 "\n"
-"There are no downsides to reusing an existing cache but it may contain bloat "
-"that is no longer used by current versions of Cemu.\n"
+"There are no significant downsides to reusing an existing cache but it may "
+"contain bloat that is no longer used by current versions of Cemu.\n"
 "\n"
 "It is highly recommended to start a new cache. Note that a new cache means "
-"that you will experience stutter during the first minutes of gameplay."
+"that you will experience additional stutter during the first minutes of "
+"gameplay."
 msgstr ""
 
 #: gpu7ShaderCache.cpp
@@ -1162,10 +1169,6 @@ msgid "Graphic pack"
 msgstr ""
 
 #: GraphicPacksWindow2.cpp
-msgid "Active preset"
-msgstr ""
-
-#: GraphicPacksWindow2.cpp
 msgid "Description"
 msgstr ""
 
@@ -1179,6 +1182,10 @@ msgstr ""
 
 #: GraphicPacksWindow2.cpp
 msgid "This graphic pack has no description"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "Active preset"
 msgstr ""
 
 #: GraphicPacksWindow2.cpp
@@ -1875,6 +1882,12 @@ msgstr ""
 
 #: toolMemorySearcher.cpp
 msgid "Results ({0})"
+msgstr ""
+
+#: VulkanCanvas.cpp
+msgid ""
+"Error when initializing Vulkan renderer:\n"
+"{}"
 msgstr ""
 
 #: wxCreateAccountDialog.cpp
