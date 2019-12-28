@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2019-12-20 16:30+0100\n"
-"PO-Revision-Date: 2019-12-21 12:24+0100\n"
+"POT-Creation-Date: 2019-12-28 01:44+0100\n"
+"PO-Revision-Date: 2019-12-28 10:39+0100\n"
 "Last-Translator: Fs00 <francescosaltori@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -11,6 +11,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bootGame.cpp
+msgid ""
+"Cemu detected DLC installed at multiple different locations.\n"
+"Do you want to remove the DLC installed at outdated locations?"
+msgstr ""
+"Cemu ha rilevato un DLC installato in più posizioni diverse.\n"
+"Vuoi rimuovere il DLC installato in posizioni obsolete?"
+
+#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
+msgid "Warning"
+msgstr "Attenzione"
+
+#: bootGame.cpp DumpCtrl.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp
+#: helpers.cpp InputSettings.cpp MainWindow.cpp toolMemorySearcher.cpp
+#: VulkanCanvas.cpp wxCreateAccountDialog.cpp
+msgid "Error"
+msgstr "Errore"
 
 #: bootGame.cpp
 msgid ""
@@ -25,16 +43,6 @@ msgstr ""
 "\n"
 "Vuoi spostarlo nella posizione corretta:\n"
 "{}"
-
-#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
-msgid "Warning"
-msgstr "Attenzione"
-
-#: bootGame.cpp DumpCtrl.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp
-#: helpers.cpp InputSettings.cpp MainWindow.cpp toolMemorySearcher.cpp
-#: wxCreateAccountDialog.cpp
-msgid "Error"
-msgstr "Errore"
 
 #: BreakpointWindow.cpp
 msgid "On"
@@ -689,7 +697,7 @@ msgstr "Inglese"
 msgid ""
 "Changes the interface language of Cemu\n"
 "Available languages are stored in the translation directory\n"
-"A restard will be required after changing the language"
+"A restart will be required after changing the language"
 msgstr ""
 "Cambia la lingua dell'interfaccia di Cemu\n"
 "Le lingue disponibili sono memorizzate nella cartella delle traduzioni\n"
@@ -1253,20 +1261,21 @@ msgid ""
 "The stored shader cache for this game was created with a Cemu version prior "
 "to 1.16.0.\n"
 "\n"
-"There are no downsides to reusing an existing cache but it may contain bloat "
-"that is no longer used by current versions of Cemu.\n"
+"There are no significant downsides to reusing an existing cache but it may "
+"contain bloat that is no longer used by current versions of Cemu.\n"
 "\n"
 "It is highly recommended to start a new cache. Note that a new cache means "
-"that you will experience stutter during the first minutes of gameplay."
+"that you will experience additional stutter during the first minutes of "
+"gameplay."
 msgstr ""
 "Cache degli shader obsoleta\n"
 "\n"
 "La cache degli shader per questo gioco è stata creata con una versione di "
 "Cemu precedente alla 1.16.0.\n"
 "\n"
-"Non ci sono controindicazioni nel riutilizzare una cache pre-esistente; "
-"tuttavia essa potrebbe contenere elementi non più utilizzati dalle versioni "
-"più recenti di Cemu.\n"
+"Non ci sono svantaggi significativi nel riutilizzare una cache pre-"
+"esistente; tuttavia essa potrebbe contenere elementi non più utilizzati "
+"dalle versioni più recenti di Cemu.\n"
 "\n"
 "È fortemente consigliato creare una nuova cache. Tieni presente che in tal "
 "caso incontrerai dei fenomeni di stuttering (scatti) durante i primi minuti "
@@ -1297,10 +1306,6 @@ msgid "Graphic pack"
 msgstr "Pack grafico"
 
 #: GraphicPacksWindow2.cpp
-msgid "Active preset"
-msgstr "Preimpostazione attiva"
-
-#: GraphicPacksWindow2.cpp
 msgid "Description"
 msgstr "Descrizione"
 
@@ -1315,6 +1320,10 @@ msgstr "Scarica pack grafici della community aggiornati"
 #: GraphicPacksWindow2.cpp
 msgid "This graphic pack has no description"
 msgstr "Questo pack grafico non contiene una descrizione"
+
+#: GraphicPacksWindow2.cpp
+msgid "Active preset"
+msgstr "Preimpostazione attiva"
 
 #: GraphicPacksWindow2.cpp
 msgid "Restart of Cemu required for changes to take effect"
@@ -2018,6 +2027,14 @@ msgstr "&Rimuovi voce"
 #: toolMemorySearcher.cpp
 msgid "Results ({0})"
 msgstr "Risultati ({0})"
+
+#: VulkanCanvas.cpp
+msgid ""
+"Error when initializing Vulkan renderer:\n"
+"{}"
+msgstr ""
+"Errore durante l'inizializzazione del renderer Vulkan:\n"
+"{}"
 
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
