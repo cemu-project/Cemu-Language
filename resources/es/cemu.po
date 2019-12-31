@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2019-12-20 16:30+0100\n"
-"PO-Revision-Date: 2019-12-26 02:02-0500\n"
+"POT-Creation-Date: 2019-12-28 01:44+0100\n"
+"PO-Revision-Date: 2019-12-30 20:24-0500\n"
 "Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -13,6 +13,24 @@ msgstr ""
 "X-Poedit-Basepath: ../../../coffee4u\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Flags-xgettext: --keyword=_\n"
+
+#: bootGame.cpp
+msgid ""
+"Cemu detected DLC installed at multiple different locations.\n"
+"Do you want to remove the DLC installed at outdated locations?"
+msgstr ""
+"Cemu detectó DLC instalados en múltiples ubicaciones distintas.\n"
+"¿Desea eliminar el DLC instalado en ubicaciones obsoletas?"
+
+#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
+msgid "Warning"
+msgstr "Advertencia"
+
+#: bootGame.cpp DumpCtrl.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp
+#: helpers.cpp InputSettings.cpp MainWindow.cpp toolMemorySearcher.cpp
+#: VulkanCanvas.cpp wxCreateAccountDialog.cpp
+msgid "Error"
+msgstr "Error"
 
 #: bootGame.cpp
 msgid ""
@@ -27,16 +45,6 @@ msgstr ""
 "\n"
 "Desea moverlo a la ubicación correcta:\n"
 "{}"
-
-#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
-msgid "Warning"
-msgstr "Advertencia"
-
-#: bootGame.cpp DumpCtrl.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp
-#: helpers.cpp InputSettings.cpp MainWindow.cpp toolMemorySearcher.cpp
-#: wxCreateAccountDialog.cpp
-msgid "Error"
-msgstr "Error"
 
 #: BreakpointWindow.cpp
 msgid "On"
@@ -682,7 +690,7 @@ msgstr "Inglés"
 msgid ""
 "Changes the interface language of Cemu\n"
 "Available languages are stored in the translation directory\n"
-"A restard will be required after changing the language"
+"A restart will be required after changing the language"
 msgstr ""
 "Cambia el idioma de la interfaz de Cemu\n"
 "Los idiomas disponibles se almacenan en el directorio de traducción\n"
@@ -1224,7 +1232,7 @@ msgstr "Confirmación"
 
 #: GeneralSettings2.cpp
 msgid "You have to restart the game in order to apply the new settings."
-msgstr "Debe reiniciar el juego para que se puedan aplicar los nuevos ajustes."
+msgstr "Tiene que reiniciar el juego para aplicar la nueva configuración."
 
 #: GeneralSettings2.cpp MainWindow.cpp
 msgid "Information"
@@ -1241,19 +1249,21 @@ msgid ""
 "The stored shader cache for this game was created with a Cemu version prior "
 "to 1.16.0.\n"
 "\n"
-"There are no downsides to reusing an existing cache but it may contain bloat "
-"that is no longer used by current versions of Cemu.\n"
+"There are no significant downsides to reusing an existing cache but it may "
+"contain bloat that is no longer used by current versions of Cemu.\n"
 "\n"
 "It is highly recommended to start a new cache. Note that a new cache means "
-"that you will experience stutter during the first minutes of gameplay."
+"that you will experience additional stutter during the first minutes of "
+"gameplay."
 msgstr ""
 "Caché de sombreadores obsoleta\n"
 "\n"
 "La caché de sombreadores almacenada para este juego fue creada con una "
 "versión de Cemu anterior a la 1.16.0.\n"
 "\n"
-"No hay inconvenientes en reutilizar una caché existente pero puede contener "
-"datos que ya no se utilizan en las versiones actuales de Cemu.\n"
+"No hay inconvenientes significativos en la reutilización de una caché "
+"existente, pero puede contener datos que ya no se utilizan en las versiones "
+"actuales de Cemu.\n"
 "\n"
 "Se recomienda encarecidamente iniciar una nueva caché. Tenga en cuenta que "
 "una nueva caché significa que experimentará stuttering (parones) durante los "
@@ -1284,10 +1294,6 @@ msgid "Graphic pack"
 msgstr "Paquete gráfico"
 
 #: GraphicPacksWindow2.cpp
-msgid "Active preset"
-msgstr "Preajuste activo"
-
-#: GraphicPacksWindow2.cpp
 msgid "Description"
 msgstr "Descripción"
 
@@ -1302,6 +1308,10 @@ msgstr "Descargar los últimos paquetes gráficos de la comunidad"
 #: GraphicPacksWindow2.cpp
 msgid "This graphic pack has no description"
 msgstr "Este paquete gráfico no tiene descripción"
+
+#: GraphicPacksWindow2.cpp
+msgid "Active preset"
+msgstr "Preestablecido activo"
 
 #: GraphicPacksWindow2.cpp
 msgid "Restart of Cemu required for changes to take effect"
@@ -1360,11 +1370,11 @@ msgstr "Clásico"
 
 #: InputSettings.cpp
 msgid "Input Settings"
-msgstr "Ajustes de entrada"
+msgstr "Configuración de entrada"
 
 #: InputSettings.cpp
 msgid "Couldn't save settings for controller {0}"
-msgstr "No se han podido guardar los ajustes del mando {0}"
+msgstr "No se pudo guardar la configuración del mando {0}"
 
 #: InputSettings.cpp
 msgid "Profile"
@@ -1408,7 +1418,7 @@ msgstr "Borrar"
 
 #: InputSettings.cpp
 msgid "Clear all currently set input settings"
-msgstr "Borrar todos los ajustes de entrada actualmente configurados"
+msgstr "Borrar todas las configuraciones de entrada establecidas actualmente"
 
 #: InputSettings.cpp
 msgid "Additional settings"
@@ -1659,7 +1669,7 @@ msgstr "&Configuración general"
 
 #: MainWindow.cpp
 msgid "&Input settings"
-msgstr "&Ajustes de entrada"
+msgstr "&Configuración de entrada"
 
 #: MainWindow.cpp
 msgid "&Active account"
@@ -2004,6 +2014,14 @@ msgstr "&Eliminar entrada"
 #: toolMemorySearcher.cpp
 msgid "Results ({0})"
 msgstr "Resultados ({0})"
+
+#: VulkanCanvas.cpp
+msgid ""
+"Error when initializing Vulkan renderer:\n"
+"{}"
+msgstr ""
+"Error al inicializar el renderizador Vulkan:\n"
+"{}"
 
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
