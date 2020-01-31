@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-12-28 01:44+0100\n"
-"PO-Revision-Date: 2020-01-31 14:19+0300\n"
+"PO-Revision-Date: 2020-01-31 22:23+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -203,7 +203,7 @@ msgstr "Загрузка обновления..."
 
 #: DebuggerWindow2.cpp
 msgid "GoTo (CTRL + G)"
-msgstr ""
+msgstr "Перейти к (CTRL + G)"
 
 #: DebuggerWindow2.cpp
 msgid "Toggle Breakpoint (F9)"
@@ -256,11 +256,11 @@ msgstr "&Точки останова"
 # Shold ampersand be there?
 #: DebuggerWindow2.cpp
 msgid "Module&list"
-msgstr "Список&модулей"
+msgstr "&Список модулей"
 
 #: DebuggerWindow2.cpp
 msgid "&Window"
-msgstr "&Окно"
+msgstr "О&кно"
 
 #: debugPPCThreadsWindow.cpp
 msgid "PPC threads"
@@ -375,7 +375,7 @@ msgid ""
 "Updated graphic packs are available. Do you want to download and install "
 "them?"
 msgstr ""
-"Обновлённые графические пакеты доступны. Желаетел ли вы скачать и установить "
+"Обновлённые графические пакеты доступны. Желаете ли вы скачать и установить "
 "их?"
 
 #: DownloadGraphicPacksWindow.cpp
@@ -411,7 +411,7 @@ msgid ""
 "EXPERT OPTION\n"
 "This option will load libraries from the cafeLibs directory"
 msgstr ""
-"EXPERT OPTION\n"
+"ОПЦИЯ ДЛЯ ЭКСПЕРТОВ\n"
 "Эта опция загрузит библиотеки из каталога cafeLibs"
 
 # Не совсем корректный перевод, однако передаёт суть происходящего
@@ -460,14 +460,14 @@ msgstr "Выберите режим эмуляции CPU"
 msgid "Thread quantum"
 msgstr "Thread quantum"
 
-# thread slice runtime?
 #: GameProfileWindow.cpp
 msgid ""
 "EXPERT OPTION\n"
 "Set the maximum thread slice runtime (in virtual cycles)"
 msgstr ""
-"EXPERT OPTION\n"
-"Установить максимальное время выполнения среза потока (в виртуальных циклах)."
+"ОПЦИЯ ДЛЯ ЭКСПЕРТОВ\n"
+"Установить максимальное время, отведенное потоку для выполнения работы перед "
+"переключением контекста (в виртуальных циклах)."
 
 #: GameProfileWindow.cpp
 msgid "cycles"
@@ -519,7 +519,7 @@ msgstr ""
 
 #: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
-msgstr ""
+msgstr "Точность умножения шейдеров"
 
 # В разных программах данная опция называется по-разному, оставляю "ложь"
 #: GameProfileWindow.cpp
@@ -542,6 +542,7 @@ msgid ""
 "\n"
 "Recommended: true"
 msgstr ""
+"ОПЦИЯ ДЛЯ ЭКСПЕРТОВ\n"
 "Контроль точности умножения с плавающей точкой в шейдерах.\n"
 "\n"
 "Рекомендуется: true"
@@ -603,7 +604,7 @@ msgstr "Не найден \"product_code\" в данном файле \"meta.xml
 
 #: GameUpdateWindow.cpp
 msgid "The given \"meta.xml\" file is no update or DLC."
-msgstr "Данный файл «meta.xml» не является обновлением или DLC."
+msgstr "Данный файл \"meta.xml\" не является обновлением или DLC."
 
 #: GameUpdateWindow.cpp
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
@@ -697,7 +698,7 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "Remember main window position"
-msgstr "Запомните положение основного окна"
+msgstr "Запомнить положение основного окна"
 
 #: GeneralSettings2.cpp
 msgid "Restores the last known window position and size when starting Cemu"
@@ -705,11 +706,13 @@ msgstr "Восстанавливает последнее положение и 
 
 #: GeneralSettings2.cpp
 msgid "Remember pad window position"
-msgstr "Запомните положение окна Gamepad"
+msgstr "Запомнить положение окна экрана геймпада"
 
 #: GeneralSettings2.cpp
 msgid "Restores the last known pad window position and size when opening it"
-msgstr "Восстанавливает последнее положение и размер окна Gamepad при открытии"
+msgstr ""
+"Восстанавливает последнее положение и размер окна экрана геймпада при "
+"открытии"
 
 #: GeneralSettings2.cpp
 msgid "Discord Presence"
@@ -973,7 +976,7 @@ msgstr "Количество кадров в секунду. Среднее за
 
 #: GeneralSettings2.cpp
 msgid "Draw calls per frame"
-msgstr "Вызовов Draw в секунду"
+msgstr "Вызовов Draw за кадр"
 
 #: GeneralSettings2.cpp
 msgid "The number of draw calls per frame. Average over last 5 seconds"
@@ -1001,7 +1004,7 @@ msgstr "Использование RAM"
 
 #: GeneralSettings2.cpp
 msgid "Cemu RAM usage in MB"
-msgstr "Используемая Cemu ОЗУ в МБ"
+msgstr "Используемая Cemu RAM в МБ"
 
 #: GeneralSettings2.cpp
 msgid "VRAM usage"
@@ -1009,7 +1012,7 @@ msgstr "Использование VRAM"
 
 #: GeneralSettings2.cpp
 msgid "The VRAM usage of Cemu in MB"
-msgstr "Используемая Cemu видео-ОЗУ в МБ"
+msgstr "Используемая Cemu VRAM в МБ"
 
 #: GeneralSettings2.cpp
 msgid "This option requires Win8.1+"
@@ -1173,8 +1176,7 @@ msgstr "Информация об аккаунте"
 #: GeneralSettings2.cpp
 msgid "The persistent id is the internal folder name used for your saves"
 msgstr ""
-"Постоянный идентификатор - это имя внутренней папки, используемой для ваших "
-"записей"
+"Persistent id - это имя внутренней папки, используемой для ваших сохранений"
 
 #: GeneralSettings2.cpp
 msgid "Mii name"
@@ -1293,7 +1295,7 @@ msgstr "Управление"
 
 #: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
-msgstr "Загрузить новейшие пользовательские графические пакеты"
+msgstr "Обновить пользовательские графические пакеты"
 
 #: GraphicPacksWindow2.cpp
 msgid "This graphic pack has no description"
@@ -1454,7 +1456,7 @@ msgstr "Поиск Wiimote..."
 
 #: LoggingWindow.cpp
 msgid "Logging window"
-msgstr "Logging window"
+msgstr "Окно логирования"
 
 #: LoggingWindow.cpp
 msgid "Filter messages"
@@ -1719,7 +1721,7 @@ msgstr "&Неподдерживаемые вызовы API"
 
 #: MainWindow.cpp
 msgid "&Coreinit File-Access"
-msgstr ""
+msgstr "&Доступ к файлам Coreinit"
 
 #: MainWindow.cpp
 msgid "&Coreinit Thread-Synchronization API"
@@ -1743,7 +1745,7 @@ msgstr "&API Ввода"
 
 #: MainWindow.cpp
 msgid "&Socket API"
-msgstr ""
+msgstr "&API Сокетов"
 
 #: MainWindow.cpp
 msgid "&Save API"
@@ -1771,7 +1773,7 @@ msgstr "&Слой валидации Vulkan (медленно)"
 
 #: MainWindow.cpp
 msgid "&Log PPC context for API"
-msgstr "&Log PPC context for API"
+msgstr "&Логировать контекст PPC для API"
 
 #: MainWindow.cpp
 msgid "&Textures"
@@ -1823,7 +1825,7 @@ msgstr "&Показать профайлер кадров"
 
 #: MainWindow.cpp
 msgid "&Dump current RAM"
-msgstr "&Дамп ОЗУ"
+msgstr "&Дамп RAM"
 
 #: MainWindow.cpp
 msgid "&Dump WUD filesystem"
@@ -1879,29 +1881,29 @@ msgstr "Размер"
 
 #: RegisterWindow.cpp
 msgid "&Zero"
-msgstr ""
+msgstr "&Ноль"
 
 #: RegisterWindow.cpp
 msgid "&Increment"
-msgstr ""
+msgstr "&Повысить"
 
 #: RegisterWindow.cpp
 #| msgid "&Experimental"
 msgid "&Decrement"
-msgstr ""
+msgstr "П&онизить"
 
 #: RegisterWindow.cpp
 msgid "&Copy"
-msgstr ""
+msgstr "&Копировать"
 
 #: RegisterWindow.cpp
 msgid "&Goto Disasm"
-msgstr ""
+msgstr "&Перейти к дизассемблированному"
 
 #: RegisterWindow.cpp
 #| msgid "&Dump"
 msgid "G&oto Dump"
-msgstr ""
+msgstr "П&ерейти к дампу"
 
 #: textureRelationWindow.cpp
 #| msgid "&Textures"
@@ -1910,7 +1912,7 @@ msgstr "Кэш текстур"
 
 #: textureRelationWindow.cpp
 msgid "PhysAddr"
-msgstr "ФизАдрес"
+msgstr ""
 
 #: textureRelationWindow.cpp
 msgid "Dim"
@@ -1953,11 +1955,11 @@ msgstr ""
 
 #: textureRelationWindow.cpp
 msgid "Show only active"
-msgstr ""
+msgstr "Только активные"
 
 #: textureRelationWindow.cpp
 msgid "Show views"
-msgstr ""
+msgstr "Показать просмотры"
 
 #: toolMemorySearcher.cpp
 msgid "Memory Searcher"
