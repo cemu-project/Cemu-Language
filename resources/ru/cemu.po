@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-12-28 01:44+0100\n"
-"PO-Revision-Date: 2020-01-30 23:29+0300\n"
+"PO-Revision-Date: 2020-01-31 14:19+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -69,23 +69,23 @@ msgstr "Введите новый комментарий."
 #: BreakpointWindow.cpp
 #, c-format
 msgid "Set comment for breakpoint at address %08x"
-msgstr ""
+msgstr "Добавить комментарий для точки останова по адресу %08x"
 
 #: BreakpointWindow.cpp
 msgid "Create memory breakpoint (read)"
-msgstr ""
+msgstr "Создать точку останова памяти (чтение)"
 
 #: BreakpointWindow.cpp
 msgid "Create memory breakpoint (write)"
-msgstr ""
+msgstr "Создать точку останова памяти (запись)"
 
 #: BreakpointWindow.cpp
 msgid "Enter a memory address"
-msgstr ""
+msgstr "Введите адрес памяти"
 
 #: BreakpointWindow.cpp
 msgid "Memory breakpoint"
-msgstr ""
+msgstr "Точка останова памяти"
 
 #: CemuApp.cpp
 msgid ""
@@ -207,27 +207,27 @@ msgstr ""
 
 #: DebuggerWindow2.cpp
 msgid "Toggle Breakpoint (F9)"
-msgstr ""
+msgstr "Поставить/снять точку останова (F9)"
 
 #: DebuggerWindow2.cpp
 msgid "Break (F5)"
-msgstr ""
+msgstr "Прервать (F5)"
 
 #: DebuggerWindow2.cpp
 msgid "Step Into (F11)"
-msgstr ""
+msgstr "Войти в (F11)"
 
 #: DebuggerWindow2.cpp
 msgid "Step Over (F10)"
-msgstr ""
+msgstr "Перейти через (F10)"
 
 #: DebuggerWindow2.cpp
 msgid "Run (F5)"
-msgstr ""
+msgstr "Запустить (F5)"
 
 #: DebuggerWindow2.cpp
 msgid "E&xit"
-msgstr ""
+msgstr "В&ыход"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
 msgid "&File"
@@ -253,9 +253,10 @@ msgstr "&Дамп памяти"
 msgid "&Breakpoints"
 msgstr "&Точки останова"
 
+# Shold ampersand be there?
 #: DebuggerWindow2.cpp
 msgid "Module&list"
-msgstr ""
+msgstr "Список&модулей"
 
 #: DebuggerWindow2.cpp
 msgid "&Window"
@@ -263,15 +264,15 @@ msgstr "&Окно"
 
 #: debugPPCThreadsWindow.cpp
 msgid "PPC threads"
-msgstr ""
+msgstr "Потоки PPC"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Entry"
-msgstr ""
+msgstr "Вхождение"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Stack"
-msgstr ""
+msgstr "Стэк"
 
 #: debugPPCThreadsWindow.cpp
 msgid "PC"
@@ -283,15 +284,15 @@ msgstr ""
 
 #: debugPPCThreadsWindow.cpp
 msgid "State"
-msgstr ""
+msgstr "Состояние"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Affinity"
-msgstr ""
+msgstr "Сходство"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Priority"
-msgstr ""
+msgstr "Приоритет"
 
 #: debugPPCThreadsWindow.cpp
 msgid "SliceStart"
@@ -311,7 +312,7 @@ msgstr ""
 
 #: debugPPCThreadsWindow.cpp textureRelationWindow.cpp
 msgid "Refresh"
-msgstr ""
+msgstr "Обновить"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Auto refresh"
@@ -418,7 +419,7 @@ msgstr ""
 msgid "Launch with gamepad view"
 msgstr "Запуск с окном геймпада"
 
-# Аналогично, не совсем корректно. 
+# Аналогично, не совсем корректно.
 #: GameProfileWindow.cpp
 msgid ""
 "Games will be launched with gamepad view toggled as default. The view can be "
@@ -449,7 +450,7 @@ msgstr "Двухъядерный рекомпилятор"
 
 #: GameProfileWindow.cpp
 msgid "Triplecore-Recompiler"
-msgstr "Трёхядерный рекомпилятор"
+msgstr "Трёхъядерный рекомпилятор"
 
 #: GameProfileWindow.cpp
 msgid "Set the CPU emulation mode"
@@ -459,11 +460,14 @@ msgstr "Выберите режим эмуляции CPU"
 msgid "Thread quantum"
 msgstr "Thread quantum"
 
+# thread slice runtime?
 #: GameProfileWindow.cpp
 msgid ""
 "EXPERT OPTION\n"
 "Set the maximum thread slice runtime (in virtual cycles)"
 msgstr ""
+"EXPERT OPTION\n"
+"Установить максимальное время выполнения среза потока (в виртуальных циклах)."
 
 #: GameProfileWindow.cpp
 msgid "cycles"
@@ -471,7 +475,7 @@ msgstr "циклы"
 
 #: GameProfileWindow.cpp
 msgid "Extended texture readback"
-msgstr ""
+msgstr "Расширенное считывание текстур"
 
 #: GameProfileWindow.cpp
 msgid ""
@@ -749,7 +753,7 @@ msgid ""
 "screenshots folder"
 msgstr ""
 "Нажатие клавиши \"Снимок экрана\" (F12) сохранит снимок экрана "
-"непосредственно в папке \"Снимки экрана\""
+"непосредственно в папке screenshots"
 
 #: GeneralSettings2.cpp
 msgid "MLC Path"
@@ -1511,15 +1515,15 @@ msgstr ""
 
 #: MainWindow.cpp
 msgid "Dump WUD"
-msgstr ""
+msgstr "Дамп WUD"
 
 #: MainWindow.cpp
 msgid "Dump complete"
-msgstr ""
+msgstr "Дамп успешен"
 
 #: MainWindow.cpp
 msgid "Updating game list..."
-msgstr "Обновление списка игр ..."
+msgstr "Обновление списка игр..."
 
 #: MainWindow.cpp
 msgid ""
@@ -1711,7 +1715,7 @@ msgstr "&NFC"
 
 #: MainWindow.cpp
 msgid "&Unsupported API calls"
-msgstr ""
+msgstr "&Неподдерживаемые вызовы API"
 
 #: MainWindow.cpp
 msgid "&Coreinit File-Access"
@@ -1719,11 +1723,11 @@ msgstr ""
 
 #: MainWindow.cpp
 msgid "&Coreinit Thread-Synchronization API"
-msgstr ""
+msgstr "&API синхронизации потоков Coreinit"
 
 #: MainWindow.cpp
 msgid "&Coreinit Memory API"
-msgstr ""
+msgstr "&API памяти Coreinit"
 
 #: MainWindow.cpp
 msgid "&GX2 API"
@@ -1731,11 +1735,11 @@ msgstr ""
 
 #: MainWindow.cpp
 msgid "&Audio API"
-msgstr ""
+msgstr "&API Звука"
 
 #: MainWindow.cpp
 msgid "&Input API"
-msgstr ""
+msgstr "&API Ввода"
 
 #: MainWindow.cpp
 msgid "&Socket API"
@@ -1743,7 +1747,7 @@ msgstr ""
 
 #: MainWindow.cpp
 msgid "&Save API"
-msgstr ""
+msgstr "&API Сохранений"
 
 #: MainWindow.cpp
 msgid "&H264 API"
@@ -1755,39 +1759,39 @@ msgstr ""
 
 #: MainWindow.cpp
 msgid "&Texture cache warnings"
-msgstr ""
+msgstr "&Предупреждения кэша текстур"
 
 #: MainWindow.cpp
 msgid "&OpenGL debug output"
-msgstr ""
+msgstr "&Отладочный вывод OpenGL"
 
 #: MainWindow.cpp
 msgid "&Vulkan validation layer (slow)"
-msgstr ""
+msgstr "&Слой валидации Vulkan (медленно)"
 
 #: MainWindow.cpp
 msgid "&Log PPC context for API"
-msgstr ""
+msgstr "&Log PPC context for API"
 
 #: MainWindow.cpp
 msgid "&Textures"
-msgstr ""
+msgstr "&Текстуры"
 
 #: MainWindow.cpp
 msgid "&Shaders"
-msgstr ""
+msgstr "&Шейдеры"
 
 #: MainWindow.cpp
 msgid "&nlibcurl HTTP/HTTPS requests"
-msgstr ""
+msgstr "&HTTP/HTTPS запросы nlibcurl"
 
 #: MainWindow.cpp
 msgid "&Logging"
-msgstr ""
+msgstr "&Логирование"
 
 #: MainWindow.cpp
 msgid "&Dump"
-msgstr ""
+msgstr "&Дамп"
 
 #: MainWindow.cpp
 msgid "&Render upside-down"
@@ -1795,39 +1799,39 @@ msgstr "&Рендер вверх ногами"
 
 #: MainWindow.cpp
 msgid "&Open logging window"
-msgstr ""
+msgstr "&Открыть окно логирования"
 
 #: MainWindow.cpp
 msgid "&View PPC threads"
-msgstr ""
+msgstr "&Показать потоки IPC"
 
 #: MainWindow.cpp
 msgid "&View PPC debugger"
-msgstr ""
+msgstr "&Показать отладчик PPC"
 
 #: MainWindow.cpp
 msgid "&View audio debugger"
-msgstr ""
+msgstr "&Показать отладчик звука"
 
 #: MainWindow.cpp
 msgid "&View texture cache info"
-msgstr ""
+msgstr "&Показать информацию о кэше текстур"
 
 #: MainWindow.cpp
 msgid "&Show frame profiler"
-msgstr ""
+msgstr "&Показать профайлер кадров"
 
 #: MainWindow.cpp
 msgid "&Dump current RAM"
-msgstr ""
+msgstr "&Дамп ОЗУ"
 
 #: MainWindow.cpp
 msgid "&Dump WUD filesystem"
-msgstr ""
+msgstr "&Дамп файловой системы WUD"
 
 #: MainWindow.cpp
 msgid "&Debug"
-msgstr ""
+msgstr "&Отладка"
 
 #: MainWindow.cpp
 msgid "&Check for updates"
@@ -1871,7 +1875,7 @@ msgstr "Имя"
 
 #: ModuleWindow.cpp
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 #: RegisterWindow.cpp
 msgid "&Zero"
@@ -1902,11 +1906,11 @@ msgstr ""
 #: textureRelationWindow.cpp
 #| msgid "&Textures"
 msgid "Texture cache"
-msgstr ""
+msgstr "Кэш текстур"
 
 #: textureRelationWindow.cpp
 msgid "PhysAddr"
-msgstr ""
+msgstr "ФизАдрес"
 
 #: textureRelationWindow.cpp
 msgid "Dim"
@@ -1914,11 +1918,11 @@ msgstr ""
 
 #: textureRelationWindow.cpp
 msgid "Resolution"
-msgstr ""
+msgstr "Разрешение"
 
 #: textureRelationWindow.cpp
 msgid "Format"
-msgstr ""
+msgstr "Формат"
 
 #: textureRelationWindow.cpp
 msgid "Pitch"
@@ -1941,7 +1945,7 @@ msgstr ""
 #: textureRelationWindow.cpp
 #| msgid "Last played"
 msgid "Last access"
-msgstr ""
+msgstr "Последний доступ"
 
 #: textureRelationWindow.cpp
 msgid "OverwriteRes"
@@ -2012,6 +2016,8 @@ msgid ""
 "Error when initializing Vulkan renderer:\n"
 "{}"
 msgstr ""
+"Ошибка при инициализации рендера Vulkan:\n"
+"{}"
 
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
@@ -2080,11 +2086,11 @@ msgstr "&Старт"
 
 #: wxGameList.cpp
 msgid "&Favorite"
-msgstr "&Избраннй"
+msgstr "&Избранный"
 
 #: wxGameList.cpp
 msgid "&Edit name"
-msgstr "&Изменить имя"
+msgstr "&Изменить название"
 
 #: wxGameList.cpp
 msgid "&Game directory"
@@ -2116,45 +2122,45 @@ msgstr "&Обновить список игр"
 
 #: wxGameList.cpp
 msgid "Style: &List"
-msgstr ""
+msgstr "Стиль: &Список"
 
 #: wxGameList.cpp
 msgid "Style: &Icons"
-msgstr ""
+msgstr "Стиль: &Иконки"
 
 #: wxGameList.cpp
 msgid "Style: &Small Icons"
-msgstr ""
+msgstr "Стиль: &Меленькие иконки"
 
 #: wxGameList.cpp
 msgid "Reset &width"
-msgstr ""
+msgstr "Сбросить &ширину"
 
 #: wxGameList.cpp
 msgid "Reset &order"
-msgstr ""
+msgstr "Сбросить &порядок"
 
 #: wxGameList.cpp
 msgid "Show &name"
-msgstr ""
+msgstr "Показывать &название"
 
 #: wxGameList.cpp
 #| msgid "Version"
 msgid "Show &version"
-msgstr ""
+msgstr "Показывать &версию"
 
 #: wxGameList.cpp
 msgid "Show &dlc"
-msgstr ""
+msgstr "Показывать &DLC"
 
 #: wxGameList.cpp
 msgid "Show &game time"
-msgstr ""
+msgstr "Показывать &версию"
 
 #: wxGameList.cpp
 #| msgid "Last played"
 msgid "Show &last played"
-msgstr ""
+msgstr "Показывать &последнюю игру"
 
 #~ msgid "Misc"
 #~ msgstr "Прочее"
