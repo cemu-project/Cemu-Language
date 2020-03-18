@@ -198,7 +198,7 @@ msgstr "正在下载更新..."
 
 #: DebuggerWindow2.cpp
 msgid "GoTo (CTRL + G)"
-msgstr "转到（CTRL+G）"
+msgstr "转到（CTRL + G）"
 
 #: DebuggerWindow2.cpp
 msgid "Toggle Breakpoint (F9)"
@@ -496,8 +496,8 @@ msgid ""
 "Recommended: Auto"
 msgstr ""
 "预编译的着色器可以加快着色器加载屏幕的加载时间。\n"
-"如果选择\"自动\"，作为驱动问题的解决方法，将会在使用 AMD/Intel GPU 时启用，在"
-"使用 NVIDIA GPU 时禁用。\n"
+"如果选择“自动”，将会在使用 AMD/Intel GPU 时启用，在"
+"使用 NVIDIA GPU 时禁用（作为驱动问题的解决方法）。\n"
 "\n"
 "推荐：自动"
 
@@ -515,7 +515,7 @@ msgstr "是"
 
 #: GameProfileWindow.cpp
 msgid "minimal"
-msgstr "最小"
+msgstr "最低"
 
 #: GameProfileWindow.cpp
 msgid ""
