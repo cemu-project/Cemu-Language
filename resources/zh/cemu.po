@@ -350,11 +350,11 @@ msgstr "转到地址"
 
 #: DownloadGraphicPacksWindow.cpp GraphicPacksWindow2.cpp
 msgid "Graphic packs"
-msgstr "图形插件"
+msgstr "图形包"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Graphic packs cannot be updated while a game is running."
-msgstr "图形插件在游戏运行时无法更改。"
+msgstr "图形包在游戏运行时无法更改。"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Failed to connect to server"
@@ -368,7 +368,7 @@ msgstr "无可用更新。"
 msgid ""
 "Updated graphic packs are available. Do you want to download and install "
 "them?"
-msgstr "有新版本图形插件可用，是否进行更新？"
+msgstr "有新版本图形包可用，是否进行更新？"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Checking version..."
@@ -376,7 +376,7 @@ msgstr "正在检查版本..."
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Downloading graphic packs..."
-msgstr "下载图形插件..."
+msgstr "下载图形包..."
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Extracting..."
@@ -446,7 +446,7 @@ msgstr "设置 CPU 模拟模式"
 
 #: GameProfileWindow.cpp
 msgid "Thread quantum"
-msgstr "线程数量"
+msgstr "线程时间片"
 
 #: GameProfileWindow.cpp
 msgid ""
@@ -503,7 +503,7 @@ msgstr ""
 
 #: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
-msgstr "着色器多重精度"
+msgstr "着色器乘法精度"
 
 #: GameProfileWindow.cpp
 msgid "false"
@@ -1231,7 +1231,7 @@ msgstr "已安装的游戏"
 
 #: GraphicPacksWindow2.cpp
 msgid "Graphic pack"
-msgstr "图形插件"
+msgstr "图形包"
 
 #: GraphicPacksWindow2.cpp
 msgid "Description"
@@ -1243,11 +1243,11 @@ msgstr "操作选项"
 
 #: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
-msgstr "下载最新的社区图形插件"
+msgstr "下载最新的社区图形包"
 
 #: GraphicPacksWindow2.cpp
 msgid "This graphic pack has no description"
-msgstr "此图形插件无简介"
+msgstr "此图形包无简介"
 
 #: GraphicPacksWindow2.cpp
 msgid "Active preset"
@@ -1591,7 +1591,7 @@ msgstr "&全屏"
 
 #: MainWindow.cpp
 msgid "&Graphic packs"
-msgstr "&图形插件"
+msgstr "&图形包"
 
 #: MainWindow.cpp
 msgid "&GPU buffer cache accuracy"
@@ -2051,7 +2051,7 @@ msgstr "&DLC 目录"
 
 #: wxGameList.cpp
 msgid "&Edit graphic packs"
-msgstr "&编辑图形插件"
+msgstr "&编辑图形包"
 
 #: wxGameList.cpp
 msgid "&Edit game profile"
@@ -2120,10 +2120,10 @@ msgstr "显示 &上次游戏时间"
 #~ msgstr "禁用线上模式"
 
 #~ msgid "Uncategorized graphic packs"
-#~ msgstr "未分类的图形插件"
+#~ msgstr "未分类的图形包"
 
 #~ msgid "This is an old graphic pack, therefore it has no description."
-#~ msgstr "此图形插件为旧版，因此无简介。"
+#~ msgstr "此图形包为旧版，因此无简介。"
 
 #~ msgid ""
 #~ "It seems that a DLC is already installed, do you still want to install it?"
@@ -2157,10 +2157,10 @@ msgstr "显示 &上次游戏时间"
 
 #~ msgid ""
 #~ "Cemu detected outdated graphic packs and automatically disabled them."
-#~ msgstr "Cemu 检测到过时的图形插件并已自动将其禁用。"
+#~ msgstr "Cemu 检测到过时的图形包并已自动将其禁用。"
 
 #~ msgid "Outdated graphic packs"
-#~ msgstr "过时的图形插件"
+#~ msgstr "过时的图形包"
 
 #~ msgid "Error:"
 #~ msgstr "错误："
@@ -2175,7 +2175,7 @@ msgstr "显示 &上次游戏时间"
 #~ "The currently running game is corrupted or incomplete. (Missing /meta/"
 #~ "meta.xml) Graphic packs cannot be applied."
 #~ msgstr ""
-#~ "当前运行的游戏已损坏或不完整（缺少/meta/meta.xml）。图形插件无法启用。"
+#~ "当前运行的游戏已损坏或不完整（缺少/meta/meta.xml）。图形包无法启用。"
 
 #~ msgid "Restart of Cemu required"
 #~ msgstr "需要重启 Cemu"
