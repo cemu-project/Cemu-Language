@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2019-12-28 01:44+0100\n"
-"PO-Revision-Date: 2020-03-18 14:07+0800\n"
+"PO-Revision-Date: 2020-03-18 15:17+0800\n"
 "Last-Translator: nyanmisaka <nst799610810@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -210,11 +210,11 @@ msgstr "中断（F5）"
 
 #: DebuggerWindow2.cpp
 msgid "Step Into (F11)"
-msgstr "Step Into（F11）"
+msgstr "逐语句（F11）"
 
 #: DebuggerWindow2.cpp
 msgid "Step Over (F10)"
-msgstr "Step Over（F10）"
+msgstr "逐过程（F10）"
 
 #: DebuggerWindow2.cpp
 msgid "Run (F5)"
@@ -726,8 +726,7 @@ msgstr "保存截图"
 msgid ""
 "Pressing the screenshot key (F12) will save a screenshot directly to the "
 "screenshots folder"
-msgstr ""
-"按下屏幕截图键（F12）将屏幕截图直接保存到屏幕截图文件夹"
+msgstr "按下屏幕截图键（F12）将屏幕截图直接保存到屏幕截图文件夹"
 
 #: GeneralSettings2.cpp
 msgid "MLC Path"
@@ -736,8 +735,7 @@ msgstr "MLC 路径"
 #: GeneralSettings2.cpp
 msgid ""
 "The mlc directory contains your save games and installed game update/dlc data"
-msgstr ""
-"MLC 目录包含您保存的游戏和已安装的游戏更新/DLC数据"
+msgstr "MLC 目录包含您保存的游戏和已安装的游戏更新/DLC数据"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -2149,7 +2147,7 @@ msgstr "显示 &上次游戏时间"
 #~ msgstr "&基于循环的计时器"
 
 #~ msgid "&Host based timer (recommended)"
-#~ msgstr "&基于主机的计时器(推荐)"
+#~ msgstr "&基于主机的计时器（推荐）"
 
 #~ msgid "&Timer"
 #~ msgstr "&计时器"
