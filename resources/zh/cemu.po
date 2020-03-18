@@ -350,11 +350,11 @@ msgstr "转到地址"
 
 #: DownloadGraphicPacksWindow.cpp GraphicPacksWindow2.cpp
 msgid "Graphic packs"
-msgstr "图像插件"
+msgstr "图形插件"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Graphic packs cannot be updated while a game is running."
-msgstr "图像插件在游戏运行时无法更改。"
+msgstr "图形插件在游戏运行时无法更改。"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Failed to connect to server"
@@ -368,7 +368,7 @@ msgstr "无可用更新。"
 msgid ""
 "Updated graphic packs are available. Do you want to download and install "
 "them?"
-msgstr "有新版本图像插件可用，是否进行更新？"
+msgstr "有新版本图形插件可用，是否进行更新？"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Checking version..."
@@ -1593,7 +1593,7 @@ msgstr "&全屏"
 
 #: MainWindow.cpp
 msgid "&Graphic packs"
-msgstr "&图像插件"
+msgstr "&图形插件"
 
 #: MainWindow.cpp
 msgid "&GPU buffer cache accuracy"
@@ -2122,10 +2122,10 @@ msgstr "显示 &上次游戏时间"
 #~ msgstr "禁用线上模式"
 
 #~ msgid "Uncategorized graphic packs"
-#~ msgstr "未分类的图像插件"
+#~ msgstr "未分类的图形插件"
 
 #~ msgid "This is an old graphic pack, therefore it has no description."
-#~ msgstr "此图像插件为旧版，因此无简介。"
+#~ msgstr "此图形插件为旧版，因此无简介。"
 
 #~ msgid ""
 #~ "It seems that a DLC is already installed, do you still want to install it?"
@@ -2177,7 +2177,7 @@ msgstr "显示 &上次游戏时间"
 #~ "The currently running game is corrupted or incomplete. (Missing /meta/"
 #~ "meta.xml) Graphic packs cannot be applied."
 #~ msgstr ""
-#~ "当前运行的游戏已损坏或不完整（缺少/meta/meta.xml）。图像插件无法启用。"
+#~ "当前运行的游戏已损坏或不完整（缺少/meta/meta.xml）。图形插件无法启用。"
 
 #~ msgid "Restart of Cemu required"
 #~ msgstr "需要重启 Cemu"
