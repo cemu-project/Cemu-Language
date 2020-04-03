@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2019-12-28 01:44+0100\n"
+"POT-Creation-Date: 2020-04-03 04:24+0200\n"
 "PO-Revision-Date: 2018-06-12 19:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -12,18 +12,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: bootGame.cpp
-msgid ""
-"Cemu detected DLC installed at multiple different locations.\n"
-"Do you want to remove the DLC installed at outdated locations?"
+msgid "Failed to run this title because at least one of the files is damaged."
 msgstr ""
 
 #: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
 msgid "Warning"
 msgstr ""
 
-#: bootGame.cpp DumpCtrl.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp
-#: helpers.cpp InputSettings.cpp MainWindow.cpp toolMemorySearcher.cpp
-#: VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: bootGame.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
+#: MainWindow.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
+#: wxCreateAccountDialog.cpp
 msgid "Error"
 msgstr ""
 
@@ -36,7 +35,7 @@ msgid ""
 "{}"
 msgstr ""
 
-#: BreakpointWindow.cpp
+#: BreakpointWindow.cpp GeneralSettings2.cpp
 msgid "On"
 msgstr ""
 
@@ -198,8 +197,8 @@ msgstr ""
 msgid "Run (F5)"
 msgstr ""
 
-#: DebuggerWindow2.cpp
-msgid "E&xit"
+#: DebuggerWindow2.cpp MainWindow.cpp
+msgid "&Exit"
 msgstr ""
 
 #: DebuggerWindow2.cpp MainWindow.cpp
@@ -326,12 +325,12 @@ msgstr ""
 msgid "GoTo address"
 msgstr ""
 
-#: DownloadGraphicPacksWindow.cpp GraphicPacksWindow2.cpp
-msgid "Graphic packs"
-msgstr ""
-
 #: DownloadGraphicPacksWindow.cpp
 msgid "Graphic packs cannot be updated while a game is running."
+msgstr ""
+
+#: DownloadGraphicPacksWindow.cpp GraphicPacksWindow2.cpp
+msgid "Graphic packs"
 msgstr ""
 
 #: DownloadGraphicPacksWindow.cpp
@@ -442,32 +441,6 @@ msgstr ""
 msgid ""
 "Improves emulation accuracy of CPU to GPU memory access at the cost of "
 "performance. Required for some games."
-msgstr ""
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "Precompiled shaders"
-msgstr ""
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "auto"
-msgstr ""
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "enable"
-msgstr ""
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "disable"
-msgstr ""
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid ""
-"Precompiled shaders can speed up the load time on the shader loading "
-"screen.\n"
-"Auto will enable it for AMD/Intel but disable it for NVIDIA GPUs as a "
-"workaround for a driver bug.\n"
-"\n"
-"Recommended: Auto"
 msgstr ""
 
 #: GameProfileWindow.cpp
@@ -599,6 +572,29 @@ msgstr ""
 
 #: GameUpdateWindow.cpp
 msgid "Info"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Crash dump"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Disabled"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Lite"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Full"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Creates a dump when Cemu crashes\n"
+"Only enable on demand!\n"
+"The Full option will create a big dump with the memory included"
 msgstr ""
 
 #: GeneralSettings2.cpp
@@ -743,6 +739,32 @@ msgid "Select the used graphic device"
 msgstr ""
 
 #: GeneralSettings2.cpp
+msgid "Precompiled shaders"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "auto"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "enable"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "disable"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Precompiled shaders can speed up the load time on the shader loading "
+"screen.\n"
+"Auto will enable it for AMD/Intel but disable it for NVIDIA GPUs as a "
+"workaround for a driver bug.\n"
+"\n"
+"Recommended: Auto"
+msgstr ""
+
+#: GeneralSettings2.cpp
 msgid "VSync"
 msgstr ""
 
@@ -812,10 +834,6 @@ msgstr ""
 #: GeneralSettings2.cpp
 msgid ""
 "Controls the output aspect ratio when it doesn't match the ratio of the game"
-msgstr ""
-
-#: GeneralSettings2.cpp
-msgid "Disabled"
 msgstr ""
 
 #: GeneralSettings2.cpp
@@ -920,6 +938,14 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "This option requires Win8.1+"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Debug"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Displays internal debug information (Vulkan only)"
 msgstr ""
 
 #: GeneralSettings2.cpp
@@ -1118,6 +1144,18 @@ msgid "Confirmation"
 msgstr ""
 
 #: GeneralSettings2.cpp
+msgid "Off"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Double buffering"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Triple buffering"
+msgstr ""
+
+#: GeneralSettings2.cpp
 msgid "You have to restart the game in order to apply the new settings."
 msgstr ""
 
@@ -1127,6 +1165,14 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "Select a directory containing games."
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Online Status"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Getting started"
 msgstr ""
 
 #: gpu7ShaderCache.cpp
@@ -1181,11 +1227,11 @@ msgid "Download latest community graphic packs"
 msgstr ""
 
 #: GraphicPacksWindow2.cpp
-msgid "This graphic pack has no description"
+msgid "Active preset"
 msgstr ""
 
 #: GraphicPacksWindow2.cpp
-msgid "Active preset"
+msgid "This graphic pack has no description"
 msgstr ""
 
 #: GraphicPacksWindow2.cpp
@@ -1248,6 +1294,10 @@ msgid "Input Settings"
 msgstr ""
 
 #: InputSettings.cpp
+msgid "Controller {}"
+msgstr ""
+
+#: InputSettings.cpp
 msgid "Couldn't save settings for controller {0}"
 msgstr ""
 
@@ -1269,6 +1319,10 @@ msgstr ""
 
 #: InputSettings.cpp
 msgid "Controller API:"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Settings"
 msgstr ""
 
 #: InputSettings.cpp
@@ -1333,7 +1387,27 @@ msgid "Couldn't save the profile!"
 msgstr ""
 
 #: InputSettings.cpp
+msgid "DSU client settings"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "IP"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Port"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "The entered port must be between 1 and 65535"
+msgstr ""
+
+#: InputSettings.cpp
 msgid "Searching for wiimotes..."
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Searching for controllers..."
 msgstr ""
 
 #: LoggingWindow.cpp
@@ -1342,6 +1416,14 @@ msgstr ""
 
 #: LoggingWindow.cpp
 msgid "Filter messages"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Cannot open file"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Not a valid NFC NTAG215 file"
 msgstr ""
 
 #: MainWindow.cpp
@@ -1374,14 +1456,6 @@ msgstr ""
 
 #: MainWindow.cpp
 msgid "Open file to load"
-msgstr ""
-
-#: MainWindow.cpp
-msgid "Cannot open file"
-msgstr ""
-
-#: MainWindow.cpp
-msgid "Not a valid NFC NTAG215 file"
 msgstr ""
 
 #: MainWindow.cpp
@@ -1425,7 +1499,7 @@ msgid "&Install game update or DLC"
 msgstr ""
 
 #: MainWindow.cpp
-msgid "&Exit"
+msgid "End emulation"
 msgstr ""
 
 #: MainWindow.cpp
@@ -1505,27 +1579,11 @@ msgid "&Taiwanese"
 msgstr ""
 
 #: MainWindow.cpp
-msgid "&High (slow)"
-msgstr ""
-
-#: MainWindow.cpp
-msgid "&Medium"
-msgstr ""
-
-#: MainWindow.cpp
-msgid "&Low (fast)"
-msgstr ""
-
-#: MainWindow.cpp
 msgid "&Fullscreen"
 msgstr ""
 
 #: MainWindow.cpp
 msgid "&Graphic packs"
-msgstr ""
-
-#: MainWindow.cpp
-msgid "&GPU buffer cache accuracy"
 msgstr ""
 
 #: MainWindow.cpp
@@ -1561,26 +1619,6 @@ msgid "&Tools"
 msgstr ""
 
 #: MainWindow.cpp
-msgid "&Single-core interpreter"
-msgstr ""
-
-#: MainWindow.cpp
-msgid "&Single-core recompiler (fast)"
-msgstr ""
-
-#: MainWindow.cpp
-msgid "&Dual-core recompiler (fast, unstable!)"
-msgstr ""
-
-#: MainWindow.cpp
-msgid "&Triple-core recompiler (fast, unstable!)"
-msgstr ""
-
-#: MainWindow.cpp
-msgid "&Mode"
-msgstr ""
-
-#: MainWindow.cpp
 msgid "&CPU"
 msgstr ""
 
@@ -1609,6 +1647,14 @@ msgid "&Coreinit Memory API"
 msgstr ""
 
 #: MainWindow.cpp
+msgid "&Coreinit MP API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&NN NFP"
+msgstr ""
+
+#: MainWindow.cpp
 msgid "&GX2 API"
 msgstr ""
 
@@ -1633,7 +1679,7 @@ msgid "&H264 API"
 msgstr ""
 
 #: MainWindow.cpp
-msgid "&NFP API"
+msgid "&Graphic pack patches"
 msgstr ""
 
 #: MainWindow.cpp
@@ -1717,15 +1763,15 @@ msgid "&Check for updates"
 msgstr ""
 
 #: MainWindow.cpp
+msgid "&Getting started"
+msgstr ""
+
+#: MainWindow.cpp
 msgid "&About"
 msgstr ""
 
 #: MainWindow.cpp
 msgid "&Help"
-msgstr ""
-
-#: MainWindow.cpp
-msgid "Stop emulation"
 msgstr ""
 
 #: MainWindow.cpp
@@ -1918,6 +1964,16 @@ msgstr ""
 
 #: wxCreateAccountDialog.cpp
 msgid "Account name may not be empty!"
+msgstr ""
+
+#: wxGameList.cpp
+msgid ""
+"This game entry seems to be either an update or the base game was merged "
+"with update data\n"
+"Broken game dumps cause various problems during emulation and may even stop "
+"working at all in future Cemu versions\n"
+"Please make sure the base game is intact and install updates only with the "
+"File->Install Update/DLC option"
 msgstr ""
 
 #: wxGameList.cpp
