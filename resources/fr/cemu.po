@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2019-12-20 23:23+0100\n"
-"PO-Revision-Date: 2019-12-20 23:52+0100\n"
+"POT-Creation-Date: 2020-04-04 17:38+0200\n"
+"PO-Revision-Date: 2020-04-04 18:26+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -11,6 +11,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.7\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: bootGame.cpp
+msgid "Failed to run this title because at least one of the files is damaged."
+msgstr ""
+"Impossible de démarrer ce titre car au moins un des fichiers est endommagé."
+
+#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
+msgid "Warning"
+msgstr "Attention"
+
+#: bootGame.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
+#: MainWindow.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
+#: wxCreateAccountDialog.cpp
+msgid "Error"
+msgstr "Erreur"
 
 #: bootGame.cpp
 msgid ""
@@ -26,17 +42,7 @@ msgstr ""
 "Voulez-vous le déplacer au bon endroit :\n"
 "{}"
 
-#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
-msgid "Warning"
-msgstr "Attention"
-
-#: bootGame.cpp DumpCtrl.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp
-#: helpers.cpp InputSettings.cpp MainWindow.cpp toolMemorySearcher.cpp
-#: wxCreateAccountDialog.cpp
-msgid "Error"
-msgstr "Erreur"
-
-#: BreakpointWindow.cpp
+#: BreakpointWindow.cpp GeneralSettings2.cpp
 msgid "On"
 msgstr "Actif"
 
@@ -88,7 +94,7 @@ msgid ""
 "\n"
 "Do you want to create the folder at the expected path?"
 msgstr ""
-"Votre dossier mlc01 semble manquer..\n"
+"Votre dossier mlc01 semble manquer.\n"
 "\n"
 "C'est l'endroit où Cemu enregistre les fichiers de sauvegarde, mises à jour "
 "des jeux et autres fichiers Wii U.\n"
@@ -215,8 +221,8 @@ msgstr "Aller par-dessus (F10)"
 msgid "Run (F5)"
 msgstr "Exécuter (F5)"
 
-#: DebuggerWindow2.cpp
-msgid "E&xit"
+#: DebuggerWindow2.cpp MainWindow.cpp
+msgid "&Exit"
 msgstr "&Quitter"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
@@ -343,15 +349,15 @@ msgstr "Entrez une adresse cible."
 msgid "GoTo address"
 msgstr "GoTo adresse"
 
-#: DownloadGraphicPacksWindow.cpp GraphicPacksWindow2.cpp
-msgid "Graphic packs"
-msgstr "Packs graphiques"
-
 #: DownloadGraphicPacksWindow.cpp
 msgid "Graphic packs cannot be updated while a game is running."
 msgstr ""
 "Les packs graphiques ne peuvent être mis à jour pendant que le jeu est en "
 "cours d'exécution."
+
+#: DownloadGraphicPacksWindow.cpp GraphicPacksWindow2.cpp
+msgid "Graphic packs"
+msgstr "Packs graphiques"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Failed to connect to server"
@@ -472,38 +478,6 @@ msgid ""
 msgstr ""
 "Améliore la précision de l'accès mémoire du CPU vers GPU au prix d'une "
 "performance réduire. Requis pour certains jeux."
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "Precompiled shaders"
-msgstr "Shaders précompilés"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "auto"
-msgstr "auto"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "enable"
-msgstr "activé"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "disable"
-msgstr "désactivé"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid ""
-"Precompiled shaders can speed up the load time on the shader loading "
-"screen.\n"
-"Auto will enable it for AMD/Intel but disable it for NVIDIA GPUs as a "
-"workaround for a driver bug.\n"
-"\n"
-"Recommended: Auto"
-msgstr ""
-"Les shaders précompilés peuvent accélérer le temps de chargement lors de "
-"l'écran de chargement des shaders.\n"
-"Auto va les activer pour les GPU AMD et Intel mais les désactivera pour les "
-"GPU NVIDIA pour contourner un bug dans le driver.\n"
-"\n"
-"Recommandé : Auto"
 
 #: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
@@ -660,6 +634,32 @@ msgid "Info"
 msgstr "Info"
 
 #: GeneralSettings2.cpp
+msgid "Crash dump"
+msgstr "Vidage sur incident (crash dump)"
+
+#: GeneralSettings2.cpp
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: GeneralSettings2.cpp
+msgid "Lite"
+msgstr "Partiel"
+
+#: GeneralSettings2.cpp
+msgid "Full"
+msgstr "Complet"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Creates a dump when Cemu crashes\n"
+"Only enable on demand!\n"
+"The Full option will create a big dump with the memory included"
+msgstr ""
+"Effectue un vidage (dump) lorsque Cemu a planté\n"
+"Ne l'activez que si on vous le demande !\n"
+"L'option Complet créera un vidage entier, mémoire incluse."
+
+#: GeneralSettings2.cpp
 msgid "General settings"
 msgstr "Paramètres généraux"
 
@@ -683,11 +683,11 @@ msgstr "Anglais"
 msgid ""
 "Changes the interface language of Cemu\n"
 "Available languages are stored in the translation directory\n"
-"A restard will be required after changing the language"
+"A restart will be required after changing the language"
 msgstr ""
 "Change la langue de l'interface de Cemu\n"
-"Les langues disponibles sont enregistrées dans le dossier 'resources'\n"
-"Un redémarrage est requis pour appliquer le changement."
+"Les langues disponibles sont situées dans le répertoire de traduction\n"
+"Un redémarrage sera nécessaire pour appliquer les changements."
 
 #: GeneralSettings2.cpp
 msgid "Remember main window position"
@@ -826,6 +826,38 @@ msgid "Select the used graphic device"
 msgstr "Sélectionnez la carte graphique à utiliser"
 
 #: GeneralSettings2.cpp
+msgid "Precompiled shaders"
+msgstr "Shaders précompilés"
+
+#: GeneralSettings2.cpp
+msgid "auto"
+msgstr "auto"
+
+#: GeneralSettings2.cpp
+msgid "enable"
+msgstr "activé"
+
+#: GeneralSettings2.cpp
+msgid "disable"
+msgstr "désactivé"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Precompiled shaders can speed up the load time on the shader loading "
+"screen.\n"
+"Auto will enable it for AMD/Intel but disable it for NVIDIA GPUs as a "
+"workaround for a driver bug.\n"
+"\n"
+"Recommended: Auto"
+msgstr ""
+"Les shaders précompilés peuvent accélérer le temps de chargement lors de "
+"l'écran de chargement des shaders.\n"
+"Auto va les activer pour les GPU AMD et Intel mais les désactivera pour les "
+"GPU NVIDIA pour contourner un bug dans le driver.\n"
+"\n"
+"Recommandé : Auto"
+
+#: GeneralSettings2.cpp
 msgid "VSync"
 msgstr "Synchro verticale"
 
@@ -866,7 +898,7 @@ msgstr "Au plus proche"
 
 #: GeneralSettings2.cpp
 msgid "Upscale filter"
-msgstr "Filtre d'upscaling"
+msgstr "Filtre d'agrandissement (upscale)"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -878,7 +910,7 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "Downscale filter"
-msgstr "Filtre de downscale"
+msgstr "Filtre de rétrécissement (downscale)"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -906,10 +938,6 @@ msgid ""
 msgstr ""
 "Contrôle le rapport hauteur/largeur de sortie lorsqu'il ne correspond pas à "
 "celui du jeu"
-
-#: GeneralSettings2.cpp
-msgid "Disabled"
-msgstr "Désactivé"
 
 #: GeneralSettings2.cpp
 msgid "Top left"
@@ -1021,6 +1049,14 @@ msgid "This option requires Win8.1+"
 msgstr "Cette option nécessite Windows 8.1 ou plus récent"
 
 #: GeneralSettings2.cpp
+msgid "Debug"
+msgstr "Débug"
+
+#: GeneralSettings2.cpp
+msgid "Displays internal debug information (Vulkan only)"
+msgstr "Affiche les informations de débogage internes (pour Vulkan uniquement)"
+
+#: GeneralSettings2.cpp
 msgid "Notifications"
 msgstr "Messages"
 
@@ -1067,7 +1103,7 @@ msgstr "Liste d'amis"
 
 #: GeneralSettings2.cpp
 msgid "Shows friend list related data if online"
-msgstr "Affiche les infos associées à la liste d'amis si en ligne"
+msgstr "Si en ligne, affiche les infos associées à la liste d'amis"
 
 #: GeneralSettings2.cpp
 msgid "Graphics"
@@ -1150,7 +1186,7 @@ msgid ""
 "Only proceed if you are willing to risk losing online access with your Wii U "
 "and/or NNID."
 msgstr ""
-"Soyez conscients que le mode en ligne vous connecte aux serveurs OFFICIELS "
+"Soyez conscients que le mode en ligne vous connecte aux serveurs OFFICIELS\n"
 "et qu'il y a par conséquent un risque d'être banni.\n"
 "Continuez uniquement si vous voulez prendre le risque de perdre votre accès "
 "en ligne\n"
@@ -1230,6 +1266,18 @@ msgid "Confirmation"
 msgstr "Confirmation"
 
 #: GeneralSettings2.cpp
+msgid "Off"
+msgstr "Aucune"
+
+#: GeneralSettings2.cpp
+msgid "Double buffering"
+msgstr "Double tampon"
+
+#: GeneralSettings2.cpp
+msgid "Triple buffering"
+msgstr "Triple tampon"
+
+#: GeneralSettings2.cpp
 msgid "You have to restart the game in order to apply the new settings."
 msgstr "Vous devez redémarrer le jeu pour appliquer les nouveaux réglages."
 
@@ -1241,6 +1289,14 @@ msgstr "Information"
 msgid "Select a directory containing games."
 msgstr "Sélectionner un dossier contenant des jeux."
 
+#: GeneralSettings2.cpp
+msgid "Online Status"
+msgstr "Statut en ligne"
+
+#: GettingStartedDialog.cpp
+msgid "Getting started"
+msgstr "Pour commencer"
+
 #: gpu7ShaderCache.cpp
 msgid ""
 "Outdated shader cache\n"
@@ -1248,23 +1304,25 @@ msgid ""
 "The stored shader cache for this game was created with a Cemu version prior "
 "to 1.16.0.\n"
 "\n"
-"There are no downsides to reusing an existing cache but it may contain bloat "
-"that is no longer used by current versions of Cemu.\n"
+"There are no significant downsides to reusing an existing cache but it may "
+"contain bloat that is no longer used by current versions of Cemu.\n"
 "\n"
 "It is highly recommended to start a new cache. Note that a new cache means "
-"that you will experience stutter during the first minutes of gameplay."
+"that you will experience additional stutter during the first minutes of "
+"gameplay."
 msgstr ""
-"Cache de shaders périmé.\n"
+"Cache de shaders périmé\n"
 "\n"
-"Le cache enregistré pour ce jeu a été créé avec une version de Cemu "
-"antérieure à la 1.16.0.\n"
+"Le cache de shaders enregistré pour ce jeu a été créé avec une version de "
+"Cemu antérieure à 1.16.0.\n"
 "\n"
-"Il n'y a aucun inconvénient à réutiliser les caches existants, mais ils "
-"peuvent contenir des informations qui ne sont plus utilisées par les "
+"Il n'y a pas d'inconvénient particulier à réutiliser un cache existant, mais "
+"il peut contenir des informations qui ne sont plus utilisées par les "
 "versions actuelles de Cemu.\n"
 "\n"
-"Il est fortement recommandé de créer un nouveau cache. Cela aura pour "
-"conséquence d'afficher des saccades pendant les premières minutes du jeu."
+"Il est fortement conseillé de créer un nouveau cache. Notez que cela "
+"provoquera quelques saccades supplémentaires pendant les premières minutes "
+"de jeu."
 
 #: gpu7ShaderCache.cpp
 msgid "Shader cache migration"
@@ -1291,10 +1349,6 @@ msgid "Graphic pack"
 msgstr "Packs graphiques"
 
 #: GraphicPacksWindow2.cpp
-msgid "Active preset"
-msgstr "Réglage actif"
-
-#: GraphicPacksWindow2.cpp
 msgid "Description"
 msgstr "Description"
 
@@ -1305,6 +1359,10 @@ msgstr "Contrôle"
 #: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
 msgstr "Télécharger les derniers packs graphiques de la communauté"
+
+#: GraphicPacksWindow2.cpp
+msgid "Active preset"
+msgstr "Réglage actif"
 
 #: GraphicPacksWindow2.cpp
 msgid "This graphic pack has no description"
@@ -1370,6 +1428,10 @@ msgid "Input Settings"
 msgstr "Paramètres des manettes"
 
 #: InputSettings.cpp
+msgid "Controller {}"
+msgstr "Manette {}"
+
+#: InputSettings.cpp
 msgid "Couldn't save settings for controller {0}"
 msgstr "Impossible de sauvegarder les réglages pour la manette {0}"
 
@@ -1392,6 +1454,10 @@ msgstr "Émuler la manette"
 #: InputSettings.cpp
 msgid "Controller API:"
 msgstr "API pour la manette :"
+
+#: InputSettings.cpp
+msgid "Settings"
+msgstr "Réglages"
 
 #: InputSettings.cpp
 msgid "Controller:"
@@ -1457,8 +1523,28 @@ msgid "Couldn't save the profile!"
 msgstr "Impossible de sauvegarder le profil !"
 
 #: InputSettings.cpp
+msgid "DSU client settings"
+msgstr "Réglages du client DSU"
+
+#: InputSettings.cpp
+msgid "IP"
+msgstr "IP"
+
+#: InputSettings.cpp
+msgid "Port"
+msgstr "Port"
+
+#: InputSettings.cpp
+msgid "The entered port must be between 1 and 65535"
+msgstr "Le port indiqué doit être compris entre 1 et 65535"
+
+#: InputSettings.cpp
 msgid "Searching for wiimotes..."
 msgstr "Recherche de Wiimotes..."
+
+#: InputSettings.cpp
+msgid "Searching for controllers..."
+msgstr "Recherche de manettes..."
 
 #: LoggingWindow.cpp
 msgid "Logging window"
@@ -1467,6 +1553,14 @@ msgstr "Fenêtre de journalisation"
 #: LoggingWindow.cpp
 msgid "Filter messages"
 msgstr "Filtrer les messages"
+
+#: MainWindow.cpp
+msgid "Cannot open file"
+msgstr "Impossible d'ouvrir le fichier"
+
+#: MainWindow.cpp
+msgid "Not a valid NFC NTAG215 file"
+msgstr "Ceci n'est pas un fichier NFC NTAG215 valide"
 
 #: MainWindow.cpp
 msgid "Update installed!"
@@ -1499,14 +1593,6 @@ msgstr "Ouvrir le fichier à lancer"
 #: MainWindow.cpp
 msgid "Open file to load"
 msgstr "Ouvrir le fichier à charger"
-
-#: MainWindow.cpp
-msgid "Cannot open file"
-msgstr "Impossible d'ouvrir le fichier"
-
-#: MainWindow.cpp
-msgid "Not a valid NFC NTAG215 file"
-msgstr "Ceci n'est pas un fichier NFC NTAG215 valide"
 
 #: MainWindow.cpp
 msgid "Cemu must be restarted to apply the selected UI language."
@@ -1553,8 +1639,8 @@ msgid "&Install game update or DLC"
 msgstr "&Installer une mise à jour ou un DLC d'un jeu"
 
 #: MainWindow.cpp
-msgid "&Exit"
-msgstr "&Quitter"
+msgid "End emulation"
+msgstr "Arrêter l'émulation"
 
 #: MainWindow.cpp
 msgid "&Auto"
@@ -1633,28 +1719,12 @@ msgid "&Taiwanese"
 msgstr "&Taiwanais"
 
 #: MainWindow.cpp
-msgid "&High (slow)"
-msgstr "&Élevée (lent)"
-
-#: MainWindow.cpp
-msgid "&Medium"
-msgstr "&Moyenne"
-
-#: MainWindow.cpp
-msgid "&Low (fast)"
-msgstr "&Faible (rapide)"
-
-#: MainWindow.cpp
 msgid "&Fullscreen"
 msgstr "&Plein écran"
 
 #: MainWindow.cpp
 msgid "&Graphic packs"
 msgstr "Packs &graphiques"
-
-#: MainWindow.cpp
-msgid "&GPU buffer cache accuracy"
-msgstr "Précision du &cache du GPU"
 
 #: MainWindow.cpp
 msgid "&Separate GamePad view"
@@ -1689,26 +1759,6 @@ msgid "&Tools"
 msgstr "&Outils"
 
 #: MainWindow.cpp
-msgid "&Single-core interpreter"
-msgstr "&Interpréteur mono-cœur"
-
-#: MainWindow.cpp
-msgid "&Single-core recompiler (fast)"
-msgstr "&Recompilateur mono-cœur (rapide)"
-
-#: MainWindow.cpp
-msgid "&Dual-core recompiler (fast, unstable!)"
-msgstr "Recompilateur &double-cœur (rapide, instable !)"
-
-#: MainWindow.cpp
-msgid "&Triple-core recompiler (fast, unstable!)"
-msgstr "Recompilateur &triple-cœur (rapide, instable !)"
-
-#: MainWindow.cpp
-msgid "&Mode"
-msgstr "&Mode"
-
-#: MainWindow.cpp
 msgid "&CPU"
 msgstr "&CPU"
 
@@ -1737,6 +1787,14 @@ msgid "&Coreinit Memory API"
 msgstr "API &mémoire Coreinit"
 
 #: MainWindow.cpp
+msgid "&Coreinit MP API"
+msgstr "API &Coreinit MP"
+
+#: MainWindow.cpp
+msgid "&NN NFP"
+msgstr "&NN NFP"
+
+#: MainWindow.cpp
 msgid "&GX2 API"
 msgstr "API &GX2"
 
@@ -1761,8 +1819,8 @@ msgid "&H264 API"
 msgstr "API &H264"
 
 #: MainWindow.cpp
-msgid "&NFP API"
-msgstr "&API NFP"
+msgid "&Graphic pack patches"
+msgstr "Pack de patchs &graphiques"
 
 #: MainWindow.cpp
 msgid "&Texture cache warnings"
@@ -1845,16 +1903,16 @@ msgid "&Check for updates"
 msgstr "&Chercher des mises à jour"
 
 #: MainWindow.cpp
+msgid "&Getting started"
+msgstr "&Pour commencer"
+
+#: MainWindow.cpp
 msgid "&About"
 msgstr "&À propos"
 
 #: MainWindow.cpp
 msgid "&Help"
 msgstr "&Aide"
-
-#: MainWindow.cpp
-msgid "Stop emulation"
-msgstr "Arrêter l'émulation"
 
 #: MainWindow.cpp
 msgid "otp.bin could not be found"
@@ -2016,6 +2074,14 @@ msgstr "&Supprimer l'entrée"
 msgid "Results ({0})"
 msgstr "Résultats ({0})"
 
+#: VulkanCanvas.cpp
+msgid ""
+"Error when initializing Vulkan renderer:\n"
+"{}"
+msgstr ""
+"Erreur lors de l'initialisation du moteur Vulkan :\n"
+"{}"
+
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
 msgstr "Créer un nouveau compte"
@@ -2048,6 +2114,24 @@ msgstr "Le persistent ID {:x} est déjà utilisé par le compte {} !"
 #: wxCreateAccountDialog.cpp
 msgid "Account name may not be empty!"
 msgstr "Le nom du compte ne peut être vide !"
+
+#: wxGameList.cpp
+msgid ""
+"This game entry seems to be either an update or the base game was merged "
+"with update data\n"
+"Broken game dumps cause various problems during emulation and may even stop "
+"working at all in future Cemu versions\n"
+"Please make sure the base game is intact and install updates only with the "
+"File->Install Update/DLC option"
+msgstr ""
+"Ce jeu semble être une mise à jour, ou le jeu de base avec la mise à jour "
+"intégrée.\n"
+"Les dumps corrompus de jeux peuvent poser divers problèmes pendant "
+"l'émulation\n"
+"et peuvent même cesser de fonctionner dans de futures versions de Cemu.\n"
+"Assurez-vous que la base du jeu est intacte, et installez les mises à jour "
+"en passant uniquement\n"
+"par l'option Fichier -> Installer une mise à jour ou un DLC d'un jeu"
 
 #: wxGameList.cpp
 msgid "You can configure game paths in the general settings."
@@ -2157,6 +2241,76 @@ msgstr "Afficher le &temps de jeu"
 #: wxGameList.cpp
 msgid "Show &last played"
 msgstr "Afficher le &dernier démarrage"
+
+#~ msgid "E&xit"
+#~ msgstr "&Quitter"
+
+#~ msgid ""
+#~ "Changes the interface language of Cemu\n"
+#~ "Available languages are stored in the translation directory\n"
+#~ "A restard will be required after changing the language"
+#~ msgstr ""
+#~ "Change la langue de l'interface de Cemu\n"
+#~ "Les langues disponibles sont enregistrées dans le dossier 'resources'\n"
+#~ "Un redémarrage est requis pour appliquer le changement."
+
+#~ msgid ""
+#~ "Outdated shader cache\n"
+#~ "\n"
+#~ "The stored shader cache for this game was created with a Cemu version "
+#~ "prior to 1.16.0.\n"
+#~ "\n"
+#~ "There are no downsides to reusing an existing cache but it may contain "
+#~ "bloat that is no longer used by current versions of Cemu.\n"
+#~ "\n"
+#~ "It is highly recommended to start a new cache. Note that a new cache "
+#~ "means that you will experience stutter during the first minutes of "
+#~ "gameplay."
+#~ msgstr ""
+#~ "Cache de shaders périmé.\n"
+#~ "\n"
+#~ "Le cache enregistré pour ce jeu a été créé avec une version de Cemu "
+#~ "antérieure à la 1.16.0.\n"
+#~ "\n"
+#~ "Il n'y a aucun inconvénient à réutiliser les caches existants, mais ils "
+#~ "peuvent contenir des informations qui ne sont plus utilisées par les "
+#~ "versions actuelles de Cemu.\n"
+#~ "\n"
+#~ "Il est fortement recommandé de créer un nouveau cache. Cela aura pour "
+#~ "conséquence d'afficher des saccades pendant les premières minutes du jeu."
+
+#~ msgid "&High (slow)"
+#~ msgstr "&Élevée (lent)"
+
+#~ msgid "&Medium"
+#~ msgstr "&Moyenne"
+
+#~ msgid "&Low (fast)"
+#~ msgstr "&Faible (rapide)"
+
+#~ msgid "&GPU buffer cache accuracy"
+#~ msgstr "Précision du &cache du GPU"
+
+#~ msgid "&Single-core interpreter"
+#~ msgstr "&Interpréteur mono-cœur"
+
+#~ msgid "&Single-core recompiler (fast)"
+#~ msgstr "&Recompilateur mono-cœur (rapide)"
+
+#~ msgid "&Dual-core recompiler (fast, unstable!)"
+#~ msgstr "Recompilateur &double-cœur (rapide, instable !)"
+
+#~ msgid "&Triple-core recompiler (fast, unstable!)"
+#~ msgstr "Recompilateur &triple-cœur (rapide, instable !)"
+
+#~ msgid "&Mode"
+#~ msgstr "&Mode"
+
+#~ msgid "&NFP API"
+#~ msgstr "&API NFP"
+
+#~ msgid "Stop emulation"
+#~ msgstr "Arrêter l'émulation"
 
 #~ msgid "Overwrite game profiles"
 #~ msgstr "Écraser les profils de jeu"
