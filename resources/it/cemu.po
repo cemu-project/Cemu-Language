@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-04-03 04:24+0200\n"
-"PO-Revision-Date: 2020-04-04 12:25+0200\n"
+"POT-Creation-Date: 2020-04-04 20:16+0200\n"
+"PO-Revision-Date: 2020-04-05 15:44+0200\n"
 "Last-Translator: Fs00 <francescosaltori@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -356,7 +356,8 @@ msgid "Graphic packs cannot be updated while a game is running."
 msgstr ""
 "I pack grafici non possono essere aggiornati mentre un gioco è in esecuzione."
 
-#: DownloadGraphicPacksWindow.cpp GraphicPacksWindow2.cpp
+#: DownloadGraphicPacksWindow.cpp GettingStartedDialog.cpp
+#: GraphicPacksWindow2.cpp
 msgid "Graphic packs"
 msgstr "Pack grafici"
 
@@ -741,9 +742,9 @@ msgstr ""
 "Mostra la barra dei menù quando Cemu è in modalità schermo intero e il "
 "cursore viene spostato nella parte alta dello schermo"
 
-#: GeneralSettings2.cpp
+#: GeneralSettings2.cpp GettingStartedDialog.cpp
 msgid "Automatically check for updates"
-msgstr "Controllo automatico degli aggiornamenti"
+msgstr "Controlla automaticamente la presenza di aggiornamenti"
 
 #: GeneralSettings2.cpp
 msgid "Automatically checks for new cemu versions on startup"
@@ -781,8 +782,8 @@ msgid ""
 "updates and dlc data"
 msgstr ""
 "Seleziona un percorso della cartella MLC personalizzato\n"
-"Tale cartella viene utilizzata per memorizzare file relativi al sistema Wii "
-"U quali salvataggi, aggiornamenti dei giochi e dati dei DLC"
+"Tale cartella viene utilizzata per memorizzare i file della Wii U emulata "
+"quali salvataggi, aggiornamenti dei giochi e dati dei DLC"
 
 #: GeneralSettings2.cpp
 msgid "Game Paths"
@@ -1300,6 +1301,147 @@ msgid "Online Status"
 msgstr "Stato modalità online"
 
 #: GettingStartedDialog.cpp
+msgid ""
+"It looks like you're starting Cemu for the first time.\n"
+"This quick setup assistant will help you get the best experience"
+msgstr ""
+"Sembra che tu stia avviando Cemu per la prima volta.\n"
+"Questa guida rapida ti aiuterà a configurare l'emulatore per ottenere la "
+"migliore esperienza possibile."
+
+#: GettingStartedDialog.cpp
+msgid "mlc01 path"
+msgstr "Cartella mlc01"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"The mlc path is the root folder of the emulated Wii U internal flash "
+"storage. It contains all your saves, installed updates and DLCs.\n"
+"It is strongly recommend that you create a dedicated folder for it (example: "
+"C:\\wiiu\\mlc\\) \n"
+"If left empty, the mlc folder will be created inside the Cemu folder."
+msgstr ""
+"La cartella MLC corrisponde alla cartella radice della memoria interna della "
+"Wii U emulata. Contiene tutti i tuoi salvataggi, gli aggiornamenti "
+"installati e i DLC.\n"
+"È fortemente consigliato impostare un percorso personalizzato per tale "
+"cartella (esempio: C:\\wiiu\\mlc).\n"
+"Se lasci vuoto il campo sottostante, la cartella MLC verrà creata "
+"all'interno della cartella di Cemu."
+
+#: GettingStartedDialog.cpp
+msgid "Custom mlc01 path"
+msgstr "Cartella mlc01 personalizzata"
+
+#: GettingStartedDialog.cpp
+msgid "Select a folder"
+msgstr "Seleziona una cartella"
+
+#: GettingStartedDialog.cpp
+msgid "(optional)"
+msgstr "(opzionale)"
+
+#: GettingStartedDialog.cpp
+msgid "Game paths"
+msgstr "Percorsi di ricerca dei giochi"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"The game path is scanned by Cemu to locate your games. We recommend creating "
+"a dedicated directory in which\n"
+"you place all your Wii U games. (example: C:\\wiiu\\games\\)\n"
+"\n"
+"You can also set additional paths in the general settings of Cemu."
+msgstr ""
+"Cemu effettua una ricerca all'interno della cartella dei giochi per "
+"individuare i titoli installati.\n"
+"È consigliato creare appositamente tale cartella per contenere tutti i "
+"giochi Wii U (esempio: C:\\wiiu\\games).\n"
+"Puoi anche impostare ulteriori cartelle nelle impostazioni generali di Cemu."
+
+#: GettingStartedDialog.cpp
+msgid "Game path"
+msgstr "Cartella dei giochi"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"Graphic packs improve games by offering the possibility to change "
+"resolution, tweak FPS or add other visual or gameplay modifications.\n"
+"Download the community graphic packs to get started.\n"
+msgstr ""
+"I pack grafici migliorano l'esperienza di gioco offrendo la possibilità di "
+"cambiare la risoluzione, migliorare le prestazioni o applicare modifiche "
+"visuali o al gameplay.\n"
+"Scarica i pack grafici creati dalla community per iniziare.\n"
+
+#: GettingStartedDialog.cpp
+msgid "Download community graphic packs"
+msgstr "Scarica pack grafici della community"
+
+#: GettingStartedDialog.cpp
+msgid "Input settings"
+msgstr "Impostazioni di input"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"You can configure one controller for each player.\n"
+"We advise you to always use GamePad as emulated input for the first player, "
+"since many games expect the GamePad to be present. It is also required for "
+"touch functionality.\n"
+"The default global hotkeys are:\n"
+"CTRL - show pad screen\n"
+"CTRL + TAB - toggle pad screen\n"
+"ALT + ENTER - toggle fullscreen\n"
+"ESC - leave fullscreen\n"
+"\n"
+"If you're having trouble configuring your controller, make sure to have it "
+"in idle state and press calibrate.\n"
+"Also don't set the axis deadzone too low."
+msgstr ""
+"Puoi configurare un controller per ciascun giocatore.\n"
+"È consigliato utilizzare sempre il GamePad come controller emulato per il "
+"primo giocatore, dato che molti giochi si aspettano che sia sempre "
+"collegato. È inoltre richiesto per emulare il tocco sullo schermo.\n"
+"\n"
+"Le scorciatoie da tastiera predefinite sono le seguenti:\n"
+"CTRL (tieni premuto) - mostra lo schermo del GamePad\n"
+"CTRL + TAB - passa dallo schermo della TV a quello del GamePad e viceversa\n"
+"ALT + INVIO - entra/esci dalla modalità schermo intero\n"
+"ESC - esci dalla modalità schermo intero\n"
+"\n"
+"Se riscontri problemi nel configurare il controller, assicurati che sia "
+"inattivo e premi il tasto Calibra.\n"
+"Inoltre, non impostare la zona morta delle levette su valori troppo bassi."
+
+#: GettingStartedDialog.cpp
+msgid "Configure input"
+msgstr "Configura controller"
+
+#: GettingStartedDialog.cpp
+msgid "Additional options"
+msgstr "Opzioni aggiuntive"
+
+#: GettingStartedDialog.cpp
+msgid "Start games with fullscreen"
+msgstr "Avvia i giochi in modalità schermo intero"
+
+#: GettingStartedDialog.cpp
+msgid "Open separate pad screen"
+msgstr "Apri una finestra separata per lo schermo del gamepad"
+
+#: GettingStartedDialog.cpp
+msgid "Don't show this again"
+msgstr "Non mostrare più questa finestra all'avvio"
+
+#: GettingStartedDialog.cpp
+msgid "Previous"
+msgstr "Indietro"
+
+#: GettingStartedDialog.cpp
+msgid "Close"
+msgstr "Chiudi"
+
+#: GettingStartedDialog.cpp
 msgid "Getting started"
 msgstr "Guida introduttiva"
 
@@ -1403,7 +1545,7 @@ msgstr "Levetta destra"
 #: InputPanelClassic.cpp InputPanelGamepad.cpp InputPanelPro.cpp
 #: InputPanelWiimote.cpp
 msgid "D-pad"
-msgstr "D-pad"
+msgstr "Tasti direzionali"
 
 #: InputPanelGamepad.cpp
 msgid "blow mic"
@@ -2383,9 +2525,6 @@ msgstr "Mostra &ultima partita"
 #~ msgid "Language:"
 #~ msgstr "Lingua:"
 
-#~ msgid "Game paths:"
-#~ msgstr "Percorsi che contengono giochi:"
-
 #~ msgid "&Add game path"
 #~ msgstr "&Aggiungi percorso"
 
@@ -2394,9 +2533,6 @@ msgstr "Mostra &ultima partita"
 
 #~ msgid "Channels:"
 #~ msgstr "Canali:"
-
-#~ msgid "Configure paths"
-#~ msgstr "Configura percorsi"
 
 #~ msgid "up"
 #~ msgstr "Su"
