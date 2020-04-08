@@ -1,16 +1,31 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2019-12-20 16:30+0100\n"
-"PO-Revision-Date: 2019-12-24 13:38+0100\n"
+"POT-Creation-Date: 2020-04-04 20:16+0200\n"
+"PO-Revision-Date: 2020-04-08 10:07+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bootGame.cpp
+msgid "Failed to run this title because at least one of the files is damaged."
+msgstr "A futtatás sikertelen, mert egy vagy több fájl sérült."
+
+#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+#: bootGame.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
+#: MainWindow.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
+#: wxCreateAccountDialog.cpp
+msgid "Error"
+msgstr "Hiba"
 
 #: bootGame.cpp
 msgid ""
@@ -26,17 +41,7 @@ msgstr ""
 "Szeretnéd áthelyezni a helyes könyvtárba:\n"
 "{}"
 
-#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
-msgid "Warning"
-msgstr "Figyelmeztetés"
-
-#: bootGame.cpp DumpCtrl.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp
-#: helpers.cpp InputSettings.cpp MainWindow.cpp toolMemorySearcher.cpp
-#: wxCreateAccountDialog.cpp
-msgid "Error"
-msgstr "Hiba"
-
-#: BreakpointWindow.cpp
+#: BreakpointWindow.cpp GeneralSettings2.cpp
 msgid "On"
 msgstr "Aktív"
 
@@ -213,8 +218,8 @@ msgstr "Átlépés (F10)"
 msgid "Run (F5)"
 msgstr "Futtatás (F5)"
 
-#: DebuggerWindow2.cpp
-msgid "E&xit"
+#: DebuggerWindow2.cpp MainWindow.cpp
+msgid "&Exit"
 msgstr "&Kilépés"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
@@ -341,13 +346,14 @@ msgstr "Írj be egy célcímet."
 msgid "GoTo address"
 msgstr "Ugrás címhez"
 
-#: DownloadGraphicPacksWindow.cpp GraphicPacksWindow2.cpp
-msgid "Graphic packs"
-msgstr "Grafikus csomagok"
-
 #: DownloadGraphicPacksWindow.cpp
 msgid "Graphic packs cannot be updated while a game is running."
 msgstr "Nem frissíthetsz grafikus csomagokat, miközben egy játék fut."
+
+#: DownloadGraphicPacksWindow.cpp GettingStartedDialog.cpp
+#: GraphicPacksWindow2.cpp
+msgid "Graphic packs"
+msgstr "Grafikus csomagok"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Failed to connect to server"
@@ -468,38 +474,6 @@ msgid ""
 msgstr ""
 "Segít a CPU-GPU memóriahozzáférés emulációs pontosságán a teljesítmény "
 "feláldozásával. Néhány játékhoz kötelező."
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "Precompiled shaders"
-msgstr "Előre összeállított shaderek"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "auto"
-msgstr "automatikus"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "enable"
-msgstr "engedélyezés"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "disable"
-msgstr "letiltás"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid ""
-"Precompiled shaders can speed up the load time on the shader loading "
-"screen.\n"
-"Auto will enable it for AMD/Intel but disable it for NVIDIA GPUs as a "
-"workaround for a driver bug.\n"
-"\n"
-"Recommended: Auto"
-msgstr ""
-"Az előre összeállított shaderek felgyorsíthatják a betöltés idejét a "
-"shaderbetöltési képernyőn.\n"
-"Az automatikus üzemmód engedélyezi AMD/Intel GPU-k esetén, viszont letiltja "
-"az NVIDIA GPU-knál egy illesztőprogramhiba kiküszöbölése érdekében.\n"
-"\n"
-"Javasolt érték: Automatikus"
 
 #: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
@@ -649,6 +623,33 @@ msgid "Info"
 msgstr "Információ"
 
 #: GeneralSettings2.cpp
+msgid "Crash dump"
+msgstr "Összeomlások naplózása"
+
+#: GeneralSettings2.cpp
+msgid "Disabled"
+msgstr "Letiltva"
+
+#: GeneralSettings2.cpp
+msgid "Lite"
+msgstr "Átlagos"
+
+#: GeneralSettings2.cpp
+msgid "Full"
+msgstr "Részletes"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Creates a dump when Cemu crashes\n"
+"Only enable on demand!\n"
+"The Full option will create a big dump with the memory included"
+msgstr ""
+"A Cemu összeomlásainak naplózása\n"
+"Csak akkor engedélyezd, ha kell!\n"
+"A Részletes opció nagy naplófájlt fog eredményezni és a memóriát is "
+"tartalmazza"
+
+#: GeneralSettings2.cpp
 msgid "General settings"
 msgstr "Általános beállítások"
 
@@ -672,7 +673,7 @@ msgstr "Angol"
 msgid ""
 "Changes the interface language of Cemu\n"
 "Available languages are stored in the translation directory\n"
-"A restard will be required after changing the language"
+"A restart will be required after changing the language"
 msgstr ""
 "A Cemu kezelőfelületének nyelvén változtat\n"
 "A választható nyelvek a nyelvi könyvtárban találhatóak\n"
@@ -720,7 +721,7 @@ msgstr ""
 "Megjeleníti a menüsort, ha teljes képernyős módban az egérmutatót feltolod a "
 "képernyő tetejére"
 
-#: GeneralSettings2.cpp
+#: GeneralSettings2.cpp GettingStartedDialog.cpp
 msgid "Automatically check for updates"
 msgstr "Frissítések automatikus ellenőrzése"
 
@@ -812,6 +813,38 @@ msgid "Select the used graphic device"
 msgstr "Válaszd ki a használni kívánt grafikus eszközt"
 
 #: GeneralSettings2.cpp
+msgid "Precompiled shaders"
+msgstr "Előre összeállított shaderek"
+
+#: GeneralSettings2.cpp
+msgid "auto"
+msgstr "automatikus"
+
+#: GeneralSettings2.cpp
+msgid "enable"
+msgstr "engedélyezés"
+
+#: GeneralSettings2.cpp
+msgid "disable"
+msgstr "letiltás"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Precompiled shaders can speed up the load time on the shader loading "
+"screen.\n"
+"Auto will enable it for AMD/Intel but disable it for NVIDIA GPUs as a "
+"workaround for a driver bug.\n"
+"\n"
+"Recommended: Auto"
+msgstr ""
+"Az előre összeállított shaderek felgyorsíthatják a betöltés idejét a "
+"shaderbetöltési képernyőn.\n"
+"Az automatikus üzemmód engedélyezi AMD/Intel GPU-k esetén, viszont letiltja "
+"az NVIDIA GPU-knál egy illesztőprogramhiba kiküszöbölése érdekében.\n"
+"\n"
+"Javasolt érték: Automatikus"
+
+#: GeneralSettings2.cpp
 msgid "VSync"
 msgstr "VSync"
 
@@ -890,10 +923,6 @@ msgid ""
 "Controls the output aspect ratio when it doesn't match the ratio of the game"
 msgstr ""
 "A kimeneti képarányt szabályozza, ha az nem egyezik meg a játék képarányával"
-
-#: GeneralSettings2.cpp
-msgid "Disabled"
-msgstr "Letiltva"
 
 #: GeneralSettings2.cpp
 msgid "Top left"
@@ -1004,6 +1033,14 @@ msgstr "A Cemu VRAM használata MB-ban"
 #: GeneralSettings2.cpp
 msgid "This option requires Win8.1+"
 msgstr "Ehhez a funkcióhoz Win8.1 vagy későbbi rendszer kell"
+
+#: GeneralSettings2.cpp
+msgid "Debug"
+msgstr "Debuggolás"
+
+#: GeneralSettings2.cpp
+msgid "Displays internal debug information (Vulkan only)"
+msgstr "Megjeleníti a belső debug-információt (csak Vulkan)"
 
 #: GeneralSettings2.cpp
 msgid "Notifications"
@@ -1210,6 +1247,18 @@ msgid "Confirmation"
 msgstr "Ellenőrzés"
 
 #: GeneralSettings2.cpp
+msgid "Off"
+msgstr "Ki"
+
+#: GeneralSettings2.cpp
+msgid "Double buffering"
+msgstr "Kétszeres bufferelés"
+
+#: GeneralSettings2.cpp
+msgid "Triple buffering"
+msgstr "Háromszoros bufferelés"
+
+#: GeneralSettings2.cpp
 msgid "You have to restart the game in order to apply the new settings."
 msgstr "Az új beállítások alkalmazásához újra kell indítanod a játékot."
 
@@ -1221,6 +1270,150 @@ msgstr "Információ"
 msgid "Select a directory containing games."
 msgstr "Válassz ki egy könyvtárat, ami játékokat tartalmaz."
 
+#: GeneralSettings2.cpp
+msgid "Online Status"
+msgstr "Online státusz"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"It looks like you're starting Cemu for the first time.\n"
+"This quick setup assistant will help you get the best experience"
+msgstr ""
+"Úgy tűnik, először nyitottad meg a Cemu-t.\n"
+"Ez az asszisztens segíteni fog a legjobb beállítások alkalmazásában"
+
+#: GettingStartedDialog.cpp
+msgid "mlc01 path"
+msgstr "mlc01 könyvtár"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"The mlc path is the root folder of the emulated Wii U internal flash "
+"storage. It contains all your saves, installed updates and DLCs.\n"
+"It is strongly recommend that you create a dedicated folder for it (example: "
+"C:\\wiiu\\mlc\\) \n"
+"If left empty, the mlc folder will be created inside the Cemu folder."
+msgstr ""
+"Az mlc könyvtár az emulált Wii U belső tárhelyének a gyökérmappája. Ez "
+"tartalmaz minden mentést, telepített frissítést és DLC-t.\n"
+"Erősen ajánlott, hogy külön mappát hozz létre erre a célra (pl. C:\\wiiu\\mlc"
+"\\)\n"
+"Ha ezt a mezőt üresen hagyod, az mlc könyvtár a Cemu mappájában lesz "
+"létrehozva."
+
+#: GettingStartedDialog.cpp
+msgid "Custom mlc01 path"
+msgstr "Egyéni mlc01 könyvtár"
+
+#: GettingStartedDialog.cpp
+msgid "Select a folder"
+msgstr "Válassz ki egy könyvtárat"
+
+#: GettingStartedDialog.cpp
+msgid "(optional)"
+msgstr "(nem kötelező)"
+
+#: GettingStartedDialog.cpp
+msgid "Game paths"
+msgstr "Játékok könyvtárai"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"The game path is scanned by Cemu to locate your games. We recommend creating "
+"a dedicated directory in which\n"
+"you place all your Wii U games. (example: C:\\wiiu\\games\\)\n"
+"\n"
+"You can also set additional paths in the general settings of Cemu."
+msgstr ""
+"A Cemu a játékkönyvtárban keresi a játékaidat. Javasolt külön mappát "
+"létrehozni a Wii U játékaid számára.\n"
+"(Pl. C:\\wiiu\\games\\)\n"
+"\n"
+"A Cemu általános beállításaiban egyéb könyvtárakat is megadhatsz."
+
+#: GettingStartedDialog.cpp
+msgid "Game path"
+msgstr "Játékkönyvtár"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"Graphic packs improve games by offering the possibility to change "
+"resolution, tweak FPS or add other visual or gameplay modifications.\n"
+"Download the community graphic packs to get started.\n"
+msgstr ""
+"Grafikus csomagok segítségével megváltoztathatod a játékok felbontását, FPS-"
+"ét, vagy egyéb vizuális és játékélmény-módosításokat alkalmazhatsz.\n"
+"A kezdéshez töltsd le a közösségi grafikus csomagokat.\n"
+
+#: GettingStartedDialog.cpp
+msgid "Download community graphic packs"
+msgstr "Közösségi grafikus csomagok letöltése"
+
+#: GettingStartedDialog.cpp
+msgid "Input settings"
+msgstr "Irányítási beállítások"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"You can configure one controller for each player.\n"
+"We advise you to always use GamePad as emulated input for the first player, "
+"since many games expect the GamePad to be present. It is also required for "
+"touch functionality.\n"
+"The default global hotkeys are:\n"
+"CTRL - show pad screen\n"
+"CTRL + TAB - toggle pad screen\n"
+"ALT + ENTER - toggle fullscreen\n"
+"ESC - leave fullscreen\n"
+"\n"
+"If you're having trouble configuring your controller, make sure to have it "
+"in idle state and press calibrate.\n"
+"Also don't set the axis deadzone too low."
+msgstr ""
+"Minden játékos számára külön kontrollert konfigurálhatsz.\n"
+"Az első játékosnak mindig ajánlott a GamePad-et használnia, mivel sok játék "
+"számít a GamePad jelenlétére, illetve kell az érintőképernyő emulálásához.\n"
+"Az alapértelmezett gyorsbillentyűk a következők:\n"
+"CTRL - GamePad mutatása\n"
+"CTRL + TAB - GamePad-képernyő kapcsolása\n"
+"ALT + ENTER - Teljes képernyő kapcsolása\n"
+"ESC - Kilépés a teljes képernyőből\n"
+"\n"
+"Ha problémád adódik a kontroller konfigurálásával, engedj el rajta minden "
+"gombot, majd nyomd meg a Kalibrálást.\n"
+"Ügyelj arra, hogy ne állítsd a holt zónát túl alacsonyra."
+
+#: GettingStartedDialog.cpp
+msgid "Configure input"
+msgstr "Irányítás-konfiguráció"
+
+#: GettingStartedDialog.cpp
+msgid "Additional options"
+msgstr "További beállítások"
+
+#: GettingStartedDialog.cpp
+msgid "Start games with fullscreen"
+msgstr "Játékok indítása teljes képernyős módban"
+
+#: GettingStartedDialog.cpp
+msgid "Open separate pad screen"
+msgstr "GamePad megnyitása külön ablakban"
+
+#: GettingStartedDialog.cpp
+msgid "Don't show this again"
+msgstr "Ne mutasd többet"
+
+#: GettingStartedDialog.cpp
+msgid "Previous"
+msgstr "Előző"
+
+#: GettingStartedDialog.cpp
+msgid "Close"
+msgstr "Bezárás"
+
+#: GettingStartedDialog.cpp
+msgid "Getting started"
+msgstr "Kezdés"
+
 #: gpu7ShaderCache.cpp
 msgid ""
 "Outdated shader cache\n"
@@ -1228,11 +1421,12 @@ msgid ""
 "The stored shader cache for this game was created with a Cemu version prior "
 "to 1.16.0.\n"
 "\n"
-"There are no downsides to reusing an existing cache but it may contain bloat "
-"that is no longer used by current versions of Cemu.\n"
+"There are no significant downsides to reusing an existing cache but it may "
+"contain bloat that is no longer used by current versions of Cemu.\n"
 "\n"
 "It is highly recommended to start a new cache. Note that a new cache means "
-"that you will experience stutter during the first minutes of gameplay."
+"that you will experience additional stutter during the first minutes of "
+"gameplay."
 msgstr ""
 "Elavult shader gyorsítótár\n"
 "\n"
@@ -1243,7 +1437,7 @@ msgstr ""
 "használnak.\n"
 "\n"
 "Erősen ajánlott az új gyorsítótár létrehozása. Megjegyzés: egy új "
-"gyorsítótár létrehozása a játék első néhány percében akadozást eredményez."
+"gyorsítótár létrehozása a játék első néhány percében akadozással jár."
 
 #: gpu7ShaderCache.cpp
 msgid "Shader cache migration"
@@ -1270,10 +1464,6 @@ msgid "Graphic pack"
 msgstr "Grafikus csomag"
 
 #: GraphicPacksWindow2.cpp
-msgid "Active preset"
-msgstr "Aktív beállítás"
-
-#: GraphicPacksWindow2.cpp
 msgid "Description"
 msgstr "Leírás"
 
@@ -1284,6 +1474,10 @@ msgstr "Ellenőrzés"
 #: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
 msgstr "Legújabb közösségi grafikus csomagok letöltése"
+
+#: GraphicPacksWindow2.cpp
+msgid "Active preset"
+msgstr "Aktív beállítás"
 
 #: GraphicPacksWindow2.cpp
 msgid "This graphic pack has no description"
@@ -1349,6 +1543,10 @@ msgid "Input Settings"
 msgstr "Irányítási beállítások"
 
 #: InputSettings.cpp
+msgid "Controller {}"
+msgstr "{}. kontroller"
+
+#: InputSettings.cpp
 msgid "Couldn't save settings for controller {0}"
 msgstr "A(z) {0}. kontroller beállításainak mentése sikertelen"
 
@@ -1371,6 +1569,10 @@ msgstr "Kontroller emulálása"
 #: InputSettings.cpp
 msgid "Controller API:"
 msgstr "Kontroller API:"
+
+#: InputSettings.cpp
+msgid "Settings"
+msgstr "Beállítások"
 
 #: InputSettings.cpp
 msgid "Controller:"
@@ -1435,8 +1637,28 @@ msgid "Couldn't save the profile!"
 msgstr "A profil mentése sikertelen!"
 
 #: InputSettings.cpp
+msgid "DSU client settings"
+msgstr "DSU kliens beállítások"
+
+#: InputSettings.cpp
+msgid "IP"
+msgstr "IP"
+
+#: InputSettings.cpp
+msgid "Port"
+msgstr "Port"
+
+#: InputSettings.cpp
+msgid "The entered port must be between 1 and 65535"
+msgstr "A port 1 és 65535 között kell, hogy legyen"
+
+#: InputSettings.cpp
 msgid "Searching for wiimotes..."
 msgstr "Wiimote-ok keresése folyamatban..."
+
+#: InputSettings.cpp
+msgid "Searching for controllers..."
+msgstr "Kontrollerek keresése folyamatban..."
 
 #: LoggingWindow.cpp
 msgid "Logging window"
@@ -1445,6 +1667,14 @@ msgstr "Naplóablak"
 #: LoggingWindow.cpp
 msgid "Filter messages"
 msgstr "Üzenetek szűrése"
+
+#: MainWindow.cpp
+msgid "Cannot open file"
+msgstr "Fájl megnyitása sikertelen"
+
+#: MainWindow.cpp
+msgid "Not a valid NFC NTAG215 file"
+msgstr "Ez nem egy érvényes NFC NTAG215 fájl"
 
 #: MainWindow.cpp
 msgid "Update installed!"
@@ -1477,14 +1707,6 @@ msgstr "Nyisd meg az indítani való fájlt"
 #: MainWindow.cpp
 msgid "Open file to load"
 msgstr "Nyisd meg a betölteni való fájlt"
-
-#: MainWindow.cpp
-msgid "Cannot open file"
-msgstr "Fájl megnyitása sikertelen"
-
-#: MainWindow.cpp
-msgid "Not a valid NFC NTAG215 file"
-msgstr "Ez nem egy érvényes NFC NTAG215 fájl"
 
 #: MainWindow.cpp
 msgid "Cemu must be restarted to apply the selected UI language."
@@ -1532,8 +1754,8 @@ msgid "&Install game update or DLC"
 msgstr "&Frissítés vagy DLC telepítése"
 
 #: MainWindow.cpp
-msgid "&Exit"
-msgstr "&Kilépés"
+msgid "End emulation"
+msgstr "Emuláció befejezése"
 
 #: MainWindow.cpp
 msgid "&Auto"
@@ -1612,28 +1834,12 @@ msgid "&Taiwanese"
 msgstr "&Tajvani"
 
 #: MainWindow.cpp
-msgid "&High (slow)"
-msgstr "&Magas (lassú)"
-
-#: MainWindow.cpp
-msgid "&Medium"
-msgstr "&Közepes"
-
-#: MainWindow.cpp
-msgid "&Low (fast)"
-msgstr "&Alacsony (gyors)"
-
-#: MainWindow.cpp
 msgid "&Fullscreen"
 msgstr "&Teljes képernyő"
 
 #: MainWindow.cpp
 msgid "&Graphic packs"
 msgstr "&Grafikus csomagok"
-
-#: MainWindow.cpp
-msgid "&GPU buffer cache accuracy"
-msgstr "&GPU-gyorsítótár pontossága"
 
 #: MainWindow.cpp
 msgid "&Separate GamePad view"
@@ -1668,26 +1874,6 @@ msgid "&Tools"
 msgstr "&Eszközök"
 
 #: MainWindow.cpp
-msgid "&Single-core interpreter"
-msgstr "&Egymagos interpreter"
-
-#: MainWindow.cpp
-msgid "&Single-core recompiler (fast)"
-msgstr "&Egymagos recompiler (gyors)"
-
-#: MainWindow.cpp
-msgid "&Dual-core recompiler (fast, unstable!)"
-msgstr "&Kétmagos recompiler (gyors, instabil!)"
-
-#: MainWindow.cpp
-msgid "&Triple-core recompiler (fast, unstable!)"
-msgstr "&Hárommagos recompiler (gyors, instabil!)"
-
-#: MainWindow.cpp
-msgid "&Mode"
-msgstr "&Mód"
-
-#: MainWindow.cpp
 msgid "&CPU"
 msgstr "&CPU"
 
@@ -1716,6 +1902,14 @@ msgid "&Coreinit Memory API"
 msgstr "&Coreinit memória API"
 
 #: MainWindow.cpp
+msgid "&Coreinit MP API"
+msgstr "&Coreinit MP API"
+
+#: MainWindow.cpp
+msgid "&NN NFP"
+msgstr "&NN NFP"
+
+#: MainWindow.cpp
 msgid "&GX2 API"
 msgstr "&GX2 API"
 
@@ -1740,8 +1934,8 @@ msgid "&H264 API"
 msgstr "&H264 API"
 
 #: MainWindow.cpp
-msgid "&NFP API"
-msgstr "&NFP API"
+msgid "&Graphic pack patches"
+msgstr "&Grafikus csomag-javítások"
 
 #: MainWindow.cpp
 msgid "&Texture cache warnings"
@@ -1824,16 +2018,16 @@ msgid "&Check for updates"
 msgstr "&Frissítések keresése"
 
 #: MainWindow.cpp
+msgid "&Getting started"
+msgstr "&Kezdés"
+
+#: MainWindow.cpp
 msgid "&About"
 msgstr "&Névjegy"
 
 #: MainWindow.cpp
 msgid "&Help"
 msgstr "&Súgó"
-
-#: MainWindow.cpp
-msgid "Stop emulation"
-msgstr "Emuláció megállítása"
 
 #: MainWindow.cpp
 msgid "otp.bin could not be found"
@@ -1991,6 +2185,14 @@ msgstr "&Érték eltávolítása"
 msgid "Results ({0})"
 msgstr "Találatok {{0}}"
 
+#: VulkanCanvas.cpp
+msgid ""
+"Error when initializing Vulkan renderer:\n"
+"{}"
+msgstr ""
+"Hiba a Vulkan renderelő inicializálása közben:\n"
+"{}"
+
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
 msgstr "Fiók létrehozása"
@@ -2022,6 +2224,22 @@ msgstr "A „{:x}” persistent id-t már használja a(z) {} felhasználó!"
 #: wxCreateAccountDialog.cpp
 msgid "Account name may not be empty!"
 msgstr "A felhasználónév nem lehet üres!"
+
+#: wxGameList.cpp
+msgid ""
+"This game entry seems to be either an update or the base game was merged "
+"with update data\n"
+"Broken game dumps cause various problems during emulation and may even stop "
+"working at all in future Cemu versions\n"
+"Please make sure the base game is intact and install updates only with the "
+"File->Install Update/DLC option"
+msgstr ""
+"Ez a játék vagy csak egy frissítés, vagy az alapjáték egy frissítéssel lett "
+"egyesítve\n"
+"A hibás játékok emulációja problémás lehet, illetve a Cemu jövőbeli "
+"verzióiban már egyáltalán nem működhetnek\n"
+"Kérjük ellenőrizd, hogy az alapjáték a helyén van-e és frissítéseket csak a "
+"Fájl->Frissítés vagy DLC telepítése menüben telepíts"
 
 #: wxGameList.cpp
 msgid "You can configure game paths in the general settings."
@@ -2116,7 +2334,6 @@ msgid "Show &name"
 msgstr "Mutatás: &Név"
 
 #: wxGameList.cpp
-#| msgid "Show views"
 msgid "Show &version"
 msgstr "Mutatás: &Verzió"
 
@@ -2131,6 +2348,39 @@ msgstr "Mutatás: &Játékidő"
 #: wxGameList.cpp
 msgid "Show &last played"
 msgstr "Mutatás: Legutóbbi megnyitás"
+
+#~ msgid "E&xit"
+#~ msgstr "&Kilépés"
+
+#~ msgid "&High (slow)"
+#~ msgstr "&Magas (lassú)"
+
+#~ msgid "&Medium"
+#~ msgstr "&Közepes"
+
+#~ msgid "&Low (fast)"
+#~ msgstr "&Alacsony (gyors)"
+
+#~ msgid "&GPU buffer cache accuracy"
+#~ msgstr "&GPU-gyorsítótár pontossága"
+
+#~ msgid "&Single-core interpreter"
+#~ msgstr "&Egymagos interpreter"
+
+#~ msgid "&Single-core recompiler (fast)"
+#~ msgstr "&Egymagos recompiler (gyors)"
+
+#~ msgid "&Dual-core recompiler (fast, unstable!)"
+#~ msgstr "&Kétmagos recompiler (gyors, instabil!)"
+
+#~ msgid "&Triple-core recompiler (fast, unstable!)"
+#~ msgstr "&Hárommagos recompiler (gyors, instabil!)"
+
+#~ msgid "&Mode"
+#~ msgstr "&Mód"
+
+#~ msgid "&NFP API"
+#~ msgstr "&NFP API"
 
 #~ msgid "Overwrite game profiles"
 #~ msgstr "Játékprofilok felülírása"
@@ -2150,9 +2400,6 @@ msgstr "Mutatás: Legutóbbi megnyitás"
 
 #~ msgid "E-Mail"
 #~ msgstr "E-Mail"
-
-#~ msgid "Online"
-#~ msgstr "Online"
 
 #~ msgid "Online disabled"
 #~ msgstr "Online letiltva"
@@ -2213,9 +2460,6 @@ msgstr "Mutatás: Legutóbbi megnyitás"
 #~ msgid "&Timer"
 #~ msgstr "&Időzítő"
 
-#~ msgid "On/Off"
-#~ msgstr "Be/Ki"
-
 #~ msgid "Active"
 #~ msgstr "Aktív"
 
@@ -2231,9 +2475,6 @@ msgstr "Mutatás: Legutóbbi megnyitás"
 
 #~ msgid "Language:"
 #~ msgstr "Nyelv:"
-
-#~ msgid "Game paths:"
-#~ msgstr "Játékok útvonalai:"
 
 #~ msgid "&Add game path"
 #~ msgstr "&Játékútvonal hozzáadása"
