@@ -1,34 +1,33 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2019-12-28 01:44+0100\n"
-"PO-Revision-Date: 2019-12-30 20:24-0500\n"
+"POT-Creation-Date: 2020-04-04 20:16+0200\n"
+"PO-Revision-Date: 2020-04-08 11:39-0500\n"
 "Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-Basepath: ../../../coffee4u\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Flags-xgettext: --keyword=_\n"
 
 #: bootGame.cpp
-msgid ""
-"Cemu detected DLC installed at multiple different locations.\n"
-"Do you want to remove the DLC installed at outdated locations?"
+msgid "Failed to run this title because at least one of the files is damaged."
 msgstr ""
-"Cemu detectó DLC instalados en múltiples ubicaciones distintas.\n"
-"¿Desea eliminar el DLC instalado en ubicaciones obsoletas?"
+"No se pudo ejecutar este título porque al menos uno de los archivos está "
+"dañado."
 
 #: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
 msgid "Warning"
 msgstr "Advertencia"
 
-#: bootGame.cpp DumpCtrl.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp
-#: helpers.cpp InputSettings.cpp MainWindow.cpp toolMemorySearcher.cpp
-#: VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: bootGame.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
+#: MainWindow.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
+#: wxCreateAccountDialog.cpp
 msgid "Error"
 msgstr "Error"
 
@@ -46,9 +45,9 @@ msgstr ""
 "Desea moverlo a la ubicación correcta:\n"
 "{}"
 
-#: BreakpointWindow.cpp
+#: BreakpointWindow.cpp GeneralSettings2.cpp
 msgid "On"
-msgstr "Activo"
+msgstr "Activado"
 
 #: BreakpointWindow.cpp debugPPCThreadsWindow.cpp ModuleWindow.cpp
 msgid "Address"
@@ -228,8 +227,8 @@ msgstr "Paso a paso por procedimientos (F10)"
 msgid "Run (F5)"
 msgstr "Ejecutar (F5)"
 
-#: DebuggerWindow2.cpp
-msgid "E&xit"
+#: DebuggerWindow2.cpp MainWindow.cpp
+msgid "&Exit"
 msgstr "&Salir"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
@@ -356,14 +355,15 @@ msgstr "Escribir una dirección de destino."
 msgid "GoTo address"
 msgstr "Ir a dirección"
 
-#: DownloadGraphicPacksWindow.cpp GraphicPacksWindow2.cpp
-msgid "Graphic packs"
-msgstr "Paquetes gráficos"
-
 #: DownloadGraphicPacksWindow.cpp
 msgid "Graphic packs cannot be updated while a game is running."
 msgstr ""
 "Los paquetes gráficos no se pueden actualizar mientras se ejecuta un juego."
+
+#: DownloadGraphicPacksWindow.cpp GettingStartedDialog.cpp
+#: GraphicPacksWindow2.cpp
+msgid "Graphic packs"
+msgstr "Paquetes gráficos"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Failed to connect to server"
@@ -486,38 +486,6 @@ msgstr ""
 "Mejora la precisión de emulación del acceso de memoria de CPU a GPU a costa "
 "del rendimiento. Requerido para algunos juegos."
 
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "Precompiled shaders"
-msgstr "Sombreadores precompilados"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "auto"
-msgstr "automático"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "enable"
-msgstr "habilitar"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid "disable"
-msgstr "deshabilitar"
-
-#: GameProfileWindow.cpp GeneralSettings2.cpp
-msgid ""
-"Precompiled shaders can speed up the load time on the shader loading "
-"screen.\n"
-"Auto will enable it for AMD/Intel but disable it for NVIDIA GPUs as a "
-"workaround for a driver bug.\n"
-"\n"
-"Recommended: Auto"
-msgstr ""
-"Los sombreadores precompilados pueden acelerar el tiempo de carga en la "
-"pantalla de carga de sombreadores.\n"
-"Automático lo habilitará para AMD/Intel, pero lo deshabilitará para las GPU "
-"de NVIDIA como solución para un error de controlador.\n"
-"\n"
-"Recomendado: automático"
-
 #: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
 msgstr "Multiplicación precisa en sombreadores"
@@ -576,11 +544,11 @@ msgstr "Gráfico"
 
 #: GameProfileWindow.cpp
 msgid "Controller"
-msgstr "Mando"
+msgstr "Control"
 
 #: GameProfileWindow.cpp
 msgid "Forces a given controller profile"
-msgstr "Fuerza un determinado perfil de mando"
+msgstr "Fuerza un determinado perfil de control"
 
 #: GameUpdateWindow.cpp
 msgid "Can't open the file."
@@ -667,6 +635,33 @@ msgid "Info"
 msgstr "Información"
 
 #: GeneralSettings2.cpp
+msgid "Crash dump"
+msgstr "Volcado de memoria"
+
+#: GeneralSettings2.cpp
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: GeneralSettings2.cpp
+msgid "Lite"
+msgstr "Ligero"
+
+#: GeneralSettings2.cpp
+msgid "Full"
+msgstr "Completo"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Creates a dump when Cemu crashes\n"
+"Only enable on demand!\n"
+"The Full option will create a big dump with the memory included"
+msgstr ""
+"Crea un volcado cuando Cemu se detiene debido a un error.\n"
+"¡Habilite sólo si es necesario!\n"
+"La opción Completo creará grandes volcados, que contienen el estado de la "
+"memoria en el momento del error."
+
+#: GeneralSettings2.cpp
 msgid "General settings"
 msgstr "Configuración general"
 
@@ -707,12 +702,12 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "Remember pad window position"
-msgstr "Recordar la posición de la ventana del pad"
+msgstr "Recordar la posición de la ventana del GamePad"
 
 #: GeneralSettings2.cpp
 msgid "Restores the last known pad window position and size when opening it"
 msgstr ""
-"Restaura la última posición y tamaño conocido de la ventana del pad al "
+"Restaura la última posición y tamaño conocido de la ventana del GamePad al "
 "abrirla"
 
 #: GeneralSettings2.cpp
@@ -739,7 +734,7 @@ msgstr ""
 "Muestra la barra de menús cuando Cemu se ejecuta en modo de pantalla "
 "completa y el cursor del ratón se mueve a la parte superior"
 
-#: GeneralSettings2.cpp
+#: GeneralSettings2.cpp GettingStartedDialog.cpp
 msgid "Automatically check for updates"
 msgstr "Buscar actualizaciones automáticamente"
 
@@ -831,6 +826,38 @@ msgid "Select the used graphic device"
 msgstr "Seleccione el dispositivo gráfico que desea utilizar"
 
 #: GeneralSettings2.cpp
+msgid "Precompiled shaders"
+msgstr "Sombreadores precompilados"
+
+#: GeneralSettings2.cpp
+msgid "auto"
+msgstr "automático"
+
+#: GeneralSettings2.cpp
+msgid "enable"
+msgstr "habilitar"
+
+#: GeneralSettings2.cpp
+msgid "disable"
+msgstr "deshabilitar"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Precompiled shaders can speed up the load time on the shader loading "
+"screen.\n"
+"Auto will enable it for AMD/Intel but disable it for NVIDIA GPUs as a "
+"workaround for a driver bug.\n"
+"\n"
+"Recommended: Auto"
+msgstr ""
+"Los sombreadores precompilados pueden acelerar el tiempo de carga en la "
+"pantalla de carga de sombreadores.\n"
+"Automático lo habilitará para AMD/Intel, pero lo deshabilitará para las GPU "
+"de NVIDIA como solución para un error de controlador.\n"
+"\n"
+"Recomendado: automático"
+
+#: GeneralSettings2.cpp
 msgid "VSync"
 msgstr "Sincronización vertical (VSync)"
 
@@ -910,10 +937,6 @@ msgid ""
 msgstr ""
 "Controla la relación de aspecto de salida cuando no coincide con la relación "
 "del juego"
-
-#: GeneralSettings2.cpp
-msgid "Disabled"
-msgstr "Deshabilitado"
 
 #: GeneralSettings2.cpp
 msgid "Top left"
@@ -1024,6 +1047,14 @@ msgid "This option requires Win8.1+"
 msgstr "Esta opción requiere Windows 8.1 o superior"
 
 #: GeneralSettings2.cpp
+msgid "Debug"
+msgstr "Depuración"
+
+#: GeneralSettings2.cpp
+msgid "Displays internal debug information (Vulkan only)"
+msgstr "Muestra información de depuración interna (sólo Vulkan)"
+
+#: GeneralSettings2.cpp
 msgid "Notifications"
 msgstr "Notificaciones"
 
@@ -1041,11 +1072,11 @@ msgstr "Establece la escala del texto de notificación"
 
 #: GeneralSettings2.cpp
 msgid "Controller profiles"
-msgstr "Perfiles de mando"
+msgstr "Perfiles de controles"
 
 #: GeneralSettings2.cpp
 msgid "Displays the active controller profile when starting a game"
-msgstr "Muestra el perfil de mando activo al iniciar un juego"
+msgstr "Muestra el perfil de control activo al iniciar un juego"
 
 #: GeneralSettings2.cpp
 msgid "Low battery"
@@ -1053,7 +1084,7 @@ msgstr "Batería baja"
 
 #: GeneralSettings2.cpp
 msgid "Shows a notification when a low controller battery has been detected"
-msgstr "Muestra una notificación cuando se detecta batería baja en el mando"
+msgstr "Muestra una notificación cuando se detecta batería baja en el control"
 
 #: GeneralSettings2.cpp
 msgid "Shader compiler"
@@ -1231,6 +1262,18 @@ msgid "Confirmation"
 msgstr "Confirmación"
 
 #: GeneralSettings2.cpp
+msgid "Off"
+msgstr "Desactivado"
+
+#: GeneralSettings2.cpp
+msgid "Double buffering"
+msgstr "Almacenamiento en búfer doble"
+
+#: GeneralSettings2.cpp
+msgid "Triple buffering"
+msgstr "Almacenamiento en búfer triple"
+
+#: GeneralSettings2.cpp
 msgid "You have to restart the game in order to apply the new settings."
 msgstr "Tiene que reiniciar el juego para aplicar la nueva configuración."
 
@@ -1241,6 +1284,154 @@ msgstr "Información"
 #: GeneralSettings2.cpp
 msgid "Select a directory containing games."
 msgstr "Seleccione un directorio que contenga juegos."
+
+#: GeneralSettings2.cpp
+msgid "Online Status"
+msgstr "Estado de conexión"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"It looks like you're starting Cemu for the first time.\n"
+"This quick setup assistant will help you get the best experience"
+msgstr ""
+"Parece que es la primera vez que inicia Cemu.\n"
+"Este asistente de configuración rápida le ayudará a obtener la mejor "
+"experiencia"
+
+#: GettingStartedDialog.cpp
+msgid "mlc01 path"
+msgstr "Ruta mlc01"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"The mlc path is the root folder of the emulated Wii U internal flash "
+"storage. It contains all your saves, installed updates and DLCs.\n"
+"It is strongly recommend that you create a dedicated folder for it (example: "
+"C:\\wiiu\\mlc\\) \n"
+"If left empty, the mlc folder will be created inside the Cemu folder."
+msgstr ""
+"La ruta MLC es la carpeta raíz del almacenamiento flash interno de Wii U "
+"emulado. Contiene todos sus guardados, las actualizaciones instaladas y los "
+"DLC.\n"
+"Se recomienda encarecidamente que cree una carpeta dedicada para ella (por "
+"ejemplo: C:\\wiiu\\mlc\\).\n"
+"Si se deja vacía, la carpeta MLC se creará dentro de la carpeta de Cemu."
+
+#: GettingStartedDialog.cpp
+msgid "Custom mlc01 path"
+msgstr "Ruta mlc01 personalizada"
+
+#: GettingStartedDialog.cpp
+msgid "Select a folder"
+msgstr "Seleccione una carpeta"
+
+#: GettingStartedDialog.cpp
+msgid "(optional)"
+msgstr "(opcional)"
+
+#: GettingStartedDialog.cpp
+msgid "Game paths"
+msgstr "Rutas de juegos"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"The game path is scanned by Cemu to locate your games. We recommend creating "
+"a dedicated directory in which\n"
+"you place all your Wii U games. (example: C:\\wiiu\\games\\)\n"
+"\n"
+"You can also set additional paths in the general settings of Cemu."
+msgstr ""
+"Cemu escanea las rutas de juegos para ubicar sus juegos. Recomendamos crear "
+"un directorio dedicado en el que\n"
+"coloque todos sus juegos de Wii U (por ejemplo: C:\\wiiu\\juegos\\).\n"
+"\n"
+"También puede establecer rutas adicionales en la configuración general de "
+"Cemu."
+
+#: GettingStartedDialog.cpp
+msgid "Game path"
+msgstr "Ruta de juegos"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"Graphic packs improve games by offering the possibility to change "
+"resolution, tweak FPS or add other visual or gameplay modifications.\n"
+"Download the community graphic packs to get started.\n"
+msgstr ""
+"Los paquetes gráficos mejoran la experiencia de juego al ofrecer la "
+"posibilidad de cambiar la resolución, los FPS o aplicar otras modificaciones "
+"visuales o de juego.\n"
+"Descargue los paquetes gráficos de la comunidad para empezar.\n"
+
+#: GettingStartedDialog.cpp
+msgid "Download community graphic packs"
+msgstr "Descargar los paquetes gráficos de la comunidad"
+
+#: GettingStartedDialog.cpp
+msgid "Input settings"
+msgstr "Configuración de entrada"
+
+#: GettingStartedDialog.cpp
+msgid ""
+"You can configure one controller for each player.\n"
+"We advise you to always use GamePad as emulated input for the first player, "
+"since many games expect the GamePad to be present. It is also required for "
+"touch functionality.\n"
+"The default global hotkeys are:\n"
+"CTRL - show pad screen\n"
+"CTRL + TAB - toggle pad screen\n"
+"ALT + ENTER - toggle fullscreen\n"
+"ESC - leave fullscreen\n"
+"\n"
+"If you're having trouble configuring your controller, make sure to have it "
+"in idle state and press calibrate.\n"
+"Also don't set the axis deadzone too low."
+msgstr ""
+"Puede configurar un control para cada jugador.\n"
+"Se recomienda usar siempre el GamePad como entrada emulada para el primer "
+"jugador, ya que muchos juegos esperan que el GamePad esté presente. También "
+"es necesario para la funcionalidad táctil.\n"
+"Las teclas de acceso rápido globales predeterminadas son:\n"
+"CTRL - mostrar pantalla del GamePad\n"
+"CTRL + TAB - alternar la pantalla del GamePad\n"
+"ALT + ENTRAR - alternar pantalla completa\n"
+"ESC - salir del modo de pantalla completa\n"
+"\n"
+"Si tiene problemas para configurar el control, asegúrese de que esté "
+"inactivo y pulse el botón Calibrar.\n"
+"Además, no establezca la zona muerta del eje demasiado baja."
+
+#: GettingStartedDialog.cpp
+msgid "Configure input"
+msgstr "Configurar la entrada"
+
+#: GettingStartedDialog.cpp
+msgid "Additional options"
+msgstr "Opciones adicionales"
+
+#: GettingStartedDialog.cpp
+msgid "Start games with fullscreen"
+msgstr "Iniciar juegos en modo de pantalla completa"
+
+#: GettingStartedDialog.cpp
+msgid "Open separate pad screen"
+msgstr "Abrir GamePad en una ventana separada"
+
+#: GettingStartedDialog.cpp
+msgid "Don't show this again"
+msgstr "No mostrar de nuevo"
+
+#: GettingStartedDialog.cpp
+msgid "Previous"
+msgstr "Anterior"
+
+#: GettingStartedDialog.cpp
+msgid "Close"
+msgstr "Cerrar"
+
+#: GettingStartedDialog.cpp
+msgid "Getting started"
+msgstr "Introducción"
 
 #: gpu7ShaderCache.cpp
 msgid ""
@@ -1306,12 +1497,12 @@ msgid "Download latest community graphic packs"
 msgstr "Descargar los últimos paquetes gráficos de la comunidad"
 
 #: GraphicPacksWindow2.cpp
-msgid "This graphic pack has no description"
-msgstr "Este paquete gráfico no tiene descripción"
-
-#: GraphicPacksWindow2.cpp
 msgid "Active preset"
 msgstr "Preestablecido activo"
+
+#: GraphicPacksWindow2.cpp
+msgid "This graphic pack has no description"
+msgstr "Este paquete gráfico no tiene descripción"
 
 #: GraphicPacksWindow2.cpp
 msgid "Restart of Cemu required for changes to take effect"
@@ -1346,11 +1537,11 @@ msgstr "Cruceta"
 
 #: InputPanelGamepad.cpp
 msgid "blow mic"
-msgstr "soplar micrófono"
+msgstr "Soplar micrófono"
 
 #: InputPanelGamepad.cpp
 msgid "show screen"
-msgstr "mostrar pantalla"
+msgstr "Mostrar pantalla"
 
 #: InputPanelWiimote.cpp
 msgid "Extensions:"
@@ -1362,7 +1553,7 @@ msgstr "MotionPlus"
 
 #: InputPanelWiimote.cpp
 msgid "Nunchuck"
-msgstr "Nunchuck"
+msgstr "Nunchuk"
 
 #: InputPanelWiimote.cpp
 msgid "Classic"
@@ -1373,8 +1564,12 @@ msgid "Input Settings"
 msgstr "Configuración de entrada"
 
 #: InputSettings.cpp
+msgid "Controller {}"
+msgstr "Control {}"
+
+#: InputSettings.cpp
 msgid "Couldn't save settings for controller {0}"
-msgstr "No se pudo guardar la configuración del mando {0}"
+msgstr "No se pudo guardar la configuración del control {0}"
 
 #: InputSettings.cpp
 msgid "Profile"
@@ -1390,19 +1585,23 @@ msgstr "Guardar"
 
 #: InputSettings.cpp
 msgid "Emulate Controller"
-msgstr "Emular mando"
+msgstr "Emular control"
 
 #: InputSettings.cpp
 msgid "Controller API:"
-msgstr "API de mando:"
+msgstr "API de control:"
+
+#: InputSettings.cpp
+msgid "Settings"
+msgstr "Configuración"
 
 #: InputSettings.cpp
 msgid "Controller:"
-msgstr "Mando:"
+msgstr "Control:"
 
 #: InputSettings.cpp
 msgid "Test if the controller is connected"
-msgstr "Probar si el mando está conectado"
+msgstr "Probar si el control está conectado"
 
 #: InputSettings.cpp
 msgid "Calibrate"
@@ -1410,7 +1609,7 @@ msgstr "Calibrar"
 
 #: InputSettings.cpp
 msgid "Reset the default state of the controller"
-msgstr "Restablecer el estado predeterminado del mando"
+msgstr "Restablecer el estado predeterminado del control"
 
 #: InputSettings.cpp toolMemorySearcher.cpp
 msgid "Clear"
@@ -1460,8 +1659,28 @@ msgid "Couldn't save the profile!"
 msgstr "¡No se pudo guardar el perfil!"
 
 #: InputSettings.cpp
+msgid "DSU client settings"
+msgstr "Configuración del cliente DSU"
+
+#: InputSettings.cpp
+msgid "IP"
+msgstr "IP"
+
+#: InputSettings.cpp
+msgid "Port"
+msgstr "Puerto"
+
+#: InputSettings.cpp
+msgid "The entered port must be between 1 and 65535"
+msgstr "El puerto introducido debe estar entre 1 y 65535"
+
+#: InputSettings.cpp
 msgid "Searching for wiimotes..."
-msgstr "Buscando controles Wiimote..."
+msgstr "Buscando Wii Remotes..."
+
+#: InputSettings.cpp
+msgid "Searching for controllers..."
+msgstr "Buscando controles..."
 
 #: LoggingWindow.cpp
 msgid "Logging window"
@@ -1470,6 +1689,14 @@ msgstr "Ventana de registro"
 #: LoggingWindow.cpp
 msgid "Filter messages"
 msgstr "Filtrar mensajes"
+
+#: MainWindow.cpp
+msgid "Cannot open file"
+msgstr "Error al abrir el archivo"
+
+#: MainWindow.cpp
+msgid "Not a valid NFC NTAG215 file"
+msgstr "No es un archivo NFC NTAG215 válido"
 
 #: MainWindow.cpp
 msgid "Update installed!"
@@ -1502,14 +1729,6 @@ msgstr "Abrir archivo para iniciar"
 #: MainWindow.cpp
 msgid "Open file to load"
 msgstr "Abrir archivo para cargar"
-
-#: MainWindow.cpp
-msgid "Cannot open file"
-msgstr "Error al abrir el archivo"
-
-#: MainWindow.cpp
-msgid "Not a valid NFC NTAG215 file"
-msgstr "No es un archivo NFC NTAG215 válido"
 
 #: MainWindow.cpp
 msgid "Cemu must be restarted to apply the selected UI language."
@@ -1556,8 +1775,8 @@ msgid "&Install game update or DLC"
 msgstr "&Instalar actualización o DLC"
 
 #: MainWindow.cpp
-msgid "&Exit"
-msgstr "&Salir"
+msgid "End emulation"
+msgstr "Finalizar la emulación"
 
 #: MainWindow.cpp
 msgid "&Auto"
@@ -1636,28 +1855,12 @@ msgid "&Taiwanese"
 msgstr "&Taiwanés"
 
 #: MainWindow.cpp
-msgid "&High (slow)"
-msgstr "&Alto (lento)"
-
-#: MainWindow.cpp
-msgid "&Medium"
-msgstr "&Medio"
-
-#: MainWindow.cpp
-msgid "&Low (fast)"
-msgstr "&Bajo (rápido)"
-
-#: MainWindow.cpp
 msgid "&Fullscreen"
 msgstr "&Pantalla completa"
 
 #: MainWindow.cpp
 msgid "&Graphic packs"
 msgstr "&Paquetes gráficos"
-
-#: MainWindow.cpp
-msgid "&GPU buffer cache accuracy"
-msgstr "&Precisión del buffer de la GPU"
 
 #: MainWindow.cpp
 msgid "&Separate GamePad view"
@@ -1692,26 +1895,6 @@ msgid "&Tools"
 msgstr "&Herramientas"
 
 #: MainWindow.cpp
-msgid "&Single-core interpreter"
-msgstr "&Intérprete de núcleo único"
-
-#: MainWindow.cpp
-msgid "&Single-core recompiler (fast)"
-msgstr "&Recompilador de núcleo único (rápido)"
-
-#: MainWindow.cpp
-msgid "&Dual-core recompiler (fast, unstable!)"
-msgstr "&Recompilador de doble núcleo (rápido, ¡inestable!)"
-
-#: MainWindow.cpp
-msgid "&Triple-core recompiler (fast, unstable!)"
-msgstr "&Recompilador de triple núcleo (rápido, ¡inestable!)"
-
-#: MainWindow.cpp
-msgid "&Mode"
-msgstr "&Modo"
-
-#: MainWindow.cpp
 msgid "&CPU"
 msgstr "&CPU"
 
@@ -1740,6 +1923,14 @@ msgid "&Coreinit Memory API"
 msgstr "&Memoria de API de Coreinit"
 
 #: MainWindow.cpp
+msgid "&Coreinit MP API"
+msgstr "API &Coreinit MP"
+
+#: MainWindow.cpp
+msgid "&NN NFP"
+msgstr "&NN NFP"
+
+#: MainWindow.cpp
 msgid "&GX2 API"
 msgstr "&API GX2"
 
@@ -1764,8 +1955,8 @@ msgid "&H264 API"
 msgstr "&API H.264"
 
 #: MainWindow.cpp
-msgid "&NFP API"
-msgstr "&API NFP"
+msgid "&Graphic pack patches"
+msgstr "&Parches de paquetes gráficos"
 
 #: MainWindow.cpp
 msgid "&Texture cache warnings"
@@ -1841,11 +2032,15 @@ msgstr "&Volcar sistema de archivos WUD"
 
 #: MainWindow.cpp
 msgid "&Debug"
-msgstr "&Depurar"
+msgstr "&Depuración"
 
 #: MainWindow.cpp
 msgid "&Check for updates"
 msgstr "&Buscar actualizaciones"
+
+#: MainWindow.cpp
+msgid "&Getting started"
+msgstr "&Introducción"
 
 #: MainWindow.cpp
 msgid "&About"
@@ -1854,10 +2049,6 @@ msgstr "&Acerca de"
 #: MainWindow.cpp
 msgid "&Help"
 msgstr "&Ayuda"
-
-#: MainWindow.cpp
-msgid "Stop emulation"
-msgstr "Detener la emulación"
 
 #: MainWindow.cpp
 msgid "otp.bin could not be found"
@@ -2057,6 +2248,23 @@ msgid "Account name may not be empty!"
 msgstr "¡El nombre de la cuenta no puede estar vacío!"
 
 #: wxGameList.cpp
+msgid ""
+"This game entry seems to be either an update or the base game was merged "
+"with update data\n"
+"Broken game dumps cause various problems during emulation and may even stop "
+"working at all in future Cemu versions\n"
+"Please make sure the base game is intact and install updates only with the "
+"File->Install Update/DLC option"
+msgstr ""
+"Este elemento de lista parece ser una actualización o un juego base que se "
+"ha fusionado con los datos de actualización.\n"
+"Los volcados de juego corruptos pueden causar varios problemas durante la "
+"emulación y pueden dejar de funcionar completamente en futuras versiones de "
+"Cemu.\n"
+"Asegúrese de que el juego base esté intacto e instale las actualizaciones "
+"sólo con la opción Archivo->Instalar actualización o DLC."
+
+#: wxGameList.cpp
 msgid "You can configure game paths in the general settings."
 msgstr "Puede configurar las rutas de juegos en la configuración general."
 
@@ -2164,6 +2372,46 @@ msgstr "Mostrar &tiempo de juego"
 msgid "Show &last played"
 msgstr "Mostrar la &última vez jugado"
 
+#~ msgid ""
+#~ "Cemu detected DLC installed at multiple different locations.\n"
+#~ "Do you want to remove the DLC installed at outdated locations?"
+#~ msgstr ""
+#~ "Cemu detectó DLC instalados en múltiples ubicaciones distintas.\n"
+#~ "¿Desea eliminar el DLC instalado en ubicaciones obsoletas?"
+
+#~ msgid "E&xit"
+#~ msgstr "&Salir"
+
+#~ msgid "&High (slow)"
+#~ msgstr "&Alto (lento)"
+
+#~ msgid "&Medium"
+#~ msgstr "&Medio"
+
+#~ msgid "&Low (fast)"
+#~ msgstr "&Bajo (rápido)"
+
+#~ msgid "&GPU buffer cache accuracy"
+#~ msgstr "&Precisión del buffer de la GPU"
+
+#~ msgid "&Single-core interpreter"
+#~ msgstr "&Intérprete de núcleo único"
+
+#~ msgid "&Single-core recompiler (fast)"
+#~ msgstr "&Recompilador de núcleo único (rápido)"
+
+#~ msgid "&Dual-core recompiler (fast, unstable!)"
+#~ msgstr "&Recompilador de doble núcleo (rápido, ¡inestable!)"
+
+#~ msgid "&Triple-core recompiler (fast, unstable!)"
+#~ msgstr "&Recompilador de triple núcleo (rápido, ¡inestable!)"
+
+#~ msgid "&Mode"
+#~ msgstr "&Modo"
+
+#~ msgid "&NFP API"
+#~ msgstr "&API NFP"
+
 #~ msgid "Overwrite game profiles"
 #~ msgstr "Sobrescribir perfiles de juego"
 
@@ -2182,9 +2430,6 @@ msgstr "Mostrar la &última vez jugado"
 
 #~ msgid "E-Mail"
 #~ msgstr "Correo electrónico"
-
-#~ msgid "Online"
-#~ msgstr "En línea"
 
 #~ msgid "Online disabled"
 #~ msgstr "En línea desactivado"
@@ -2245,9 +2490,6 @@ msgstr "Mostrar la &última vez jugado"
 #~ msgid "<double click to add a new entry>"
 #~ msgstr "<doble-click para añadir una nueva entrada>"
 
-#~ msgid "Configure paths"
-#~ msgstr "Configurar rutas"
-
 #~ msgid "&Add game path"
 #~ msgstr "&Añadir ruta"
 
@@ -2289,9 +2531,6 @@ msgstr "Mostrar la &última vez jugado"
 
 #~ msgid "MORIBUND"
 #~ msgstr "MORIBUND"
-
-#~ msgid "On/Off"
-#~ msgstr "On/Off"
 
 #~ msgid ""
 #~ "The currently running game is corrupted or incomplete. (Missing /meta/"
