@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-04-04 20:16+0200\n"
-"PO-Revision-Date: 2020-04-07 21:33-0300\n"
+"PO-Revision-Date: 2020-04-08 21:38-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -1946,7 +1946,7 @@ msgstr "&H264 API"
 
 #: MainWindow.cpp
 msgid "&Graphic pack patches"
-msgstr "Correções de &pacotes gráficos"
+msgstr "Patch&es de pacotes gráficos"
 
 #: MainWindow.cpp
 msgid "&Texture cache warnings"
