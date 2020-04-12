@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-04-04 20:16+0200\n"
-"PO-Revision-Date: 2020-04-08 11:39-0500\n"
+"PO-Revision-Date: 2020-04-12 03:02-0500\n"
 "Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -540,15 +540,15 @@ msgstr ""
 
 #: GameProfileWindow.cpp
 msgid "Graphic"
-msgstr "Gráfico"
+msgstr "Gráficos"
 
 #: GameProfileWindow.cpp
 msgid "Controller"
-msgstr "Control"
+msgstr "Mando"
 
 #: GameProfileWindow.cpp
 msgid "Forces a given controller profile"
-msgstr "Fuerza un determinado perfil de control"
+msgstr "Fuerza un determinado perfil de mando"
 
 #: GameUpdateWindow.cpp
 msgid "Can't open the file."
@@ -1072,11 +1072,11 @@ msgstr "Establece la escala del texto de notificación"
 
 #: GeneralSettings2.cpp
 msgid "Controller profiles"
-msgstr "Perfiles de controles"
+msgstr "Perfiles de mando"
 
 #: GeneralSettings2.cpp
 msgid "Displays the active controller profile when starting a game"
-msgstr "Muestra el perfil de control activo al iniciar un juego"
+msgstr "Muestra el perfil de mando activo al iniciar un juego"
 
 #: GeneralSettings2.cpp
 msgid "Low battery"
@@ -1084,7 +1084,7 @@ msgstr "Batería baja"
 
 #: GeneralSettings2.cpp
 msgid "Shows a notification when a low controller battery has been detected"
-msgstr "Muestra una notificación cuando se detecta batería baja en el control"
+msgstr "Muestra una notificación cuando se detecta batería baja en el mando"
 
 #: GeneralSettings2.cpp
 msgid "Shader compiler"
@@ -1296,7 +1296,7 @@ msgid ""
 msgstr ""
 "Parece que es la primera vez que inicia Cemu.\n"
 "Este asistente de configuración rápida le ayudará a obtener la mejor "
-"experiencia"
+"experiencia."
 
 #: GettingStartedDialog.cpp
 msgid "mlc01 path"
@@ -1341,10 +1341,9 @@ msgid ""
 "\n"
 "You can also set additional paths in the general settings of Cemu."
 msgstr ""
-"Cemu escanea las rutas de juegos para ubicar sus juegos. Recomendamos crear "
-"un directorio dedicado en el que\n"
-"coloque todos sus juegos de Wii U (por ejemplo: C:\\wiiu\\juegos\\).\n"
-"\n"
+"Cemu escanea las rutas de juegos para ubicar sus juegos.\n"
+"Recomendamos crear un directorio dedicado en el que coloque todos sus juegos "
+"de Wii U (por ejemplo: C:\\wiiu\\juegos\\).\n"
 "También puede establecer rutas adicionales en la configuración general de "
 "Cemu."
 
@@ -1365,7 +1364,7 @@ msgstr ""
 
 #: GettingStartedDialog.cpp
 msgid "Download community graphic packs"
-msgstr "Descargar los paquetes gráficos de la comunidad"
+msgstr "Descargar paquetes gráficos de la comunidad"
 
 #: GettingStartedDialog.cpp
 msgid "Input settings"
@@ -1387,7 +1386,7 @@ msgid ""
 "in idle state and press calibrate.\n"
 "Also don't set the axis deadzone too low."
 msgstr ""
-"Puede configurar un control para cada jugador.\n"
+"Puede configurar un mando para cada jugador.\n"
 "Se recomienda usar siempre el GamePad como entrada emulada para el primer "
 "jugador, ya que muchos juegos esperan que el GamePad esté presente. También "
 "es necesario para la funcionalidad táctil.\n"
@@ -1399,7 +1398,7 @@ msgstr ""
 "\n"
 "Si tiene problemas para configurar el control, asegúrese de que esté "
 "inactivo y pulse el botón Calibrar.\n"
-"Además, no establezca la zona muerta del eje demasiado baja."
+"Tampoco establezca la zona muerta del eje demasiado baja."
 
 #: GettingStartedDialog.cpp
 msgid "Configure input"
@@ -1565,11 +1564,11 @@ msgstr "Configuración de entrada"
 
 #: InputSettings.cpp
 msgid "Controller {}"
-msgstr "Control {}"
+msgstr "Mando {}"
 
 #: InputSettings.cpp
 msgid "Couldn't save settings for controller {0}"
-msgstr "No se pudo guardar la configuración del control {0}"
+msgstr "No se pudo guardar la configuración del mando {0}"
 
 #: InputSettings.cpp
 msgid "Profile"
@@ -1585,11 +1584,11 @@ msgstr "Guardar"
 
 #: InputSettings.cpp
 msgid "Emulate Controller"
-msgstr "Emular control"
+msgstr "Emular mando"
 
 #: InputSettings.cpp
 msgid "Controller API:"
-msgstr "API de control:"
+msgstr "API de mando:"
 
 #: InputSettings.cpp
 msgid "Settings"
@@ -1597,11 +1596,11 @@ msgstr "Configuración"
 
 #: InputSettings.cpp
 msgid "Controller:"
-msgstr "Control:"
+msgstr "Mando:"
 
 #: InputSettings.cpp
 msgid "Test if the controller is connected"
-msgstr "Probar si el control está conectado"
+msgstr "Probar si el mando está conectado"
 
 #: InputSettings.cpp
 msgid "Calibrate"
@@ -1609,7 +1608,7 @@ msgstr "Calibrar"
 
 #: InputSettings.cpp
 msgid "Reset the default state of the controller"
-msgstr "Restablecer el estado predeterminado del control"
+msgstr "Restablecer el estado predeterminado del mando"
 
 #: InputSettings.cpp toolMemorySearcher.cpp
 msgid "Clear"
@@ -1676,11 +1675,11 @@ msgstr "El puerto introducido debe estar entre 1 y 65535"
 
 #: InputSettings.cpp
 msgid "Searching for wiimotes..."
-msgstr "Buscando Wii Remotes..."
+msgstr "Buscando mandos de Wii..."
 
 #: InputSettings.cpp
 msgid "Searching for controllers..."
-msgstr "Buscando controles..."
+msgstr "Buscando mandos..."
 
 #: LoggingWindow.cpp
 msgid "Logging window"
@@ -2032,7 +2031,7 @@ msgstr "&Volcar sistema de archivos WUD"
 
 #: MainWindow.cpp
 msgid "&Debug"
-msgstr "&Depuración"
+msgstr "&Depurar"
 
 #: MainWindow.cpp
 msgid "&Check for updates"
@@ -2274,7 +2273,7 @@ msgstr "nunca"
 
 #: wxGameList.cpp
 msgid "Game"
-msgstr "Juego"
+msgstr "Nombre"
 
 #: wxGameList.cpp
 msgid "Version"
@@ -2286,7 +2285,7 @@ msgstr "DLC"
 
 #: wxGameList.cpp
 msgid "You've played"
-msgstr "Ha jugado"
+msgstr "Tiempo jugado"
 
 #: wxGameList.cpp
 msgid "Last played"
@@ -2354,11 +2353,11 @@ msgstr "Restablecer &orden"
 
 #: wxGameList.cpp
 msgid "Show &name"
-msgstr "Mostrar &nombre"
+msgstr "Mostrar &Nombre"
 
 #: wxGameList.cpp
 msgid "Show &version"
-msgstr "Mostrar &versión"
+msgstr "Mostrar &Versión"
 
 #: wxGameList.cpp
 msgid "Show &dlc"
@@ -2366,11 +2365,11 @@ msgstr "Mostrar &DLC"
 
 #: wxGameList.cpp
 msgid "Show &game time"
-msgstr "Mostrar &tiempo de juego"
+msgstr "Mostrar &Tiempo jugado"
 
 #: wxGameList.cpp
 msgid "Show &last played"
-msgstr "Mostrar la &última vez jugado"
+msgstr "Mostrar &Última vez jugado"
 
 #~ msgid ""
 #~ "Cemu detected DLC installed at multiple different locations.\n"
