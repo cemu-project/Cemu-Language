@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-04-04 20:16+0200\n"
-"PO-Revision-Date: 2020-04-05 15:44+0200\n"
+"POT-Creation-Date: 2020-04-25 03:15+0200\n"
+"PO-Revision-Date: 2020-04-25 11:05+0200\n"
 "Last-Translator: Fs00 <francescosaltori@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Impossibile eseguire questo titolo perché almeno uno dei file è danneggiato."
 
 #: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
+#: GraphicPacksWindow2.cpp
 msgid "Warning"
 msgstr "Attenzione"
 
@@ -354,12 +355,13 @@ msgstr "Vai all'indirizzo"
 #: DownloadGraphicPacksWindow.cpp
 msgid "Graphic packs cannot be updated while a game is running."
 msgstr ""
-"I pack grafici non possono essere aggiornati mentre un gioco è in esecuzione."
+"I pacchetti grafici non possono essere aggiornati mentre un gioco è in "
+"esecuzione."
 
 #: DownloadGraphicPacksWindow.cpp GettingStartedDialog.cpp
 #: GraphicPacksWindow2.cpp
 msgid "Graphic packs"
-msgstr "Pack grafici"
+msgstr "Pacchetti grafici"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Failed to connect to server"
@@ -374,8 +376,8 @@ msgid ""
 "Updated graphic packs are available. Do you want to download and install "
 "them?"
 msgstr ""
-"Una versione più recente dei pack grafici è disponibile. Vuoi scaricarla e "
-"installarla?"
+"Una versione più recente dei pacchetti grafici è disponibile. Vuoi "
+"scaricarla e installarla?"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Checking version..."
@@ -383,7 +385,7 @@ msgstr "Controllo dell'ultima versione in corso..."
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Downloading graphic packs..."
-msgstr "Download dei pack grafici in corso..."
+msgstr "Download dei pacchetti grafici in corso..."
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Extracting..."
@@ -1369,14 +1371,18 @@ msgid ""
 "resolution, tweak FPS or add other visual or gameplay modifications.\n"
 "Download the community graphic packs to get started.\n"
 msgstr ""
-"I pack grafici migliorano l'esperienza di gioco offrendo la possibilità di "
-"cambiare la risoluzione, migliorare le prestazioni o applicare modifiche "
+"I pacchetti grafici migliorano l'esperienza di gioco offrendo la possibilità "
+"di cambiare la risoluzione, migliorare le prestazioni o applicare modifiche "
 "visuali o al gameplay.\n"
-"Scarica i pack grafici creati dalla community per iniziare.\n"
+"Scarica i pacchetti grafici creati dalla community per iniziare.\n"
 
 #: GettingStartedDialog.cpp
 msgid "Download community graphic packs"
-msgstr "Scarica pack grafici della community"
+msgstr "Scarica pacchetti grafici della community"
+
+#: GettingStartedDialog.cpp
+msgid "Next"
+msgstr "Avanti"
 
 #: GettingStartedDialog.cpp
 msgid "Input settings"
@@ -1386,8 +1392,8 @@ msgstr "Impostazioni di input"
 msgid ""
 "You can configure one controller for each player.\n"
 "We advise you to always use GamePad as emulated input for the first player, "
-"since many games expect the GamePad to be present. It is also required for "
-"touch functionality.\n"
+"since many games expect the GamePad to be present.\n"
+"It is also required for touch functionality.\n"
 "The default global hotkeys are:\n"
 "CTRL - show pad screen\n"
 "CTRL + TAB - toggle pad screen\n"
@@ -1401,8 +1407,8 @@ msgstr ""
 "Puoi configurare un controller per ciascun giocatore.\n"
 "È consigliato utilizzare sempre il GamePad come controller emulato per il "
 "primo giocatore, dato che molti giochi si aspettano che sia sempre "
-"collegato. È inoltre richiesto per emulare il tocco sullo schermo.\n"
-"\n"
+"collegato.\n"
+"È inoltre richiesto per emulare il tocco sullo schermo.\n"
 "Le scorciatoie da tastiera predefinite sono le seguenti:\n"
 "CTRL (tieni premuto) - mostra lo schermo del GamePad\n"
 "CTRL + TAB - passa dallo schermo della TV a quello del GamePad e viceversa\n"
@@ -1494,7 +1500,7 @@ msgstr "Giochi installati"
 
 #: GraphicPacksWindow2.cpp
 msgid "Graphic pack"
-msgstr "Pack grafico"
+msgstr "Pacchetto grafico"
 
 #: GraphicPacksWindow2.cpp
 msgid "Description"
@@ -1506,7 +1512,7 @@ msgstr "Controllo"
 
 #: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
-msgstr "Scarica pack grafici della community aggiornati"
+msgstr "Scarica pacchetti grafici della community aggiornati"
 
 #: GraphicPacksWindow2.cpp
 msgid "Active preset"
@@ -1514,11 +1520,20 @@ msgstr "Preimpostazione attiva"
 
 #: GraphicPacksWindow2.cpp
 msgid "This graphic pack has no description"
-msgstr "Questo pack grafico non contiene una descrizione"
+msgstr "Questo pacchetto grafico non contiene una descrizione"
 
 #: GraphicPacksWindow2.cpp
 msgid "Restart of Cemu required for changes to take effect"
 msgstr "È richiesto un riavvio di Cemu affinché le modifiche vengano applicate"
+
+#: GraphicPacksWindow2.cpp
+msgid "This update removed or renamed the following graphic packs:"
+msgstr ""
+"Questo aggiornamento ha rimosso o rinominato i seguenti pacchetti grafici:"
+
+#: GraphicPacksWindow2.cpp
+msgid "You may need to set them up again."
+msgstr "Potrebbe essere necessario configurarli di nuovo."
 
 #: helpers.cpp
 msgid "Error code"
@@ -1873,7 +1888,7 @@ msgstr "&Schermo intero"
 
 #: MainWindow.cpp
 msgid "&Graphic packs"
-msgstr "&Pack grafici"
+msgstr "&Pacchetti grafici"
 
 #: MainWindow.cpp
 msgid "&Separate GamePad view"
@@ -1969,7 +1984,7 @@ msgstr "API &H264"
 
 #: MainWindow.cpp
 msgid "&Graphic pack patches"
-msgstr "&Patch dei pack grafici"
+msgstr "&Patch dei pacchetti grafici"
 
 #: MainWindow.cpp
 msgid "&Texture cache warnings"
@@ -2010,6 +2025,14 @@ msgstr "&Dump"
 #: MainWindow.cpp
 msgid "&Render upside-down"
 msgstr "&Renderizza sottosopra"
+
+#: MainWindow.cpp
+msgid "&Optimize shader SPIR-V"
+msgstr "&Ottimizza shader SPIR-V"
+
+#: MainWindow.cpp
+msgid "&Experimental"
+msgstr "&Sperimentale"
 
 #: MainWindow.cpp
 msgid "&Open logging window"
@@ -2337,7 +2360,7 @@ msgstr "Cartella dei &DLC"
 
 #: wxGameList.cpp
 msgid "&Edit graphic packs"
-msgstr "&Modifica pack grafici"
+msgstr "&Modifica pacchetti grafici"
 
 #: wxGameList.cpp
 msgid "&Edit game profile"
