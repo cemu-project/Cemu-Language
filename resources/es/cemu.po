@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-04-04 20:16+0200\n"
-"PO-Revision-Date: 2020-04-12 03:02-0500\n"
+"POT-Creation-Date: 2020-04-25 03:15+0200\n"
+"PO-Revision-Date: 2020-04-25 04:03-0500\n"
 "Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -21,6 +21,7 @@ msgstr ""
 "dañado."
 
 #: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
+#: GraphicPacksWindow2.cpp
 msgid "Warning"
 msgstr "Advertencia"
 
@@ -1367,6 +1368,10 @@ msgid "Download community graphic packs"
 msgstr "Descargar paquetes gráficos de la comunidad"
 
 #: GettingStartedDialog.cpp
+msgid "Next"
+msgstr "Siguiente"
+
+#: GettingStartedDialog.cpp
 msgid "Input settings"
 msgstr "Configuración de entrada"
 
@@ -1374,8 +1379,8 @@ msgstr "Configuración de entrada"
 msgid ""
 "You can configure one controller for each player.\n"
 "We advise you to always use GamePad as emulated input for the first player, "
-"since many games expect the GamePad to be present. It is also required for "
-"touch functionality.\n"
+"since many games expect the GamePad to be present.\n"
+"It is also required for touch functionality.\n"
 "The default global hotkeys are:\n"
 "CTRL - show pad screen\n"
 "CTRL + TAB - toggle pad screen\n"
@@ -1388,8 +1393,8 @@ msgid ""
 msgstr ""
 "Puede configurar un mando para cada jugador.\n"
 "Se recomienda usar siempre el GamePad como entrada emulada para el primer "
-"jugador, ya que muchos juegos esperan que el GamePad esté presente. También "
-"es necesario para la funcionalidad táctil.\n"
+"jugador, ya que muchos juegos esperan que el GamePad esté presente.\n"
+"También es necesario para la funcionalidad táctil.\n"
 "Las teclas de acceso rápido globales predeterminadas son:\n"
 "CTRL - mostrar pantalla del GamePad\n"
 "CTRL + TAB - alternar la pantalla del GamePad\n"
@@ -1506,6 +1511,16 @@ msgstr "Este paquete gráfico no tiene descripción"
 #: GraphicPacksWindow2.cpp
 msgid "Restart of Cemu required for changes to take effect"
 msgstr "Se requiere reiniciar Cemu para que los cambios surtan efecto"
+
+#: GraphicPacksWindow2.cpp
+msgid "This update removed or renamed the following graphic packs:"
+msgstr ""
+"Esta actualización ha eliminado o cambiado el nombre de los siguientes "
+"paquetes gráficos:"
+
+#: GraphicPacksWindow2.cpp
+msgid "You may need to set them up again."
+msgstr "Es posible que deba configurarlos de nuevo."
 
 #: helpers.cpp
 msgid "Error code"
@@ -1998,6 +2013,14 @@ msgid "&Render upside-down"
 msgstr "&Renderizar de arriba a abajo"
 
 #: MainWindow.cpp
+msgid "&Optimize shader SPIR-V"
+msgstr "&Optimizar sombreadores SPIR-V"
+
+#: MainWindow.cpp
+msgid "&Experimental"
+msgstr "&Experimental"
+
+#: MainWindow.cpp
 msgid "&Open logging window"
 msgstr "&Abrir la ventana de registro"
 
@@ -2353,11 +2376,11 @@ msgstr "Restablecer &orden"
 
 #: wxGameList.cpp
 msgid "Show &name"
-msgstr "Mostrar &Nombre"
+msgstr "Mostrar &nombres"
 
 #: wxGameList.cpp
 msgid "Show &version"
-msgstr "Mostrar &Versión"
+msgstr "Mostrar &versiones"
 
 #: wxGameList.cpp
 msgid "Show &dlc"
@@ -2365,11 +2388,11 @@ msgstr "Mostrar &DLC"
 
 #: wxGameList.cpp
 msgid "Show &game time"
-msgstr "Mostrar &Tiempo jugado"
+msgstr "Mostrar el &tiempo jugado"
 
 #: wxGameList.cpp
 msgid "Show &last played"
-msgstr "Mostrar &Última vez jugado"
+msgstr "Mostrar la &última vez jugado"
 
 #~ msgid ""
 #~ "Cemu detected DLC installed at multiple different locations.\n"
