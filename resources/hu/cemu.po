@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-04-04 20:16+0200\n"
-"PO-Revision-Date: 2020-04-08 14:49+0200\n"
+"POT-Creation-Date: 2020-04-25 03:15+0200\n"
+"PO-Revision-Date: 2020-04-25 09:27+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -17,6 +17,7 @@ msgid "Failed to run this title because at least one of the files is damaged."
 msgstr "A futtatás sikertelen, mert egy vagy több fájl sérült."
 
 #: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
+#: GraphicPacksWindow2.cpp
 msgid "Warning"
 msgstr "Figyelmeztetés"
 
@@ -1350,6 +1351,10 @@ msgid "Download community graphic packs"
 msgstr "Közösségi grafikus csomagok letöltése"
 
 #: GettingStartedDialog.cpp
+msgid "Next"
+msgstr "Tovább"
+
+#: GettingStartedDialog.cpp
 msgid "Input settings"
 msgstr "Irányítási beállítások"
 
@@ -1357,8 +1362,8 @@ msgstr "Irányítási beállítások"
 msgid ""
 "You can configure one controller for each player.\n"
 "We advise you to always use GamePad as emulated input for the first player, "
-"since many games expect the GamePad to be present. It is also required for "
-"touch functionality.\n"
+"since many games expect the GamePad to be present.\n"
+"It is also required for touch functionality.\n"
 "The default global hotkeys are:\n"
 "CTRL - show pad screen\n"
 "CTRL + TAB - toggle pad screen\n"
@@ -1371,7 +1376,8 @@ msgid ""
 msgstr ""
 "Minden játékos számára külön kontrollert konfigurálhatsz.\n"
 "Az első játékosnak mindig ajánlott a GamePad-et használnia, mivel sok játék "
-"számít a GamePad jelenlétére, illetve kell az érintőképernyő emulálásához.\n"
+"számít a GamePad jelenlétére.\n"
+"A GamePad továbbá az érintőképernyő emulálásához is szükséges.\n"
 "Az alapértelmezett gyorsbillentyűk a következők:\n"
 "CTRL - GamePad mutatása\n"
 "CTRL + TAB - GamePad-képernyő kapcsolása\n"
@@ -1486,6 +1492,16 @@ msgstr "Ennek a grafikus csomagnak nincs leírása"
 #: GraphicPacksWindow2.cpp
 msgid "Restart of Cemu required for changes to take effect"
 msgstr "A beállítások érvénybe léptetéséhez újra kell indítanod a Cemu-t"
+
+#: GraphicPacksWindow2.cpp
+msgid "This update removed or renamed the following graphic packs:"
+msgstr ""
+"Ez a frissítés a következő grafikus csomagokat távolította el, vagy nevezte "
+"át:"
+
+#: GraphicPacksWindow2.cpp
+msgid "You may need to set them up again."
+msgstr "Lehet, hogy újra be kell őket állítani."
 
 #: helpers.cpp
 msgid "Error code"
@@ -1976,6 +1992,14 @@ msgstr "&Dumpolás"
 #: MainWindow.cpp
 msgid "&Render upside-down"
 msgstr "&Fejjel lefelé renderelés"
+
+#: MainWindow.cpp
+msgid "&Optimize shader SPIR-V"
+msgstr "&Shader SPIR-V optimalizálása"
+
+#: MainWindow.cpp
+msgid "&Experimental"
+msgstr "&Kísérleti"
 
 #: MainWindow.cpp
 msgid "&Open logging window"
