@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-04-04 20:16+0200\n"
-"PO-Revision-Date: 2020-04-08 21:38-0300\n"
+"POT-Creation-Date: 2020-04-25 03:15+0200\n"
+"PO-Revision-Date: 2020-04-25 09:07-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -17,6 +17,7 @@ msgid "Failed to run this title because at least one of the files is damaged."
 msgstr "Falha ao executar este título - um ou mais arquivos estão corrompidos."
 
 #: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
+#: GraphicPacksWindow2.cpp
 msgid "Warning"
 msgstr "Atenção"
 
@@ -155,7 +156,7 @@ msgstr "Cancelar"
 
 #: CemuUpdateWindow.cpp
 msgid "Changelog"
-msgstr "Registro de alterações"
+msgstr "Notas de atualização"
 
 #: CemuUpdateWindow.cpp
 msgid "Exit"
@@ -875,7 +876,7 @@ msgid ""
 msgstr ""
 "Se o jogo exigir sincronização, a CPU emulada aguardará até que a GPU "
 "termine todas as operações.\n"
-"Este comportamento torna a emulação mais precisa, mas pode causar queda de "
+"Este comportamento torna a emulação mais precisa, mas pode causar perda de "
 "desempenho."
 
 #: GeneralSettings2.cpp
@@ -1359,6 +1360,10 @@ msgid "Download community graphic packs"
 msgstr "Baixar pacotes gráficos da comunidade"
 
 #: GettingStartedDialog.cpp
+msgid "Next"
+msgstr "Próximo"
+
+#: GettingStartedDialog.cpp
 msgid "Input settings"
 msgstr "Configurações de controles"
 
@@ -1366,8 +1371,8 @@ msgstr "Configurações de controles"
 msgid ""
 "You can configure one controller for each player.\n"
 "We advise you to always use GamePad as emulated input for the first player, "
-"since many games expect the GamePad to be present. It is also required for "
-"touch functionality.\n"
+"since many games expect the GamePad to be present.\n"
+"It is also required for touch functionality.\n"
 "The default global hotkeys are:\n"
 "CTRL - show pad screen\n"
 "CTRL + TAB - toggle pad screen\n"
@@ -1380,7 +1385,8 @@ msgid ""
 msgstr ""
 "Você pode configurar um controle para cada jogador.\n"
 "Aconselhamos que você sempre use o GamePad como o controle emulado do "
-"primeiro jogador, já que muitos jogos esperam que o GamePad esteja presente. "
+"primeiro jogador, já que muitos jogos esperam que o GamePad esteja "
+"presente.\n"
 "Ele também é necessário para que comandos touchscreen funcionem.\n"
 "Os atalhos globais padrão são:\n"
 "CTRL - Mostrar a tela do GamePad\n"
@@ -1497,6 +1503,14 @@ msgstr "Este pacote gráfico não possui uma descrição"
 #: GraphicPacksWindow2.cpp
 msgid "Restart of Cemu required for changes to take effect"
 msgstr "É necessário reiniciar o Cemu para que as alterações sejam aplicadas"
+
+#: GraphicPacksWindow2.cpp
+msgid "This update removed or renamed the following graphic packs:"
+msgstr "Esta atualização removeu ou renomeou os seguintes pacotes gráficos:"
+
+#: GraphicPacksWindow2.cpp
+msgid "You may need to set them up again."
+msgstr "Pode ser necessário configurá-los novamente."
 
 #: helpers.cpp
 msgid "Error code"
@@ -1989,6 +2003,14 @@ msgid "&Render upside-down"
 msgstr "&Renderizar de cabeça para baixo"
 
 #: MainWindow.cpp
+msgid "&Optimize shader SPIR-V"
+msgstr "&Otimizar shader SPIR-V"
+
+#: MainWindow.cpp
+msgid "&Experimental"
+msgstr "&Experimental"
+
+#: MainWindow.cpp
 msgid "&Open logging window"
 msgstr "Abrir janela de &logs"
 
@@ -2246,10 +2268,10 @@ msgid ""
 "Please make sure the base game is intact and install updates only with the "
 "File->Install Update/DLC option"
 msgstr ""
-"Aparentemente, este título é apenas uma atualização ou o jogo base após ter "
-"sido mesclado com os dados de atualização.\n"
-"Extrações de jogos danificadas causam vários problemas durante a emulação e "
-"podem até mesmo parar de funcionar em futuras versões do Cemu.\n"
+"Aparentemente, este título é apenas uma atualização ou é o jogo base após "
+"ter sido mesclado com os dados de atualização.\n"
+"Cópias danificadas extraídas de jogos causam vários problemas durante a "
+"emulação e podem até mesmo parar de funcionar em futuras versões do Cemu.\n"
 "Certifique-se que o jogo base esteja intacto e instale atualizações apenas "
 "através da opção Arquivo > Instalar atualização ou DLC de jogo."
 
@@ -2275,7 +2297,7 @@ msgstr "DLC"
 
 #: wxGameList.cpp
 msgid "You've played"
-msgstr "Você jogou"
+msgstr "Tempo de jogo"
 
 #: wxGameList.cpp
 msgid "Last played"
