@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-04-25 03:15+0200\n"
-"PO-Revision-Date: 2020-04-25 04:03-0500\n"
+"POT-Creation-Date: 2020-05-08 22:02+0200\n"
+"PO-Revision-Date: 2020-05-08 18:05-0500\n"
 "Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -596,8 +596,8 @@ msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
 msgstr ""
-"Parece que una nueva actualización ya está instalada, ¿aún así desea "
-"instalar la versión anterior?"
+"Parece que una nueva actualización ya está instalada, ¿desea instalar la "
+"versión anterior de todos modos?"
 
 #: GameUpdateWindow.cpp
 msgid ""
@@ -1278,7 +1278,7 @@ msgstr "Almacenamiento en búfer triple"
 msgid "You have to restart the game in order to apply the new settings."
 msgstr "Tiene que reiniciar el juego para aplicar la nueva configuración."
 
-#: GeneralSettings2.cpp MainWindow.cpp
+#: GeneralSettings2.cpp MainWindow.cpp VulkanRenderer.cpp
 msgid "Information"
 msgstr "Información"
 
@@ -1794,11 +1794,11 @@ msgstr "Finalizar la emulación"
 
 #: MainWindow.cpp
 msgid "&Auto"
-msgstr "&Auto"
+msgstr "&Selección automática"
 
 #: MainWindow.cpp
 msgid "&USA"
-msgstr "&EEUU"
+msgstr "&Estados Unidos"
 
 #: MainWindow.cpp
 msgid "&Europe"
@@ -1818,7 +1818,7 @@ msgstr "&Corea"
 
 #: MainWindow.cpp
 msgid "&Taiwan"
-msgstr "&Taiwan"
+msgstr "&Taiwán"
 
 #: MainWindow.cpp
 msgid "&English"
@@ -2013,8 +2013,8 @@ msgid "&Render upside-down"
 msgstr "&Renderizar de arriba a abajo"
 
 #: MainWindow.cpp
-msgid "&Optimize shader SPIR-V"
-msgstr "&Optimizar sombreadores SPIR-V"
+msgid "&Async compile (Vulkan)"
+msgstr "&Computación asíncrona (Vulkan)"
 
 #: MainWindow.cpp
 msgid "&Experimental"
@@ -2236,6 +2236,25 @@ msgstr ""
 "Error al inicializar el renderizador Vulkan:\n"
 "{}"
 
+#: VulkanRenderer.cpp
+msgid ""
+"The currently installed graphics driver does not support the Vulkan "
+"extension necessary for asynchronous shader compilation. Asynchronous "
+"compilation cannot be used.\n"
+" \n"
+"Required extension: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Installing the latest graphics driver may solve this error."
+msgstr ""
+"El controlador de gráficos instalado actualmente no admite la extensión de "
+"Vulkan necesaria para la computación asíncrona del sombreador. No se puede "
+"usar la computación asíncrona.\n"
+" \n"
+"Extensión necesaria: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"La instalación del controlador de gráficos más reciente puede resolver este "
+"error."
+
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
 msgstr "Crear una nueva cuenta"
@@ -2393,6 +2412,9 @@ msgstr "Mostrar el &tiempo jugado"
 #: wxGameList.cpp
 msgid "Show &last played"
 msgstr "Mostrar la &última vez jugado"
+
+#~ msgid "&Optimize shader SPIR-V"
+#~ msgstr "&Optimizar sombreadores SPIR-V"
 
 #~ msgid ""
 #~ "Cemu detected DLC installed at multiple different locations.\n"
