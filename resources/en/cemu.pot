@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-04-25 03:15+0200\n"
+"POT-Creation-Date: 2020-05-08 22:02+0200\n"
 "PO-Revision-Date: 2018-06-12 19:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1161,7 +1161,7 @@ msgstr ""
 msgid "You have to restart the game in order to apply the new settings."
 msgstr ""
 
-#: GeneralSettings2.cpp MainWindow.cpp
+#: GeneralSettings2.cpp MainWindow.cpp VulkanRenderer.cpp
 msgid "Information"
 msgstr ""
 
@@ -1845,7 +1845,7 @@ msgid "&Render upside-down"
 msgstr ""
 
 #: MainWindow.cpp
-msgid "&Optimize shader SPIR-V"
+msgid "&Async compile (Vulkan)"
 msgstr ""
 
 #: MainWindow.cpp
@@ -2064,6 +2064,17 @@ msgstr ""
 msgid ""
 "Error when initializing Vulkan renderer:\n"
 "{}"
+msgstr ""
+
+#: VulkanRenderer.cpp
+msgid ""
+"The currently installed graphics driver does not support the Vulkan "
+"extension necessary for asynchronous shader compilation. Asynchronous "
+"compilation cannot be used.\n"
+" \n"
+"Required extension: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Installing the latest graphics driver may solve this error."
 msgstr ""
 
 #: wxCreateAccountDialog.cpp
