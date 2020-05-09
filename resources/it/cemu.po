@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-04-25 03:15+0200\n"
-"PO-Revision-Date: 2020-04-25 11:05+0200\n"
+"POT-Creation-Date: 2020-05-08 22:02+0200\n"
+"PO-Revision-Date: 2020-05-09 10:08+0200\n"
 "Last-Translator: Fs00 <francescosaltori@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -1290,7 +1290,7 @@ msgstr ""
 "Devi riavviare il gioco affinché le modifiche alle impostazioni possano "
 "essere applicate."
 
-#: GeneralSettings2.cpp MainWindow.cpp
+#: GeneralSettings2.cpp MainWindow.cpp VulkanRenderer.cpp
 msgid "Information"
 msgstr "Info"
 
@@ -2027,8 +2027,8 @@ msgid "&Render upside-down"
 msgstr "&Renderizza sottosopra"
 
 #: MainWindow.cpp
-msgid "&Optimize shader SPIR-V"
-msgstr "&Ottimizza shader SPIR-V"
+msgid "&Async compile (Vulkan)"
+msgstr "&Compilazione asincrona (Vulkan)"
 
 #: MainWindow.cpp
 msgid "&Experimental"
@@ -2250,6 +2250,25 @@ msgstr ""
 "Errore durante l'inizializzazione del renderer Vulkan:\n"
 "{}"
 
+#: VulkanRenderer.cpp
+msgid ""
+"The currently installed graphics driver does not support the Vulkan "
+"extension necessary for asynchronous shader compilation. Asynchronous "
+"compilation cannot be used.\n"
+" \n"
+"Required extension: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Installing the latest graphics driver may solve this error."
+msgstr ""
+"Il driver grafico attualmente installato non supporta l'estensione Vulkan "
+"necessaria per la compilazione asincrona degli shader, pertanto non è "
+"possibile utilizzare tale funzionalità.\n"
+" \n"
+"Estensione richiesta: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"L'installazione del driver grafico più recente potrebbe risolvere questo "
+"problema."
+
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
 msgstr "Crea un nuovo account"
@@ -2409,6 +2428,9 @@ msgstr "Mostra &tempo di gioco"
 #: wxGameList.cpp
 msgid "Show &last played"
 msgstr "Mostra &ultima partita"
+
+#~ msgid "&Optimize shader SPIR-V"
+#~ msgstr "&Ottimizza shader SPIR-V"
 
 #~ msgid ""
 #~ "Cemu detected DLC installed at multiple different locations.\n"
