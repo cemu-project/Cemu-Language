@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-04-25 03:15+0200\n"
-"PO-Revision-Date: 2020-04-25 09:27+0200\n"
+"POT-Creation-Date: 2020-05-08 22:02+0200\n"
+"PO-Revision-Date: 2020-05-09 09:08+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -1263,7 +1263,7 @@ msgstr "Háromszoros bufferelés"
 msgid "You have to restart the game in order to apply the new settings."
 msgstr "Az új beállítások alkalmazásához újra kell indítanod a játékot."
 
-#: GeneralSettings2.cpp MainWindow.cpp
+#: GeneralSettings2.cpp MainWindow.cpp VulkanRenderer.cpp
 msgid "Information"
 msgstr "Információ"
 
@@ -1994,8 +1994,8 @@ msgid "&Render upside-down"
 msgstr "&Fejjel lefelé renderelés"
 
 #: MainWindow.cpp
-msgid "&Optimize shader SPIR-V"
-msgstr "&Shader SPIR-V optimalizálása"
+msgid "&Async compile (Vulkan)"
+msgstr "&Szinkronizáltalan fordítás (Vulkan)"
 
 #: MainWindow.cpp
 msgid "&Experimental"
@@ -2217,6 +2217,25 @@ msgstr ""
 "Hiba a Vulkan renderelő inicializálása közben:\n"
 "{}"
 
+#: VulkanRenderer.cpp
+msgid ""
+"The currently installed graphics driver does not support the Vulkan "
+"extension necessary for asynchronous shader compilation. Asynchronous "
+"compilation cannot be used.\n"
+" \n"
+"Required extension: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Installing the latest graphics driver may solve this error."
+msgstr ""
+"A jelen grafikus-illesztőprogram nem támogatja a Vulkan azon kiegészítőjét, "
+"ami lehetővé teszi a szinkronizáltalan shader-fordítást. Emiatt ezt a "
+"funkciót nem használhatod.\n"
+"\n"
+"Szükséges kiegészítő: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Lehetséges, hogy ezt a problémát megoldja a grafikus-illesztőprogram "
+"frissítése."
+
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
 msgstr "Fiók létrehozása"
@@ -2372,6 +2391,9 @@ msgstr "Mutatás: &Játékidő"
 #: wxGameList.cpp
 msgid "Show &last played"
 msgstr "Mutatás: Legutóbbi megnyitás"
+
+#~ msgid "&Optimize shader SPIR-V"
+#~ msgstr "&Shader SPIR-V optimalizálása"
 
 #~ msgid "E&xit"
 #~ msgstr "&Kilépés"
