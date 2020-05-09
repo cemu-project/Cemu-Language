@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-04-25 03:15+0200\n"
-"PO-Revision-Date: 2020-04-25 09:07-0300\n"
+"POT-Creation-Date: 2020-05-08 22:02+0200\n"
+"PO-Revision-Date: 2020-05-09 13:51-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -1273,7 +1273,7 @@ msgstr "Buffering triplo"
 msgid "You have to restart the game in order to apply the new settings."
 msgstr "Você precisa reiniciar o jogo para aplicar as novas configurações."
 
-#: GeneralSettings2.cpp MainWindow.cpp
+#: GeneralSettings2.cpp MainWindow.cpp VulkanRenderer.cpp
 msgid "Information"
 msgstr "Informação"
 
@@ -2003,8 +2003,8 @@ msgid "&Render upside-down"
 msgstr "&Renderizar de cabeça para baixo"
 
 #: MainWindow.cpp
-msgid "&Optimize shader SPIR-V"
-msgstr "&Otimizar shader SPIR-V"
+msgid "&Async compile (Vulkan)"
+msgstr "Compilação &assíncrona (Vulkan)"
 
 #: MainWindow.cpp
 msgid "&Experimental"
@@ -2226,6 +2226,24 @@ msgstr ""
 "Erro ao inicializar o renderizador Vulkan:\n"
 "{}"
 
+#: VulkanRenderer.cpp
+msgid ""
+"The currently installed graphics driver does not support the Vulkan "
+"extension necessary for asynchronous shader compilation. Asynchronous "
+"compilation cannot be used.\n"
+" \n"
+"Required extension: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Installing the latest graphics driver may solve this error."
+msgstr ""
+"O driver de gráficos atualmente instalado não é compatível com a extensão do "
+"Vulkan necessária para compilação assíncrona de shaders. A compilação "
+"assíncrona não pode ser utilizada.\n"
+"\n"
+"Extensão necessária: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Instalar o driver de gráficos mais recente pode resolver este erro."
+
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
 msgstr "Criar nova conta"
@@ -2382,6 +2400,9 @@ msgstr "Mostrar &tempo de jogo"
 #: wxGameList.cpp
 msgid "Show &last played"
 msgstr "Mostrar &última vez jogado"
+
+#~ msgid "&Optimize shader SPIR-V"
+#~ msgstr "&Otimizar shader SPIR-V"
 
 #~ msgid "E&xit"
 #~ msgstr "Sa&ir"
