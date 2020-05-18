@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-05-08 22:02+0200\n"
-"PO-Revision-Date: 2020-05-17 16:14+0200\n"
+"PO-Revision-Date: 2020-05-18 13:35+0200\n"
 "Last-Translator: Crementif\n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -103,7 +103,9 @@ msgstr ""
 "opslaat.\n"
 "\n"
 "De verwachte locatie is:\n"
-"{}"
+"{}\n"
+"\n"
+"Wil je een nieuwe map maken bij de verwachte locatie?"
 
 #: CemuApp.cpp
 msgid "Yes"
@@ -180,7 +182,7 @@ msgstr "Downloaden van update is niet gelukt!"
 
 #: CemuUpdateWindow.cpp
 msgid "Applying update..."
-msgstr "Bijwerken van bestanden"
+msgstr "Bijwerken van bestanden..."
 
 #: CemuUpdateWindow.cpp
 msgid "Extracting failed!"
@@ -264,11 +266,11 @@ msgstr "PPC threads"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Entry"
-msgstr "Item"
+msgstr "Entry"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Stack"
-msgstr "Stapel"
+msgstr "Stack"
 
 #: debugPPCThreadsWindow.cpp
 msgid "PC"
@@ -280,15 +282,15 @@ msgstr "LR"
 
 #: debugPPCThreadsWindow.cpp
 msgid "State"
-msgstr "Staat"
+msgstr "State"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Affinity"
-msgstr "Affiniteit"
+msgstr "Affinity"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Priority"
-msgstr "Prioriteit"
+msgstr "Priority"
 
 #: debugPPCThreadsWindow.cpp
 msgid "SliceStart"
@@ -300,7 +302,7 @@ msgstr "SumWakeTime"
 
 #: debugPPCThreadsWindow.cpp
 msgid "ThreadName"
-msgstr "ThreadNaam"
+msgstr "ThreadName"
 
 #: debugPPCThreadsWindow.cpp
 msgid "GPR"
@@ -576,7 +578,7 @@ msgstr ""
 
 #: GameUpdateWindow.cpp
 msgid "Invalid folder structure"
-msgstr "Ongeldige folder structuur"
+msgstr "Ongeldige map structuur"
 
 #: GameUpdateWindow.cpp
 msgid ""
@@ -729,7 +731,7 @@ msgid ""
 "cursor is moved to the top"
 msgstr ""
 "Laat de menu bar zien wanneer Cemu in volledig scherm modus zit en de muis "
-"cursor aan de bovenkant is."
+"cursor aan de bovenkant is"
 
 #: GeneralSettings2.cpp GettingStartedDialog.cpp
 msgid "Automatically check for updates"
@@ -768,9 +770,9 @@ msgid ""
 "The mlc path is used to store Wii U related files like save games, game "
 "updates and dlc data"
 msgstr ""
-"Selecteer een aangepaste mlc map\n"
-"De mlc map wordt gebruikt om Wii U gerelateerde bestanden zoals save games, "
-"game updates en dlc data."
+"Selecteer een aangepaste MLC map\n"
+"De MLC map wordt gebruikt om Wii U gerelateerde bestanden zoals save games, "
+"game updates en dlc data"
 
 #: GeneralSettings2.cpp
 msgid "Game Paths"
@@ -781,7 +783,7 @@ msgid ""
 "Add the root directory of your game(s). It will scan all directories in it "
 "for games"
 msgstr ""
-"Voeg de folder toe die alle games bevat. Alle folders zullen worden gescand "
+"Voeg de map toe die alle games bevat. Alle submappen zullen worden gescand "
 "voor games"
 
 #: GeneralSettings2.cpp
@@ -792,7 +794,10 @@ msgstr "Voeg toe"
 msgid ""
 "Adds a game path to scan for games displayed in the game list\n"
 "If you have unpacked games, make sure to select the root folder of a game"
-msgstr "Voegt een game pad toe om te scannen voor de gamelijst."
+msgstr ""
+"Voegt een game pad toe om te scannen voor de gamelijst\n"
+"Als je uitgepakte games hebt, maak dan zeker dat je de hoofd map van een "
+"game selecteert."
 
 #: GeneralSettings2.cpp
 msgid "Remove"
@@ -800,9 +805,7 @@ msgstr "Verwijder"
 
 #: GeneralSettings2.cpp
 msgid "Removes the currently selected game path from the game list"
-msgstr ""
-"Verwijderd de geselecteerde game pad zodat hij niet meer wordt gescand voor "
-"de gamelijst."
+msgstr "Verwijderd de geselecteerde game map van de game lijst"
 
 #: GeneralSettings2.cpp
 msgid "Graphics API"
@@ -872,7 +875,7 @@ msgid ""
 msgstr ""
 "Als deze optie is ingeschakeld, zal, als de game vraagt om synchronisatie, "
 "de geëmuleerde CPU wachten tot de GPU klaar is met alle operaties.\n"
-"Dit is accurater gedrag, maar kan tot lagere prestaties leiden."
+"Dit is accurater gedrag, maar kan tot lagere prestaties leiden"
 
 #: GeneralSettings2.cpp
 msgid "Bilinear"
@@ -900,7 +903,7 @@ msgid ""
 "window size"
 msgstr ""
 "Opschaal filters worden gebruikt wanneer de spel resolutie kleiner is dan de "
-"venster grootte."
+"venster grootte"
 
 #: GeneralSettings2.cpp
 msgid "Downscale filter"
@@ -912,7 +915,7 @@ msgid ""
 "window size"
 msgstr ""
 "Verklein filters worden gebruikt wanneer de spel resolutie groter is dan het "
-"venster grote."
+"venster grote"
 
 #: GeneralSettings2.cpp
 msgid "Keep aspect ratio"
@@ -930,8 +933,8 @@ msgstr "Volledig scherm schalen"
 msgid ""
 "Controls the output aspect ratio when it doesn't match the ratio of the game"
 msgstr ""
-"Beheert de uitvoer beeldverhouding wanneer het niet gelijk is aan de "
-"beeldverhouding van het spel."
+"Bepaald de hoogte-breedteverhouding wanneer hij niet gelijk is met de ratio "
+"van het spel"
 
 #: GeneralSettings2.cpp
 msgid "Top left"
@@ -1277,7 +1280,7 @@ msgstr "Informatie"
 
 #: GeneralSettings2.cpp
 msgid "Select a directory containing games."
-msgstr "Kies een folder met de games erin."
+msgstr "Kies een map met de games erin."
 
 #: GeneralSettings2.cpp
 msgid "Online Status"
@@ -1304,11 +1307,11 @@ msgid ""
 "C:\\wiiu\\mlc\\) \n"
 "If left empty, the mlc folder will be created inside the Cemu folder."
 msgstr ""
-"De mlc map is de hoofd map van de geëmuleerde Wii U's interne flash opslag. "
+"De MLC map is de hoofd map van de geëmuleerde Wii U's interne flash opslag. "
 "Het bevat je saves, geïnstalleerde updates en DLC's.\n"
-"Het is sterk aangeraden dat je een nieuwe, speciale folder voor maakt "
+"Het is sterk aangeraden dat je een nieuwe, speciale map voor maakt "
 "(bijvoorbeeld C:\\wiiu\\mlc\\) \n"
-"Als je het leeg houd zal de mlc map worden gemaakt in Cemu's eigen map."
+"Als je dit leeg houd zal de MLC map worden aangemaakt in Cemu's eigen map."
 
 #: GettingStartedDialog.cpp
 msgid "Custom mlc01 path"
@@ -1324,7 +1327,7 @@ msgstr "(optioneel)"
 
 #: GettingStartedDialog.cpp
 msgid "Game paths"
-msgstr "Game Folders"
+msgstr "Game Mappen"
 
 #: GettingStartedDialog.cpp
 msgid ""
@@ -1389,7 +1392,8 @@ msgstr ""
 "De GamePad is ook verplicht voor touch functionaliteit.\n"
 "The standaard globale sneltoetsen zijn:\n"
 "CTRL - toon Gamepad scherm\n"
-"CTRL + TAB - Wisselt Gamepad scherm\n"
+"CTRL + TAB - wisselt Gamepad scherm\n"
+"ALT + ENTER - wisselt Gamepad scherm\n"
 "ESC - verlaat volledig scherm\n"
 "\n"
 "Als je problemen hebt met het configureren van je controller, zorg ervoor "
@@ -1745,7 +1749,7 @@ msgid ""
 "<gamefolder>. This process can take a few minutes."
 msgstr ""
 "Alle bestanden van het huidige spel zullen worden gedumpt naar /dump/"
-"<gamefolder>. Dit proces kan enkele minuten duren."
+"<gamemap>. Dit proces kan enkele minuten duren."
 
 #: MainWindow.cpp
 msgid "Dump WUD"
@@ -2005,7 +2009,7 @@ msgstr "&Geef op zijn kop weer"
 
 #: MainWindow.cpp
 msgid "&Async compile (Vulkan)"
-msgstr "&Async compilatie (Vulkan)"
+msgstr "&Asynchrone compilatie (Vulkan)"
 
 #: MainWindow.cpp
 msgid "&Experimental"
@@ -2051,7 +2055,6 @@ msgstr "&Debug"
 msgid "&Check for updates"
 msgstr "&Controleer voor updates"
 
-# Couldn't really find a great translation for this word unfortunately.
 #: MainWindow.cpp
 msgid "&Getting started"
 msgstr "&Aan de slag"
@@ -2288,11 +2291,17 @@ msgid ""
 "working at all in future Cemu versions\n"
 "Please make sure the base game is intact and install updates only with the "
 "File->Install Update/DLC option"
-msgstr "Deze game "
+msgstr ""
+"Deze game vermelding lijkt op een update of de basis game die samengevoegd "
+"is met de update\n"
+"Kapotte game dumps kunnen verschillende problemen hebben tijdens het "
+"emuleren en kunnen stoppen met werken in toekomstige Cemu versies\n"
+"Maak zeker dat de basis game intact is en dat de updates alleen zijn "
+"geïnstalleerd via de Bestand->Installeer Update/DLC optie"
 
 #: wxGameList.cpp
 msgid "You can configure game paths in the general settings."
-msgstr "Je kunt folders configureren in de algemene instellingen."
+msgstr "Je kunt game mappen configureren in de algemene instellingen."
 
 #: wxGameList.cpp
 msgid "never"
