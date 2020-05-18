@@ -1219,7 +1219,7 @@ msgstr "Mii naam"
 
 #: GeneralSettings2.cpp
 msgid "The mii name is the profile name"
-msgstr "De mii naam is je profiel naam"
+msgstr "De Mii naam is je profiel naam"
 
 #: GeneralSettings2.cpp
 msgid "Birthday"
