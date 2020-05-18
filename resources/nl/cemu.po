@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-05-08 22:02+0200\n"
-"PO-Revision-Date: 2020-05-18 13:35+0200\n"
+"PO-Revision-Date: 2020-05-18 23:11+0200\n"
 "Last-Translator: Crementif\n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -139,7 +139,7 @@ msgid ""
 "\n"
 "Error: {0}"
 msgstr ""
-"Kon niet de vereiste mlc01 submap of bestand aanmaken!\n"
+"Kon niet de vereiste Cemu map of bestand aanmaken!\n"
 "\n"
 "Waarschuwing: {0}"
 
@@ -755,14 +755,14 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "MLC Path"
-msgstr "MLC pad"
+msgstr "MLC map"
 
 #: GeneralSettings2.cpp
 msgid ""
 "The mlc directory contains your save games and installed game update/dlc data"
 msgstr ""
-"Het MLC pad bevat je save games en de door jouw geïnstalleerde game updates/"
-"DLC's"
+"De MLC map bevat je save games en de door jouw geïnstalleerde game updates/"
+"DLC data"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -772,7 +772,7 @@ msgid ""
 msgstr ""
 "Selecteer een aangepaste MLC map\n"
 "De MLC map wordt gebruikt om Wii U gerelateerde bestanden zoals save games, "
-"game updates en dlc data"
+"game updates en DLC data"
 
 #: GeneralSettings2.cpp
 msgid "Game Paths"
@@ -795,7 +795,7 @@ msgid ""
 "Adds a game path to scan for games displayed in the game list\n"
 "If you have unpacked games, make sure to select the root folder of a game"
 msgstr ""
-"Voegt een game pad toe om te scannen voor de gamelijst\n"
+"Voegt een game map toe om te scannen voor de gamelijst\n"
 "Als je uitgepakte games hebt, maak dan zeker dat je de hoofd map van een "
 "game selecteert."
 
