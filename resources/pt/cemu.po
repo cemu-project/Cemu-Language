@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-05-08 22:02+0200\n"
-"PO-Revision-Date: 2020-05-09 13:51-0300\n"
+"POT-Creation-Date: 2020-05-23 02:06+0200\n"
+"PO-Revision-Date: 2020-05-23 16:34-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -17,14 +17,14 @@ msgid "Failed to run this title because at least one of the files is damaged."
 msgstr "Falha ao executar este título - um ou mais arquivos estão corrompidos."
 
 #: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
-#: GraphicPacksWindow2.cpp
+#: GraphicPacksWindow2.cpp MainWindow.cpp wxTitleManagerList.cpp
 msgid "Warning"
 msgstr "Atenção"
 
-#: bootGame.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: bootGame.cpp CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
 #: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
 #: MainWindow.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
-#: wxCreateAccountDialog.cpp
+#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
 msgid "Error"
 msgstr "Erro"
 
@@ -44,13 +44,13 @@ msgstr ""
 
 #: BreakpointWindow.cpp GeneralSettings2.cpp
 msgid "On"
-msgstr "Em"
+msgstr "Ativado"
 
 #: BreakpointWindow.cpp debugPPCThreadsWindow.cpp ModuleWindow.cpp
 msgid "Address"
 msgstr "Endereço"
 
-#: BreakpointWindow.cpp textureRelationWindow.cpp
+#: BreakpointWindow.cpp textureRelationWindow.cpp wxTitleManagerList.cpp
 msgid "Type"
 msgstr "Tipo"
 
@@ -144,6 +144,14 @@ msgstr ""
 #: CemuApp.cpp
 msgid "Select a mlc directory"
 msgstr "Selecione uma pasta MLC"
+
+#: CemuApp.cpp
+msgid ""
+"Cemu can't write to the selected mlc path!\n"
+"Do you want to select another path?"
+msgstr ""
+"O Cemu não consegue salvar na pasta MLC selecionada!\n"
+"Deseja selecionar outra pasta?"
 
 #: CemuUpdateWindow.cpp
 msgid "Update"
@@ -634,36 +642,6 @@ msgid "Info"
 msgstr "Informação"
 
 #: GeneralSettings2.cpp
-msgid "Crash dump"
-msgstr "Relatório de erros"
-
-#: GeneralSettings2.cpp
-msgid "Disabled"
-msgstr "Desativado"
-
-#: GeneralSettings2.cpp
-msgid "Lite"
-msgstr "Leve"
-
-#: GeneralSettings2.cpp
-msgid "Full"
-msgstr "Completo"
-
-#: GeneralSettings2.cpp
-msgid ""
-"Creates a dump when Cemu crashes\n"
-"Only enable on demand!\n"
-"The Full option will create a big dump with the memory included"
-msgstr ""
-"Cria um relatório quando a execução do Cemu falhar\n"
-"Ative apenas se necessário!\n"
-"A opção Completo criará um relatório grande que inclui o despejo da memória"
-
-#: GeneralSettings2.cpp
-msgid "General settings"
-msgstr "Configurações gerais"
-
-#: GeneralSettings2.cpp
 msgid "Interface"
 msgstr "Interface"
 
@@ -939,6 +917,72 @@ msgstr ""
 "do jogo"
 
 #: GeneralSettings2.cpp
+msgid "API"
+msgstr "API"
+
+#: GeneralSettings2.cpp
+msgid "Select one of the available audio back ends"
+msgstr "Selecione um dos backends de áudio disponíveis"
+
+#: GeneralSettings2.cpp
+msgid "Latency"
+msgstr "Latência"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Controls the amount of buffered audio data\n"
+"Higher values will create a delay in audio playback, but may avoid audio "
+"problems when emulation is too slow"
+msgstr ""
+"Controla a quantidade de dados de áudio armazenados em buffer\n"
+"Valores mais altos criarão um atraso no áudio, mas podem evitar problemas de "
+"áudio quando a emulação estiver muito lenta"
+
+#: GeneralSettings2.cpp
+msgid "Mono"
+msgstr "Mono"
+
+#: GeneralSettings2.cpp
+msgid "Stereo"
+msgstr "Estéreo"
+
+#: GeneralSettings2.cpp
+msgid "Surround"
+msgstr "Surround"
+
+#: GeneralSettings2.cpp
+msgid "TV"
+msgstr "TV"
+
+#: GeneralSettings2.cpp
+msgid "Device"
+msgstr "Dispositivo"
+
+#: GeneralSettings2.cpp
+msgid "Select the active audio output device for Wii U TV"
+msgstr "Selecione o dispositivo de saída do áudio do Wii U na TV"
+
+#: GeneralSettings2.cpp
+msgid "Channels"
+msgstr "Canais"
+
+#: GeneralSettings2.cpp InputPanelGamepad.cpp InputPanelWiimote.cpp
+msgid "Volume"
+msgstr "Volume"
+
+#: GeneralSettings2.cpp
+msgid "Gamepad"
+msgstr "GamePad"
+
+#: GeneralSettings2.cpp
+msgid "Select the active audio output device for Wii U GamePad"
+msgstr "Selecione o dispositivo de saída do áudio do GamePad do Wii U"
+
+#: GeneralSettings2.cpp
+msgid "Disabled"
+msgstr "Desativado"
+
+#: GeneralSettings2.cpp
 msgid "Top left"
 msgstr "Superior esquerda"
 
@@ -1103,76 +1147,6 @@ msgid "Shows friend list related data if online"
 msgstr "Exibe dados relacionados à lista de amigos ao jogar online"
 
 #: GeneralSettings2.cpp
-msgid "Graphics"
-msgstr "Gráficos"
-
-#: GeneralSettings2.cpp
-msgid "API"
-msgstr "API"
-
-#: GeneralSettings2.cpp
-msgid "Select one of the available audio back ends"
-msgstr "Selecione um dos backends de áudio disponíveis"
-
-#: GeneralSettings2.cpp
-msgid "Latency"
-msgstr "Latência"
-
-#: GeneralSettings2.cpp
-msgid ""
-"Controls the amount of buffered audio data\n"
-"Higher values will create a delay in audio playback, but may avoid audio "
-"problems when emulation is too slow"
-msgstr ""
-"Controla a quantidade de dados de áudio armazenados em buffer\n"
-"Valores mais altos criarão um atraso no áudio, mas podem evitar problemas de "
-"áudio quando a emulação estiver muito lenta"
-
-#: GeneralSettings2.cpp
-msgid "Mono"
-msgstr "Mono"
-
-#: GeneralSettings2.cpp
-msgid "Stereo"
-msgstr "Estéreo"
-
-#: GeneralSettings2.cpp
-msgid "Surround"
-msgstr "Surround"
-
-#: GeneralSettings2.cpp
-msgid "TV"
-msgstr "TV"
-
-#: GeneralSettings2.cpp
-msgid "Device"
-msgstr "Dispositivo"
-
-#: GeneralSettings2.cpp
-msgid "Select the active audio output device for Wii U TV"
-msgstr "Selecione o dispositivo de saída do áudio do Wii U na TV"
-
-#: GeneralSettings2.cpp
-msgid "Channels"
-msgstr "Canais"
-
-#: GeneralSettings2.cpp InputPanelGamepad.cpp InputPanelWiimote.cpp
-msgid "Volume"
-msgstr "Volume"
-
-#: GeneralSettings2.cpp
-msgid "Gamepad"
-msgstr "GamePad"
-
-#: GeneralSettings2.cpp
-msgid "Select the active audio output device for Wii U GamePad"
-msgstr "Selecione o dispositivo de saída do áudio do GamePad do Wii U"
-
-#: GeneralSettings2.cpp
-msgid "Audio"
-msgstr "Áudio"
-
-#: GeneralSettings2.cpp
 msgid ""
 "Please be aware that online mode lets you connect to OFFICIAL servers and "
 "therefore there is a risk of getting banned.\n"
@@ -1240,6 +1214,40 @@ msgstr "E-mail"
 #: GeneralSettings2.cpp
 msgid "Country"
 msgstr "País"
+
+#: GeneralSettings2.cpp
+msgid "Crash dump"
+msgstr "Relatório de erros"
+
+#: GeneralSettings2.cpp
+msgid "Lite"
+msgstr "Leve"
+
+#: GeneralSettings2.cpp
+msgid "Full"
+msgstr "Completo"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Creates a dump when Cemu crashes\n"
+"Only enable on demand!\n"
+"The Full option will create a big dump with the memory included"
+msgstr ""
+"Cria um relatório quando a execução do Cemu falhar\n"
+"Ative apenas se necessário!\n"
+"A opção Completo criará um relatório grande que inclui o despejo da memória"
+
+#: GeneralSettings2.cpp
+msgid "General settings"
+msgstr "Configurações gerais"
+
+#: GeneralSettings2.cpp
+msgid "Graphics"
+msgstr "Gráficos"
+
+#: GeneralSettings2.cpp
+msgid "Audio"
+msgstr "Áudio"
 
 #: GeneralSettings2.cpp
 msgid "Account"
@@ -1468,7 +1476,8 @@ msgstr "Usar cache existente"
 msgid "Create new cache [recommended]"
 msgstr "Criar novo cache (recomendado)"
 
-#: GraphicPacksWindow2.cpp LoggingWindow.cpp toolMemorySearcher.cpp
+#: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
+#: toolMemorySearcher.cpp
 msgid "Filter"
 msgstr "Filtro"
 
@@ -1703,6 +1712,14 @@ msgid "Not a valid NFC NTAG215 file"
 msgstr "Arquivo NFC NTAG215 inválido"
 
 #: MainWindow.cpp
+msgid ""
+"Cemu can't write to its directory.\n"
+"Please move it to a different location or run Cemu as administrator!"
+msgstr ""
+"O Cemu não consegue salvar na própria pasta onde ele está instalado.\n"
+"Mova-o para um local diferente ou abra o Cemu como administrador!"
+
+#: MainWindow.cpp
 msgid "Update installed!"
 msgstr "Atualização instalada!"
 
@@ -1725,6 +1742,22 @@ msgstr "Tipo de arquivo desconhecido."
 #: MainWindow.cpp
 msgid "Failed to launch file."
 msgstr "Falha ao executar arquivo."
+
+#: MainWindow.cpp
+msgid "All Wii U files (wud, wux, iso, wad, rpx, elf)"
+msgstr "Todos os arquivos do Wii U (wud, wux, iso, wad, rpx, elf)"
+
+#: MainWindow.cpp
+msgid "Wii U image (wud, wux, iso, wad)"
+msgstr "Imagem do Wii U (wud, wux, iso, wad)"
+
+#: MainWindow.cpp
+msgid "Wii U executable (rpx, elf)"
+msgstr "Executável do Wii U (rpx, elf)"
+
+#: MainWindow.cpp
+msgid "All files (*.*)"
+msgstr "Todos os arquivos (*.*)"
 
 #: MainWindow.cpp
 msgid "Open file to launch"
@@ -1893,6 +1926,10 @@ msgstr "&Idioma do console"
 #: MainWindow.cpp
 msgid "&Memory searcher"
 msgstr "&Pesquisador de memória"
+
+#: MainWindow.cpp
+msgid "&Title Manager"
+msgstr "Gerenciador de &títulos"
 
 #: MainWindow.cpp
 msgid "&Tools"
@@ -2082,7 +2119,7 @@ msgstr "O arquivo seeprom.bin está corrompido ou possui um tamanho inválido"
 msgid "Unknown error occured"
 msgstr "Ocorreu um erro desconhecido"
 
-#: ModuleWindow.cpp
+#: ModuleWindow.cpp wxTitleManagerList.cpp
 msgid "Name"
 msgstr "Nome"
 
@@ -2165,6 +2202,31 @@ msgstr "Mostrar apenas ativo"
 #: textureRelationWindow.cpp
 msgid "Show views"
 msgstr "Mostrar views"
+
+#: TitleManager.cpp
+msgid "Title manager"
+msgstr "Gerenciador de títulos"
+
+#: TitleManager.cpp
+msgid ""
+"The following prefixes are supported:\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+msgstr ""
+"Os seguintes prefixos são suportados:\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+
+#: TitleManager.cpp
+msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
+msgstr ""
+"Foram encontrados {} títulos, {} atualizações, {} DLCs e {} jogos salvos"
 
 #: toolMemorySearcher.cpp
 msgid "Memory Searcher"
@@ -2305,7 +2367,7 @@ msgstr "nunca"
 msgid "Game"
 msgstr "Jogo"
 
-#: wxGameList.cpp
+#: wxGameList.cpp wxTitleManagerList.cpp
 msgid "Version"
 msgstr "Versão"
 
@@ -2400,6 +2462,92 @@ msgstr "Mostrar &tempo de jogo"
 #: wxGameList.cpp
 msgid "Show &last played"
 msgstr "Mostrar &última vez jogado"
+
+#: wxTitleManagerList.cpp
+msgid "Title id"
+msgstr "ID do título"
+
+#: wxTitleManagerList.cpp
+msgid "Region"
+msgstr "Região"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's an wrong title installed at the target location, should we fix that?"
+msgstr ""
+"Há um título incorreto instalado na região de destino. Corrigir isto agora?"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's already a newer or equal version installed at the correct location, "
+"so the redundant version will be deleted:"
+msgstr ""
+"Já existe uma versão igual ou mais recente instalada no local correto — "
+"logo, a versão redundante será excluída:"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Error when trying to delete the entry:\n"
+"{}"
+msgstr ""
+"Erro ao tentar excluir o item:\n"
+"{}"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's already an older version installed at the correct location, so the "
+"older version will be overwritten:"
+msgstr ""
+"Já existe uma versão mais antiga instalada no local correto — logo, a versão "
+"mais antiga será substituída:"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Error when trying to move the entry to the correct location:\n"
+"{}"
+msgstr ""
+"Erro ao tentar mover o item para o local correto:\n"
+"{}"
+
+#: wxTitleManagerList.cpp
+msgid "Your base game is installed at the wrong location."
+msgstr "O seu jogo base não está instalado no local correto."
+
+#: wxTitleManagerList.cpp
+msgid "Your update is installed at the wrong location."
+msgstr "A sua atualização não está instalada no local correto."
+
+#: wxTitleManagerList.cpp
+msgid "Your DLC is installed at the wrong location."
+msgstr "O seu DLC não está instalado no local correto."
+
+#: wxTitleManagerList.cpp
+msgid "You can use the context menu to fix it."
+msgstr "Você pode usar o menu de contexto para corrigir isso."
+
+#: wxTitleManagerList.cpp
+msgid "&Launch title"
+msgstr "&Iniciar título"
+
+#: wxTitleManagerList.cpp
+msgid "&Open directory"
+msgstr "&Abrir pasta"
+
+#: wxTitleManagerList.cpp
+msgid "Fix entry"
+msgstr "Corrigir item"
+
+#: wxTitleManagerList.cpp
+msgid "&Delete"
+msgstr "&Excluir"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Are you really sure that you want to delete the following folder:\n"
+"{}"
+msgstr ""
+"Deseja mesmo excluir a seguinte pasta?\n"
+"{}"
 
 #~ msgid "&Optimize shader SPIR-V"
 #~ msgstr "&Otimizar shader SPIR-V"
