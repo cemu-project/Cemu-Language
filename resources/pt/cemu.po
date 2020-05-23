@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-05-23 02:06+0200\n"
-"PO-Revision-Date: 2020-05-23 17:48-0300\n"
+"PO-Revision-Date: 2020-05-23 18:06-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -180,7 +180,7 @@ msgstr "Atualização disponível!"
 
 #: CemuUpdateWindow.cpp
 msgid "Extracting update..."
-msgstr "Extraindo atualização..."
+msgstr "Extraindo atualização…"
 
 #: CemuUpdateWindow.cpp
 msgid "Couldn't download the update!"
@@ -188,7 +188,7 @@ msgstr "Não foi possível baixar a atualização!"
 
 #: CemuUpdateWindow.cpp
 msgid "Applying update..."
-msgstr "Aplicando atualização..."
+msgstr "Aplicando atualização…"
 
 #: CemuUpdateWindow.cpp
 msgid "Extracting failed!"
@@ -204,7 +204,7 @@ msgstr "Reiniciar"
 
 #: CemuUpdateWindow.cpp
 msgid "Downloading update..."
-msgstr "Baixando atualização..."
+msgstr "Baixando atualização…"
 
 #: DebuggerWindow2.cpp
 msgid "GoTo (CTRL + G)"
@@ -386,15 +386,15 @@ msgstr ""
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Checking version..."
-msgstr "Verificando versão..."
+msgstr "Verificando versão…"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Downloading graphic packs..."
-msgstr "Baixando pacotes gráficos..."
+msgstr "Baixando pacotes gráficos…"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Extracting..."
-msgstr "Extraindo..."
+msgstr "Extraindo…"
 
 #: DumpCtrl.cpp RegisterCtrl.cpp RegisterWindow.cpp
 msgid "Enter a new value."
@@ -617,11 +617,11 @@ msgstr ""
 
 #: GameUpdateWindow.cpp
 msgid "Installing DLC ..."
-msgstr "Instalando DLC..."
+msgstr "Instalando DLC…"
 
 #: GameUpdateWindow.cpp
 msgid "Installing update ..."
-msgstr "Instalando atualização..."
+msgstr "Instalando atualização…"
 
 #: GameUpdateWindow.cpp
 msgid "Current file:"
@@ -1689,11 +1689,11 @@ msgstr "O número da porta deve ser no mínimo 1 e no máximo 65535"
 
 #: InputSettings.cpp
 msgid "Searching for wiimotes..."
-msgstr "Procurando por Wiimotes..."
+msgstr "Procurando por Wiimotes…"
 
 #: InputSettings.cpp
 msgid "Searching for controllers..."
-msgstr "Procurando por controles..."
+msgstr "Procurando por controles…"
 
 #: LoggingWindow.cpp
 msgid "Logging window"
@@ -1789,7 +1789,7 @@ msgstr "Despejo concluído"
 
 #: MainWindow.cpp
 msgid "Updating game list..."
-msgstr "Atualizando lista de jogos..."
+msgstr "Atualizando lista de jogos…"
 
 #: MainWindow.cpp
 msgid ""
@@ -1905,11 +1905,11 @@ msgstr "&Separar tela do GamePad"
 
 #: MainWindow.cpp
 msgid "&General settings"
-msgstr "Configurações &gerais..."
+msgstr "Configurações &gerais…"
 
 #: MainWindow.cpp
 msgid "&Input settings"
-msgstr "Configurações de &controles..."
+msgstr "Configurações de &controles…"
 
 #: MainWindow.cpp
 msgid "&Active account"
@@ -1941,7 +1941,7 @@ msgstr "&CPU"
 
 #: MainWindow.cpp
 msgid "&Scan NFC tag from file"
-msgstr "&Escanear tag NFC de um arquivo..."
+msgstr "&Escanear tag NFC de um arquivo…"
 
 #: MainWindow.cpp
 msgid "&NFC"
@@ -2089,7 +2089,7 @@ msgstr "&Verificar atualizações"
 
 #: MainWindow.cpp
 msgid "&Getting started"
-msgstr "&Guia de início..."
+msgstr "&Guia de início…"
 
 #: MainWindow.cpp
 msgid "&About"
