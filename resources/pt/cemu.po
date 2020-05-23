@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-05-23 02:06+0200\n"
-"PO-Revision-Date: 2020-05-23 16:55-0300\n"
+"PO-Revision-Date: 2020-05-23 17:48-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -1805,11 +1805,11 @@ msgstr "Notificação de atualização"
 
 #: MainWindow.cpp
 msgid "&Load"
-msgstr "&Carregar"
+msgstr "&Carregar…"
 
 #: MainWindow.cpp
 msgid "&Install game update or DLC"
-msgstr "&Instalar atualização ou DLC de jogo"
+msgstr "&Instalar atualização ou DLC de jogo…"
 
 #: MainWindow.cpp
 msgid "End emulation"
@@ -1905,11 +1905,11 @@ msgstr "&Separar tela do GamePad"
 
 #: MainWindow.cpp
 msgid "&General settings"
-msgstr "Configurações &gerais"
+msgstr "Configurações &gerais..."
 
 #: MainWindow.cpp
 msgid "&Input settings"
-msgstr "Configurações de &controles"
+msgstr "Configurações de &controles..."
 
 #: MainWindow.cpp
 msgid "&Active account"
@@ -1941,7 +1941,7 @@ msgstr "&CPU"
 
 #: MainWindow.cpp
 msgid "&Scan NFC tag from file"
-msgstr "&Escanear tag NFC de um arquivo"
+msgstr "&Escanear tag NFC de um arquivo..."
 
 #: MainWindow.cpp
 msgid "&NFC"
@@ -2017,7 +2017,7 @@ msgstr "&Registrar contexto PPC para a API"
 
 #: MainWindow.cpp
 msgid "&Textures"
-msgstr "&Texturas"
+msgstr "Te&xturas"
 
 #: MainWindow.cpp
 msgid "&Shaders"
@@ -2085,11 +2085,11 @@ msgstr "&Depuração"
 
 #: MainWindow.cpp
 msgid "&Check for updates"
-msgstr "&Verificar atualizações..."
+msgstr "&Verificar atualizações"
 
 #: MainWindow.cpp
 msgid "&Getting started"
-msgstr "&Guia de início"
+msgstr "&Guia de início..."
 
 #: MainWindow.cpp
 msgid "&About"
