@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-05-23 02:06+0200\n"
-"PO-Revision-Date: 2020-05-23 19:16-0300\n"
+"PO-Revision-Date: 2020-05-23 19:30-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -496,18 +496,17 @@ msgstr "Precisão da multip. de shaders"
 
 #: GameProfileWindow.cpp
 msgid "false"
-msgstr "desativada"
+msgstr "Desativada"
 
 #: GameProfileWindow.cpp
 msgid "true"
-msgstr "ativada"
+msgstr "Ativada"
 
 #: GameProfileWindow.cpp
 msgid "minimal"
-msgstr "mínima"
+msgstr "Mínima"
 
 #: GameProfileWindow.cpp
-#, fuzzy
 msgid ""
 "EXPERT OPTION\n"
 "Controls the accuracy of floating point multiplication in shaders.\n"
@@ -518,7 +517,7 @@ msgstr ""
 "Controla a precisão da multiplicação\n"
 "de pontos flutuantes em shaders.\n"
 "\n"
-"Recomendado: true"
+"Recomendado: Ativada"
 
 #: GameProfileWindow.cpp
 msgid "GPU buffer cache accuracy"
@@ -526,15 +525,15 @@ msgstr "Precisão do cache do buffer da GPU"
 
 #: GameProfileWindow.cpp
 msgid "high"
-msgstr "alta"
+msgstr "Alta"
 
 #: GameProfileWindow.cpp
 msgid "medium"
-msgstr "média"
+msgstr "Média"
 
 #: GameProfileWindow.cpp
 msgid "low"
-msgstr "baixa"
+msgstr "Baixa"
 
 #: GameProfileWindow.cpp
 msgid ""
@@ -701,7 +700,7 @@ msgid ""
 "You will also need to enable it in the Discord settings itself!"
 msgstr ""
 "Ativa a funcionalidade do Discord Rich Presence.\n"
-"Também é necessário deixá-la ativada nas configurações do Discord!"
+"Também é necessário ativá-la nas configurações do Discord!"
 
 #: GeneralSettings2.cpp
 msgid "Fullscreen menu bar"
@@ -804,31 +803,26 @@ msgid "Graphics Device"
 msgstr "Dispositivo gráfico"
 
 #: GeneralSettings2.cpp
-#, fuzzy
 msgid "Select the used graphic device"
-msgstr "Selecione o dispositivo gráfico utilizado."
+msgstr "Selecione o dispositivo gráfico a ser utilizado."
 
 #: GeneralSettings2.cpp
 msgid "Precompiled shaders"
 msgstr "Shaders pré-compilados"
 
 #: GeneralSettings2.cpp
-#, fuzzy
 msgid "auto"
-msgstr "auto"
+msgstr "Automático"
 
 #: GeneralSettings2.cpp
-#, fuzzy
 msgid "enable"
-msgstr "ativar"
+msgstr "Ativar"
 
 #: GeneralSettings2.cpp
-#, fuzzy
 msgid "disable"
-msgstr "desativar"
+msgstr "Desativar"
 
 #: GeneralSettings2.cpp
-#, fuzzy
 msgid ""
 "Precompiled shaders can speed up the load time on the shader loading "
 "screen.\n"
@@ -837,12 +831,13 @@ msgid ""
 "\n"
 "Recommended: Auto"
 msgstr ""
-"Shaders pré-compilados podem acelerar o tempo de carregamento dos shaders no "
-"início da emulação.\n"
-"A opção \"auto\" ativará isto para AMD/Intel, mas deixará desativado em GPUs "
-"da NVIDIA como solução para um bug no driver.\n"
+"Shaders pré-compilados podem acelerar o tempo de\n"
+"carregamento dos shaders no início da emulação.\n"
+"A opção \"Automático\" ativará isto para AMD/Intel,\n"
+"mas deixará desativado em GPUs da NVIDIA\n"
+"como solução para um bug no driver.\n"
 "\n"
-"Recomendado: Auto"
+"Recomendado: Automático"
 
 #: GeneralSettings2.cpp
 msgid "VSync"
@@ -1774,11 +1769,11 @@ msgstr "Todos os arquivos (*.*)"
 
 #: MainWindow.cpp
 msgid "Open file to launch"
-msgstr "Abrir um arquivo para iniciar"
+msgstr "Abra um arquivo para iniciar"
 
 #: MainWindow.cpp
 msgid "Open file to load"
-msgstr "Abrir um arquivo para carregar"
+msgstr "Abra um arquivo para carregar"
 
 #: MainWindow.cpp
 msgid "Cemu must be restarted to apply the selected UI language."
@@ -2239,7 +2234,7 @@ msgstr ""
 #: TitleManager.cpp
 msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
 msgstr ""
-"Foram encontrados {} títulos, {} atualizações, {} DLCs e {} jogos salvos"
+"Foram encontrados {} títulos, {} atualizações, {} DLCs e {} jogos salvos."
 
 #: toolMemorySearcher.cpp
 msgid "Memory Searcher"
