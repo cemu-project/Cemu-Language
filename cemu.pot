@@ -1,0 +1,2352 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cemu\n"
+"POT-Creation-Date: 2020-05-23 02:06+0200\n"
+"PO-Revision-Date: 2018-06-12 19:51+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bootGame.cpp
+msgid "Failed to run this title because at least one of the files is damaged."
+msgstr ""
+
+#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
+#: GraphicPacksWindow2.cpp MainWindow.cpp wxTitleManagerList.cpp
+msgid "Warning"
+msgstr ""
+
+#: bootGame.cpp CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
+#: MainWindow.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
+#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+msgid "Error"
+msgstr ""
+
+#: bootGame.cpp
+msgid ""
+"Cemu detected a DLC installed at a wrong or outdated location:\n"
+"{}\n"
+"\n"
+"Do you want to move it to the correct location:\n"
+"{}"
+msgstr ""
+
+#: BreakpointWindow.cpp GeneralSettings2.cpp
+msgid "On"
+msgstr ""
+
+#: BreakpointWindow.cpp debugPPCThreadsWindow.cpp ModuleWindow.cpp
+msgid "Address"
+msgstr ""
+
+#: BreakpointWindow.cpp textureRelationWindow.cpp wxTitleManagerList.cpp
+msgid "Type"
+msgstr ""
+
+#: BreakpointWindow.cpp
+msgid "Comment"
+msgstr ""
+
+#: BreakpointWindow.cpp DisasmCtrl.cpp
+msgid "Enter a new comment."
+msgstr ""
+
+#: BreakpointWindow.cpp
+#, c-format
+msgid "Set comment for breakpoint at address %08x"
+msgstr ""
+
+#: BreakpointWindow.cpp
+msgid "Create memory breakpoint (read)"
+msgstr ""
+
+#: BreakpointWindow.cpp
+msgid "Create memory breakpoint (write)"
+msgstr ""
+
+#: BreakpointWindow.cpp
+msgid "Enter a memory address"
+msgstr ""
+
+#: BreakpointWindow.cpp
+msgid "Memory breakpoint"
+msgstr ""
+
+#: CemuApp.cpp
+msgid ""
+"Your mlc01 folder seems to be missing.\n"
+"\n"
+"This is where Cemu stores save files, game updates and other Wii U files.\n"
+"\n"
+"The expected path is:\n"
+"{}\n"
+"\n"
+"Do you want to create the folder at the expected path?"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Yes"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "No"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Select a custom path"
+msgstr ""
+
+#: CemuApp.cpp
+msgid ""
+"Couldn't create a required mlc01 subfolder or file!\n"
+"\n"
+"Error: {0}\n"
+"Target path:\n"
+"{1}"
+msgstr ""
+
+#: CemuApp.cpp
+msgid ""
+"Couldn't create a required cemu directory or file!\n"
+"\n"
+"Error: {0}"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Select a mlc directory"
+msgstr ""
+
+#: CemuApp.cpp
+msgid ""
+"Cemu can't write to the selected mlc path!\n"
+"Do you want to select another path?"
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "Update"
+msgstr ""
+
+#: CemuUpdateWindow.cpp DownloadGraphicPacksWindow.cpp GameUpdateWindow.cpp
+#: wxCreateAccountDialog.cpp
+msgid "Cancel"
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "Changelog"
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "Exit"
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "No update available!"
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "Update available!"
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "Extracting update..."
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "Couldn't download the update!"
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "Applying update..."
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "Extracting failed!"
+msgstr ""
+
+#: CemuUpdateWindow.cpp MainWindow.cpp
+msgid "Success"
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "Restart"
+msgstr ""
+
+#: CemuUpdateWindow.cpp
+msgid "Downloading update..."
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "GoTo (CTRL + G)"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "Toggle Breakpoint (F9)"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "Break (F5)"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "Step Into (F11)"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "Step Over (F10)"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "Run (F5)"
+msgstr ""
+
+#: DebuggerWindow2.cpp MainWindow.cpp
+msgid "&Exit"
+msgstr ""
+
+#: DebuggerWindow2.cpp MainWindow.cpp
+msgid "&File"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "&Pin to main window"
+msgstr ""
+
+#: DebuggerWindow2.cpp MainWindow.cpp
+msgid "&Options"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "&Registers"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "&Memory Dump"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "&Breakpoints"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "Module&list"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "&Window"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "PPC threads"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Entry"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Stack"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "PC"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "LR"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "State"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Affinity"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Priority"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "SliceStart"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "SumWakeTime"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "ThreadName"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "GPR"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp textureRelationWindow.cpp
+msgid "Refresh"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Auto refresh"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Boost priority (-5)"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Boost priority (-1)"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Decrease priority (+5)"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Decrease priority (+1)"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Resume"
+msgstr ""
+
+#: debugPPCThreadsWindow.cpp
+msgid "Suspend"
+msgstr ""
+
+#: DisasmCtrl.cpp
+msgid "Enter a new instruction."
+msgstr ""
+
+#: DisasmCtrl.cpp DumpCtrl.cpp
+msgid "Enter a target address."
+msgstr ""
+
+#: DisasmCtrl.cpp DumpCtrl.cpp
+msgid "GoTo address"
+msgstr ""
+
+#: DownloadGraphicPacksWindow.cpp
+msgid "Graphic packs cannot be updated while a game is running."
+msgstr ""
+
+#: DownloadGraphicPacksWindow.cpp GettingStartedDialog.cpp
+#: GraphicPacksWindow2.cpp
+msgid "Graphic packs"
+msgstr ""
+
+#: DownloadGraphicPacksWindow.cpp
+msgid "Failed to connect to server"
+msgstr ""
+
+#: DownloadGraphicPacksWindow.cpp
+msgid "No updates available."
+msgstr ""
+
+#: DownloadGraphicPacksWindow.cpp
+msgid ""
+"Updated graphic packs are available. Do you want to download and install "
+"them?"
+msgstr ""
+
+#: DownloadGraphicPacksWindow.cpp
+msgid "Checking version..."
+msgstr ""
+
+#: DownloadGraphicPacksWindow.cpp
+msgid "Downloading graphic packs..."
+msgstr ""
+
+#: DownloadGraphicPacksWindow.cpp
+msgid "Extracting..."
+msgstr ""
+
+#: DumpCtrl.cpp RegisterCtrl.cpp RegisterWindow.cpp
+msgid "Enter a new value."
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Edit game profile"
+msgstr ""
+
+#: GameProfileWindow.cpp GeneralSettings2.cpp
+msgid "General"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Load shared libraries"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid ""
+"EXPERT OPTION\n"
+"This option will load libraries from the cafeLibs directory"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Launch with gamepad view"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid ""
+"Games will be launched with gamepad view toggled as default. The view can be "
+"toggled with CTRL + TAB"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "CPU"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Mode"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Singlecore-Interpreter"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Singlecore-Recompiler"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Dualcore-Recompiler"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Triplecore-Recompiler"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Set the CPU emulation mode"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Thread quantum"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid ""
+"EXPERT OPTION\n"
+"Set the maximum thread slice runtime (in virtual cycles)"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "cycles"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Extended texture readback"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid ""
+"Improves emulation accuracy of CPU to GPU memory access at the cost of "
+"performance. Required for some games."
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Shader mul accuracy"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "false"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "true"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "minimal"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid ""
+"EXPERT OPTION\n"
+"Controls the accuracy of floating point multiplication in shaders.\n"
+"\n"
+"Recommended: true"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "GPU buffer cache accuracy"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "high"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "medium"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "low"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid ""
+"Lower value results in higher performance, but may cause graphical issues"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Graphic"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Controller"
+msgstr ""
+
+#: GameProfileWindow.cpp
+msgid "Forces a given controller profile"
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Can't open the file."
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Invalid \"meta.xml\" file."
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Can't find the \"product_code\" in the given \"meta.xml\" file."
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "The given \"meta.xml\" file is no update or DLC."
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Invalid folder structure"
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid ""
+"It seems that the selected update is already installed, do you want to "
+"reinstall it?"
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid ""
+"It seems that a newer update is already installed, do you still want to "
+"install the older version?"
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid ""
+"Not enough space available.\n"
+"Required: {0} MB\n"
+"Available: {1} MB"
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Installing DLC ..."
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Installing update ..."
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Current file:"
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid ""
+"Do you really want to cancel the update process?\n"
+"\n"
+"Canceling the process will delete the applied update."
+msgstr ""
+
+#: GameUpdateWindow.cpp
+msgid "Info"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Interface"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Language"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Default"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "English"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Changes the interface language of Cemu\n"
+"Available languages are stored in the translation directory\n"
+"A restart will be required after changing the language"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Remember main window position"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Restores the last known window position and size when starting Cemu"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Remember pad window position"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Restores the last known pad window position and size when opening it"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Discord Presence"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Enables the Discord Rich Presence feature\n"
+"You will also need to enable it in the Discord settings itself!"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Fullscreen menu bar"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Displays the menu bar when Cemu is running in fullscreen mode and the mouse "
+"cursor is moved to the top"
+msgstr ""
+
+#: GeneralSettings2.cpp GettingStartedDialog.cpp
+msgid "Automatically check for updates"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Automatically checks for new cemu versions on startup"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Save screenshot"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Pressing the screenshot key (F12) will save a screenshot directly to the "
+"screenshots folder"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "MLC Path"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"The mlc directory contains your save games and installed game update/dlc data"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Select a custom mlc path\n"
+"The mlc path is used to store Wii U related files like save games, game "
+"updates and dlc data"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Game Paths"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Add the root directory of your game(s). It will scan all directories in it "
+"for games"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Add"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Adds a game path to scan for games displayed in the game list\n"
+"If you have unpacked games, make sure to select the root folder of a game"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Remove"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Removes the currently selected game path from the game list"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Graphics API"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Select one of the available graphic back ends"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Graphics Device"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Select the used graphic device"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Precompiled shaders"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "auto"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "enable"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "disable"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Precompiled shaders can speed up the load time on the shader loading "
+"screen.\n"
+"Auto will enable it for AMD/Intel but disable it for NVIDIA GPUs as a "
+"workaround for a driver bug.\n"
+"\n"
+"Recommended: Auto"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "VSync"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Controls the vsync state"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Full sync at GX2DrawDone()"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"If synchronization is requested by the game, the emulated CPU will wait for "
+"the GPU to finish all operations.\n"
+"This is more accurate behavior, but may cause lower performance"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Bilinear"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Bicubic"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Hermite"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Nearest Neighbor"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Upscale filter"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Upscaling filters are used when the game resolution is smaller than the "
+"window size"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Downscale filter"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Downscaling filters are used when the game resolution is bigger than the "
+"window size"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Keep aspect ratio"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Stretch"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Fullscreen scaling"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Controls the output aspect ratio when it doesn't match the ratio of the game"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "API"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Select one of the available audio back ends"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Latency"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Controls the amount of buffered audio data\n"
+"Higher values will create a delay in audio playback, but may avoid audio "
+"problems when emulation is too slow"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Mono"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Stereo"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Surround"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "TV"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Device"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Select the active audio output device for Wii U TV"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Channels"
+msgstr ""
+
+#: GeneralSettings2.cpp InputPanelGamepad.cpp InputPanelWiimote.cpp
+msgid "Volume"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Gamepad"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Select the active audio output device for Wii U GamePad"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Disabled"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Top left"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Top center"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Top right"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Bottom left"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Bottom center"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Bottom right"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Overlay"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Position"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Controls the overlay which displays technical information while playing"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Text Color"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Sets the text color of the overlay"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Scale"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Sets the scale of the overlay text"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "FPS"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "The number of frames per second. Average over last 5 seconds"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Draw calls per frame"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "The number of draw calls per frame. Average over last 5 seconds"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "CPU usage"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "CPU usage of Cemu in percent"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "CPU per core usage"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Total cpu usage in percent for each core"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "RAM usage"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Cemu RAM usage in MB"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "VRAM usage"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "The VRAM usage of Cemu in MB"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "This option requires Win8.1+"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Debug"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Displays internal debug information (Vulkan only)"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Notifications"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Controls the notification position while playing"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Sets the text color of notifications"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Sets the scale of the notification text"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Controller profiles"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Displays the active controller profile when starting a game"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Low battery"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Shows a notification when a low controller battery has been detected"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Shader compiler"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Shows a notification after shaders have been compiled"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Friend list"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Shows friend list related data if online"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Please be aware that online mode lets you connect to OFFICIAL servers and "
+"therefore there is a risk of getting banned.\n"
+"Only proceed if you are willing to risk losing online access with your Wii U "
+"and/or NNID."
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Account settings"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Active account"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Create"
+msgstr ""
+
+#: GeneralSettings2.cpp InputSettings.cpp
+msgid "Delete"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Enable online mode"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Account information"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "The persistent id is the internal folder name used for your saves"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Mii name"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "The mii name is the profile name"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Birthday"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Female"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Male"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Email"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Country"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Crash dump"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Lite"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Full"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Creates a dump when Cemu crashes\n"
+"Only enable on demand!\n"
+"The Full option will create a big dump with the memory included"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "General settings"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Graphics"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Audio"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Account"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Can't delete the only account!"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Are you sure you want to delete the account {} with id {:x}?"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Confirmation"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Off"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Double buffering"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Triple buffering"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "You have to restart the game in order to apply the new settings."
+msgstr ""
+
+#: GeneralSettings2.cpp MainWindow.cpp VulkanRenderer.cpp
+msgid "Information"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Select a directory containing games."
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Online Status"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid ""
+"It looks like you're starting Cemu for the first time.\n"
+"This quick setup assistant will help you get the best experience"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "mlc01 path"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid ""
+"The mlc path is the root folder of the emulated Wii U internal flash "
+"storage. It contains all your saves, installed updates and DLCs.\n"
+"It is strongly recommend that you create a dedicated folder for it (example: "
+"C:\\wiiu\\mlc\\) \n"
+"If left empty, the mlc folder will be created inside the Cemu folder."
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Custom mlc01 path"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Select a folder"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "(optional)"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Game paths"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid ""
+"The game path is scanned by Cemu to locate your games. We recommend creating "
+"a dedicated directory in which\n"
+"you place all your Wii U games. (example: C:\\wiiu\\games\\)\n"
+"\n"
+"You can also set additional paths in the general settings of Cemu."
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Game path"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid ""
+"Graphic packs improve games by offering the possibility to change "
+"resolution, tweak FPS or add other visual or gameplay modifications.\n"
+"Download the community graphic packs to get started.\n"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Download community graphic packs"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Next"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Input settings"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid ""
+"You can configure one controller for each player.\n"
+"We advise you to always use GamePad as emulated input for the first player, "
+"since many games expect the GamePad to be present.\n"
+"It is also required for touch functionality.\n"
+"The default global hotkeys are:\n"
+"CTRL - show pad screen\n"
+"CTRL + TAB - toggle pad screen\n"
+"ALT + ENTER - toggle fullscreen\n"
+"ESC - leave fullscreen\n"
+"\n"
+"If you're having trouble configuring your controller, make sure to have it "
+"in idle state and press calibrate.\n"
+"Also don't set the axis deadzone too low."
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Configure input"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Additional options"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Start games with fullscreen"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Open separate pad screen"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Don't show this again"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Previous"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Close"
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid "Getting started"
+msgstr ""
+
+#: gpu7ShaderCache.cpp
+msgid ""
+"Outdated shader cache\n"
+"\n"
+"The stored shader cache for this game was created with a Cemu version prior "
+"to 1.16.0.\n"
+"\n"
+"There are no significant downsides to reusing an existing cache but it may "
+"contain bloat that is no longer used by current versions of Cemu.\n"
+"\n"
+"It is highly recommended to start a new cache. Note that a new cache means "
+"that you will experience additional stutter during the first minutes of "
+"gameplay."
+msgstr ""
+
+#: gpu7ShaderCache.cpp
+msgid "Shader cache migration"
+msgstr ""
+
+#: gpu7ShaderCache.cpp
+msgid "Use existing cache"
+msgstr ""
+
+#: gpu7ShaderCache.cpp
+msgid "Create new cache [recommended]"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
+#: toolMemorySearcher.cpp
+msgid "Filter"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "Installed games"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "Graphic pack"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "Description"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "Control"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "Download latest community graphic packs"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "Active preset"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "This graphic pack has no description"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "Restart of Cemu required for changes to take effect"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "This update removed or renamed the following graphic packs:"
+msgstr ""
+
+#: GraphicPacksWindow2.cpp
+msgid "You may need to set them up again."
+msgstr ""
+
+#: helpers.cpp
+msgid "Error code"
+msgstr ""
+
+#: InputPanelClassic.cpp InputPanelGamepad.cpp InputPanelPro.cpp
+msgid "Left Axis"
+msgstr ""
+
+#: InputPanelClassic.cpp InputPanelGamepad.cpp InputPanelPro.cpp
+#: InputPanelWiimote.cpp
+msgid "Deadzone"
+msgstr ""
+
+#: InputPanelClassic.cpp InputPanelGamepad.cpp InputPanelPro.cpp
+#: InputPanelWiimote.cpp
+msgid "Range"
+msgstr ""
+
+#: InputPanelClassic.cpp InputPanelGamepad.cpp InputPanelPro.cpp
+msgid "Right Axis"
+msgstr ""
+
+#: InputPanelClassic.cpp InputPanelGamepad.cpp InputPanelPro.cpp
+#: InputPanelWiimote.cpp
+msgid "D-pad"
+msgstr ""
+
+#: InputPanelGamepad.cpp
+msgid "blow mic"
+msgstr ""
+
+#: InputPanelGamepad.cpp
+msgid "show screen"
+msgstr ""
+
+#: InputPanelWiimote.cpp
+msgid "Extensions:"
+msgstr ""
+
+#: InputPanelWiimote.cpp
+msgid "MotionPlus"
+msgstr ""
+
+#: InputPanelWiimote.cpp
+msgid "Nunchuck"
+msgstr ""
+
+#: InputPanelWiimote.cpp
+msgid "Classic"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Input Settings"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Controller {}"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Couldn't save settings for controller {0}"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Profile"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Load"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Save"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Emulate Controller"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Controller API:"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Settings"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Controller:"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Test if the controller is connected"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Calibrate"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Reset the default state of the controller"
+msgstr ""
+
+#: InputSettings.cpp toolMemorySearcher.cpp
+msgid "Clear"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Clear all currently set input settings"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Additional settings"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Rumble"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Button Threshold"
+msgstr ""
+
+#: InputSettings.cpp
+msgid ""
+"The threshold of a button to recognizes a press from a trigger/axis value"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "No profile name selected!"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "The given profile name is not valid!"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Couldn't load the selected profile!"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "No profile name entered!"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Couldn't save the profile!"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "DSU client settings"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "IP"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Port"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "The entered port must be between 1 and 65535"
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Searching for wiimotes..."
+msgstr ""
+
+#: InputSettings.cpp
+msgid "Searching for controllers..."
+msgstr ""
+
+#: LoggingWindow.cpp
+msgid "Logging window"
+msgstr ""
+
+#: LoggingWindow.cpp
+msgid "Filter messages"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Cannot open file"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Not a valid NFC NTAG215 file"
+msgstr ""
+
+#: MainWindow.cpp
+msgid ""
+"Cemu can't write to its directory.\n"
+"Please move it to a different location or run Cemu as administrator!"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Update installed!"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Update installation has been canceled!"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Update error"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Unable to open file."
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Unknown file type."
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Failed to launch file."
+msgstr ""
+
+#: MainWindow.cpp
+msgid "All Wii U files (wud, wux, iso, wad, rpx, elf)"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Wii U image (wud, wux, iso, wad)"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Wii U executable (rpx, elf)"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "All files (*.*)"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Open file to launch"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Open file to load"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Cemu must be restarted to apply the selected UI language."
+msgstr ""
+
+#: MainWindow.cpp
+msgid ""
+"All files from the currently running game will be dumped to /dump/"
+"<gamefolder>. This process can take a few minutes."
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Dump WUD"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Dump complete"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Updating game list..."
+msgstr ""
+
+#: MainWindow.cpp
+msgid ""
+"There's a new update available.\n"
+"Do you want to update?"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Update notification"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Load"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Install game update or DLC"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "End emulation"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Auto"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&USA"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Europe"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Japan"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&China"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Korea"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Taiwan"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&English"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Japanese"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&French"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&German"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Italian"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Spanish"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Chinese"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Korean"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Dutch"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Portuguese"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Russian"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Taiwanese"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Fullscreen"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Graphic packs"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Separate GamePad view"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&General settings"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Input settings"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Active account"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Console region"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Console language"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Memory searcher"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Title Manager"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Tools"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&CPU"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Scan NFC tag from file"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&NFC"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Unsupported API calls"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Coreinit File-Access"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Coreinit Thread-Synchronization API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Coreinit Memory API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Coreinit MP API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&NN NFP"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&GX2 API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Audio API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Input API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Socket API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Save API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&H264 API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Graphic pack patches"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Texture cache warnings"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&OpenGL debug output"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Vulkan validation layer (slow)"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Log PPC context for API"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Textures"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Shaders"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&nlibcurl HTTP/HTTPS requests"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Logging"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Dump"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Render upside-down"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Async compile (Vulkan)"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Experimental"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Open logging window"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&View PPC threads"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&View PPC debugger"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&View audio debugger"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&View texture cache info"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Show frame profiler"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Dump current RAM"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Dump WUD filesystem"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Debug"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Check for updates"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Getting started"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&About"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "&Help"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "otp.bin could not be found"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "otp.bin is corrupted or has invalid size"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "seeprom.bin could not be found"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "seeprom.bin is corrupted or has invalid size"
+msgstr ""
+
+#: MainWindow.cpp
+msgid "Unknown error occured"
+msgstr ""
+
+#: ModuleWindow.cpp wxTitleManagerList.cpp
+msgid "Name"
+msgstr ""
+
+#: ModuleWindow.cpp
+msgid "Size"
+msgstr ""
+
+#: RegisterWindow.cpp
+msgid "&Zero"
+msgstr ""
+
+#: RegisterWindow.cpp
+msgid "&Increment"
+msgstr ""
+
+#: RegisterWindow.cpp
+msgid "&Decrement"
+msgstr ""
+
+#: RegisterWindow.cpp
+msgid "&Copy"
+msgstr ""
+
+#: RegisterWindow.cpp
+msgid "&Goto Disasm"
+msgstr ""
+
+#: RegisterWindow.cpp
+msgid "G&oto Dump"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "Texture cache"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "PhysAddr"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "Dim"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "Resolution"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "Format"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "Pitch"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "Tilemode"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "SliceRange"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "MipRange"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "Last access"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "OverwriteRes"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "Show only active"
+msgstr ""
+
+#: textureRelationWindow.cpp
+msgid "Show views"
+msgstr ""
+
+#: TitleManager.cpp
+msgid "Title manager"
+msgstr ""
+
+#: TitleManager.cpp
+msgid ""
+"The following prefixes are supported:\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+msgstr ""
+
+#: TitleManager.cpp
+msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "Memory Searcher"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "Search"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "Results"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "address"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "value"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "Stored Entries"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "description"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "type"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "freeze"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "Your entered value is not valid for the selected datatype."
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "&Add new entry"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "&Remove entry"
+msgstr ""
+
+#: toolMemorySearcher.cpp
+msgid "Results ({0})"
+msgstr ""
+
+#: VulkanCanvas.cpp
+msgid ""
+"Error when initializing Vulkan renderer:\n"
+"{}"
+msgstr ""
+
+#: VulkanRenderer.cpp
+msgid ""
+"The currently installed graphics driver does not support the Vulkan "
+"extension necessary for asynchronous shader compilation. Asynchronous "
+"compilation cannot be used.\n"
+" \n"
+"Required extension: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Installing the latest graphics driver may solve this error."
+msgstr ""
+
+#: wxCreateAccountDialog.cpp
+msgid "Create new account"
+msgstr ""
+
+#: wxCreateAccountDialog.cpp
+msgid ""
+"The persistent id is the internal folder name used for your saves. Only "
+"change this if you are importing saves from a Wii U with a specific id"
+msgstr ""
+
+#: wxCreateAccountDialog.cpp
+msgid "OK"
+msgstr ""
+
+#: wxCreateAccountDialog.cpp
+msgid "No persistent id entered!"
+msgstr ""
+
+#: wxCreateAccountDialog.cpp
+msgid "The persistent id must be greater than {:x}!"
+msgstr ""
+
+#: wxCreateAccountDialog.cpp
+msgid "The persistent id {:x} is already in use by account {}!"
+msgstr ""
+
+#: wxCreateAccountDialog.cpp
+msgid "Account name may not be empty!"
+msgstr ""
+
+#: wxGameList.cpp
+msgid ""
+"This game entry seems to be either an update or the base game was merged "
+"with update data\n"
+"Broken game dumps cause various problems during emulation and may even stop "
+"working at all in future Cemu versions\n"
+"Please make sure the base game is intact and install updates only with the "
+"File->Install Update/DLC option"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "You can configure game paths in the general settings."
+msgstr ""
+
+#: wxGameList.cpp
+msgid "never"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Game"
+msgstr ""
+
+#: wxGameList.cpp wxTitleManagerList.cpp
+msgid "Version"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "DLC"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "You've played"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Last played"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "&Start"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "&Favorite"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "&Edit name"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "&Game directory"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "&Save directory"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "&Update directory"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "&DLC directory"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "&Edit graphic packs"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "&Edit game profile"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "&Refresh game list"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Style: &List"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Style: &Icons"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Style: &Small Icons"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Reset &width"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Reset &order"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Show &name"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Show &version"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Show &dlc"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Show &game time"
+msgstr ""
+
+#: wxGameList.cpp
+msgid "Show &last played"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid "Title id"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid "Region"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's an wrong title installed at the target location, should we fix that?"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's already a newer or equal version installed at the correct location, "
+"so the redundant version will be deleted:"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Error when trying to delete the entry:\n"
+"{}"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's already an older version installed at the correct location, so the "
+"older version will be overwritten:"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Error when trying to move the entry to the correct location:\n"
+"{}"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid "Your base game is installed at the wrong location."
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid "Your update is installed at the wrong location."
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid "Your DLC is installed at the wrong location."
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid "You can use the context menu to fix it."
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid "&Launch title"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid "&Open directory"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid "Fix entry"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid "&Delete"
+msgstr ""
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Are you really sure that you want to delete the following folder:\n"
+"{}"
+msgstr ""
