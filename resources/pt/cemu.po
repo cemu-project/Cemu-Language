@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-05-23 02:06+0200\n"
-"PO-Revision-Date: 2020-05-23 16:34-0300\n"
+"PO-Revision-Date: 2020-05-23 16:55-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -1825,7 +1825,7 @@ msgstr "&EUA"
 
 #: MainWindow.cpp
 msgid "&Europe"
-msgstr "&Europa"
+msgstr "E&uropa"
 
 #: MainWindow.cpp
 msgid "&Japan"
@@ -1837,7 +1837,7 @@ msgstr "&China"
 
 #: MainWindow.cpp
 msgid "&Korea"
-msgstr "&Coréia"
+msgstr "C&oréia"
 
 #: MainWindow.cpp
 msgid "&Taiwan"
@@ -1861,7 +1861,7 @@ msgstr "&Alemão"
 
 #: MainWindow.cpp
 msgid "&Italian"
-msgstr "&Italiano"
+msgstr "I&taliano"
 
 #: MainWindow.cpp
 msgid "&Spanish"
@@ -1873,7 +1873,7 @@ msgstr "&Chinês"
 
 #: MainWindow.cpp
 msgid "&Korean"
-msgstr "&Coreano"
+msgstr "C&oreano"
 
 #: MainWindow.cpp
 msgid "&Dutch"
@@ -1889,7 +1889,7 @@ msgstr "&Russo"
 
 #: MainWindow.cpp
 msgid "&Taiwanese"
-msgstr "&Taiwanês"
+msgstr "Tai&wanês"
 
 #: MainWindow.cpp
 msgid "&Fullscreen"
@@ -1929,7 +1929,7 @@ msgstr "&Pesquisador de memória"
 
 #: MainWindow.cpp
 msgid "&Title Manager"
-msgstr "Gerenciador de &títulos"
+msgstr "&Gerenciador de títulos"
 
 #: MainWindow.cpp
 msgid "&Tools"
@@ -1949,23 +1949,23 @@ msgstr "&NFC"
 
 #: MainWindow.cpp
 msgid "&Unsupported API calls"
-msgstr "&Chamadas de API incompatíveis"
+msgstr "Chamadas de API &incompatíveis"
 
 #: MainWindow.cpp
 msgid "&Coreinit File-Access"
-msgstr "&Coreinit File-Access"
+msgstr "Coreinit &File-Access"
 
 #: MainWindow.cpp
 msgid "&Coreinit Thread-Synchronization API"
-msgstr "&Coreinit Thread-Synchronization API"
+msgstr "Coreinit &Thread-Synchronization API"
 
 #: MainWindow.cpp
 msgid "&Coreinit Memory API"
-msgstr "&Coreinit Memory API"
+msgstr "Coreinit &Memory API"
 
 #: MainWindow.cpp
 msgid "&Coreinit MP API"
-msgstr "&Coreinit MP API"
+msgstr "Coreinit M&P API"
 
 #: MainWindow.cpp
 msgid "&NN NFP"
@@ -1981,7 +1981,7 @@ msgstr "&Audio API"
 
 #: MainWindow.cpp
 msgid "&Input API"
-msgstr "&Input API"
+msgstr "Inp&ut API"
 
 #: MainWindow.cpp
 msgid "&Socket API"
@@ -1989,7 +1989,7 @@ msgstr "&Socket API"
 
 #: MainWindow.cpp
 msgid "&Save API"
-msgstr "&Save API"
+msgstr "Sa&ve API"
 
 #: MainWindow.cpp
 msgid "&H264 API"
@@ -2001,7 +2001,7 @@ msgstr "Patch&es de pacotes gráficos"
 
 #: MainWindow.cpp
 msgid "&Texture cache warnings"
-msgstr "A&visos do cache de texturas"
+msgstr "Avisos do cache de te&xturas"
 
 #: MainWindow.cpp
 msgid "&OpenGL debug output"
@@ -2009,7 +2009,7 @@ msgstr "Saída de depuração do &OpenGL"
 
 #: MainWindow.cpp
 msgid "&Vulkan validation layer (slow)"
-msgstr "Camada de validação &Vulkan (lento)"
+msgstr "Camada de validação Vul&kan (lento)"
 
 #: MainWindow.cpp
 msgid "&Log PPC context for API"
@@ -2037,7 +2037,7 @@ msgstr "&Despejar"
 
 #: MainWindow.cpp
 msgid "&Render upside-down"
-msgstr "&Renderizar de cabeça para baixo"
+msgstr "Renderi&zar de cabeça para baixo"
 
 #: MainWindow.cpp
 msgid "&Async compile (Vulkan)"
@@ -2053,15 +2053,15 @@ msgstr "Abrir janela de &logs"
 
 #: MainWindow.cpp
 msgid "&View PPC threads"
-msgstr "Ver &threads PPC"
+msgstr "Ver t&hreads PPC"
 
 #: MainWindow.cpp
 msgid "&View PPC debugger"
-msgstr "Ver &depurador PPC"
+msgstr "Ver de&purador PPC"
 
 #: MainWindow.cpp
 msgid "&View audio debugger"
-msgstr "Ver depurador de &áudio"
+msgstr "Ver depurador de á&udio"
 
 #: MainWindow.cpp
 msgid "&View texture cache info"
@@ -2069,11 +2069,11 @@ msgstr "Ver informações do cache de te&xturas"
 
 #: MainWindow.cpp
 msgid "&Show frame profiler"
-msgstr "Ver &perfilador de quadros"
+msgstr "Ver perfilador de &quadros"
 
 #: MainWindow.cpp
 msgid "&Dump current RAM"
-msgstr "&Despejar RAM atual"
+msgstr "Despejar RA&M atual"
 
 #: MainWindow.cpp
 msgid "&Dump WUD filesystem"
@@ -2097,7 +2097,7 @@ msgstr "&Sobre"
 
 #: MainWindow.cpp
 msgid "&Help"
-msgstr "A&juda"
+msgstr "Aj&uda"
 
 #: MainWindow.cpp
 msgid "otp.bin could not be found"
