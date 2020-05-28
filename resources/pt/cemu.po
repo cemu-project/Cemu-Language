@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-05-23 02:06+0200\n"
-"PO-Revision-Date: 2020-05-23 19:30-0300\n"
+"PO-Revision-Date: 2020-05-28 19:19-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -429,8 +429,8 @@ msgid ""
 "Games will be launched with gamepad view toggled as default. The view can be "
 "toggled with CTRL + TAB"
 msgstr ""
-"Os jogos iniciarão mostrando a tela do GamePad por padrão.\n"
-"A tela pode ser alterada pressionando Ctrl + Tab."
+"Os jogos iniciarão mostrando a tela do GamePad por padrão. A tela pode ser "
+"alterada pressionando Ctrl + Tab."
 
 #: GameProfileWindow.cpp
 msgid "CPU"
@@ -470,8 +470,7 @@ msgid ""
 "Set the maximum thread slice runtime (in virtual cycles)"
 msgstr ""
 "OPÇÃO AVANÇADA\n"
-"Define a fatia máxima de tempo\n"
-"de execução da thread (em ciclos virtuais)."
+"Define a fatia máxima de tempo de execução da thread (em ciclos virtuais)."
 
 #: GameProfileWindow.cpp
 msgid "cycles"
@@ -486,9 +485,8 @@ msgid ""
 "Improves emulation accuracy of CPU to GPU memory access at the cost of "
 "performance. Required for some games."
 msgstr ""
-"Melhora a precisão da emulação do acesso da memória\n"
-"da CPU para a GPU, ao custo do desempenho.\n"
-"Necessária para alguns jogos."
+"Melhora a precisão da emulação do acesso da memória da CPU para a GPU, ao "
+"custo do desempenho. Necessária para alguns jogos."
 
 #: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
@@ -514,8 +512,7 @@ msgid ""
 "Recommended: true"
 msgstr ""
 "OPÇÃO AVANÇADA\n"
-"Controla a precisão da multiplicação\n"
-"de pontos flutuantes em shaders.\n"
+"Controla a precisão da multiplicação de pontos flutuantes em shaders.\n"
 "\n"
 "Recomendado: Ativada"
 
@@ -539,8 +536,8 @@ msgstr "Baixa"
 msgid ""
 "Lower value results in higher performance, but may cause graphical issues"
 msgstr ""
-"Quanto menor o valor, maior o desempenho\n"
-"(e maiores as chances de causar problemas gráficos)."
+"Quanto menor o valor, maior o desempenho (e maiores as chances de causar "
+"problemas gráficos)."
 
 #: GameProfileWindow.cpp
 msgid "Graphic"
@@ -677,8 +674,8 @@ msgstr "Lembrar posição da janela principal"
 #: GeneralSettings2.cpp
 msgid "Restores the last known window position and size when starting Cemu"
 msgstr ""
-"Restaura a última posição e tamanho\n"
-"conhecidos da janela ao inicializar o Cemu."
+"Restaura a última posição e tamanho conhecidos da janela ao inicializar o "
+"Cemu."
 
 #: GeneralSettings2.cpp
 msgid "Remember pad window position"
@@ -687,8 +684,8 @@ msgstr "Lembrar posição da janela de controles"
 #: GeneralSettings2.cpp
 msgid "Restores the last known pad window position and size when opening it"
 msgstr ""
-"Restaura a última posição e tamanho conhecidos\n"
-"da janela de configuração de controles ao abri-la."
+"Restaura a última posição e tamanho conhecidos da janela de configuração de "
+"controles ao abri-la."
 
 #: GeneralSettings2.cpp
 msgid "Discord Presence"
@@ -711,9 +708,8 @@ msgid ""
 "Displays the menu bar when Cemu is running in fullscreen mode and the mouse "
 "cursor is moved to the top"
 msgstr ""
-"Mostra a barra de menu quando o Cemu estiver\n"
-"em modo tela cheia e o cursor do mouse for movido\n"
-"para a parte superior da tela."
+"Mostra a barra de menu quando o Cemu estiver em modo tela cheia e o cursor "
+"do mouse for movido para a parte superior da tela."
 
 #: GeneralSettings2.cpp GettingStartedDialog.cpp
 msgid "Automatically check for updates"
@@ -732,8 +728,8 @@ msgid ""
 "Pressing the screenshot key (F12) will save a screenshot directly to the "
 "screenshots folder"
 msgstr ""
-"Pressionar a tecla F12 vai salvar\n"
-"uma captura de tela na pasta \"screenshots\". "
+"Pressionar a tecla F12 vai salvar uma captura de tela na pasta \"screenshots"
+"\". "
 
 #: GeneralSettings2.cpp
 msgid "MLC Path"
@@ -743,8 +739,8 @@ msgstr "Pasta MLC"
 msgid ""
 "The mlc directory contains your save games and installed game update/dlc data"
 msgstr ""
-"A pasta MLC contém os seus jogos salvos e\n"
-"dados de atualizações/DLCs dos seus jogos instalados."
+"A pasta MLC contém os seus jogos salvos e dados de atualizações/DLCs dos "
+"seus jogos instalados."
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -753,8 +749,8 @@ msgid ""
 "updates and dlc data"
 msgstr ""
 "Define uma pasta MLC personalizada.\n"
-"A pasta MLC é usada para armazenar arquivos relacionados ao Wii U,\n"
-"tais como jogos salvos, atualizações e DLCs."
+"A pasta MLC é usada para armazenar arquivos relacionados ao Wii U, tais como "
+"jogos salvos, atualizações e DLCs."
 
 #: GeneralSettings2.cpp
 msgid "Game Paths"
@@ -777,10 +773,10 @@ msgid ""
 "Adds a game path to scan for games displayed in the game list\n"
 "If you have unpacked games, make sure to select the root folder of a game"
 msgstr ""
-"Adiciona uma pasta para verificar em busca de jogos,\n"
-"que serão mostrados na lista de jogos. \n"
-"Se você tiver jogos em formato extraído,\n"
-"tenha certeza de selecionar a pasta raiz do jogo."
+"Adiciona uma pasta para verificar em busca de jogos que serão mostrados na "
+"lista de jogos. \n"
+"Se você tiver jogos em formato extraído, tenha certeza de selecionar a pasta "
+"raiz do jogo."
 
 #: GeneralSettings2.cpp
 msgid "Remove"
@@ -887,8 +883,8 @@ msgid ""
 "Upscaling filters are used when the game resolution is smaller than the "
 "window size"
 msgstr ""
-"Filtros de ampliação são usados quando a\n"
-"resolução do jogo é menor que o tamanho da janela."
+"Filtros de ampliação são usados quando a resolução do jogo é menor que o "
+"tamanho da janela."
 
 #: GeneralSettings2.cpp
 msgid "Downscale filter"
@@ -899,8 +895,8 @@ msgid ""
 "Downscaling filters are used when the game resolution is bigger than the "
 "window size"
 msgstr ""
-"Filtros de redução são usados quando a\n"
-"resolução do jogo é maior que o tamanho da janela."
+"Filtros de redução são usados quando a resolução do jogo é maior que o "
+"tamanho da janela."
 
 #: GeneralSettings2.cpp
 msgid "Keep aspect ratio"
@@ -918,8 +914,8 @@ msgstr "Escala em tela cheia"
 msgid ""
 "Controls the output aspect ratio when it doesn't match the ratio of the game"
 msgstr ""
-"Controla a taxa de proporção da emulação\n"
-"quando ela não corresponder com a do jogo."
+"Controla a taxa de proporção da emulação quando ela não corresponder com a "
+"do jogo."
 
 #: GeneralSettings2.cpp
 msgid "API"
@@ -940,8 +936,8 @@ msgid ""
 "problems when emulation is too slow"
 msgstr ""
 "Controla a quantidade de dados de áudio armazenados em buffer.\n"
-"Valores mais altos criarão um atraso no áudio, mas podem evitar\n"
-"problemas de áudio quando a emulação estiver muito lenta."
+"Valores mais altos criarão um atraso no áudio, mas podem evitar problemas de "
+"áudio quando a emulação estiver muito lenta."
 
 #: GeneralSettings2.cpp
 msgid "Mono"
@@ -1022,8 +1018,7 @@ msgstr "Posição"
 #: GeneralSettings2.cpp
 msgid "Controls the overlay which displays technical information while playing"
 msgstr ""
-"Controla a sobreposição que mostra\n"
-"informações técnicas durante a emulação."
+"Controla a sobreposição que mostra informações técnicas durante a emulação."
 
 #: GeneralSettings2.cpp
 msgid "Text Color"
@@ -1048,8 +1043,7 @@ msgstr "FPS"
 #: GeneralSettings2.cpp
 msgid "The number of frames per second. Average over last 5 seconds"
 msgstr ""
-"O número de quadros por segundo.\n"
-"Exibe uma média dos últimos 5 segundos."
+"O número de quadros por segundo. Exibe uma média dos últimos 5 segundos."
 
 #: GeneralSettings2.cpp
 msgid "Draw calls per frame"
@@ -1058,8 +1052,8 @@ msgstr "Draw calls por quadro"
 #: GeneralSettings2.cpp
 msgid "The number of draw calls per frame. Average over last 5 seconds"
 msgstr ""
-"O número de draw calls (chamadas de desenho à API gráfica)\n"
-"por quadro. Exibe uma média dos últimos 5 segundos."
+"O número de draw calls (chamadas de desenho à API gráfica) por quadro. Exibe "
+"uma média dos últimos 5 segundos."
 
 #: GeneralSettings2.cpp
 msgid "CPU usage"
@@ -1242,8 +1236,7 @@ msgid ""
 msgstr ""
 "Cria um relatório quando a execução do Cemu falhar.\n"
 "Ative apenas se necessário!\n"
-"A opção Completo criará um relatório grande\n"
-"que inclui o despejo da memória."
+"A opção Completo criará um relatório grande que inclui o despejo da memória."
 
 #: GeneralSettings2.cpp
 msgid "General settings"
@@ -1656,8 +1649,8 @@ msgstr "Limiar dos botões"
 msgid ""
 "The threshold of a button to recognizes a press from a trigger/axis value"
 msgstr ""
-"O limiar usado para detectar a força de pressionamento\n"
-"de um gatilho ou direcional analógico."
+"O limiar usado para detectar a força de pressionamento de um gatilho ou "
+"direcional analógico."
 
 #: InputSettings.cpp
 msgid "No profile name selected!"
@@ -1825,7 +1818,7 @@ msgstr "Parar emulação"
 
 #: MainWindow.cpp
 msgid "&Auto"
-msgstr "&Auto"
+msgstr "&Automático"
 
 #: MainWindow.cpp
 msgid "&USA"
@@ -1913,11 +1906,11 @@ msgstr "&Separar tela do GamePad"
 
 #: MainWindow.cpp
 msgid "&General settings"
-msgstr "Configurações &gerais…"
+msgstr "Configurações &gerais"
 
 #: MainWindow.cpp
 msgid "&Input settings"
-msgstr "Configurações de &controles…"
+msgstr "Configurações de &controles"
 
 #: MainWindow.cpp
 msgid "&Active account"
@@ -2097,7 +2090,7 @@ msgstr "&Verificar atualizações"
 
 #: MainWindow.cpp
 msgid "&Getting started"
-msgstr "&Guia de início…"
+msgstr "&Guia de início"
 
 #: MainWindow.cpp
 msgid "&About"
