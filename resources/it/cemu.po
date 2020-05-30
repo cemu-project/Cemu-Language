@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-05-08 22:02+0200\n"
-"PO-Revision-Date: 2020-05-09 10:08+0200\n"
+"POT-Creation-Date: 2020-05-23 02:06+0200\n"
+"PO-Revision-Date: 2020-05-30 10:10+0200\n"
 "Last-Translator: Fs00 <francescosaltori@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -15,17 +15,17 @@ msgstr ""
 #: bootGame.cpp
 msgid "Failed to run this title because at least one of the files is damaged."
 msgstr ""
-"Impossibile eseguire questo titolo perché almeno uno dei file è danneggiato."
+"Impossibile avviare questo titolo perché almeno uno dei file è danneggiato."
 
 #: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
-#: GraphicPacksWindow2.cpp
+#: GraphicPacksWindow2.cpp MainWindow.cpp wxTitleManagerList.cpp
 msgid "Warning"
 msgstr "Attenzione"
 
-#: bootGame.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: bootGame.cpp CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
 #: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
 #: MainWindow.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
-#: wxCreateAccountDialog.cpp
+#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
 msgid "Error"
 msgstr "Errore"
 
@@ -51,7 +51,7 @@ msgstr "Attivo"
 msgid "Address"
 msgstr "Indirizzo"
 
-#: BreakpointWindow.cpp textureRelationWindow.cpp
+#: BreakpointWindow.cpp textureRelationWindow.cpp wxTitleManagerList.cpp
 msgid "Type"
 msgstr "Tipo"
 
@@ -146,6 +146,14 @@ msgstr ""
 #: CemuApp.cpp
 msgid "Select a mlc directory"
 msgstr "Seleziona una cartella MLC"
+
+#: CemuApp.cpp
+msgid ""
+"Cemu can't write to the selected mlc path!\n"
+"Do you want to select another path?"
+msgstr ""
+"Cemu non dispone del permesso di scrittura nella cartella MLC selezionata!\n"
+"Vuoi selezionare un'altra cartella?"
 
 #: CemuUpdateWindow.cpp
 msgid "Update"
@@ -413,7 +421,6 @@ msgid ""
 "This option will load libraries from the cafeLibs directory"
 msgstr ""
 "OPZIONE PER ESPERTI\n"
-"\n"
 "Questa opzione effettuerà il caricamento delle librerie dalla cartella "
 "cafeLibs"
 
@@ -604,7 +611,7 @@ msgid ""
 "install the older version?"
 msgstr ""
 "Sembra che un aggiornamento più recente sia già installato, vuoi installare "
-"comunque la versione più vecchia?"
+"comunque la versione precedente?"
 
 #: GameUpdateWindow.cpp
 msgid ""
@@ -644,37 +651,6 @@ msgid "Info"
 msgstr "Informazioni"
 
 #: GeneralSettings2.cpp
-msgid "Crash dump"
-msgstr "Dump degli arresti anomali"
-
-#: GeneralSettings2.cpp
-msgid "Disabled"
-msgstr "Disabilitato"
-
-#: GeneralSettings2.cpp
-msgid "Lite"
-msgstr "Leggero"
-
-#: GeneralSettings2.cpp
-msgid "Full"
-msgstr "Completo"
-
-#: GeneralSettings2.cpp
-msgid ""
-"Creates a dump when Cemu crashes\n"
-"Only enable on demand!\n"
-"The Full option will create a big dump with the memory included"
-msgstr ""
-"Crea un dump quando Cemu si arresta in seguito ad un errore.\n"
-"Abilita solo se richiesto!\n"
-"L'opzione Completo creerà dump di grandi dimensioni, contenenti lo stato "
-"della memoria al momento dell'errore."
-
-#: GeneralSettings2.cpp
-msgid "General settings"
-msgstr "Impostazioni generali"
-
-#: GeneralSettings2.cpp
 msgid "Interface"
 msgstr "Interfaccia"
 
@@ -696,9 +672,9 @@ msgid ""
 "Available languages are stored in the translation directory\n"
 "A restart will be required after changing the language"
 msgstr ""
-"Cambia la lingua dell'interfaccia di Cemu\n"
-"Le lingue disponibili sono memorizzate nella cartella delle traduzioni\n"
-"Sarà necessario riavviare il programma dopo aver modificato la lingua"
+"Cambia la lingua dell'interfaccia di Cemu.\n"
+"Le lingue disponibili sono memorizzate nella cartella delle traduzioni.\n"
+"Sarà necessario riavviare il programma dopo aver modificato la lingua."
 
 #: GeneralSettings2.cpp
 msgid "Remember main window position"
@@ -729,8 +705,8 @@ msgid ""
 "Enables the Discord Rich Presence feature\n"
 "You will also need to enable it in the Discord settings itself!"
 msgstr ""
-"Abilita la funzionalità Rich Presence di Discord\n"
-"Sarà necessario abilitarla anche nelle opzioni di Discord"
+"Abilita la funzionalità Rich Presence di Discord.\n"
+"Sarà necessario abilitarla anche nelle opzioni di Discord."
 
 #: GeneralSettings2.cpp
 msgid "Fullscreen menu bar"
@@ -783,9 +759,9 @@ msgid ""
 "The mlc path is used to store Wii U related files like save games, game "
 "updates and dlc data"
 msgstr ""
-"Seleziona un percorso della cartella MLC personalizzato\n"
+"Seleziona un percorso della cartella MLC personalizzato.\n"
 "Tale cartella viene utilizzata per memorizzare i file della Wii U emulata "
-"quali salvataggi, aggiornamenti dei giochi e dati dei DLC"
+"quali salvataggi, aggiornamenti dei giochi e dati dei DLC."
 
 #: GeneralSettings2.cpp
 msgid "Game Paths"
@@ -797,7 +773,7 @@ msgid ""
 "for games"
 msgstr ""
 "Aggiungi la cartella dove sono salvati i tuoi giochi. Questi ultimi verranno "
-"cercati in tutte le sottocartelle"
+"cercati in tutte le sottocartelle."
 
 #: GeneralSettings2.cpp
 msgid "Add"
@@ -809,9 +785,9 @@ msgid ""
 "If you have unpacked games, make sure to select the root folder of a game"
 msgstr ""
 "Aggiunge un percorso nel quale vengono ricercati i giochi da mostrare nella "
-"lista\n"
+"lista.\n"
 "Se hai dei giochi scompattati, assicurati di selezionare la cartella radice "
-"del gioco"
+"del gioco."
 
 #: GeneralSettings2.cpp
 msgid "Remove"
@@ -889,7 +865,7 @@ msgstr ""
 "Se il gioco richiede la sincronizzazione, la CPU emulata attenderà che la "
 "GPU finisca tutte le operazioni in corso.\n"
 "Questo comportamento è più accurato, ma potrebbe causare prestazioni "
-"inferiori"
+"inferiori."
 
 #: GeneralSettings2.cpp
 msgid "Bilinear"
@@ -949,6 +925,72 @@ msgid ""
 msgstr ""
 "Controlla il rapporto di aspetto dell'output video quando non coincide con "
 "quello del gioco"
+
+#: GeneralSettings2.cpp
+msgid "API"
+msgstr "API"
+
+#: GeneralSettings2.cpp
+msgid "Select one of the available audio back ends"
+msgstr "Seleziona uno dei back-end audio disponibili"
+
+#: GeneralSettings2.cpp
+msgid "Latency"
+msgstr "Latenza"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Controls the amount of buffered audio data\n"
+"Higher values will create a delay in audio playback, but may avoid audio "
+"problems when emulation is too slow"
+msgstr ""
+"Controlla la quantità di dati audio pre-caricati.\n"
+"Valori più alti creeranno un ritardo nella riproduzione dell'audio, ma "
+"possono evitare problemi quando l'emulazione è troppo lenta."
+
+#: GeneralSettings2.cpp
+msgid "Mono"
+msgstr "Mono"
+
+#: GeneralSettings2.cpp
+msgid "Stereo"
+msgstr "Stereo"
+
+#: GeneralSettings2.cpp
+msgid "Surround"
+msgstr "Surround"
+
+#: GeneralSettings2.cpp
+msgid "TV"
+msgstr "TV"
+
+#: GeneralSettings2.cpp
+msgid "Device"
+msgstr "Dispositivo"
+
+#: GeneralSettings2.cpp
+msgid "Select the active audio output device for Wii U TV"
+msgstr "Seleziona il dispositivo di output per l'audio della TV"
+
+#: GeneralSettings2.cpp
+msgid "Channels"
+msgstr "Canali"
+
+#: GeneralSettings2.cpp InputPanelGamepad.cpp InputPanelWiimote.cpp
+msgid "Volume"
+msgstr "Volume"
+
+#: GeneralSettings2.cpp
+msgid "Gamepad"
+msgstr "Controller"
+
+#: GeneralSettings2.cpp
+msgid "Select the active audio output device for Wii U GamePad"
+msgstr "Seleziona il dispositivo di output per l'audio del gamepad Wii U"
+
+#: GeneralSettings2.cpp
+msgid "Disabled"
+msgstr "Disabilitato"
 
 #: GeneralSettings2.cpp
 msgid "Top left"
@@ -1106,7 +1148,7 @@ msgstr "Compilatore shader"
 
 #: GeneralSettings2.cpp
 msgid "Shows a notification after shaders have been compiled"
-msgstr "Mostra una notifica ogniqualvolta vengono compilati nuovi shader"
+msgstr "Mostra una notifica ogni volta che vengono compilati nuovi shader"
 
 #: GeneralSettings2.cpp
 msgid "Friend list"
@@ -1115,76 +1157,6 @@ msgstr "Lista degli amici"
 #: GeneralSettings2.cpp
 msgid "Shows friend list related data if online"
 msgstr "Se online, mostra eventi relativi alla lista degli amici"
-
-#: GeneralSettings2.cpp
-msgid "Graphics"
-msgstr "Grafica"
-
-#: GeneralSettings2.cpp
-msgid "API"
-msgstr "API"
-
-#: GeneralSettings2.cpp
-msgid "Select one of the available audio back ends"
-msgstr "Seleziona uno dei back-end audio disponibili"
-
-#: GeneralSettings2.cpp
-msgid "Latency"
-msgstr "Latenza"
-
-#: GeneralSettings2.cpp
-msgid ""
-"Controls the amount of buffered audio data\n"
-"Higher values will create a delay in audio playback, but may avoid audio "
-"problems when emulation is too slow"
-msgstr ""
-"Controlla la quantità di dati audio pre-caricati\n"
-"Valori più alti creeranno un ritardo nella riproduzione dell'audio, ma "
-"possono evitare problemi quando l'emulazione è troppo lenta"
-
-#: GeneralSettings2.cpp
-msgid "Mono"
-msgstr "Mono"
-
-#: GeneralSettings2.cpp
-msgid "Stereo"
-msgstr "Stereo"
-
-#: GeneralSettings2.cpp
-msgid "Surround"
-msgstr "Surround"
-
-#: GeneralSettings2.cpp
-msgid "TV"
-msgstr "TV"
-
-#: GeneralSettings2.cpp
-msgid "Device"
-msgstr "Dispositivo"
-
-#: GeneralSettings2.cpp
-msgid "Select the active audio output device for Wii U TV"
-msgstr "Seleziona il dispositivo di output per l'audio della TV"
-
-#: GeneralSettings2.cpp
-msgid "Channels"
-msgstr "Canali"
-
-#: GeneralSettings2.cpp InputPanelGamepad.cpp InputPanelWiimote.cpp
-msgid "Volume"
-msgstr "Volume"
-
-#: GeneralSettings2.cpp
-msgid "Gamepad"
-msgstr "Controller"
-
-#: GeneralSettings2.cpp
-msgid "Select the active audio output device for Wii U GamePad"
-msgstr "Seleziona il dispositivo di output per l'audio del gamepad Wii U"
-
-#: GeneralSettings2.cpp
-msgid "Audio"
-msgstr "Audio"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -1255,6 +1227,41 @@ msgstr "Email"
 #: GeneralSettings2.cpp
 msgid "Country"
 msgstr "Paese"
+
+#: GeneralSettings2.cpp
+msgid "Crash dump"
+msgstr "Dump degli arresti anomali"
+
+#: GeneralSettings2.cpp
+msgid "Lite"
+msgstr "Leggero"
+
+#: GeneralSettings2.cpp
+msgid "Full"
+msgstr "Completo"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Creates a dump when Cemu crashes\n"
+"Only enable on demand!\n"
+"The Full option will create a big dump with the memory included"
+msgstr ""
+"Crea un dump quando Cemu si arresta in seguito ad un errore.\n"
+"Abilita solo se richiesto!\n"
+"L'opzione Completo creerà dump di grandi dimensioni, contenenti lo stato "
+"della memoria al momento dell'errore."
+
+#: GeneralSettings2.cpp
+msgid "General settings"
+msgstr "Impostazioni generali"
+
+#: GeneralSettings2.cpp
+msgid "Graphics"
+msgstr "Grafica"
+
+#: GeneralSettings2.cpp
+msgid "Audio"
+msgstr "Audio"
 
 #: GeneralSettings2.cpp
 msgid "Account"
@@ -1490,7 +1497,8 @@ msgstr "Usa cache pre-esistente"
 msgid "Create new cache [recommended]"
 msgstr "Crea nuova cache (consigliato)"
 
-#: GraphicPacksWindow2.cpp LoggingWindow.cpp toolMemorySearcher.cpp
+#: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
+#: toolMemorySearcher.cpp
 msgid "Filter"
 msgstr "Filtra"
 
@@ -1726,6 +1734,14 @@ msgid "Not a valid NFC NTAG215 file"
 msgstr "Il file selezionato non è un NFC NTAG215 valido."
 
 #: MainWindow.cpp
+msgid ""
+"Cemu can't write to its directory.\n"
+"Please move it to a different location or run Cemu as administrator!"
+msgstr ""
+"Cemu non dispone del permesso di scrittura nella sua cartella.\n"
+"Spostalo in un'altra cartella o eseguilo come amministratore!"
+
+#: MainWindow.cpp
 msgid "Update installed!"
 msgstr "Aggiornamento installato!"
 
@@ -1748,6 +1764,22 @@ msgstr "Tipo di file sconosciuto."
 #: MainWindow.cpp
 msgid "Failed to launch file."
 msgstr "Impossibile eseguire il file."
+
+#: MainWindow.cpp
+msgid "All Wii U files (wud, wux, iso, wad, rpx, elf)"
+msgstr "Tutti i file Wii U (*.wud, *.wux, *.iso, *.wad, *.rpx, *.elf)"
+
+#: MainWindow.cpp
+msgid "Wii U image (wud, wux, iso, wad)"
+msgstr "Immagini Wii U (*.wud, *.wux, *.iso, *.wad)"
+
+#: MainWindow.cpp
+msgid "Wii U executable (rpx, elf)"
+msgstr "Eseguibili Wii U (*.rpx, *.elf)"
+
+#: MainWindow.cpp
+msgid "All files (*.*)"
+msgstr "Tutti i file (*.*)"
 
 #: MainWindow.cpp
 msgid "Open file to launch"
@@ -1917,6 +1949,10 @@ msgstr "&Lingua console"
 #: MainWindow.cpp
 msgid "&Memory searcher"
 msgstr "&Cerca nella memoria"
+
+#: MainWindow.cpp
+msgid "&Title Manager"
+msgstr "&Gestione titoli"
 
 #: MainWindow.cpp
 msgid "&Tools"
@@ -2106,7 +2142,7 @@ msgstr "Il file seeprom.bin è corrotto o non ha una dimensione valida."
 msgid "Unknown error occured"
 msgstr "Errore sconosciuto"
 
-#: ModuleWindow.cpp
+#: ModuleWindow.cpp wxTitleManagerList.cpp
 msgid "Name"
 msgstr "Nome"
 
@@ -2190,6 +2226,30 @@ msgstr "Mostra solo attive"
 msgid "Show views"
 msgstr "Mostra views"
 
+#: TitleManager.cpp
+msgid "Title manager"
+msgstr "Gestione titoli"
+
+#: TitleManager.cpp
+msgid ""
+"The following prefixes are supported:\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+msgstr ""
+"Sono supportati i seguenti prefissi:\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+
+#: TitleManager.cpp
+msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
+msgstr "Trovati {} giochi, {} aggiornamenti, {} DLC e {} salvataggi"
+
 #: toolMemorySearcher.cpp
 msgid "Memory Searcher"
 msgstr "Cerca nella memoria"
@@ -2247,7 +2307,7 @@ msgid ""
 "Error when initializing Vulkan renderer:\n"
 "{}"
 msgstr ""
-"Errore durante l'inizializzazione del renderer Vulkan:\n"
+"Si è verificato un errore durante l'inizializzazione del renderer Vulkan:\n"
 "{}"
 
 #: VulkanRenderer.cpp
@@ -2333,7 +2393,7 @@ msgstr "mai"
 msgid "Game"
 msgstr "Gioco"
 
-#: wxGameList.cpp
+#: wxGameList.cpp wxTitleManagerList.cpp
 msgid "Version"
 msgstr "Versione"
 
@@ -2428,6 +2488,94 @@ msgstr "Mostra &tempo di gioco"
 #: wxGameList.cpp
 msgid "Show &last played"
 msgstr "Mostra &ultima partita"
+
+#: wxTitleManagerList.cpp
+msgid "Title id"
+msgstr "ID titolo"
+
+#: wxTitleManagerList.cpp
+msgid "Region"
+msgstr "Regione"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's an wrong title installed at the target location, should we fix that?"
+msgstr ""
+"Nella posizione di destinazione è installato un titolo errato. Vuoi "
+"correggere questo problema?"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's already a newer or equal version installed at the correct location, "
+"so the redundant version will be deleted:"
+msgstr ""
+"Esiste già una versione più recente o uguale installata nella posizione "
+"corretta, perciò la versione ridondante verrà eliminata:"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Error when trying to delete the entry:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore nel tentativo di rimuovere il contenuto:\n"
+"{}"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's already an older version installed at the correct location, so the "
+"older version will be overwritten:"
+msgstr ""
+"Esiste già una versione precedente installata nella posizione corretta, "
+"perciò tale versione verrà sovrascritta:"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Error when trying to move the entry to the correct location:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore nel tentativo di spostare il contenuto nella "
+"posizione corretta:\n"
+"{}"
+
+#: wxTitleManagerList.cpp
+msgid "Your base game is installed at the wrong location."
+msgstr "Il gioco base è installato nella posizione errata."
+
+#: wxTitleManagerList.cpp
+msgid "Your update is installed at the wrong location."
+msgstr "L'aggiornamento è installato nella posizione errata."
+
+#: wxTitleManagerList.cpp
+msgid "Your DLC is installed at the wrong location."
+msgstr "Il DLC è installato nella posizione errata."
+
+#: wxTitleManagerList.cpp
+msgid "You can use the context menu to fix it."
+msgstr "Puoi usare il menu contestuale per risolvere il problema."
+
+#: wxTitleManagerList.cpp
+msgid "&Launch title"
+msgstr "Avvia &titolo"
+
+#: wxTitleManagerList.cpp
+msgid "&Open directory"
+msgstr "&Apri cartella"
+
+#: wxTitleManagerList.cpp
+msgid "Fix entry"
+msgstr "Correggi problemi"
+
+#: wxTitleManagerList.cpp
+msgid "&Delete"
+msgstr "&Elimina"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Are you really sure that you want to delete the following folder:\n"
+"{}"
+msgstr ""
+"Sei sicuro di voler cancellare la seguente cartella:\n"
+"{}"
 
 #~ msgid "&Optimize shader SPIR-V"
 #~ msgstr "&Ottimizza shader SPIR-V"
