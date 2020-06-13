@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-05-23 02:06+0200\n"
-"PO-Revision-Date: 2020-05-30 10:10+0200\n"
+"POT-Creation-Date: 2020-06-09 02:46+0200\n"
+"PO-Revision-Date: 2020-06-13 14:04+0200\n"
 "Last-Translator: Fs00 <francescosaltori@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -16,32 +16,6 @@ msgstr ""
 msgid "Failed to run this title because at least one of the files is damaged."
 msgstr ""
 "Impossibile avviare questo titolo perché almeno uno dei file è danneggiato."
-
-#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
-#: GraphicPacksWindow2.cpp MainWindow.cpp wxTitleManagerList.cpp
-msgid "Warning"
-msgstr "Attenzione"
-
-#: bootGame.cpp CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
-#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
-#: MainWindow.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
-#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
-msgid "Error"
-msgstr "Errore"
-
-#: bootGame.cpp
-msgid ""
-"Cemu detected a DLC installed at a wrong or outdated location:\n"
-"{}\n"
-"\n"
-"Do you want to move it to the correct location:\n"
-"{}"
-msgstr ""
-"Cemu ha rilevato un DLC installato in una posizione errata od obsoleta:\n"
-"{}\n"
-"\n"
-"Vuoi spostarlo nella posizione corretta:\n"
-"{}"
 
 #: BreakpointWindow.cpp GeneralSettings2.cpp
 msgid "On"
@@ -155,12 +129,19 @@ msgstr ""
 "Cemu non dispone del permesso di scrittura nella cartella MLC selezionata!\n"
 "Vuoi selezionare un'altra cartella?"
 
+#: CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp GameUpdateWindow.cpp
+#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
+#: MainWindow.cpp SaveTransfer.cpp TitleManager.cpp toolMemorySearcher.cpp
+#: VulkanCanvas.cpp wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+msgid "Error"
+msgstr "Errore"
+
 #: CemuUpdateWindow.cpp
 msgid "Update"
 msgstr "Aggiorna"
 
 #: CemuUpdateWindow.cpp DownloadGraphicPacksWindow.cpp GameUpdateWindow.cpp
-#: wxCreateAccountDialog.cpp
+#: SaveTransfer.cpp wxCreateAccountDialog.cpp
 msgid "Cancel"
 msgstr "Annulla"
 
@@ -316,7 +297,7 @@ msgstr "ThreadName"
 msgid "GPR"
 msgstr "GPR"
 
-#: debugPPCThreadsWindow.cpp textureRelationWindow.cpp
+#: debugPPCThreadsWindow.cpp textureRelationWindow.cpp TitleManager.cpp
 msgid "Refresh"
 msgstr "Aggiorna"
 
@@ -389,15 +370,15 @@ msgstr ""
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Checking version..."
-msgstr "Controllo dell'ultima versione in corso..."
+msgstr "Controllo dell'ultima versione in corso…"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Downloading graphic packs..."
-msgstr "Download dei pacchetti grafici in corso..."
+msgstr "Download dei pacchetti grafici in corso…"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Extracting..."
-msgstr "Estrazione in corso..."
+msgstr "Estrazione in corso…"
 
 #: DumpCtrl.cpp RegisterCtrl.cpp RegisterWindow.cpp
 msgid "Enter a new value."
@@ -559,59 +540,46 @@ msgid "Forces a given controller profile"
 msgstr "Forza l'utilizzo del profilo controller selezionato"
 
 #: GameUpdateWindow.cpp
-msgid "Can't open the file."
-msgstr "Impossibile aprire il file."
-
-#: GameUpdateWindow.cpp
-msgid "Invalid \"meta.xml\" file."
-msgstr "File \"meta.xml\" non valido."
-
-#: GameUpdateWindow.cpp
-msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
+msgid ""
+"It seems that there's a wrong title installed at the target location.\n"
+"Please use the title manager to fix it first!"
 msgstr ""
-"Impossibile trovare il tag \"title_id\" nel file \"meta.xml\" selezionato."
+"Sembra che nella posizione di destinazione sia installato un titolo errato.\n"
+"Utilizza Gestione titoli per risolvere il problema."
+
+#: GameUpdateWindow.cpp GeneralSettings2.cpp GraphicPacksWindow2.cpp
+#: MainWindow.cpp TitleManager.cpp wxTitleManagerList.cpp
+msgid "Warning"
+msgstr "Attenzione"
 
 #: GameUpdateWindow.cpp
-msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
+msgid ""
+"It seems that the selected title is already installed, do you want to "
+"reinstall it?"
 msgstr ""
-"Impossibile trovare il tag \"title_version\" nel file \"meta.xml\" "
-"selezionato."
+"Sembra che il titolo selezionato sia già installato, vuoi reinstallarlo "
+"comunque?"
 
 #: GameUpdateWindow.cpp
-msgid "Can't find the \"product_code\" in the given \"meta.xml\" file."
+msgid ""
+"It seems that a newer version is already installed, do you still want to "
+"install the older version?"
 msgstr ""
-"Impossibile trovare il tag “product_code” nel file \"meta.xml\" selezionato."
+"Sembra che una versione più recente sia già installata, vuoi installare "
+"comunque la versione precedente?"
 
 #: GameUpdateWindow.cpp
-msgid "The given \"meta.xml\" file is no update or DLC."
+msgid ""
+"Error when trying to move former title installation:\n"
+"{}"
 msgstr ""
-"Il file \"meta.xml\" selezionato non appartiene né a un aggiornamento né a "
-"un DLC."
-
-#: GameUpdateWindow.cpp
-msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
-msgstr ""
-"Impossibile trovare il tag \"longname_en\" nel file \"meta.xml\" selezionato."
+"Si è verificato un errore nel tentativo di spostare l'installazione "
+"precedente del titolo:\n"
+"{}"
 
 #: GameUpdateWindow.cpp
 msgid "Invalid folder structure"
 msgstr "Struttura delle cartelle non valida"
-
-#: GameUpdateWindow.cpp
-msgid ""
-"It seems that the selected update is already installed, do you want to "
-"reinstall it?"
-msgstr ""
-"Sembra che l'aggiornamento selezionato sia già installato, vuoi "
-"reinstallarlo comunque?"
-
-#: GameUpdateWindow.cpp
-msgid ""
-"It seems that a newer update is already installed, do you still want to "
-"install the older version?"
-msgstr ""
-"Sembra che un aggiornamento più recente sia già installato, vuoi installare "
-"comunque la versione precedente?"
 
 #: GameUpdateWindow.cpp
 msgid ""
@@ -625,11 +593,15 @@ msgstr ""
 
 #: GameUpdateWindow.cpp
 msgid "Installing DLC ..."
-msgstr "Installazione DLC in corso..."
+msgstr "Installazione del DLC in corso…"
 
 #: GameUpdateWindow.cpp
 msgid "Installing update ..."
-msgstr "Installazione aggiornamento in corso..."
+msgstr "Installazione dell'aggiornamento in corso…"
+
+#: GameUpdateWindow.cpp
+msgid "Installing title ..."
+msgstr "Installazione del titolo in corso…"
 
 #: GameUpdateWindow.cpp
 msgid "Current file:"
@@ -637,14 +609,13 @@ msgstr "File attuale:"
 
 #: GameUpdateWindow.cpp
 msgid ""
-"Do you really want to cancel the update process?\n"
+"Do you really want to cancel the installation process?\n"
 "\n"
-"Canceling the process will delete the applied update."
+"Canceling the process will delete the applied files."
 msgstr ""
-"Vuoi veramente annullare l'aggiornamento?\n"
+"Vuoi davvero annullare l'installazione?\n"
 "\n"
-"L'annullamento del processo comporterà l'eliminazione dell'aggiornamento "
-"applicato."
+"L'annullamento del processo comporterà l'eliminazione dei file applicati."
 
 #: GameUpdateWindow.cpp
 msgid "Info"
@@ -784,7 +755,7 @@ msgid ""
 "Adds a game path to scan for games displayed in the game list\n"
 "If you have unpacked games, make sure to select the root folder of a game"
 msgstr ""
-"Aggiunge un percorso nel quale vengono ricercati i giochi da mostrare nella "
+"Aggiungi un percorso nel quale vengono ricercati i giochi da mostrare nella "
 "lista.\n"
 "Se hai dei giochi scompattati, assicurati di selezionare la cartella radice "
 "del gioco."
@@ -795,7 +766,7 @@ msgstr "Rimuovi"
 
 #: GeneralSettings2.cpp
 msgid "Removes the currently selected game path from the game list"
-msgstr "Rimuove il percorso attualmente selezionato dalla lista"
+msgstr "Rimuovi il percorso selezionato dalla lista"
 
 #: GeneralSettings2.cpp
 msgid "Graphics API"
@@ -944,7 +915,7 @@ msgid ""
 "Higher values will create a delay in audio playback, but may avoid audio "
 "problems when emulation is too slow"
 msgstr ""
-"Controlla la quantità di dati audio pre-caricati.\n"
+"Controlla la quantità di dati audio precaricati.\n"
 "Valori più alti creeranno un ritardo nella riproduzione dell'audio, ma "
 "possono evitare problemi quando l'emulazione è troppo lenta."
 
@@ -1159,18 +1130,6 @@ msgid "Shows friend list related data if online"
 msgstr "Se online, mostra eventi relativi alla lista degli amici"
 
 #: GeneralSettings2.cpp
-msgid ""
-"Please be aware that online mode lets you connect to OFFICIAL servers and "
-"therefore there is a risk of getting banned.\n"
-"Only proceed if you are willing to risk losing online access with your Wii U "
-"and/or NNID."
-msgstr ""
-"Sii consapevole che la modalità online consente di connettersi ai server "
-"UFFICIALI e di conseguenza c'è il rischio di essere banditi.\n"
-"Procedi solo se accetti la possibilità di perdere l'accesso online con la "
-"tua Wii U e/o il tuo Nintendo Network ID."
-
-#: GeneralSettings2.cpp
 msgid "Account settings"
 msgstr "Impostazioni account"
 
@@ -1182,13 +1141,25 @@ msgstr "Account attivo"
 msgid "Create"
 msgstr "Crea"
 
-#: GeneralSettings2.cpp InputSettings.cpp
+#: GeneralSettings2.cpp InputSettings.cpp TitleManager.cpp
 msgid "Delete"
 msgstr "Elimina"
 
 #: GeneralSettings2.cpp
+msgid "Online settings"
+msgstr "Impostazioni modalità online"
+
+#: GeneralSettings2.cpp
 msgid "Enable online mode"
 msgstr "Abilita modalità online"
+
+#: GeneralSettings2.cpp
+msgid "No account selected"
+msgstr "Nessun account selezionato"
+
+#: GeneralSettings2.cpp
+msgid "Online play tutorial"
+msgstr "Guida alla modalità online"
 
 #: GeneralSettings2.cpp
 msgid "Account information"
@@ -1263,7 +1234,7 @@ msgstr "Grafica"
 msgid "Audio"
 msgstr "Audio"
 
-#: GeneralSettings2.cpp
+#: GeneralSettings2.cpp TitleManager.cpp
 msgid "Account"
 msgstr "Account"
 
@@ -1280,6 +1251,14 @@ msgid "Confirmation"
 msgstr "Conferma"
 
 #: GeneralSettings2.cpp
+msgid "At least one issue has been found"
+msgstr "Sono stati rilevati dei problemi"
+
+#: GeneralSettings2.cpp
+msgid "Your account is a valid online account"
+msgstr "Il tuo account è idoneo per giocare in modalità online"
+
+#: GeneralSettings2.cpp
 msgid "Off"
 msgstr "Spento"
 
@@ -1290,6 +1269,18 @@ msgstr "Buffering doppio"
 #: GeneralSettings2.cpp
 msgid "Triple buffering"
 msgstr "Buffering triplo"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Please be aware that online mode lets you connect to OFFICIAL servers and "
+"therefore there is a risk of getting banned.\n"
+"Only proceed if you are willing to risk losing online access with your Wii U "
+"and/or NNID."
+msgstr ""
+"Sii consapevole che la modalità online consente di connettersi ai server "
+"UFFICIALI e di conseguenza c'è il rischio di essere banditi.\n"
+"Procedi solo se accetti la possibilità di perdere l'accesso online con la "
+"tua Wii U e/o il tuo Nintendo Network ID."
 
 #: GeneralSettings2.cpp
 msgid "You have to restart the game in order to apply the new settings."
@@ -1477,9 +1468,9 @@ msgstr ""
 "La cache degli shader per questo gioco è stata creata con una versione di "
 "Cemu precedente alla 1.16.0.\n"
 "\n"
-"Non ci sono svantaggi significativi nel riutilizzare una cache pre-"
-"esistente; tuttavia essa potrebbe contenere elementi non più utilizzati "
-"dalle versioni più recenti di Cemu.\n"
+"Non ci sono svantaggi significativi nel riutilizzare una cache preesistente; "
+"tuttavia essa potrebbe contenere elementi non più utilizzati dalle versioni "
+"più recenti di Cemu.\n"
 "\n"
 "È fortemente consigliato creare una nuova cache. Tieni presente che in tal "
 "caso incontrerai dei fenomeni di stuttering (scatti) durante i primi minuti "
@@ -1491,7 +1482,7 @@ msgstr "Migrazione della cache degli shader"
 
 #: gpu7ShaderCache.cpp
 msgid "Use existing cache"
-msgstr "Usa cache pre-esistente"
+msgstr "Usa cache preesistente"
 
 #: gpu7ShaderCache.cpp
 msgid "Create new cache [recommended]"
@@ -1711,11 +1702,11 @@ msgstr "La porta inserita deve essere compresa tra 1 e 65535"
 
 #: InputSettings.cpp
 msgid "Searching for wiimotes..."
-msgstr "Ricerca Wiimote in corso..."
+msgstr "Ricerca Wiimote in corso…"
 
 #: InputSettings.cpp
 msgid "Searching for controllers..."
-msgstr "Ricerca dei controller in corso..."
+msgstr "Ricerca dei controller in corso…"
 
 #: LoggingWindow.cpp
 msgid "Logging window"
@@ -1742,14 +1733,14 @@ msgstr ""
 "Spostalo in un'altra cartella o eseguilo come amministratore!"
 
 #: MainWindow.cpp
-msgid "Update installed!"
-msgstr "Aggiornamento installato!"
+msgid "Title installed!"
+msgstr "Titolo installato!"
 
 #: MainWindow.cpp
-msgid "Update installation has been canceled!"
-msgstr "L'installazione dell'aggiornamento è stata annullata!"
+msgid "Title installation has been canceled!"
+msgstr "L'installazione del titolo è stata annullata!"
 
-#: MainWindow.cpp
+#: MainWindow.cpp TitleManager.cpp
 msgid "Update error"
 msgstr "Errore di aggiornamento"
 
@@ -1783,11 +1774,15 @@ msgstr "Tutti i file (*.*)"
 
 #: MainWindow.cpp
 msgid "Open file to launch"
-msgstr "Apri file da eseguire"
+msgstr "Seleziona il file da eseguire"
+
+#: MainWindow.cpp TitleManager.cpp
+msgid "Select title to install"
+msgstr "Seleziona il titolo da installare"
 
 #: MainWindow.cpp
 msgid "Open file to load"
-msgstr "Apri file da caricare"
+msgstr "Seleziona il file da caricare"
 
 #: MainWindow.cpp
 msgid "Cemu must be restarted to apply the selected UI language."
@@ -1812,7 +1807,7 @@ msgstr "Dump completato"
 
 #: MainWindow.cpp
 msgid "Updating game list..."
-msgstr "Aggiornamento della lista in corso..."
+msgstr "Aggiornamento della lista in corso…"
 
 #: MainWindow.cpp
 msgid ""
@@ -1831,8 +1826,8 @@ msgid "&Load"
 msgstr "&Carica"
 
 #: MainWindow.cpp
-msgid "&Install game update or DLC"
-msgstr "&Installa aggiornamento o DLC"
+msgid "&Install game title, update or DLC"
+msgstr "&Installa gioco, aggiornamento o DLC"
 
 #: MainWindow.cpp
 msgid "End emulation"
@@ -2174,6 +2169,65 @@ msgstr "&Vai a disassembly"
 msgid "G&oto Dump"
 msgstr "&Vai al dump"
 
+#: SaveTransfer.cpp
+msgid "Save transfer"
+msgstr "Trasferisci salvataggio"
+
+#: SaveTransfer.cpp
+msgid "Source"
+msgstr "Sorgente"
+
+#: SaveTransfer.cpp
+msgid "Target"
+msgstr "Destinazione"
+
+#: SaveTransfer.cpp wxCreateAccountDialog.cpp
+msgid "OK"
+msgstr "OK"
+
+#: SaveTransfer.cpp
+msgid ""
+"The given account id is not valid!\n"
+"It must be a hex number bigger or equal than {:08x}"
+msgstr ""
+"L'ID dell'account inserito non è valido!\n"
+"Dev'essere un numero esadecimale maggiore o uguale a {:08x}"
+
+#: SaveTransfer.cpp
+msgid ""
+"There's already a file at the target directory:\n"
+"{}"
+msgstr ""
+"Nella cartella di destinazione è già presente un file:\n"
+"{}"
+
+#: SaveTransfer.cpp
+msgid ""
+"There's already a save game available for the target account, do you want to "
+"overwrite it?\n"
+"This will delete the existing save files for the account and replace them."
+msgstr ""
+"È già presente un salvataggio per l'account di destinazione, vuoi "
+"sovrascriverlo?\n"
+"I file del salvataggio preesistente verranno eliminati e sostituiti."
+
+#: SaveTransfer.cpp
+msgid ""
+"Error when trying to delete the former save game:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore nel tentativo di rimuovere il salvataggio "
+"precedente:\n"
+"{}"
+
+#: SaveTransfer.cpp
+msgid ""
+"Error when trying to move the save game:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore nel tentativo di spostare il salvataggio:\n"
+"{}"
+
 #: textureRelationWindow.cpp
 msgid "Texture cache"
 msgstr "Cache delle texture"
@@ -2247,8 +2301,49 @@ msgstr ""
 "{4}"
 
 #: TitleManager.cpp
+msgid "Install title"
+msgstr "Installa titolo"
+
+#: TitleManager.cpp
+msgid "Open directory"
+msgstr "Apri cartella"
+
+#: TitleManager.cpp
+msgid "Open the directory of the save entry"
+msgstr "Apri la cartella contenente i file del salvataggio"
+
+#: TitleManager.cpp
+msgid "Transfer"
+msgstr "Trasferisci"
+
+#: TitleManager.cpp
+msgid "Transfers the save entry to another persistent account id"
+msgstr "Trasferisci il salvataggio ad un altro account"
+
+#: TitleManager.cpp
+msgid "Irrevocable delete the save entry "
+msgstr "Elimina permanentemente il salvataggio"
+
+#: TitleManager.cpp
 msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
 msgstr "Trovati {} giochi, {} aggiornamenti, {} DLC e {} salvataggi"
+
+#: TitleManager.cpp
+msgid "Update installation has been canceled!"
+msgstr "L'installazione dell'aggiornamento è stata annullata!"
+
+#: TitleManager.cpp
+msgid "Are you really sure that you want to delete the save entry for {}"
+msgstr "Sei sicuro di voler cancellare il salvataggio per l'account {}?"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to delete the save directory:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore nel tentativo di rimuovere la cartella contenente "
+"i file del salvataggio:\n"
+"{}"
 
 #: toolMemorySearcher.cpp
 msgid "Memory Searcher"
@@ -2318,7 +2413,7 @@ msgid ""
 " \n"
 "Required extension: VK_EXT_pipeline_creation_cache_control\n"
 "\n"
-"Installing the latest graphics driver may solve this error."
+"Installing the latest or beta graphics driver may solve this error."
 msgstr ""
 "Il driver grafico attualmente installato non supporta l'estensione Vulkan "
 "necessaria per la compilazione asincrona degli shader, pertanto non è "
@@ -2326,8 +2421,8 @@ msgstr ""
 " \n"
 "Estensione richiesta: VK_EXT_pipeline_creation_cache_control\n"
 "\n"
-"L'installazione del driver grafico più recente potrebbe risolvere questo "
-"problema."
+"L'installazione della versione più recente o di una versione beta del driver "
+"grafico potrebbe risolvere questo problema."
 
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
@@ -2341,10 +2436,6 @@ msgstr ""
 "Il PersistentId è il nome della cartella interna utilizzata per i tuoi "
 "salvataggi. Modificalo soltanto se stai importando salvataggi da una Wii U "
 "con un ID specifico."
-
-#: wxCreateAccountDialog.cpp
-msgid "OK"
-msgstr "OK"
 
 #: wxCreateAccountDialog.cpp
 msgid "No persistent id entered!"
@@ -2377,13 +2468,7 @@ msgstr ""
 "l'emulazione e potrebbero smettere completamente di funzionare nelle future "
 "versioni di Cemu.\n"
 "Assicurati che il gioco base sia intatto e installa gli aggiornamenti usando "
-"solo la funzione File -> Installa aggiornamento o DLC."
-
-#: wxGameList.cpp
-msgid "You can configure game paths in the general settings."
-msgstr ""
-"Puoi configurare i percorsi di ricerca dei giochi nelle impostazioni "
-"generali."
+"solo la funzione File -> Installa gioco, aggiornamento o DLC."
 
 #: wxGameList.cpp
 msgid "never"
@@ -2408,6 +2493,10 @@ msgstr "Tempo di gioco"
 #: wxGameList.cpp
 msgid "Last played"
 msgstr "Ultima partita"
+
+#: wxGameList.cpp wxTitleManagerList.cpp
+msgid "Region"
+msgstr "Regione"
 
 #: wxGameList.cpp
 msgid "&Start"
@@ -2489,13 +2578,19 @@ msgstr "Mostra &tempo di gioco"
 msgid "Show &last played"
 msgstr "Mostra &ultima partita"
 
+#: wxGameList.cpp
+msgid "Show &region"
+msgstr "Mostra &regione"
+
+#: wxGameList.cpp
+msgid "You can configure game paths in the general settings."
+msgstr ""
+"Puoi configurare i percorsi di ricerca dei giochi nelle impostazioni "
+"generali."
+
 #: wxTitleManagerList.cpp
 msgid "Title id"
 msgstr "ID titolo"
-
-#: wxTitleManagerList.cpp
-msgid "Region"
-msgstr "Regione"
 
 #: wxTitleManagerList.cpp
 msgid ""
@@ -2509,8 +2604,8 @@ msgid ""
 "There's already a newer or equal version installed at the correct location, "
 "so the redundant version will be deleted:"
 msgstr ""
-"Esiste già una versione più recente o uguale installata nella posizione "
-"corretta, perciò la versione ridondante verrà eliminata:"
+"Nella posizione corretta è già installata una versione uguale o più recente "
+"del titolo, perciò la versione ridondante verrà eliminata:"
 
 #: wxTitleManagerList.cpp
 msgid ""
@@ -2525,8 +2620,8 @@ msgid ""
 "There's already an older version installed at the correct location, so the "
 "older version will be overwritten:"
 msgstr ""
-"Esiste già una versione precedente installata nella posizione corretta, "
-"perciò tale versione verrà sovrascritta:"
+"Nella posizione corretta è già installata una versione precedente del "
+"titolo, perciò tale versione verrà sovrascritta:"
 
 #: wxTitleManagerList.cpp
 msgid ""
@@ -2538,16 +2633,16 @@ msgstr ""
 "{}"
 
 #: wxTitleManagerList.cpp
-msgid "Your base game is installed at the wrong location."
-msgstr "Il gioco base è installato nella posizione errata."
+msgid "This base game is installed at the wrong location."
+msgstr "Questo gioco base è installato nella posizione errata."
 
 #: wxTitleManagerList.cpp
-msgid "Your update is installed at the wrong location."
-msgstr "L'aggiornamento è installato nella posizione errata."
+msgid "This update is installed at the wrong location."
+msgstr "Questo aggiornamento è installato nella posizione errata."
 
 #: wxTitleManagerList.cpp
-msgid "Your DLC is installed at the wrong location."
-msgstr "Il DLC è installato nella posizione errata."
+msgid "This DLC is installed at the wrong location."
+msgstr "Questo DLC è installato nella posizione errata."
 
 #: wxTitleManagerList.cpp
 msgid "You can use the context menu to fix it."
@@ -2574,8 +2669,59 @@ msgid ""
 "Are you really sure that you want to delete the following folder:\n"
 "{}"
 msgstr ""
-"Sei sicuro di voler cancellare la seguente cartella:\n"
+"Sei sicuro di voler cancellare la seguente cartella?\n"
 "{}"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Are you really sure that you want to delete the following file:\n"
+"{}"
+msgstr ""
+"Sei sicuro di voler cancellare il seguente file?\n"
+"{}"
+
+#~ msgid ""
+#~ "Cemu detected a DLC installed at a wrong or outdated location:\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Do you want to move it to the correct location:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Cemu ha rilevato un DLC installato in una posizione errata od obsoleta:\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Vuoi spostarlo nella posizione corretta:\n"
+#~ "{}"
+
+#~ msgid "Can't open the file."
+#~ msgstr "Impossibile aprire il file."
+
+#~ msgid "Invalid \"meta.xml\" file."
+#~ msgstr "File \"meta.xml\" non valido."
+
+#~ msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
+#~ msgstr ""
+#~ "Impossibile trovare il tag \"title_id\" nel file \"meta.xml\" selezionato."
+
+#~ msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
+#~ msgstr ""
+#~ "Impossibile trovare il tag \"title_version\" nel file \"meta.xml\" "
+#~ "selezionato."
+
+#~ msgid "Can't find the \"product_code\" in the given \"meta.xml\" file."
+#~ msgstr ""
+#~ "Impossibile trovare il tag “product_code” nel file \"meta.xml\" "
+#~ "selezionato."
+
+#~ msgid "The given \"meta.xml\" file is no update or DLC."
+#~ msgstr ""
+#~ "Il file \"meta.xml\" selezionato non appartiene né a un aggiornamento né "
+#~ "a un DLC."
+
+#~ msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
+#~ msgstr ""
+#~ "Impossibile trovare il tag \"longname_en\" nel file \"meta.xml\" "
+#~ "selezionato."
 
 #~ msgid "&Optimize shader SPIR-V"
 #~ msgstr "&Ottimizza shader SPIR-V"
@@ -2744,9 +2890,6 @@ msgstr ""
 
 #~ msgid "Emulate Controller:"
 #~ msgstr "Controller emulato:"
-
-#~ msgid "No profile selected!"
-#~ msgstr "Nessun profilo selezionato!"
 
 #~ msgid "The given profile name is invalid!"
 #~ msgstr "Il nome scelto non è valido!"
