@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-06-09 02:46+0200\n"
-"PO-Revision-Date: 2020-06-09 22:01+0200\n"
+"PO-Revision-Date: 2020-06-13 12:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -533,8 +533,8 @@ msgid ""
 "It seems that there's a wrong title installed at the target location.\n"
 "Please use the title manager to fix it first!"
 msgstr ""
-"Úgy tűnik, a kiválasztott könyvtárba rossz játék van telepítve.\n"
-"Ezt a játékkezelővel javíthatod ki."
+"Úgy tűnik, a kiválasztott könyvtárba rossz cím van telepítve.\n"
+"Ezt a címkezelővel javíthatod ki."
 
 #: GameUpdateWindow.cpp GeneralSettings2.cpp GraphicPacksWindow2.cpp
 #: MainWindow.cpp TitleManager.cpp wxTitleManagerList.cpp
@@ -546,7 +546,7 @@ msgid ""
 "It seems that the selected title is already installed, do you want to "
 "reinstall it?"
 msgstr ""
-"Úgy tűnik, a kiválasztott játék már telepítve van. Szeretnéd újratelepíteni?"
+"Úgy tűnik, a kiválasztott cím már telepítve van. Szeretnéd újratelepíteni?"
 
 #: GameUpdateWindow.cpp
 msgid ""
@@ -561,7 +561,7 @@ msgid ""
 "Error when trying to move former title installation:\n"
 "{}"
 msgstr ""
-"Hiba történt az előzőleg telepített játék áthelyezése közben:\n"
+"Hiba történt az előzőleg telepített cím áthelyezése közben:\n"
 "{}"
 
 #: GameUpdateWindow.cpp
@@ -588,7 +588,7 @@ msgstr "Frissítés telepítése..."
 
 #: GameUpdateWindow.cpp
 msgid "Installing title ..."
-msgstr "Játék telepítése..."
+msgstr "Cím telepítése..."
 
 #: GameUpdateWindow.cpp
 msgid "Current file:"
@@ -1708,11 +1708,11 @@ msgstr ""
 
 #: MainWindow.cpp
 msgid "Title installed!"
-msgstr "Játék telepítve!"
+msgstr "Cím telepítve!"
 
 #: MainWindow.cpp
 msgid "Title installation has been canceled!"
-msgstr "A játék telepítése meg lett szakítva!"
+msgstr "A cím telepítése meg lett szakítva!"
 
 #: MainWindow.cpp TitleManager.cpp
 msgid "Update error"
@@ -1752,7 +1752,7 @@ msgstr "Nyisd meg az indítani való fájlt"
 
 #: MainWindow.cpp TitleManager.cpp
 msgid "Select title to install"
-msgstr "Válaszd ki a telepítendő játékot"
+msgstr "Válaszd ki a telepítendő címet"
 
 #: MainWindow.cpp
 msgid "Open file to load"
@@ -1921,7 +1921,7 @@ msgstr "&Memóriakereső"
 
 #: MainWindow.cpp
 msgid "&Title Manager"
-msgstr "&Játékkezelő"
+msgstr "&Címkezelő"
 
 #: MainWindow.cpp
 msgid "&Tools"
@@ -2255,7 +2255,7 @@ msgstr "Nézetek mutatása"
 
 #: TitleManager.cpp
 msgid "Title manager"
-msgstr "Játékkezelő"
+msgstr "Címkezelő"
 
 #: TitleManager.cpp
 msgid ""
@@ -2275,7 +2275,7 @@ msgstr ""
 
 #: TitleManager.cpp
 msgid "Install title"
-msgstr "Játék telepítése"
+msgstr "Cím telepítése"
 
 #: TitleManager.cpp
 msgid "Open directory"
@@ -2558,12 +2558,12 @@ msgstr "A játékok útvonalát az általános beállításokban tudod megadni."
 
 #: wxTitleManagerList.cpp
 msgid "Title id"
-msgstr "Játékazonosító"
+msgstr "Címazonosító"
 
 #: wxTitleManagerList.cpp
 msgid ""
 "There's an wrong title installed at the target location, should we fix that?"
-msgstr "A célkönyvtárba rossz játék van telepítve. Megoldjuk a problémát?"
+msgstr "A célkönyvtárba rossz cím van telepítve. Megoldjuk a problémát?"
 
 #: wxTitleManagerList.cpp
 msgid ""
