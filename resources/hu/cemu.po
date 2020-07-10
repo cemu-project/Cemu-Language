@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-06-09 02:46+0200\n"
-"PO-Revision-Date: 2020-06-13 12:20+0200\n"
+"POT-Creation-Date: 2020-07-10 17:40+0200\n"
+"PO-Revision-Date: 2020-07-10 19:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -112,7 +112,7 @@ msgstr ""
 "\n"
 "Hiba:{0}"
 
-#: CemuApp.cpp
+#: CemuApp.cpp TitleManager.cpp
 msgid "Select a mlc directory"
 msgstr "Válassz ki egy mlc könyvtárat"
 
@@ -126,8 +126,9 @@ msgstr ""
 
 #: CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp GameUpdateWindow.cpp
 #: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
-#: MainWindow.cpp SaveTransfer.cpp TitleManager.cpp toolMemorySearcher.cpp
-#: VulkanCanvas.cpp wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+#: MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp TitleManager.cpp
+#: toolMemorySearcher.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: wxTitleManagerList.cpp
 msgid "Error"
 msgstr "Hiba"
 
@@ -136,7 +137,7 @@ msgid "Update"
 msgstr "Frissítés"
 
 #: CemuUpdateWindow.cpp DownloadGraphicPacksWindow.cpp GameUpdateWindow.cpp
-#: SaveTransfer.cpp wxCreateAccountDialog.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp wxCreateAccountDialog.cpp
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -454,18 +455,6 @@ msgid "cycles"
 msgstr "ciklus"
 
 #: GameProfileWindow.cpp
-msgid "Extended texture readback"
-msgstr "Kiterjesztett textúra-visszaolvasás"
-
-#: GameProfileWindow.cpp
-msgid ""
-"Improves emulation accuracy of CPU to GPU memory access at the cost of "
-"performance. Required for some games."
-msgstr ""
-"Segít a CPU-GPU memóriahozzáférés emulációs pontosságán a teljesítmény "
-"feláldozásával. Néhány játékhoz kötelező."
-
-#: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
 msgstr "Shader szorzó pontosság"
 
@@ -492,29 +481,6 @@ msgstr ""
 "A lebegőpont-szorzó pontosságát befolyásolja a shaderekben.\n"
 "\n"
 "Javasolt érték: igaz"
-
-#: GameProfileWindow.cpp
-msgid "GPU buffer cache accuracy"
-msgstr "GPU-gyorsítótár pontossága"
-
-#: GameProfileWindow.cpp
-msgid "high"
-msgstr "magas"
-
-#: GameProfileWindow.cpp
-msgid "medium"
-msgstr "közepes"
-
-#: GameProfileWindow.cpp
-msgid "low"
-msgstr "alacsony"
-
-#: GameProfileWindow.cpp
-msgid ""
-"Lower value results in higher performance, but may cause graphical issues"
-msgstr ""
-"Az alacsonyabb érték javít a teljesítményen, viszont grafikai problémákat "
-"okozhat"
 
 #: GameProfileWindow.cpp
 msgid "Graphic"
@@ -696,6 +662,18 @@ msgid ""
 msgstr ""
 "A képernyőmentés gomb (F12) lenyomása egy képernyőmentést helyez a "
 "screenshots mappába"
+
+#: GeneralSettings2.cpp
+msgid "Use permanent storage"
+msgstr "Tartós tárhely használata"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Cemu will remember your custom mlc path in %LOCALAPPDATA%/Cemu for new "
+"installations."
+msgstr ""
+"A Cemu megjegyzi az egyéni mlc elérési utat a %LOCALAPPDATA%/Cemu "
+"könyvtárban az új telepítésekhez."
 
 #: GeneralSettings2.cpp
 msgid "MLC Path"
@@ -1306,6 +1284,14 @@ msgstr ""
 "\\)\n"
 "Ha ezt a mezőt üresen hagyod, az mlc könyvtár a Cemu mappájában lesz "
 "létrehozva."
+
+#: GettingStartedDialog.cpp
+msgid ""
+"A custom mlc path from a previous Cemu installation has been found and "
+"filled in."
+msgstr ""
+"A Cemu megtalálta a korábbi telepítésből származó mlc könyvtárat és "
+"automatikusan ráállt."
 
 #: GettingStartedDialog.cpp
 msgid "Custom mlc01 path"
@@ -2143,23 +2129,41 @@ msgstr "&Ugrás: Disasm"
 msgid "G&oto Dump"
 msgstr "&Ugrás: Dump"
 
-#: SaveTransfer.cpp
-msgid "Save transfer"
-msgstr "Mentés-átvitel"
+#: SaveImportWindow.cpp
+msgid "Import save entry"
+msgstr "Mentés importálása"
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid "Source"
 msgstr "Forrás"
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp
+msgid "Select a zipped save file"
+msgstr "Válassz ki egy tömörített mentésfájlt"
+
+#: SaveImportWindow.cpp
+msgid "Import save entry {}"
+msgstr "Mentés importálása {}"
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid "Target"
 msgstr "Cél"
 
-#: SaveTransfer.cpp wxCreateAccountDialog.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp wxCreateAccountDialog.cpp
 msgid "OK"
 msgstr "OK"
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp
+msgid ""
+"You are trying to import a savegame for a different title than your "
+"currently selected one: {:016x} vs {:016x}\n"
+"Are you sure that you want to continue?"
+msgstr ""
+"Egy nem ehhez a címhez tartozó mentést próbálsz importálni: {:016x} helyett "
+"{:016x}\n"
+"Biztosan folytatni akarod?"
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "The given account id is not valid!\n"
 "It must be a hex number bigger or equal than {:08x}"
@@ -2167,7 +2171,7 @@ msgstr ""
 "A megadott fiókazonosító nem érvényes!\n"
 "A fiókazonosító egy hexadecimális szám, ami nagyobb vagy egyenlő {:08x}-nél."
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "There's already a file at the target directory:\n"
 "{}"
@@ -2175,7 +2179,7 @@ msgstr ""
 "A célkönyvtárban már létezik egy fájl:\n"
 "{}"
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "There's already a save game available for the target account, do you want to "
 "overwrite it?\n"
@@ -2185,13 +2189,33 @@ msgstr ""
 "Ezzel törlődni fognak a létező mentésfájlok és ki lesznek cserélve az "
 "újakkal."
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "Error when trying to delete the former save game:\n"
 "{}"
 msgstr ""
 "Hiba történt a régebbi mentés törlése közben:\n"
 "{}"
+
+#: SaveImportWindow.cpp
+msgid ""
+"Error when creating the extraction path:\n"
+"{}"
+msgstr ""
+"Hiba történt a kicsomagolási útvonal létrehozása közben:\n"
+"{}"
+
+#: SaveImportWindow.cpp
+msgid ""
+"Error when opening the import zip file:\n"
+"{}"
+msgstr ""
+"Hiba történt az importálandó tömörített fájl megnyitása közben:\n"
+"{}"
+
+#: SaveTransfer.cpp
+msgid "Save transfer"
+msgstr "Mentés-átvitel"
 
 #: SaveTransfer.cpp
 msgid ""
@@ -2298,6 +2322,22 @@ msgid "Irrevocable delete the save entry "
 msgstr "Mentés törlése (visszavonhatatlan) "
 
 #: TitleManager.cpp
+msgid "Import"
+msgstr "Importálás"
+
+#: TitleManager.cpp
+msgid "Imports a zipped save entry"
+msgstr "Tömörített mentés importálása"
+
+#: TitleManager.cpp
+msgid "Export"
+msgstr "Exportálás"
+
+#: TitleManager.cpp
+msgid "Exports the selected save entry as zip file"
+msgstr "A kiválasztott mentés exportálása tömörített fájlba"
+
+#: TitleManager.cpp
 msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
 msgstr "Találatok: {} játék, {} frissítés, {} DLC és {} mentés"
 
@@ -2315,6 +2355,38 @@ msgid ""
 "{}"
 msgstr ""
 "Hiba történt a mentési könyvtár törlése közben:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid ""
+"Error when creating the zip for the save entry:\n"
+"{}"
+msgstr ""
+"Hiba történt a mentés tömörítése közben:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a directory to the zip:\n"
+"{}"
+msgstr ""
+"Hiba történt egy könyvtár létrehozása közben a tömörített fájlban:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a file to the zip:\n"
+"{}"
+msgstr ""
+"Hiba történt egy fájl létrehozása közben a tömörített fájlban:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a cemu_meta to the zip:\n"
+"{}"
+msgstr ""
+"Hiba történt a cemu_meta hozzáadása közben a tömörített fájlban:\n"
 "{}"
 
 #: toolMemorySearcher.cpp
@@ -2644,6 +2716,34 @@ msgid ""
 msgstr ""
 "Biztosan törölni akarod az alábbi fájlt?\n"
 "{}"
+
+#~ msgid "Extended texture readback"
+#~ msgstr "Kiterjesztett textúra-visszaolvasás"
+
+#~ msgid ""
+#~ "Improves emulation accuracy of CPU to GPU memory access at the cost of "
+#~ "performance. Required for some games."
+#~ msgstr ""
+#~ "Segít a CPU-GPU memóriahozzáférés emulációs pontosságán a teljesítmény "
+#~ "feláldozásával. Néhány játékhoz kötelező."
+
+#~ msgid "GPU buffer cache accuracy"
+#~ msgstr "GPU-gyorsítótár pontossága"
+
+#~ msgid "high"
+#~ msgstr "magas"
+
+#~ msgid "medium"
+#~ msgstr "közepes"
+
+#~ msgid "low"
+#~ msgstr "alacsony"
+
+#~ msgid ""
+#~ "Lower value results in higher performance, but may cause graphical issues"
+#~ msgstr ""
+#~ "Az alacsonyabb érték javít a teljesítményen, viszont grafikai problémákat "
+#~ "okozhat"
 
 #~ msgid ""
 #~ "Cemu detected a DLC installed at a wrong or outdated location:\n"
