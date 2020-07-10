@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-06-09 02:46+0200\n"
+"POT-Creation-Date: 2020-07-10 17:40+0200\n"
 "PO-Revision-Date: 2018-06-12 19:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -96,7 +96,7 @@ msgid ""
 "Error: {0}"
 msgstr ""
 
-#: CemuApp.cpp
+#: CemuApp.cpp TitleManager.cpp
 msgid "Select a mlc directory"
 msgstr ""
 
@@ -108,8 +108,9 @@ msgstr ""
 
 #: CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp GameUpdateWindow.cpp
 #: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
-#: MainWindow.cpp SaveTransfer.cpp TitleManager.cpp toolMemorySearcher.cpp
-#: VulkanCanvas.cpp wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+#: MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp TitleManager.cpp
+#: toolMemorySearcher.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: wxTitleManagerList.cpp
 msgid "Error"
 msgstr ""
 
@@ -118,7 +119,7 @@ msgid "Update"
 msgstr ""
 
 #: CemuUpdateWindow.cpp DownloadGraphicPacksWindow.cpp GameUpdateWindow.cpp
-#: SaveTransfer.cpp wxCreateAccountDialog.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp wxCreateAccountDialog.cpp
 msgid "Cancel"
 msgstr ""
 
@@ -428,16 +429,6 @@ msgid "cycles"
 msgstr ""
 
 #: GameProfileWindow.cpp
-msgid "Extended texture readback"
-msgstr ""
-
-#: GameProfileWindow.cpp
-msgid ""
-"Improves emulation accuracy of CPU to GPU memory access at the cost of "
-"performance. Required for some games."
-msgstr ""
-
-#: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
 msgstr ""
 
@@ -459,27 +450,6 @@ msgid ""
 "Controls the accuracy of floating point multiplication in shaders.\n"
 "\n"
 "Recommended: true"
-msgstr ""
-
-#: GameProfileWindow.cpp
-msgid "GPU buffer cache accuracy"
-msgstr ""
-
-#: GameProfileWindow.cpp
-msgid "high"
-msgstr ""
-
-#: GameProfileWindow.cpp
-msgid "medium"
-msgstr ""
-
-#: GameProfileWindow.cpp
-msgid "low"
-msgstr ""
-
-#: GameProfileWindow.cpp
-msgid ""
-"Lower value results in higher performance, but may cause graphical issues"
 msgstr ""
 
 #: GameProfileWindow.cpp
@@ -636,6 +606,16 @@ msgstr ""
 msgid ""
 "Pressing the screenshot key (F12) will save a screenshot directly to the "
 "screenshots folder"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid "Use permanent storage"
+msgstr ""
+
+#: GeneralSettings2.cpp
+msgid ""
+"Cemu will remember your custom mlc path in %LOCALAPPDATA%/Cemu for new "
+"installations."
 msgstr ""
 
 #: GeneralSettings2.cpp
@@ -1195,6 +1175,12 @@ msgid ""
 "It is strongly recommend that you create a dedicated folder for it (example: "
 "C:\\wiiu\\mlc\\) \n"
 "If left empty, the mlc folder will be created inside the Cemu folder."
+msgstr ""
+
+#: GettingStartedDialog.cpp
+msgid ""
+"A custom mlc path from a previous Cemu installation has been found and "
+"filled in."
 msgstr ""
 
 #: GettingStartedDialog.cpp
@@ -1992,45 +1978,76 @@ msgstr ""
 msgid "G&oto Dump"
 msgstr ""
 
-#: SaveTransfer.cpp
-msgid "Save transfer"
+#: SaveImportWindow.cpp
+msgid "Import save entry"
 msgstr ""
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid "Source"
 msgstr ""
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp
+msgid "Select a zipped save file"
+msgstr ""
+
+#: SaveImportWindow.cpp
+msgid "Import save entry {}"
+msgstr ""
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid "Target"
 msgstr ""
 
-#: SaveTransfer.cpp wxCreateAccountDialog.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp wxCreateAccountDialog.cpp
 msgid "OK"
 msgstr ""
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp
+msgid ""
+"You are trying to import a savegame for a different title than your "
+"currently selected one: {:016x} vs {:016x}\n"
+"Are you sure that you want to continue?"
+msgstr ""
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "The given account id is not valid!\n"
 "It must be a hex number bigger or equal than {:08x}"
 msgstr ""
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "There's already a file at the target directory:\n"
 "{}"
 msgstr ""
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "There's already a save game available for the target account, do you want to "
 "overwrite it?\n"
 "This will delete the existing save files for the account and replace them."
 msgstr ""
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "Error when trying to delete the former save game:\n"
 "{}"
+msgstr ""
+
+#: SaveImportWindow.cpp
+msgid ""
+"Error when creating the extraction path:\n"
+"{}"
+msgstr ""
+
+#: SaveImportWindow.cpp
+msgid ""
+"Error when opening the import zip file:\n"
+"{}"
+msgstr ""
+
+#: SaveTransfer.cpp
+msgid "Save transfer"
 msgstr ""
 
 #: SaveTransfer.cpp
@@ -2130,6 +2147,22 @@ msgid "Irrevocable delete the save entry "
 msgstr ""
 
 #: TitleManager.cpp
+msgid "Import"
+msgstr ""
+
+#: TitleManager.cpp
+msgid "Imports a zipped save entry"
+msgstr ""
+
+#: TitleManager.cpp
+msgid "Export"
+msgstr ""
+
+#: TitleManager.cpp
+msgid "Exports the selected save entry as zip file"
+msgstr ""
+
+#: TitleManager.cpp
 msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
 msgstr ""
 
@@ -2144,6 +2177,30 @@ msgstr ""
 #: TitleManager.cpp
 msgid ""
 "Error when trying to delete the save directory:\n"
+"{}"
+msgstr ""
+
+#: TitleManager.cpp
+msgid ""
+"Error when creating the zip for the save entry:\n"
+"{}"
+msgstr ""
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a directory to the zip:\n"
+"{}"
+msgstr ""
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a file to the zip:\n"
+"{}"
+msgstr ""
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a cemu_meta to the zip:\n"
 "{}"
 msgstr ""
 
