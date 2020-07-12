@@ -601,7 +601,7 @@ msgstr "Por defecto"
 
 #: GeneralSettings2.cpp
 msgid "English"
-msgstr "inglés"
+msgstr "English"
 
 #: GeneralSettings2.cpp
 msgid ""
