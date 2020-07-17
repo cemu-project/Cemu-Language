@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-07-10 17:40+0200\n"
+"POT-Creation-Date: 2020-07-17 21:28+0200\n"
 "PO-Revision-Date: 2018-06-12 19:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -57,6 +57,118 @@ msgid "Memory breakpoint"
 msgstr ""
 
 #: CemuApp.cpp
+msgid "Browse"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Select a file"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Select a directory"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "base"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "update"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "dlc"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "save"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Japan"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "USA"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Europe"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Australia"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "China"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Korea"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Taiwan"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Auto"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "many"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Japanese"
+msgstr ""
+
+#: CemuApp.cpp GeneralSettings2.cpp
+msgid "English"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "German"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Italian"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Spanish"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Chinese"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Korean"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Dutch"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Portugese"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Russian"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "Taiwanese"
+msgstr ""
+
+#: CemuApp.cpp
+msgid "unknown"
+msgstr ""
+
+#: CemuApp.cpp
 msgid ""
 "Your mlc01 folder seems to be missing.\n"
 "\n"
@@ -96,7 +208,7 @@ msgid ""
 "Error: {0}"
 msgstr ""
 
-#: CemuApp.cpp TitleManager.cpp
+#: CemuApp.cpp
 msgid "Select a mlc directory"
 msgstr ""
 
@@ -541,10 +653,6 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "Default"
-msgstr ""
-
-#: GeneralSettings2.cpp
-msgid "English"
 msgstr ""
 
 #: GeneralSettings2.cpp
@@ -2178,6 +2286,10 @@ msgstr ""
 msgid ""
 "Error when trying to delete the save directory:\n"
 "{}"
+msgstr ""
+
+#: TitleManager.cpp
+msgid "Select a target file to export the save entry"
 msgstr ""
 
 #: TitleManager.cpp
