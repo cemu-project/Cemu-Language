@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-06-09 02:46+0200\n"
-"PO-Revision-Date: 2020-06-13 14:04+0200\n"
+"POT-Creation-Date: 2020-07-17 21:28+0200\n"
+"PO-Revision-Date: 2020-07-18 10:38+0200\n"
 "Last-Translator: Fs00 <francescosaltori@gmail.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -57,6 +57,118 @@ msgstr "Inserisci un indirizzo di memoria"
 #: BreakpointWindow.cpp
 msgid "Memory breakpoint"
 msgstr "Punto di interruzione della memoria"
+
+#: CemuApp.cpp
+msgid "Browse"
+msgstr "Sfoglia"
+
+#: CemuApp.cpp
+msgid "Select a file"
+msgstr "Seleziona un file"
+
+#: CemuApp.cpp
+msgid "Select a directory"
+msgstr "Seleziona una cartella"
+
+#: CemuApp.cpp
+msgid "base"
+msgstr "gioco base"
+
+#: CemuApp.cpp
+msgid "update"
+msgstr "aggiornamento"
+
+#: CemuApp.cpp
+msgid "dlc"
+msgstr "DLC"
+
+#: CemuApp.cpp
+msgid "save"
+msgstr "salvataggio"
+
+#: CemuApp.cpp
+msgid "Japan"
+msgstr "Giappone"
+
+#: CemuApp.cpp
+msgid "USA"
+msgstr "USA"
+
+#: CemuApp.cpp
+msgid "Europe"
+msgstr "Europa"
+
+#: CemuApp.cpp
+msgid "Australia"
+msgstr "Australia"
+
+#: CemuApp.cpp
+msgid "China"
+msgstr "Cina"
+
+#: CemuApp.cpp
+msgid "Korea"
+msgstr "Corea"
+
+#: CemuApp.cpp
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: CemuApp.cpp
+msgid "Auto"
+msgstr "Automatico"
+
+#: CemuApp.cpp
+msgid "many"
+msgstr "molti"
+
+#: CemuApp.cpp
+msgid "Japanese"
+msgstr "Giapponese"
+
+#: CemuApp.cpp GeneralSettings2.cpp
+msgid "English"
+msgstr "Inglese"
+
+#: CemuApp.cpp
+msgid "German"
+msgstr "Tedesco"
+
+#: CemuApp.cpp
+msgid "Italian"
+msgstr "Italiano"
+
+#: CemuApp.cpp
+msgid "Spanish"
+msgstr "Spagnolo"
+
+#: CemuApp.cpp
+msgid "Chinese"
+msgstr "Cinese"
+
+#: CemuApp.cpp
+msgid "Korean"
+msgstr "Coreano"
+
+#: CemuApp.cpp
+msgid "Dutch"
+msgstr "Olandese"
+
+#: CemuApp.cpp
+msgid "Portugese"
+msgstr "Portoghese"
+
+#: CemuApp.cpp
+msgid "Russian"
+msgstr "Russo"
+
+#: CemuApp.cpp
+msgid "Taiwanese"
+msgstr "Taiwanese"
+
+#: CemuApp.cpp
+msgid "unknown"
+msgstr "sconosciuto"
 
 #: CemuApp.cpp
 msgid ""
@@ -131,8 +243,9 @@ msgstr ""
 
 #: CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp GameUpdateWindow.cpp
 #: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
-#: MainWindow.cpp SaveTransfer.cpp TitleManager.cpp toolMemorySearcher.cpp
-#: VulkanCanvas.cpp wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+#: MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp TitleManager.cpp
+#: toolMemorySearcher.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: wxTitleManagerList.cpp
 msgid "Error"
 msgstr "Errore"
 
@@ -141,7 +254,7 @@ msgid "Update"
 msgstr "Aggiorna"
 
 #: CemuUpdateWindow.cpp DownloadGraphicPacksWindow.cpp GameUpdateWindow.cpp
-#: SaveTransfer.cpp wxCreateAccountDialog.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp wxCreateAccountDialog.cpp
 msgid "Cancel"
 msgstr "Annulla"
 
@@ -464,18 +577,6 @@ msgid "cycles"
 msgstr "cicli"
 
 #: GameProfileWindow.cpp
-msgid "Extended texture readback"
-msgstr "Texture readback esteso"
-
-#: GameProfileWindow.cpp
-msgid ""
-"Improves emulation accuracy of CPU to GPU memory access at the cost of "
-"performance. Required for some games."
-msgstr ""
-"Aumenta la precisione dell'emulazione dell'accesso alla memoria grafica da "
-"parte della CPU, ma diminuisce le prestazioni. È richiesto in alcuni giochi."
-
-#: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
 msgstr "Moltiplicazione accurata negli shader"
 
@@ -503,29 +604,6 @@ msgstr ""
 "shader.\n"
 "\n"
 "Opzione raccomandata: sì"
-
-#: GameProfileWindow.cpp
-msgid "GPU buffer cache accuracy"
-msgstr "Accuratezza buffer cache GPU"
-
-#: GameProfileWindow.cpp
-msgid "high"
-msgstr "alta"
-
-#: GameProfileWindow.cpp
-msgid "medium"
-msgstr "media"
-
-#: GameProfileWindow.cpp
-msgid "low"
-msgstr "bassa"
-
-#: GameProfileWindow.cpp
-msgid ""
-"Lower value results in higher performance, but may cause graphical issues"
-msgstr ""
-"Valori più bassi comportano prestazioni migliori, ma possono causare "
-"problemi grafici"
 
 #: GameProfileWindow.cpp
 msgid "Graphic"
@@ -634,10 +712,6 @@ msgid "Default"
 msgstr "Predefinito"
 
 #: GeneralSettings2.cpp
-msgid "English"
-msgstr "Inglese"
-
-#: GeneralSettings2.cpp
 msgid ""
 "Changes the interface language of Cemu\n"
 "Available languages are stored in the translation directory\n"
@@ -714,6 +788,18 @@ msgstr ""
 "cartella screenshots"
 
 #: GeneralSettings2.cpp
+msgid "Use permanent storage"
+msgstr "Utilizza l'archiviazione permanente delle impostazioni"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Cemu will remember your custom mlc path in %LOCALAPPDATA%/Cemu for new "
+"installations."
+msgstr ""
+"Cemu salverà il percorso della cartella MLC personalizzata in %LOCALAPPDATA%/"
+"Cemu e lo utilizzerà per le nuove installazioni."
+
+#: GeneralSettings2.cpp
 msgid "MLC Path"
 msgstr "Percorso della cartella MLC"
 
@@ -730,7 +816,7 @@ msgid ""
 "The mlc path is used to store Wii U related files like save games, game "
 "updates and dlc data"
 msgstr ""
-"Seleziona un percorso della cartella MLC personalizzato.\n"
+"Seleziona una cartella MLC personalizzata.\n"
 "Tale cartella viene utilizzata per memorizzare i file della Wii U emulata "
 "quali salvataggi, aggiornamenti dei giochi e dati dei DLC."
 
@@ -1330,6 +1416,14 @@ msgstr ""
 "all'interno della cartella di Cemu."
 
 #: GettingStartedDialog.cpp
+msgid ""
+"A custom mlc path from a previous Cemu installation has been found and "
+"filled in."
+msgstr ""
+"È stata trovata una cartella MLC personalizzata proveniente da "
+"un'installazione precedente di Cemu."
+
+#: GettingStartedDialog.cpp
 msgid "Custom mlc01 path"
 msgstr "Cartella mlc01 personalizzata"
 
@@ -1357,7 +1451,7 @@ msgstr ""
 "individuare i titoli installati.\n"
 "È consigliato creare appositamente tale cartella per contenere tutti i "
 "giochi Wii U (esempio: C:\\wiiu\\games).\n"
-"Puoi anche impostare ulteriori cartelle nelle impostazioni generali di Cemu."
+"Puoi impostare ulteriori cartelle nelle impostazioni generali di Cemu."
 
 #: GettingStartedDialog.cpp
 msgid "Game path"
@@ -2169,23 +2263,41 @@ msgstr "&Vai a disassembly"
 msgid "G&oto Dump"
 msgstr "&Vai al dump"
 
-#: SaveTransfer.cpp
-msgid "Save transfer"
-msgstr "Trasferisci salvataggio"
+#: SaveImportWindow.cpp
+msgid "Import save entry"
+msgstr "Importa salvataggio"
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid "Source"
 msgstr "Sorgente"
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp
+msgid "Select a zipped save file"
+msgstr "Seleziona un salvataggio in formato ZIP"
+
+#: SaveImportWindow.cpp
+msgid "Import save entry {}"
+msgstr "Importa salvataggio {}"
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid "Target"
 msgstr "Destinazione"
 
-#: SaveTransfer.cpp wxCreateAccountDialog.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp wxCreateAccountDialog.cpp
 msgid "OK"
 msgstr "OK"
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp
+msgid ""
+"You are trying to import a savegame for a different title than your "
+"currently selected one: {:016x} vs {:016x}\n"
+"Are you sure that you want to continue?"
+msgstr ""
+"Stai tentando di importare un salvataggio per un titolo diverso ({:016x}) da "
+"quello attualmente selezionato ({:016x}).\n"
+"Sei sicuro di voler procedere?"
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "The given account id is not valid!\n"
 "It must be a hex number bigger or equal than {:08x}"
@@ -2193,7 +2305,7 @@ msgstr ""
 "L'ID dell'account inserito non è valido!\n"
 "Dev'essere un numero esadecimale maggiore o uguale a {:08x}"
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "There's already a file at the target directory:\n"
 "{}"
@@ -2201,7 +2313,7 @@ msgstr ""
 "Nella cartella di destinazione è già presente un file:\n"
 "{}"
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "There's already a save game available for the target account, do you want to "
 "overwrite it?\n"
@@ -2211,7 +2323,7 @@ msgstr ""
 "sovrascriverlo?\n"
 "I file del salvataggio preesistente verranno eliminati e sostituiti."
 
-#: SaveTransfer.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
 "Error when trying to delete the former save game:\n"
 "{}"
@@ -2219,6 +2331,28 @@ msgstr ""
 "Si è verificato un errore nel tentativo di rimuovere il salvataggio "
 "precedente:\n"
 "{}"
+
+#: SaveImportWindow.cpp
+msgid ""
+"Error when creating the extraction path:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore durante la creazione della cartella in cui "
+"estrarre il salvataggio:\n"
+"{}"
+
+#: SaveImportWindow.cpp
+msgid ""
+"Error when opening the import zip file:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore durante l'apertura dell'archivio ZIP da "
+"importare:\n"
+"{}"
+
+#: SaveTransfer.cpp
+msgid "Save transfer"
+msgstr "Trasferisci salvataggio"
 
 #: SaveTransfer.cpp
 msgid ""
@@ -2278,7 +2412,7 @@ msgstr "Mostra solo attive"
 
 #: textureRelationWindow.cpp
 msgid "Show views"
-msgstr "Mostra views"
+msgstr "Mostra view"
 
 #: TitleManager.cpp
 msgid "Title manager"
@@ -2325,6 +2459,22 @@ msgid "Irrevocable delete the save entry "
 msgstr "Elimina permanentemente il salvataggio"
 
 #: TitleManager.cpp
+msgid "Import"
+msgstr "Importa"
+
+#: TitleManager.cpp
+msgid "Imports a zipped save entry"
+msgstr "Importa un salvataggio in formato ZIP"
+
+#: TitleManager.cpp
+msgid "Export"
+msgstr "Esporta"
+
+#: TitleManager.cpp
+msgid "Exports the selected save entry as zip file"
+msgstr "Esporta il salvataggio selezionato come archivio ZIP"
+
+#: TitleManager.cpp
 msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
 msgstr "Trovati {} giochi, {} aggiornamenti, {} DLC e {} salvataggi"
 
@@ -2343,6 +2493,46 @@ msgid ""
 msgstr ""
 "Si è verificato un errore nel tentativo di rimuovere la cartella contenente "
 "i file del salvataggio:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid "Select a target file to export the save entry"
+msgstr "Seleziona il file in cui esportare il salvataggio"
+
+#: TitleManager.cpp
+msgid ""
+"Error when creating the zip for the save entry:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore durante la creazione dell'archivio ZIP per il "
+"salvataggio:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a directory to the zip:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore nel tentativo di aggiungere una cartella "
+"all'archivio ZIP:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a file to the zip:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore nel tentativo di aggiungere un file all'archivio "
+"ZIP:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a cemu_meta to the zip:\n"
+"{}"
+msgstr ""
+"Si è verificato un errore nel tentativo di aggiungere il file cemu_meta "
+"all'archivio ZIP:\n"
 "{}"
 
 #: toolMemorySearcher.cpp
@@ -2679,6 +2869,35 @@ msgid ""
 msgstr ""
 "Sei sicuro di voler cancellare il seguente file?\n"
 "{}"
+
+#~ msgid "Extended texture readback"
+#~ msgstr "Texture readback esteso"
+
+#~ msgid ""
+#~ "Improves emulation accuracy of CPU to GPU memory access at the cost of "
+#~ "performance. Required for some games."
+#~ msgstr ""
+#~ "Aumenta la precisione dell'emulazione dell'accesso alla memoria grafica "
+#~ "da parte della CPU, ma diminuisce le prestazioni. È richiesto in alcuni "
+#~ "giochi."
+
+#~ msgid "GPU buffer cache accuracy"
+#~ msgstr "Accuratezza buffer cache GPU"
+
+#~ msgid "high"
+#~ msgstr "alta"
+
+#~ msgid "medium"
+#~ msgstr "media"
+
+#~ msgid "low"
+#~ msgstr "bassa"
+
+#~ msgid ""
+#~ "Lower value results in higher performance, but may cause graphical issues"
+#~ msgstr ""
+#~ "Valori più bassi comportano prestazioni migliori, ma possono causare "
+#~ "problemi grafici"
 
 #~ msgid ""
 #~ "Cemu detected a DLC installed at a wrong or outdated location:\n"
