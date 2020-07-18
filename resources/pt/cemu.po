@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-07-10 17:40+0200\n"
-"PO-Revision-Date: 2020-07-10 17:44-0300\n"
+"POT-Creation-Date: 2020-07-17 21:28+0200\n"
+"PO-Revision-Date: 2020-07-18 09:23-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bootGame.cpp
@@ -56,6 +56,118 @@ msgstr "Digite um endereço de memória"
 #: BreakpointWindow.cpp
 msgid "Memory breakpoint"
 msgstr "Ponto de interrupção na memória"
+
+#: CemuApp.cpp
+msgid "Browse"
+msgstr "Navegar"
+
+#: CemuApp.cpp
+msgid "Select a file"
+msgstr "Selecione um arquivo"
+
+#: CemuApp.cpp
+msgid "Select a directory"
+msgstr "Selecione uma pasta"
+
+#: CemuApp.cpp
+msgid "base"
+msgstr "base"
+
+#: CemuApp.cpp
+msgid "update"
+msgstr "atualização"
+
+#: CemuApp.cpp
+msgid "dlc"
+msgstr "dlc"
+
+#: CemuApp.cpp
+msgid "save"
+msgstr "jogo salvo"
+
+#: CemuApp.cpp
+msgid "Japan"
+msgstr "Japão"
+
+#: CemuApp.cpp
+msgid "USA"
+msgstr "EUA"
+
+#: CemuApp.cpp
+msgid "Europe"
+msgstr "Europa"
+
+#: CemuApp.cpp
+msgid "Australia"
+msgstr "Austrália"
+
+#: CemuApp.cpp
+msgid "China"
+msgstr "China"
+
+#: CemuApp.cpp
+msgid "Korea"
+msgstr "Coreia"
+
+#: CemuApp.cpp
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: CemuApp.cpp
+msgid "Auto"
+msgstr "Automático"
+
+#: CemuApp.cpp
+msgid "many"
+msgstr "muitos"
+
+#: CemuApp.cpp
+msgid "Japanese"
+msgstr "Japonês"
+
+#: CemuApp.cpp GeneralSettings2.cpp
+msgid "English"
+msgstr "Inglês"
+
+#: CemuApp.cpp
+msgid "German"
+msgstr "Alemão"
+
+#: CemuApp.cpp
+msgid "Italian"
+msgstr "Italiano"
+
+#: CemuApp.cpp
+msgid "Spanish"
+msgstr "Espanhol"
+
+#: CemuApp.cpp
+msgid "Chinese"
+msgstr "Chinês"
+
+#: CemuApp.cpp
+msgid "Korean"
+msgstr "Coreano"
+
+#: CemuApp.cpp
+msgid "Dutch"
+msgstr "Holandês"
+
+#: CemuApp.cpp
+msgid "Portugese"
+msgstr "Português"
+
+#: CemuApp.cpp
+msgid "Russian"
+msgstr "Russo"
+
+#: CemuApp.cpp
+msgid "Taiwanese"
+msgstr "Taiwanês"
+
+#: CemuApp.cpp
+msgid "unknown"
+msgstr "desconhecido"
 
 #: CemuApp.cpp
 msgid ""
@@ -115,7 +227,7 @@ msgstr ""
 "\n"
 "Erro: {0}"
 
-#: CemuApp.cpp TitleManager.cpp
+#: CemuApp.cpp
 msgid "Select a mlc directory"
 msgstr "Selecione uma pasta MLC"
 
@@ -589,10 +701,6 @@ msgstr "Idioma"
 #: GeneralSettings2.cpp
 msgid "Default"
 msgstr "Padrão"
-
-#: GeneralSettings2.cpp
-msgid "English"
-msgstr "Inglês"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -2362,6 +2470,10 @@ msgstr ""
 "{}"
 
 #: TitleManager.cpp
+msgid "Select a target file to export the save entry"
+msgstr "Selecione um arquivo de destino para exportar o jogo salvo"
+
+#: TitleManager.cpp
 msgid ""
 "Error when creating the zip for the save entry:\n"
 "{}"
@@ -2395,7 +2507,7 @@ msgstr ""
 
 #: toolMemorySearcher.cpp
 msgid "Memory Searcher"
-msgstr "Pesquisador de memória"
+msgstr "Buscador de memória"
 
 #: toolMemorySearcher.cpp
 msgid "Search"
