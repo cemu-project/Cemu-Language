@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-07-11 20:23+0200\n"
-"PO-Revision-Date: 2020-07-11 21:02+0200\n"
+"POT-Creation-Date: 2020-07-18 16:33+0200\n"
+"PO-Revision-Date: 2020-07-18 16:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -57,6 +57,118 @@ msgstr "Entrez une adresse mémoire"
 #: BreakpointWindow.cpp
 msgid "Memory breakpoint"
 msgstr "Point d'arrêt mémoire"
+
+#: CemuApp.cpp
+msgid "Browse"
+msgstr "Parcourir"
+
+#: CemuApp.cpp
+msgid "Select a file"
+msgstr "Sélectionner un fichier"
+
+#: CemuApp.cpp
+msgid "Select a directory"
+msgstr "Sélectionner un dossier"
+
+#: CemuApp.cpp
+msgid "base"
+msgstr "Base"
+
+#: CemuApp.cpp
+msgid "update"
+msgstr "Mise à jour"
+
+#: CemuApp.cpp
+msgid "dlc"
+msgstr "DLC"
+
+#: CemuApp.cpp
+msgid "save"
+msgstr "Sauvegarde"
+
+#: CemuApp.cpp
+msgid "Japan"
+msgstr "Japon"
+
+#: CemuApp.cpp
+msgid "USA"
+msgstr "USA"
+
+#: CemuApp.cpp
+msgid "Europe"
+msgstr "Europe"
+
+#: CemuApp.cpp
+msgid "Australia"
+msgstr "Australie"
+
+#: CemuApp.cpp
+msgid "China"
+msgstr "Chine"
+
+#: CemuApp.cpp
+msgid "Korea"
+msgstr "Corée"
+
+#: CemuApp.cpp
+msgid "Taiwan"
+msgstr "Taïwan"
+
+#: CemuApp.cpp
+msgid "Auto"
+msgstr "Auto"
+
+#: CemuApp.cpp
+msgid "many"
+msgstr "plusieurs"
+
+#: CemuApp.cpp
+msgid "Japanese"
+msgstr "Japonais"
+
+#: CemuApp.cpp GeneralSettings2.cpp
+msgid "English"
+msgstr "Anglais"
+
+#: CemuApp.cpp
+msgid "German"
+msgstr "Allemand"
+
+#: CemuApp.cpp
+msgid "Italian"
+msgstr "Italien"
+
+#: CemuApp.cpp
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: CemuApp.cpp
+msgid "Chinese"
+msgstr "Chinois"
+
+#: CemuApp.cpp
+msgid "Korean"
+msgstr "Coréen"
+
+#: CemuApp.cpp
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: CemuApp.cpp
+msgid "Portugese"
+msgstr "Portugais"
+
+#: CemuApp.cpp
+msgid "Russian"
+msgstr "Russe"
+
+#: CemuApp.cpp
+msgid "Taiwanese"
+msgstr "Taïwanais"
+
+#: CemuApp.cpp
+msgid "unknown"
+msgstr "inconnu"
 
 #: CemuApp.cpp
 msgid ""
@@ -115,7 +227,7 @@ msgstr ""
 "\n"
 "Erreur : {0}"
 
-#: CemuApp.cpp TitleManager.cpp
+#: CemuApp.cpp
 msgid "Select a mlc directory"
 msgstr "Sélectionner le dossier contenant la MLC"
 
@@ -594,10 +706,6 @@ msgstr "Langue"
 #: GeneralSettings2.cpp
 msgid "Default"
 msgstr "Par défaut"
-
-#: GeneralSettings2.cpp
-msgid "English"
-msgstr "Anglais"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -2387,6 +2495,10 @@ msgid ""
 msgstr ""
 "Erreur lors de la tentative de suppression du dossier de la sauvegarde :\n"
 "{}"
+
+#: TitleManager.cpp
+msgid "Select a target file to export the save entry"
+msgstr "Sélectionnez un fichier de destination pour l'export de la sauvegarde"
 
 #: TitleManager.cpp
 msgid ""
