@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-07-17 21:28+0200\n"
-"PO-Revision-Date: 2020-07-20 12:07+0800\n"
+"PO-Revision-Date: 2020-07-20 13:28+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -1338,7 +1338,8 @@ msgid ""
 msgstr ""
 "看来您是第一次启动 Cemu。\n"
 "本设置向导将帮助您获得最佳体验。\n"
-"如在使用过程中对本翻译有任何建议或见解，请发送相关内容到Genglxy@outlook.com"
+"译者：如在使用过程中对本翻译有任何建议或见解，请发送相关内容到"
+"Genglxy@outlook.com"
 
 #: GettingStartedDialog.cpp
 msgid "mlc01 path"
@@ -1518,7 +1519,7 @@ msgstr "创建新缓存[推荐]"
 #: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
 #: toolMemorySearcher.cpp
 msgid "Filter"
-msgstr "过滤选项："
+msgstr "过滤"
 
 #: GraphicPacksWindow2.cpp
 msgid "Installed games"
@@ -1966,7 +1967,7 @@ msgstr "&主机语言"
 
 #: MainWindow.cpp
 msgid "&Memory searcher"
-msgstr "&内存修改器"
+msgstr "&内存搜索器"
 
 #: MainWindow.cpp
 msgid "&Title Manager"
@@ -2456,7 +2457,7 @@ msgstr ""
 
 #: toolMemorySearcher.cpp
 msgid "Memory Searcher"
-msgstr "内存修改器"
+msgstr "内存搜索器"
 
 #: toolMemorySearcher.cpp
 msgid "Search"
