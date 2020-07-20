@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-07-17 21:28+0200\n"
-"PO-Revision-Date: 2020-07-19 21:10+0800\n"
+"PO-Revision-Date: 2020-07-20 11:23+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -18,7 +18,7 @@ msgstr "由于至少有 1 个文件已损坏，档案无法运行。"
 
 #: BreakpointWindow.cpp GeneralSettings2.cpp
 msgid "On"
-msgstr "启用"
+msgstr "开"
 
 #: BreakpointWindow.cpp debugPPCThreadsWindow.cpp ModuleWindow.cpp
 msgid "Address"
@@ -34,20 +34,20 @@ msgstr "注释 | Comment"
 
 #: BreakpointWindow.cpp DisasmCtrl.cpp
 msgid "Enter a new comment."
-msgstr "输入新注释。"
+msgstr "输入新注释."
 
 #: BreakpointWindow.cpp
 #, c-format
 msgid "Set comment for breakpoint at address %08x"
-msgstr "为地址 %08x 处的断点注释"
+msgstr "在地址 %08x 处为断点设置注释"
 
 #: BreakpointWindow.cpp
 msgid "Create memory breakpoint (read)"
-msgstr "建立内存断点(read)"
+msgstr "创建内存断点（读取）"
 
 #: BreakpointWindow.cpp
 msgid "Create memory breakpoint (write)"
-msgstr "建立内存断点(write)"
+msgstr "创建内存断点（写入）"
 
 #: BreakpointWindow.cpp
 msgid "Enter a memory address"
@@ -71,7 +71,7 @@ msgstr "选择一个目录"
 
 #: CemuApp.cpp
 msgid "base"
-msgstr "基本/本体"
+msgstr "本体"
 
 #: CemuApp.cpp
 msgid "update"
@@ -83,7 +83,7 @@ msgstr "DLC/附加内容"
 
 #: CemuApp.cpp
 msgid "save"
-msgstr "保存"
+msgstr "存档"
 
 #: CemuApp.cpp
 msgid "Japan"
@@ -111,7 +111,7 @@ msgstr "韩国"
 
 #: CemuApp.cpp
 msgid "Taiwan"
-msgstr "台湾"
+msgstr "中国台湾"
 
 #: CemuApp.cpp
 msgid "Auto"
@@ -180,26 +180,26 @@ msgid ""
 "\n"
 "Do you want to create the folder at the expected path?"
 msgstr ""
-"你的 mlc01 文件夹似乎找不到了。\n"
+"无法找到 mlc01 文件夹\n"
 "\n"
-"这是 Cemu 用来存储文件、游戏升级档、以及其他 Wii U 文件的地方。\n"
+"该文件夹被用以存储游戏存档、更新档和其他Wii U文件\n"
 "\n"
-"当前预期路径为：\n"
+"预期路径为：\n"
 "{}\n"
 "\n"
-"你想在这个路径建立文件夹吗？"
+"是否要在预期路径上创建文件夹？"
 
 #: CemuApp.cpp
 msgid "Yes"
-msgstr "确认"
+msgstr "是"
 
 #: CemuApp.cpp
 msgid "No"
-msgstr "取消"
+msgstr "否"
 
 #: CemuApp.cpp
 msgid "Select a custom path"
-msgstr "选择一个自定义路径"
+msgstr "选择自定义路径"
 
 #: CemuApp.cpp
 msgid ""
@@ -209,10 +209,10 @@ msgid ""
 "Target path:\n"
 "{1}"
 msgstr ""
-"找不到 mlc01 下所请求的目录或文件！\n"
+"无法创建所需的 mlc01 子文件夹或文件！\n"
 "\n"
-"错误: {0}\n"
-"目标路径:\n"
+"错误： {0}\n"
+"目标路径：\n"
 "{1}"
 
 #: CemuApp.cpp
@@ -221,13 +221,13 @@ msgid ""
 "\n"
 "Error: {0}"
 msgstr ""
-"无法创建请求的 Cemu 文件夹或文件！\n"
+"无法创建所需的 Cemu 目录或文件！\n"
 "\n"
-"错误: {0}"
+"错误： {0}"
 
 #: CemuApp.cpp
 msgid "Select a mlc directory"
-msgstr "选择 MLC 目录"
+msgstr "选择 mlc 目录"
 
 #: CemuApp.cpp
 msgid ""
@@ -247,7 +247,7 @@ msgstr "错误 | Error"
 
 #: CemuUpdateWindow.cpp
 msgid "Update"
-msgstr "升级"
+msgstr "更新"
 
 #: CemuUpdateWindow.cpp DownloadGraphicPacksWindow.cpp GameUpdateWindow.cpp
 #: SaveImportWindow.cpp SaveTransfer.cpp wxCreateAccountDialog.cpp
@@ -256,7 +256,7 @@ msgstr "取消"
 
 #: CemuUpdateWindow.cpp
 msgid "Changelog"
-msgstr "变更日志"
+msgstr "更新记录"
 
 #: CemuUpdateWindow.cpp
 msgid "Exit"
@@ -272,7 +272,7 @@ msgstr "有可用更新！"
 
 #: CemuUpdateWindow.cpp
 msgid "Extracting update..."
-msgstr "正在解压缩更新 ..."
+msgstr "解压更新文件 ..."
 
 #: CemuUpdateWindow.cpp
 msgid "Couldn't download the update!"
@@ -284,7 +284,7 @@ msgstr "应用更新 ..."
 
 #: CemuUpdateWindow.cpp
 msgid "Extracting failed!"
-msgstr "解压缩失败！"
+msgstr "解压失败！"
 
 #: CemuUpdateWindow.cpp MainWindow.cpp
 msgid "Success"
@@ -296,11 +296,11 @@ msgstr "重新开始"
 
 #: CemuUpdateWindow.cpp
 msgid "Downloading update..."
-msgstr "下载更新档 ..."
+msgstr "下载更新中 ..."
 
 #: DebuggerWindow2.cpp
 msgid "GoTo (CTRL + G)"
-msgstr "GoTo (CTRL + G)"
+msgstr "转到 (CTRL + G)"
 
 #: DebuggerWindow2.cpp
 msgid "Toggle Breakpoint (F9)"
@@ -308,15 +308,15 @@ msgstr "切换断点 (F9)"
 
 #: DebuggerWindow2.cpp
 msgid "Break (F5)"
-msgstr "停止 (F5)"
+msgstr "中止 (F5)"
 
 #: DebuggerWindow2.cpp
 msgid "Step Into (F11)"
-msgstr "Step Into (F11)"
+msgstr "逐步执行 | Step Into (F11)"
 
 #: DebuggerWindow2.cpp
 msgid "Step Over (F10)"
-msgstr "Step Over (F10)"
+msgstr "逐程序执行 | Step Over (F10)"
 
 #: DebuggerWindow2.cpp
 msgid "Run (F5)"
@@ -332,7 +332,7 @@ msgstr "&文件"
 
 #: DebuggerWindow2.cpp
 msgid "&Pin to main window"
-msgstr "&放置到主屏幕"
+msgstr "&贴靠于主视窗"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
 msgid "&Options"
@@ -360,11 +360,11 @@ msgstr "&窗口"
 
 #: debugPPCThreadsWindow.cpp
 msgid "PPC threads"
-msgstr "PPC 线程"
+msgstr "PPC线程"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Entry"
-msgstr "入口"
+msgstr "入口 | Entry"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Stack"
@@ -440,11 +440,11 @@ msgstr "挂起"
 
 #: DisasmCtrl.cpp
 msgid "Enter a new instruction."
-msgstr "输入新指令。"
+msgstr "输入新指令."
 
 #: DisasmCtrl.cpp DumpCtrl.cpp
 msgid "Enter a target address."
-msgstr "输入目标地址。"
+msgstr "输入目标地址."
 
 #: DisasmCtrl.cpp DumpCtrl.cpp
 msgid "GoTo address"
@@ -452,12 +452,12 @@ msgstr "转到地址"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Graphic packs cannot be updated while a game is running."
-msgstr "图像插件在游戏运行时无法更改。"
+msgstr "在游戏运行时无法更新图形插件。"
 
 #: DownloadGraphicPacksWindow.cpp GettingStartedDialog.cpp
 #: GraphicPacksWindow2.cpp
 msgid "Graphic packs"
-msgstr "图像插件"
+msgstr "图形插件"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Failed to connect to server"
@@ -465,41 +465,41 @@ msgstr "未能连接到服务器"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "No updates available."
-msgstr "无可用更新。"
+msgstr "没有可用更新。"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid ""
 "Updated graphic packs are available. Do you want to download and install "
 "them?"
-msgstr "有新版本图像插件可用，是否进行更新？"
+msgstr "有图形插件更新可用，是否进行更新？"
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Checking version..."
-msgstr "正在检查版本 ..."
+msgstr "检查版本 ..."
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Downloading graphic packs..."
-msgstr "下载图像插件 ..."
+msgstr "正在下载图形插件 ..."
 
 #: DownloadGraphicPacksWindow.cpp
 msgid "Extracting..."
-msgstr "正在解压缩 ..."
+msgstr "解压中 ..."
 
 #: DumpCtrl.cpp RegisterCtrl.cpp RegisterWindow.cpp
 msgid "Enter a new value."
-msgstr "输入一个新的数值。"
+msgstr "输入新值。"
 
 #: GameProfileWindow.cpp
 msgid "Edit game profile"
-msgstr "编辑游戏配置文件"
+msgstr "编辑游戏设定档"
 
 #: GameProfileWindow.cpp GeneralSettings2.cpp
 msgid "General"
-msgstr "常规"
+msgstr "通用"
 
 #: GameProfileWindow.cpp
 msgid "Load shared libraries"
-msgstr "加载分享库"
+msgstr "加载共享库"
 
 #: GameProfileWindow.cpp
 msgid ""
@@ -507,17 +507,19 @@ msgid ""
 "This option will load libraries from the cafeLibs directory"
 msgstr ""
 "⚠专业选项⚠\n"
-"这个选项将从 cafeLibs directory 加载库"
+"该选项将从cafeLibs目录加载库"
 
 #: GameProfileWindow.cpp
 msgid "Launch with gamepad view"
-msgstr "将 GamePad 作为启动画面"
+msgstr "以 GamePad 视图启动"
 
 #: GameProfileWindow.cpp
 msgid ""
 "Games will be launched with gamepad view toggled as default. The view can be "
 "toggled with CTRL + TAB"
-msgstr "游戏将以默认的 GamePad 视图启动。可以使用 CTRL+TAB 切换视图"
+msgstr ""
+"将默认以 GamePad 视图启动游戏\n"
+"可使用 Ctrl+Tab 切换视图"
 
 #: GameProfileWindow.cpp
 msgid "CPU"
@@ -565,7 +567,7 @@ msgstr "周期 | cycles"
 
 #: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
-msgstr "多重精度着色器"
+msgstr "着色器 mul 精度"
 
 #: GameProfileWindow.cpp
 msgid "false"
@@ -587,13 +589,13 @@ msgid ""
 "Recommended: true"
 msgstr ""
 "⚠专业选项⚠\n"
-"控制着色器中浮点乘法的精度。\n"
+"控制着色器中浮点乘法的精度\n"
 "\n"
-"推荐设置: 开启"
+"建议选项：开启"
 
 #: GameProfileWindow.cpp
 msgid "Graphic"
-msgstr "图像"
+msgstr "图形"
 
 #: GameProfileWindow.cpp
 msgid "Controller"
@@ -601,7 +603,7 @@ msgstr "控制器"
 
 #: GameProfileWindow.cpp
 msgid "Forces a given controller profile"
-msgstr "强制使用给定的控制器配置文件"
+msgstr "强制给定控制器设定档"
 
 #: GameUpdateWindow.cpp
 msgid ""
@@ -638,7 +640,7 @@ msgstr ""
 
 #: GameUpdateWindow.cpp
 msgid "Invalid folder structure"
-msgstr "无效的文件夹结构"
+msgstr "无效的目录结构"
 
 #: GameUpdateWindow.cpp
 msgid ""
@@ -646,9 +648,9 @@ msgid ""
 "Required: {0} MB\n"
 "Available: {1} MB"
 msgstr ""
-"存储空间不足。\n"
-"需要: {0} MB\n"
-"可用: {1} MB"
+"可用空间不足\n"
+"所需空间: {0} MB\n"
+"可用空间: {1} MB"
 
 #: GameUpdateWindow.cpp
 msgid "Installing DLC ..."
@@ -664,7 +666,7 @@ msgstr "安装档案中 ..."
 
 #: GameUpdateWindow.cpp
 msgid "Current file:"
-msgstr "当前文件:"
+msgstr "当前文件："
 
 #: GameUpdateWindow.cpp
 msgid ""
@@ -682,7 +684,7 @@ msgstr "信息"
 
 #: GeneralSettings2.cpp
 msgid "Interface"
-msgstr "界面 | 有翻译意见请发送至Genglxy@outlook.com"
+msgstr "界面 | 有翻译意见请发送至 Genglxy@outlook.com"
 
 #: GeneralSettings2.cpp
 msgid "Language"
@@ -708,7 +710,7 @@ msgstr "记忆主窗口的位置"
 
 #: GeneralSettings2.cpp
 msgid "Restores the last known window position and size when starting Cemu"
-msgstr "启动 Cemu 时恢复最后记忆的窗口位置与大小"
+msgstr "在启动 Cemu 时恢复上次的窗口位置"
 
 #: GeneralSettings2.cpp
 msgid "Remember pad window position"
@@ -716,11 +718,11 @@ msgstr "记忆 Pad 窗口位置"
 
 #: GeneralSettings2.cpp
 msgid "Restores the last known pad window position and size when opening it"
-msgstr "打开时恢复最后记忆的 Pad 窗口的位置与大小"
+msgstr "在启动 Cemu 时恢复上次的 Pad 窗口尺寸和位置"
 
 #: GeneralSettings2.cpp
 msgid "Discord Presence"
-msgstr "Discord Presence"
+msgstr "在 Discord 中显示"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -732,13 +734,13 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "Fullscreen menu bar"
-msgstr "全屏时显示菜单栏"
+msgstr "全屏菜单栏"
 
 #: GeneralSettings2.cpp
 msgid ""
 "Displays the menu bar when Cemu is running in fullscreen mode and the mouse "
 "cursor is moved to the top"
-msgstr "当 Cemu 在全屏模式下，将鼠标光标移到顶部时，会显示菜单栏"
+msgstr "当 Cemu 在全屏模式下运行并将鼠标光标移到顶部时显示菜单栏"
 
 #: GeneralSettings2.cpp GettingStartedDialog.cpp
 msgid "Automatically check for updates"
@@ -750,7 +752,7 @@ msgstr "启动时自动检查新的 Cemu 版本"
 
 #: GeneralSettings2.cpp
 msgid "Save screenshot"
-msgstr "保存屏幕截图"
+msgstr "保存截图"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -776,7 +778,7 @@ msgstr "MLC 路径"
 #: GeneralSettings2.cpp
 msgid ""
 "The mlc directory contains your save games and installed game update/dlc data"
-msgstr "mlc目录包含您的存档、已安装 更新档 和 DLC 数据。"
+msgstr "mlc 目录包含您的存档、已安装 更新档 和 DLC 数据。"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -806,8 +808,8 @@ msgid ""
 "Adds a game path to scan for games displayed in the game list\n"
 "If you have unpacked games, make sure to select the root folder of a game"
 msgstr ""
-"添加游戏路径以扫描，并在列表中显示游戏\n"
-"如果您已解压缩游戏，请确保选择游戏的根文件夹"
+"添加游戏路径以扫描游戏\n"
+"如果您已解压游戏，请确保选择游戏的根文件夹"
 
 #: GeneralSettings2.cpp
 msgid "Remove"
@@ -819,7 +821,7 @@ msgstr "从游戏列表中删除当前选择的游戏路径"
 
 #: GeneralSettings2.cpp
 msgid "Graphics API"
-msgstr "图像 API"
+msgstr "图形 API"
 
 #: GeneralSettings2.cpp
 msgid "Select one of the available graphic back ends"
@@ -827,7 +829,7 @@ msgstr "选择可用的图形后端"
 
 #: GeneralSettings2.cpp
 msgid "Graphics Device"
-msgstr "图像设备"
+msgstr "图形设备"
 
 #: GeneralSettings2.cpp
 msgid "Select the used graphic device"
@@ -843,7 +845,7 @@ msgstr "自动"
 
 #: GeneralSettings2.cpp
 msgid "enable"
-msgstr "开启"
+msgstr "启用"
 
 #: GeneralSettings2.cpp
 msgid "disable"
@@ -858,11 +860,9 @@ msgid ""
 "\n"
 "Recommended: Auto"
 msgstr ""
-"预编译的着色器可以加快着色器加载屏幕的加载时间。\n"
-"选择“自动”，将为 AMD/Intel 显卡启用它，但为 NVIDIA 显卡禁用它，以作为驱动程序"
-"错误的解决方法。\n"
-"\n"
-"推荐：自动"
+"预编译着色器可减少着色器加载画面所需时间\n"
+"自动：将为 AMD 与 Intel GPU 启用而对 NVIDIA GPU 禁用以解决驱动错误\n"
+"建议选项：自动"
 
 #: GeneralSettings2.cpp
 msgid "VSync"
@@ -883,15 +883,15 @@ msgid ""
 "This is more accurate behavior, but may cause lower performance"
 msgstr ""
 "如果游戏请求同步，则模拟的 CPU 将等待 GPU 完成所有操作。\n"
-"这样做模拟更准确，但可能会导致性能降低"
+"这将使模拟更准确，但可能会造成性能降低"
 
 #: GeneralSettings2.cpp
 msgid "Bilinear"
-msgstr "双线性过滤"
+msgstr "双线性(Bilinear)"
 
 #: GeneralSettings2.cpp
 msgid "Bicubic"
-msgstr "双三次过滤"
+msgstr "双三次(Bicubic)"
 
 #: GeneralSettings2.cpp
 msgid "Hermite"
@@ -903,27 +903,27 @@ msgstr "近邻取样"
 
 #: GeneralSettings2.cpp
 msgid "Upscale filter"
-msgstr "放大过滤选项"
+msgstr "放大过滤器"
 
 #: GeneralSettings2.cpp
 msgid ""
 "Upscaling filters are used when the game resolution is smaller than the "
 "window size"
-msgstr "当游戏分辨率小于窗口大小时，将使用放大过滤选项"
+msgstr "当游戏分辨率小于窗口大小时，将使用放大过滤器"
 
 #: GeneralSettings2.cpp
 msgid "Downscale filter"
-msgstr "缩小过滤选项"
+msgstr "缩小过滤器"
 
 #: GeneralSettings2.cpp
 msgid ""
 "Downscaling filters are used when the game resolution is bigger than the "
 "window size"
-msgstr "当游戏分辨率大于窗口大小时，将使用缩小过滤选项"
+msgstr "当游戏分辨率大于窗口大小时，将使用缩小过滤器"
 
 #: GeneralSettings2.cpp
 msgid "Keep aspect ratio"
-msgstr "保持长宽比"
+msgstr "保持纵横比"
 
 #: GeneralSettings2.cpp
 msgid "Stretch"
@@ -931,12 +931,12 @@ msgstr "拉伸"
 
 #: GeneralSettings2.cpp
 msgid "Fullscreen scaling"
-msgstr "全屏缩放"
+msgstr "全屏幕缩放选项"
 
 #: GeneralSettings2.cpp
 msgid ""
 "Controls the output aspect ratio when it doesn't match the ratio of the game"
-msgstr "与游戏的比例不匹配时控制输出的纵横比"
+msgstr "屏幕比例与游戏比例不匹配时控制输出的纵横比"
 
 #: GeneralSettings2.cpp
 msgid "API"
@@ -957,7 +957,7 @@ msgid ""
 "problems when emulation is too slow"
 msgstr ""
 "控制缓冲的音频数据量\n"
-"较高的值会在音频播放中产生延迟，但在模拟速度不够快时可以避免音频问题"
+"较高的值会在音频播放时产生延迟，但是在可以避免模拟速度太慢时的音频问题"
 
 #: GeneralSettings2.cpp
 msgid "Mono"
@@ -981,7 +981,7 @@ msgstr "设备"
 
 #: GeneralSettings2.cpp
 msgid "Select the active audio output device for Wii U TV"
-msgstr "选择 Wii U TV 的活动音频输出设备"
+msgstr "为 WiiU TV 选择活动的音频输出设备"
 
 #: GeneralSettings2.cpp
 msgid "Channels"
@@ -997,7 +997,7 @@ msgstr "GamePad 端"
 
 #: GeneralSettings2.cpp
 msgid "Select the active audio output device for Wii U GamePad"
-msgstr "选择 Wii U GamePad 的活动音频输出设备"
+msgstr "为 WiiU GamePad 选择活动的音频输出设备"
 
 #: GeneralSettings2.cpp
 msgid "Disabled"
@@ -1029,7 +1029,7 @@ msgstr "右下角"
 
 #: GeneralSettings2.cpp
 msgid "Overlay"
-msgstr "统计信息叠加层"
+msgstr "游戏内覆盖"
 
 #: GeneralSettings2.cpp
 msgid "Position"
@@ -1045,23 +1045,25 @@ msgstr "文本颜色"
 
 #: GeneralSettings2.cpp
 msgid "Sets the text color of the overlay"
-msgstr "设置叠加层的文字颜色"
+msgstr "设置游戏内覆盖的文本颜色"
 
 #: GeneralSettings2.cpp
 msgid "Scale"
-msgstr "比例"
+msgstr "字号"
 
 #: GeneralSettings2.cpp
 msgid "Sets the scale of the overlay text"
-msgstr "设置叠加层的文字比例"
+msgstr "设置游戏内覆盖的文字大小"
 
 #: GeneralSettings2.cpp
 msgid "FPS"
-msgstr "每秒帧数"
+msgstr "帧速率"
 
 #: GeneralSettings2.cpp
 msgid "The number of frames per second. Average over last 5 seconds"
-msgstr "每秒生成帧的数量（过去 5 秒的平均值）"
+msgstr ""
+"每秒帧数\n"
+"显示最近 5 秒的平均值"
 
 #: GeneralSettings2.cpp
 msgid "Draw calls per frame"
@@ -1069,7 +1071,9 @@ msgstr "每帧渲染调用"
 
 #: GeneralSettings2.cpp
 msgid "The number of draw calls per frame. Average over last 5 seconds"
-msgstr "每帧调用渲染的次数（过去 5 秒的平均值）"
+msgstr ""
+"每帧的渲染调用次数\n"
+"显示最近 5 秒的平均值"
 
 #: GeneralSettings2.cpp
 msgid "CPU usage"
@@ -1105,7 +1109,7 @@ msgstr "Cemu 的显存使用量（MB）"
 
 #: GeneralSettings2.cpp
 msgid "This option requires Win8.1+"
-msgstr "此选项需要 Windows 8.1 及以上的系统"
+msgstr "该选项需要 Win8.1 及以上系统"
 
 #: GeneralSettings2.cpp
 msgid "Debug"
@@ -1113,7 +1117,7 @@ msgstr "调试"
 
 #: GeneralSettings2.cpp
 msgid "Displays internal debug information (Vulkan only)"
-msgstr "显示内部调试信息（仅Vulkan）"
+msgstr "显示内部调试信息（仅 Vulkan）"
 
 #: GeneralSettings2.cpp
 msgid "Notifications"
@@ -1121,7 +1125,7 @@ msgstr "通知"
 
 #: GeneralSettings2.cpp
 msgid "Controls the notification position while playing"
-msgstr "控制游戏中的通知位置"
+msgstr "控制游戏中通知的显示位置"
 
 #: GeneralSettings2.cpp
 msgid "Sets the text color of notifications"
@@ -1129,15 +1133,15 @@ msgstr "设置通知的文字颜色"
 
 #: GeneralSettings2.cpp
 msgid "Sets the scale of the notification text"
-msgstr "设置通知的文字比例"
+msgstr "设置通知的文字大小"
 
 #: GeneralSettings2.cpp
 msgid "Controller profiles"
-msgstr "控制器配置"
+msgstr "控制器设定档"
 
 #: GeneralSettings2.cpp
 msgid "Displays the active controller profile when starting a game"
-msgstr "开始游戏时显示活动的控制器配置文件"
+msgstr "启动游戏时显示激活的控制器设定档"
 
 #: GeneralSettings2.cpp
 msgid "Low battery"
@@ -1145,7 +1149,7 @@ msgstr "低电量"
 
 #: GeneralSettings2.cpp
 msgid "Shows a notification when a low controller battery has been detected"
-msgstr "当检测到控制器电池电量不足时显示通知"
+msgstr "当检测到控制器电量不足时进行提醒"
 
 #: GeneralSettings2.cpp
 msgid "Shader compiler"
@@ -1153,7 +1157,7 @@ msgstr "着色器编译器"
 
 #: GeneralSettings2.cpp
 msgid "Shows a notification after shaders have been compiled"
-msgstr "着色器编译后显示通知"
+msgstr "着色器编译完成后显示通知"
 
 #: GeneralSettings2.cpp
 msgid "Friend list"
@@ -1169,7 +1173,7 @@ msgstr "账户设置"
 
 #: GeneralSettings2.cpp
 msgid "Active account"
-msgstr "活动账户"
+msgstr "当前账户"
 
 #: GeneralSettings2.cpp
 msgid "Create"
@@ -1185,7 +1189,7 @@ msgstr "在线设定"
 
 #: GeneralSettings2.cpp
 msgid "Enable online mode"
-msgstr "开启线上模式"
+msgstr "启用在线模式"
 
 #: GeneralSettings2.cpp
 msgid "No account selected"
@@ -1209,11 +1213,11 @@ msgstr "Mii 名称"
 
 #: GeneralSettings2.cpp
 msgid "The mii name is the profile name"
-msgstr "Mii 名称即为配置文件名称"
+msgstr "Mii 名称亦是设定档名称"
 
 #: GeneralSettings2.cpp
 msgid "Birthday"
-msgstr "出生日期"
+msgstr "生日"
 
 #: GeneralSettings2.cpp
 msgid "Female"
@@ -1225,11 +1229,11 @@ msgstr "男"
 
 #: GeneralSettings2.cpp
 msgid "Email"
-msgstr "Email"
+msgstr "电子邮件"
 
 #: GeneralSettings2.cpp
 msgid "Country"
-msgstr "国家/地区"
+msgstr "国家与地区"
 
 #: GeneralSettings2.cpp
 msgid "Crash dump"
@@ -1255,11 +1259,11 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "General settings"
-msgstr "常规设定"
+msgstr "通用设置"
 
 #: GeneralSettings2.cpp
 msgid "Graphics"
-msgstr "图像"
+msgstr "图形"
 
 #: GeneralSettings2.cpp
 msgid "Audio"
@@ -1271,11 +1275,11 @@ msgstr "账户"
 
 #: GeneralSettings2.cpp
 msgid "Can't delete the only account!"
-msgstr "无法删除唯一的账户！"
+msgstr "无法删除唯一的帐户！"
 
 #: GeneralSettings2.cpp
 msgid "Are you sure you want to delete the account {} with id {:x}?"
-msgstr "您确定要删除ID为 {:x} 的帐户 {} 吗？"
+msgstr "您确定要删除 ID 为 {:x} 的帐户 {} 吗？"
 
 #: GeneralSettings2.cpp
 msgid "Confirmation"
@@ -1308,12 +1312,12 @@ msgid ""
 "Only proceed if you are willing to risk losing online access with your Wii U "
 "and/or NNID."
 msgstr ""
-"请注意：在线模式将使你连接到任天堂官方服务器，可能会导致封禁。\n"
-"如果你愿意承担失去WiiU和NNID在线访问许可的风险，请继续。"
+"请注意：在线模式将使您连接到官方服务器，有被封的危险\n"
+"如果您愿意承担失去 Wii U 与 NNID 的在线访问权限的风险，请继续操作."
 
 #: GeneralSettings2.cpp
 msgid "You have to restart the game in order to apply the new settings."
-msgstr "您必须重新启动游戏才能应用新设置。"
+msgstr "重启游戏以应用新设置。"
 
 #: GeneralSettings2.cpp MainWindow.cpp VulkanRenderer.cpp
 msgid "Information"
@@ -1348,10 +1352,10 @@ msgid ""
 "C:\\wiiu\\mlc\\) \n"
 "If left empty, the mlc folder will be created inside the Cemu folder."
 msgstr ""
-"mlc路径是用来模拟Wii U内部闪存空间的根文件夹。 它包含您所有的存档，已安装的更"
-"新和DLC。\n"
+"mlc 路径是用来模拟 Wii U 内部闪存空间的根文件夹。 它包含您所有的存档，已安装"
+"的更新和 DLC。\n"
 "强烈建议您为其创建一个专用文件夹（例如：C:\\wiiu\\mlc\\）\n"
-"如果保留为空，则将在Cemu文件夹内创建mlc文件夹。"
+"如果保留为空，则将在 Cemu 文件夹内创建 mlc 文件夹。"
 
 #: GettingStartedDialog.cpp
 msgid ""
@@ -1405,7 +1409,7 @@ msgstr ""
 
 #: GettingStartedDialog.cpp
 msgid "Download community graphic packs"
-msgstr "下载社区图像插件"
+msgstr "下载社区图形插件"
 
 #: GettingStartedDialog.cpp
 msgid "Next"
@@ -1413,7 +1417,7 @@ msgstr "下一步"
 
 #: GettingStartedDialog.cpp
 msgid "Input settings"
-msgstr "输入设定"
+msgstr "输入设置"
 
 #: GettingStartedDialog.cpp
 msgid ""
@@ -1490,27 +1494,26 @@ msgid ""
 "that you will experience additional stutter during the first minutes of "
 "gameplay."
 msgstr ""
-"当前的着色器缓存已经过时。\n"
+"过时着色器缓存\n"
 "\n"
-"此游戏当前存储的的着色器缓存是使用 1.16.0 版本之前的 Cemu 创建的。\n"
+"此游戏已有的着色器缓存是使用 1.16.0 之前的 Cemu 创建的\n"
 "\n"
-"继续使用现有的缓存没有明显的不利影响，但它可能包含当前版本的 Cemu 不再使用的"
-"内容。\n"
+"使用已有缓存无明显不利影响，但它可能包含当前版本 Cemu 不再使用的冗余文件\n"
 "\n"
-"强烈建议启用新的缓存。 请注意，新的缓存意味着玩游戏的前几分钟会遇到更多的卡顿"
-"现象。"
+"强烈建议开始新缓存。 请注意：新的缓存意味着您在游戏中前几分钟会遇到更多的卡顿"
+"现象."
 
 #: gpu7ShaderCache.cpp
 msgid "Shader cache migration"
-msgstr "迁移着色器缓存"
+msgstr "着色器缓存迁移"
 
 #: gpu7ShaderCache.cpp
 msgid "Use existing cache"
-msgstr "使用已存在的缓存"
+msgstr "使用已有缓存"
 
 #: gpu7ShaderCache.cpp
 msgid "Create new cache [recommended]"
-msgstr "建立新缓存[推荐]"
+msgstr "创建新缓存[推荐]"
 
 #: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
 #: toolMemorySearcher.cpp
@@ -1519,23 +1522,23 @@ msgstr "过滤选项："
 
 #: GraphicPacksWindow2.cpp
 msgid "Installed games"
-msgstr "已安装的游戏"
+msgstr "已安装游戏"
 
 #: GraphicPacksWindow2.cpp
 msgid "Graphic pack"
-msgstr "当前图像插件"
+msgstr "图形插件"
 
 #: GraphicPacksWindow2.cpp
 msgid "Description"
-msgstr "简介"
+msgstr "介绍"
 
 #: GraphicPacksWindow2.cpp
 msgid "Control"
-msgstr "操作选项"
+msgstr "控制"
 
 #: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
-msgstr "下载最新图像插件"
+msgstr "下载最新社区图形插件"
 
 #: GraphicPacksWindow2.cpp
 msgid "Active preset"
@@ -1543,11 +1546,11 @@ msgstr "已激活预设"
 
 #: GraphicPacksWindow2.cpp
 msgid "This graphic pack has no description"
-msgstr "此图像插件无简介"
+msgstr "该图形插件无介绍"
 
 #: GraphicPacksWindow2.cpp
 msgid "Restart of Cemu required for changes to take effect"
-msgstr "重启 Cemu 以使更改生效"
+msgstr "重启 Cemu 才能使改动生效"
 
 #: GraphicPacksWindow2.cpp
 msgid "This update removed or renamed the following graphic packs:"
@@ -1590,7 +1593,7 @@ msgstr "麦克风"
 
 #: InputPanelGamepad.cpp
 msgid "show screen"
-msgstr "显示 GamePad 屏幕"
+msgstr "显示屏幕"
 
 #: InputPanelWiimote.cpp
 msgid "Extensions:"
@@ -1598,19 +1601,19 @@ msgstr "扩展:"
 
 #: InputPanelWiimote.cpp
 msgid "MotionPlus"
-msgstr "体感增强器(MotionPlus)"
+msgstr "MotionPlus"
 
 #: InputPanelWiimote.cpp
 msgid "Nunchuck"
-msgstr "双节棍(Nunchuck)"
+msgstr "Nunchuck"
 
 #: InputPanelWiimote.cpp
 msgid "Classic"
-msgstr "经典"
+msgstr "Classic"
 
 #: InputSettings.cpp
 msgid "Input Settings"
-msgstr "输入设定"
+msgstr "输入设置"
 
 #: InputSettings.cpp
 msgid "Controller {}"
@@ -1618,11 +1621,11 @@ msgstr "控制器 {}"
 
 #: InputSettings.cpp
 msgid "Couldn't save settings for controller {0}"
-msgstr "无法保存控制器 {0} 的设定"
+msgstr "无法保存控制器 {0} 的设置"
 
 #: InputSettings.cpp
 msgid "Profile"
-msgstr "配置"
+msgstr "设定档"
 
 #: InputSettings.cpp
 msgid "Load"
@@ -1654,11 +1657,11 @@ msgstr "测试控制器是否连接"
 
 #: InputSettings.cpp
 msgid "Calibrate"
-msgstr "校准"
+msgstr "校正"
 
 #: InputSettings.cpp
 msgid "Reset the default state of the controller"
-msgstr "重置控制器设定"
+msgstr "恢复控制器的默认状态"
 
 #: InputSettings.cpp toolMemorySearcher.cpp
 msgid "Clear"
@@ -1666,11 +1669,11 @@ msgstr "清除"
 
 #: InputSettings.cpp
 msgid "Clear all currently set input settings"
-msgstr "清除所有输入设定"
+msgstr "清除所有输入设置"
 
 #: InputSettings.cpp
 msgid "Additional settings"
-msgstr "额外设定"
+msgstr "其他设置"
 
 #: InputSettings.cpp
 msgid "Rumble"
@@ -1678,32 +1681,32 @@ msgstr "震动"
 
 #: InputSettings.cpp
 msgid "Button Threshold"
-msgstr "按钮阈值"
+msgstr "按键阈值"
 
 #: InputSettings.cpp
 msgid ""
 "The threshold of a button to recognizes a press from a trigger/axis value"
-msgstr "用于识别扳机键/摇杆发生操作的阈值"
+msgstr "识别扳机与摇杆触发的按钮阈值"
 
 #: InputSettings.cpp
 msgid "No profile name selected!"
-msgstr "没有选择配置名称！"
+msgstr "未选择设定档名称！"
 
 #: InputSettings.cpp
 msgid "The given profile name is not valid!"
-msgstr "输入的配置名称无效！"
+msgstr "指定的设定档名称无效！"
 
 #: InputSettings.cpp
 msgid "Couldn't load the selected profile!"
-msgstr "无法加载选择的配置！"
+msgstr "无法加载所选的设定档！"
 
 #: InputSettings.cpp
 msgid "No profile name entered!"
-msgstr "没有输入配置名称！"
+msgstr "未输入设定档名称！"
 
 #: InputSettings.cpp
 msgid "Couldn't save the profile!"
-msgstr "无法保存配置！"
+msgstr "无法保存设定档!"
 
 #: InputSettings.cpp
 msgid "DSU client settings"
@@ -1731,7 +1734,7 @@ msgstr "搜寻控制器 ..."
 
 #: LoggingWindow.cpp
 msgid "Logging window"
-msgstr "log记录窗口"
+msgstr "log 记录窗口"
 
 #: LoggingWindow.cpp
 msgid "Filter messages"
@@ -1743,7 +1746,7 @@ msgstr "无法打开文件"
 
 #: MainWindow.cpp
 msgid "Not a valid NFC NTAG215 file"
-msgstr "无效的 NFC NTAG215 文件"
+msgstr "不是有效的 NFC NTAG215 文件"
 
 #: MainWindow.cpp
 msgid ""
@@ -1751,7 +1754,7 @@ msgid ""
 "Please move it to a different location or run Cemu as administrator!"
 msgstr ""
 "Cemu 无法写入它的目录。\n"
-"请将其移动到其他位置，或以 管理员身份 运行Cemu！"
+"请将其移动到其他位置，或以 管理员身份 运行 Cemu！"
 
 #: MainWindow.cpp
 msgid "Title installed!"
@@ -1795,7 +1798,7 @@ msgstr "所有文件 (*.*)"
 
 #: MainWindow.cpp
 msgid "Open file to launch"
-msgstr "选择文件"
+msgstr "打开要启动的文件"
 
 #: MainWindow.cpp TitleManager.cpp
 msgid "Select title to install"
@@ -1803,19 +1806,19 @@ msgstr "选择要安装的档案"
 
 #: MainWindow.cpp
 msgid "Open file to load"
-msgstr "选择文件"
+msgstr "打开要载入的文件"
 
 #: MainWindow.cpp
 msgid "Cemu must be restarted to apply the selected UI language."
-msgstr "重启 Cemu 以应用界面语言变更。"
+msgstr "重启 Cemu 才能应用所选的 UI 语言。"
 
 #: MainWindow.cpp
 msgid ""
 "All files from the currently running game will be dumped to /dump/"
 "<gamefolder>. This process can take a few minutes."
 msgstr ""
-"当前正在运行的游戏中的所有文件都将被转储到 /dump/<gamefolder>。 此过程可能需"
-"要几分钟。"
+"当前正在运行的游戏中的所有文件都将被转储到 /dump/<gamefolder>. 此过程可能需要"
+"几分钟。"
 
 #: MainWindow.cpp
 msgid "Dump WUD"
@@ -1834,12 +1837,12 @@ msgid ""
 "There's a new update available.\n"
 "Do you want to update?"
 msgstr ""
-"当前有可用的更新！\n"
-"要更新吗？"
+"有可用更新。\n"
+"是否升级？"
 
 #: MainWindow.cpp
 msgid "Update notification"
-msgstr "更新通知"
+msgstr "更新提醒"
 
 #: MainWindow.cpp
 msgid "&Load"
@@ -1879,7 +1882,7 @@ msgstr "&韩国"
 
 #: MainWindow.cpp
 msgid "&Taiwan"
-msgstr "&台湾"
+msgstr "&中国台湾"
 
 #: MainWindow.cpp
 msgid "&English"
@@ -1935,7 +1938,7 @@ msgstr "&全屏"
 
 #: MainWindow.cpp
 msgid "&Graphic packs"
-msgstr "&图像插件"
+msgstr "&图形插件"
 
 #: MainWindow.cpp
 msgid "&Separate GamePad view"
@@ -1943,19 +1946,19 @@ msgstr "&单独 GamePad 窗口"
 
 #: MainWindow.cpp
 msgid "&General settings"
-msgstr "&常规设定"
+msgstr "&通用设置"
 
 #: MainWindow.cpp
 msgid "&Input settings"
-msgstr "&输入设定"
+msgstr "&输入设置"
 
 #: MainWindow.cpp
 msgid "&Active account"
-msgstr "&活动账户"
+msgstr "&当前账户"
 
 #: MainWindow.cpp
 msgid "&Console region"
-msgstr "&主机区域"
+msgstr "&主机地区"
 
 #: MainWindow.cpp
 msgid "&Console language"
@@ -1987,19 +1990,19 @@ msgstr "&NFC"
 
 #: MainWindow.cpp
 msgid "&Unsupported API calls"
-msgstr "&Unsupported API calls"
+msgstr "&不支持的 API 调用"
 
 #: MainWindow.cpp
 msgid "&Coreinit File-Access"
-msgstr "&Coreinit File-Access"
+msgstr "&Coreinit 数据访问"
 
 #: MainWindow.cpp
 msgid "&Coreinit Thread-Synchronization API"
-msgstr "&Coreinit Thread-Synchronization API"
+msgstr "&Coreinit 线程同步 API"
 
 #: MainWindow.cpp
 msgid "&Coreinit Memory API"
-msgstr "&Coreinit Memory API"
+msgstr "&Coreinit 内存 API"
 
 #: MainWindow.cpp
 msgid "&Coreinit MP API"
@@ -2015,19 +2018,19 @@ msgstr "&GX2 API"
 
 #: MainWindow.cpp
 msgid "&Audio API"
-msgstr "&Audio API"
+msgstr "&音频 API"
 
 #: MainWindow.cpp
 msgid "&Input API"
-msgstr "&Input API"
+msgstr "&输入 API"
 
 #: MainWindow.cpp
 msgid "&Socket API"
-msgstr "&Socket API"
+msgstr "&套接 API"
 
 #: MainWindow.cpp
 msgid "&Save API"
-msgstr "&Save API"
+msgstr "&储存 API"
 
 #: MainWindow.cpp
 msgid "&H264 API"
@@ -2035,11 +2038,11 @@ msgstr "&H264 API"
 
 #: MainWindow.cpp
 msgid "&Graphic pack patches"
-msgstr "&图像插件补丁"
+msgstr "&图形插件补丁"
 
 #: MainWindow.cpp
 msgid "&Texture cache warnings"
-msgstr "纹理缓存警告"
+msgstr "&纹理缓存警告"
 
 #: MainWindow.cpp
 msgid "&OpenGL debug output"
@@ -2047,7 +2050,7 @@ msgstr "&OpenGL 调试输出"
 
 #: MainWindow.cpp
 msgid "&Vulkan validation layer (slow)"
-msgstr "&Vulkan 验证层（慢速）"
+msgstr "&Vulkan 验证层 (慢速)"
 
 #: MainWindow.cpp
 msgid "&Log PPC context for API"
@@ -2067,7 +2070,7 @@ msgstr "&nlibcurl HTTP/HTTPS 请求"
 
 #: MainWindow.cpp
 msgid "&Logging"
-msgstr "&记录Log"
+msgstr "&记录 Log"
 
 #: MainWindow.cpp
 msgid "&Dump"
@@ -2087,7 +2090,7 @@ msgstr "&实验性功能"
 
 #: MainWindow.cpp
 msgid "&Open logging window"
-msgstr "&打开日志窗口"
+msgstr "&打开记录窗口"
 
 #: MainWindow.cpp
 msgid "&View PPC threads"
@@ -2107,7 +2110,7 @@ msgstr "&查看纹理缓存信息"
 
 #: MainWindow.cpp
 msgid "&Show frame profiler"
-msgstr "&显示框架分析器"
+msgstr "&显示帧分析器"
 
 #: MainWindow.cpp
 msgid "&Dump current RAM"
@@ -2139,19 +2142,19 @@ msgstr "&帮助"
 
 #: MainWindow.cpp
 msgid "otp.bin could not be found"
-msgstr "找不到 otp.bin 文件"
+msgstr "找不到 otp.bin"
 
 #: MainWindow.cpp
 msgid "otp.bin is corrupted or has invalid size"
-msgstr "otp.bin 已损坏或者大小无效"
+msgstr "otp.bin 已损坏或大小无效"
 
 #: MainWindow.cpp
 msgid "seeprom.bin could not be found"
-msgstr "找不到 seeprom.bin 文件"
+msgstr "找不到 seeprom.bin"
 
 #: MainWindow.cpp
 msgid "seeprom.bin is corrupted or has invalid size"
-msgstr "seeprom.bin 已损坏或者大小无效"
+msgstr "seeprom.bin 损坏或大小无效"
 
 #: MainWindow.cpp
 msgid "Unknown error occured"
@@ -2187,7 +2190,7 @@ msgstr "&跳转到反编译器 | Goto Disasm"
 
 #: RegisterWindow.cpp
 msgid "G&oto Dump"
-msgstr "&跳转到转储 Goto Dump"
+msgstr "&跳转到转储 | Goto Dump"
 
 #: SaveImportWindow.cpp
 msgid "Import save entry"
@@ -2321,7 +2324,7 @@ msgstr "MipRange"
 
 #: textureRelationWindow.cpp
 msgid "Last access"
-msgstr "上次访问"
+msgstr "Last access"
 
 #: textureRelationWindow.cpp
 msgid "OverwriteRes"
@@ -2329,7 +2332,7 @@ msgstr "OverwriteRes"
 
 #: textureRelationWindow.cpp
 msgid "Show only active"
-msgstr "只显示已激活"
+msgstr "仅显示活动"
 
 #: textureRelationWindow.cpp
 msgid "Show views"
@@ -2401,7 +2404,7 @@ msgstr "找到 {} 个游戏，{} 个更新档， {} 个 DLC 和 {} 个存档条�
 
 #: TitleManager.cpp
 msgid "Update installation has been canceled!"
-msgstr "已取消更新档安装！"
+msgstr "已取消更新档安装!"
 
 #: TitleManager.cpp
 msgid "Are you really sure that you want to delete the save entry for {}"
@@ -2473,11 +2476,11 @@ msgstr "值"
 
 #: toolMemorySearcher.cpp
 msgid "Stored Entries"
-msgstr "已存储入口"
+msgstr "已储存入口"
 
 #: toolMemorySearcher.cpp
 msgid "description"
-msgstr "说明"
+msgstr "描述"
 
 #: toolMemorySearcher.cpp
 msgid "type"
@@ -2489,26 +2492,26 @@ msgstr "冻结"
 
 #: toolMemorySearcher.cpp
 msgid "Your entered value is not valid for the selected datatype."
-msgstr "输入的值对选择的数据类型无效。"
+msgstr "输入的值对所选数据类型无效。"
 
 #: toolMemorySearcher.cpp
 msgid "&Add new entry"
-msgstr "&添加新的路径"
+msgstr "&添加新入口"
 
 #: toolMemorySearcher.cpp
 msgid "&Remove entry"
-msgstr "&移除路径"
+msgstr "&移除入口"
 
 #: toolMemorySearcher.cpp
 msgid "Results ({0})"
-msgstr "结果 ({0})"
+msgstr "结果（{0}）"
 
 #: VulkanCanvas.cpp
 msgid ""
 "Error when initializing Vulkan renderer:\n"
 "{}"
 msgstr ""
-"初始化 Vulkan 渲染器时出错：\n"
+"初始化 Vulkan 渲染器时出错:\n"
 "{}"
 
 #: VulkanRenderer.cpp
@@ -2530,19 +2533,19 @@ msgstr ""
 
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
-msgstr "建立新账户"
+msgstr "创建新账户"
 
 #: wxCreateAccountDialog.cpp
 msgid ""
 "The persistent id is the internal folder name used for your saves. Only "
 "change this if you are importing saves from a Wii U with a specific id"
 msgstr ""
-"Persistent ID 是用于存档的内部文件夹的名称。 仅当您从 Wii U 导入存档并获得特"
-"别 ID 时，才更改此设置"
+"Persistent ID 是用于储存存档的内部文件夹名称。 如果需要从具有特定 ID 的 Wii "
+"U 入存档，请更改此设置"
 
 #: wxCreateAccountDialog.cpp
 msgid "No persistent id entered!"
-msgstr "没有输入 Persistent ID ！"
+msgstr "未输入 Persistent ID!"
 
 #: wxCreateAccountDialog.cpp
 msgid "The persistent id must be greater than {:x}!"
@@ -2554,7 +2557,7 @@ msgstr "Persistent ID {:x} 已经被帐户 {} 使用！"
 
 #: wxCreateAccountDialog.cpp
 msgid "Account name may not be empty!"
-msgstr "帐户名不能为空！"
+msgstr "帐户名不能为空!"
 
 #: wxGameList.cpp
 msgid ""
@@ -2592,7 +2595,7 @@ msgstr "游戏时长"
 
 #: wxGameList.cpp
 msgid "Last played"
-msgstr "上次运行时间"
+msgstr "上次游玩时间"
 
 #: wxGameList.cpp wxTitleManagerList.cpp
 msgid "Region"
@@ -2600,7 +2603,7 @@ msgstr "地区"
 
 #: wxGameList.cpp
 msgid "&Start"
-msgstr "&开始"
+msgstr "&启动"
 
 #: wxGameList.cpp
 msgid "&Favorite"
@@ -2628,11 +2631,11 @@ msgstr "&DLC 目录"
 
 #: wxGameList.cpp
 msgid "&Edit graphic packs"
-msgstr "&修改图像插件"
+msgstr "&编辑图形插件"
 
 #: wxGameList.cpp
 msgid "&Edit game profile"
-msgstr "&编辑游戏配置文件"
+msgstr "&编辑游戏设定"
 
 #: wxGameList.cpp
 msgid "&Refresh game list"
@@ -2640,15 +2643,15 @@ msgstr "&刷新游戏列表"
 
 #: wxGameList.cpp
 msgid "Style: &List"
-msgstr "查看：&列表"
+msgstr "显示方式：&列表"
 
 #: wxGameList.cpp
 msgid "Style: &Icons"
-msgstr "查看：&普通图标"
+msgstr "显示方式：&普通图标"
 
 #: wxGameList.cpp
 msgid "Style: &Small Icons"
-msgstr "查看：&小图标"
+msgstr "显示方式：&小图标"
 
 #: wxGameList.cpp
 msgid "Reset &width"
@@ -2676,7 +2679,7 @@ msgstr "显示 &游戏时长"
 
 #: wxGameList.cpp
 msgid "Show &last played"
-msgstr "显示 &上次运行时间"
+msgstr "显示 &上次游玩时间"
 
 #: wxGameList.cpp
 msgid "Show &region"
@@ -2684,7 +2687,7 @@ msgstr "显示 &地区"
 
 #: wxGameList.cpp
 msgid "You can configure game paths in the general settings."
-msgstr "可以在常规设定中设置游戏路径。"
+msgstr "可在通用设置中设定游戏路径。"
 
 #: wxTitleManagerList.cpp
 msgid "Title id"
@@ -2767,129 +2770,102 @@ msgid ""
 "{}"
 msgstr "你确定要删除以下文件吗？"
 
-#~ msgid "Misc"
-#~ msgstr "杂项"
+#~ msgid ""
+#~ "Cemu detected DLC installed at multiple different locations.\n"
+#~ "Do you want to remove the DLC installed at outdated locations?"
+#~ msgstr ""
+#~ "Cemu 检测到多个安装在不同位置的 DLC \n"
+#~ "是否要删除安装在过时位置的 DLC？"
 
-#~ msgid "Use separable shaders"
-#~ msgstr "使用可分离着色器"
+#~ msgid ""
+#~ "Cemu detected a DLC installed at a wrong or outdated location:\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Do you want to move it to the correct location:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Cemu 检测到在错误或过时位置安装的 DLC：\n"
+#~ "{}\n"
+#~ "\n"
+#~ "是否要将其移动到正确的位置：\n"
+#~ "{}"
 
-#~ msgid "Id"
-#~ msgstr "Id"
+#~ msgid "E&xit"
+#~ msgstr "退出"
 
-#~ msgid "E-Mail"
-#~ msgstr "电子邮件"
+#~ msgid "Extended texture readback"
+#~ msgstr "扩展纹理回读"
 
-#~ msgid "Online disabled"
-#~ msgstr "禁用线上模式"
+#~ msgid ""
+#~ "Improves emulation accuracy of CPU to GPU memory access at the cost of "
+#~ "performance. Required for some games."
+#~ msgstr ""
+#~ "以性能为代价提升CPU访问显存的模拟精度\n"
+#~ "此选项为运行部分游戏所必需."
 
-#~ msgid "Uncategorized graphic packs"
-#~ msgstr "未分类的图像插件"
+#~ msgid "GPU buffer cache accuracy"
+#~ msgstr "GPU缓冲区缓存精度"
 
-#~ msgid "This is an old graphic pack, therefore it has no description."
-#~ msgstr "此图像插件为旧版，因此无简介。"
+#~ msgid "high"
+#~ msgstr "高"
+
+#~ msgid "medium"
+#~ msgstr "中"
+
+#~ msgid "low"
+#~ msgstr "低"
+
+#~ msgid ""
+#~ "Lower value results in higher performance, but may cause graphical issues"
+#~ msgstr "较低的值可获得良好的性能，但可能会引起图形问题"
 
 #~ msgid "Can't open the file."
-#~ msgstr "无法打开文件。"
+#~ msgstr "无法打开文件."
 
 #~ msgid "Invalid \"meta.xml\" file."
-#~ msgstr "无效的“meta.xml”文件。"
+#~ msgstr "无效的\"meta.xml\"文件."
 
 #~ msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
-#~ msgstr "选择的“meta.xml”文件中找不到“title_id”。"
+#~ msgstr "无法在选择的\"meta.xml\"文件中找到“title_id”."
 
 #~ msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
-#~ msgstr "选择的“meta.xml”文件中找不到“title_version”。"
+#~ msgstr "无法在选择的\"meta.xml\"文件中找到“title_version”."
+
+#~ msgid "Can't find the \"product_code\" in the given \"meta.xml\" file."
+#~ msgstr "无法在选择的\"meta.xml\"文件中找到“product_code”."
 
 #~ msgid "The given \"meta.xml\" file is no update or DLC."
-#~ msgstr "选择的“meta.xml”文件不是更新档或DLC。"
+#~ msgstr "选择的\"meta.xml\"文件不是更新档或DLC."
 
 #~ msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
-#~ msgstr "选择的“meta.xml”文件中找不到“longname_en”。"
-
-#~ msgid ""
-#~ "It seems that a DLC is already installed, do you still want to install it?"
-#~ msgstr "此DLC已安装，仍要继续安装？"
-
-#~ msgid ""
-#~ "WARNING - Please be aware that online mode lets you connect to OFFICIAL "
-#~ "servers and therefore there is a risk of getting banned. Only proceed if "
-#~ "you are willing to risk losing online access with your Wii U and/or NNID."
-#~ msgstr ""
-#~ "警告 - 请注意：在线模式将使你连接到任天堂官方服务器，可能会导致封禁。\n"
-#~ "如果你愿意承担失去WiiU和NNID在线访问许可的风险，请继续。"
-
-#~ msgid "Loading, please wait!"
-#~ msgstr "载入中...请稍候!"
+#~ msgstr "无法在选择的\"meta.xml\"文件中找到“longname_en”."
 
 #~ msgid "&High (slow)"
-#~ msgstr "&高质量（慢速）"
+#~ msgstr "高（慢速）"
 
 #~ msgid "&Medium"
-#~ msgstr "&中等质量"
+#~ msgstr "中"
 
 #~ msgid "&Low (fast)"
-#~ msgstr "&低质量（快速）"
+#~ msgstr "低（快速）"
 
 #~ msgid "&GPU buffer cache accuracy"
-#~ msgstr "&GPU缓存精度"
+#~ msgstr "GPU缓冲区缓存精度"
 
-#~ msgid "&Use RDTSC"
-#~ msgstr "&使用RDTSC"
+#~ msgid "&Single-core interpreter"
+#~ msgstr "单核解释器"
+
+#~ msgid "&Single-core recompiler (fast)"
+#~ msgstr "单核重编译器（快速）"
 
 #~ msgid "&Dual-core recompiler (fast, unstable!)"
-#~ msgstr "&双核重编译器(快速，实验性)"
+#~ msgstr "双核重编译器（快速但不稳定）"
 
 #~ msgid "&Triple-core recompiler (fast, unstable!)"
-#~ msgstr "&三核重编译器(快速，实验性)"
+#~ msgstr "三核重编译器（快速但不稳定）"
 
-#~ msgid "&Cycle based timer"
-#~ msgstr "&基于循环的计时器"
+#~ msgid "&Mode"
+#~ msgstr "模式"
 
-#~ msgid "&Host based timer (recommended)"
-#~ msgstr "&基于主机的计时器(推荐)"
-
-#~ msgid "&Timer"
-#~ msgstr "&计时器"
-
-#~ msgid "&Refresh games"
-#~ msgstr "&刷新游戏"
-
-#~ msgid ""
-#~ "Cemu detected outdated graphic packs and automatically disabled them."
-#~ msgstr "Cemu检测到过时的图像插件并已自动将其禁用。"
-
-#~ msgid "Outdated graphic packs"
-#~ msgstr "过时的图像插件"
-
-#~ msgid "Error:"
-#~ msgstr "错误:"
-
-#~ msgid "Active"
-#~ msgstr "激活"
-
-#~ msgid ""
-#~ "The currently running game is corrupted or incomplete. (Missing /meta/"
-#~ "meta.xml) Graphic packs cannot be applied."
-#~ msgstr ""
-#~ "当前运行的游戏已损坏或不完整(缺少/meta/meta.xml)。图像插件无法启用。"
-
-#~ msgid "Restart of Cemu required"
-#~ msgstr "需要重启Cemu"
-
-#~ msgid "<double click to add a new entry>"
-#~ msgstr "<双击以添加新的入口>"
-
-#~ msgid "Language:"
-#~ msgstr "语言"
-
-#~ msgid "&Add game path"
-#~ msgstr "&添加游戏路径"
-
-#~ msgid "Surround 5.1"
-#~ msgstr "5.1环绕声"
-
-#~ msgid "Volume:"
-#~ msgstr "音量"
-
-#~ msgid "Channels:"
-#~ msgstr "声道"
+#~ msgid "&NFP API"
+#~ msgstr "NFP API"
