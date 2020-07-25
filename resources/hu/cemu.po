@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-07-25 00:19+0200\n"
-"PO-Revision-Date: 2020-07-25 17:24+0200\n"
+"PO-Revision-Date: 2020-07-25 17:55+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -71,7 +71,7 @@ msgstr "Válassz ki egy könyvtárat"
 
 #: CemuApp.cpp
 msgid "base"
-msgstr "alap"
+msgstr "alapjáték"
 
 #: CemuApp.cpp
 msgid "update"
@@ -119,7 +119,7 @@ msgstr "Automatikus"
 
 #: CemuApp.cpp
 msgid "many"
-msgstr "sok"
+msgstr "többrégiós"
 
 #: CemuApp.cpp
 msgid "Japanese"
