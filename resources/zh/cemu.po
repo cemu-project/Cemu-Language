@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-07-25 00:19+0200\n"
-"PO-Revision-Date: 2020-07-25 14:35+0800\n"
+"PO-Revision-Date: 2020-07-25 21:53+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -30,7 +30,7 @@ msgstr "类型"
 
 #: BreakpointWindow.cpp
 msgid "Comment"
-msgstr "注释 | Comment"
+msgstr "注释"
 
 #: BreakpointWindow.cpp DisasmCtrl.cpp
 msgid "Enter a new comment."
@@ -119,7 +119,7 @@ msgstr "自动"
 
 #: CemuApp.cpp
 msgid "many"
-msgstr "many/多区域"
+msgstr "多区域"
 
 #: CemuApp.cpp
 msgid "Japanese"
@@ -231,14 +231,14 @@ msgstr ""
 
 #: CemuApp.cpp
 msgid "Select a mlc directory"
-msgstr "选择 mlc 目录"
+msgstr "选择 MLC 目录"
 
 #: CemuApp.cpp
 msgid ""
 "Cemu can't write to the selected mlc path!\n"
 "Do you want to select another path?"
 msgstr ""
-"Cemu 无法写入选择的 mlc 路径！\n"
+"Cemu 无法写入选择的 MLC 路径！\n"
 "你想尝试选择其他路径吗？"
 
 #: CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp GameUpdateWindow.cpp
@@ -247,7 +247,7 @@ msgstr ""
 #: toolMemorySearcher.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
 #: wxTitleManagerList.cpp
 msgid "Error"
-msgstr "错误 | Error"
+msgstr "错误"
 
 #: CemuUpdateWindow.cpp
 msgid "Update"
@@ -316,11 +316,11 @@ msgstr "中止 (F5)"
 
 #: DebuggerWindow2.cpp
 msgid "Step Into (F11)"
-msgstr "逐步执行 | Step Into (F11)"
+msgstr "单步执行 (F11)"
 
 #: DebuggerWindow2.cpp
 msgid "Step Over (F10)"
-msgstr "逐程序执行 | Step Over (F10)"
+msgstr "单步执行(跳过过程) (F10)"
 
 #: DebuggerWindow2.cpp
 msgid "Run (F5)"
@@ -344,7 +344,7 @@ msgstr "&选项"
 
 #: DebuggerWindow2.cpp
 msgid "&Registers"
-msgstr "&寄存器 | Registers"
+msgstr "&寄存器"
 
 #: DebuggerWindow2.cpp
 msgid "&Memory Dump"
@@ -352,7 +352,7 @@ msgstr "&内存转储"
 
 #: DebuggerWindow2.cpp
 msgid "&Breakpoints"
-msgstr "&断点 | Breakpoints"
+msgstr "&断点"
 
 #: DebuggerWindow2.cpp
 msgid "Module&list"
@@ -368,7 +368,7 @@ msgstr "PPC线程"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Entry"
-msgstr "入口 | Entry"
+msgstr "Entry"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Stack"
@@ -388,11 +388,11 @@ msgstr "状态"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Affinity"
-msgstr "相似 | Affinity"
+msgstr "Affinity"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Priority"
-msgstr "优先级 | Priority"
+msgstr "Priority"
 
 #: debugPPCThreadsWindow.cpp
 msgid "SliceStart"
@@ -408,7 +408,7 @@ msgstr "线程名"
 
 #: debugPPCThreadsWindow.cpp
 msgid "GPR"
-msgstr "通用暂存器"
+msgstr "GPR"
 
 #: debugPPCThreadsWindow.cpp textureRelationWindow.cpp TitleManager.cpp
 msgid "Refresh"
@@ -555,7 +555,7 @@ msgstr "设置CPU模拟模式"
 
 #: GameProfileWindow.cpp
 msgid "Thread quantum"
-msgstr "Thread quantum | 线程量为"
+msgstr "线程量子长度为"
 
 #: GameProfileWindow.cpp
 msgid ""
@@ -563,15 +563,16 @@ msgid ""
 "Set the maximum thread slice runtime (in virtual cycles)"
 msgstr ""
 "专业选项 ⚠\n"
-"设置最大线程量运行（以虚拟周期为单位）"
+"线程量子是线程在中断并切换运行的程序前，线程留给程序使用的最大时钟周期数（以"
+"虚拟的时钟周期为单位）"
 
 #: GameProfileWindow.cpp
 msgid "cycles"
-msgstr "周期 | cycles"
+msgstr "个时钟周期"
 
 #: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
-msgstr "着色器乘法精度 | Shader mul accuracy"
+msgstr "着色器乘法精度"
 
 #: GameProfileWindow.cpp
 msgid "false"
@@ -773,7 +774,7 @@ msgid ""
 "Cemu will remember your custom mlc path in %LOCALAPPDATA%/Cemu for new "
 "installations."
 msgstr ""
-"对于新的安装，Cemu 将记住您在 %LOCALAPPDATA%/Cemu 中的自定义 mlc 路径。"
+"对于新的安装，Cemu 将记住您在 %LOCALAPPDATA%/Cemu 中的自定义 MLC 路径。"
 
 #: GeneralSettings2.cpp
 msgid "MLC Path"
@@ -782,7 +783,7 @@ msgstr "MLC 路径"
 #: GeneralSettings2.cpp
 msgid ""
 "The mlc directory contains your save games and installed game update/dlc data"
-msgstr "mlc 目录包含您的存档、已安装 更新档 和 DLC 数据"
+msgstr "MLC 目录包含您的存档、已安装 更新档 和 DLC 数据"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -790,8 +791,8 @@ msgid ""
 "The mlc path is used to store Wii U related files like save games, game "
 "updates and dlc data"
 msgstr ""
-"选择自定义的 mlc 路径\n"
-"mlc 路径用于存储与 Wii U 相关的文件，例如存储存档、更新档和 DLC 数据"
+"选择自定义的 MLC 路径\n"
+"MLC 路径用于存储与 Wii U 相关的文件，例如存储存档、更新档和 DLC 数据"
 
 #: GeneralSettings2.cpp
 msgid "Game Paths"
@@ -1355,16 +1356,16 @@ msgid ""
 "C:\\wiiu\\mlc\\) \n"
 "If left empty, the mlc folder will be created inside the Cemu folder."
 msgstr ""
-"mlc 路径是用来模拟 Wii U 内部闪存空间的根文件夹。 它包含您所有的存档，已安装"
+"MLC 路径是用来模拟 Wii U 内部闪存空间的根文件夹。 它包含您所有的存档，已安装"
 "的更新和 DLC。\n"
-"强烈建议您为其创建一个专用文件夹（例如：C:\\wiiu\\mlc\\）\n"
-"如果保留为空，则将在 Cemu 文件夹内创建 mlc 文件夹。"
+"强烈建议您为其创建一个专用文件夹（例如：C:\\wiiu\\MLC\\）\n"
+"如果保留为空，则将在 Cemu 文件夹内创建 MLC 文件夹。"
 
 #: GettingStartedDialog.cpp
 msgid ""
 "A custom mlc path from a previous Cemu installation has been found and "
 "filled in."
-msgstr "当前从旧的 Cemu 中找到了一个自定义的 mlc 路径，已为您自动加入。"
+msgstr "当前从旧的 Cemu 中找到了一个自定义的 MLC 路径，已为您自动加入。"
 
 #: GettingStartedDialog.cpp
 msgid "Custom mlc01 path"
@@ -1737,7 +1738,7 @@ msgstr "搜寻控制器 ..."
 
 #: LoggingWindow.cpp
 msgid "Logging window"
-msgstr "Log 记录窗口"
+msgstr "日志记录窗口"
 
 #: LoggingWindow.cpp
 msgid "Filter messages"
@@ -2057,7 +2058,7 @@ msgstr "&Vulkan 验证层 (慢速)"
 
 #: MainWindow.cpp
 msgid "&Log PPC context for API"
-msgstr "&Log PPC context for API"
+msgstr "&为 API 记录 PPC 上下文"
 
 #: MainWindow.cpp
 msgid "&Textures"
@@ -2073,7 +2074,7 @@ msgstr "&nlibcurl HTTP/HTTPS 请求"
 
 #: MainWindow.cpp
 msgid "&Logging"
-msgstr "&记录 Log"
+msgstr "&记录日志"
 
 #: MainWindow.cpp
 msgid "&Dump"
@@ -2185,7 +2186,7 @@ msgstr "&减少"
 
 #: RegisterWindow.cpp
 msgid "&Copy"
-msgstr "&复制 | Copy"
+msgstr "&复制"
 
 #: RegisterWindow.cpp
 msgid "&Goto Disasm"
@@ -2383,7 +2384,7 @@ msgstr "将存档条目转移到另一个 Persistent 帐户 ID 中"
 
 #: TitleManager.cpp
 msgid "Irrevocable delete the save entry "
-msgstr "删除存档条目（无法撤销） "
+msgstr "删除存档条目（无法撤销）"
 
 #: TitleManager.cpp
 msgid "Import"
@@ -2755,7 +2756,7 @@ msgstr "&打开目录"
 
 #: wxTitleManagerList.cpp
 msgid "Fix entry"
-msgstr "修复入口 | Fix entry"
+msgstr "修复问题"
 
 #: wxTitleManagerList.cpp
 msgid "&Delete"
@@ -2765,110 +2766,14 @@ msgstr "&删除"
 msgid ""
 "Are you really sure that you want to delete the following folder:\n"
 "{}"
-msgstr "你真的确定要删除以下文件夹吗？"
+msgstr ""
+"你真的确定要删除以下文件夹吗？\n"
+"{}"
 
 #: wxTitleManagerList.cpp
 msgid ""
 "Are you really sure that you want to delete the following file:\n"
 "{}"
-msgstr "你确定要删除以下文件吗？"
-
-#~ msgid ""
-#~ "Cemu detected DLC installed at multiple different locations.\n"
-#~ "Do you want to remove the DLC installed at outdated locations?"
-#~ msgstr ""
-#~ "Cemu 检测到多个安装在不同位置的 DLC \n"
-#~ "是否要删除安装在过时位置的 DLC？"
-
-#~ msgid ""
-#~ "Cemu detected a DLC installed at a wrong or outdated location:\n"
-#~ "{}\n"
-#~ "\n"
-#~ "Do you want to move it to the correct location:\n"
-#~ "{}"
-#~ msgstr ""
-#~ "Cemu 检测到在错误或过时位置安装的 DLC：\n"
-#~ "{}\n"
-#~ "\n"
-#~ "是否要将其移动到正确的位置：\n"
-#~ "{}"
-
-#~ msgid "E&xit"
-#~ msgstr "退出"
-
-#~ msgid "Extended texture readback"
-#~ msgstr "扩展纹理回读"
-
-#~ msgid ""
-#~ "Improves emulation accuracy of CPU to GPU memory access at the cost of "
-#~ "performance. Required for some games."
-#~ msgstr ""
-#~ "以性能为代价提升CPU访问显存的模拟精度\n"
-#~ "此选项为运行部分游戏所必需."
-
-#~ msgid "GPU buffer cache accuracy"
-#~ msgstr "GPU缓冲区缓存精度"
-
-#~ msgid "high"
-#~ msgstr "高"
-
-#~ msgid "medium"
-#~ msgstr "中"
-
-#~ msgid "low"
-#~ msgstr "低"
-
-#~ msgid ""
-#~ "Lower value results in higher performance, but may cause graphical issues"
-#~ msgstr "较低的值可获得良好的性能，但可能会引起图形问题"
-
-#~ msgid "Can't open the file."
-#~ msgstr "无法打开文件."
-
-#~ msgid "Invalid \"meta.xml\" file."
-#~ msgstr "无效的\"meta.xml\"文件."
-
-#~ msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
-#~ msgstr "无法在选择的\"meta.xml\"文件中找到“title_id”."
-
-#~ msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
-#~ msgstr "无法在选择的\"meta.xml\"文件中找到“title_version”."
-
-#~ msgid "Can't find the \"product_code\" in the given \"meta.xml\" file."
-#~ msgstr "无法在选择的\"meta.xml\"文件中找到“product_code”."
-
-#~ msgid "The given \"meta.xml\" file is no update or DLC."
-#~ msgstr "选择的\"meta.xml\"文件不是更新档或DLC."
-
-#~ msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
-#~ msgstr "无法在选择的\"meta.xml\"文件中找到“longname_en”."
-
-#~ msgid "&High (slow)"
-#~ msgstr "高（慢速）"
-
-#~ msgid "&Medium"
-#~ msgstr "中"
-
-#~ msgid "&Low (fast)"
-#~ msgstr "低（快速）"
-
-#~ msgid "&GPU buffer cache accuracy"
-#~ msgstr "GPU缓冲区缓存精度"
-
-#~ msgid "&Single-core interpreter"
-#~ msgstr "单核解释器"
-
-#~ msgid "&Single-core recompiler (fast)"
-#~ msgstr "单核重编译器（快速）"
-
-#~ msgid "&Dual-core recompiler (fast, unstable!)"
-#~ msgstr "双核重编译器（快速但不稳定）"
-
-#~ msgid "&Triple-core recompiler (fast, unstable!)"
-#~ msgstr "三核重编译器（快速但不稳定）"
-
-#~ msgid "&Mode"
-#~ msgstr "模式"
-
-#~ msgid "&NFP API"
-#~ msgstr "NFP API"
+msgstr ""
+"你确定要删除以下文件吗？\n"
+"{}"
