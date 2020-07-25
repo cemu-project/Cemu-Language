@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-07-18 16:33+0200\n"
-"PO-Revision-Date: 2020-07-18 16:36+0200\n"
+"POT-Creation-Date: 2020-07-25 10:07+0200\n"
+"PO-Revision-Date: 2020-07-25 10:07+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -129,6 +129,10 @@ msgstr "Japonais"
 #: CemuApp.cpp GeneralSettings2.cpp
 msgid "English"
 msgstr "Anglais"
+
+#: CemuApp.cpp
+msgid "French"
+msgstr "Français"
 
 #: CemuApp.cpp
 msgid "German"
