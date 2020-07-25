@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-07-17 21:28+0200\n"
-"PO-Revision-Date: 2020-07-20 15:07+0800\n"
+"POT-Creation-Date: 2020-07-25 00:19+0200\n"
+"PO-Revision-Date: 2020-07-25 14:35+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: bootGame.cpp
@@ -79,7 +79,7 @@ msgstr "更新档"
 
 #: CemuApp.cpp
 msgid "dlc"
-msgstr "DLC/附加内容"
+msgstr "DLC / 附加内容"
 
 #: CemuApp.cpp
 msgid "save"
@@ -128,6 +128,10 @@ msgstr "日语"
 #: CemuApp.cpp GeneralSettings2.cpp
 msgid "English"
 msgstr "英语"
+
+#: CemuApp.cpp
+msgid "French"
+msgstr "法语"
 
 #: CemuApp.cpp
 msgid "German"
@@ -384,11 +388,11 @@ msgstr "状态"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Affinity"
-msgstr "相似"
+msgstr "相似 | Affinity"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Priority"
-msgstr "优先级"
+msgstr "优先级 | Priority"
 
 #: debugPPCThreadsWindow.cpp
 msgid "SliceStart"
@@ -506,7 +510,7 @@ msgid ""
 "EXPERT OPTION\n"
 "This option will load libraries from the cafeLibs directory"
 msgstr ""
-"⚠专业选项⚠\n"
+"专业选项 ⚠\n"
 "该选项将从cafeLibs目录加载库"
 
 #: GameProfileWindow.cpp
@@ -558,7 +562,7 @@ msgid ""
 "EXPERT OPTION\n"
 "Set the maximum thread slice runtime (in virtual cycles)"
 msgstr ""
-"⚠专业选项⚠\n"
+"专业选项 ⚠\n"
 "设置最大线程量运行（以虚拟周期为单位）"
 
 #: GameProfileWindow.cpp
@@ -588,7 +592,7 @@ msgid ""
 "\n"
 "Recommended: true"
 msgstr ""
-"⚠专业选项⚠\n"
+"专业选项 ⚠\n"
 "控制着色器中浮点乘法的精度\n"
 "\n"
 "建议选项：开启"
@@ -778,7 +782,7 @@ msgstr "MLC 路径"
 #: GeneralSettings2.cpp
 msgid ""
 "The mlc directory contains your save games and installed game update/dlc data"
-msgstr "mlc 目录包含您的存档、已安装 更新档 和 DLC 数据。"
+msgstr "mlc 目录包含您的存档、已安装 更新档 和 DLC 数据"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -1337,7 +1341,7 @@ msgid ""
 "This quick setup assistant will help you get the best experience"
 msgstr ""
 "看来您是第一次启动 Cemu。\n"
-"本设置向导将帮助您获得最佳体验。"
+"本设置向导将帮助您获得最佳体验"
 
 #: GettingStartedDialog.cpp
 msgid "mlc01 path"
@@ -1733,7 +1737,7 @@ msgstr "搜寻控制器 ..."
 
 #: LoggingWindow.cpp
 msgid "Logging window"
-msgstr "log 记录窗口"
+msgstr "Log 记录窗口"
 
 #: LoggingWindow.cpp
 msgid "Filter messages"
