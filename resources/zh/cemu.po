@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-07-25 00:19+0200\n"
-"PO-Revision-Date: 2020-07-29 15:12+0800\n"
+"PO-Revision-Date: 2020-07-29 15:44+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -555,7 +555,7 @@ msgstr "设置CPU模拟模式"
 
 #: GameProfileWindow.cpp
 msgid "Thread quantum"
-msgstr "线程时间片长度为"
+msgstr "线程量子长度为"
 
 #: GameProfileWindow.cpp
 msgid ""
@@ -563,7 +563,7 @@ msgid ""
 "Set the maximum thread slice runtime (in virtual cycles)"
 msgstr ""
 "专业选项 ⚠\n"
-"设置线程运行时间片的最大值（以模拟的时钟周期为单位）"
+"设置线程运行时间片的最大值（以模拟CPU的时钟周期为单位）"
 
 #: GameProfileWindow.cpp
 msgid "cycles"
