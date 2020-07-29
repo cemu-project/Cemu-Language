@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-07-25 00:19+0200\n"
-"PO-Revision-Date: 2020-07-26 11:42+0800\n"
+"PO-Revision-Date: 2020-07-29 15:12+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -191,7 +191,7 @@ msgstr ""
 "预期路径为：\n"
 "{}\n"
 "\n"
-"是否要在预期路径上创建文件夹？"
+"是否要在预期路径处创建文件夹？"
 
 #: CemuApp.cpp
 msgid "Yes"
@@ -260,7 +260,7 @@ msgstr "取消"
 
 #: CemuUpdateWindow.cpp
 msgid "Changelog"
-msgstr "更新记录"
+msgstr "更新日志"
 
 #: CemuUpdateWindow.cpp
 msgid "Exit"
@@ -555,7 +555,7 @@ msgstr "设置CPU模拟模式"
 
 #: GameProfileWindow.cpp
 msgid "Thread quantum"
-msgstr "线程量子长度为"
+msgstr "线程时间片长度为"
 
 #: GameProfileWindow.cpp
 msgid ""
@@ -563,12 +563,11 @@ msgid ""
 "Set the maximum thread slice runtime (in virtual cycles)"
 msgstr ""
 "专业选项 ⚠\n"
-"线程量子是线程在中断并切换运行的程序前，线程留给程序使用的最大时钟滴答数（以"
-"虚拟的时钟滴答为单位，一个滴答包括若干个时钟周期）"
+"设置线程运行时间片的最大值（以模拟的时钟周期为单位）"
 
 #: GameProfileWindow.cpp
 msgid "cycles"
-msgstr "个时钟滴答"
+msgstr "个周期"
 
 #: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
@@ -867,6 +866,7 @@ msgid ""
 msgstr ""
 "预编译着色器可减少着色器加载画面所需时间\n"
 "自动：将为 AMD 与 Intel GPU 启用而对 NVIDIA GPU 禁用以解决驱动错误\n"
+"\n"
 "建议选项：自动"
 
 #: GeneralSettings2.cpp
@@ -1317,7 +1317,7 @@ msgid ""
 "Only proceed if you are willing to risk losing online access with your Wii U "
 "and/or NNID."
 msgstr ""
-"请注意：在线模式将使您连接到官方服务器，有被封的危险\n"
+"请注意：在线模式将使您连接到官方服务器，可能会导致封禁。\n"
 "如果您愿意承担失去 Wii U 与 NNID 的在线访问权限的风险，请继续操作。"
 
 #: GeneralSettings2.cpp
@@ -1498,14 +1498,14 @@ msgid ""
 "that you will experience additional stutter during the first minutes of "
 "gameplay."
 msgstr ""
-"过时着色器缓存\n"
+"过时的着色器缓存\n"
 "\n"
-"此游戏已有的着色器缓存是使用 1.16.0 之前的 Cemu 创建的\n"
+"此游戏已有的着色器缓存是使用 1.16.0 之前的 Cemu 创建的。\n"
 "\n"
-"使用已有缓存无明显不利影响，但它可能包含当前版本 Cemu 不再使用的冗余文件\n"
+"使用已有缓存无明显不利影响，但它可能包含当前版本 Cemu 不再使用的冗余文件。\n"
 "\n"
-"强烈建议开始新缓存。 请注意：新的缓存意味着您在游戏中前几分钟会遇到更多的卡顿"
-"现象."
+"强烈建议创建新的缓存。 请注意：新的缓存意味着您在游戏中的前几分钟会遇到更多的"
+"卡顿现象。"
 
 #: gpu7ShaderCache.cpp
 msgid "Shader cache migration"
@@ -1605,11 +1605,11 @@ msgstr "扩展:"
 
 #: InputPanelWiimote.cpp
 msgid "MotionPlus"
-msgstr "MotionPlus"
+msgstr "体感增强器(MotionPlus)"
 
 #: InputPanelWiimote.cpp
 msgid "Nunchuck"
-msgstr "Nunchuck"
+msgstr "双节棍(Nunchuck)"
 
 #: InputPanelWiimote.cpp
 msgid "Classic"
