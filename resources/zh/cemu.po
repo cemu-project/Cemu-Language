@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-07-25 00:19+0200\n"
-"PO-Revision-Date: 2020-07-29 15:44+0800\n"
+"POT-Creation-Date: 2020-08-22 03:20+0200\n"
+"PO-Revision-Date: 2020-08-22 12:40+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: bootGame.cpp
@@ -43,11 +43,11 @@ msgstr "在地址 %08x 处为断点设置注释"
 
 #: BreakpointWindow.cpp
 msgid "Create memory breakpoint (read)"
-msgstr "创建内存断点（读取）"
+msgstr "创建内存断点 (读取)"
 
 #: BreakpointWindow.cpp
 msgid "Create memory breakpoint (write)"
-msgstr "创建内存断点（写入）"
+msgstr "创建内存断点 (写入)"
 
 #: BreakpointWindow.cpp
 msgid "Enter a memory address"
@@ -241,11 +241,11 @@ msgstr ""
 "Cemu 无法写入选择的 MLC 路径！\n"
 "你想尝试选择其他路径吗？"
 
-#: CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp GameUpdateWindow.cpp
-#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
-#: MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp TitleManager.cpp
-#: toolMemorySearcher.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
-#: wxTitleManagerList.cpp
+#: CemuApp.cpp ChecksumTool.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: GameUpdateWindow.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp
+#: InputSettings.cpp MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp
+#: TitleManager.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
+#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
 msgid "Error"
 msgstr "错误"
 
@@ -290,17 +290,187 @@ msgstr "应用更新 ..."
 msgid "Extracting failed!"
 msgstr "解压失败！"
 
-#: CemuUpdateWindow.cpp MainWindow.cpp
+#: CemuUpdateWindow.cpp ChecksumTool.cpp MainWindow.cpp
 msgid "Success"
 msgstr "成功"
 
 #: CemuUpdateWindow.cpp
 msgid "Restart"
-msgstr "重新开始"
+msgstr "重新启动"
 
 #: CemuUpdateWindow.cpp
 msgid "Downloading update..."
 msgstr "下载更新中 ..."
+
+#: ChecksumTool.cpp
+msgid "Title checksum of {:08x}-{:08x}"
+msgstr "{:08x}-{:08x} 的档案校验和"
+
+#: ChecksumTool.cpp
+msgid "Verifying integrity of game files..."
+msgstr "正在验证游戏文件的完整性 ..."
+
+#: ChecksumTool.cpp GraphicPacksWindow2.cpp
+msgid "Control"
+msgstr "控制"
+
+#: ChecksumTool.cpp
+msgid "Verify"
+msgstr "验证"
+
+#: ChecksumTool.cpp
+msgid "Verifies the checksum online"
+msgstr "在线验证校验和"
+
+#: ChecksumTool.cpp
+msgid "Verify local"
+msgstr "本地验证"
+
+#: ChecksumTool.cpp
+msgid "Verifies the checksum with a local json file you can select"
+msgstr "从本地选择的 JSON 文件验证校验和"
+
+#: ChecksumTool.cpp TitleManager.cpp
+msgid "Export"
+msgstr "导出"
+
+#: ChecksumTool.cpp
+msgid "Export the title checksum data to a local json file"
+msgstr "导出 “档案校验和” 数据到一个本地 JSON 文件"
+
+#: ChecksumTool.cpp
+msgid "Export checksum entry"
+msgstr "导出 “校验和” 条目"
+
+#: ChecksumTool.cpp
+msgid "Export successful"
+msgstr "导出成功"
+
+#: ChecksumTool.cpp
+msgid "Can't write to file: {}"
+msgstr "写入文件失败：{}"
+
+#: ChecksumTool.cpp
+msgid "JSON file doesn't satisfy needed schema"
+msgstr "JSON文件不满足所需的格式"
+
+#: ChecksumTool.cpp
+msgid "Wrong title id: {}"
+msgstr "错误的档案 ID：{}"
+
+#: ChecksumTool.cpp
+msgid "Wrong version: {}"
+msgstr "错误的版本: {}"
+
+#: ChecksumTool.cpp
+msgid "Wrong region: {}"
+msgstr "错误的地区: {}"
+
+#: ChecksumTool.cpp
+msgid "The verification data doesn't include a wud hash!"
+msgstr "验证数据不包括 WUD 哈希值!"
+
+#: ChecksumTool.cpp
+msgid ""
+"Your game image is invalid!\n"
+"\n"
+"Your hash:\n"
+"{}\n"
+"\n"
+"Expected hash:\n"
+"{}"
+msgstr ""
+"您的游戏映像无效！\n"
+"\n"
+"您的哈希值：\n"
+"{}\n"
+"\n"
+"预期的哈希值：\n"
+"{}"
+
+#: ChecksumTool.cpp
+msgid "Select a file to export the errors"
+msgstr "选择要导出错误的文件"
+
+#: ChecksumTool.cpp
+msgid "Can't open file to write!"
+msgstr "无法打开要写入的文件！"
+
+#: ChecksumTool.cpp
+msgid "The following files are missing:"
+msgstr "以下文件已丢失："
+
+#: ChecksumTool.cpp
+msgid ""
+"{} files are missing!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"丢失了 {} 个文件！\n"
+"您想导出丢失的列表到一个文件中吗？"
+
+#: ChecksumTool.cpp
+msgid ""
+"{} files have an invalid hash!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"{} 个文件的哈希值无效！\n"
+"您想导出无效文件的列表到一个文件中吗？"
+
+#: ChecksumTool.cpp
+msgid ""
+"Multiple issues with your game files have been found!\n"
+"Do you want to export them to a file?"
+msgstr ""
+"发现您的游戏文件存在多个问题！\n"
+"你想把它们导出成文件吗?"
+
+#: ChecksumTool.cpp
+msgid "Your game files are valid"
+msgstr "您的游戏文件有效"
+
+#: ChecksumTool.cpp
+msgid "JSON parse error: {}"
+msgstr "JSON 解析错误：{}"
+
+#: ChecksumTool.cpp
+msgid "Can't open file!"
+msgstr "无法打开文件！"
+
+#: ChecksumTool.cpp
+msgid "Can't parse json file!"
+msgstr "无法解析 JSON 文件！"
+
+#: ChecksumTool.cpp
+msgid "Open checksum entry"
+msgstr "打开 “校验和” 条目"
+
+#: ChecksumTool.cpp
+msgid "Grabbing game files"
+msgstr "抓取游戏文件"
+
+#: ChecksumTool.cpp
+msgid "Hashing game file: {}/{}"
+msgstr "计算游戏文件哈希值：{}/{}"
+
+#: ChecksumTool.cpp
+msgid "Generated checksum of {} game files"
+msgstr "生成了 {} 个游戏文件的校验和"
+
+#: ChecksumTool.cpp
+msgid "Reading game image: {}"
+msgstr "读取游戏映像：{}"
+
+#: ChecksumTool.cpp
+msgid "Reading game image: {}/{}kb"
+msgstr "读取游戏映像：{}/{} kb"
+
+#: ChecksumTool.cpp
+msgid "Generating checksum of game image: {}"
+msgstr "正在生成游戏映像的校验和：{}"
+
+#: ChecksumTool.cpp
+msgid "Generated checksum of game image: {}"
+msgstr "生成了游戏映像的校验和：{}"
 
 #: DebuggerWindow2.cpp
 msgid "GoTo (CTRL + G)"
@@ -312,7 +482,7 @@ msgstr "切换断点 (F9)"
 
 #: DebuggerWindow2.cpp
 msgid "Break (F5)"
-msgstr "中止 (F5)"
+msgstr "中断 (F5)"
 
 #: DebuggerWindow2.cpp
 msgid "Step Into (F11)"
@@ -320,7 +490,7 @@ msgstr "单步执行 (F11)"
 
 #: DebuggerWindow2.cpp
 msgid "Step Over (F10)"
-msgstr "单步执行(跳过过程) (F10)"
+msgstr "单步执行 (跳过过程) (F10)"
 
 #: DebuggerWindow2.cpp
 msgid "Run (F5)"
@@ -563,7 +733,7 @@ msgid ""
 "Set the maximum thread slice runtime (in virtual cycles)"
 msgstr ""
 "专业选项 ⚠\n"
-"设置线程运行时间片的最大值（以模拟CPU的时钟周期为单位）"
+"设置线程运行时间片的最大值 (以模拟CPU的时钟周期为单位)"
 
 #: GameProfileWindow.cpp
 msgid "cycles"
@@ -653,8 +823,8 @@ msgid ""
 "Available: {1} MB"
 msgstr ""
 "可用空间不足\n"
-"所需空间: {0} MB\n"
-"可用空间: {1} MB"
+"所需空间：{0} MB\n"
+"可用空间：{1} MB"
 
 #: GameUpdateWindow.cpp
 msgid "Installing DLC ..."
@@ -718,7 +888,7 @@ msgstr "在启动 Cemu 时恢复上次的窗口位置"
 
 #: GeneralSettings2.cpp
 msgid "Remember pad window position"
-msgstr "记忆 Pad 窗口位置"
+msgstr "记忆 Pad 窗口的位置"
 
 #: GeneralSettings2.cpp
 msgid "Restores the last known pad window position and size when opening it"
@@ -762,7 +932,7 @@ msgstr "保存截图"
 msgid ""
 "Pressing the screenshot key (F12) will save a screenshot directly to the "
 "screenshots folder"
-msgstr "按下屏幕截图键（F12），将屏幕截图直接保存到 screenshots 文件夹中"
+msgstr "按下屏幕截图键 (F12)，将屏幕截图直接保存到 screenshots 文件夹中"
 
 #: GeneralSettings2.cpp
 msgid "Use permanent storage"
@@ -864,8 +1034,8 @@ msgid ""
 "\n"
 "Recommended: Auto"
 msgstr ""
-"预编译着色器可减少着色器加载画面所需时间\n"
-"自动：将为 AMD 与 Intel GPU 启用而对 NVIDIA GPU 禁用以解决驱动错误\n"
+"预编译着色器可减少着色器加载画面所需时间。\n"
+"自动：将为 AMD 与 Intel GPU 启用而对 NVIDIA GPU 禁用以解决驱动错误。\n"
 "\n"
 "建议选项：自动"
 
@@ -892,11 +1062,11 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "Bilinear"
-msgstr "双线性(Bilinear)"
+msgstr "双线性 (Bilinear)"
 
 #: GeneralSettings2.cpp
 msgid "Bicubic"
-msgstr "双三次(Bicubic)"
+msgstr "双三次 (Bicubic)"
 
 #: GeneralSettings2.cpp
 msgid "Hermite"
@@ -986,7 +1156,7 @@ msgstr "设备"
 
 #: GeneralSettings2.cpp
 msgid "Select the active audio output device for Wii U TV"
-msgstr "为 WiiU TV 选择活动的音频输出设备"
+msgstr "为 Wii U TV 选择活动的音频输出设备"
 
 #: GeneralSettings2.cpp
 msgid "Channels"
@@ -1054,7 +1224,7 @@ msgstr "设置游戏内覆盖的文本颜色"
 
 #: GeneralSettings2.cpp
 msgid "Scale"
-msgstr "字号"
+msgstr "比例"
 
 #: GeneralSettings2.cpp
 msgid "Sets the scale of the overlay text"
@@ -1086,7 +1256,7 @@ msgstr "CPU 使用率"
 
 #: GeneralSettings2.cpp
 msgid "CPU usage of Cemu in percent"
-msgstr "Cemu 的 CPU 使用率（%）"
+msgstr "Cemu 的 CPU 使用率 (%)"
 
 #: GeneralSettings2.cpp
 msgid "CPU per core usage"
@@ -1094,7 +1264,7 @@ msgstr "CPU 各核心使用率"
 
 #: GeneralSettings2.cpp
 msgid "Total cpu usage in percent for each core"
-msgstr "CPU 各核心分别的使用率（%）"
+msgstr "CPU 各核心分别的使用率 (%)"
 
 #: GeneralSettings2.cpp
 msgid "RAM usage"
@@ -1102,7 +1272,7 @@ msgstr "内存使用"
 
 #: GeneralSettings2.cpp
 msgid "Cemu RAM usage in MB"
-msgstr "Cemu 的内存使用量（MB）"
+msgstr "Cemu 的内存使用量 (MB)"
 
 #: GeneralSettings2.cpp
 msgid "VRAM usage"
@@ -1110,7 +1280,7 @@ msgstr "显存使用"
 
 #: GeneralSettings2.cpp
 msgid "The VRAM usage of Cemu in MB"
-msgstr "Cemu 的显存使用量（MB）"
+msgstr "Cemu 的显存使用量 (MB)"
 
 #: GeneralSettings2.cpp
 msgid "This option requires Win8.1+"
@@ -1122,7 +1292,7 @@ msgstr "调试"
 
 #: GeneralSettings2.cpp
 msgid "Displays internal debug information (Vulkan only)"
-msgstr "显示内部调试信息（仅 Vulkan）"
+msgstr "显示内部调试信息 (仅 Vulkan)"
 
 #: GeneralSettings2.cpp
 msgid "Notifications"
@@ -1174,11 +1344,11 @@ msgstr "在线时显示好友列表相关数据"
 
 #: GeneralSettings2.cpp
 msgid "Account settings"
-msgstr "账户设置"
+msgstr "帐户设置"
 
 #: GeneralSettings2.cpp
 msgid "Active account"
-msgstr "当前账户"
+msgstr "当前帐户"
 
 #: GeneralSettings2.cpp
 msgid "Create"
@@ -1206,7 +1376,7 @@ msgstr "线上游戏教学"
 
 #: GeneralSettings2.cpp
 msgid "Account information"
-msgstr "账户信息"
+msgstr "帐户信息"
 
 #: GeneralSettings2.cpp
 msgid "The persistent id is the internal folder name used for your saves"
@@ -1250,7 +1420,7 @@ msgstr "基本"
 
 #: GeneralSettings2.cpp
 msgid "Full"
-msgstr "完整（包括内存）"
+msgstr "完整 (包括内存)"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -1260,7 +1430,7 @@ msgid ""
 msgstr ""
 "Cemu 崩溃时将创建转储\n"
 "仅在需要时启用！\n"
-"“完整”选项将创建一个包含内存的巨大转储"
+"“完整” 选项将创建一个包含内存的巨大转储"
 
 #: GeneralSettings2.cpp
 msgid "General settings"
@@ -1276,7 +1446,7 @@ msgstr "音频"
 
 #: GeneralSettings2.cpp TitleManager.cpp
 msgid "Account"
-msgstr "账户"
+msgstr "帐户"
 
 #: GeneralSettings2.cpp
 msgid "Can't delete the only account!"
@@ -1357,8 +1527,8 @@ msgid ""
 "If left empty, the mlc folder will be created inside the Cemu folder."
 msgstr ""
 "MLC 路径是用来模拟 Wii U 内部闪存空间的根文件夹。 它包含您所有的存档，已安装"
-"的更新和 DLC。\n"
-"强烈建议您为其创建一个专用文件夹（例如：C:\\wiiu\\mlc\\）\n"
+"的更新档和 DLC。\n"
+"强烈建议您为其创建一个专用文件夹 (例如：C:\\wiiu\\mlc\\)\n"
 "如果保留为空，则将在 Cemu 文件夹内创建 MLC 文件夹。"
 
 #: GettingStartedDialog.cpp
@@ -1377,7 +1547,7 @@ msgstr "选择一个文件夹"
 
 #: GettingStartedDialog.cpp
 msgid "(optional)"
-msgstr "（可选的）"
+msgstr "(可选的)"
 
 #: GettingStartedDialog.cpp
 msgid "Game paths"
@@ -1392,8 +1562,8 @@ msgid ""
 "You can also set additional paths in the general settings of Cemu."
 msgstr ""
 "Cemu 会扫描您设置的游戏路径以找到您的游戏。\n"
-"我们建议创建一个专用目录来放置您所有 Wii U 游戏。（例如：C:\\wiiu\\games"
-"\\）\n"
+"我们建议创建一个专用目录来放置您所有 Wii U 游戏。 (例如：C:\\wiiu\\games"
+"\\ )\n"
 "\n"
 "您也可以在 Cemu 的常规设置中设置其他路径。"
 
@@ -1537,10 +1707,6 @@ msgid "Description"
 msgstr "介绍"
 
 #: GraphicPacksWindow2.cpp
-msgid "Control"
-msgstr "控制"
-
-#: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
 msgstr "下载最新社区图形插件"
 
@@ -1601,15 +1767,15 @@ msgstr "显示屏幕"
 
 #: InputPanelWiimote.cpp
 msgid "Extensions:"
-msgstr "扩展:"
+msgstr "扩展："
 
 #: InputPanelWiimote.cpp
 msgid "MotionPlus"
-msgstr "体感增强器(MotionPlus)"
+msgstr "体感增强器 (MotionPlus)"
 
 #: InputPanelWiimote.cpp
 msgid "Nunchuck"
-msgstr "双节棍(Nunchuck)"
+msgstr "双节棍 (Nunchuck)"
 
 #: InputPanelWiimote.cpp
 msgid "Classic"
@@ -1645,7 +1811,7 @@ msgstr "模拟控制器"
 
 #: InputSettings.cpp
 msgid "Controller API:"
-msgstr "控制器 API:"
+msgstr "控制器 API："
 
 #: InputSettings.cpp
 msgid "Settings"
@@ -1653,7 +1819,7 @@ msgstr "设置"
 
 #: InputSettings.cpp
 msgid "Controller:"
-msgstr "控制器:"
+msgstr "控制器："
 
 #: InputSettings.cpp
 msgid "Test if the controller is connected"
@@ -1661,7 +1827,7 @@ msgstr "测试控制器是否连接"
 
 #: InputSettings.cpp
 msgid "Calibrate"
-msgstr "校正"
+msgstr "校准"
 
 #: InputSettings.cpp
 msgid "Reset the default state of the controller"
@@ -1710,7 +1876,7 @@ msgstr "未输入设定档名称！"
 
 #: InputSettings.cpp
 msgid "Couldn't save the profile!"
-msgstr "无法保存设定档!"
+msgstr "无法保存设定档！"
 
 #: InputSettings.cpp
 msgid "DSU client settings"
@@ -1958,7 +2124,7 @@ msgstr "&输入设置"
 
 #: MainWindow.cpp
 msgid "&Active account"
-msgstr "&当前账户"
+msgstr "&当前帐户"
 
 #: MainWindow.cpp
 msgid "&Console region"
@@ -2086,7 +2252,7 @@ msgstr "&上下反转渲染"
 
 #: MainWindow.cpp
 msgid "&Async compile (Vulkan)"
-msgstr "&异步编译（Vulkan）"
+msgstr "&异步编译 (Vulkan)"
 
 #: MainWindow.cpp
 msgid "&Experimental"
@@ -2384,7 +2550,7 @@ msgstr "将存档条目转移到另一个 Persistent 帐户 ID 中"
 
 #: TitleManager.cpp
 msgid "Irrevocable delete the save entry "
-msgstr "删除存档条目（无法撤销）"
+msgstr "删除存档条目 (无法撤销)"
 
 #: TitleManager.cpp
 msgid "Import"
@@ -2393,10 +2559,6 @@ msgstr "导入"
 #: TitleManager.cpp
 msgid "Imports a zipped save entry"
 msgstr "导入压缩的存档条目"
-
-#: TitleManager.cpp
-msgid "Export"
-msgstr "导出"
 
 #: TitleManager.cpp
 msgid "Exports the selected save entry as zip file"
@@ -2408,7 +2570,7 @@ msgstr "找到 {} 个游戏，{} 个更新档， {} 个 DLC 和 {} 个存档条�
 
 #: TitleManager.cpp
 msgid "Update installation has been canceled!"
-msgstr "已取消更新档安装!"
+msgstr "已取消更新档安装！"
 
 #: TitleManager.cpp
 msgid "Are you really sure that you want to delete the save entry for {}"
@@ -2480,7 +2642,7 @@ msgstr "值"
 
 #: toolMemorySearcher.cpp
 msgid "Stored Entries"
-msgstr "已储存入口"
+msgstr "已储存条目"
 
 #: toolMemorySearcher.cpp
 msgid "description"
@@ -2500,22 +2662,22 @@ msgstr "输入的值对所选数据类型无效。"
 
 #: toolMemorySearcher.cpp
 msgid "&Add new entry"
-msgstr "&添加新入口"
+msgstr "&添加新条目"
 
 #: toolMemorySearcher.cpp
 msgid "&Remove entry"
-msgstr "&移除入口"
+msgstr "&移除条目"
 
 #: toolMemorySearcher.cpp
 msgid "Results ({0})"
-msgstr "结果（{0}）"
+msgstr "结果 ({0})"
 
 #: VulkanCanvas.cpp
 msgid ""
 "Error when initializing Vulkan renderer:\n"
 "{}"
 msgstr ""
-"初始化 Vulkan 渲染器时出错:\n"
+"初始化 Vulkan 渲染器时出错：\n"
 "{}"
 
 #: VulkanRenderer.cpp
@@ -2537,7 +2699,7 @@ msgstr ""
 
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
-msgstr "创建新账户"
+msgstr "创建新帐户"
 
 #: wxCreateAccountDialog.cpp
 msgid ""
@@ -2549,7 +2711,7 @@ msgstr ""
 
 #: wxCreateAccountDialog.cpp
 msgid "No persistent id entered!"
-msgstr "未输入 Persistent ID!"
+msgstr "未输入 Persistent ID！"
 
 #: wxCreateAccountDialog.cpp
 msgid "The persistent id must be greater than {:x}!"
@@ -2561,7 +2723,7 @@ msgstr "Persistent ID {:x} 已经被帐户 {} 使用！"
 
 #: wxCreateAccountDialog.cpp
 msgid "Account name may not be empty!"
-msgstr "帐户名不能为空!"
+msgstr "帐户名不能为空！"
 
 #: wxGameList.cpp
 msgid ""
@@ -2575,7 +2737,8 @@ msgstr ""
 "该游戏条目似乎是更新档，或是与升级数据合并的游戏本体\n"
 "损坏的游戏转储在模拟运行期间会产生各种问题，甚至可能在未来的Cemu版本中根本无"
 "法工作\n"
-"请确保游戏本体完好无损，并仅通过 “文件”菜单 -> 安装更新 / DLC 选项来安装更新"
+"请确保游戏本体完好无损，并仅通过 “文件” 菜单 -> “安装档案、升级档或 DLC” 选项"
+"来安装更新"
 
 #: wxGameList.cpp
 msgid "never"
@@ -2753,6 +2916,10 @@ msgstr "&载入档案"
 #: wxTitleManagerList.cpp
 msgid "&Open directory"
 msgstr "&打开目录"
+
+#: wxTitleManagerList.cpp
+msgid "&Verify integrity of game files"
+msgstr "&验证游戏文件的完整性"
 
 #: wxTitleManagerList.cpp
 msgid "Fix entry"
