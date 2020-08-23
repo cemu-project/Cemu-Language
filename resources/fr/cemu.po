@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-07-25 10:07+0200\n"
-"PO-Revision-Date: 2020-07-25 10:07+0200\n"
+"POT-Creation-Date: 2020-08-23 23:00+0200\n"
+"PO-Revision-Date: 2020-08-23 23:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -243,11 +243,11 @@ msgstr ""
 "Cemu ne peut écrire dans le dossier de la mlc choisi !\n"
 "Souhaitez-vous sélectionner un autre dossier ?"
 
-#: CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp GameUpdateWindow.cpp
-#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
-#: MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp TitleManager.cpp
-#: toolMemorySearcher.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
-#: wxTitleManagerList.cpp
+#: CemuApp.cpp ChecksumTool.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: GameUpdateWindow.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp
+#: InputSettings.cpp MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp
+#: TitleManager.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
+#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
 msgid "Error"
 msgstr "Erreur"
 
@@ -292,7 +292,7 @@ msgstr "Application de la mise à jour..."
 msgid "Extracting failed!"
 msgstr "Échec de l'extraction !"
 
-#: CemuUpdateWindow.cpp MainWindow.cpp
+#: CemuUpdateWindow.cpp ChecksumTool.cpp MainWindow.cpp
 msgid "Success"
 msgstr "Succès"
 
@@ -303,6 +303,177 @@ msgstr "Redémarrer"
 #: CemuUpdateWindow.cpp
 msgid "Downloading update..."
 msgstr "Téléchargement de la mise à jour..."
+
+#: ChecksumTool.cpp
+msgid "Title checksum of {:08x}-{:08x}"
+msgstr "Calcul de la somme de contrôle du titre {:08x}-{:08x}"
+
+#: ChecksumTool.cpp
+msgid "Verifying integrity of game files..."
+msgstr "Vérification de l'intégrité des fichiers du jeu..."
+
+#: ChecksumTool.cpp GraphicPacksWindow2.cpp
+msgid "Control"
+msgstr "Contrôle"
+
+#: ChecksumTool.cpp
+msgid "Verify"
+msgstr "Vérifier"
+
+#: ChecksumTool.cpp
+msgid "Verifies the checksum online"
+msgstr "Vérifie la somme de contrôle en ligne"
+
+#: ChecksumTool.cpp
+msgid "Verify local"
+msgstr "Vérifier en local"
+
+#: ChecksumTool.cpp
+msgid "Verifies the checksum with a local json file you can select"
+msgstr ""
+"Vérifie la somme de contrôle avec un fichier json local que vous sélectionnez"
+
+#: ChecksumTool.cpp TitleManager.cpp
+msgid "Export"
+msgstr "Exporter"
+
+#: ChecksumTool.cpp
+msgid "Export the title checksum data to a local json file"
+msgstr "Exporte la somme de contrôle du titre vers un fichier json local"
+
+#: ChecksumTool.cpp
+msgid "Export checksum entry"
+msgstr "Exporter l'entrée de la somme de contrôle"
+
+#: ChecksumTool.cpp
+msgid "Export successful"
+msgstr "Exportation réussie"
+
+#: ChecksumTool.cpp
+msgid "Can't write to file: {}"
+msgstr "Impossible d'écrire dans le fichier : {}"
+
+#: ChecksumTool.cpp
+msgid "JSON file doesn't satisfy needed schema"
+msgstr "Le fichier JSON ne correspond pas au schéma requis"
+
+#: ChecksumTool.cpp
+msgid "Wrong title id: {}"
+msgstr "Mauvais identifiant du titre : {}"
+
+#: ChecksumTool.cpp
+msgid "Wrong version: {}"
+msgstr "Mauvaise version : {}"
+
+#: ChecksumTool.cpp
+msgid "Wrong region: {}"
+msgstr "Mauvaise région : {}"
+
+#: ChecksumTool.cpp
+msgid "The verification data doesn't include a wud hash!"
+msgstr "Les données de vérification n'incluent pas le hash d'un wud !"
+
+#: ChecksumTool.cpp
+msgid ""
+"Your game image is invalid!\n"
+"\n"
+"Your hash:\n"
+"{}\n"
+"\n"
+"Expected hash:\n"
+"{}"
+msgstr ""
+"L'image de votre jeu n'est pas valide :\n"
+"\n"
+"Votre hash :\n"
+"{}\n"
+"\n"
+"Hash attendu :\n"
+"{}"
+
+#: ChecksumTool.cpp
+msgid "Select a file to export the errors"
+msgstr "Sélectionnez un fichier pour exporter les erreurs"
+
+#: ChecksumTool.cpp
+msgid "Can't open file to write!"
+msgstr "Impossible d'ouvrir le fichier pour écriture !"
+
+#: ChecksumTool.cpp
+msgid "The following files are missing:"
+msgstr "Les fichiers suivants sont manquants :"
+
+#: ChecksumTool.cpp
+msgid ""
+"{} files are missing!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"{} fichiers manquent !\n"
+"Souhaitez-vous exporter une liste de ceux-ci dans un fichier ?"
+
+#: ChecksumTool.cpp
+msgid ""
+"{} files have an invalid hash!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"{} fichiers ont un hash non valide !\n"
+"Souhaitez-vous exporter une liste de ceux-ci dans un fichier ?"
+
+#: ChecksumTool.cpp
+msgid ""
+"Multiple issues with your game files have been found!\n"
+"Do you want to export them to a file?"
+msgstr ""
+"Plusieurs problèmes avec les fichiers de votre jeu ont été trouvés !\n"
+"Souhaitez-vous les exporter dans un fichier ?"
+
+#: ChecksumTool.cpp
+msgid "Your game files are valid"
+msgstr "Les fichiers de votre jeu ne sont pas valides"
+
+#: ChecksumTool.cpp
+msgid "JSON parse error: {}"
+msgstr "Erreur de traitement du fichier JSON : {}"
+
+#: ChecksumTool.cpp
+msgid "Can't open file!"
+msgstr "Impossible d'ouvrir le fichier !"
+
+#: ChecksumTool.cpp
+msgid "Can't parse json file!"
+msgstr "Impossible de traiter le fichier json !"
+
+#: ChecksumTool.cpp
+msgid "Open checksum entry"
+msgstr "Ouvrir l'entrée de la somme de contrôle"
+
+#: ChecksumTool.cpp
+msgid "Grabbing game files"
+msgstr "Récupération des fichiers du jeu"
+
+#: ChecksumTool.cpp
+msgid "Hashing game file: {}/{}"
+msgstr "Hashage du fichier du jeu : {}/{}"
+
+#: ChecksumTool.cpp
+msgid "Generated checksum of {} game files"
+msgstr "Somme de contrôle générée pour {} fichiers du jeu"
+
+#: ChecksumTool.cpp
+msgid "Reading game image: {}"
+msgstr "Lecture de l'image du jeu : {}"
+
+#: ChecksumTool.cpp
+msgid "Reading game image: {}/{}kb"
+msgstr "Lecture de l'image du jeu : {} / {} kio"
+
+#: ChecksumTool.cpp
+msgid "Generating checksum of game image: {}"
+msgstr "Génération de la somme de contrôle de l'image du jeu : {}"
+
+#: ChecksumTool.cpp
+msgid "Generated checksum of game image: {}"
+msgstr "Somme de contrôle générée pour l'image du jeu : {}"
 
 #: DebuggerWindow2.cpp
 msgid "GoTo (CTRL + G)"
@@ -1604,10 +1775,6 @@ msgid "Description"
 msgstr "Description"
 
 #: GraphicPacksWindow2.cpp
-msgid "Control"
-msgstr "Contrôle"
-
-#: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
 msgstr "Télécharger les derniers packs graphiques de la communauté"
 
@@ -2472,10 +2639,6 @@ msgid "Imports a zipped save entry"
 msgstr "Importe une sauvegarde compressée au format ZIP"
 
 #: TitleManager.cpp
-msgid "Export"
-msgstr "Exporter"
-
-#: TitleManager.cpp
 msgid "Exports the selected save entry as zip file"
 msgstr "Exporte la sauvegarde sélectionnée en fichier compressé ZIP"
 
@@ -2845,6 +3008,10 @@ msgstr "&Démarrer le titre"
 #: wxTitleManagerList.cpp
 msgid "&Open directory"
 msgstr "&Ouvrir le dossier"
+
+#: wxTitleManagerList.cpp
+msgid "&Verify integrity of game files"
+msgstr "&Vérifier l'intégrité des fichiers du jeu"
 
 #: wxTitleManagerList.cpp
 msgid "Fix entry"
