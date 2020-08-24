@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-08-22 03:20+0200\n"
-"PO-Revision-Date: 2020-08-23 11:49+0200\n"
+"PO-Revision-Date: 2020-08-24 16:32+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -327,7 +327,7 @@ msgstr "Helyi ellenőrzés"
 
 #: ChecksumTool.cpp
 msgid "Verifies the checksum with a local json file you can select"
-msgstr "Fájlok épségének ellenőrzése egy helyi json fájl alapján"
+msgstr "Fájlok épségének ellenőrzése egy helyi JSON fájl alapján"
 
 #: ChecksumTool.cpp TitleManager.cpp
 msgid "Export"
@@ -335,7 +335,7 @@ msgstr "Exportálás"
 
 #: ChecksumTool.cpp
 msgid "Export the title checksum data to a local json file"
-msgstr "Ellenőrzőösszeg exportálása helyi json fájlba"
+msgstr "Ellenőrzőösszeg exportálása helyi JSON fájlba"
 
 #: ChecksumTool.cpp
 msgid "Export checksum entry"
@@ -347,11 +347,11 @@ msgstr "Sikeres exportálás"
 
 #: ChecksumTool.cpp
 msgid "Can't write to file: {}"
-msgstr "A(z) {} fájl módosítása sikertelen."
+msgstr "A(z) {} fájl írása sikertelen."
 
 #: ChecksumTool.cpp
 msgid "JSON file doesn't satisfy needed schema"
-msgstr "A json fájl sémája nem egyezik"
+msgstr "A JSON fájl sémája nem egyezik"
 
 #: ChecksumTool.cpp
 msgid "Wrong title id: {}"
@@ -367,7 +367,7 @@ msgstr "Helytelen régió: {}"
 
 #: ChecksumTool.cpp
 msgid "The verification data doesn't include a wud hash!"
-msgstr "Az ellenőrzőadatok nem tartalmaznak wud-kivonatot!"
+msgstr "Az ellenőrzőadatok nem tartalmaznak WUD-kivonatot!"
 
 #: ChecksumTool.cpp
 msgid ""
@@ -393,7 +393,7 @@ msgstr "Válaszd ki a fájlt, amibe a hibákat exportálni szeretnéd"
 
 #: ChecksumTool.cpp
 msgid "Can't open file to write!"
-msgstr "Fájl módosítása sikertelen!"
+msgstr "A fájl írása sikertelen!"
 
 #: ChecksumTool.cpp
 msgid "The following files are missing:"
@@ -429,7 +429,7 @@ msgstr "A fájlok hibátlanok"
 
 #: ChecksumTool.cpp
 msgid "JSON parse error: {}"
-msgstr "Json-elemzési hiba: {}"
+msgstr "JSON-elemzési hiba: {}"
 
 #: ChecksumTool.cpp
 msgid "Can't open file!"
@@ -437,7 +437,7 @@ msgstr "A fájl megnyitása sikertelen!"
 
 #: ChecksumTool.cpp
 msgid "Can't parse json file!"
-msgstr "A json fájl elemzése sikertelen!"
+msgstr "A JSON fájl elemzése sikertelen!"
 
 #: ChecksumTool.cpp
 msgid "Open checksum entry"
@@ -1996,11 +1996,11 @@ msgstr "A fájl indítása sikertelen."
 
 #: MainWindow.cpp
 msgid "All Wii U files (wud, wux, iso, wad, rpx, elf)"
-msgstr "Minden Wii U-fájl (wud, wux, iso, wad, rpx, elf)"
+msgstr "Minden Wii U-fájl (*.wud;*.wux;*.iso;*.wad;*.rpx;*.elf)"
 
 #: MainWindow.cpp
 msgid "Wii U image (wud, wux, iso, wad)"
-msgstr "Wii U-lemezkép (wud, wux, iso, wad)"
+msgstr "Wii U-lemezkép (*.wud;*.wux;*.iso;*.wad)"
 
 #: MainWindow.cpp
 msgid "Wii U executable (rpx, elf)"
