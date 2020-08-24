@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-07-25 00:19+0200\n"
-"PO-Revision-Date: 2020-07-25 17:55+0200\n"
+"POT-Creation-Date: 2020-08-22 03:20+0200\n"
+"PO-Revision-Date: 2020-08-24 16:32+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bootGame.cpp
@@ -240,11 +240,11 @@ msgstr ""
 "A kiválasztott mlc-könyvtár írásvédett!\n"
 "Szeretnél kiválasztani egy másik könyvtárat?"
 
-#: CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp GameUpdateWindow.cpp
-#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
-#: MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp TitleManager.cpp
-#: toolMemorySearcher.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
-#: wxTitleManagerList.cpp
+#: CemuApp.cpp ChecksumTool.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: GameUpdateWindow.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp
+#: InputSettings.cpp MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp
+#: TitleManager.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
+#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
 msgid "Error"
 msgstr "Hiba"
 
@@ -289,7 +289,7 @@ msgstr "Frissítés telepítése..."
 msgid "Extracting failed!"
 msgstr "A kicsomagolás meghiúsult!"
 
-#: CemuUpdateWindow.cpp MainWindow.cpp
+#: CemuUpdateWindow.cpp ChecksumTool.cpp MainWindow.cpp
 msgid "Success"
 msgstr "Sikeres"
 
@@ -300,6 +300,176 @@ msgstr "Újraindítás"
 #: CemuUpdateWindow.cpp
 msgid "Downloading update..."
 msgstr "Frissítés letöltése..."
+
+#: ChecksumTool.cpp
+msgid "Title checksum of {:08x}-{:08x}"
+msgstr "{:08x}-{:08x} ellenőrzőösszege"
+
+#: ChecksumTool.cpp
+msgid "Verifying integrity of game files..."
+msgstr "Fájlok épségének ellenőrzése folyamatban..."
+
+#: ChecksumTool.cpp GraphicPacksWindow2.cpp
+msgid "Control"
+msgstr "Ellenőrzés"
+
+#: ChecksumTool.cpp
+msgid "Verify"
+msgstr "Ellenőrzés"
+
+#: ChecksumTool.cpp
+msgid "Verifies the checksum online"
+msgstr "Fájlok épségének ellenőrzése az online adatbázis alapján"
+
+#: ChecksumTool.cpp
+msgid "Verify local"
+msgstr "Helyi ellenőrzés"
+
+#: ChecksumTool.cpp
+msgid "Verifies the checksum with a local json file you can select"
+msgstr "Fájlok épségének ellenőrzése egy helyi JSON fájl alapján"
+
+#: ChecksumTool.cpp TitleManager.cpp
+msgid "Export"
+msgstr "Exportálás"
+
+#: ChecksumTool.cpp
+msgid "Export the title checksum data to a local json file"
+msgstr "Ellenőrzőösszeg exportálása helyi JSON fájlba"
+
+#: ChecksumTool.cpp
+msgid "Export checksum entry"
+msgstr "Ellenőrzőösszeg exportálása"
+
+#: ChecksumTool.cpp
+msgid "Export successful"
+msgstr "Sikeres exportálás"
+
+#: ChecksumTool.cpp
+msgid "Can't write to file: {}"
+msgstr "A(z) {} fájl írása sikertelen."
+
+#: ChecksumTool.cpp
+msgid "JSON file doesn't satisfy needed schema"
+msgstr "A JSON fájl sémája nem egyezik"
+
+#: ChecksumTool.cpp
+msgid "Wrong title id: {}"
+msgstr "Helytelen címazonosító: {}"
+
+#: ChecksumTool.cpp
+msgid "Wrong version: {}"
+msgstr "Helytelen verzió: {}"
+
+#: ChecksumTool.cpp
+msgid "Wrong region: {}"
+msgstr "Helytelen régió: {}"
+
+#: ChecksumTool.cpp
+msgid "The verification data doesn't include a wud hash!"
+msgstr "Az ellenőrzőadatok nem tartalmaznak WUD-kivonatot!"
+
+#: ChecksumTool.cpp
+msgid ""
+"Your game image is invalid!\n"
+"\n"
+"Your hash:\n"
+"{}\n"
+"\n"
+"Expected hash:\n"
+"{}"
+msgstr ""
+"Helytelen lemezkép!\n"
+"\n"
+"Valós kivonat:\n"
+"{}\n"
+"\n"
+"Várt kivonat:\n"
+"{}"
+
+#: ChecksumTool.cpp
+msgid "Select a file to export the errors"
+msgstr "Válaszd ki a fájlt, amibe a hibákat exportálni szeretnéd"
+
+#: ChecksumTool.cpp
+msgid "Can't open file to write!"
+msgstr "A fájl írása sikertelen!"
+
+#: ChecksumTool.cpp
+msgid "The following files are missing:"
+msgstr "Hiányzó fájlok:"
+
+#: ChecksumTool.cpp
+msgid ""
+"{} files are missing!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"Hiányzik {} fájl!\n"
+"Szeretnéd exportálni a fájlok listáját?"
+
+#: ChecksumTool.cpp
+msgid ""
+"{} files have an invalid hash!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"{} fájl helytelen kivonattal rendelkezik!\n"
+"Szeretnéd exportálni a fájlok listáját?"
+
+#: ChecksumTool.cpp
+msgid ""
+"Multiple issues with your game files have been found!\n"
+"Do you want to export them to a file?"
+msgstr ""
+"Számos hibát találtunk a fájlokkal!\n"
+"Szeretnéd exportálni a fájlok listáját?"
+
+#: ChecksumTool.cpp
+msgid "Your game files are valid"
+msgstr "A fájlok hibátlanok"
+
+#: ChecksumTool.cpp
+msgid "JSON parse error: {}"
+msgstr "JSON-elemzési hiba: {}"
+
+#: ChecksumTool.cpp
+msgid "Can't open file!"
+msgstr "A fájl megnyitása sikertelen!"
+
+#: ChecksumTool.cpp
+msgid "Can't parse json file!"
+msgstr "A JSON fájl elemzése sikertelen!"
+
+#: ChecksumTool.cpp
+msgid "Open checksum entry"
+msgstr "Ellenőrzőösszeg-bejegyzés megnyitása"
+
+#: ChecksumTool.cpp
+msgid "Grabbing game files"
+msgstr "Fájlok megnyitása folyamatban"
+
+#: ChecksumTool.cpp
+msgid "Hashing game file: {}/{}"
+msgstr "{}/{} fájl kivonatolva."
+
+#: ChecksumTool.cpp
+msgid "Generated checksum of {} game files"
+msgstr "{} fájl ellenőrzőösszege létrehozva."
+
+#: ChecksumTool.cpp
+msgid "Reading game image: {}"
+msgstr "Lemezkép olvasása: {}"
+
+#: ChecksumTool.cpp
+msgid "Reading game image: {}/{}kb"
+msgstr "Lemezkép olvasása: {}/{} kB"
+
+#: ChecksumTool.cpp
+msgid "Generating checksum of game image: {}"
+msgstr "{} ellenőrzőösszegének létrehozása folyamatban..."
+
+#: ChecksumTool.cpp
+msgid "Generated checksum of game image: {}"
+msgstr "{} ellenőrzőösszegének létrehozása kész."
 
 #: DebuggerWindow2.cpp
 msgid "GoTo (CTRL + G)"
@@ -1578,10 +1748,6 @@ msgid "Description"
 msgstr "Leírás"
 
 #: GraphicPacksWindow2.cpp
-msgid "Control"
-msgstr "Ellenőrzés"
-
-#: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
 msgstr "Legújabb közösségi grafikus csomagok letöltése"
 
@@ -1830,11 +1996,11 @@ msgstr "A fájl indítása sikertelen."
 
 #: MainWindow.cpp
 msgid "All Wii U files (wud, wux, iso, wad, rpx, elf)"
-msgstr "Minden Wii U-fájl (wud, wux, iso, wad, rpx, elf)"
+msgstr "Minden Wii U-fájl (*.wud;*.wux;*.iso;*.wad;*.rpx;*.elf)"
 
 #: MainWindow.cpp
 msgid "Wii U image (wud, wux, iso, wad)"
-msgstr "Wii U-lemezkép (wud, wux, iso, wad)"
+msgstr "Wii U-lemezkép (*.wud;*.wux;*.iso;*.wad)"
 
 #: MainWindow.cpp
 msgid "Wii U executable (rpx, elf)"
@@ -2442,10 +2608,6 @@ msgid "Imports a zipped save entry"
 msgstr "Tömörített mentés importálása"
 
 #: TitleManager.cpp
-msgid "Export"
-msgstr "Exportálás"
-
-#: TitleManager.cpp
 msgid "Exports the selected save entry as zip file"
 msgstr "A kiválasztott mentés exportálása tömörített fájlba"
 
@@ -2810,6 +2972,10 @@ msgid "&Open directory"
 msgstr "&Könyvtár megnyitása"
 
 #: wxTitleManagerList.cpp
+msgid "&Verify integrity of game files"
+msgstr "&Fájlok épségének ellenőrzése"
+
+#: wxTitleManagerList.cpp
 msgid "Fix entry"
 msgstr "Bejegyzés javítása"
 
@@ -2874,9 +3040,6 @@ msgstr ""
 #~ "Szeretnéd áthelyezni a helyes könyvtárba:\n"
 #~ "{}"
 
-#~ msgid "Can't open the file."
-#~ msgstr "A fájl megnyitása sikertelen."
-
 #~ msgid "Invalid \"meta.xml\" file."
 #~ msgstr "Érvénytelen „meta.xml” fájl."
 
@@ -2930,9 +3093,6 @@ msgstr ""
 
 #~ msgid "&NFP API"
 #~ msgstr "&NFP API"
-
-#~ msgid "Overwrite game profiles"
-#~ msgstr "Játékprofilok felülírása"
 
 #~ msgid ""
 #~ "This will update all available gameprofiles and might delete custom game "
