@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-05-08 22:02+0200\n"
-"PO-Revision-Date: 2020-05-18 23:11+0200\n"
+"POT-Creation-Date: 2020-08-22 03:20+0200\n"
+"PO-Revision-Date: 2020-09-07 19:06+0200\n"
 "Last-Translator: Crementif\n"
 "Language-Team: \n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bootGame.cpp
@@ -17,33 +17,6 @@ msgid "Failed to run this title because at least one of the files is damaged."
 msgstr ""
 "Kan deze game niet uitvoeren omdat in ieder geval één van de bestanden "
 "beschadigd is."
-
-#: bootGame.cpp GameUpdateWindow.cpp GeneralSettings2.cpp
-#: GraphicPacksWindow2.cpp
-msgid "Warning"
-msgstr "Waarschuwing"
-
-#: bootGame.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
-#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
-#: MainWindow.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
-#: wxCreateAccountDialog.cpp
-msgid "Error"
-msgstr "Foutmelding"
-
-#: bootGame.cpp
-msgid ""
-"Cemu detected a DLC installed at a wrong or outdated location:\n"
-"{}\n"
-"\n"
-"Do you want to move it to the correct location:\n"
-"{}"
-msgstr ""
-"Cemu heeft DLC gevonden die geïnstalleerd is in een foute of verouderde "
-"locatie:\n"
-"{}\n"
-"\n"
-"Wil je deze DLC verplaatsen naar de correcte locatie:\n"
-"{}"
 
 #: BreakpointWindow.cpp GeneralSettings2.cpp
 msgid "On"
@@ -53,7 +26,7 @@ msgstr "Aan"
 msgid "Address"
 msgstr "Adres"
 
-#: BreakpointWindow.cpp textureRelationWindow.cpp
+#: BreakpointWindow.cpp textureRelationWindow.cpp wxTitleManagerList.cpp
 msgid "Type"
 msgstr "Type"
 
@@ -85,6 +58,122 @@ msgstr "Voer een nieuw geheugen adres in"
 #: BreakpointWindow.cpp
 msgid "Memory breakpoint"
 msgstr "Geheugen breekpunt"
+
+#: CemuApp.cpp
+msgid "Browse"
+msgstr "Bladeren"
+
+#: CemuApp.cpp
+msgid "Select a file"
+msgstr "Selecteer een bestand"
+
+#: CemuApp.cpp
+msgid "Select a directory"
+msgstr "Selecteer een map"
+
+#: CemuApp.cpp
+msgid "base"
+msgstr "basis"
+
+#: CemuApp.cpp
+msgid "update"
+msgstr "update"
+
+#: CemuApp.cpp
+msgid "dlc"
+msgstr "DLC"
+
+#: CemuApp.cpp
+msgid "save"
+msgstr "save"
+
+#: CemuApp.cpp
+msgid "Japan"
+msgstr "Japan"
+
+#: CemuApp.cpp
+msgid "USA"
+msgstr "Verenigde Staten"
+
+#: CemuApp.cpp
+msgid "Europe"
+msgstr "Europa"
+
+#: CemuApp.cpp
+msgid "Australia"
+msgstr "Australië"
+
+#: CemuApp.cpp
+msgid "China"
+msgstr "China"
+
+#: CemuApp.cpp
+msgid "Korea"
+msgstr "Korea"
+
+#: CemuApp.cpp
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: CemuApp.cpp
+msgid "Auto"
+msgstr "Automatisch"
+
+#: CemuApp.cpp
+msgid "many"
+msgstr "meerdere"
+
+#: CemuApp.cpp
+msgid "Japanese"
+msgstr "Japans"
+
+#: CemuApp.cpp GeneralSettings2.cpp
+msgid "English"
+msgstr "Engels"
+
+#: CemuApp.cpp
+msgid "French"
+msgstr "Frans"
+
+#: CemuApp.cpp
+msgid "German"
+msgstr "Duits"
+
+#: CemuApp.cpp
+msgid "Italian"
+msgstr "Italiaans"
+
+#: CemuApp.cpp
+msgid "Spanish"
+msgstr "Spaans"
+
+#: CemuApp.cpp
+msgid "Chinese"
+msgstr "Chinees"
+
+#: CemuApp.cpp
+msgid "Korean"
+msgstr "Koreaans"
+
+#: CemuApp.cpp
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: CemuApp.cpp
+msgid "Portugese"
+msgstr "Portugees"
+
+#: CemuApp.cpp
+msgid "Russian"
+msgstr "Russisch"
+
+#: CemuApp.cpp
+msgid "Taiwanese"
+msgstr "Taiwanees"
+
+#: CemuApp.cpp
+msgid "unknown"
+msgstr "onbekend"
 
 #: CemuApp.cpp
 msgid ""
@@ -147,12 +236,28 @@ msgstr ""
 msgid "Select a mlc directory"
 msgstr "Selecteer een MLC map"
 
+#: CemuApp.cpp
+msgid ""
+"Cemu can't write to the selected mlc path!\n"
+"Do you want to select another path?"
+msgstr ""
+"Cemu kan niet schrijven naar de geselecteerde MLC map!\n"
+"Wil je een andere map selecteren?"
+
+#: CemuApp.cpp ChecksumTool.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: GameUpdateWindow.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp
+#: InputSettings.cpp MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp
+#: TitleManager.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
+#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+msgid "Error"
+msgstr "Foutmelding"
+
 #: CemuUpdateWindow.cpp
 msgid "Update"
 msgstr "Bijwerken"
 
 #: CemuUpdateWindow.cpp DownloadGraphicPacksWindow.cpp GameUpdateWindow.cpp
-#: wxCreateAccountDialog.cpp
+#: SaveImportWindow.cpp SaveTransfer.cpp wxCreateAccountDialog.cpp
 msgid "Cancel"
 msgstr "Annuleer"
 
@@ -188,7 +293,7 @@ msgstr "Bijwerken van bestanden..."
 msgid "Extracting failed!"
 msgstr "Gefaald met uitpakken!"
 
-#: CemuUpdateWindow.cpp MainWindow.cpp
+#: CemuUpdateWindow.cpp ChecksumTool.cpp MainWindow.cpp
 msgid "Success"
 msgstr "Succes"
 
@@ -199,6 +304,178 @@ msgstr "Herstarten"
 #: CemuUpdateWindow.cpp
 msgid "Downloading update..."
 msgstr "Update aan het downloaden..."
+
+#: ChecksumTool.cpp
+msgid "Title checksum of {:08x}-{:08x}"
+msgstr "Titel controlesom van {:08x}-{:08x}"
+
+#: ChecksumTool.cpp
+msgid "Verifying integrity of game files..."
+msgstr "Verifieer integriteit van game bestanden..."
+
+#: ChecksumTool.cpp GraphicPacksWindow2.cpp
+msgid "Control"
+msgstr "Bestuur"
+
+#: ChecksumTool.cpp
+msgid "Verify"
+msgstr "Verifieer"
+
+#: ChecksumTool.cpp
+msgid "Verifies the checksum online"
+msgstr "Verifieert de controlesom online"
+
+#: ChecksumTool.cpp
+msgid "Verify local"
+msgstr "Verifieer lokaal"
+
+#: ChecksumTool.cpp
+msgid "Verifies the checksum with a local json file you can select"
+msgstr ""
+"Verifieert de controlesom met een lokaal json bestand die je kan selecteren"
+
+#: ChecksumTool.cpp TitleManager.cpp
+msgid "Export"
+msgstr "Exporteer"
+
+#: ChecksumTool.cpp
+msgid "Export the title checksum data to a local json file"
+msgstr ""
+"Exporteert de data van de titel controlesom naar een lokaal json bestand"
+
+#: ChecksumTool.cpp
+msgid "Export checksum entry"
+msgstr "Exporteer controlesom item"
+
+#: ChecksumTool.cpp
+msgid "Export successful"
+msgstr "Succesvol geëxporteerd"
+
+#: ChecksumTool.cpp
+msgid "Can't write to file: {}"
+msgstr "Kan niet schrijven naar bestand: {}"
+
+#: ChecksumTool.cpp
+msgid "JSON file doesn't satisfy needed schema"
+msgstr "JSON bestand voldoet niet aan het verplichte formaat"
+
+#: ChecksumTool.cpp
+msgid "Wrong title id: {}"
+msgstr "Verkeerde titel ID:"
+
+#: ChecksumTool.cpp
+msgid "Wrong version: {}"
+msgstr "Verkeerde versie: {}"
+
+#: ChecksumTool.cpp
+msgid "Wrong region: {}"
+msgstr "Verkeerde regio: {}"
+
+#: ChecksumTool.cpp
+msgid "The verification data doesn't include a wud hash!"
+msgstr "De verificatie data heeft geen wud controlesom!"
+
+#: ChecksumTool.cpp
+msgid ""
+"Your game image is invalid!\n"
+"\n"
+"Your hash:\n"
+"{}\n"
+"\n"
+"Expected hash:\n"
+"{}"
+msgstr ""
+"Jouw game rom is niet geldig!\n"
+"\n"
+"Jouw controlesom:\n"
+"{}\n"
+"\n"
+"Verwachte controlesom:\n"
+"{}"
+
+#: ChecksumTool.cpp
+msgid "Select a file to export the errors"
+msgstr "Selecteer een bestand om de errors naar te exporteren"
+
+#: ChecksumTool.cpp
+msgid "Can't open file to write!"
+msgstr "Kan bestand niet openmaken om naar te schrijven!"
+
+#: ChecksumTool.cpp
+msgid "The following files are missing:"
+msgstr "De volgende bestanden ontbreken:"
+
+#: ChecksumTool.cpp
+msgid ""
+"{} files are missing!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"{} bestanden ontbreken!\n"
+"Wil je een lijst exporteren hiervan exporteren naar een bestand?"
+
+#: ChecksumTool.cpp
+msgid ""
+"{} files have an invalid hash!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"{} bestanden hebben een ongeldige controlesom!\n"
+"Wil je een lijst hiervan exporteren naar een bestand?"
+
+#: ChecksumTool.cpp
+msgid ""
+"Multiple issues with your game files have been found!\n"
+"Do you want to export them to a file?"
+msgstr ""
+"Meerdere problemen zijn gedetecteerd met je game bestanden!\n"
+"Wil je deze exporteren naar een bestand?"
+
+#: ChecksumTool.cpp
+msgid "Your game files are valid"
+msgstr "Je game bestanden zijn geldig"
+
+#: ChecksumTool.cpp
+msgid "JSON parse error: {}"
+msgstr "JSON parseerfout: {}"
+
+#: ChecksumTool.cpp
+msgid "Can't open file!"
+msgstr "Kan bestand niet openen!"
+
+#: ChecksumTool.cpp
+msgid "Can't parse json file!"
+msgstr "Kan json bestand niet parseren!"
+
+#: ChecksumTool.cpp
+msgid "Open checksum entry"
+msgstr "Open controlesom item"
+
+#: ChecksumTool.cpp
+msgid "Grabbing game files"
+msgstr "Lijst maken van game bestanden"
+
+#: ChecksumTool.cpp
+msgid "Hashing game file: {}/{}"
+msgstr "Controlesom maken van bestand: {}/{}"
+
+#: ChecksumTool.cpp
+msgid "Generated checksum of {} game files"
+msgstr "Controlesom gemaakt voor {} game bestanden"
+
+#: ChecksumTool.cpp
+msgid "Reading game image: {}"
+msgstr "Lezen van game schijfkopie: {}"
+
+#: ChecksumTool.cpp
+msgid "Reading game image: {}/{}kb"
+msgstr "Lezen game schijfkopie: {}/{}kb"
+
+#: ChecksumTool.cpp
+msgid "Generating checksum of game image: {}"
+msgstr "Bezig met genereren controlesom van schijfkopie: {}"
+
+#: ChecksumTool.cpp
+msgid "Generated checksum of game image: {}"
+msgstr "Controlesom gegenereerd van schijfkopie: {}"
 
 #: DebuggerWindow2.cpp
 msgid "GoTo (CTRL + G)"
@@ -308,7 +585,7 @@ msgstr "ThreadName"
 msgid "GPR"
 msgstr "GPR"
 
-#: debugPPCThreadsWindow.cpp textureRelationWindow.cpp
+#: debugPPCThreadsWindow.cpp textureRelationWindow.cpp TitleManager.cpp
 msgid "Refresh"
 msgstr "Vernieuw"
 
@@ -470,18 +747,6 @@ msgid "cycles"
 msgstr "cyclussen"
 
 #: GameProfileWindow.cpp
-msgid "Extended texture readback"
-msgstr "Uitgebreide texture readback"
-
-#: GameProfileWindow.cpp
-msgid ""
-"Improves emulation accuracy of CPU to GPU memory access at the cost of "
-"performance. Required for some games."
-msgstr ""
-"Verbeter emulatie accuraatheid van CPU naar GPU geheugen toegang ten koste "
-"van de prestatie. Vereist voor sommige games."
-
-#: GameProfileWindow.cpp
 msgid "Shader mul accuracy"
 msgstr "Shader mul accuraatheid"
 
@@ -510,29 +775,6 @@ msgstr ""
 "Aangeraden: ja"
 
 #: GameProfileWindow.cpp
-msgid "GPU buffer cache accuracy"
-msgstr "GPU buffer cache accuraatheid"
-
-#: GameProfileWindow.cpp
-msgid "high"
-msgstr "hoog"
-
-#: GameProfileWindow.cpp
-msgid "medium"
-msgstr "medium"
-
-#: GameProfileWindow.cpp
-msgid "low"
-msgstr "laag"
-
-#: GameProfileWindow.cpp
-msgid ""
-"Lower value results in higher performance, but may cause graphical issues"
-msgstr ""
-"Lagere waardes resulteren in hogere prestaties, maar kan grafische problemen "
-"veroorzaken"
-
-#: GameProfileWindow.cpp
 msgid "Graphic"
 msgstr "Grafisch"
 
@@ -545,56 +787,45 @@ msgid "Forces a given controller profile"
 msgstr "Forceert een gegeven controller profiel"
 
 #: GameUpdateWindow.cpp
-msgid "Can't open the file."
-msgstr "Kan het bestand niet openen."
-
-#: GameUpdateWindow.cpp
-msgid "Invalid \"meta.xml\" file."
-msgstr "Ongeldige \"meta.xml\" bestand."
-
-#: GameUpdateWindow.cpp
-msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
+msgid ""
+"It seems that there's a wrong title installed at the target location.\n"
+"Please use the title manager to fix it first!"
 msgstr ""
-"Kan het \"title_id\" in het opgegeven bestand \"meta.xml\" niet vinden."
+"Het lijkt dat een verkeerde titel is geïnstalleerd op de doel locatie.\n"
+"Gebruik de Titel Manager om dit op te lossen!"
 
-#: GameUpdateWindow.cpp
-msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
-msgstr ""
-"Kan het \"title_version\" in het opgegeven bestand \"meta.xml\" niet vinden."
-
-#: GameUpdateWindow.cpp
-msgid "Can't find the \"product_code\" in the given \"meta.xml\" file."
-msgstr ""
-"Kan het \"product_code\" in het opgegeven bestand \"meta.xml\" niet vinden."
-
-#: GameUpdateWindow.cpp
-msgid "The given \"meta.xml\" file is no update or DLC."
-msgstr "Het opgegeven \"meta.xml\" bestand is geen update of DLC."
-
-#: GameUpdateWindow.cpp
-msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
-msgstr ""
-"Kan niet het \"longname_en\" in het opgegeven \"meta.xml\" bestand vinden."
-
-#: GameUpdateWindow.cpp
-msgid "Invalid folder structure"
-msgstr "Ongeldige map structuur"
+#: GameUpdateWindow.cpp GeneralSettings2.cpp GraphicPacksWindow2.cpp
+#: MainWindow.cpp TitleManager.cpp wxTitleManagerList.cpp
+msgid "Warning"
+msgstr "Waarschuwing"
 
 #: GameUpdateWindow.cpp
 msgid ""
-"It seems that the selected update is already installed, do you want to "
+"It seems that the selected title is already installed, do you want to "
 "reinstall it?"
 msgstr ""
-"Het lijkt erop dat de geselecteerde versie al is geïnstalleerd, wil je het "
+"Het lijkt erop dat de geselecteerde titel al is geïnstalleerd, wil je het "
 "opnieuw installeren?"
 
 #: GameUpdateWindow.cpp
 msgid ""
-"It seems that a newer update is already installed, do you still want to "
+"It seems that a newer version is already installed, do you still want to "
 "install the older version?"
 msgstr ""
-"Het lijkt erop dat er een nieuwere versie al is geïnstalleerd, wil je de "
-"oudere versie installeren?"
+"Het lijkt erop dat er een nieuwere versie al is geïnstalleerd, wil je alsnog "
+"de oudere versie installeren?"
+
+#: GameUpdateWindow.cpp
+msgid ""
+"Error when trying to move former title installation:\n"
+"{}"
+msgstr ""
+"Fout bij het verplaatsen van de vorige titel installatie:\n"
+"{}"
+
+#: GameUpdateWindow.cpp
+msgid "Invalid folder structure"
+msgstr "Ongeldige map structuur"
 
 #: GameUpdateWindow.cpp
 msgid ""
@@ -615,53 +846,26 @@ msgid "Installing update ..."
 msgstr "Installeren van versie ..."
 
 #: GameUpdateWindow.cpp
+msgid "Installing title ..."
+msgstr "Installeren van titel ..."
+
+#: GameUpdateWindow.cpp
 msgid "Current file:"
 msgstr "Huidig bestand:"
 
 #: GameUpdateWindow.cpp
 msgid ""
-"Do you really want to cancel the update process?\n"
+"Do you really want to cancel the installation process?\n"
 "\n"
-"Canceling the process will delete the applied update."
+"Canceling the process will delete the applied files."
 msgstr ""
-"Wil je het versie update proces beëindigen?\n"
+"Wil je echt het installatieproces beëindigen?\n"
 "\n"
-"Annuleren van dit proces zal de versie verwijderen."
+"Annuleren van dit proces zal de geïnstalleerde bestanden verwijderen."
 
 #: GameUpdateWindow.cpp
 msgid "Info"
 msgstr "Info"
-
-#: GeneralSettings2.cpp
-msgid "Crash dump"
-msgstr "Crash dump"
-
-#: GeneralSettings2.cpp
-msgid "Disabled"
-msgstr "Uitgeschakeld"
-
-#: GeneralSettings2.cpp
-msgid "Lite"
-msgstr "Licht"
-
-#: GeneralSettings2.cpp
-msgid "Full"
-msgstr "Volledig"
-
-#: GeneralSettings2.cpp
-msgid ""
-"Creates a dump when Cemu crashes\n"
-"Only enable on demand!\n"
-"The Full option will create a big dump with the memory included"
-msgstr ""
-"Slaat alle crash informatie op wanneer Cemu crasht\n"
-"Alleen aanzetten wanneer gevraagd!\n"
-"De Volledig optie zal een grote crash dump maken met al het geheugen "
-"ingesloten"
-
-#: GeneralSettings2.cpp
-msgid "General settings"
-msgstr "Algemene instellingen"
 
 #: GeneralSettings2.cpp
 msgid "Interface"
@@ -674,10 +878,6 @@ msgstr "Taal"
 #: GeneralSettings2.cpp
 msgid "Default"
 msgstr "Standaard"
-
-#: GeneralSettings2.cpp
-msgid "English"
-msgstr "Engels"
 
 #: GeneralSettings2.cpp
 msgid ""
@@ -752,6 +952,18 @@ msgid ""
 msgstr ""
 "Drukken op de schermopname toets (F12) zal een schermopname opslaan in de "
 "\"screenshots\" map"
+
+#: GeneralSettings2.cpp
+msgid "Use permanent storage"
+msgstr "Gebruik permanente opslag"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Cemu will remember your custom mlc path in %LOCALAPPDATA%/Cemu for new "
+"installations."
+msgstr ""
+"Cemu zal jouw aangepaste MLC map in %LOCALAPPDATA%/Cemu onthouden voor "
+"nieuwe installaties."
 
 #: GeneralSettings2.cpp
 msgid "MLC Path"
@@ -937,6 +1149,72 @@ msgstr ""
 "van het spel"
 
 #: GeneralSettings2.cpp
+msgid "API"
+msgstr "API"
+
+#: GeneralSettings2.cpp
+msgid "Select one of the available audio back ends"
+msgstr "Selecteer één van de beschikbare audio back-ends"
+
+#: GeneralSettings2.cpp
+msgid "Latency"
+msgstr "Vertraging"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Controls the amount of buffered audio data\n"
+"Higher values will create a delay in audio playback, but may avoid audio "
+"problems when emulation is too slow"
+msgstr ""
+"Beheert de hoeveelheid gebufferde audio \n"
+"Hogere waardes zullen een grotere vertraging geven, maar kan audio problemen "
+"verhelpen wanneer emulatie snelheid te traag is"
+
+#: GeneralSettings2.cpp
+msgid "Mono"
+msgstr "Mono"
+
+#: GeneralSettings2.cpp
+msgid "Stereo"
+msgstr "Stereo"
+
+#: GeneralSettings2.cpp
+msgid "Surround"
+msgstr "Surround"
+
+#: GeneralSettings2.cpp
+msgid "TV"
+msgstr "TV"
+
+#: GeneralSettings2.cpp
+msgid "Device"
+msgstr "Apparaat"
+
+#: GeneralSettings2.cpp
+msgid "Select the active audio output device for Wii U TV"
+msgstr "Selecteer het actieve audio uitvoer apparaat voor de Wii U TV"
+
+#: GeneralSettings2.cpp
+msgid "Channels"
+msgstr "Kanalen"
+
+#: GeneralSettings2.cpp InputPanelGamepad.cpp InputPanelWiimote.cpp
+msgid "Volume"
+msgstr "Volume"
+
+#: GeneralSettings2.cpp
+msgid "Gamepad"
+msgstr "Gamepad"
+
+#: GeneralSettings2.cpp
+msgid "Select the active audio output device for Wii U GamePad"
+msgstr "Selecteer het actieve audio uitvoer apparaat voor de Wii U gamepad"
+
+#: GeneralSettings2.cpp
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: GeneralSettings2.cpp
 msgid "Top left"
 msgstr "Links boven"
 
@@ -1103,88 +1381,6 @@ msgid "Shows friend list related data if online"
 msgstr "Laat vriendenlijst gerelateerde informatie zien wanneer je online bent"
 
 #: GeneralSettings2.cpp
-msgid "Graphics"
-msgstr "Grafisch"
-
-#: GeneralSettings2.cpp
-msgid "API"
-msgstr "API"
-
-#: GeneralSettings2.cpp
-msgid "Select one of the available audio back ends"
-msgstr "Selecteer één van de beschikbare audio back-ends"
-
-#: GeneralSettings2.cpp
-msgid "Latency"
-msgstr "Vertraging"
-
-#: GeneralSettings2.cpp
-msgid ""
-"Controls the amount of buffered audio data\n"
-"Higher values will create a delay in audio playback, but may avoid audio "
-"problems when emulation is too slow"
-msgstr ""
-"Beheert de hoeveelheid gebufferde audio \n"
-"Hogere waardes zullen een grotere vertraging geven, maar kan audio problemen "
-"verhelpen wanneer emulatie snelheid te traag is"
-
-#: GeneralSettings2.cpp
-msgid "Mono"
-msgstr "Mono"
-
-#: GeneralSettings2.cpp
-msgid "Stereo"
-msgstr "Stereo"
-
-#: GeneralSettings2.cpp
-msgid "Surround"
-msgstr "Surround"
-
-#: GeneralSettings2.cpp
-msgid "TV"
-msgstr "TV"
-
-#: GeneralSettings2.cpp
-msgid "Device"
-msgstr "Apparaat"
-
-#: GeneralSettings2.cpp
-msgid "Select the active audio output device for Wii U TV"
-msgstr "Selecteer het actieve audio uitvoer apparaat voor de Wii U TV"
-
-#: GeneralSettings2.cpp
-msgid "Channels"
-msgstr "Kanalen"
-
-#: GeneralSettings2.cpp InputPanelGamepad.cpp InputPanelWiimote.cpp
-msgid "Volume"
-msgstr "Volume"
-
-#: GeneralSettings2.cpp
-msgid "Gamepad"
-msgstr "Gamepad"
-
-#: GeneralSettings2.cpp
-msgid "Select the active audio output device for Wii U GamePad"
-msgstr "Selecteer het actieve audio uitvoer apparaat voor de Wii U gamepad"
-
-#: GeneralSettings2.cpp
-msgid "Audio"
-msgstr "Geluid"
-
-#: GeneralSettings2.cpp
-msgid ""
-"Please be aware that online mode lets you connect to OFFICIAL servers and "
-"therefore there is a risk of getting banned.\n"
-"Only proceed if you are willing to risk losing online access with your Wii U "
-"and/or NNID."
-msgstr ""
-"WAARSCHUWING - Wees alsjeblieft op de hoogte van het feit dat de online "
-"modus je laat verbinden met OFFICIËLE servers en dat daardoor een kans "
-"bestaat dat je verbannen kan worden. Ga alleen door als je wilt riskeren om "
-"je online toegang kwijt te raken met je Wii U en/of je NNID."
-
-#: GeneralSettings2.cpp
 msgid "Account settings"
 msgstr "Account instellingen"
 
@@ -1196,13 +1392,25 @@ msgstr "Actief account"
 msgid "Create"
 msgstr "Aanmaken"
 
-#: GeneralSettings2.cpp InputSettings.cpp
+#: GeneralSettings2.cpp InputSettings.cpp TitleManager.cpp
 msgid "Delete"
 msgstr "Verwijder"
 
 #: GeneralSettings2.cpp
+msgid "Online settings"
+msgstr "Online Instellingen"
+
+#: GeneralSettings2.cpp
 msgid "Enable online mode"
 msgstr "Schakel online modus in"
+
+#: GeneralSettings2.cpp
+msgid "No account selected"
+msgstr "Geen profiel geselecteerd"
+
+#: GeneralSettings2.cpp
+msgid "Online play tutorial"
+msgstr "Online spelen gids"
 
 #: GeneralSettings2.cpp
 msgid "Account information"
@@ -1242,6 +1450,41 @@ msgid "Country"
 msgstr "Regio"
 
 #: GeneralSettings2.cpp
+msgid "Crash dump"
+msgstr "Crash dump"
+
+#: GeneralSettings2.cpp
+msgid "Lite"
+msgstr "Licht"
+
+#: GeneralSettings2.cpp
+msgid "Full"
+msgstr "Volledig"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Creates a dump when Cemu crashes\n"
+"Only enable on demand!\n"
+"The Full option will create a big dump with the memory included"
+msgstr ""
+"Slaat alle crash informatie op wanneer Cemu crasht\n"
+"Alleen aanzetten wanneer gevraagd!\n"
+"De Volledig optie zal een grote crash dump maken met al het geheugen "
+"ingesloten"
+
+#: GeneralSettings2.cpp
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+#: GeneralSettings2.cpp
+msgid "Graphics"
+msgstr "Grafisch"
+
+#: GeneralSettings2.cpp
+msgid "Audio"
+msgstr "Geluid"
+
+#: GeneralSettings2.cpp TitleManager.cpp
 msgid "Account"
 msgstr "Account"
 
@@ -1258,6 +1501,14 @@ msgid "Confirmation"
 msgstr "Confirmatie"
 
 #: GeneralSettings2.cpp
+msgid "At least one issue has been found"
+msgstr "Tenminste één probleem is gevonden"
+
+#: GeneralSettings2.cpp
+msgid "Your account is a valid online account"
+msgstr "Je account is een geldig online account"
+
+#: GeneralSettings2.cpp
 msgid "Off"
 msgstr "Uit"
 
@@ -1268,6 +1519,18 @@ msgstr "Dubbel bufferen"
 #: GeneralSettings2.cpp
 msgid "Triple buffering"
 msgstr "Drievoudig bufferen"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Please be aware that online mode lets you connect to OFFICIAL servers and "
+"therefore there is a risk of getting banned.\n"
+"Only proceed if you are willing to risk losing online access with your Wii U "
+"and/or NNID."
+msgstr ""
+"WAARSCHUWING - Wees alsjeblieft op de hoogte van het feit dat de online "
+"modus je laat verbinden met OFFICIËLE servers en dat daardoor een kans "
+"bestaat dat je verbannen kan worden. Ga alleen door als je wilt riskeren om "
+"je online toegang kwijt te raken met je Wii U en/of je NNID."
 
 #: GeneralSettings2.cpp
 msgid "You have to restart the game in order to apply the new settings."
@@ -1312,6 +1575,14 @@ msgstr ""
 "Het is sterk aangeraden dat je een nieuwe, speciale map voor maakt "
 "(bijvoorbeeld C:\\wiiu\\mlc\\) \n"
 "Als je dit leeg houd zal de MLC map worden aangemaakt in Cemu's eigen map."
+
+#: GettingStartedDialog.cpp
+msgid ""
+"A custom mlc path from a previous Cemu installation has been found and "
+"filled in."
+msgstr ""
+"Een aangepaste MLC map is gevonden van een vorige Cemu installatie en is "
+"ingevuld."
 
 #: GettingStartedDialog.cpp
 msgid "Custom mlc01 path"
@@ -1471,7 +1742,8 @@ msgstr "Gebruik bestaande cache"
 msgid "Create new cache [recommended]"
 msgstr "Creëer nieuwe cache [aangeraden]"
 
-#: GraphicPacksWindow2.cpp LoggingWindow.cpp toolMemorySearcher.cpp
+#: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
+#: toolMemorySearcher.cpp
 msgid "Filter"
 msgstr "Filter"
 
@@ -1486,10 +1758,6 @@ msgstr "Graphic pack"
 #: GraphicPacksWindow2.cpp
 msgid "Description"
 msgstr "Beschrijving"
-
-#: GraphicPacksWindow2.cpp
-msgid "Control"
-msgstr "Bestuur"
 
 #: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
@@ -1706,14 +1974,22 @@ msgid "Not a valid NFC NTAG215 file"
 msgstr "Niet een geldige NFC NTAG215 bestand"
 
 #: MainWindow.cpp
-msgid "Update installed!"
-msgstr "Versie geïnstalleerd!"
+msgid ""
+"Cemu can't write to its directory.\n"
+"Please move it to a different location or run Cemu as administrator!"
+msgstr ""
+"Cemu kan niet naar zijn map schrijven.\n"
+"Verplaats Cemu naar een andere locatie of start Cemu als administrator!"
 
 #: MainWindow.cpp
-msgid "Update installation has been canceled!"
-msgstr "Versie installatie geannuleerd!"
+msgid "Title installed!"
+msgstr "Titel geïnstalleerd!"
 
 #: MainWindow.cpp
+msgid "Title installation has been canceled!"
+msgstr "Titel installatie geannuleerd!"
+
+#: MainWindow.cpp TitleManager.cpp
 msgid "Update error"
 msgstr "Fout tijdens het bijwerken"
 
@@ -1730,8 +2006,28 @@ msgid "Failed to launch file."
 msgstr "Kon het bestand niet opstarten."
 
 #: MainWindow.cpp
+msgid "All Wii U files (wud, wux, iso, wad, rpx, elf)"
+msgstr "Alle Wii U bestanden (wud, wux, iso, wad, rpx, elf)"
+
+#: MainWindow.cpp
+msgid "Wii U image (wud, wux, iso, wad)"
+msgstr "Wii U schijfkopie (wud, wux, iso, wad)"
+
+#: MainWindow.cpp
+msgid "Wii U executable (rpx, elf)"
+msgstr "Wii U uitvoerbaar bestand (rpx, elf)"
+
+#: MainWindow.cpp
+msgid "All files (*.*)"
+msgstr "Alle bestanden (*.*)"
+
+#: MainWindow.cpp
 msgid "Open file to launch"
 msgstr "Open bestand om op te starten"
+
+#: MainWindow.cpp TitleManager.cpp
+msgid "Select title to install"
+msgstr "Selecteer titel om te installeren"
 
 #: MainWindow.cpp
 msgid "Open file to load"
@@ -1780,8 +2076,8 @@ msgid "&Load"
 msgstr "&Laad"
 
 #: MainWindow.cpp
-msgid "&Install game update or DLC"
-msgstr "&Installeer game versie of DLC"
+msgid "&Install game title, update or DLC"
+msgstr "&Installeer game titel, update of DLC"
 
 #: MainWindow.cpp
 msgid "End emulation"
@@ -1898,6 +2194,10 @@ msgstr "&Console taal"
 #: MainWindow.cpp
 msgid "&Memory searcher"
 msgstr "&Geheugen Zoeker"
+
+#: MainWindow.cpp
+msgid "&Title Manager"
+msgstr "&Titel Manager"
 
 #: MainWindow.cpp
 msgid "&Tools"
@@ -2087,7 +2387,7 @@ msgstr "seeprom.bin is corrupt of heeft een onjuiste grootte"
 msgid "Unknown error occured"
 msgstr "Onbekende foutmelding heeft getroffen"
 
-#: ModuleWindow.cpp
+#: ModuleWindow.cpp wxTitleManagerList.cpp
 msgid "Name"
 msgstr "Naam"
 
@@ -2118,6 +2418,99 @@ msgstr "&Ga naar demontage"
 #: RegisterWindow.cpp
 msgid "G&oto Dump"
 msgstr "&Ga naar dump"
+
+#: SaveImportWindow.cpp
+msgid "Import save entry"
+msgstr "Importeer save item"
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
+msgid "Source"
+msgstr "Bron"
+
+#: SaveImportWindow.cpp
+msgid "Select a zipped save file"
+msgstr "Selecteer een gezipped save bestand"
+
+#: SaveImportWindow.cpp
+msgid "Import save entry {}"
+msgstr "Importeer save item {}"
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
+msgid "Target"
+msgstr "Doel"
+
+#: SaveImportWindow.cpp SaveTransfer.cpp wxCreateAccountDialog.cpp
+msgid "OK"
+msgstr "OK"
+
+#: SaveImportWindow.cpp
+msgid ""
+"You are trying to import a savegame for a different title than your "
+"currently selected one: {:016x} vs {:016x}\n"
+"Are you sure that you want to continue?"
+msgstr ""
+"Je probeert een save bestand van een andere titel te importeren dan die "
+"momenteel is geselecteerd: {:016x} vs {016x}\n"
+"Weet je zeker dat je wilt doorgaan?"
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
+msgid ""
+"The given account id is not valid!\n"
+"It must be a hex number bigger or equal than {:08x}"
+msgstr ""
+"Het gegeven account ID is niet geldig!\n"
+"Het moet een hexadecimaal nummer zijn die groter of gelijk is dan {:08x}"
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
+msgid ""
+"There's already a file at the target directory:\n"
+"{}"
+msgstr "Er is al een bestand op de doel locatie: {}"
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
+msgid ""
+"There's already a save game available for the target account, do you want to "
+"overwrite it?\n"
+"This will delete the existing save files for the account and replace them."
+msgstr ""
+"Er is al een save bestand beschikbaar voor het doel account, wil je het "
+"overschrijven?\n"
+"Dit zal de huidige save bestanden van dat account verwijderen en ze "
+"vervangen."
+
+#: SaveImportWindow.cpp SaveTransfer.cpp
+msgid ""
+"Error when trying to delete the former save game:\n"
+"{}"
+msgstr ""
+"Fout tijdens het verwijderen van het vorige save bestand:\n"
+"{}"
+
+#: SaveImportWindow.cpp
+msgid ""
+"Error when creating the extraction path:\n"
+"{}"
+msgstr ""
+"Fout tijdens het maken van de extractie map:\n"
+"{}"
+
+#: SaveImportWindow.cpp
+msgid ""
+"Error when opening the import zip file:\n"
+"{}"
+msgstr ""
+"Error tijdens het openen van de geïmporteerde zip bestand:\n"
+"{}"
+
+#: SaveTransfer.cpp
+msgid "Save transfer"
+msgstr "Save overdracht"
+
+#: SaveTransfer.cpp
+msgid ""
+"Error when trying to move the save game:\n"
+"{}"
+msgstr "Error tijdens het verplaatsen van het save bestand: {}"
 
 #: textureRelationWindow.cpp
 msgid "Texture cache"
@@ -2170,6 +2563,119 @@ msgstr "Toon alleen actief"
 #: textureRelationWindow.cpp
 msgid "Show views"
 msgstr "Toon views"
+
+#: TitleManager.cpp
+msgid "Title manager"
+msgstr "Titel Manager"
+
+#: TitleManager.cpp
+msgid ""
+"The following prefixes are supported:\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+msgstr ""
+"De volgende voorvoegsels zijn ondersteund:\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+
+#: TitleManager.cpp
+msgid "Install title"
+msgstr "Installeer titel"
+
+#: TitleManager.cpp
+msgid "Open directory"
+msgstr "Open map"
+
+#: TitleManager.cpp
+msgid "Open the directory of the save entry"
+msgstr "Open de map van de save item"
+
+#: TitleManager.cpp
+msgid "Transfer"
+msgstr "Verplaats"
+
+#: TitleManager.cpp
+msgid "Transfers the save entry to another persistent account id"
+msgstr ""
+"Verplaatst de geselecteerde save item naar een ander permanent account ID"
+
+#: TitleManager.cpp
+msgid "Irrevocable delete the save entry "
+msgstr "Save onomkeerbaar verwijderen"
+
+#: TitleManager.cpp
+msgid "Import"
+msgstr "Importeer"
+
+#: TitleManager.cpp
+msgid "Imports a zipped save entry"
+msgstr "Importeert een gezipped save bestand"
+
+#: TitleManager.cpp
+msgid "Exports the selected save entry as zip file"
+msgstr "Exporteert de geselecteerde save als zip bestand"
+
+#: TitleManager.cpp
+msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
+msgstr "Gevonden: {} titels, {} updates, {} DLCs en {} save items"
+
+#: TitleManager.cpp
+msgid "Update installation has been canceled!"
+msgstr "Update installatie is geannuleerd!"
+
+#: TitleManager.cpp
+msgid "Are you really sure that you want to delete the save entry for {}"
+msgstr "Weet je zeker dat je de save voor {} wilt verwijderen"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to delete the save directory:\n"
+"{}"
+msgstr ""
+"Fout tijdens het verwijderen van de save map:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid "Select a target file to export the save entry"
+msgstr "Selecteer een doelbestand om de save te exporteren"
+
+#: TitleManager.cpp
+msgid ""
+"Error when creating the zip for the save entry:\n"
+"{}"
+msgstr ""
+"Fout tijdens het maken van de zip voor de save:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a directory to the zip:\n"
+"{}"
+msgstr ""
+"Fout tijdens het toevoegen van een map in het zip bestand:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a file to the zip:\n"
+"{}"
+msgstr ""
+"Fout tijdens het toevoegen van een bestand aan het zip bestand:\n"
+"{}"
+
+#: TitleManager.cpp
+msgid ""
+"Error when trying to add a cemu_meta to the zip:\n"
+"{}"
+msgstr ""
+"Fout tijdens het toevoegen van cemu_meta aan het zip bestand:\n"
+"{}"
 
 #: toolMemorySearcher.cpp
 msgid "Memory Searcher"
@@ -2240,7 +2746,7 @@ msgid ""
 " \n"
 "Required extension: VK_EXT_pipeline_creation_cache_control\n"
 "\n"
-"Installing the latest graphics driver may solve this error."
+"Installing the latest or beta graphics driver may solve this error."
 msgstr ""
 "De huidige geïnstalleerde grafische driver heeft geen ondersteuning voor de "
 "Vulkan extensie die nodig is voor de asynchrone shader compilatie. "
@@ -2248,7 +2754,8 @@ msgstr ""
 "\n"
 "Vereiste extensie: VK_EXT_pipeline_creation_cache_control\n"
 "\n"
-"Het installeren van de laatste grafische driver kan het probleem verhelpen."
+"Het installeren van de laatste grafische driver of beta grafische driver kan "
+"het probleem verhelpen."
 
 #: wxCreateAccountDialog.cpp
 msgid "Create new account"
@@ -2262,10 +2769,6 @@ msgstr ""
 "De persistente id is de interne map naam die wordt gebruikt voor je saves. "
 "Verander deze alleen als je Wii U saves probeert te importeren met een "
 "specifiek id"
-
-#: wxCreateAccountDialog.cpp
-msgid "OK"
-msgstr "OK"
 
 #: wxCreateAccountDialog.cpp
 msgid "No persistent id entered!"
@@ -2300,10 +2803,6 @@ msgstr ""
 "geïnstalleerd via de Bestand->Installeer Update/DLC optie"
 
 #: wxGameList.cpp
-msgid "You can configure game paths in the general settings."
-msgstr "Je kunt game mappen configureren in de algemene instellingen."
-
-#: wxGameList.cpp
 msgid "never"
 msgstr "nooit"
 
@@ -2311,7 +2810,7 @@ msgstr "nooit"
 msgid "Game"
 msgstr "Spel"
 
-#: wxGameList.cpp
+#: wxGameList.cpp wxTitleManagerList.cpp
 msgid "Version"
 msgstr "Versie"
 
@@ -2326,6 +2825,10 @@ msgstr "Jij hebt gespeeld"
 #: wxGameList.cpp
 msgid "Last played"
 msgstr "Laatst gespeeld"
+
+#: wxGameList.cpp wxTitleManagerList.cpp
+msgid "Region"
+msgstr "Regio"
 
 #: wxGameList.cpp
 msgid "&Start"
@@ -2407,8 +2910,174 @@ msgstr "Toon &game tijd"
 msgid "Show &last played"
 msgstr "Toon &laatst gespeeld"
 
-#~ msgid "Overwrite game profiles"
-#~ msgstr "Overschrijf gameprofielen"
+#: wxGameList.cpp
+msgid "Show &region"
+msgstr "Toon &regio"
+
+#: wxGameList.cpp
+msgid "You can configure game paths in the general settings."
+msgstr "Je kunt game mappen configureren in de algemene instellingen."
+
+#: wxTitleManagerList.cpp
+msgid "Title id"
+msgstr "Titel ID"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's an wrong title installed at the target location, should we fix that?"
+msgstr ""
+"Er is een verkeerde titel geïnstalleerd op de doel locatie. Do you want Cemu "
+"to fix that?"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's already a newer or equal version installed at the correct location, "
+"so the redundant version will be deleted:"
+msgstr ""
+"Er is al een nieuwere of gelijke versie geïnstalleerd op de juiste locatie, "
+"so de overbodige versie zal verwijderd worden:"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Error when trying to delete the entry:\n"
+"{}"
+msgstr ""
+"Fout tijdens het verwijderen van item:\n"
+"{}"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"There's already an older version installed at the correct location, so the "
+"older version will be overwritten:"
+msgstr ""
+"Er is al een oudere versie geïnstalleerd op de juiste locatie, dus de oudere "
+"versie zal worden verplaatst:"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Error when trying to move the entry to the correct location:\n"
+"{}"
+msgstr ""
+"Fout tijdens het verplaatsen van het item naar de juiste locatie:\n"
+"{}"
+
+#: wxTitleManagerList.cpp
+msgid "This base game is installed at the wrong location."
+msgstr "Deze basis game is geïnstalleerd in de verkeerde locatie."
+
+#: wxTitleManagerList.cpp
+msgid "This update is installed at the wrong location."
+msgstr "Deze update is geïnstalleerd in de verkeerde locatie."
+
+#: wxTitleManagerList.cpp
+msgid "This DLC is installed at the wrong location."
+msgstr "Deze DLC is geïnstalleerd in de verkeerde locatie."
+
+#: wxTitleManagerList.cpp
+msgid "You can use the context menu to fix it."
+msgstr "Je kunt het contextmenu gebruiken om het op te lossen."
+
+#: wxTitleManagerList.cpp
+msgid "&Launch title"
+msgstr "&Start titel"
+
+#: wxTitleManagerList.cpp
+msgid "&Open directory"
+msgstr "&Open map"
+
+#: wxTitleManagerList.cpp
+msgid "&Verify integrity of game files"
+msgstr "&Verifieer integriteit van game bestanden"
+
+#: wxTitleManagerList.cpp
+msgid "Fix entry"
+msgstr "Corrigeer item"
+
+#: wxTitleManagerList.cpp
+msgid "&Delete"
+msgstr "&Verwijder"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Are you really sure that you want to delete the following folder:\n"
+"{}"
+msgstr ""
+"Weet je zeker dat je de volgende map wilt verwijderen:\n"
+"{}"
+
+#: wxTitleManagerList.cpp
+msgid ""
+"Are you really sure that you want to delete the following file:\n"
+"{}"
+msgstr ""
+"Weet je zeker dat je het volgende bestand wilt verwijderen:\n"
+"{}"
+
+#~ msgid ""
+#~ "Cemu detected a DLC installed at a wrong or outdated location:\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Do you want to move it to the correct location:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Cemu heeft DLC gevonden die geïnstalleerd is in een foute of verouderde "
+#~ "locatie:\n"
+#~ "{}\n"
+#~ "\n"
+#~ "Wil je deze DLC verplaatsen naar de correcte locatie:\n"
+#~ "{}"
+
+#~ msgid "Extended texture readback"
+#~ msgstr "Uitgebreide texture readback"
+
+#~ msgid ""
+#~ "Improves emulation accuracy of CPU to GPU memory access at the cost of "
+#~ "performance. Required for some games."
+#~ msgstr ""
+#~ "Verbeter emulatie accuraatheid van CPU naar GPU geheugen toegang ten "
+#~ "koste van de prestatie. Vereist voor sommige games."
+
+#~ msgid "GPU buffer cache accuracy"
+#~ msgstr "GPU buffer cache accuraatheid"
+
+#~ msgid "high"
+#~ msgstr "hoog"
+
+#~ msgid "medium"
+#~ msgstr "medium"
+
+#~ msgid "low"
+#~ msgstr "laag"
+
+#~ msgid ""
+#~ "Lower value results in higher performance, but may cause graphical issues"
+#~ msgstr ""
+#~ "Lagere waardes resulteren in hogere prestaties, maar kan grafische "
+#~ "problemen veroorzaken"
+
+#~ msgid "Invalid \"meta.xml\" file."
+#~ msgstr "Ongeldige \"meta.xml\" bestand."
+
+#~ msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
+#~ msgstr ""
+#~ "Kan het \"title_id\" in het opgegeven bestand \"meta.xml\" niet vinden."
+
+#~ msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
+#~ msgstr ""
+#~ "Kan het \"title_version\" in het opgegeven bestand \"meta.xml\" niet "
+#~ "vinden."
+
+#~ msgid "Can't find the \"product_code\" in the given \"meta.xml\" file."
+#~ msgstr ""
+#~ "Kan het \"product_code\" in het opgegeven bestand \"meta.xml\" niet "
+#~ "vinden."
+
+#~ msgid "The given \"meta.xml\" file is no update or DLC."
+#~ msgstr "Het opgegeven \"meta.xml\" bestand is geen update of DLC."
+
+#~ msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
+#~ msgstr ""
+#~ "Kan niet het \"longname_en\" in het opgegeven \"meta.xml\" bestand vinden."
 
 #~ msgid ""
 #~ "This will update all available gameprofiles and might delete custom game "
@@ -2556,9 +3225,6 @@ msgstr "Toon &laatst gespeeld"
 
 #~ msgid "Emulate Controller:"
 #~ msgstr "Emuleer Controller:"
-
-#~ msgid "No profile selected!"
-#~ msgstr "Geen profiel geselecteerd!"
 
 #~ msgid "The given profile name is invalid!"
 #~ msgstr "De opgegeven profiel naam is niet geldig!"
