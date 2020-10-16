@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-09-10 01:03+0200\n"
+"POT-Creation-Date: 2020-10-17 00:18+0200\n"
 "PO-Revision-Date: 2018-06-12 19:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -224,9 +224,9 @@ msgstr ""
 
 #: CemuApp.cpp ChecksumTool.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
 #: GameUpdateWindow.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp
-#: InputSettings.cpp MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp
-#: TitleManager.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
-#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+#: InputSettings.cpp MainWindow.cpp MemorySearcherTool.cpp SaveImportWindow.cpp
+#: SaveTransfer.cpp TitleManager.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: wxTitleManagerList.cpp
 msgid "Error"
 msgstr ""
 
@@ -474,6 +474,10 @@ msgstr ""
 
 #: DebuggerWindow2.cpp
 msgid "&Pin to main window"
+msgstr ""
+
+#: DebuggerWindow2.cpp
+msgid "Break on &entry point"
 msgstr ""
 
 #: DebuggerWindow2.cpp MainWindow.cpp
@@ -1576,8 +1580,8 @@ msgstr ""
 msgid "Create new cache [recommended]"
 msgstr ""
 
-#: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
-#: toolMemorySearcher.cpp
+#: GraphicPacksWindow2.cpp LoggingWindow.cpp MemorySearcherTool.cpp
+#: TitleManager.cpp
 msgid "Filter"
 msgstr ""
 
@@ -1720,7 +1724,7 @@ msgstr ""
 msgid "Reset the default state of the controller"
 msgstr ""
 
-#: InputSettings.cpp toolMemorySearcher.cpp
+#: InputSettings.cpp MemorySearcherTool.cpp
 msgid "Clear"
 msgstr ""
 
@@ -2211,6 +2215,58 @@ msgstr ""
 msgid "Unknown error occured"
 msgstr ""
 
+#: MemorySearcherTool.cpp
+msgid "Memory Searcher"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "Search"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "Results"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "address"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "value"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "Stored Entries"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "description"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "type"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "freeze"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "Your entered value is not valid for the selected datatype."
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "&Add new entry"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "&Remove entry"
+msgstr ""
+
+#: MemorySearcherTool.cpp
+msgid "Results ({0})"
+msgstr ""
+
 #: ModuleWindow.cpp wxTitleManagerList.cpp
 msgid "Name"
 msgstr ""
@@ -2467,58 +2523,6 @@ msgstr ""
 msgid ""
 "Error when trying to add a cemu_meta to the zip:\n"
 "{}"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "Memory Searcher"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "Search"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "Results"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "address"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "value"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "Stored Entries"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "description"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "type"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "freeze"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "Your entered value is not valid for the selected datatype."
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "&Add new entry"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "&Remove entry"
-msgstr ""
-
-#: toolMemorySearcher.cpp
-msgid "Results ({0})"
 msgstr ""
 
 #: VulkanCanvas.cpp
