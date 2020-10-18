@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-08-22 03:20+0200\n"
-"PO-Revision-Date: 2020-08-22 12:40+0800\n"
+"POT-Creation-Date: 2020-10-17 00:18+0200\n"
+"PO-Revision-Date: 2020-10-18 23:21+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -239,13 +239,13 @@ msgid ""
 "Do you want to select another path?"
 msgstr ""
 "Cemu 无法写入选择的 MLC 路径！\n"
-"你想尝试选择其他路径吗？"
+"您想尝试选择其他路径吗？"
 
 #: CemuApp.cpp ChecksumTool.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
 #: GameUpdateWindow.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp
-#: InputSettings.cpp MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp
-#: TitleManager.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
-#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+#: InputSettings.cpp MainWindow.cpp MemorySearcherTool.cpp SaveImportWindow.cpp
+#: SaveTransfer.cpp TitleManager.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: wxTitleManagerList.cpp
 msgid "Error"
 msgstr "错误"
 
@@ -422,7 +422,7 @@ msgid ""
 "Do you want to export them to a file?"
 msgstr ""
 "发现您的游戏文件存在多个问题！\n"
-"你想把它们导出成文件吗?"
+"您想把它们导出成文件吗?"
 
 #: ChecksumTool.cpp
 msgid "Your game files are valid"
@@ -498,43 +498,47 @@ msgstr "运行 (F5)"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
 msgid "&Exit"
-msgstr "&退出"
+msgstr "退出 (&E)"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
 msgid "&File"
-msgstr "&文件"
+msgstr "文件 (&F)"
 
 #: DebuggerWindow2.cpp
 msgid "&Pin to main window"
-msgstr "&贴靠于主视窗"
+msgstr "贴靠于主视窗 (&P)"
+
+#: DebuggerWindow2.cpp
+msgid "Break on &entry point"
+msgstr "在入口点处中断 (&E)"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
 msgid "&Options"
-msgstr "&选项"
+msgstr "选项 (&O)"
 
 #: DebuggerWindow2.cpp
 msgid "&Registers"
-msgstr "&寄存器"
+msgstr "寄存器 (&R)"
 
 #: DebuggerWindow2.cpp
 msgid "&Memory Dump"
-msgstr "&内存转储"
+msgstr "内存转储 (&M)"
 
 #: DebuggerWindow2.cpp
 msgid "&Breakpoints"
-msgstr "&断点"
+msgstr "断点 (&B)"
 
 #: DebuggerWindow2.cpp
 msgid "Module&list"
-msgstr "模块&列表"
+msgstr "模块列表 (&L)"
 
 #: DebuggerWindow2.cpp
 msgid "&Window"
-msgstr "&窗口"
+msgstr "窗口 (&W)"
 
 #: debugPPCThreadsWindow.cpp
 msgid "PPC threads"
-msgstr "PPC线程"
+msgstr "PPC 线程"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Entry"
@@ -542,7 +546,7 @@ msgstr "Entry"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Stack"
-msgstr "堆栈"
+msgstr "Stack"
 
 #: debugPPCThreadsWindow.cpp
 msgid "PC"
@@ -554,7 +558,7 @@ msgstr "LR"
 
 #: debugPPCThreadsWindow.cpp
 msgid "State"
-msgstr "状态"
+msgstr "State"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Affinity"
@@ -574,7 +578,7 @@ msgstr "SumWakeTime"
 
 #: debugPPCThreadsWindow.cpp
 msgid "ThreadName"
-msgstr "线程名"
+msgstr "ThreadName"
 
 #: debugPPCThreadsWindow.cpp
 msgid "GPR"
@@ -1689,8 +1693,8 @@ msgstr "使用已有缓存"
 msgid "Create new cache [recommended]"
 msgstr "创建新缓存[推荐]"
 
-#: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
-#: toolMemorySearcher.cpp
+#: GraphicPacksWindow2.cpp LoggingWindow.cpp MemorySearcherTool.cpp
+#: TitleManager.cpp
 msgid "Filter"
 msgstr "过滤"
 
@@ -1833,7 +1837,7 @@ msgstr "校准"
 msgid "Reset the default state of the controller"
 msgstr "恢复控制器的默认状态"
 
-#: InputSettings.cpp toolMemorySearcher.cpp
+#: InputSettings.cpp MemorySearcherTool.cpp
 msgid "Clear"
 msgstr "清除"
 
@@ -1952,15 +1956,15 @@ msgstr "载入文件失败。"
 
 #: MainWindow.cpp
 msgid "All Wii U files (wud, wux, iso, wad, rpx, elf)"
-msgstr "所有 Wii U 文件 (wud, wux, iso, wad, rpx, elf)"
+msgstr "所有 Wii U 文件 (*.wud;*.wux;*.iso;*.wad;*.rpx;*.elf)"
 
 #: MainWindow.cpp
 msgid "Wii U image (wud, wux, iso, wad)"
-msgstr "Wii U 镜像文件 (wud, wux, iso, wad)"
+msgstr "Wii U 映像文件 (*.wud;*.wux;*.iso;*.wad)"
 
 #: MainWindow.cpp
 msgid "Wii U executable (rpx, elf)"
-msgstr "Wii U 可执行文件 (rpx, elf)"
+msgstr "Wii U 可执行文件 (*.rpx;*.elf)"
 
 #: MainWindow.cpp
 msgid "All files (*.*)"
@@ -2016,11 +2020,11 @@ msgstr "更新提醒"
 
 #: MainWindow.cpp
 msgid "&Load"
-msgstr "&载入"
+msgstr "载入 (&L)"
 
 #: MainWindow.cpp
 msgid "&Install game title, update or DLC"
-msgstr "&安装档案、升级档或 DLC"
+msgstr "安装档案、升级档或 DLC (&I)"
 
 #: MainWindow.cpp
 msgid "End emulation"
@@ -2028,287 +2032,287 @@ msgstr "停止模拟"
 
 #: MainWindow.cpp
 msgid "&Auto"
-msgstr "&自动"
+msgstr "自动 (&A)"
 
 #: MainWindow.cpp
 msgid "&USA"
-msgstr "&美国"
+msgstr "美国 (&U)"
 
 #: MainWindow.cpp
 msgid "&Europe"
-msgstr "&欧洲"
+msgstr "欧洲 (&E)"
 
 #: MainWindow.cpp
 msgid "&Japan"
-msgstr "&日本"
+msgstr "日本 (&J)"
 
 #: MainWindow.cpp
 msgid "&China"
-msgstr "&中国"
+msgstr "中国 (&C)"
 
 #: MainWindow.cpp
 msgid "&Korea"
-msgstr "&韩国"
+msgstr "韩国 (&K)"
 
 #: MainWindow.cpp
 msgid "&Taiwan"
-msgstr "&中国台湾"
+msgstr "中国台湾 (&T)"
 
 #: MainWindow.cpp
 msgid "&English"
-msgstr "&英语"
+msgstr "英语 (&E)"
 
 #: MainWindow.cpp
 msgid "&Japanese"
-msgstr "&日语"
+msgstr "日语 (&J)"
 
 #: MainWindow.cpp
 msgid "&French"
-msgstr "&法语"
+msgstr "法语 (&F)"
 
 #: MainWindow.cpp
 msgid "&German"
-msgstr "&德语"
+msgstr "德语 (&G)"
 
 #: MainWindow.cpp
 msgid "&Italian"
-msgstr "&意大利语"
+msgstr "意大利语 (&I)"
 
 #: MainWindow.cpp
 msgid "&Spanish"
-msgstr "&西班牙语"
+msgstr "西班牙语 (&S)"
 
 #: MainWindow.cpp
 msgid "&Chinese"
-msgstr "&简体中文"
+msgstr "简体中文 (&C)"
 
 #: MainWindow.cpp
 msgid "&Korean"
-msgstr "&韩语"
+msgstr "韩语 (&K)"
 
 #: MainWindow.cpp
 msgid "&Dutch"
-msgstr "&荷兰语"
+msgstr "荷兰语 (&D)"
 
 #: MainWindow.cpp
 msgid "&Portuguese"
-msgstr "&葡萄牙语"
+msgstr "葡萄牙语 (&P)"
 
 #: MainWindow.cpp
 msgid "&Russian"
-msgstr "&俄语"
+msgstr "俄语 (&R)"
 
 #: MainWindow.cpp
 msgid "&Taiwanese"
-msgstr "&繁体中文"
+msgstr "繁体中文 (&T)"
 
 #: MainWindow.cpp
 msgid "&Fullscreen"
-msgstr "&全屏"
+msgstr "全屏 (&F)"
 
 #: MainWindow.cpp
 msgid "&Graphic packs"
-msgstr "&图形插件"
+msgstr "图形插件 (&G)"
 
 #: MainWindow.cpp
 msgid "&Separate GamePad view"
-msgstr "&单独 GamePad 窗口"
+msgstr "单独 GamePad 窗口 (&P)"
 
 #: MainWindow.cpp
 msgid "&General settings"
-msgstr "&通用设置"
+msgstr "通用设置 (&S)"
 
 #: MainWindow.cpp
 msgid "&Input settings"
-msgstr "&输入设置"
+msgstr "输入设置 (&I)"
 
 #: MainWindow.cpp
 msgid "&Active account"
-msgstr "&当前帐户"
+msgstr "当前帐户 (&A)"
 
 #: MainWindow.cpp
 msgid "&Console region"
-msgstr "&主机地区"
+msgstr "主机地区 (&R)"
 
 #: MainWindow.cpp
 msgid "&Console language"
-msgstr "&主机语言"
+msgstr "主机语言 (&L)"
 
 #: MainWindow.cpp
 msgid "&Memory searcher"
-msgstr "&内存搜索器"
+msgstr "内存搜索器 (&M)"
 
 #: MainWindow.cpp
 msgid "&Title Manager"
-msgstr "&档案管理器"
+msgstr "档案管理器 (&T)"
 
 #: MainWindow.cpp
 msgid "&Tools"
-msgstr "&工具"
+msgstr "工具 (&T)"
 
 #: MainWindow.cpp
 msgid "&CPU"
-msgstr "&CPU"
+msgstr "CPU (&C)"
 
 #: MainWindow.cpp
 msgid "&Scan NFC tag from file"
-msgstr "&载入 NFC 文件"
+msgstr "载入 NFC 文件 (&S)"
 
 #: MainWindow.cpp
 msgid "&NFC"
-msgstr "&NFC"
+msgstr "NFC (&N)"
 
 #: MainWindow.cpp
 msgid "&Unsupported API calls"
-msgstr "&不支持的 API 调用"
+msgstr "不支持的 API 调用 (&U)"
 
 #: MainWindow.cpp
 msgid "&Coreinit File-Access"
-msgstr "&Coreinit 数据访问"
+msgstr "Coreinit 数据访问 (&F)"
 
 #: MainWindow.cpp
 msgid "&Coreinit Thread-Synchronization API"
-msgstr "&Coreinit 线程同步 API"
+msgstr "Coreinit 线程同步 API (&T)"
 
 #: MainWindow.cpp
 msgid "&Coreinit Memory API"
-msgstr "&Coreinit 内存 API"
+msgstr "Coreinit 内存 API (&M)"
 
 #: MainWindow.cpp
 msgid "&Coreinit MP API"
-msgstr "&Coreinit MP API"
+msgstr "Coreinit MP API (&C)"
 
 #: MainWindow.cpp
 msgid "&NN NFP"
-msgstr "&NN NFP"
+msgstr "NN NFP (&N)"
 
 #: MainWindow.cpp
 msgid "&GX2 API"
-msgstr "&GX2 API"
+msgstr "GX2 API (&G)"
 
 #: MainWindow.cpp
 msgid "&Audio API"
-msgstr "&音频 API"
+msgstr "音频 API (&A)"
 
 #: MainWindow.cpp
 msgid "&Input API"
-msgstr "&输入 API"
+msgstr "输入 API (&I)"
 
 #: MainWindow.cpp
 msgid "&Socket API"
-msgstr "&套接 API"
+msgstr "套接 API (&K)"
 
 #: MainWindow.cpp
 msgid "&Save API"
-msgstr "&储存 API"
+msgstr "储存 API (&S)"
 
 #: MainWindow.cpp
 msgid "&H264 API"
-msgstr "&H264 API"
+msgstr "H264 API (&H)"
 
 #: MainWindow.cpp
 msgid "&Graphic pack patches"
-msgstr "&图形插件补丁"
+msgstr "图形插件补丁 (&G)"
 
 #: MainWindow.cpp
 msgid "&Texture cache warnings"
-msgstr "&纹理缓存警告"
+msgstr "纹理缓存警告 (&T)"
 
 #: MainWindow.cpp
 msgid "&OpenGL debug output"
-msgstr "&OpenGL 调试输出"
+msgstr "OpenGL 调试输出 (&O)"
 
 #: MainWindow.cpp
 msgid "&Vulkan validation layer (slow)"
-msgstr "&Vulkan 验证层 (慢速)"
+msgstr "Vulkan 验证层 (慢速) (&V)"
 
 #: MainWindow.cpp
 msgid "&Log PPC context for API"
-msgstr "&为 API 记录 PPC 上下文"
+msgstr "为 API 记录 PPC 上下文 (&L)"
 
 #: MainWindow.cpp
 msgid "&Textures"
-msgstr "&纹理"
+msgstr "纹理 (&T)"
 
 #: MainWindow.cpp
 msgid "&Shaders"
-msgstr "&着色器"
+msgstr "着色器 (&S)"
 
 #: MainWindow.cpp
 msgid "&nlibcurl HTTP/HTTPS requests"
-msgstr "&nlibcurl HTTP/HTTPS 请求"
+msgstr "nlibcurl HTTP/HTTPS 请求 (&N)"
 
 #: MainWindow.cpp
 msgid "&Logging"
-msgstr "&记录日志"
+msgstr "记录日志 (&L)"
 
 #: MainWindow.cpp
 msgid "&Dump"
-msgstr "&转储"
+msgstr "转储 (&D)"
 
 #: MainWindow.cpp
 msgid "&Render upside-down"
-msgstr "&上下反转渲染"
+msgstr "上下反转渲染 (&R)"
 
 #: MainWindow.cpp
 msgid "&Async compile (Vulkan)"
-msgstr "&异步编译 (Vulkan)"
+msgstr "异步编译 (Vulkan) (&A)"
 
 #: MainWindow.cpp
 msgid "&Experimental"
-msgstr "&实验性功能"
+msgstr "实验性功能 (&E)"
 
 #: MainWindow.cpp
 msgid "&Open logging window"
-msgstr "&打开记录窗口"
+msgstr "打开记录窗口 (&O)"
 
 #: MainWindow.cpp
 msgid "&View PPC threads"
-msgstr "&查看 PPC 线程"
+msgstr "查看 PPC 线程 (&V)"
 
 #: MainWindow.cpp
 msgid "&View PPC debugger"
-msgstr "&查看 PPC 调试器"
+msgstr "查看 PPC 调试器 (&P)"
 
 #: MainWindow.cpp
 msgid "&View audio debugger"
-msgstr "&查看音频调试器"
+msgstr "查看音频调试器 (&D)"
 
 #: MainWindow.cpp
 msgid "&View texture cache info"
-msgstr "&查看纹理缓存信息"
+msgstr "查看纹理缓存信息 (&I)"
 
 #: MainWindow.cpp
 msgid "&Show frame profiler"
-msgstr "&显示帧分析器"
+msgstr "显示帧分析器 (&S)"
 
 #: MainWindow.cpp
 msgid "&Dump current RAM"
-msgstr "&转储当前 RAM"
+msgstr "转储当前 RAM (&M)"
 
 #: MainWindow.cpp
 msgid "&Dump WUD filesystem"
-msgstr "&转储 WUD 文件系统"
+msgstr "转储 WUD 文件系统 (&W)"
 
 #: MainWindow.cpp
 msgid "&Debug"
-msgstr "&调试"
+msgstr "调试 (&D)"
 
 #: MainWindow.cpp
 msgid "&Check for updates"
-msgstr "&检查更新"
+msgstr "检查更新 (&C)"
 
 #: MainWindow.cpp
 msgid "&Getting started"
-msgstr "&运行欢迎向导"
+msgstr "运行欢迎向导 (&G)"
 
 #: MainWindow.cpp
 msgid "&About"
-msgstr "&关于"
+msgstr "关于 (&A)"
 
 #: MainWindow.cpp
 msgid "&Help"
-msgstr "&帮助"
+msgstr "帮助 (&H)"
 
 #: MainWindow.cpp
 msgid "otp.bin could not be found"
@@ -2330,6 +2334,58 @@ msgstr "seeprom.bin 损坏或大小无效"
 msgid "Unknown error occured"
 msgstr "发生未知错误"
 
+#: MemorySearcherTool.cpp
+msgid "Memory Searcher"
+msgstr "内存搜索器"
+
+#: MemorySearcherTool.cpp
+msgid "Search"
+msgstr "搜索"
+
+#: MemorySearcherTool.cpp
+msgid "Results"
+msgstr "结果"
+
+#: MemorySearcherTool.cpp
+msgid "address"
+msgstr "地址"
+
+#: MemorySearcherTool.cpp
+msgid "value"
+msgstr "值"
+
+#: MemorySearcherTool.cpp
+msgid "Stored Entries"
+msgstr "已储存条目"
+
+#: MemorySearcherTool.cpp
+msgid "description"
+msgstr "描述"
+
+#: MemorySearcherTool.cpp
+msgid "type"
+msgstr "类型"
+
+#: MemorySearcherTool.cpp
+msgid "freeze"
+msgstr "冻结"
+
+#: MemorySearcherTool.cpp
+msgid "Your entered value is not valid for the selected datatype."
+msgstr "输入的值对所选数据类型无效。"
+
+#: MemorySearcherTool.cpp
+msgid "&Add new entry"
+msgstr "添加新条目 (&A)"
+
+#: MemorySearcherTool.cpp
+msgid "&Remove entry"
+msgstr "移除条目 (&R)"
+
+#: MemorySearcherTool.cpp
+msgid "Results ({0})"
+msgstr "结果 ({0})"
+
 #: ModuleWindow.cpp wxTitleManagerList.cpp
 msgid "Name"
 msgstr "名称"
@@ -2340,27 +2396,27 @@ msgstr "大小"
 
 #: RegisterWindow.cpp
 msgid "&Zero"
-msgstr "&零"
+msgstr "零 (&Z)"
 
 #: RegisterWindow.cpp
 msgid "&Increment"
-msgstr "&增加"
+msgstr "增加 (&I)"
 
 #: RegisterWindow.cpp
 msgid "&Decrement"
-msgstr "&减少"
+msgstr "减少 (&D)"
 
 #: RegisterWindow.cpp
 msgid "&Copy"
-msgstr "&复制"
+msgstr "复制 (&C)"
 
 #: RegisterWindow.cpp
 msgid "&Goto Disasm"
-msgstr "&跳转到反编译器 | Goto Disasm"
+msgstr "跳转到反编译器 | Goto Disasm (&G)"
 
 #: RegisterWindow.cpp
 msgid "G&oto Dump"
-msgstr "&跳转到转储 | Goto Dump"
+msgstr "跳转到转储 | Goto Dump (&O)"
 
 #: SaveImportWindow.cpp
 msgid "Import save entry"
@@ -2620,58 +2676,6 @@ msgstr ""
 "添加 cemu_meta 到 zip 压缩中出错：\n"
 "{}"
 
-#: toolMemorySearcher.cpp
-msgid "Memory Searcher"
-msgstr "内存搜索器"
-
-#: toolMemorySearcher.cpp
-msgid "Search"
-msgstr "搜索"
-
-#: toolMemorySearcher.cpp
-msgid "Results"
-msgstr "结果"
-
-#: toolMemorySearcher.cpp
-msgid "address"
-msgstr "地址"
-
-#: toolMemorySearcher.cpp
-msgid "value"
-msgstr "值"
-
-#: toolMemorySearcher.cpp
-msgid "Stored Entries"
-msgstr "已储存条目"
-
-#: toolMemorySearcher.cpp
-msgid "description"
-msgstr "描述"
-
-#: toolMemorySearcher.cpp
-msgid "type"
-msgstr "类型"
-
-#: toolMemorySearcher.cpp
-msgid "freeze"
-msgstr "冻结"
-
-#: toolMemorySearcher.cpp
-msgid "Your entered value is not valid for the selected datatype."
-msgstr "输入的值对所选数据类型无效。"
-
-#: toolMemorySearcher.cpp
-msgid "&Add new entry"
-msgstr "&添加新条目"
-
-#: toolMemorySearcher.cpp
-msgid "&Remove entry"
-msgstr "&移除条目"
-
-#: toolMemorySearcher.cpp
-msgid "Results ({0})"
-msgstr "结果 ({0})"
-
 #: VulkanCanvas.cpp
 msgid ""
 "Error when initializing Vulkan renderer:\n"
@@ -2770,87 +2774,87 @@ msgstr "地区"
 
 #: wxGameList.cpp
 msgid "&Start"
-msgstr "&启动"
+msgstr "启动 (&S)"
 
 #: wxGameList.cpp
 msgid "&Favorite"
-msgstr "&收藏并置顶"
+msgstr "收藏并置顶 (&F)"
 
 #: wxGameList.cpp
 msgid "&Edit name"
-msgstr "&编辑名称"
+msgstr "编辑名称 (&E)"
 
 #: wxGameList.cpp
 msgid "&Game directory"
-msgstr "&游戏目录"
+msgstr "游戏目录 (&G)"
 
 #: wxGameList.cpp
 msgid "&Save directory"
-msgstr "&存档目录"
+msgstr "存档目录 (&V)"
 
 #: wxGameList.cpp
 msgid "&Update directory"
-msgstr "&更新档目录"
+msgstr "更新档目录 (&U)"
 
 #: wxGameList.cpp
 msgid "&DLC directory"
-msgstr "&DLC 目录"
+msgstr "DLC 目录 (&D)"
 
 #: wxGameList.cpp
 msgid "&Edit graphic packs"
-msgstr "&编辑图形插件"
+msgstr "编辑图形插件 (&P)"
 
 #: wxGameList.cpp
 msgid "&Edit game profile"
-msgstr "&编辑游戏设定"
+msgstr "编辑游戏设定 (&F)"
 
 #: wxGameList.cpp
 msgid "&Refresh game list"
-msgstr "&刷新游戏列表"
+msgstr "刷新游戏列表 (&R)"
 
 #: wxGameList.cpp
 msgid "Style: &List"
-msgstr "显示方式：&列表"
+msgstr "显示方式：列表 (&L)"
 
 #: wxGameList.cpp
 msgid "Style: &Icons"
-msgstr "显示方式：&普通图标"
+msgstr "显示方式：普通图标 (&I)"
 
 #: wxGameList.cpp
 msgid "Style: &Small Icons"
-msgstr "显示方式：&小图标"
+msgstr "显示方式：小图标 (&S)"
 
 #: wxGameList.cpp
 msgid "Reset &width"
-msgstr "重置 &宽度"
+msgstr "重置 宽度 (&W)"
 
 #: wxGameList.cpp
 msgid "Reset &order"
-msgstr "重置 &排序"
+msgstr "重置 排序 (&O)"
 
 #: wxGameList.cpp
 msgid "Show &name"
-msgstr "显示 &名称"
+msgstr "显示 名称 (&N)"
 
 #: wxGameList.cpp
 msgid "Show &version"
-msgstr "显示 &版本"
+msgstr "显示 版本 (&V)"
 
 #: wxGameList.cpp
 msgid "Show &dlc"
-msgstr "显示 &DLC"
+msgstr "显示 DLC (&D)"
 
 #: wxGameList.cpp
 msgid "Show &game time"
-msgstr "显示 &游戏时长"
+msgstr "显示 游戏时长 (&G)"
 
 #: wxGameList.cpp
 msgid "Show &last played"
-msgstr "显示 &上次游玩时间"
+msgstr "显示 上次游玩时间"
 
 #: wxGameList.cpp
 msgid "Show &region"
-msgstr "显示 &地区"
+msgstr "显示 地区 (&R)"
 
 #: wxGameList.cpp
 msgid "You can configure game paths in the general settings."
@@ -2907,19 +2911,19 @@ msgstr "这个 DLC 安装在了一个错误的位置上。"
 
 #: wxTitleManagerList.cpp
 msgid "You can use the context menu to fix it."
-msgstr "你可以使用右键菜单来修复它。"
+msgstr "您可以使用右键菜单来修复它。"
 
 #: wxTitleManagerList.cpp
 msgid "&Launch title"
-msgstr "&载入档案"
+msgstr "载入档案 (&L)"
 
 #: wxTitleManagerList.cpp
 msgid "&Open directory"
-msgstr "&打开目录"
+msgstr "打开目录 (&O)"
 
 #: wxTitleManagerList.cpp
 msgid "&Verify integrity of game files"
-msgstr "&验证游戏文件的完整性"
+msgstr "验证游戏文件的完整性 (&V)"
 
 #: wxTitleManagerList.cpp
 msgid "Fix entry"
@@ -2927,14 +2931,14 @@ msgstr "修复问题"
 
 #: wxTitleManagerList.cpp
 msgid "&Delete"
-msgstr "&删除"
+msgstr "删除 (&D)"
 
 #: wxTitleManagerList.cpp
 msgid ""
 "Are you really sure that you want to delete the following folder:\n"
 "{}"
 msgstr ""
-"你真的确定要删除以下文件夹吗？\n"
+"您真的确定要删除以下文件夹吗？\n"
 "{}"
 
 #: wxTitleManagerList.cpp
@@ -2942,5 +2946,5 @@ msgid ""
 "Are you really sure that you want to delete the following file:\n"
 "{}"
 msgstr ""
-"你确定要删除以下文件吗？\n"
+"您确定要删除以下文件吗？\n"
 "{}"
