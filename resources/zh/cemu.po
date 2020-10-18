@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-10-17 00:18+0200\n"
-"PO-Revision-Date: 2020-10-18 23:21+0800\n"
+"PO-Revision-Date: 2020-10-19 00:13+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -2850,7 +2850,7 @@ msgstr "显示 游戏时长 (&G)"
 
 #: wxGameList.cpp
 msgid "Show &last played"
-msgstr "显示 上次游玩时间"
+msgstr "显示 上次游玩时间 (&L)"
 
 #: wxGameList.cpp
 msgid "Show &region"
