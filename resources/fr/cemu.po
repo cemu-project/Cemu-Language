@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-08-23 23:00+0200\n"
-"PO-Revision-Date: 2020-08-23 23:19+0200\n"
+"POT-Creation-Date: 2020-10-18 11:30+0200\n"
+"PO-Revision-Date: 2020-10-18 11:31+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -245,9 +245,9 @@ msgstr ""
 
 #: CemuApp.cpp ChecksumTool.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
 #: GameUpdateWindow.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp
-#: InputSettings.cpp MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp
-#: TitleManager.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
-#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+#: InputSettings.cpp MainWindow.cpp MemorySearcherTool.cpp SaveImportWindow.cpp
+#: SaveTransfer.cpp TitleManager.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: wxTitleManagerList.cpp
 msgid "Error"
 msgstr "Erreur"
 
@@ -510,6 +510,10 @@ msgstr "&Fichier"
 #: DebuggerWindow2.cpp
 msgid "&Pin to main window"
 msgstr "&Attacher à la fenêtre principale"
+
+#: DebuggerWindow2.cpp
+msgid "Break on &entry point"
+msgstr "Arrêter au point d'&entrée"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
 msgid "&Options"
@@ -1757,8 +1761,8 @@ msgstr "Utiliser le cache existant"
 msgid "Create new cache [recommended]"
 msgstr "Créer un nouveau cache [recommandé]"
 
-#: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
-#: toolMemorySearcher.cpp
+#: GraphicPacksWindow2.cpp LoggingWindow.cpp MemorySearcherTool.cpp
+#: TitleManager.cpp
 msgid "Filter"
 msgstr "Filtrer"
 
@@ -1901,7 +1905,7 @@ msgstr "Calibrer"
 msgid "Reset the default state of the controller"
 msgstr "Remettre la manette à son stade par défaut"
 
-#: InputSettings.cpp toolMemorySearcher.cpp
+#: InputSettings.cpp MemorySearcherTool.cpp
 msgid "Clear"
 msgstr "Effacer"
 
@@ -2400,6 +2404,58 @@ msgstr "Le fichier seeprom.bin est corrompu ou a une taille invalide"
 msgid "Unknown error occured"
 msgstr "Une erreur inconnue est survenue"
 
+#: MemorySearcherTool.cpp
+msgid "Memory Searcher"
+msgstr "Rechercher dans la mémoire"
+
+#: MemorySearcherTool.cpp
+msgid "Search"
+msgstr "Rechercher"
+
+#: MemorySearcherTool.cpp
+msgid "Results"
+msgstr "Résultats"
+
+#: MemorySearcherTool.cpp
+msgid "address"
+msgstr "adresse"
+
+#: MemorySearcherTool.cpp
+msgid "value"
+msgstr "valeur"
+
+#: MemorySearcherTool.cpp
+msgid "Stored Entries"
+msgstr "Entrées stockées"
+
+#: MemorySearcherTool.cpp
+msgid "description"
+msgstr "description"
+
+#: MemorySearcherTool.cpp
+msgid "type"
+msgstr "type"
+
+#: MemorySearcherTool.cpp
+msgid "freeze"
+msgstr "gel"
+
+#: MemorySearcherTool.cpp
+msgid "Your entered value is not valid for the selected datatype."
+msgstr "La valeur entrée n'est pas valide pour le type de données sélectionné."
+
+#: MemorySearcherTool.cpp
+msgid "&Add new entry"
+msgstr "&Ajouter une nouvelle entrée"
+
+#: MemorySearcherTool.cpp
+msgid "&Remove entry"
+msgstr "&Supprimer l'entrée"
+
+#: MemorySearcherTool.cpp
+msgid "Results ({0})"
+msgstr "Résultats ({0})"
+
 #: ModuleWindow.cpp wxTitleManagerList.cpp
 msgid "Name"
 msgstr "Nom"
@@ -2698,58 +2754,6 @@ msgid ""
 msgstr ""
 "Erreur lors de la tentative d'ajout d'un meta cemu_meta au fichier ZIP :\n"
 "{}"
-
-#: toolMemorySearcher.cpp
-msgid "Memory Searcher"
-msgstr "Rechercher dans la mémoire"
-
-#: toolMemorySearcher.cpp
-msgid "Search"
-msgstr "Rechercher"
-
-#: toolMemorySearcher.cpp
-msgid "Results"
-msgstr "Résultats"
-
-#: toolMemorySearcher.cpp
-msgid "address"
-msgstr "adresse"
-
-#: toolMemorySearcher.cpp
-msgid "value"
-msgstr "valeur"
-
-#: toolMemorySearcher.cpp
-msgid "Stored Entries"
-msgstr "Entrées stockées"
-
-#: toolMemorySearcher.cpp
-msgid "description"
-msgstr "description"
-
-#: toolMemorySearcher.cpp
-msgid "type"
-msgstr "type"
-
-#: toolMemorySearcher.cpp
-msgid "freeze"
-msgstr "gel"
-
-#: toolMemorySearcher.cpp
-msgid "Your entered value is not valid for the selected datatype."
-msgstr "La valeur entrée n'est pas valide pour le type de données sélectionné."
-
-#: toolMemorySearcher.cpp
-msgid "&Add new entry"
-msgstr "&Ajouter une nouvelle entrée"
-
-#: toolMemorySearcher.cpp
-msgid "&Remove entry"
-msgstr "&Supprimer l'entrée"
-
-#: toolMemorySearcher.cpp
-msgid "Results ({0})"
-msgstr "Résultats ({0})"
 
 #: VulkanCanvas.cpp
 msgid ""
