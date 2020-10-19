@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-08-22 03:20+0200\n"
-"PO-Revision-Date: 2020-08-24 16:32+0200\n"
+"POT-Creation-Date: 2020-10-17 00:18+0200\n"
+"PO-Revision-Date: 2020-10-19 16:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -242,9 +242,9 @@ msgstr ""
 
 #: CemuApp.cpp ChecksumTool.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
 #: GameUpdateWindow.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp
-#: InputSettings.cpp MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp
-#: TitleManager.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
-#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+#: InputSettings.cpp MainWindow.cpp MemorySearcherTool.cpp SaveImportWindow.cpp
+#: SaveTransfer.cpp TitleManager.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: wxTitleManagerList.cpp
 msgid "Error"
 msgstr "Hiba"
 
@@ -506,6 +506,10 @@ msgstr "&Fájl"
 #: DebuggerWindow2.cpp
 msgid "&Pin to main window"
 msgstr "&Rögzítés a főablakhoz"
+
+#: DebuggerWindow2.cpp
+msgid "Break on &entry point"
+msgstr "Belépési pontnál &szünet"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
 msgid "&Options"
@@ -1730,8 +1734,8 @@ msgstr "Létező gyorsítótár használata"
 msgid "Create new cache [recommended]"
 msgstr "Új gyorsítótár létrehozása (ajánlott)"
 
-#: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
-#: toolMemorySearcher.cpp
+#: GraphicPacksWindow2.cpp LoggingWindow.cpp MemorySearcherTool.cpp
+#: TitleManager.cpp
 msgid "Filter"
 msgstr "Filter"
 
@@ -1876,7 +1880,7 @@ msgstr "Kalibrálás"
 msgid "Reset the default state of the controller"
 msgstr "Kontroller alapbeállításainak visszaállítása"
 
-#: InputSettings.cpp toolMemorySearcher.cpp
+#: InputSettings.cpp MemorySearcherTool.cpp
 msgid "Clear"
 msgstr "Kiürítés"
 
@@ -2375,6 +2379,58 @@ msgstr "a seeprom.bin korrupt vagy érvénytelen méretű"
 msgid "Unknown error occured"
 msgstr "Ismeretlen hiba"
 
+#: MemorySearcherTool.cpp
+msgid "Memory Searcher"
+msgstr "Memóriakereső"
+
+#: MemorySearcherTool.cpp
+msgid "Search"
+msgstr "Keresés"
+
+#: MemorySearcherTool.cpp
+msgid "Results"
+msgstr "Találatok"
+
+#: MemorySearcherTool.cpp
+msgid "address"
+msgstr "cím"
+
+#: MemorySearcherTool.cpp
+msgid "value"
+msgstr "érték"
+
+#: MemorySearcherTool.cpp
+msgid "Stored Entries"
+msgstr "Tárolt bejegyzések"
+
+#: MemorySearcherTool.cpp
+msgid "description"
+msgstr "leírás"
+
+#: MemorySearcherTool.cpp
+msgid "type"
+msgstr "típus"
+
+#: MemorySearcherTool.cpp
+msgid "freeze"
+msgstr "lefagyás"
+
+#: MemorySearcherTool.cpp
+msgid "Your entered value is not valid for the selected datatype."
+msgstr "A beírt érték nem érvényes a kiválasztott adattípushoz."
+
+#: MemorySearcherTool.cpp
+msgid "&Add new entry"
+msgstr "&Új érték"
+
+#: MemorySearcherTool.cpp
+msgid "&Remove entry"
+msgstr "&Érték eltávolítása"
+
+#: MemorySearcherTool.cpp
+msgid "Results ({0})"
+msgstr "Találatok {{0}}"
+
 #: ModuleWindow.cpp wxTitleManagerList.cpp
 msgid "Name"
 msgstr "Név"
@@ -2666,58 +2722,6 @@ msgid ""
 msgstr ""
 "Hiba történt a cemu_meta hozzáadása közben a tömörített fájlban:\n"
 "{}"
-
-#: toolMemorySearcher.cpp
-msgid "Memory Searcher"
-msgstr "Memóriakereső"
-
-#: toolMemorySearcher.cpp
-msgid "Search"
-msgstr "Keresés"
-
-#: toolMemorySearcher.cpp
-msgid "Results"
-msgstr "Találatok"
-
-#: toolMemorySearcher.cpp
-msgid "address"
-msgstr "cím"
-
-#: toolMemorySearcher.cpp
-msgid "value"
-msgstr "érték"
-
-#: toolMemorySearcher.cpp
-msgid "Stored Entries"
-msgstr "Tárolt bejegyzések"
-
-#: toolMemorySearcher.cpp
-msgid "description"
-msgstr "leírás"
-
-#: toolMemorySearcher.cpp
-msgid "type"
-msgstr "típus"
-
-#: toolMemorySearcher.cpp
-msgid "freeze"
-msgstr "lefagyás"
-
-#: toolMemorySearcher.cpp
-msgid "Your entered value is not valid for the selected datatype."
-msgstr "A beírt érték nem érvényes a kiválasztott adattípushoz."
-
-#: toolMemorySearcher.cpp
-msgid "&Add new entry"
-msgstr "&Új érték"
-
-#: toolMemorySearcher.cpp
-msgid "&Remove entry"
-msgstr "&Érték eltávolítása"
-
-#: toolMemorySearcher.cpp
-msgid "Results ({0})"
-msgstr "Találatok {{0}}"
 
 #: VulkanCanvas.cpp
 msgid ""
