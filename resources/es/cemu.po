@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-07-10 17:40+0200\n"
-"PO-Revision-Date: 2020-07-12 02:45-0500\n"
+"POT-Creation-Date: 2020-10-17 00:18+0200\n"
+"PO-Revision-Date: 2020-11-03 12:00-0500\n"
 "Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-Basepath: ../../../coffee4u\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Flags-xgettext: --keyword=_\n"
@@ -61,6 +61,122 @@ msgstr "Introduzca una dirección de memoria"
 #: BreakpointWindow.cpp
 msgid "Memory breakpoint"
 msgstr "Punto de interrupción de memoria"
+
+#: CemuApp.cpp
+msgid "Browse"
+msgstr "Examinar"
+
+#: CemuApp.cpp
+msgid "Select a file"
+msgstr "Seleccione un archivo"
+
+#: CemuApp.cpp
+msgid "Select a directory"
+msgstr "Seleccione un directorio"
+
+#: CemuApp.cpp
+msgid "base"
+msgstr "juego base"
+
+#: CemuApp.cpp
+msgid "update"
+msgstr "actualización"
+
+#: CemuApp.cpp
+msgid "dlc"
+msgstr "DLC"
+
+#: CemuApp.cpp
+msgid "save"
+msgstr "partida guardada"
+
+#: CemuApp.cpp
+msgid "Japan"
+msgstr "Japón"
+
+#: CemuApp.cpp
+msgid "USA"
+msgstr "Estados Unidos"
+
+#: CemuApp.cpp
+msgid "Europe"
+msgstr "Europa"
+
+#: CemuApp.cpp
+msgid "Australia"
+msgstr "Australia"
+
+#: CemuApp.cpp
+msgid "China"
+msgstr "China"
+
+#: CemuApp.cpp
+msgid "Korea"
+msgstr "Corea"
+
+#: CemuApp.cpp
+msgid "Taiwan"
+msgstr "Taiwán"
+
+#: CemuApp.cpp
+msgid "Auto"
+msgstr "Selección automática"
+
+#: CemuApp.cpp
+msgid "many"
+msgstr "varias"
+
+#: CemuApp.cpp
+msgid "Japanese"
+msgstr "japonés"
+
+#: CemuApp.cpp GeneralSettings2.cpp
+msgid "English"
+msgstr "English"
+
+#: CemuApp.cpp
+msgid "French"
+msgstr "francés"
+
+#: CemuApp.cpp
+msgid "German"
+msgstr "alemán"
+
+#: CemuApp.cpp
+msgid "Italian"
+msgstr "italiano"
+
+#: CemuApp.cpp
+msgid "Spanish"
+msgstr "español"
+
+#: CemuApp.cpp
+msgid "Chinese"
+msgstr "chino"
+
+#: CemuApp.cpp
+msgid "Korean"
+msgstr "coreano"
+
+#: CemuApp.cpp
+msgid "Dutch"
+msgstr "neerlandés"
+
+#: CemuApp.cpp
+msgid "Portugese"
+msgstr "portugués"
+
+#: CemuApp.cpp
+msgid "Russian"
+msgstr "ruso"
+
+#: CemuApp.cpp
+msgid "Taiwanese"
+msgstr "taiwanés"
+
+#: CemuApp.cpp
+msgid "unknown"
+msgstr "Desconocido"
 
 #: CemuApp.cpp
 msgid ""
@@ -121,7 +237,7 @@ msgstr ""
 "\n"
 "Error: {0}"
 
-#: CemuApp.cpp TitleManager.cpp
+#: CemuApp.cpp
 msgid "Select a mlc directory"
 msgstr "Seleccione un directorio MLC"
 
@@ -133,10 +249,10 @@ msgstr ""
 "¡Cemu no puede escribir en la ruta MLC seleccionada!\n"
 "¿Desea seleccionar otra ruta?"
 
-#: CemuApp.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp GameUpdateWindow.cpp
-#: GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp InputSettings.cpp
-#: MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp TitleManager.cpp
-#: toolMemorySearcher.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: CemuApp.cpp ChecksumTool.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
+#: GameUpdateWindow.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp
+#: InputSettings.cpp MainWindow.cpp MemorySearcherTool.cpp SaveImportWindow.cpp
+#: SaveTransfer.cpp TitleManager.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
 #: wxTitleManagerList.cpp
 msgid "Error"
 msgstr "Error"
@@ -182,7 +298,7 @@ msgstr "Aplicando actualización..."
 msgid "Extracting failed!"
 msgstr "¡Error de extracción!"
 
-#: CemuUpdateWindow.cpp MainWindow.cpp
+#: CemuUpdateWindow.cpp ChecksumTool.cpp MainWindow.cpp
 msgid "Success"
 msgstr "Éxito"
 
@@ -193,6 +309,180 @@ msgstr "Reiniciar"
 #: CemuUpdateWindow.cpp
 msgid "Downloading update..."
 msgstr "Descargando actualización..."
+
+#: ChecksumTool.cpp
+msgid "Title checksum of {:08x}-{:08x}"
+msgstr "Suma de comprobación de título de {:08x}-{:08x}"
+
+#: ChecksumTool.cpp
+msgid "Verifying integrity of game files..."
+msgstr "Comprobando la integridad de los archivos del juego..."
+
+#: ChecksumTool.cpp GraphicPacksWindow2.cpp
+msgid "Control"
+msgstr "Control"
+
+#: ChecksumTool.cpp
+msgid "Verify"
+msgstr "Comprobar"
+
+#: ChecksumTool.cpp
+msgid "Verifies the checksum online"
+msgstr "Comprueba la suma de comprobación en línea"
+
+#: ChecksumTool.cpp
+msgid "Verify local"
+msgstr "Comprobar localmente"
+
+#: ChecksumTool.cpp
+msgid "Verifies the checksum with a local json file you can select"
+msgstr ""
+"Comprueba la suma de comprobación con un archivo JSON local que puede "
+"seleccionar"
+
+#: ChecksumTool.cpp TitleManager.cpp
+msgid "Export"
+msgstr "Exportar"
+
+#: ChecksumTool.cpp
+msgid "Export the title checksum data to a local json file"
+msgstr ""
+"Exporta los datos de la suma de comprobación del título a un archivo JSON "
+"local"
+
+#: ChecksumTool.cpp
+msgid "Export checksum entry"
+msgstr "Exporte una entrada de suma de comprobación"
+
+#: ChecksumTool.cpp
+msgid "Export successful"
+msgstr "Exportación correcta"
+
+#: ChecksumTool.cpp
+msgid "Can't write to file: {}"
+msgstr "No se puede escribir en el archivo: {}"
+
+#: ChecksumTool.cpp
+msgid "JSON file doesn't satisfy needed schema"
+msgstr "El archivo JSON no satisface el esquema necesario"
+
+#: ChecksumTool.cpp
+msgid "Wrong title id: {}"
+msgstr "ID de título incorrecto: {}"
+
+#: ChecksumTool.cpp
+msgid "Wrong version: {}"
+msgstr "Versión incorrecta: {}"
+
+#: ChecksumTool.cpp
+msgid "Wrong region: {}"
+msgstr "Región incorrecta: {}"
+
+#: ChecksumTool.cpp
+msgid "The verification data doesn't include a wud hash!"
+msgstr "¡Los datos de comprobación no incluyen un hash de WUD!"
+
+#: ChecksumTool.cpp
+msgid ""
+"Your game image is invalid!\n"
+"\n"
+"Your hash:\n"
+"{}\n"
+"\n"
+"Expected hash:\n"
+"{}"
+msgstr ""
+"¡Su imagen de juego no es válida!\n"
+"\n"
+"Su hash:\n"
+"{}\n"
+"\n"
+"Hash esperado:\n"
+"{}"
+
+#: ChecksumTool.cpp
+msgid "Select a file to export the errors"
+msgstr "Seleccione un archivo para exportar los errores"
+
+#: ChecksumTool.cpp
+msgid "Can't open file to write!"
+msgstr "¡No se puede abrir el archivo para escritura!"
+
+#: ChecksumTool.cpp
+msgid "The following files are missing:"
+msgstr "Faltan los siguientes archivos:"
+
+#: ChecksumTool.cpp
+msgid ""
+"{} files are missing!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"¡Faltan {} archivos!\n"
+"¿Desea exportar una lista de ellos a un archivo?"
+
+#: ChecksumTool.cpp
+msgid ""
+"{} files have an invalid hash!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"¡{} archivos tienen un hash no válido!\n"
+"¿Desea exportar una lista de ellos a un archivo?"
+
+#: ChecksumTool.cpp
+msgid ""
+"Multiple issues with your game files have been found!\n"
+"Do you want to export them to a file?"
+msgstr ""
+"¡Se han encontrado varios problemas con sus archivos de juego!\n"
+"¿Desea exportarlos a un archivo?"
+
+#: ChecksumTool.cpp
+msgid "Your game files are valid"
+msgstr "Sus archivos de juego son válidos"
+
+#: ChecksumTool.cpp
+msgid "JSON parse error: {}"
+msgstr "Error de análisis JSON: {}"
+
+#: ChecksumTool.cpp
+msgid "Can't open file!"
+msgstr "¡No se puede abrir el archivo!"
+
+#: ChecksumTool.cpp
+msgid "Can't parse json file!"
+msgstr "¡No se puede analizar el archivo JSON!"
+
+#: ChecksumTool.cpp
+msgid "Open checksum entry"
+msgstr "Abra una entrada de suma de comprobación"
+
+#: ChecksumTool.cpp
+msgid "Grabbing game files"
+msgstr "Recopilando archivos de juego"
+
+#: ChecksumTool.cpp
+msgid "Hashing game file: {}/{}"
+msgstr "Creando hash para archivo de juego: {} de {}"
+
+#: ChecksumTool.cpp
+msgid "Generated checksum of {} game files"
+msgstr "Suma de comprobación de {} archivos de juego generada"
+
+#: ChecksumTool.cpp
+msgid "Reading game image: {}"
+msgstr "Leyendo imagen de juego: {}"
+
+#: ChecksumTool.cpp
+msgid "Reading game image: {}/{}kb"
+msgstr "Leyendo imagen de juego: {} de {} KiB"
+
+#: ChecksumTool.cpp
+msgid "Generating checksum of game image: {}"
+msgstr "Generando suma de comprobación de imagen de juego: {}"
+
+#: ChecksumTool.cpp
+msgid "Generated checksum of game image: {}"
+msgstr "Suma de comprobación de imagen de juego generada: {}"
 
 #: DebuggerWindow2.cpp
 msgid "GoTo (CTRL + G)"
@@ -229,6 +519,10 @@ msgstr "&Archivo"
 #: DebuggerWindow2.cpp
 msgid "&Pin to main window"
 msgstr "A&nclar a la ventana principal"
+
+#: DebuggerWindow2.cpp
+msgid "Break on &entry point"
+msgstr "Interrumpir en &punto de entrada"
 
 #: DebuggerWindow2.cpp MainWindow.cpp
 msgid "&Options"
@@ -600,10 +894,6 @@ msgid "Default"
 msgstr "Por defecto"
 
 #: GeneralSettings2.cpp
-msgid "English"
-msgstr "English"
-
-#: GeneralSettings2.cpp
 msgid ""
 "Changes the interface language of Cemu\n"
 "Available languages are stored in the translation directory\n"
@@ -634,15 +924,15 @@ msgstr ""
 
 #: GeneralSettings2.cpp
 msgid "Discord Presence"
-msgstr "Rich Presence de Discord"
+msgstr "Presencia enriquecida de Discord"
 
 #: GeneralSettings2.cpp
 msgid ""
 "Enables the Discord Rich Presence feature\n"
 "You will also need to enable it in the Discord settings itself!"
 msgstr ""
-"Habilita la función Rich Presence de Discord\n"
-"¡También tendrá que habilitarlo en la propia configuración de Discord!"
+"Habilita la función de presencia enriquecida de Discord\n"
+"¡También tendrá que habilitarla en la propia configuración de Discord!"
 
 #: GeneralSettings2.cpp
 msgid "Fullscreen menu bar"
@@ -916,7 +1206,7 @@ msgstr "Dispositivo"
 
 #: GeneralSettings2.cpp
 msgid "Select the active audio output device for Wii U TV"
-msgstr "Seleccione el dispositivo de salida de audio activo para Wii U TV"
+msgstr "Seleccione el dispositivo de salida de audio activo para el TV"
 
 #: GeneralSettings2.cpp
 msgid "Channels"
@@ -1102,7 +1392,8 @@ msgstr "Lista de amigos"
 
 #: GeneralSettings2.cpp
 msgid "Shows friend list related data if online"
-msgstr "Si está online, muestra los datos relacionados con la lista de amigos"
+msgstr ""
+"Si está en línea, muestra los datos relacionados con la lista de amigos"
 
 #: GeneralSettings2.cpp
 msgid "Account settings"
@@ -1122,11 +1413,11 @@ msgstr "Eliminar"
 
 #: GeneralSettings2.cpp
 msgid "Online settings"
-msgstr "Configuración del modo online"
+msgstr "Configuración de modo en línea"
 
 #: GeneralSettings2.cpp
 msgid "Enable online mode"
-msgstr "Activar modo online"
+msgstr "Habilitar modo en línea"
 
 #: GeneralSettings2.cpp
 msgid "No account selected"
@@ -1134,7 +1425,7 @@ msgstr "No se ha seleccionado ninguna cuenta"
 
 #: GeneralSettings2.cpp
 msgid "Online play tutorial"
-msgstr "Guía de modo online"
+msgstr "Guía de juego en línea"
 
 #: GeneralSettings2.cpp
 msgid "Account information"
@@ -1252,10 +1543,10 @@ msgid ""
 "Only proceed if you are willing to risk losing online access with your Wii U "
 "and/or NNID."
 msgstr ""
-"Tenga en cuenta que el modo online le permite conectarse a los servidores "
+"Tenga en cuenta que el modo en línea le permite conectarse a los servidores "
 "OFICIALES y, por lo tanto, existe el riesgo de que se le prohíba el acceso "
 "(ser baneado).\n"
-"Sólo proceda si está dispuesto a arriesgarse a perder el acceso online con "
+"Sólo proceda si está dispuesto a arriesgarse a perder el acceso en línea con "
 "su Wii U y/o NNID."
 
 #: GeneralSettings2.cpp
@@ -1268,11 +1559,11 @@ msgstr "Información"
 
 #: GeneralSettings2.cpp
 msgid "Select a directory containing games."
-msgstr "Seleccione un directorio que contenga juegos"
+msgstr "Seleccione un directorio que contenga juegos."
 
 #: GeneralSettings2.cpp
 msgid "Online Status"
-msgstr "Estado del modo online"
+msgstr "Estado de modo en línea"
 
 #: GettingStartedDialog.cpp
 msgid ""
@@ -1468,8 +1759,8 @@ msgstr "Utilizar la caché existente"
 msgid "Create new cache [recommended]"
 msgstr "Crear una nueva caché [recomendado]"
 
-#: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
-#: toolMemorySearcher.cpp
+#: GraphicPacksWindow2.cpp LoggingWindow.cpp MemorySearcherTool.cpp
+#: TitleManager.cpp
 msgid "Filter"
 msgstr "Filtrar"
 
@@ -1484,10 +1775,6 @@ msgstr "Paquete gráfico"
 #: GraphicPacksWindow2.cpp
 msgid "Description"
 msgstr "Descripción"
-
-#: GraphicPacksWindow2.cpp
-msgid "Control"
-msgstr "Control"
 
 #: GraphicPacksWindow2.cpp
 msgid "Download latest community graphic packs"
@@ -1618,7 +1905,7 @@ msgstr "Calibrar"
 msgid "Reset the default state of the controller"
 msgstr "Restablecer el estado predeterminado del mando"
 
-#: InputSettings.cpp toolMemorySearcher.cpp
+#: InputSettings.cpp MemorySearcherTool.cpp
 msgid "Clear"
 msgstr "Borrar"
 
@@ -1951,7 +2238,7 @@ msgstr "&Llamadas de API no soportadas"
 
 #: MainWindow.cpp
 msgid "&Coreinit File-Access"
-msgstr "&Acceso de archivos de Coreinit"
+msgstr "Acceso de archivos de &Coreinit"
 
 #: MainWindow.cpp
 msgid "&Coreinit Thread-Synchronization API"
@@ -1971,27 +2258,27 @@ msgstr "&NN NFP"
 
 #: MainWindow.cpp
 msgid "&GX2 API"
-msgstr "&API GX2"
+msgstr "API G&X2"
 
 #: MainWindow.cpp
 msgid "&Audio API"
-msgstr "&API de Audio"
+msgstr "API de a&udio"
 
 #: MainWindow.cpp
 msgid "&Input API"
-msgstr "&API de entrada"
+msgstr "API de &entrada"
 
 #: MainWindow.cpp
 msgid "&Socket API"
-msgstr "&API de Socket"
+msgstr "API de &Socket"
 
 #: MainWindow.cpp
 msgid "&Save API"
-msgstr "&API de guardado"
+msgstr "API de &guardado"
 
 #: MainWindow.cpp
 msgid "&H264 API"
-msgstr "&API H.264"
+msgstr "API &H.264"
 
 #: MainWindow.cpp
 msgid "&Graphic pack patches"
@@ -2039,7 +2326,7 @@ msgstr "Renderi&zar de arriba a abajo"
 
 #: MainWindow.cpp
 msgid "&Async compile (Vulkan)"
-msgstr "&Computación asíncrona (Vulkan)"
+msgstr "&Compilación asíncrona (sólo Vulkan)"
 
 #: MainWindow.cpp
 msgid "&Experimental"
@@ -2117,6 +2404,58 @@ msgstr "El archivo seeprom.bin está dañado o tiene un tamaño no válido."
 msgid "Unknown error occured"
 msgstr "Se produjo un error desconocido"
 
+#: MemorySearcherTool.cpp
+msgid "Memory Searcher"
+msgstr "Rastreador de memoria"
+
+#: MemorySearcherTool.cpp
+msgid "Search"
+msgstr "Buscar"
+
+#: MemorySearcherTool.cpp
+msgid "Results"
+msgstr "Resultados"
+
+#: MemorySearcherTool.cpp
+msgid "address"
+msgstr "dirección"
+
+#: MemorySearcherTool.cpp
+msgid "value"
+msgstr "valor"
+
+#: MemorySearcherTool.cpp
+msgid "Stored Entries"
+msgstr "Entradas guardadas"
+
+#: MemorySearcherTool.cpp
+msgid "description"
+msgstr "descripción"
+
+#: MemorySearcherTool.cpp
+msgid "type"
+msgstr "tipo"
+
+#: MemorySearcherTool.cpp
+msgid "freeze"
+msgstr "congelar"
+
+#: MemorySearcherTool.cpp
+msgid "Your entered value is not valid for the selected datatype."
+msgstr "El valor introducido no es válido para el tipo de dato seleccionado."
+
+#: MemorySearcherTool.cpp
+msgid "&Add new entry"
+msgstr "&Agregar nueva entrada"
+
+#: MemorySearcherTool.cpp
+msgid "&Remove entry"
+msgstr "&Eliminar entrada"
+
+#: MemorySearcherTool.cpp
+msgid "Results ({0})"
+msgstr "Resultados ({0})"
+
 #: ModuleWindow.cpp wxTitleManagerList.cpp
 msgid "Name"
 msgstr "Nombre"
@@ -2151,7 +2490,7 @@ msgstr "&Ir al volcado"
 
 #: SaveImportWindow.cpp
 msgid "Import save entry"
-msgstr "Importe la entrada de la partida guardada"
+msgstr "Importar entrada de partida guardada"
 
 #: SaveImportWindow.cpp SaveTransfer.cpp
 msgid "Source"
@@ -2159,11 +2498,11 @@ msgstr "Origen"
 
 #: SaveImportWindow.cpp
 msgid "Select a zipped save file"
-msgstr "Seleccione un archivo de guardado comprimido"
+msgstr "Seleccione un archivo de partida guardada comprimida"
 
 #: SaveImportWindow.cpp
 msgid "Import save entry {}"
-msgstr "Importar entrada de la partida guardada {}"
+msgstr "Entrada de partida guardada para importar {}"
 
 #: SaveImportWindow.cpp SaveTransfer.cpp
 msgid "Target"
@@ -2352,18 +2691,13 @@ msgid "Imports a zipped save entry"
 msgstr "Importa una entrada de partida guardada comprimida"
 
 #: TitleManager.cpp
-msgid "Export"
-msgstr "Exportar"
-
-#: TitleManager.cpp
 msgid "Exports the selected save entry as zip file"
 msgstr "Exporta la entrada de partida guardada seleccionada como archivo ZIP"
 
 #: TitleManager.cpp
 msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
 msgstr ""
-"Se han encontrado {} títulos, {} actualizaciones, {} DLC y {} partidas "
-"guardadas"
+"Encontrados: {} títulos, {} actualizaciones, {} DLC y {} partidas guardadas"
 
 #: TitleManager.cpp
 msgid "Update installation has been canceled!"
@@ -2381,6 +2715,11 @@ msgid ""
 msgstr ""
 "Error al intentar eliminar el directorio de guardado:\n"
 "{}"
+
+#: TitleManager.cpp
+msgid "Select a target file to export the save entry"
+msgstr ""
+"Seleccione un archivo de destino para exportar la entrada de partida guardada"
 
 #: TitleManager.cpp
 msgid ""
@@ -2413,58 +2752,6 @@ msgid ""
 msgstr ""
 "Error al intentar agregar cemu_meta al archivo ZIP:\n"
 "{}"
-
-#: toolMemorySearcher.cpp
-msgid "Memory Searcher"
-msgstr "Rastreador de memoria"
-
-#: toolMemorySearcher.cpp
-msgid "Search"
-msgstr "Buscar"
-
-#: toolMemorySearcher.cpp
-msgid "Results"
-msgstr "Resultados"
-
-#: toolMemorySearcher.cpp
-msgid "address"
-msgstr "dirección"
-
-#: toolMemorySearcher.cpp
-msgid "value"
-msgstr "valor"
-
-#: toolMemorySearcher.cpp
-msgid "Stored Entries"
-msgstr "Entradas guardadas"
-
-#: toolMemorySearcher.cpp
-msgid "description"
-msgstr "descripción"
-
-#: toolMemorySearcher.cpp
-msgid "type"
-msgstr "tipo"
-
-#: toolMemorySearcher.cpp
-msgid "freeze"
-msgstr "congelar"
-
-#: toolMemorySearcher.cpp
-msgid "Your entered value is not valid for the selected datatype."
-msgstr "El valor introducido no es válido para el tipo de dato seleccionado."
-
-#: toolMemorySearcher.cpp
-msgid "&Add new entry"
-msgstr "&Agregar nueva entrada"
-
-#: toolMemorySearcher.cpp
-msgid "&Remove entry"
-msgstr "&Eliminar entrada"
-
-#: toolMemorySearcher.cpp
-msgid "Results ({0})"
-msgstr "Resultados ({0})"
 
 #: VulkanCanvas.cpp
 msgid ""
@@ -2723,6 +3010,10 @@ msgid "&Open directory"
 msgstr "&Abrir directorio"
 
 #: wxTitleManagerList.cpp
+msgid "&Verify integrity of game files"
+msgstr "&Comprobar integridad de archivos del juego"
+
+#: wxTitleManagerList.cpp
 msgid "Fix entry"
 msgstr "Corregir entrada"
 
@@ -2787,9 +3078,6 @@ msgstr ""
 #~ "Desea moverlo a la ubicación correcta:\n"
 #~ "{}"
 
-#~ msgid "Can't open the file."
-#~ msgstr "No se puede abrir el archivo."
-
 #~ msgid "Invalid \"meta.xml\" file."
 #~ msgstr "Archivo \"meta.xml\" no válido."
 
@@ -2850,9 +3138,6 @@ msgstr ""
 
 #~ msgid "&NFP API"
 #~ msgstr "&API NFP"
-
-#~ msgid "Overwrite game profiles"
-#~ msgstr "Sobrescribir perfiles de juego"
 
 #~ msgid ""
 #~ "This will update all available gameprofiles and might delete custom game "
