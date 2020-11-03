@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-10-17 00:18+0200\n"
-"PO-Revision-Date: 2020-11-01 01:55-0500\n"
+"PO-Revision-Date: 2020-11-03 12:00-0500\n"
 "Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -132,7 +132,7 @@ msgstr "japonés"
 
 #: CemuApp.cpp GeneralSettings2.cpp
 msgid "English"
-msgstr "Inglés"
+msgstr "English"
 
 #: CemuApp.cpp
 msgid "French"
@@ -328,7 +328,7 @@ msgstr "Comprobar"
 
 #: ChecksumTool.cpp
 msgid "Verifies the checksum online"
-msgstr "Comprueba la suma de verificación en línea"
+msgstr "Comprueba la suma de comprobación en línea"
 
 #: ChecksumTool.cpp
 msgid "Verify local"
@@ -2326,7 +2326,7 @@ msgstr "Renderi&zar de arriba a abajo"
 
 #: MainWindow.cpp
 msgid "&Async compile (Vulkan)"
-msgstr "&Compilación asíncrona (Vulkan)"
+msgstr "&Compilación asíncrona (sólo Vulkan)"
 
 #: MainWindow.cpp
 msgid "&Experimental"
@@ -2680,7 +2680,7 @@ msgstr ""
 
 #: TitleManager.cpp
 msgid "Irrevocable delete the save entry "
-msgstr "Elimina irrevocablemente la entrada de partida guardada "
+msgstr "Elimina irrevocablemente la entrada de partida guardada"
 
 #: TitleManager.cpp
 msgid "Import"
