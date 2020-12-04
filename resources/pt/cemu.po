@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-10-17 00:18+0200\n"
-"PO-Revision-Date: 2020-10-18 17:02-0300\n"
+"POT-Creation-Date: 2020-12-02 22:42+0100\n"
+"PO-Revision-Date: 2020-12-04 00:42-0300\n"
 "Last-Translator: Lucas Miranda <liddack@outlook.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -172,6 +172,30 @@ msgstr "Taiwanês"
 #: CemuApp.cpp
 msgid "unknown"
 msgstr "desconhecido"
+
+#: CemuApp.cpp
+msgid "AccountId missing (The account is not connected to a NNID)"
+msgstr "AccountId está faltando (a conta não está conectada a um NNID)"
+
+#: CemuApp.cpp
+msgid ""
+"IsPasswordCacheEnabled is set to false (The remember password option on your "
+"Wii U must be enabled for this account before dumping it)"
+msgstr ""
+"IsPasswordCacheEnabled está definido como false (a opção de \"lembrar senha"
+"\" no seu Wii U precisa estar ativada nesta conta antes de extraí-la)"
+
+#: CemuApp.cpp
+msgid ""
+"AccountPasswordCache is empty (The remember password option on your Wii U "
+"must be enabled for this account before dumping it)"
+msgstr ""
+"AccountPasswordCache está vazio (a opção de \"lembrar senha\" no seu Wii U "
+"precisa estar ativada nesta conta antes de extraí-la)"
+
+#: CemuApp.cpp
+msgid "PrincipalId missing"
+msgstr "PrincipalId está faltando"
 
 #: CemuApp.cpp
 msgid ""
@@ -586,6 +610,10 @@ msgstr "ThreadName"
 msgid "GPR"
 msgstr "GPR"
 
+#: debugPPCThreadsWindow.cpp
+msgid "Waiting for"
+msgstr "Aguardando"
+
 #: debugPPCThreadsWindow.cpp textureRelationWindow.cpp TitleManager.cpp
 msgid "Refresh"
 msgstr "Atualizar"
@@ -617,6 +645,10 @@ msgstr "Continuar"
 #: debugPPCThreadsWindow.cpp
 msgid "Suspend"
 msgstr "Suspender"
+
+#: debugPPCThreadsWindow.cpp
+msgid "Write stack trace to log"
+msgstr "Escrever rastreamento de pilha no log"
 
 #: DisasmCtrl.cpp
 msgid "Enter a new instruction."
@@ -713,20 +745,20 @@ msgid "Mode"
 msgstr "Modo"
 
 #: GameProfileWindow.cpp
-msgid "Singlecore-Interpreter"
+msgid "Single-core interpreter"
 msgstr "Interpretador single-core"
 
 #: GameProfileWindow.cpp
-msgid "Singlecore-Recompiler"
+msgid "Single-core recompiler"
 msgstr "Recompilador single-core"
 
 #: GameProfileWindow.cpp
-msgid "Dualcore-Recompiler"
-msgstr "Recompilador dual-core"
+msgid "Multi-core recompiler"
+msgstr "Recompilador multi-core"
 
 #: GameProfileWindow.cpp
-msgid "Triplecore-Recompiler"
-msgstr "Recompilador triple-core"
+msgid "Auto (recommended)"
+msgstr "Automático (recomendado)"
 
 #: GameProfileWindow.cpp
 msgid "Set the CPU emulation mode"
@@ -1076,6 +1108,21 @@ msgstr "VSync"
 #: GeneralSettings2.cpp
 msgid "Controls the vsync state"
 msgstr "Ativa ou desativa a sincronização vertical."
+
+#: GeneralSettings2.cpp
+msgid "Async shader compile"
+msgstr "Compilação assíncrona de shaders"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Enables async shader and pipeline compilation. Reduces stutter at the cost "
+"of objects not rendering for a short time.\n"
+"Vulkan only"
+msgstr ""
+"Ativa a compilação assíncrona de pipelines e shaders. Reduz engasgos "
+"(stuttering), mas os objetos podem demorar alguns instantes para serem "
+"renderizados. \n"
+"Disponível apenas para Vulkan."
 
 #: GeneralSettings2.cpp
 msgid "Full sync at GX2DrawDone()"
@@ -2079,34 +2126,6 @@ msgid "End emulation"
 msgstr "Parar emulação"
 
 #: MainWindow.cpp
-msgid "&Auto"
-msgstr "&Automático"
-
-#: MainWindow.cpp
-msgid "&USA"
-msgstr "&EUA"
-
-#: MainWindow.cpp
-msgid "&Europe"
-msgstr "E&uropa"
-
-#: MainWindow.cpp
-msgid "&Japan"
-msgstr "&Japão"
-
-#: MainWindow.cpp
-msgid "&China"
-msgstr "&China"
-
-#: MainWindow.cpp
-msgid "&Korea"
-msgstr "C&oréia"
-
-#: MainWindow.cpp
-msgid "&Taiwan"
-msgstr "&Taiwan"
-
-#: MainWindow.cpp
 msgid "&English"
 msgstr "&Inglês"
 
@@ -2179,10 +2198,6 @@ msgid "&Active account"
 msgstr "&Conta ativa"
 
 #: MainWindow.cpp
-msgid "&Console region"
-msgstr "Regiã&o do console"
-
-#: MainWindow.cpp
 msgid "&Console language"
 msgstr "&Idioma do console"
 
@@ -2228,6 +2243,10 @@ msgstr "Coreinit &Memory API"
 
 #: MainWindow.cpp
 msgid "&Coreinit MP API"
+msgstr "Coreinit M&P API"
+
+#: MainWindow.cpp
+msgid "&Coreinit Thread API"
 msgstr "Coreinit M&P API"
 
 #: MainWindow.cpp
@@ -2301,14 +2320,6 @@ msgstr "&Despejar"
 #: MainWindow.cpp
 msgid "&Render upside-down"
 msgstr "Renderi&zar de cabeça para baixo"
-
-#: MainWindow.cpp
-msgid "&Async compile (Vulkan)"
-msgstr "Compilação &assíncrona (Vulkan)"
-
-#: MainWindow.cpp
-msgid "&Experimental"
-msgstr "&Experimental"
 
 #: MainWindow.cpp
 msgid "&Open logging window"
@@ -2840,6 +2851,10 @@ msgid "&Edit name"
 msgstr "&Editar nome"
 
 #: wxGameList.cpp
+msgid "&Wiki page"
+msgstr "Página da &wiki"
+
+#: wxGameList.cpp
 msgid "&Game directory"
 msgstr "&Pasta do jogo"
 
@@ -3009,6 +3024,42 @@ msgstr ""
 "Deseja mesmo excluir o seguinte arquivo?\n"
 "{}"
 
+#~ msgid "Singlecore-Interpreter"
+#~ msgstr "Interpretador single-core"
+
+#~ msgid "Triplecore-Recompiler"
+#~ msgstr "Recompilador triple-core"
+
+#~ msgid "&Auto"
+#~ msgstr "&Automático"
+
+#~ msgid "&USA"
+#~ msgstr "&EUA"
+
+#~ msgid "&Europe"
+#~ msgstr "E&uropa"
+
+#~ msgid "&Japan"
+#~ msgstr "&Japão"
+
+#~ msgid "&China"
+#~ msgstr "&China"
+
+#~ msgid "&Korea"
+#~ msgstr "C&oréia"
+
+#~ msgid "&Taiwan"
+#~ msgstr "&Taiwan"
+
+#~ msgid "&Console region"
+#~ msgstr "Regiã&o do console"
+
+#~ msgid "&Async compile (Vulkan)"
+#~ msgstr "Compilação &assíncrona (Vulkan)"
+
+#~ msgid "&Experimental"
+#~ msgstr "&Experimental"
+
 #~ msgid "Extended texture readback"
 #~ msgstr "Releitura de texturas estendida"
 
@@ -3093,9 +3144,6 @@ msgstr ""
 
 #~ msgid "&GPU buffer cache accuracy"
 #~ msgstr "P&recisão do cache do buffer da GPU"
-
-#~ msgid "&Single-core interpreter"
-#~ msgstr "&Interpretador single-core"
 
 #~ msgid "&Single-core recompiler (fast)"
 #~ msgstr "Recompilador &single-core (rápido)"
@@ -3182,9 +3230,6 @@ msgstr ""
 
 #~ msgid "&Cycle based timer"
 #~ msgstr "Timer baseado em &ciclos"
-
-#~ msgid "&Host based timer (recommended)"
-#~ msgstr "Timer baseado no &host (recomendado)"
 
 #~ msgid "&Timer"
 #~ msgstr "&Timer"
