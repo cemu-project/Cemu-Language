@@ -2247,7 +2247,7 @@ msgstr "Coreinit M&P API"
 
 #: MainWindow.cpp
 msgid "&Coreinit Thread API"
-msgstr "Coreinit M&P API"
+msgstr "Coreinit Th&read API"
 
 #: MainWindow.cpp
 msgid "&NN NFP"
