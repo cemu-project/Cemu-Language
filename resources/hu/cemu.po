@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-12-02 22:42+0100\n"
-"PO-Revision-Date: 2020-12-03 17:02+0100\n"
+"PO-Revision-Date: 2020-12-04 20:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -610,7 +610,7 @@ msgstr "GPR"
 
 #: debugPPCThreadsWindow.cpp
 msgid "Waiting for"
-msgstr "Várakozás erre:"
+msgstr "Várakozás oka"
 
 #: debugPPCThreadsWindow.cpp textureRelationWindow.cpp TitleManager.cpp
 msgid "Refresh"
