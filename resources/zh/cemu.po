@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-10-17 00:18+0200\n"
-"PO-Revision-Date: 2020-10-19 00:13+0800\n"
+"POT-Creation-Date: 2020-12-02 22:42+0100\n"
+"PO-Revision-Date: 2020-12-05 10:06+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: bootGame.cpp
@@ -172,6 +172,30 @@ msgstr "繁体中文"
 #: CemuApp.cpp
 msgid "unknown"
 msgstr "未知"
+
+#: CemuApp.cpp
+msgid "AccountId missing (The account is not connected to a NNID)"
+msgstr "AccountId 丢失 (帐户未连接到 NNID)"
+
+#: CemuApp.cpp
+msgid ""
+"IsPasswordCacheEnabled is set to false (The remember password option on your "
+"Wii U must be enabled for this account before dumping it)"
+msgstr ""
+"IsPasswordCacheEnabled 当前设置为 false (在转储此帐户之前， 必须在 Wii U 上为"
+"此帐户启用记住密码选项)"
+
+#: CemuApp.cpp
+msgid ""
+"AccountPasswordCache is empty (The remember password option on your Wii U "
+"must be enabled for this account before dumping it)"
+msgstr ""
+"AccountPasswordCache 为空 (在转储此帐户之前， 必须在 Wii U 上为此帐户启用记住"
+"密码选项)"
+
+#: CemuApp.cpp
+msgid "PrincipalId missing"
+msgstr "缺少 PrincipalId"
 
 #: CemuApp.cpp
 msgid ""
@@ -584,6 +608,10 @@ msgstr "ThreadName"
 msgid "GPR"
 msgstr "GPR"
 
+#: debugPPCThreadsWindow.cpp
+msgid "Waiting for"
+msgstr "正在等待"
+
 #: debugPPCThreadsWindow.cpp textureRelationWindow.cpp TitleManager.cpp
 msgid "Refresh"
 msgstr "刷新"
@@ -615,6 +643,10 @@ msgstr "继续"
 #: debugPPCThreadsWindow.cpp
 msgid "Suspend"
 msgstr "挂起"
+
+#: debugPPCThreadsWindow.cpp
+msgid "Write stack trace to log"
+msgstr "将堆栈跟踪写入日志"
 
 #: DisasmCtrl.cpp
 msgid "Enter a new instruction."
@@ -708,20 +740,20 @@ msgid "Mode"
 msgstr "模式"
 
 #: GameProfileWindow.cpp
-msgid "Singlecore-Interpreter"
+msgid "Single-core interpreter"
 msgstr "单核解释器"
 
 #: GameProfileWindow.cpp
-msgid "Singlecore-Recompiler"
+msgid "Single-core recompiler"
 msgstr "单核重编译器"
 
 #: GameProfileWindow.cpp
-msgid "Dualcore-Recompiler"
-msgstr "双核重编译器"
+msgid "Multi-core recompiler"
+msgstr "多核重编译器"
 
 #: GameProfileWindow.cpp
-msgid "Triplecore-Recompiler"
-msgstr "三核重编译器"
+msgid "Auto (recommended)"
+msgstr "自动 (推荐)"
 
 #: GameProfileWindow.cpp
 msgid "Set the CPU emulation mode"
@@ -1050,6 +1082,19 @@ msgstr "垂直同步"
 #: GeneralSettings2.cpp
 msgid "Controls the vsync state"
 msgstr "控制垂直同步状态"
+
+#: GeneralSettings2.cpp
+msgid "Async shader compile"
+msgstr "异步着色器编译"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Enables async shader and pipeline compilation. Reduces stutter at the cost "
+"of objects not rendering for a short time.\n"
+"Vulkan only"
+msgstr ""
+"启用异步着色器和流水线编译。以短时间内不渲染对象为代价换来减少卡顿。\n"
+"仅适用于 Vulkan"
 
 #: GeneralSettings2.cpp
 msgid "Full sync at GX2DrawDone()"
@@ -2031,34 +2076,6 @@ msgid "End emulation"
 msgstr "停止模拟"
 
 #: MainWindow.cpp
-msgid "&Auto"
-msgstr "自动 (&A)"
-
-#: MainWindow.cpp
-msgid "&USA"
-msgstr "美国 (&U)"
-
-#: MainWindow.cpp
-msgid "&Europe"
-msgstr "欧洲 (&E)"
-
-#: MainWindow.cpp
-msgid "&Japan"
-msgstr "日本 (&J)"
-
-#: MainWindow.cpp
-msgid "&China"
-msgstr "中国 (&C)"
-
-#: MainWindow.cpp
-msgid "&Korea"
-msgstr "韩国 (&K)"
-
-#: MainWindow.cpp
-msgid "&Taiwan"
-msgstr "中国台湾 (&T)"
-
-#: MainWindow.cpp
 msgid "&English"
 msgstr "英语 (&E)"
 
@@ -2131,10 +2148,6 @@ msgid "&Active account"
 msgstr "当前帐户 (&A)"
 
 #: MainWindow.cpp
-msgid "&Console region"
-msgstr "主机地区 (&R)"
-
-#: MainWindow.cpp
 msgid "&Console language"
 msgstr "主机语言 (&L)"
 
@@ -2181,6 +2194,10 @@ msgstr "Coreinit 内存 API (&M)"
 #: MainWindow.cpp
 msgid "&Coreinit MP API"
 msgstr "Coreinit MP API (&C)"
+
+#: MainWindow.cpp
+msgid "&Coreinit Thread API"
+msgstr "Coreinit 线程 API (&X)"
 
 #: MainWindow.cpp
 msgid "&NN NFP"
@@ -2253,14 +2270,6 @@ msgstr "转储 (&D)"
 #: MainWindow.cpp
 msgid "&Render upside-down"
 msgstr "上下反转渲染 (&R)"
-
-#: MainWindow.cpp
-msgid "&Async compile (Vulkan)"
-msgstr "异步编译 (Vulkan) (&A)"
-
-#: MainWindow.cpp
-msgid "&Experimental"
-msgstr "实验性功能 (&E)"
 
 #: MainWindow.cpp
 msgid "&Open logging window"
@@ -2785,6 +2794,10 @@ msgid "&Edit name"
 msgstr "编辑名称 (&E)"
 
 #: wxGameList.cpp
+msgid "&Wiki page"
+msgstr "Wiki 页面 (&W)"
+
+#: wxGameList.cpp
 msgid "&Game directory"
 msgstr "游戏目录 (&G)"
 
@@ -2948,3 +2961,45 @@ msgid ""
 msgstr ""
 "您确定要删除以下文件吗？\n"
 "{}"
+
+#~ msgid "Singlecore-Interpreter"
+#~ msgstr "单核解释器"
+
+#~ msgid "Singlecore-Recompiler"
+#~ msgstr "单核重编译器"
+
+#~ msgid "Dualcore-Recompiler"
+#~ msgstr "双核重编译器"
+
+#~ msgid "Triplecore-Recompiler"
+#~ msgstr "三核重编译器"
+
+#~ msgid "&Auto"
+#~ msgstr "自动 (&A)"
+
+#~ msgid "&USA"
+#~ msgstr "美国 (&U)"
+
+#~ msgid "&Europe"
+#~ msgstr "欧洲 (&E)"
+
+#~ msgid "&Japan"
+#~ msgstr "日本 (&J)"
+
+#~ msgid "&China"
+#~ msgstr "中国 (&C)"
+
+#~ msgid "&Korea"
+#~ msgstr "韩国 (&K)"
+
+#~ msgid "&Taiwan"
+#~ msgstr "中国台湾 (&T)"
+
+#~ msgid "&Console region"
+#~ msgstr "主机地区 (&R)"
+
+#~ msgid "&Async compile (Vulkan)"
+#~ msgstr "异步编译 (Vulkan) (&A)"
+
+#~ msgid "&Experimental"
+#~ msgstr "实验性功能 (&E)"
