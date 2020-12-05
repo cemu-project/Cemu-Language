@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-12-02 22:42+0100\n"
-"PO-Revision-Date: 2020-12-04 10:37+0800\n"
+"PO-Revision-Date: 2020-12-05 10:06+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -175,27 +175,27 @@ msgstr "未知"
 
 #: CemuApp.cpp
 msgid "AccountId missing (The account is not connected to a NNID)"
-msgstr "帐户 ID 丢失 (帐户未连接到 NNID)"
+msgstr "AccountId 丢失 (帐户未连接到 NNID)"
 
 #: CemuApp.cpp
 msgid ""
 "IsPasswordCacheEnabled is set to false (The remember password option on your "
 "Wii U must be enabled for this account before dumping it)"
 msgstr ""
-"IsPasswordCacheEnabled 当前设置为 false (在转储此帐户之前， 必须在Wii U上为此"
-"帐户启用记住密码选项)"
+"IsPasswordCacheEnabled 当前设置为 false (在转储此帐户之前， 必须在 Wii U 上为"
+"此帐户启用记住密码选项)"
 
 #: CemuApp.cpp
 msgid ""
 "AccountPasswordCache is empty (The remember password option on your Wii U "
 "must be enabled for this account before dumping it)"
 msgstr ""
-"AccountPasswordCache 为空 (在转储此帐户之前， 必须在Wii U上为此帐户启用记住密"
-"码选项)"
+"AccountPasswordCache 为空 (在转储此帐户之前， 必须在 Wii U 上为此帐户启用记住"
+"密码选项)"
 
 #: CemuApp.cpp
 msgid "PrincipalId missing"
-msgstr "缺少主 ID"
+msgstr "缺少 PrincipalId"
 
 #: CemuApp.cpp
 msgid ""
@@ -1093,8 +1093,8 @@ msgid ""
 "of objects not rendering for a short time.\n"
 "Vulkan only"
 msgstr ""
-"启用异步着色器和流水线编译。可以减少对象在短时间内无法渲染时的卡顿。\n"
-"仅适用于 Vulkan。"
+"启用异步着色器和流水线编译。以短时间内不渲染对象为代价换来减少卡顿。\n"
+"仅适用于 Vulkan"
 
 #: GeneralSettings2.cpp
 msgid "Full sync at GX2DrawDone()"
