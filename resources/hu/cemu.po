@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-12-02 22:42+0100\n"
-"PO-Revision-Date: 2020-12-04 20:18+0100\n"
+"PO-Revision-Date: 2020-12-05 10:53+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -2283,7 +2283,7 @@ msgstr "&Textúragyorsítótár-figyelmeztetések"
 
 #: MainWindow.cpp
 msgid "&OpenGL debug output"
-msgstr "&OpenGL hibaelháriítási napló"
+msgstr "&OpenGL hibakeresési napló"
 
 #: MainWindow.cpp
 msgid "&Vulkan validation layer (slow)"
@@ -2327,11 +2327,11 @@ msgstr "PPC-&szálak megtekintése"
 
 #: MainWindow.cpp
 msgid "&View PPC debugger"
-msgstr "PPC-&hibaelhárító megnyitása"
+msgstr "PPC-&hibakereső megnyitása"
 
 #: MainWindow.cpp
 msgid "&View audio debugger"
-msgstr "&Hang-hibaelhárító megnyitása"
+msgstr "&Hang-hibakereső megnyitása"
 
 #: MainWindow.cpp
 msgid "&View texture cache info"
@@ -2351,7 +2351,7 @@ msgstr "&WUD fájlrendszer képezése"
 
 #: MainWindow.cpp
 msgid "&Debug"
-msgstr "&Hibaelhárítás"
+msgstr "&Hibakeresés"
 
 #: MainWindow.cpp
 msgid "&Check for updates"
@@ -2575,7 +2575,7 @@ msgstr "Textúragyorsítótár"
 
 #: textureRelationWindow.cpp
 msgid "PhysAddr"
-msgstr "Fizikai cím"
+msgstr "PhysAddr"
 
 #: textureRelationWindow.cpp
 msgid "Dim"
