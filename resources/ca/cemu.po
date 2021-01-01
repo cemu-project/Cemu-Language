@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-12-02 22:42+0100\n"
-"PO-Revision-Date: 2021-01-01 20:06+0100\n"
+"PO-Revision-Date: 2021-01-01 22:09+0100\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -537,7 +537,7 @@ msgstr "&Arxiu"
 
 #: DebuggerWindow2.cpp
 msgid "&Pin to main window"
-msgstr "&Anclar a la finestra principal"
+msgstr "A&nclar a la finestra principal"
 
 #: DebuggerWindow2.cpp
 msgid "Break on &entry point"
@@ -1862,7 +1862,7 @@ msgstr "Creueta"
 
 #: InputPanelGamepad.cpp
 msgid "blow mic"
-msgstr "Bufar micròfon"
+msgstr "bufar micròfon"
 
 #: InputPanelGamepad.cpp
 msgid "show screen"
@@ -2187,7 +2187,7 @@ msgstr "&Pantalla completa"
 
 #: MainWindow.cpp
 msgid "&Graphic packs"
-msgstr "&Paquets gràfics"
+msgstr "Paquets &gràfics"
 
 #: MainWindow.cpp
 msgid "&Separate GamePad view"
@@ -2199,11 +2199,11 @@ msgstr "&Configuració general"
 
 #: MainWindow.cpp
 msgid "&Input settings"
-msgstr "&Configuració d’Entrada"
+msgstr "Configuració d’&Entrada"
 
 #: MainWindow.cpp
 msgid "&Active account"
-msgstr "&Compte actiu"
+msgstr "Compte &actiu"
 
 #: MainWindow.cpp
 msgid "&Console language"
@@ -2263,27 +2263,27 @@ msgstr "&NN NFP"
 
 #: MainWindow.cpp
 msgid "&GX2 API"
-msgstr "&API GX2"
+msgstr "API G&X2"
 
 #: MainWindow.cpp
 msgid "&Audio API"
-msgstr "&API d’Àudio"
+msgstr "API d’&Àudio"
 
 #: MainWindow.cpp
 msgid "&Input API"
-msgstr "&API d’Entrada"
+msgstr "API d’&Entrada"
 
 #: MainWindow.cpp
 msgid "&Socket API"
-msgstr "&API de Socket"
+msgstr "API de &Socket"
 
 #: MainWindow.cpp
 msgid "&Save API"
-msgstr "&API de guardat"
+msgstr "API de &guardat"
 
 #: MainWindow.cpp
 msgid "&H264 API"
-msgstr "&API H264"
+msgstr "API &H264"
 
 #: MainWindow.cpp
 msgid "&Graphic pack patches"
@@ -2315,7 +2315,7 @@ msgstr "&Shaders"
 
 #: MainWindow.cpp
 msgid "&nlibcurl HTTP/HTTPS requests"
-msgstr "&Peticions HTTP/HTTPS nlibcurl"
+msgstr "Peticions &HTTP/HTTPS nlibcurl"
 
 #: MainWindow.cpp
 msgid "&Logging"
@@ -2327,7 +2327,7 @@ msgstr "&Bolcar"
 
 #: MainWindow.cpp
 msgid "&Render upside-down"
-msgstr "&Renderitzar al revés"
+msgstr "Renderit&zar al revés"
 
 #: MainWindow.cpp
 msgid "&Open logging window"
@@ -2335,15 +2335,15 @@ msgstr "&Obrir la finestra del registre"
 
 #: MainWindow.cpp
 msgid "&View PPC threads"
-msgstr "&Veure els fils del PPC"
+msgstr "Veure els &fils del PPC"
 
 #: MainWindow.cpp
 msgid "&View PPC debugger"
-msgstr "&Veure el depurador del PPC"
+msgstr "Veure el &depurador del PPC"
 
 #: MainWindow.cpp
 msgid "&View audio debugger"
-msgstr "&Veure el depurador d’àudio"
+msgstr "Veure el depurador d’&àudio"
 
 #: MainWindow.cpp
 msgid "&View texture cache info"
@@ -2351,15 +2351,15 @@ msgstr "&Veure informació sobre el cache de textures"
 
 #: MainWindow.cpp
 msgid "&Show frame profiler"
-msgstr "&Veure el mesurador de fotogrames"
+msgstr "Veure el &mesurador de fotogrames"
 
 #: MainWindow.cpp
 msgid "&Dump current RAM"
-msgstr "&Bolcar la RAM actual"
+msgstr "Bolcar la &RAM actual"
 
 #: MainWindow.cpp
 msgid "&Dump WUD filesystem"
-msgstr "&Bolcar el sistema d’arxius WUD"
+msgstr "Bolcar el sistema d’arxius &WUD"
 
 #: MainWindow.cpp
 msgid "&Debug"
@@ -2483,7 +2483,7 @@ msgstr "&Anar a Disasm"
 
 #: RegisterWindow.cpp
 msgid "G&oto Dump"
-msgstr "&Anar al Bolcat"
+msgstr "A&nar al Bolcat"
 
 #: SaveImportWindow.cpp
 msgid "Import save entry"
@@ -2678,7 +2678,7 @@ msgstr ""
 
 #: TitleManager.cpp
 msgid "Irrevocable delete the save entry "
-msgstr "Elimina irrevocablement l’entrada de partida guardada"
+msgstr "Elimina irrevocablement l’entrada de partida guardada "
 
 #: TitleManager.cpp
 msgid "Import"
@@ -2869,19 +2869,19 @@ msgstr "&Pàgina de la Wiki"
 
 #: wxGameList.cpp
 msgid "&Game directory"
-msgstr "&Directori del joc"
+msgstr "Directori del &joc"
 
 #: wxGameList.cpp
 msgid "&Save directory"
-msgstr "&Directori de partides guardades"
+msgstr "Directori de partides &guardades"
 
 #: wxGameList.cpp
 msgid "&Update directory"
-msgstr "&Directori d’actualitzacions"
+msgstr "Directori d’&actualitzacions"
 
 #: wxGameList.cpp
 msgid "&DLC directory"
-msgstr "&Directori de DLC"
+msgstr "Directori de &DLC"
 
 #: wxGameList.cpp
 msgid "&Edit graphic packs"
@@ -2905,11 +2905,11 @@ msgstr "Estil: &Icones"
 
 #: wxGameList.cpp
 msgid "Style: &Small Icons"
-msgstr "Estil: &Icones Petites"
+msgstr "Estil: Icones &Petites"
 
 #: wxGameList.cpp
 msgid "Reset &width"
-msgstr "Restablir &ample"
+msgstr "Restablir a&mple"
 
 #: wxGameList.cpp
 msgid "Reset &order"
