@@ -1122,7 +1122,7 @@ msgid ""
 "Vulkan only"
 msgstr ""
 "Schakelt de asynchrone shader en pipeline compilatie in. Verminderd "
-"happeringen op kosten dat sommige objecten niet zullen worden weergegeven "
+"haperingen op kosten dat sommige objecten niet zullen worden weergegeven "
 "voor een korte periode.\n"
 "Alleen beschikbaar met Vulkan"
 
