@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
-"POT-Creation-Date: 2020-08-22 03:20+0200\n"
-"PO-Revision-Date: 2021-05-30 13:28+0200\n"
+"POT-Creation-Date: 2020-12-02 22:42+0100\n"
+"PO-Revision-Date: 2021-05-30 13:50+0200\n"
 "Last-Translator: Crementif\n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -176,6 +176,30 @@ msgid "unknown"
 msgstr "onbekend"
 
 #: CemuApp.cpp
+msgid "AccountId missing (The account is not connected to a NNID)"
+msgstr "AccountId ontbreekt (Het account is niet verbonden met een NNID)"
+
+#: CemuApp.cpp
+msgid ""
+"IsPasswordCacheEnabled is set to false (The remember password option on your "
+"Wii U must be enabled for this account before dumping it)"
+msgstr ""
+"IsPasswordCacheEnabled optie is niet waar (De onthoud wachtwoord optie op je "
+"Wii U moet worden aangezet voordat je de account bestanden dumpt)"
+
+#: CemuApp.cpp
+msgid ""
+"AccountPasswordCache is empty (The remember password option on your Wii U "
+"must be enabled for this account before dumping it)"
+msgstr ""
+"AccountPasswordCache is leeg (De onthoud wachtwoord optie op je Wii U moet "
+"worden aangezet voordat je de account bestanden dumpt)"
+
+#: CemuApp.cpp
+msgid "PrincipalId missing"
+msgstr "PrincipalId ontbreekt"
+
+#: CemuApp.cpp
 msgid ""
 "Your mlc01 folder seems to be missing.\n"
 "\n"
@@ -246,9 +270,9 @@ msgstr ""
 
 #: CemuApp.cpp ChecksumTool.cpp DownloadGraphicPacksWindow.cpp DumpCtrl.cpp
 #: GameUpdateWindow.cpp GeneralSettings2.cpp gpu7ShaderCache.cpp helpers.cpp
-#: InputSettings.cpp MainWindow.cpp SaveImportWindow.cpp SaveTransfer.cpp
-#: TitleManager.cpp toolMemorySearcher.cpp VulkanCanvas.cpp
-#: wxCreateAccountDialog.cpp wxTitleManagerList.cpp
+#: InputSettings.cpp MainWindow.cpp MemorySearcherTool.cpp SaveImportWindow.cpp
+#: SaveTransfer.cpp TitleManager.cpp VulkanCanvas.cpp wxCreateAccountDialog.cpp
+#: wxTitleManagerList.cpp
 msgid "Error"
 msgstr "Foutmelding"
 
@@ -513,6 +537,10 @@ msgstr "&Bestand"
 msgid "&Pin to main window"
 msgstr "&Vastmaken aan hoofd venster"
 
+#: DebuggerWindow2.cpp
+msgid "Break on &entry point"
+msgstr "Breek op &start punt"
+
 #: DebuggerWindow2.cpp MainWindow.cpp
 msgid "&Options"
 msgstr "&Opties"
@@ -585,6 +613,10 @@ msgstr "ThreadName"
 msgid "GPR"
 msgstr "GPR"
 
+#: debugPPCThreadsWindow.cpp
+msgid "Waiting for"
+msgstr "Wachtend op"
+
 #: debugPPCThreadsWindow.cpp textureRelationWindow.cpp TitleManager.cpp
 msgid "Refresh"
 msgstr "Vernieuw"
@@ -616,6 +648,10 @@ msgstr "Resumeren"
 #: debugPPCThreadsWindow.cpp
 msgid "Suspend"
 msgstr "Suspenderen"
+
+#: debugPPCThreadsWindow.cpp
+msgid "Write stack trace to log"
+msgstr "Schrijf stacktracering naar log"
 
 #: DisasmCtrl.cpp
 msgid "Enter a new instruction."
@@ -711,20 +747,20 @@ msgid "Mode"
 msgstr "Modus"
 
 #: GameProfileWindow.cpp
-msgid "Singlecore-Interpreter"
-msgstr "Singlecore-Interpreter"
+msgid "Single-core interpreter"
+msgstr "Single-core interpreter"
 
 #: GameProfileWindow.cpp
-msgid "Singlecore-Recompiler"
-msgstr "Singlecore-Recompiler (snel)"
+msgid "Single-core recompiler"
+msgstr "Single-core recompiler"
 
 #: GameProfileWindow.cpp
-msgid "Dualcore-Recompiler"
-msgstr "Dualcore-Recompiler"
+msgid "Multi-core recompiler"
+msgstr "Multi-core recompiler"
 
 #: GameProfileWindow.cpp
-msgid "Triplecore-Recompiler"
-msgstr "Triplecore-Recompiler (snel)"
+msgid "Auto (recommended)"
+msgstr "Automatisch (Aangeraden)"
 
 #: GameProfileWindow.cpp
 msgid "Set the CPU emulation mode"
@@ -1074,6 +1110,21 @@ msgstr "VSync"
 #: GeneralSettings2.cpp
 msgid "Controls the vsync state"
 msgstr "Beheerd de vsync status"
+
+#: GeneralSettings2.cpp
+msgid "Async shader compile"
+msgstr "Asynchrone shader compilatie"
+
+#: GeneralSettings2.cpp
+msgid ""
+"Enables async shader and pipeline compilation. Reduces stutter at the cost "
+"of objects not rendering for a short time.\n"
+"Vulkan only"
+msgstr ""
+"Schakelt de asynchrone shader en pipeline compilatie in. Verminderd "
+"happeringen op kosten dat sommige objecten niet zullen worden weergegeven "
+"voor een korte periode.\n"
+"Alleen beschikbaar met Vulkan"
 
 #: GeneralSettings2.cpp
 msgid "Full sync at GX2DrawDone()"
@@ -1742,8 +1793,8 @@ msgstr "Gebruik bestaande cache"
 msgid "Create new cache [recommended]"
 msgstr "Creëer nieuwe cache [aangeraden]"
 
-#: GraphicPacksWindow2.cpp LoggingWindow.cpp TitleManager.cpp
-#: toolMemorySearcher.cpp
+#: GraphicPacksWindow2.cpp LoggingWindow.cpp MemorySearcherTool.cpp
+#: TitleManager.cpp
 msgid "Filter"
 msgstr "Filter"
 
@@ -1886,7 +1937,7 @@ msgstr "Kalibreer"
 msgid "Reset the default state of the controller"
 msgstr "Teruggaan naar standaard staat van de controller"
 
-#: InputSettings.cpp toolMemorySearcher.cpp
+#: InputSettings.cpp MemorySearcherTool.cpp
 msgid "Clear"
 msgstr "Wis"
 
@@ -2084,34 +2135,6 @@ msgid "End emulation"
 msgstr "Stop emulatie"
 
 #: MainWindow.cpp
-msgid "&Auto"
-msgstr "&Automatisch"
-
-#: MainWindow.cpp
-msgid "&USA"
-msgstr "&Verenigde Staten"
-
-#: MainWindow.cpp
-msgid "&Europe"
-msgstr "&Europa"
-
-#: MainWindow.cpp
-msgid "&Japan"
-msgstr "&Japan"
-
-#: MainWindow.cpp
-msgid "&China"
-msgstr "&China"
-
-#: MainWindow.cpp
-msgid "&Korea"
-msgstr "&Korea"
-
-#: MainWindow.cpp
-msgid "&Taiwan"
-msgstr "&Taiwan"
-
-#: MainWindow.cpp
 msgid "&English"
 msgstr "&Engels"
 
@@ -2184,10 +2207,6 @@ msgid "&Active account"
 msgstr "&Actief account"
 
 #: MainWindow.cpp
-msgid "&Console region"
-msgstr "&Console regio"
-
-#: MainWindow.cpp
 msgid "&Console language"
 msgstr "&Console taal"
 
@@ -2234,6 +2253,10 @@ msgstr "&Coreinit Memory API"
 #: MainWindow.cpp
 msgid "&Coreinit MP API"
 msgstr "&Coreinit MP API"
+
+#: MainWindow.cpp
+msgid "&Coreinit Thread API"
+msgstr "&Coreinit thread API"
 
 #: MainWindow.cpp
 msgid "&NN NFP"
@@ -2308,14 +2331,6 @@ msgid "&Render upside-down"
 msgstr "&Geef op zijn kop weer"
 
 #: MainWindow.cpp
-msgid "&Async compile (Vulkan)"
-msgstr "&Asynchrone compilatie (Vulkan)"
-
-#: MainWindow.cpp
-msgid "&Experimental"
-msgstr "&Experimenteel"
-
-#: MainWindow.cpp
 msgid "&Open logging window"
 msgstr "&Open log scherm"
 
@@ -2386,6 +2401,59 @@ msgstr "seeprom.bin is corrupt of heeft een onjuiste grootte"
 #: MainWindow.cpp
 msgid "Unknown error occured"
 msgstr "Onbekende foutmelding heeft getroffen"
+
+#: MemorySearcherTool.cpp
+msgid "Memory Searcher"
+msgstr "Geheugen Zoeker"
+
+#: MemorySearcherTool.cpp
+msgid "Search"
+msgstr "Zoek"
+
+#: MemorySearcherTool.cpp
+msgid "Results"
+msgstr "Resultaten"
+
+#: MemorySearcherTool.cpp
+msgid "address"
+msgstr "adres"
+
+#: MemorySearcherTool.cpp
+msgid "value"
+msgstr "waarde"
+
+#: MemorySearcherTool.cpp
+msgid "Stored Entries"
+msgstr "Opgeslagen Items"
+
+#: MemorySearcherTool.cpp
+msgid "description"
+msgstr "descriptie"
+
+#: MemorySearcherTool.cpp
+msgid "type"
+msgstr "type"
+
+#: MemorySearcherTool.cpp
+msgid "freeze"
+msgstr "vasthouden"
+
+#: MemorySearcherTool.cpp
+msgid "Your entered value is not valid for the selected datatype."
+msgstr ""
+"Je geselecteerde waarde is niet geldig voor het geselecteerde datatype."
+
+#: MemorySearcherTool.cpp
+msgid "&Add new entry"
+msgstr "&Voeg nieuw item toe"
+
+#: MemorySearcherTool.cpp
+msgid "&Remove entry"
+msgstr "&Verwijder item"
+
+#: MemorySearcherTool.cpp
+msgid "Results ({0})"
+msgstr "Resultaten ({0})"
 
 #: ModuleWindow.cpp wxTitleManagerList.cpp
 msgid "Name"
@@ -2681,59 +2749,6 @@ msgstr ""
 "Fout tijdens het toevoegen van cemu_meta aan het zip bestand:\n"
 "{}"
 
-#: toolMemorySearcher.cpp
-msgid "Memory Searcher"
-msgstr "Geheugen Zoeker"
-
-#: toolMemorySearcher.cpp
-msgid "Search"
-msgstr "Zoek"
-
-#: toolMemorySearcher.cpp
-msgid "Results"
-msgstr "Resultaten"
-
-#: toolMemorySearcher.cpp
-msgid "address"
-msgstr "adres"
-
-#: toolMemorySearcher.cpp
-msgid "value"
-msgstr "waarde"
-
-#: toolMemorySearcher.cpp
-msgid "Stored Entries"
-msgstr "Opgeslagen Items"
-
-#: toolMemorySearcher.cpp
-msgid "description"
-msgstr "descriptie"
-
-#: toolMemorySearcher.cpp
-msgid "type"
-msgstr "type"
-
-#: toolMemorySearcher.cpp
-msgid "freeze"
-msgstr "vasthouden"
-
-#: toolMemorySearcher.cpp
-msgid "Your entered value is not valid for the selected datatype."
-msgstr ""
-"Je geselecteerde waarde is niet geldig voor het geselecteerde datatype."
-
-#: toolMemorySearcher.cpp
-msgid "&Add new entry"
-msgstr "&Voeg nieuw item toe"
-
-#: toolMemorySearcher.cpp
-msgid "&Remove entry"
-msgstr "&Verwijder item"
-
-#: toolMemorySearcher.cpp
-msgid "Results ({0})"
-msgstr "Resultaten ({0})"
-
 #: VulkanCanvas.cpp
 msgid ""
 "Error when initializing Vulkan renderer:\n"
@@ -2845,6 +2860,10 @@ msgstr "&Favoriet"
 #: wxGameList.cpp
 msgid "&Edit name"
 msgstr "&Bewerk naam"
+
+#: wxGameList.cpp
+msgid "&Wiki page"
+msgstr "&Wiki pagina"
 
 #: wxGameList.cpp
 msgid "&Game directory"
@@ -3017,6 +3036,42 @@ msgstr ""
 "Weet je zeker dat je het volgende bestand wilt verwijderen:\n"
 "{}"
 
+#~ msgid "Singlecore-Interpreter"
+#~ msgstr "Singlecore-Interpreter"
+
+#~ msgid "Triplecore-Recompiler"
+#~ msgstr "Triplecore-Recompiler (snel)"
+
+#~ msgid "&Auto"
+#~ msgstr "&Automatisch"
+
+#~ msgid "&USA"
+#~ msgstr "&Verenigde Staten"
+
+#~ msgid "&Europe"
+#~ msgstr "&Europa"
+
+#~ msgid "&Japan"
+#~ msgstr "&Japan"
+
+#~ msgid "&China"
+#~ msgstr "&China"
+
+#~ msgid "&Korea"
+#~ msgstr "&Korea"
+
+#~ msgid "&Taiwan"
+#~ msgstr "&Taiwan"
+
+#~ msgid "&Console region"
+#~ msgstr "&Console regio"
+
+#~ msgid "&Async compile (Vulkan)"
+#~ msgstr "&Asynchrone compilatie (Vulkan)"
+
+#~ msgid "&Experimental"
+#~ msgstr "&Experimenteel"
+
 #~ msgid ""
 #~ "Cemu detected a DLC installed at a wrong or outdated location:\n"
 #~ "{}\n"
@@ -3120,9 +3175,6 @@ msgstr ""
 #~ msgid "&GPU buffer cache accuracy"
 #~ msgstr "&GPU buffer cache accuraatheid"
 
-#~ msgid "&Single-core interpreter"
-#~ msgstr "&Single-core interpreter"
-
 #~ msgid "&Single-core recompiler (fast)"
 #~ msgstr "&Single-core recompiler (snel)"
 
@@ -3183,9 +3235,6 @@ msgstr ""
 
 #~ msgid "&Cycle based timer"
 #~ msgstr "&Cyclus gebaseerde klok"
-
-#~ msgid "&Host based timer (recommended)"
-#~ msgstr "&Host gebaseerde klok (aanbevolen)"
 
 #~ msgid "&Timer"
 #~ msgstr "&Klok"
