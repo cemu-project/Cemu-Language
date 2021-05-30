@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2020-08-22 03:20+0200\n"
-"PO-Revision-Date: 2020-09-07 19:06+0200\n"
+"PO-Revision-Date: 2021-05-30 13:28+0200\n"
 "Last-Translator: Crementif\n"
 "Language-Team: \n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: bootGame.cpp
@@ -332,7 +332,7 @@ msgstr "Verifieer lokaal"
 #: ChecksumTool.cpp
 msgid "Verifies the checksum with a local json file you can select"
 msgstr ""
-"Verifieert de controlesom met een lokaal json bestand die je kan selecteren"
+"Verifieert de controlesom met een lokaal JSON bestand die je kan selecteren"
 
 #: ChecksumTool.cpp TitleManager.cpp
 msgid "Export"
@@ -341,7 +341,7 @@ msgstr "Exporteer"
 #: ChecksumTool.cpp
 msgid "Export the title checksum data to a local json file"
 msgstr ""
-"Exporteert de data van de titel controlesom naar een lokaal json bestand"
+"Exporteert de data van de titel controlesom naar een lokaal JSON bestand"
 
 #: ChecksumTool.cpp
 msgid "Export checksum entry"
@@ -361,7 +361,7 @@ msgstr "JSON bestand voldoet niet aan het verplichte formaat"
 
 #: ChecksumTool.cpp
 msgid "Wrong title id: {}"
-msgstr "Verkeerde titel ID:"
+msgstr "Verkeerde titel ID: {}"
 
 #: ChecksumTool.cpp
 msgid "Wrong version: {}"
@@ -373,7 +373,7 @@ msgstr "Verkeerde regio: {}"
 
 #: ChecksumTool.cpp
 msgid "The verification data doesn't include a wud hash!"
-msgstr "De verificatie data heeft geen wud controlesom!"
+msgstr "De verificatie data heeft geen WUD controlesom!"
 
 #: ChecksumTool.cpp
 msgid ""
@@ -385,7 +385,7 @@ msgid ""
 "Expected hash:\n"
 "{}"
 msgstr ""
-"Jouw game rom is niet geldig!\n"
+"Jouw game bestanden zijn niet geldig!\n"
 "\n"
 "Jouw controlesom:\n"
 "{}\n"
@@ -411,7 +411,7 @@ msgid ""
 "Do you want to export a list of them to a file?"
 msgstr ""
 "{} bestanden ontbreken!\n"
-"Wil je een lijst exporteren hiervan exporteren naar een bestand?"
+"Wil je een lijst hiervan exporteren naar een bestand?"
 
 #: ChecksumTool.cpp
 msgid ""
@@ -443,7 +443,7 @@ msgstr "Kan bestand niet openen!"
 
 #: ChecksumTool.cpp
 msgid "Can't parse json file!"
-msgstr "Kan json bestand niet parseren!"
+msgstr "Kan JSON bestand niet parseren!"
 
 #: ChecksumTool.cpp
 msgid "Open checksum entry"
@@ -467,7 +467,7 @@ msgstr "Lezen van game schijfkopie: {}"
 
 #: ChecksumTool.cpp
 msgid "Reading game image: {}/{}kb"
-msgstr "Lezen game schijfkopie: {}/{}kb"
+msgstr "Lezen game bestanden: {}/{} kb"
 
 #: ChecksumTool.cpp
 msgid "Generating checksum of game image: {}"
@@ -2465,7 +2465,9 @@ msgstr ""
 msgid ""
 "There's already a file at the target directory:\n"
 "{}"
-msgstr "Er is al een bestand op de doel locatie: {}"
+msgstr ""
+"Er is al een bestand op de doel locatie:\n"
+"{}"
 
 #: SaveImportWindow.cpp SaveTransfer.cpp
 msgid ""
@@ -2510,7 +2512,9 @@ msgstr "Save overdracht"
 msgid ""
 "Error when trying to move the save game:\n"
 "{}"
-msgstr "Error tijdens het verplaatsen van het save bestand: {}"
+msgstr ""
+"Error tijdens het verplaatsen van het save bestand:\n"
+"{}"
 
 #: textureRelationWindow.cpp
 msgid "Texture cache"
@@ -2607,7 +2611,7 @@ msgstr ""
 
 #: TitleManager.cpp
 msgid "Irrevocable delete the save entry "
-msgstr "Save onomkeerbaar verwijderen"
+msgstr "Save onomkeerbaar verwijderen "
 
 #: TitleManager.cpp
 msgid "Import"
@@ -2623,7 +2627,7 @@ msgstr "Exporteert de geselecteerde save als zip bestand"
 
 #: TitleManager.cpp
 msgid "Found {} titles, {} updates, {} DLCs and {} save entries"
-msgstr "Gevonden: {} titels, {} updates, {} DLCs en {} save items"
+msgstr "Gevonden: {} games, {} updates, {} DLCs en {} save items"
 
 #: TitleManager.cpp
 msgid "Update installation has been canceled!"
@@ -2926,8 +2930,8 @@ msgstr "Titel ID"
 msgid ""
 "There's an wrong title installed at the target location, should we fix that?"
 msgstr ""
-"Er is een verkeerde titel geïnstalleerd op de doel locatie. Do you want Cemu "
-"to fix that?"
+"Er is een verkeerde titel geïnstalleerd op de doel locatie. Moet Cemu dit "
+"repareren?"
 
 #: wxTitleManagerList.cpp
 msgid ""
