@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2021-07-16 19:03+0200\n"
-"PO-Revision-Date: 2021-07-20 23:49+0800\n"
+"PO-Revision-Date: 2021-07-25 21:44+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -667,11 +667,11 @@ msgstr "解压中 ..."
 
 #: DownloadManager.cpp:361
 msgid "Downloading account ticket"
-msgstr "下载账户票据中 ..."
+msgstr "下载账户票证 (Tickets) 中 ..."
 
 #: DownloadManager.cpp:414
 msgid "Downloading system tickets..."
-msgstr "下载系统票据中 ..."
+msgstr "下载系统票证 (Tickets) 中 ..."
 
 #: DownloadManager.cpp:476
 msgid "Retrieving update information..."
@@ -679,7 +679,7 @@ msgstr "检索更新信息中 ..."
 
 #: DownloadManager.cpp:498
 msgid "Downloading ticket"
-msgstr "下载票据中 ..."
+msgstr "下载票证 (Tickets) 中 ..."
 
 #: DownloadManager.cpp:551
 msgid "Downloading meta data"
@@ -703,11 +703,11 @@ msgstr "查询账户状态失败。账户信息是否无效？"
 
 #: DownloadManager.cpp:667
 msgid "Updating ticket cache"
-msgstr "更新票据缓存中 ..."
+msgstr "更新票证 (Tickets) 缓存中 ..."
 
 #: DownloadManager.cpp:672
 msgid "Failed to request tickets (invalid NNID?)"
-msgstr "请求票据失败了 (NNID 无效?)"
+msgstr "请求票证 (Tickets) 失败了 (NNID 无效?)"
 
 #: DownloadManager.cpp:697
 msgid "This account is not linked with an NNID"
@@ -2180,7 +2180,7 @@ msgstr "Coreinit 内存 API (&M)"
 
 #: MainWindow.cpp:1829
 msgid "&Coreinit MP API"
-msgstr "Coreinit MP API (&C)"
+msgstr "Coreinit MP API (&P)"
 
 #: MainWindow.cpp:1830
 msgid "&Coreinit Thread API"
@@ -2216,11 +2216,11 @@ msgstr "H264 API (&H)"
 
 #: MainWindow.cpp:1839
 msgid "&Graphic pack patches"
-msgstr "图形插件补丁 (&G)"
+msgstr "图形插件补丁 (&R)"
 
 #: MainWindow.cpp:1840
 msgid "&Texture cache warnings"
-msgstr "纹理缓存警告 (&T)"
+msgstr "纹理缓存警告 (&W)"
 
 #: MainWindow.cpp:1842
 msgid "&OpenGL debug output"
