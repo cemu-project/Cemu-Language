@@ -2873,6 +2873,10 @@ msgstr "显示 地区 (&R)"
 msgid "You can configure game paths in the general settings."
 msgstr "可在通用设置中设定游戏路径。"
 
+#: wxGameList.cpp
+msgid "Enter a custom game title"
+msgstr "输入自定义游戏名称"
+
 #: wxTitleManagerList.cpp
 msgid "Title id"
 msgstr "档案 ID"
