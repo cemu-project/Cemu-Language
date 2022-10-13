@@ -146,7 +146,7 @@ msgstr "Überprüfen der Integrität von Spieldateien..."
 
 #: src/gui/ChecksumTool.cpp:121 src/gui/GraphicPacksWindow2.cpp:275
 msgid "Control"
-msgstr "Steuerung"
+msgstr "Echter Controller"
 
 #: src/gui/ChecksumTool.cpp:124
 msgid "Verify online"
@@ -1639,7 +1639,7 @@ msgstr "Grafik"
 #: src/gui/GameProfileWindow.cpp:169 src/gui/GameProfileWindow.cpp:183
 #: src/gui/input/InputSettings2.cpp:217 src/gui/input/InputAPIAddWindow.cpp:53
 msgid "Controller"
-msgstr "Steuerung"
+msgstr "Echter Controller"
 
 #: src/gui/GameProfileWindow.cpp:174
 msgid "Forces a given controller profile"
@@ -1651,7 +1651,7 @@ msgstr "GamePad-Ansicht"
 
 #: src/gui/GameUpdateWindow.cpp:19 src/gui/components/wxGameList.cpp:399
 msgid "DLC"
-msgstr "Dlc"
+msgstr "DLC"
 
 #: src/gui/GameUpdateWindow.cpp:21
 msgid "Base game"
@@ -2818,7 +2818,7 @@ msgstr "Möchten Sie die heruntergeladenen Grafikpakete anzeigen?"
 
 #: src/gui/input/InputSettings2.cpp:82
 msgid "Controller {}"
-msgstr "Verantwortlicher {}"
+msgstr "Controller {}"
 
 #: src/gui/input/InputSettings2.cpp:146
 msgid "Profile"
@@ -2922,7 +2922,7 @@ msgstr "MotionPlus"
 #: src/gui/input/settings/WiimoteControllerSettings.cpp:86
 #: src/gui/input/settings/WiimoteControllerSettings.cpp:290
 msgid "Nunchuck"
-msgstr "Nunchuck |"
+msgstr "Nunchuck"
 
 #: src/gui/input/panels/WiimoteInputPanel.cpp:52
 #: src/gui/input/settings/WiimoteControllerSettings.cpp:129
@@ -2932,7 +2932,7 @@ msgstr "Klassisch"
 
 #: src/gui/input/panels/VPADInputPanel.cpp:135
 msgid "blow mic"
-msgstr "Blasmikrofon"
+msgstr "Mikrofon"
 
 #: src/gui/input/panels/VPADInputPanel.cpp:138
 msgid "show screen"
@@ -3209,7 +3209,7 @@ msgstr "Spiel"
 
 #: src/gui/components/wxGameList.cpp:406
 msgid "You've played"
-msgstr "Du hast gespielt"
+msgstr "Gesamte Spielzeit"
 
 #: src/gui/components/wxGameList.cpp:412
 msgid "Last played"
