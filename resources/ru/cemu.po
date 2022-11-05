@@ -391,7 +391,7 @@ msgstr "Извлечение..."
 
 #: DumpCtrl.cpp RegisterCtrl.cpp RegisterWindow.cpp
 msgid "Enter a new value."
-msgstr "Введите повое значение."
+msgstr "Введите новое значение."
 
 #: GameProfileWindow.cpp
 msgid "Edit game profile"
@@ -917,7 +917,7 @@ msgstr "Слева вверху"
 
 #: GeneralSettings2.cpp
 msgid "Top center"
-msgstr "По-центру вверху"
+msgstr "По центру вверху"
 
 #: GeneralSettings2.cpp
 msgid "Top right"
@@ -929,7 +929,7 @@ msgstr "Слева внизу"
 
 #: GeneralSettings2.cpp
 msgid "Bottom center"
-msgstr "По-центру внизу"
+msgstr "По центру внизу"
 
 #: GeneralSettings2.cpp
 msgid "Bottom right"
@@ -1253,7 +1253,7 @@ msgstr ""
 "Хранимый кэш шейдеров для этой игры был создан на Cemu версии до 1.16.0.\n"
 "\n"
 "Нет никаких существенных недостатков в повторном использовании существующего "
-"кэша, но он может содержать лишние включение, которые больше не используются "
+"кэша, но он может содержать лишние включения, которые больше не используются "
 "текущими версиями Cemu.\n"
 "\n"
 "Настоятельно рекомендуется создать новый кэш. Обратите внимание, что новый "
@@ -1467,7 +1467,7 @@ msgstr "Обновление установлено!"
 
 #: MainWindow.cpp
 msgid "Update installation has been canceled!"
-msgstr "Обновление установки отменено!"
+msgstr "Установка обновления отменена!"
 
 #: MainWindow.cpp
 msgid "Update error"
@@ -1652,7 +1652,7 @@ msgstr "&Точность кэша буфера GPU"
 
 #: MainWindow.cpp
 msgid "&Separate GamePad view"
-msgstr "&Отдельое окно Геймпада"
+msgstr "&Отдельное окно геймпада"
 
 #: MainWindow.cpp
 msgid "&General settings"
@@ -2043,7 +2043,7 @@ msgstr "Не введен persistent id!"
 
 #: wxCreateAccountDialog.cpp
 msgid "The persistent id must be greater than {:x}!"
-msgstr "Persistent id должен быть брльше {:x}!"
+msgstr "Persistent id должен быть больше {:x}!"
 
 #: wxCreateAccountDialog.cpp
 msgid "The persistent id {:x} is already in use by account {}!"
