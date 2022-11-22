@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-09-25 00:19+0200\n"
+"PO-Revision-Date: 2022-11-22 09:52+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -2861,7 +2861,7 @@ msgstr "Réglages"
 #: src/gui/input/settings/DefaultControllerSettings.cpp:202
 #: src/gui/input/settings/WiimoteControllerSettings.cpp:220
 msgid "Calibrate"
-msgstr "Calibrer"
+msgstr "Étalonner"
 
 #: src/gui/input/InputSettings2.cpp:258 src/gui/MemorySearcherTool.cpp:204
 msgid "Clear"
