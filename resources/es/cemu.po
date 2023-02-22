@@ -961,11 +961,11 @@ msgstr "Mostrar instalados"
 
 #: src/gui/TitleManager.cpp:222
 msgid "Title manager"
-msgstr "Director de título"
+msgstr "Administrador de títulos"
 
 #: src/gui/TitleManager.cpp:229
 msgid "Title Manager"
-msgstr "Responsable de título"
+msgstr "Administrador de títulos"
 
 #: src/gui/TitleManager.cpp:230
 msgid "Download Manager"
@@ -1468,7 +1468,7 @@ msgstr ""
 
 #: src/gui/GameProfileWindow.cpp:19 src/gui/GameProfileWindow.cpp:247
 msgid "Edit game profile"
-msgstr "Editar perfil de juego"
+msgstr "Configuración del juego"
 
 #: src/gui/GameProfileWindow.cpp:36 src/gui/GameProfileWindow.cpp:91
 #: src/gui/GeneralSettings2.cpp:226 src/gui/GeneralSettings2.cpp:305
@@ -1673,7 +1673,7 @@ msgstr "Instalando actualización..."
 
 #: src/gui/GameUpdateWindow.cpp:173
 msgid "Installing system title..."
-msgstr "Instalar título del sistema..."
+msgstr "Instalando título del sistema..."
 
 #: src/gui/GameUpdateWindow.cpp:175
 msgid "Installing title..."
@@ -2681,7 +2681,7 @@ msgstr "Abrir la pantalla de la almohadilla separada"
 
 #: src/gui/GettingStartedDialog.cpp:161
 msgid "Don't show this again"
-msgstr "No vuelvas a mostrar esto"
+msgstr "No volver a mostrar esto"
 
 #: src/gui/GettingStartedDialog.cpp:165
 msgid "Previous"
@@ -3091,7 +3091,7 @@ msgstr "Región"
 
 #: src/gui/components/wxGameList.cpp:501
 msgid "&Start"
-msgstr "&Comenzar"
+msgstr "&Iniciar"
 
 #: src/gui/components/wxGameList.cpp:507
 msgid "&Favorite"
@@ -3127,7 +3127,7 @@ msgstr "&Editar paquetes gráficos"
 
 #: src/gui/components/wxGameList.cpp:519
 msgid "&Edit game profile"
-msgstr "&Editar perfil de juego"
+msgstr "&Editar configuración del juego"
 
 #: src/gui/components/wxGameList.cpp:525
 msgid "&Refresh game list"
@@ -3392,9 +3392,9 @@ msgstr "derecha"
 #: src/input/emulated/ProController.cpp:82 src/input/emulated/ProController.cpp:83
 #: src/input/emulated/VPADController.cpp:374 src/input/emulated/VPADController.cpp:375
 msgid "click"
-msgstr "pulsación botón joystick"
+msgstr "botón joystick"
 
 #: src/input/emulated/ProController.cpp:92 src/input/emulated/VPADController.cpp:384
 #: src/input/emulated/WiimoteController.cpp:162 src/input/emulated/ClassicController.cpp:73
 msgid "home"
-msgstr "home"
+msgstr "inicio"
