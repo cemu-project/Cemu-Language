@@ -706,7 +706,7 @@ msgstr "&Zeige Audio Debugger"
 
 #: MainWindow.cpp:2097
 msgid "&Dump current RAM"
-msgstr ""
+msgstr "&Aktuellen RAM ausgeben"
 
 #: MainWindow.cpp:2100
 #, fuzzy
@@ -840,7 +840,7 @@ msgstr "Aktualisieren"
 
 #: debugPPCThreadsWindow.cpp:200
 msgid "UNDEFINED"
-msgstr ""
+msgstr "UNDEFINIERT"
 
 #: debugPPCThreadsWindow.cpp:202
 msgid "SUSPENDED"
@@ -848,19 +848,19 @@ msgstr ""
 
 #: debugPPCThreadsWindow.cpp:204
 msgid "NONE"
-msgstr ""
+msgstr "KEINE"
 
 #: debugPPCThreadsWindow.cpp:206
 msgid "READY"
-msgstr ""
+msgstr "BEREIT"
 
 #: debugPPCThreadsWindow.cpp:208
 msgid "RUNNING"
-msgstr ""
+msgstr "LÄUFT"
 
 #: debugPPCThreadsWindow.cpp:210
 msgid "WAITING"
-msgstr ""
+msgstr "WARTEN"
 
 #: debugPPCThreadsWindow.cpp:212
 msgid "MORIBUND"
