@@ -29,7 +29,7 @@ jobs:
         with:
           repository: Exzap/Cemu
           path: Cemu
-          token: ${{ secrets.PUSH_TOKEN }}
+          token: ${{ secrets.CI_CEMU_PUSH_TOKEN }}
 
       - name: Copy .mo files
         run: |
