@@ -1,0 +1,46 @@
+name: Commit latest to Cemu repo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Cemu-Language repo
+        uses: actions/checkout@v2
+        with:
+          repository: Exzap/Cemu-Language
+          path: Cemu-Language
+
+      - name: Install gettext
+        run: sudo apt-get install -y gettext
+
+      - name: Convert .po to .mo
+        run: |
+          for po_file in $(find Cemu-Language -name "*.po"); do
+            mo_file="${po_file%.po}.mo"
+            msgfmt $po_file -o $mo_file
+          done
+
+      - name: Checkout Cemu repo
+        uses: actions/checkout@v2
+        with:
+          repository: Exzap/Cemu
+          path: Cemu
+          token: ${{ secrets.PUSH_TOKEN }}
+
+      - name: Copy .mo files
+        run: |
+          mkdir -p Cemu/bin/resources
+          cp -r Cemu-Language/* Cemu/bin/resources/
+
+      - name: Commit and push .mo files
+        run: |
+          cd Cemu
+          git config user.name "Cemu-Language CI"
+          git config user.email "github-actions@github.com"
+          git add bin/resources
+          git commit -m "Update translation files" || exit 0  # Don't fail if no changes
+          git push
