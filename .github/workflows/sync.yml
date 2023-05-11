@@ -1,4 +1,4 @@
-name: Commit latest to Cemu repo
+name: Commit to Cemu repo
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Cemu-Language repo
         uses: actions/checkout@v2
         with:
-          repository: Exzap/Cemu-Language
+          repository: ${{ github.repository_owner }}/Cemu-Language
           path: Cemu-Language
 
       - name: Install gettext
@@ -27,7 +27,7 @@ jobs:
       - name: Checkout Cemu repo
         uses: actions/checkout@v2
         with:
-          repository: Exzap/Cemu
+          repository: ${{ github.repository_owner }}/Cemu
           path: Cemu
           token: ${{ secrets.CI_CEMU_PUSH_TOKEN }}
 
