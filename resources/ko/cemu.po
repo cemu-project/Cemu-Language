@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-23 23:00+0900\n"
+"PO-Revision-Date: 2023-08-24 01:00+0900\n"
 "Last-Translator: Hack茶ん <http://blog.naver.com/jhacker>\n"
 "Language-Team: TNC\n"
 "Language: ko\n"
@@ -11,6 +11,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.3.2\n"
+
+#: src/gui/GeneralSettings2.cpp:681
+msgid "Nintendo"
+msgstr "닌텐도"
+
+#: src/gui/GeneralSettings2.cpp:681
+msgid "Pretendo"
+msgstr "프리텐도"
+
+#: src/gui/GeneralSettings2.cpp:681
+msgid "Custom"
+msgstr "커스텀"
+
+#: src/gui/GeneralSettings2.cpp:682
+msgid "Network Service"
+msgstr "네트워크 서비스"
+
+#: src/gui/GeneralSettings2.cpp:819
+msgid "GDB Stub port"
+msgstr "GDB 스텁 포트"
+
+#: src/gui/MainWindow.cpp:2094
+msgid "&Open Cemu folder"
+msgstr "Cemu 폴더 열기(&O)"
+
+#: src/gui/MainWindow.cpp:2240
+msgid "&Launch with GDB stub"
+msgstr "GDB 스텁으로 실행(&L)"
+
+#: src/gui/MainWindow.cpp:2191
+msgid "&Coreinit File-Access API"
+msgstr "코어이니트 파일 접속 API(&C)"
+
+#: src/gui/MainWindow.cpp:2206
+msgid "&Texture readback"
+msgstr "텍스처 리드백(&T)"
+
+#: src/gui/GeneralSettings2.cpp:178
+msgid "Disable screen saver"
+msgstr "화면보호기 비활성화"
+
+#: src/gui/GeneralSettings2.cpp:59
+msgid "PersistentId"
+msgstr "잔류 ID"
+
+#: src/gui/GeneralSettings2.cpp:62
+msgid "Gender"
+msgstr "성별"
+
+#: src/gui/components/wxTitleManagerList.cpp:162
+msgid "Location"
+msgstr "지역"
+
+#: src/gui/CemuUpdateWindow.cpp:27
+msgid "Cemu update"
+msgstr "Cemu 업데이트"
+
+#: src/gui/CemuUpdateWindow.cpp:38
+msgid "Checking for latest version..."
+msgstr "최신 버전 확인 중..."
 
 #: src/util/helpers/helpers.cpp:69 src/util/helpers/helpers.cpp:86
 #: src/gui/ChecksumTool.cpp:416 src/gui/ChecksumTool.cpp:443
@@ -196,7 +256,7 @@ msgstr "버전 불일치 : {}"
 
 #: src/gui/ChecksumTool.cpp:474
 msgid "Wrong region: {}"
-msgstr "지역 불일치 : {}"
+msgstr "지역 코드 불일치 : {}"
 
 #: src/gui/ChecksumTool.cpp:481
 msgid "The verification data doesn't include a WUD hash!"
@@ -512,7 +572,7 @@ msgstr "불러오기(&L)..."
 
 #: src/gui/MainWindow.cpp:2028
 msgid "&Install game title, update or DLC..."
-msgstr "게임 타이틀, 업데이트나 DLC 설치(&I)"
+msgstr "게임 타이틀, 업데이트, DLC 설치(&I)"
 
 #: src/gui/MainWindow.cpp:2058
 msgid "End emulation"
@@ -744,7 +804,7 @@ msgstr "API용 PPC 컨텍스트 로그(&L)"
 
 #: src/gui/MainWindow.cpp:2184
 msgid "&Textures"
-msgstr "텍스쳐(&T)"
+msgstr "텍스처(&T)"
 
 #: src/gui/MainWindow.cpp:2185
 msgid "&Shaders"
@@ -942,7 +1002,7 @@ msgstr "전송"
 
 #: src/gui/TitleManager.cpp:118
 msgid "Transfers the save entry to another persistent account id"
-msgstr "저장 항목을 다른 영구 계정 ID로 전송"
+msgstr "저장 항목을 다른 잔류 계정 ID로 전송"
 
 #: src/gui/TitleManager.cpp:122 src/gui/GeneralSettings2.cpp:603
 #: src/gui/input/InputSettings2.cpp:163
@@ -1624,7 +1684,7 @@ msgstr "지정된 컨트롤러 프로필 강제 적용"
 
 #: src/gui/PadViewFrame.cpp:24
 msgid "GamePad View"
-msgstr "독립된 GamePad 보기"
+msgstr "게임패드 보기"
 
 #: src/gui/GameUpdateWindow.cpp:19 src/gui/components/wxGameList.cpp:399
 msgid "DLC"
@@ -2290,7 +2350,7 @@ msgstr "계정 정보"
 
 #: src/gui/GeneralSettings2.cpp:663
 msgid "The persistent id is the internal folder name used for your saves"
-msgstr "영구 ID는 저장에 사용되는 내부 폴더 이름임"
+msgstr "잔류 ID는 저장에 사용되는 내부 폴더 이름임"
 
 #: src/gui/GeneralSettings2.cpp:666
 msgid "Mii name"
@@ -2390,7 +2450,7 @@ msgstr "삼중 버퍼링"
 
 #: src/gui/GeneralSettings2.cpp:1317
 msgid "Match emulated display (Experimental)"
-msgstr "경기 에뮬레이트 디스플레이(실험적)"
+msgstr "매치 에뮬레이트 디스플레이(실험적)"
 
 #: src/gui/GeneralSettings2.cpp:1496
 msgid ""
@@ -2425,7 +2485,7 @@ msgid ""
 "The persistent id is the internal folder name used for your saves. Only "
 "change this if you are importing saves from a Wii U with a specific id"
 msgstr ""
-"영구 ID는 저장에 사용되는 내부 폴더 이름입니다. 특정 ID를 가진 Wii U에서 저장"
+"잔류 ID는 저장에 사용되는 내부 폴더 이름입니다. 특정 ID를 가진 Wii U에서 저장"
 "을 가져오는 경우에만 변경"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:37
@@ -2438,15 +2498,15 @@ msgstr "확인"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:67
 msgid "No persistent id entered!"
-msgstr "영구 ID를 입력하지 않았습니다!"
+msgstr "잔류 ID를 입력하지 않았습니다!"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:74
 msgid "The persistent id must be greater than {:x}!"
-msgstr "영구 ID는 {:x}보다 커야 합니다!"
+msgstr "잔류 ID는 {:x}보다 커야 합니다!"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:82
 msgid "The persistent id {:x} is already in use by account {}!"
-msgstr "영구 ID {:x}는 {} 계정에서 이미 사용 중입니다!"
+msgstr "잔류 ID {:x}는 {} 계정에서 이미 사용 중입니다!"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:90
 msgid "Account name may not be empty!"
