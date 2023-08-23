@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: 2018-06-12 22:31+0200\n"
-"PO-Revision-Date: 2018-07-10 19:28+0900\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2023-08-23 17:09+0900\n"
+"Last-Translator: Hack茶ん <http://blog.naver.com/jhacker>\n"
+"Language-Team: TNC\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Last-Translator: \n"
-"Language: ko\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: GeneralSettings.cpp:8
 msgid "<double click to add a new entry>"
@@ -26,51 +26,51 @@ msgstr "경로 설정"
 
 #: GeneralSettings.cpp:20
 msgid "Language:"
-msgstr "언어:"
+msgstr "언어 :"
 
 #: GeneralSettings.cpp:41
 msgid "Game paths:"
-msgstr "게임 경로:"
+msgstr "게임 경로 :"
 
 #: GeneralSettings.cpp:107
 msgid "Select a directory containing games."
-msgstr "게임을 포함한 디렉토리를 선택하세요."
+msgstr "게임이 포함된 디렉터리를 선택합니다."
 
 #: GeneralSettings.cpp:161
 msgid "&Add game path"
-msgstr "&게임 경로 추가"
+msgstr "게임 경로 추가(&A)"
 
 #: GeneralSettings.cpp:164
 msgid "&Delete game path"
-msgstr "&게임 경로 삭제"
+msgstr "게임 경로 삭제(&D)"
 
 #: InputPanelClassic.cpp:13 InputPanelClassic.cpp:16 InputPanelClassic.cpp:18
 #: InputPanelGamepad.cpp:13 InputPanelGamepad.cpp:16 InputPanelGamepad.cpp:18
 #: InputPanelPro.cpp:13 InputPanelPro.cpp:16 InputPanelPro.cpp:18
 #: InputPanelWiimote.cpp:16 InputPanelWiimote.cpp:22
 msgid "up"
-msgstr "up"
+msgstr "↑"
 
 #: InputPanelClassic.cpp:13 InputPanelClassic.cpp:16 InputPanelClassic.cpp:18
 #: InputPanelGamepad.cpp:13 InputPanelGamepad.cpp:16 InputPanelGamepad.cpp:18
 #: InputPanelPro.cpp:13 InputPanelPro.cpp:16 InputPanelPro.cpp:18
 #: InputPanelWiimote.cpp:16 InputPanelWiimote.cpp:22
 msgid "down"
-msgstr "down"
+msgstr "↓"
 
 #: InputPanelClassic.cpp:13 InputPanelClassic.cpp:16 InputPanelClassic.cpp:18
 #: InputPanelGamepad.cpp:13 InputPanelGamepad.cpp:16 InputPanelGamepad.cpp:18
 #: InputPanelPro.cpp:13 InputPanelPro.cpp:16 InputPanelPro.cpp:18
 #: InputPanelWiimote.cpp:16 InputPanelWiimote.cpp:22
 msgid "left"
-msgstr "left"
+msgstr "←"
 
 #: InputPanelClassic.cpp:13 InputPanelClassic.cpp:16 InputPanelClassic.cpp:18
 #: InputPanelGamepad.cpp:13 InputPanelGamepad.cpp:16 InputPanelGamepad.cpp:18
 #: InputPanelPro.cpp:13 InputPanelPro.cpp:16 InputPanelPro.cpp:18
 #: InputPanelWiimote.cpp:16 InputPanelWiimote.cpp:22
 msgid "right"
-msgstr "right"
+msgstr "→"
 
 #: InputPanelClassic.cpp:55 InputPanelGamepad.cpp:55 InputPanelPro.cpp:55
 msgid "Left Axis"
@@ -100,7 +100,7 @@ msgstr "우측 축"
 #: InputPanelClassic.cpp:163 InputPanelGamepad.cpp:179 InputPanelPro.cpp:163
 #: InputPanelWiimote.cpp:78
 msgid "D-pad"
-msgstr "방향(십자) 키"
+msgstr "십자 버튼"
 
 #: InputPanelGamepad.cpp:13 InputPanelGamepad.cpp:16 InputPanelPro.cpp:13
 #: InputPanelPro.cpp:16
@@ -109,7 +109,7 @@ msgstr "클릭"
 
 #: InputPanelGamepad.cpp:159 InputPanelWiimote.cpp:100
 msgid "Volume"
-msgstr "볼륨"
+msgstr "음량"
 
 #: InputPanelGamepad.cpp:203
 msgid "blow mic"
@@ -117,11 +117,11 @@ msgstr "마이크 불기"
 
 #: InputPanelGamepad.cpp:215
 msgid "show screen"
-msgstr "스크린 보이기"
+msgstr "화면 표시"
 
 #: InputPanelWiimote.cpp:37
 msgid "Extensions:"
-msgstr "확장기기:"
+msgstr "확장 :"
 
 #: InputPanelWiimote.cpp:40
 msgid "MotionPlus"
@@ -137,7 +137,7 @@ msgstr "입력 설정"
 
 #: InputSettings.cpp:97
 msgid "Couldn't save settings for controller {0}"
-msgstr "컨트롤러의 설정 값을 저장할 수 없습니다 {0}"
+msgstr "컨트롤러 {0}에 대한 설정을 저장할 수 없습니다."
 
 #: InputSettings.cpp:97 InputSettings.cpp:437 InputSettings.cpp:443
 #: InputSettings.cpp:510 InputSettings.cpp:524 InputSettings.cpp:530
@@ -148,7 +148,7 @@ msgstr "컨트롤러의 설정 값을 저장할 수 없습니다 {0}"
 #: optionsControllerWindow.cpp:700 optionsControllerWindow.cpp:713
 #: toolMemorySearcher.cpp:164
 msgid "Error"
-msgstr "에러"
+msgstr "오류"
 
 #: InputSettings.cpp:154 optionsControllerWindow.cpp:91
 msgid "Profile"
@@ -156,11 +156,11 @@ msgstr "프로필"
 
 #: InputSettings.cpp:162 optionsControllerWindow.cpp:104
 msgid "Load"
-msgstr "로드"
+msgstr "불러오기"
 
 #: InputSettings.cpp:166 optionsControllerWindow.cpp:108
 msgid "Save"
-msgstr "세이브"
+msgstr "저장"
 
 #: InputSettings.cpp:170 optionsControllerWindow.cpp:112
 msgid "Delete"
@@ -168,52 +168,52 @@ msgstr "삭제"
 
 #: InputSettings.cpp:177
 msgid "Emulate Controller"
-msgstr "에뮬레이트할 컨트롤러"
+msgstr "에뮬레이트 컨트롤러"
 
 #: InputSettings.cpp:191 optionsControllerWindow.cpp:143
 msgid "Controller API:"
-msgstr "컨트롤러 API:"
+msgstr "컨트롤러 API :"
 
 #: InputSettings.cpp:223 optionsControllerWindow.cpp:167
 msgid "Controller:"
-msgstr "컨트롤러:"
+msgstr "컨트롤러 :"
 
 #: InputSettings.cpp:234
 msgid "Test if the controller is connected"
-msgstr "Test if the controller is connected"
+msgstr "컨트롤러가 연결되어 있는지 테스트"
 
 #: InputSettings.cpp:238 optionsControllerWindow.cpp:193
 msgid "Calibrate"
-msgstr "교정"
+msgstr "보정"
 
 #: InputSettings.cpp:240
 msgid "Reset the default state of the controller"
-msgstr "컨트롤러의 기본 상태를 리셋합니다"
+msgstr "컨트롤러 기본 상태 초기화"
 
 #: InputSettings.cpp:244 optionsControllerWindow.cpp:197
 #: toolMemorySearcher.cpp:170
 msgid "Clear"
-msgstr "치우기"
+msgstr "지우기"
 
 #: InputSettings.cpp:246
 msgid "Clear all currently set input settings"
-msgstr "현재의 입력 설정을 전부 청소합니다"
+msgstr "현재 설정된 모든 입력 설정 지우기"
 
 #: InputSettings.cpp:437 InputSettings.cpp:548
 msgid "No profile name selected!"
-msgstr "프로필의 이름이 선택되지 않았습니다!"
+msgstr "프로필 이름이 선택되지 않았습니다!"
 
 #: InputSettings.cpp:443 InputSettings.cpp:530
 msgid "The given profile name is not valid!"
-msgstr "입력된 프로필 이름은 유효하지 않습니다!"
+msgstr "입력한 프로필 이름이 유효하지 않습니다!"
 
 #: InputSettings.cpp:510 optionsControllerWindow.cpp:677
 msgid "Couldn't load the selected profile!"
-msgstr "선택된 프로필을 읽을 수 없습니다!"
+msgstr "선택한 프로필을 불러올 수 없습니다!"
 
 #: InputSettings.cpp:524 optionsControllerWindow.cpp:693
 msgid "No profile name entered!"
-msgstr "프로필 이름이 입력되지 않았습니다!"
+msgstr "프로필 이름을 입력하지 않았습니다!"
 
 #: InputSettings.cpp:535
 msgid "Couldn't save the profile!"
@@ -221,7 +221,7 @@ msgstr "프로필을 저장할 수 없습니다!"
 
 #: InputSettings.cpp:857
 msgid "Searching for wiimotes..."
-msgstr "위모트들을 검색중입니다..."
+msgstr "위모트 검색 중..."
 
 #: MainWindow.cpp:271
 msgid "Game"
@@ -229,7 +229,7 @@ msgstr "게임"
 
 #: MainWindow.cpp:277
 msgid "Version"
-msgstr "버젼"
+msgstr "버전"
 
 #: MainWindow.cpp:284
 msgid "DLC"
@@ -237,11 +237,11 @@ msgstr "DLC"
 
 #: MainWindow.cpp:291
 msgid "You've played"
-msgstr "당신이 플레이 했던 것"
+msgstr "플레이한 것"
 
 #: MainWindow.cpp:297
 msgid "Last played"
-msgstr "마지막으로 플레이 했던 것"
+msgstr "마지막으로 플레이한 것"
 
 #: MainWindow.cpp:379 MainWindow.cpp:385
 msgid "Can't open the file."
@@ -253,19 +253,19 @@ msgstr "유효하지 않은 \"meta.xml\" 파일 입니다."
 
 #: MainWindow.cpp:393
 msgid "Can't find the \"title_id\" in the given \"meta.xml\" file."
-msgstr "주어진 \"meta.xml\" 에 정의된 \"title_id\" 를 찾을 수 없습니다."
+msgstr "지정된 \"meta.xml\" 파일에서 \"title_id\"를 찾을 수 없습니다."
 
 #: MainWindow.cpp:411
 msgid "Can't find the \"title_version\" in the given \"meta.xml\" file."
-msgstr "주어진 \"meta.xml\" 에 정의된 \"title_version\" 를 찾을 수 없습니다."
+msgstr "지정된 \"meta.xml\" 파일에서 \"title_version\"을 찾을 수 없습니다."
 
 #: MainWindow.cpp:415
 msgid "The given \"meta.xml\" file is no update or DLC."
-msgstr "주어진 \"meta.xml\" 파일이 update 나 DLC 가 아닙니다."
+msgstr "지정된 \"meta.xml\" 파일은 업데이트 또는 DLC가 아닙니다."
 
 #: MainWindow.cpp:420
 msgid "Can't find the \"longname_en\" in the given \"meta.xml\" file."
-msgstr "주어진 \"meta.xml\" 에 정의된 \"longname_en\" 을 찾을 수 없습니다."
+msgstr "지정된 \"meta.xml\" 파일에서 \"longname_en\"을 찾을 수 없습니다."
 
 #: MainWindow.cpp:447
 msgid "Invalid folder structure"
@@ -274,9 +274,7 @@ msgstr "유효하지 않은 폴더 구조"
 #: MainWindow.cpp:476
 msgid ""
 "It seems that a DLC is already installed, do you still want to install it?"
-msgstr ""
-"이미 해당 DLC는 설치 되어 있는 것 으로 보입니다, 여전히 설치하기를 원하십니"
-"까?"
+msgstr "DLC가 이미 설치되어 있는 것 같은데 계속 설치하시겠습니까?"
 
 #: MainWindow.cpp:476 MainWindow.cpp:495 MainWindow.cpp:501 MainWindow.cpp:960
 msgid "Warning"
@@ -286,16 +284,15 @@ msgstr "경고"
 msgid ""
 "It seems that the selected update is already installed, do you want to "
 "reinstall it?"
-msgstr ""
-"선택된 업데이트는 이미 설치 되어 있는 것 으로 보입니다, 재설치를 원하십니까?"
+msgstr "선택한 업데이트가 이미 설치되어 있는 것 같은데 다시 설치하시겠습니까?"
 
 #: MainWindow.cpp:501
 msgid ""
 "It seems that a newer update is already installed, do you still want to "
 "install the older version?"
 msgstr ""
-"이미 더 신규의 업데이트가 설치 되어 있는 것 으로 보입니다, 예전 버젼의 설치"
-"를 여전히 원하십니까?"
+"최신 업데이트가 이미 설치되어 있는 것 같은데 여전히 이전 버전을 설치하시겠습"
+"니까?"
 
 #: MainWindow.cpp:516
 msgid ""
@@ -303,13 +300,13 @@ msgid ""
 "Required: {0} MB\n"
 "Available: {1} MB"
 msgstr ""
-"사용 가능한 여유 공간이 부족합니다.\n"
-"필요: {0} MB\n"
-"사용가능: {1} MB"
+"사용 가능한 공간이 충분하지 않습니다.\n"
+"필요 : {0}MB\n"
+"여유 : {1}MB"
 
 #: MainWindow.cpp:553
 msgid "Update installed!"
-msgstr "업데이트가 설치 되었습니다!"
+msgstr "업데이트가 설치되었습니다!"
 
 #: MainWindow.cpp:553
 msgid "Success"
@@ -317,19 +314,19 @@ msgstr "성공"
 
 #: MainWindow.cpp:558
 msgid "Update installation has been canceled!"
-msgstr "업데이트의 설치가 취소 되었습니다!"
+msgstr "업데이트 설치가 취소되었습니다!"
 
 #: MainWindow.cpp:578
 msgid "Unable to open file."
-msgstr "파일을 열 수 없음."
+msgstr "파일을 열 수 없습니다."
 
 #: MainWindow.cpp:580
 msgid "Unknown file type."
-msgstr "알 수 없는 파일 형식."
+msgstr "알 수 없는 파일 형식입니다."
 
 #: MainWindow.cpp:582
 msgid "Failed to launch file."
-msgstr "파일 실행 실패."
+msgstr "파일을 실행하지 못했습니다."
 
 #: MainWindow.cpp:644 MainWindow.cpp:672
 msgid "Open file to launch"
@@ -345,11 +342,11 @@ msgstr "파일을 열 수 없음"
 
 #: MainWindow.cpp:696 MainWindow.cpp:719
 msgid "Not a valid NFC NTAG215 file"
-msgstr "유효하지 않은 NFC NTAG215 파일"
+msgstr "유효한 NFC NTAG215 파일이 아님"
 
 #: MainWindow.cpp:810
 msgid "Cemu must be restarted to apply the selected UI language."
-msgstr "선택된 UI 언어를 적용하려면 Cemu 는 재시작 해야만 합니다."
+msgstr "선택한 UI 언어를 적용하려면 Cemu를 다시 시작해야 합니다."
 
 #: MainWindow.cpp:810
 msgid "Information"
@@ -361,157 +358,157 @@ msgid ""
 "servers and therefore there is a risk of getting banned. Only proceed if you "
 "are willing to risk losing online access with your Wii U and/or NNID."
 msgstr ""
-"경고 - Please be aware that online mode lets you connect to OFFICIAL servers "
-"and therefore there is a risk of getting banned. Only proceed if you are "
-"willing to risk losing online access with your Wii U and/or NNID."
+"경고 - 온라인 모드에서는 공식 서버에 연결할 수 있으므로 접속이 차단될 위험이 "
+"있습니다. 온라인 접속이 차단될 위험을 감수할 의향이 있는 경우에만 Wii U 및/또"
+"는 NNID로 진행하시기 바랍니다."
 
 #: MainWindow.cpp:1452
 msgid "You can configure game paths in the general settings."
-msgstr "게임 경로 설정은 일반 설정란에서 구성 가능합니다."
+msgstr "일반 설정에서 게임 경로를 구성할 수 있습니다."
 
 #: MainWindow.cpp:1524
 msgid "Loading, please wait!"
-msgstr "로딩중, 기다려 주세요!"
+msgstr "불러오는 중입니다, 잠시만 기다려주세요!"
 
 #: MainWindow.cpp:1914
 msgid "&Load"
-msgstr "&로드"
+msgstr "불러오기(&L)"
 
 #: MainWindow.cpp:1915
 msgid "&Install game update or DLC"
-msgstr "&게임 업데이트 혹은 DLC 설치"
+msgstr "게임 업데이트나 DLC 설치(&I)"
 
 #: MainWindow.cpp:1939
 msgid "&Exit"
-msgstr "&나가기"
+msgstr "종료(&E)"
 
 #: MainWindow.cpp:1940
 msgid "&File"
-msgstr "&파일"
+msgstr "파일(&F)"
 
 #: MainWindow.cpp:1943
 msgid "&Auto"
-msgstr "&자동"
+msgstr "자동(&A)"
 
 #: MainWindow.cpp:1945
 msgid "&USA"
-msgstr "&USA"
+msgstr "미국(&U)"
 
 #: MainWindow.cpp:1946
 msgid "&Europe"
-msgstr "&Europe"
+msgstr "유럽(&E)"
 
 #: MainWindow.cpp:1947
 msgid "&Japan"
-msgstr "&Japan"
+msgstr "일본(&J)"
 
 #: MainWindow.cpp:1949
 msgid "&China"
-msgstr "&China"
+msgstr "중국(&C)"
 
 #: MainWindow.cpp:1950
 msgid "&Korea"
-msgstr "&Korea"
+msgstr "한국(&K)"
 
 #: MainWindow.cpp:1951
 msgid "&Taiwan"
-msgstr "&Taiwan"
+msgstr "대만(&T)"
 
 #: MainWindow.cpp:1955
 msgid "&English"
-msgstr "&English"
+msgstr "영어(&E)"
 
 #: MainWindow.cpp:1956
 msgid "&Japanese"
-msgstr "&Japanese"
+msgstr "일본어(&J)"
 
 #: MainWindow.cpp:1957
 msgid "&French"
-msgstr "&French"
+msgstr "프랑스어(&F)"
 
 #: MainWindow.cpp:1958
 msgid "&German"
-msgstr "&German"
+msgstr "독일어(G)"
 
 #: MainWindow.cpp:1959
 msgid "&Italian"
-msgstr "&Italian"
+msgstr "이탈리아어(&I)"
 
 #: MainWindow.cpp:1960
 msgid "&Spanish"
-msgstr "&Spanish"
+msgstr "스페인어(&S)"
 
 #: MainWindow.cpp:1961
 msgid "&Chinese"
-msgstr "&Chinese"
+msgstr "중국어(&C)"
 
 #: MainWindow.cpp:1962
 msgid "&Korean"
-msgstr "&Korean"
+msgstr "한국어(&K)"
 
 #: MainWindow.cpp:1963
 msgid "&Dutch"
-msgstr "&Dutch"
+msgstr "네덜란드어(&D)"
 
 #: MainWindow.cpp:1964
 msgid "&Portuguese"
-msgstr "&Portuguese"
+msgstr "포르투칼어(&P)"
 
 #: MainWindow.cpp:1965
 msgid "&Russian"
-msgstr "&Russian"
+msgstr "러시아어(&R)"
 
 #: MainWindow.cpp:1966
 msgid "&Taiwanese"
-msgstr "&Taiwanese"
+msgstr "대만어(&T)"
 
 #: MainWindow.cpp:1972
 msgid "&High (slow)"
-msgstr "&높음 (느림)"
+msgstr "높음(&H) [느림]"
 
 #: MainWindow.cpp:1973
 msgid "&Medium"
-msgstr "&중간"
+msgstr "중간(&M)"
 
 #: MainWindow.cpp:1974
 msgid "&Low (fast)"
-msgstr "&낮음 (빠름)"
+msgstr "낮음(&L) [빠름]"
 
 #: MainWindow.cpp:1977
 msgid "&Bilinear"
-msgstr "&Bilinear (선형)"
+msgstr "쌍선형(&B)"
 
 #: MainWindow.cpp:1978
 msgid "&Bicubic"
-msgstr "&Bicubic (입방)"
+msgstr "바이큐빅(&B)"
 
 #: MainWindow.cpp:1981
 msgid "&Keep aspect ratio"
-msgstr "&종횡비 유지"
+msgstr "종횡비 유지(&K)"
 
 #: MainWindow.cpp:1982
 msgid "&Stretch"
-msgstr "&늘이기"
+msgstr "늘이기(&S)"
 
 #: MainWindow.cpp:1986
 msgid "&Fullscreen"
-msgstr "&풀스크린"
+msgstr "전체 화면(&F)"
 
 #: MainWindow.cpp:1987
 msgid "&Enable VSync"
-msgstr "&수직동기화 활성화"
+msgstr "수직 동기화 활성화(&E)"
 
 #: MainWindow.cpp:1990
 msgid "&Graphic packs"
-msgstr "&그래픽 팩"
+msgstr "그래픽 팩(&G)"
 
 #: MainWindow.cpp:1993
 msgid "&Upscale filter"
-msgstr "&업스케일링 필터"
+msgstr "업스케일 필터(&U)"
 
 #: MainWindow.cpp:1994
 msgid "&Fullscreen scaling"
-msgstr "&전체화면 스케일링"
+msgstr "전체 화면 크기 조정(&F)"
 
 #: MainWindow.cpp:1995
 msgid "&GPU buffer cache accuracy"
@@ -523,95 +520,95 @@ msgstr "&독립된 GamePad 보기"
 
 #: MainWindow.cpp:1999
 msgid "&General settings"
-msgstr "&일반 설정"
+msgstr "일반 설정(&G)"
 
 #: MainWindow.cpp:2000
 msgid "&Audio settings"
-msgstr "&오디오 설정"
+msgstr "음향 설정(&A)"
 
 #: MainWindow.cpp:2001
 msgid "&Input settings"
-msgstr "&입력 설정"
+msgstr "입력 설정(&I)"
 
 #: MainWindow.cpp:2006
 msgid "&Enable BotW crash workaround"
-msgstr "&Botw(야생의 숨결) 크래시 해결책 활성화"
+msgstr "야생의 숨결 충돌 해결책 활성화(&E)"
 
 #: MainWindow.cpp:2007
 msgid "&Full sync at GX2DrawDone()"
-msgstr "&GX2DrawDone() 시 풀 씽크"
+msgstr "GX2DrawDone()에서 전체 동기화(&F)"
 
 #: MainWindow.cpp:2008
 msgid "&Use separable shaders"
-msgstr "&Use separable shaders"
+msgstr "분리 가능한 셰이더 사용(&U)"
 
 #: MainWindow.cpp:2009
 msgid "&Disable precompiled shaders"
-msgstr "&프리컴파일된 쉐이더 비활성화"
+msgstr "사전 컴파일된 셰이더 비활성화(&D)"
 
 #: MainWindow.cpp:2011
 msgid "&Use RDTSC"
-msgstr "&RDTSC 사용"
+msgstr "RDTSC 사용(&U)"
 
 #: MainWindow.cpp:2013
 msgid "&Enable online mode"
-msgstr "&온라인 모드 활성화"
+msgstr "온라인 모드 활성화(&E)"
 
 #: MainWindow.cpp:2020
 msgid "&Experimental"
-msgstr "&실험적"
+msgstr "실험적(&E)"
 
 #: MainWindow.cpp:2023
 msgid "&Console region"
-msgstr "&콘솔 지역"
+msgstr "콘솔 지역 코드(&C)"
 
 #: MainWindow.cpp:2024
 msgid "&Console language"
-msgstr "&콘솔 언어"
+msgstr "콘솔 언어(&C)"
 
 #: MainWindow.cpp:2025
 msgid "&Options"
-msgstr "&옵션"
+msgstr "옵션(&O)"
 
 #: MainWindow.cpp:2029
 msgid "&Memory searcher"
-msgstr "&메모리 검색기"
+msgstr "메모리 검색기(&M)"
 
 #: MainWindow.cpp:2031
 msgid "&Tools"
-msgstr "&도구"
+msgstr "도구(&T)"
 
 #: MainWindow.cpp:2036
 msgid "&Single-core interpreter"
-msgstr "&싱글 코어 인터프리터"
+msgstr "싱글 코어 인터프리터(&S)"
 
 #: MainWindow.cpp:2037
 msgid "&Single-core recompiler (fast)"
-msgstr "&싱글 코어 리컴파일러 (빠름)"
+msgstr "싱글 코어 리컴파일러(&S) [빠름]"
 
 #: MainWindow.cpp:2038
 msgid "&Dual-core recompiler (fast, unstable!)"
-msgstr "&듀얼 코어 리컴파일러 (빠름, 불안정)"
+msgstr "듀얼 코어 리컴파일러(&D) [빠르지만 불안정!]"
 
 #: MainWindow.cpp:2039
 msgid "&Triple-core recompiler (fast, unstable!)"
-msgstr "&트리플 코어 리컴파일러 (빠름, 불안정)"
+msgstr "트리플 코어 리컴파일러(&T) [빠르지만 불안정!]"
 
 #: MainWindow.cpp:2043
 msgid "&Cycle based timer"
-msgstr "&싸이클 기반 타이머"
+msgstr "사이클 기반 타이머(&C)"
 
 #: MainWindow.cpp:2044
 msgid "&Host based timer (recommended)"
-msgstr "&호스트 기반 타이머 (권장됨)"
+msgstr "호스트 기반 타이머(&H) [권장]"
 
 #: MainWindow.cpp:2047
 msgid "&Mode"
-msgstr "&모드"
+msgstr "모드(&M)"
 
 #: MainWindow.cpp:2048
 msgid "&Timer"
-msgstr "&타이머"
+msgstr "타이머(&T)"
 
 #: MainWindow.cpp:2049
 msgid "&CPU"
@@ -619,7 +616,7 @@ msgstr "&CPU"
 
 #: MainWindow.cpp:2053
 msgid "&Scan NFC tag from file"
-msgstr "&NFC 태그를 파일로부터 스캔"
+msgstr "파일에서 NFC 태그 스캔(&S)"
 
 #: MainWindow.cpp:2054
 msgid "&NFC"
@@ -627,19 +624,19 @@ msgstr "&NFC"
 
 #: MainWindow.cpp:2060
 msgid "&Unsupported API calls"
-msgstr "&지원되지 않는 API 콜"
+msgstr "미지원 API 호출(&U)"
 
 #: MainWindow.cpp:2061
 msgid "&Coreinit File-Access"
-msgstr "&Coreinit File-Access"
+msgstr "코어인잇 파일 액세스(&C)"
 
 #: MainWindow.cpp:2062
 msgid "&Coreinit Thread-Synchronization API"
-msgstr "&Coreinit Thread-Synchronization API"
+msgstr "코어인잇 스레드 동기화 API(&C)"
 
 #: MainWindow.cpp:2063
 msgid "&Coreinit Memory API"
-msgstr "&Coreinit Memory API"
+msgstr "코어인잇 메모리 API(&C)"
 
 #: MainWindow.cpp:2064
 msgid "&GX2 API"
@@ -647,19 +644,19 @@ msgstr "&GX2 API"
 
 #: MainWindow.cpp:2065
 msgid "&Audio API"
-msgstr "&Audio API"
+msgstr "음향 API(&A)"
 
 #: MainWindow.cpp:2066
 msgid "&Input API"
-msgstr "&Input API"
+msgstr "입력 API(&I)"
 
 #: MainWindow.cpp:2067
 msgid "&Socket API"
-msgstr "&Socket API"
+msgstr "소켓 API(&S)"
 
 #: MainWindow.cpp:2068
 msgid "&Save API"
-msgstr "&Save API"
+msgstr "저장 API(&S)"
 
 #: MainWindow.cpp:2069
 msgid "&H264 API"
@@ -667,67 +664,67 @@ msgstr "&H264 API"
 
 #: MainWindow.cpp:2073
 msgid "&Textures"
-msgstr "&텍스쳐"
+msgstr "텍스쳐(&T)"
 
 #: MainWindow.cpp:2074
 msgid "&Shaders"
-msgstr "&쉐이더"
+msgstr "셰이더(&S)"
 
 #: MainWindow.cpp:2078
 msgid "&Logging"
-msgstr "&Logging"
+msgstr "로그 기록(&L)"
 
 #: MainWindow.cpp:2079
 msgid "&Dump"
-msgstr "&Dump"
+msgstr "덤프(&D)"
 
 #: MainWindow.cpp:2083 MainWindow.cpp:2088
 msgid "&Render upside-down"
-msgstr "&렌더링을 상하반전"
+msgstr "뒤집어 렌더링(&R)"
 
 #: MainWindow.cpp:2091
 msgid "&View PPC threads"
-msgstr "&PPC 스레드들 보기"
+msgstr "PPC 스레드 보기(&V)"
 
 #: MainWindow.cpp:2093
 msgid "&View PPC debugger"
-msgstr "&PPC 디버거를 보기"
+msgstr "PPC 디버거 보기(&V)"
 
 #: MainWindow.cpp:2095
 msgid "&View audio debugger"
-msgstr "&오디오 디버거를 보기"
+msgstr "음향 디버거 보기(&V)"
 
 #: MainWindow.cpp:2097
 msgid "&Dump current RAM"
-msgstr "&Dump current RAM"
+msgstr "현재 RAM 덤프(&D)"
 
 #: MainWindow.cpp:2100
 msgid "&Debug"
-msgstr "&디버그"
+msgstr "디버그(&D)"
 
 #: MainWindow.cpp:2105
 msgid "&About"
-msgstr "&About"
+msgstr "정보(&A)"
 
 #: MainWindow.cpp:2106
 msgid "&Help"
-msgstr "&도움말"
+msgstr "도움말(&H)"
 
 #: MainWindow.cpp:2129
 msgid "otp.bin could not be found"
-msgstr "otp.bin 을 찾을 수 없습니다"
+msgstr "otp.bin을 찾을 수 없음"
 
 #: MainWindow.cpp:2133
 msgid "otp.bin is corrupted or has invalid size"
-msgstr "otp.bin 이 변조 되었거나 사이즈가 유효하지 않습니다"
+msgstr "otp.bin의 크기가 손상되었거나 유효하지 않음"
 
 #: MainWindow.cpp:2137
 msgid "seeprom.bin could not be found"
-msgstr "seeprom.bin 을 찾을 수 없습니다"
+msgstr "seeprom.bin을 찾을 수 없음"
 
 #: MainWindow.cpp:2141
 msgid "seeprom.bin is corrupted or has invalid size"
-msgstr "seeprom.bin 이 변조 되었거나 사이즈가 유효하지 않습니다"
+msgstr "seeprom.bin의 크기가 손상되었거나 유효하지 않음"
 
 #: MainWindow.cpp:2154
 msgid "Unknown error occured"
@@ -735,35 +732,35 @@ msgstr "알 수 없는 오류 발생"
 
 #: MainWindow.cpp:2263
 msgid "&Start"
-msgstr "&Start"
+msgstr "시작(&S)"
 
 #: MainWindow.cpp:2265
 msgid "Sa&ve directory"
-msgstr "&세이브 디렉토리"
+msgstr "디렉터리 저장(&V)"
 
 #: MainWindow.cpp:2266
 msgid "&Update directory"
-msgstr "&업데이트 디렉토리"
+msgstr "디렉터리 업데이트(&U)"
 
 #: MainWindow.cpp:2267
 msgid "&DLC directory"
-msgstr "&DLC 디렉토리"
+msgstr "&DLC 디렉터리"
 
 #: MainWindow.cpp:2269
 msgid "&Open game profile"
-msgstr "&게임 프로필 열기"
+msgstr "게임 프로필 열기(&O)"
 
 #: MainWindow.cpp:2270
 msgid "&Create game profile"
-msgstr "&게임 프로필 만들기"
+msgstr "게임 프로필 만들기(&C)"
 
 #: MainWindow.cpp:2272
 msgid "&Refresh game list"
-msgstr "&게임 목록 새로고침"
+msgstr "게임 목록 새로 고침(&R)"
 
 #: MainWindow.cpp:2286
 msgid "&Refresh games"
-msgstr "&Refresh games"
+msgstr "게임 새로 고침(&R)"
 
 #: MainWindow.cpp:2347
 msgid "Updating game list..."
@@ -771,23 +768,23 @@ msgstr "게임 목록 업데이트 중..."
 
 #: MainWindow.cpp:2585
 msgid "never"
-msgstr "never"
+msgstr "절대 안 함"
 
 #: debugPPCThreadsWindow.cpp:30
 msgid "PPC threads"
-msgstr "PPC 스레드들"
+msgstr "PPC 스레드"
 
 #: debugPPCThreadsWindow.cpp:43
 msgid "Address"
-msgstr "Address"
+msgstr "주소"
 
 #: debugPPCThreadsWindow.cpp:48
 msgid "Entry"
-msgstr "Entry"
+msgstr "항목"
 
 #: debugPPCThreadsWindow.cpp:53
 msgid "Stack"
-msgstr "Stack"
+msgstr "스택"
 
 #: debugPPCThreadsWindow.cpp:58
 msgid "PC"
@@ -799,27 +796,27 @@ msgstr "LR"
 
 #: debugPPCThreadsWindow.cpp:68
 msgid "State"
-msgstr "State"
+msgstr "상태"
 
 #: debugPPCThreadsWindow.cpp:73
 msgid "Affinity"
-msgstr "Affinity"
+msgstr "선호도"
 
 #: debugPPCThreadsWindow.cpp:78
 msgid "Priority"
-msgstr "Priority"
+msgstr "우선 순위"
 
 #: debugPPCThreadsWindow.cpp:83
 msgid "SliceStart"
-msgstr "SliceStart"
+msgstr "슬라이스 시작"
 
 #: debugPPCThreadsWindow.cpp:88
 msgid "SumWakeTime"
-msgstr "SumWakeTime"
+msgstr "기상 시간 합계"
 
 #: debugPPCThreadsWindow.cpp:93
 msgid "ThreadName"
-msgstr "ThreadName"
+msgstr "스레드 이름"
 
 #: debugPPCThreadsWindow.cpp:98
 msgid "GPR"
@@ -827,84 +824,84 @@ msgstr "GPR"
 
 #: debugPPCThreadsWindow.cpp:105 optionsControllerWindow.cpp:189
 msgid "Refresh"
-msgstr "Refresh"
+msgstr "새로 고침"
 
 #: debugPPCThreadsWindow.cpp:200
 msgid "UNDEFINED"
-msgstr "UNDEFINED"
+msgstr "미정의"
 
 #: debugPPCThreadsWindow.cpp:202
 msgid "SUSPENDED"
-msgstr "SUSPENDED"
+msgstr "일시 중단"
 
 #: debugPPCThreadsWindow.cpp:204
 msgid "NONE"
-msgstr "NONE"
+msgstr "없음"
 
 #: debugPPCThreadsWindow.cpp:206
 msgid "READY"
-msgstr "READY"
+msgstr "준비"
 
 #: debugPPCThreadsWindow.cpp:208
 msgid "RUNNING"
-msgstr "RUNNING"
+msgstr "실행"
 
 #: debugPPCThreadsWindow.cpp:210
 msgid "WAITING"
-msgstr "WAITING"
+msgstr "대기"
 
 #: debugPPCThreadsWindow.cpp:212
 msgid "MORIBUND"
-msgstr "MORIBUND"
+msgstr "모리번드"
 
 #: debugPPCThreadsWindow.cpp:331
 msgid "Boost priority (-5)"
-msgstr "Boost priority (-5)"
+msgstr "우선순위 강화(-5)"
 
 #: debugPPCThreadsWindow.cpp:332
 msgid "Boost priority (-1)"
-msgstr "Boost priority (-1)"
+msgstr "우선순위 강화(-1)"
 
 #: debugPPCThreadsWindow.cpp:333
 msgid "Decrease priority (+5)"
-msgstr "Decrease priority (+5)"
+msgstr "우선순위 감소(+5)"
 
 #: debugPPCThreadsWindow.cpp:334
 msgid "Decrease priority (+1)"
-msgstr "Decrease priority (+1)"
+msgstr "우선순위 감소(+1)"
 
 #: debugPPCThreadsWindow.cpp:335
 msgid "Suspend"
-msgstr "Suspend"
+msgstr "일시 중단"
 
 #: graphicPacksWindow.cpp:36
 msgid "Graphic packs"
-msgstr "Graphic packs"
+msgstr "그래픽 팩"
 
 #: graphicPacksWindow.cpp:48
 msgid "On/Off"
-msgstr "On/Off"
+msgstr "켬/끔"
 
 #: graphicPacksWindow.cpp:53
 msgid "Name"
-msgstr "Name"
+msgstr "이름"
 
 #: graphicPacksWindow.cpp:58
 msgid "Active"
-msgstr "Active"
+msgstr "활성"
 
 #: graphicPacksWindow.cpp:72
 msgid ""
 "The currently running game is corrupted or incomplete. (Missing /meta/meta."
 "xml) Graphic packs cannot be applied."
 msgstr ""
-"현재 구동중인 게임은 변조되었거나 완전하지 않습니다. (/meta/meta.xml 분실) 그"
-"래픽 팩들의 적용이 불가능 합니다."
+"현재 실행 중인 게임이 손상되었거나 불완전합니다. (/meta/meta.xml 누락) 그래"
+"픽 팩을 적용할 수 없습니다."
 
 #: graphicPacksWindow.cpp:75 graphicPacksWindow.cpp:114
 #: graphicPacksWindow.cpp:131
 msgid "Restart of Cemu required"
-msgstr "Cemu의 재시작이 요구됨"
+msgstr "Cemu 다시 시작 필요"
 
 #: graphicPacksWindow.cpp:165
 msgid "Yes"
@@ -924,27 +921,27 @@ msgstr "서라운드 5.1"
 
 #: optionsAudioWindow.cpp:29
 msgid "Audio settings"
-msgstr "오디오 설정"
+msgstr "음향 설정"
 
 #: optionsAudioWindow.cpp:40
 msgid "Volume:"
-msgstr "볼륨:"
+msgstr "음량 :"
 
 #: optionsAudioWindow.cpp:44
 msgid "Channels:"
-msgstr "채널:"
+msgstr "채널 :"
 
 #: optionsControllerWindow.cpp:126
 msgid "Emulate Controller:"
-msgstr "에뮬레이트할 컨트롤러:"
+msgstr "에뮬레이트 컨트롤러 :"
 
 #: optionsControllerWindow.cpp:680
 msgid "No profile selected!"
-msgstr "프로필이 선택되지 않았습니다!"
+msgstr "선택한 프로필이 없습니다!"
 
 #: optionsControllerWindow.cpp:700 optionsControllerWindow.cpp:713
 msgid "The given profile name is invalid!"
-msgstr "주어진 프로필 이름이 유효하지 않습니다!"
+msgstr "입력한 프로필 이름이 유효하지 않습니다!"
 
 #: toolMemorySearcher.cpp:43
 msgid "Memory Searcher"
@@ -972,43 +969,43 @@ msgstr "값"
 
 #: toolMemorySearcher.cpp:95
 msgid "Stored Entries"
-msgstr "Stored Entries"
+msgstr "저장된 항목"
 
 #: toolMemorySearcher.cpp:100
 msgid "description"
-msgstr "description"
+msgstr "기수"
 
 #: toolMemorySearcher.cpp:102
 msgid "type"
-msgstr "type"
+msgstr "유형"
 
 #: toolMemorySearcher.cpp:104
 msgid "freeze"
-msgstr "freeze"
+msgstr "동결"
 
 #: toolMemorySearcher.cpp:164
 msgid "Your entered value is not valid for the selected datatype."
-msgstr "Your entered value is not valid for the selected datatype."
+msgstr "입력한 값이 선택한 데이터 유형에 유효하지 않습니다."
 
 #: toolMemorySearcher.cpp:389
 msgid "&Add new entry"
-msgstr "&Add new entry"
+msgstr "새 항목 추가(&A)"
 
 #: toolMemorySearcher.cpp:390
 msgid "&Remove entry"
-msgstr "&Remove entry"
+msgstr "항목 제거(&R)"
 
 #: toolMemorySearcher.cpp:483
 msgid "Results ({0})"
-msgstr "Results ({0})"
+msgstr "결과 ({0})"
 
 #: updateWindow.cpp:15
 msgid "Installing DLC ..."
-msgstr "DLC 설치중 ..."
+msgstr "DLC 설치..."
 
 #: updateWindow.cpp:17
 msgid "Installing update ..."
-msgstr "업데이트 설치중 ..."
+msgstr "업데이트 설치..."
 
 #: updateWindow.cpp:24
 msgid "Cancel"
@@ -1016,15 +1013,15 @@ msgstr "취소"
 
 #: updateWindow.cpp:101
 msgid "Error:"
-msgstr "오류:"
+msgstr "오류 :"
 
 #: updateWindow.cpp:106
 msgid "Error Code:"
-msgstr "오류 코드:"
+msgstr "오류 코드 :"
 
 #: updateWindow.cpp:112
 msgid "Current file:"
-msgstr "현재 파일:"
+msgstr "현재 파일 :"
 
 #: updateWindow.cpp:154
 msgid ""
@@ -1032,9 +1029,9 @@ msgid ""
 "\n"
 "Canceling the process will delete the applied update."
 msgstr ""
-"업데이트 과정을 정말로 취소 하시겠습니까?\n"
+"업데이트 작업을 정말 취소하시겠습니까?\n"
 "\n"
-"취소 과정 중에는 적용된 업데이트가 삭제될 것 입니다."
+"작업을 취소하면 적용된 업데이트가 삭제됩니다."
 
 #: updateWindow.cpp:154
 msgid "Info"
