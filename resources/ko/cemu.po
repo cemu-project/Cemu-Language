@@ -572,7 +572,7 @@ msgstr "불러오기(&L)..."
 
 #: src/gui/MainWindow.cpp:2028
 msgid "&Install game title, update or DLC..."
-msgstr "게임 타이틀, 업데이트, DLC 설치(&I)"
+msgstr "게임 타이틀/업데이트/DLC 설치(&I)"
 
 #: src/gui/MainWindow.cpp:2058
 msgid "End emulation"
