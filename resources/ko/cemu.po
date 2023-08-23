@@ -584,7 +584,7 @@ msgstr "그래픽 팩(&G)"
 
 #: src/gui/MainWindow.cpp:2114
 msgid "&Separate GamePad view"
-msgstr "&독립된 GamePad 보기"
+msgstr "별도의 게임패드 보기(&S)"
 
 #: src/gui/MainWindow.cpp:2117
 msgid "&General settings"
@@ -3139,11 +3139,11 @@ msgstr "게임"
 
 #: src/gui/components/wxGameList.cpp:406
 msgid "You've played"
-msgstr "플레이한 것"
+msgstr "플레이"
 
 #: src/gui/components/wxGameList.cpp:412
 msgid "Last played"
-msgstr "마지막으로 플레이한 것"
+msgstr "마지막 플레이"
 
 #: src/gui/components/wxGameList.cpp:418
 #: src/gui/components/wxTitleManagerList.cpp:150
