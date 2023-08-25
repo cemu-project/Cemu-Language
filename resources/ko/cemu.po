@@ -60,6 +60,14 @@ msgstr "잔류 ID"
 msgid "Gender"
 msgstr "성별"
 
+#: src/gui/GeneralSettings2.cpp:460
+msgid "Microphone (Experimental)"
+msgstr "마이크로폰(실험용)"
+
+#: src/gui/GeneralSettings2.cpp:1162
+msgid "%dms"
+msgstr "%d밀리초"
+
 #: src/gui/components/wxTitleManagerList.cpp:162
 msgid "Location"
 msgstr "지역"
