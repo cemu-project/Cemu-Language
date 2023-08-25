@@ -68,6 +68,14 @@ msgstr "마이크로폰(실험용)"
 msgid "%dms"
 msgstr "%d밀리초"
 
+#: src/gui/GeneralSettings2.cpp:2036
+msgid "The currently selected account is not a valid or dumped online account:\n"
+msgstr "현재 선택한 계정은 유효하지 않거나 폐기된 온라인 계정 :\n"
+
+#: src/gui/TitleManager.cpp:733
+msgid "Dumped online files not found"
+msgstr "덤프된 온라인 파일을 찾을 수 없음"
+
 #: src/gui/components/wxTitleManagerList.cpp:162
 msgid "Location"
 msgstr "지역"
@@ -2382,7 +2390,7 @@ msgstr "남성"
 
 #: src/gui/GeneralSettings2.cpp:674
 msgid "Email"
-msgstr "E메일"
+msgstr "이메일"
 
 #: src/gui/GeneralSettings2.cpp:685
 msgid "Country"
