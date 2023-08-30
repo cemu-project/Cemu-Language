@@ -1,0 +1,2259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hebrew cemu\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: iliya8801@yahoo.com\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+msgid "&0.125x speed"
+msgstr "&xמהירות 0.125"
+
+msgid "&0.25x speed"
+msgstr "&xמהירות 0.25"
+
+msgid "&0.5x speed"
+msgstr "&xמהירות 0.5"
+
+msgid "&1x speed"
+msgstr "&xמהירות 1"
+
+msgid "&2x speed"
+msgstr "&xמהירות 2"
+
+msgid "&4x speed"
+msgstr "&xמהירות 4"
+
+msgid "&8x speed"
+msgstr "&xמהירות 8"
+
+msgid "&About Cemu"
+msgstr "אודות Cemu"
+
+msgid "&Accurate barriers (Vulkan)"
+msgstr "&מסגרות מכוונות (Vulkan)"
+
+msgid "&Active account"
+msgstr "&הפעלת חשבון"
+
+msgid "&Add new entry"
+msgstr "&הוסף רשומה חדשה"
+
+msgid "&Audio API"
+msgstr "&Audio API"
+
+msgid "&Audio AUX only"
+msgstr "& שמע רק ב-AUX"
+
+msgid "&Breakpoints"
+msgstr "&נקודות שבירה"
+
+msgid "&CPU"
+msgstr "&מעבד"
+
+msgid "&Check for updates"
+msgstr "בדוק עדכונים זמינים"
+
+msgid "&Chinese"
+msgstr "&סינית"
+
+msgid "&Console language"
+msgstr "&שפת הקונסולה"
+
+msgid "&Copy"
+msgstr "&העתק"
+
+msgid "&Coreinit File-Access"
+msgstr "&Coreinit File-Access"
+
+msgid "&Coreinit Logging (OSReport/OSConsole)"
+msgstr "&Coreinit Logging (OSReport/OSConsole)"
+
+msgid "&Coreinit MP API"
+msgstr "&Coreinit MP API"
+
+msgid "&Coreinit Memory API"
+msgstr "&Coreinit Memory API"
+
+msgid "&Coreinit Thread API"
+msgstr "&Coreinit Thread API"
+
+msgid "&Coreinit Thread-Synchronization API"
+msgstr "&Coreinit Thread-Synchronization API"
+
+msgid "&DLC directory"
+msgstr "&תיקיית הרחבות"
+
+msgid "&Debug"
+msgstr "דיבאג"
+
+msgid "&Decrement"
+msgstr "&הורד"
+
+msgid "&Download"
+msgstr "&הורד"
+
+msgid "&Download Manager"
+msgstr "&מנהל הורדות"
+
+msgid "&Dump"
+msgstr "&שפיכה"
+
+msgid "&Dump current RAM"
+msgstr "&שפוך את תכולת זיכרון הראם הנוכחי"
+
+msgid "&Dutch"
+msgstr "&הולנדית"
+
+msgid "&Edit game profile"
+msgstr "&ערוך פרופיל משחק"
+
+msgid "&Edit graphic packs"
+msgstr "&ערוך חבילות גרפיקה"
+
+msgid "&Edit name"
+msgstr "&ערוך שם"
+
+msgid "&English"
+msgstr "&אנגלית"
+
+msgid "&Exit"
+msgstr "&יציאה"
+
+msgid "&Favorite"
+msgstr "&מועדף"
+
+msgid "&File"
+msgstr "&קובץ"
+
+msgid "&French"
+msgstr "&צרפתית"
+
+msgid "&Fullscreen"
+msgstr "&מסך מלא"
+
+msgid "&GX2 API"
+msgstr "&GX2 API"
+
+msgid "&Game directory"
+msgstr "&תיקיית המשחק"
+
+msgid "&General settings"
+msgstr "&הגדרות כלליות"
+
+msgid "&German"
+msgstr "&גרמנית"
+
+msgid "&Getting started"
+msgstr "צעדים ראשונים"
+
+msgid "&Goto Disasm"
+msgstr "&Goto Disasm"
+
+msgid "&Graphic pack patches"
+msgstr "תיקוני חבילת גרפיקה"
+
+msgid "&Graphic packs"
+msgstr "&חבילות גרפיקה"
+
+msgid "&H264 API"
+msgstr "&H264 API"
+
+msgid "&Help"
+msgstr "עזרה"
+
+msgid "&Increment"
+msgstr "&העלה"
+
+msgid "&Input API"
+msgstr "&Input API"
+
+msgid "&Input settings"
+msgstr "&הגדרות קלט"
+
+msgid "&Install game title, update or DLC..."
+msgstr "&...התקן כותר, עדכון, או הרחבה"
+
+msgid "&Italian"
+msgstr "&איטלקית"
+
+msgid "&Japanese"
+msgstr "&יפנית"
+
+msgid "&Korean"
+msgstr "&קוריאנית"
+
+msgid "&Load..."
+msgstr "&...טען"
+
+msgid "&Log PPC context for API"
+msgstr "&Log PPC context for API"
+
+msgid "&Logging"
+msgstr "&רישום לוג"
+
+msgid "&Memory Dump"
+msgstr "&שפיכת זיכרון"
+
+msgid "&Memory searcher"
+msgstr "&מחפש זיכרון"
+
+msgid "&NFC"
+msgstr "&NFC"
+
+msgid "&NN NFP"
+msgstr "&NN NFP"
+
+msgid "&Open logging window"
+msgstr "&פתח חלון רישום לוג"
+
+msgid "&OpenGL debug output"
+msgstr "&פלט מנגנון דיבאג OpenGL"
+
+msgid "&Options"
+msgstr "&אפשרויות"
+
+msgid "&Pin to main window"
+msgstr "&נעץ לחלון הראשי"
+
+msgid "&Portuguese"
+msgstr "&פורטוגזית"
+
+msgid "&Refresh game list"
+msgstr "&רענן רשימת משחקים"
+
+msgid "&Registers"
+msgstr "&אוגרים"
+
+msgid "&Remove entry"
+msgstr "&הסר רשומה"
+
+msgid "&Render upside-down"
+msgstr "&רנדר הפוך"
+
+msgid "&Resume"
+msgstr "&המשך"
+
+msgid "&Retry"
+msgstr "&נסה שוב"
+
+msgid "&Russian"
+msgstr "&רוסית"
+
+msgid "&Save API"
+msgstr "&Save API"
+
+msgid "&Save directory"
+msgstr "&שמור תיקייה"
+
+msgid "&Scan NFC tag from file"
+msgstr "&סרוק טאג NFC מתוך קובץ"
+
+msgid "&Separate GamePad view"
+msgstr "&נפרדת GamePad תצוגת"
+
+msgid "&Shaders"
+msgstr "&Shaders"
+
+msgid "&Socket API"
+msgstr "&Socket API"
+
+msgid "&Spanish"
+msgstr "&ספרדית"
+
+msgid "&Start"
+msgstr "&התחל"
+
+msgid "&Symbols"
+msgstr "&סימנים"
+
+msgid "&Taiwanese"
+msgstr "&טייוואנית"
+
+msgid "&Texture cache warnings"
+msgstr "&אזהרות מטמון של טקסטורות"
+
+msgid "&Textures"
+msgstr "&טקסטורות"
+
+msgid "&Timer speed"
+msgstr "&מהירות טיימר"
+
+msgid "&Title Manager"
+msgstr "&מנהל כותרים"
+
+msgid "&Tools"
+msgstr "&כלים"
+
+msgid "&Unsupported API calls"
+msgstr "&קריאות API לא חוקיות"
+
+msgid "&Update directory"
+msgstr "&עדכן תיקייה"
+
+msgid "&Vulkan validation layer (slow)"
+msgstr "שכבת אימות Vulkan (איטי)"
+
+msgid "&Wiki page"
+msgstr "&דף ויקי"
+
+msgid "&Window"
+msgstr "&חלון"
+
+msgid "&Zero"
+msgstr "&אפס"
+
+msgid "&nlibcurl HTTP/HTTPS requests"
+msgstr "&nlibcurl HTTP/HTTPS requests"
+
+msgid "(optional)"
+msgstr "(אופציונלי)"
+
+msgid "<profile name>"
+msgstr "<שם פרופיל>"
+
+msgid "> no modules loaded"
+msgstr "> לא נטענו מודולים"
+
+msgid "> unknown module"
+msgstr "> מודול לא ידוע"
+
+msgid ""
+"A custom mlc path from a previous Cemu installation has been found and "
+"filled in."
+msgstr "נמצא נתיב mlc מותאם אישית מהתקנה קודמת של Cemu והתמלא באופן אוטומטי."
+
+msgid "API"
+msgstr "API"
+
+msgid "AX voice viewer"
+msgstr "מציג קול AX"
+
+msgid "About Cemu"
+msgstr "אודות Cemu"
+
+msgid "Account"
+msgstr "חשבון"
+
+msgid "Account information"
+msgstr "מידע משתמש"
+
+msgid "Account name may not be empty!"
+msgstr "!שם המשתמש לא יכול להיות ריק"
+
+msgid "Account settings"
+msgstr "הגדרות חשבון"
+
+msgid "AccountId missing (The account is not connected to a NNID)"
+msgstr "מזהה משתמש חסר (המשתמש אינו מחובר ל-NNID)"
+
+msgid ""
+"AccountPasswordCache is empty (The remember password option on your Wii U "
+"must be enabled for this account before dumping it)"
+msgstr ""
+"AccountPasswordCache ריק (אפשרות \"זכור סיסמא\" צריכה להיות פעילה במכשיר ה-"
+"Wii U לפני שתייצא את המשתמש)"
+
+msgid "Accurate barriers are off"
+msgstr "מחסומים מדויקים מכובים"
+
+msgid "Active account"
+msgstr "חשבון פעיל"
+
+msgid "Active preset"
+msgstr "חבילה פעילה"
+
+msgid "Add"
+msgstr "הוסף"
+
+msgid "Add input API"
+msgstr "הוסף API קלט"
+
+msgid ""
+"Add the root directory of your game(s). It will scan all directories in it "
+"for games"
+msgstr ""
+"הוסף את התיקייה הראשית של המשחק(ים) שלך. התוכנה תסרוק את כל התיקיות בתוכה "
+"עבור משחקים"
+
+msgid "Additional options"
+msgstr "אפשרויות נוספות"
+
+msgid "Address"
+msgstr "כתובת"
+
+msgid ""
+"Adds a game path to scan for games displayed in the game list\n"
+"If you have unpacked games, make sure to select the root folder of a game"
+msgstr ""
+"מוסיף נתיב משחק לסריקה של משחקים המוצגים ברשימת המשחקים\n"
+"אם יש לך משחקים שחולצו, וודא שבחרת את התיקייה הראשית של המשחק"
+
+msgid "All files (*.*)"
+msgstr "כל הקבצים (*.*)"
+
+msgid "Applying update..."
+msgstr "...מחיל עדכון"
+
+msgid "Are you really sure that you want to delete the save entry for {}"
+msgstr "האם אתה בטוח שברצונך למחוק את הרשומה {}"
+
+msgid "Are you sure you want to delete the account {} with id {:x}?"
+msgstr "האם אתה בטוח שברצונך למחוק את החשבון {} עם המזהה {:x}?"
+
+msgid "At least one issue has been found"
+msgstr "נמצאה לפחות בעיה אחת"
+
+msgid "Audio"
+msgstr "שמע"
+
+msgid "Australia"
+msgstr "אוסטרליה"
+
+msgid "Auto"
+msgstr "אוטומטי"
+
+msgid "Auto refresh"
+msgstr "רענון אוטומטי"
+
+msgid "Automatically check for updates"
+msgstr "בדוק אוטומטית אחר עדכונים"
+
+msgid "Automatically checks for new cemu versions on startup"
+msgstr "בודק אוטומטית אחר גרסאות חדשות של cemu בעת הפעלה"
+
+msgid "Axis"
+msgstr "ציר"
+
+msgid "Base game"
+msgstr "קבצי בסיס"
+
+msgid "Birthday"
+msgstr "תאריך לידה"
+
+msgid "Boost priority (-1)"
+msgstr "Boost priority (-1)"
+
+msgid "Boost priority (-5)"
+msgstr "Boost priority (-5)"
+
+msgid "Bottom center"
+msgstr "למטה במרכז"
+
+msgid "Bottom left"
+msgstr "בצד שמאל למטה"
+
+msgid "Bottom right"
+msgstr "בצד ימין למטה"
+
+msgid "Break (F5)"
+msgstr "שבור (F5"
+
+msgid "Break on &entry point"
+msgstr "שבור ב-&נקודת התחלה"
+
+msgid "Breakpoints"
+msgstr "Breakpoints"
+
+msgid "Browse"
+msgstr "פתח"
+
+msgid "CPU"
+msgstr "מעבד"
+
+msgid "CPU per core usage"
+msgstr "שימוש במעבד לכל ליבה"
+
+msgid "CPU usage"
+msgstr "שימוש במעבד"
+
+msgid "CPU usage of Cemu in percent"
+msgstr "שימוש במעבד עבור Cemu באחוזים"
+
+msgid "Calibrate"
+msgstr "כיול"
+
+msgid "Can't delete the only account!"
+msgstr "לא ניתן למחוק את החשבון היחיד!"
+
+msgid "Can't open file to write!"
+msgstr "לא ניתן לפתוח קובץ לכתיבה!"
+
+msgid "Can't open file!"
+msgstr "פתיחת קובץ נכשלה!"
+
+msgid "Can't parse json file!"
+msgstr "פתיחת קובץ JSON נכשלה!"
+
+msgid "Can't write to file: {}"
+msgstr "לא ניתן לכתוב לקובץ: {}"
+
+msgid "Cancel"
+msgstr "ביטול"
+
+msgid "Cannot create file"
+msgstr "לא ניתן ליצור קובץ"
+
+msgid "Cannot open file"
+msgstr "פתיחת קובץ נכשלה"
+
+msgid "Cannot write file. Disk full?"
+msgstr "לא ניתן לכתוב קובץ. הדיסק מלא?"
+
+msgid ""
+"Cemu\n"
+"Version {0}\n"
+"Compiled on {1}\n"
+"Original authors: {2}"
+msgstr ""
+"Cemu\n"
+"גרסא {0}\n"
+"קומפלה ב-{1}\n"
+"כותבים מקוריים: {2}"
+
+msgid "Cemu RAM usage in MB"
+msgstr "שימוש של Cemu בזיכרון ראם ב-MB"
+
+msgid ""
+"Cemu can't write to its directory.\n"
+"Please move it to a different location or run Cemu as administrator!"
+msgstr ""
+"Cemu לא יכול לכתוב בנתיב זה.\n"
+"אנא העבר את Cemu לנתיב אחר, או הרץ את Cemu כמנהל!"
+
+msgid ""
+"Cemu can't write to the selected mlc path!\n"
+"Do you want to select another path?"
+msgstr ""
+"Cemu-אינו יכול לכתוב לנתיב ה-mlc שנבחר!\n"
+"האם ברצונך לבחור נתיב אחר?"
+
+msgid ""
+"Cemu is a Wii U emulator.\n"
+"\n"
+"Wii and Wii U are trademarks of Nintendo.\n"
+"Cemu is not affiliated with Nintendo."
+msgstr ""
+"Cemu הוא אימולטור של קונסולת Wii U.\n"
+"\n"
+"Wii ו-Wii U הם סימני מסחר של נינטנדו.\n"
+"ל-Cemu אין כל קשר לנינטנדו."
+
+msgid "Cemu must be restarted to apply the selected UI language."
+msgstr "יש להפעיל מחדש את Cemu כדי להחיל את שפת הממשק המשתמש שנבחרה."
+
+msgid ""
+"Cemu will remember your custom mlc path in %LOCALAPPDATA%/Cemu for new "
+"installations."
+msgstr ""
+"Cemu יזכור את הנתיב המותאם אישית של mlc ב-%LOCALAPPDATA%/Cemu עבור התקנות "
+"חדשות."
+
+msgid "Changelog"
+msgstr "יומן השינויים"
+
+msgid ""
+"Changes the interface language of Cemu\n"
+"Available languages are stored in the translation directory\n"
+"A restart will be required after changing the language"
+msgstr ""
+"משנה את שפת הממשק של Cemu\n"
+"שפות זמינות מאוחסנות בתיקיית התרגום\n"
+"יהיה עליך לאתחל את התוכנה לאחר שינוי השפה"
+
+msgid "Channels"
+msgstr "ערוצים"
+
+msgid "Checking"
+msgstr "בודק"
+
+msgid "Checking version..."
+msgstr "...בודק גרסא"
+
+msgid "China"
+msgstr "סין"
+
+msgid "Chinese"
+msgstr "סינית"
+
+msgid "Classic"
+msgstr "קלאסי"
+
+msgid "Clear"
+msgstr "ניקוי"
+
+msgid "Close"
+msgstr "סגור"
+
+msgid "Comment"
+msgstr "תגובה"
+
+msgid "Configure input"
+msgstr "הגדר קלט"
+
+msgid "Confirmation"
+msgstr "אישור"
+
+msgid "Connect"
+msgstr "התחבר"
+
+msgid "Connected extension"
+msgstr "הרחבה מחוברת"
+
+msgid "Connected. Right click entries in the list to start downloading"
+msgstr "מחובר. לחץ לחיצה ימנית על ערכים ברשימה כדי להתחיל בהורדה"
+
+msgid "Control"
+msgstr "בקרה"
+
+msgid "Controller"
+msgstr "בקר"
+
+msgid "Controller profiles"
+msgstr "פרופילי בקר המשחק"
+
+msgid "Controller settings"
+msgstr "אפשרויות בקר"
+
+msgid "Controller {}"
+msgstr "ברק {}"
+
+msgid "Controls the notification position while playing"
+msgstr "שליטה על מיקום ההודעות במשחק"
+
+msgid "Controls the overlay which displays technical information while playing"
+msgstr "ניהול הכיסוי המציג מידע טכני בזמן המשחק"
+
+msgid ""
+"Couldn't create a required cemu directory or file!\n"
+"\n"
+"Error: {0}"
+msgstr ""
+"לא ניתן ליצור תיקייה או קובץ נדרשים של cemu!\n"
+"\n"
+"שגיאה: {0}"
+
+msgid ""
+"Couldn't create a required mlc01 subfolder or file!\n"
+"\n"
+"Error: {0}\n"
+"Target path:\n"
+"{1}"
+msgstr ""
+"לא ניתן ליצור תיקיית משנה או קובץ נדרשים של mlc01!\n"
+"\n"
+"שגיאה: {0}\n"
+"נתיב מטרה:\n"
+"{1}"
+
+msgid "Couldn't download the update!"
+msgstr "!לא יכול להוריד את העדכון"
+
+msgid "Country"
+msgstr "מדינה"
+
+msgid "Crash dump"
+msgstr "Crash dump"
+
+msgid "Create"
+msgstr "צור"
+
+msgid "Create memory breakpoint (read)"
+msgstr "צור נקודת שבירה בזיכרון (קריאה)"
+
+msgid "Create memory breakpoint (write)"
+msgstr "צור נקודת שבירה בזיכרון (כתיבה)"
+
+msgid "Create new account"
+msgstr "צור משתמש חדש"
+
+msgid ""
+"Creates a dump when Cemu crashes\n"
+"Only enable when requested by a developer!\n"
+"The Full option will create a very large dump file (includes a full RAM dump "
+"of the Cemu process)"
+msgstr ""
+"Creates a dump when Cemu crashes\n"
+"Only enable when requested by a developer!\n"
+"The Full option will create a very large dump file (includes a full RAM dump "
+"of the Cemu process)"
+
+msgid "Current file:"
+msgstr "קובץ נוכחי:"
+
+msgid "Currently active downloads will continue in the background."
+msgstr "הורדות פעילות ימשיכו לרוץ ברקע."
+
+msgid "Custom mlc01 path"
+msgstr "נתיב mlc01 מותאם אישית"
+
+msgid "D-pad"
+msgstr "D-pad"
+
+msgid "DLC"
+msgstr "DLC"
+
+msgid "Deadzone"
+msgstr "שדה מת"
+
+msgid "Debug"
+msgstr "Debug"
+
+msgid "Decrease priority (+1)"
+msgstr "Decrease priority (+1)"
+
+msgid "Decrease priority (+5)"
+msgstr "Decrease priority (+5)"
+
+msgid "Default"
+msgstr "ברירת מחדל"
+
+msgid "Delete"
+msgstr "מחק"
+
+msgid "Delete outdated cache file [recommended]"
+msgstr "מחק קובץ מטמון ישן [מומלץ]"
+
+msgid "Demo"
+msgstr "דמו"
+
+msgid "Description"
+msgstr "תיאור"
+
+msgid "Device"
+msgstr "מכשיר"
+
+msgid "Disabled"
+msgstr "כבוי"
+
+msgid "Discord Presence"
+msgstr "נוכחות ב-Discord"
+
+msgid "Displays internal debug information (Vulkan only)"
+msgstr "הצגת מידע ניתוח (כן / לא) (רק במנוע Vulkan)"
+
+msgid "Displays the active controller profile when starting a game"
+msgstr "הצגת הפרופיל הפעיל של המנוע הכוח כאשר מתחילים משחק"
+
+msgid ""
+"Displays the menu bar when Cemu is running in fullscreen mode and the mouse "
+"cursor is moved to the top"
+msgstr ""
+"מציג את שורת התפריט כאשר Cemu פועל במצב מסך מלא וסמן העכבר מועבר לחלק העליון"
+
+msgid ""
+"Do you really want to cancel the installation process?\n"
+"\n"
+"Canceling the process will delete the applied files."
+msgstr ""
+"האם ברצונך לבטל את תהליך ההתקנה?\n"
+"\n"
+"ביטול התהליך ימחק את הקבצים המוחלים."
+
+msgid "Do you want to view the downloaded graphic packs?"
+msgstr "האם ברצונך להוריד את החבילות הגרפיות?"
+
+msgid "Don't show this again"
+msgstr "אל תראה זאת שנית"
+
+msgid "Download Manager"
+msgstr "מנהל הורדות"
+
+msgid "Download community graphic packs"
+msgstr "הורד חבילות גרפיות של הקהילה"
+
+msgid "Download failed"
+msgstr "הורדה נכשלה"
+
+msgid "Download latest community graphic packs"
+msgstr "הורד את חבילות הגרפיקה האחרונות של הקהילה"
+
+msgid "Downloading"
+msgstr "מוריד"
+
+msgid "Downloading account ticket"
+msgstr "מוריד כרטיס חשבון"
+
+msgid "Downloading graphic packs..."
+msgstr "...מוריד חבילה גרפית"
+
+msgid "Downloading meta data"
+msgstr "מוריד מטא נתונים"
+
+msgid "Downloading system tickets..."
+msgstr "...מוריד כרטיסי מערכת"
+
+msgid "Downloading ticket"
+msgstr "מוריד כרטיס"
+
+msgid "Downloading update..."
+msgstr "...מוריד עדכון"
+
+msgid "Draw calls per frame"
+msgstr "מספר הקריאות לפריים. ממוצע על החמש שניות האחרונות"
+
+msgid "Dutch"
+msgstr "הולנדית"
+
+msgid ""
+"EXPERT OPTION\n"
+"This option will load libraries from the cafeLibs directory"
+msgstr ""
+"אפשרות למומחים\n"
+"האפשרות הזאת תטען את הספריות מתוך נתיב cafeLibs"
+
+msgid "Edit game profile"
+msgstr "ערוך פרופיל משחק"
+
+msgid "Email"
+msgstr "כתובת מייל"
+
+msgid "Emulated controller"
+msgstr "בקר מדומה"
+
+msgid "Enable online mode"
+msgstr "אפשר מצב מקוון"
+
+msgid ""
+"Enables the Discord Rich Presence feature\n"
+"You will also need to enable it in the Discord settings itself!"
+msgstr ""
+"מאפשרת את תכונת הנוכחות העשירה של Discord\n"
+"יהיה עליך גם לאפשר אותה בהגדרות של Discord!"
+
+msgid "End emulation"
+msgstr "סיים אימולטור"
+
+msgid "English"
+msgstr "אנגלית"
+
+msgid "Enter a custom game title"
+msgstr "הזן כותרת משחק מותאמת אישית"
+
+msgid "Enter a memory address"
+msgstr "הזן כתובת בזיכרון"
+
+msgid "Enter a new comment."
+msgstr ".הזן תגובה חדשה"
+
+msgid "Enter a new instruction."
+msgstr ".הזן הוראה חדשה"
+
+msgid "Enter a new value."
+msgstr ".הזן נתון חדש"
+
+msgid "Enter a target address."
+msgstr "הזן כתובת יעד"
+
+msgid "Error"
+msgstr "שגיאה"
+
+msgid "Error code"
+msgstr "קוד שגיאה"
+
+msgid ""
+"Error when creating the extraction path:\n"
+"{}"
+msgstr "אירעה שגיאה ביצירת נתיב חילוץ הקובץ: {}"
+
+msgid ""
+"Error when creating the zip for the save entry:\n"
+"{}"
+msgstr ""
+"אירעה שגיאה בזמן יצירת קובץ ZIP לטובת השמירה:\n"
+"{}"
+
+msgid ""
+"Error when initializing Vulkan renderer:\n"
+"{}"
+msgstr ""
+"שגיאה בעת אתחול מנוע הרינדור של Vulkan:\n"
+"{}"
+
+msgid ""
+"Error when opening the import zip file:\n"
+"{}"
+msgstr "אירעה שגיאה בפתיחת הקובץ המיובא: {}"
+
+msgid ""
+"Error when trying to add a directory to the zip:\n"
+"{}"
+msgstr ""
+"אירעה שגיאה בזמן ניסיון להוסיף תיקיה לקובץ ZIP:\n"
+"{}"
+
+msgid ""
+"Error when trying to add a file to the zip:\n"
+"{}"
+msgstr ""
+"אירעה שגיאה בזמן ניסיון להוסיף קובץ לקובץ ZIP:\n"
+"{}"
+
+msgid ""
+"Error when trying to add cemu_meta file to the zip:\n"
+"{}"
+msgstr ""
+"אירעה שגיאה בזמן ניסיון להוסיף את קובץ cemu_meta לקובץ ZIP:\n"
+"{}"
+
+msgid ""
+"Error when trying to delete the former save game:\n"
+"{}"
+msgstr "אירעה שגיאה בזמן ניסיון למחוק את קובץ השמירה הקודם: {}"
+
+msgid ""
+"Error when trying to delete the save directory:\n"
+"{}"
+msgstr ""
+"אירעה שגיאה בזמן ניסיון למחוק את נתיב השמירה:\n"
+"{}"
+
+msgid ""
+"Error when trying to move former title installation:\n"
+"{}"
+msgstr ""
+"Error when trying to move former title installation:\n"
+"{}"
+
+msgid ""
+"Error when trying to move the save game:\n"
+"{}"
+msgstr "אירעה שגיאה בזמן ניסיון להעביר את קבצי השמירה: {}"
+
+msgid "Europe"
+msgstr "אירופה"
+
+msgid "Exit"
+msgstr "יציאה"
+
+msgid "Export"
+msgstr "יצוא"
+
+msgid "Export checksum entry"
+msgstr "יצא רשומת סיכום בדיקה"
+
+msgid "Export successful"
+msgstr "היצוא הושלם בהצלחה"
+
+msgid "Export the title checksum data to a local JSON file"
+msgstr "יצא את נתוני סיכום הבדיקה של הכותרת לקובץ JSON מקומי"
+
+msgid "Exports the selected save entry as zip file"
+msgstr "מייצא את קובץ השמירה כקובץ ZIP"
+
+msgid "Extensions:"
+msgstr "הרחבות:"
+
+msgid "Extracting failed!"
+msgstr "!חילוץ העדכון נכשל"
+
+msgid "Extracting update..."
+msgstr "...מחלץ עדכון"
+
+msgid "Extracting..."
+msgstr "...מחלץ"
+
+msgid "FP view mode"
+msgstr "מצב תצוגת FP"
+
+msgid "FPS"
+msgstr "פריימים לשניה"
+
+msgid "Failed to connect to server"
+msgstr "התחברות לשרת נכשלה"
+
+msgid "Failed to launch executable. Path: "
+msgstr "נכשלה הפעלת קובץ ההרצה. נתיב: "
+
+msgid "Failed to launch game."
+msgstr " הפעלת המשחק נכשלה."
+
+msgid "Failed to query account status. Invalid account information?"
+msgstr "לא נמצאו נתוני משתמש. פרטי ההתחברות שגויים?"
+
+msgid "Failed to request tickets (invalid NNID?)"
+msgstr "נכשל בבקשה לכרטיסים (NNID לא תקין?)"
+
+msgid "Failed to run this title because the executable is damaged"
+msgstr "נכשל בהרצת הכותר מכיוון שקובץ ההרצה פגום"
+
+msgid "Failed. Account does not have password set"
+msgstr "נכשל. לחשבון אין סיסמה מוגדרת"
+
+msgid "Female"
+msgstr "נקבה"
+
+msgid "Filter"
+msgstr "סנן"
+
+msgid "Filter messages"
+msgstr "סנן הודעות"
+
+msgid "Forces a given controller profile"
+msgstr "מכריח את פרופיל הבקר הנתון"
+
+msgid "Found {0} games, {1} updates, {2} DLCs and {3} save entries"
+msgstr "נמצאו {0} משחקים, {1} עדכונים, {2} הרחבות ו-{3} שמירות."
+
+msgid "Freeze"
+msgstr "הקפא"
+
+msgid "French"
+msgstr "צרפתית"
+
+msgid "Friend list"
+msgstr "רשימת חברים"
+
+msgid "Full"
+msgstr "מלא"
+
+msgid "Fullscreen menu bar"
+msgstr "שורת תפריט מסך מלא"
+
+msgid "G&oto Dump"
+msgstr "&Goto Dump"
+
+msgid "Game"
+msgstr "משחק"
+
+msgid "Game Paths"
+msgstr "נתיבי משחקים"
+
+msgid "Game path"
+msgstr "נתיב המשחק"
+
+msgid "Game paths"
+msgstr "נתיבי המשחק"
+
+msgid "GamePad View"
+msgstr "תצוגת GamePad"
+
+msgid "Gamepad"
+msgstr "Gamepad"
+
+msgid ""
+"Games will be launched with gamepad view toggled as default. The view can be "
+"toggled with CTRL + TAB"
+msgstr ""
+"משחקים ירוצו עם מצב gamepad מופעל כברירת מחדל. אפשר לשנות את מצב המשחק על-"
+"ידי לחיצה על CTRL + TAB"
+
+msgid "General"
+msgstr "כללי"
+
+msgid "General settings"
+msgstr "הגדרות כלליות"
+
+msgid "Generated checksum of game image: {}"
+msgstr "סיכום בדיקת תמונת המשחק: {}"
+
+msgid "Generated checksum of {} game files"
+msgstr "סיכום בדיקה שנוצר של {} קבצי משחק"
+
+msgid "Generating checksum of game image: {}"
+msgstr "יוצר סיכום בדיקת תמונת המשחק: {}"
+
+msgid "German"
+msgstr "גרמנית"
+
+msgid "Getting installed title information..."
+msgstr "...מברר את מידע הכותרים המותקנים"
+
+msgid "Getting started"
+msgstr "צעדים ראשונים"
+
+msgid "GoTo (CTRL + G)"
+msgstr "לך ל (CTRL + G)"
+
+msgid "GoTo address"
+msgstr "לך לכתובת"
+
+msgid "Grabbing game files"
+msgstr "מאחזר קבצי משחק"
+
+msgid "Graphic"
+msgstr "גרפיקה"
+
+msgid "Graphic pack"
+msgstr "חבילת גרפיקה"
+
+msgid "Graphic packs"
+msgstr "חבילות גרפיות"
+
+msgid "Graphic packs cannot be updated while a game is running."
+msgstr "לא ניתן לעדכן חבילות גרפיות בזמן ריצת משחק."
+
+msgid ""
+"Graphic packs improve games by offering the possibility to change "
+"resolution, tweak FPS or add other visual or gameplay modifications.\n"
+"Download the community graphic packs to get started.\n"
+msgstr ""
+"החבילות הגרפיות משפרות את המשחקים על ידי הצעת האפשרות לשנות את הרזולוציה, "
+"להתאים את קצב המסך למשחק או להוסיף שיפורים ושינויים חזותיים ומשחקיים אחרים.\n"
+"יש להוריד את חבילות הגרפיות המשותפות כדי להתחיל.\n"
+
+msgid "Graphics"
+msgstr "גרפיקה"
+
+msgid "Graphics API"
+msgstr "מפענח גרפיקה"
+
+msgid "Graphics Device"
+msgstr "כרטיס מסך"
+
+msgid "Hashing game file: {}/{}"
+msgstr "יוצר סיכום בדיקה של קובץ משחק: {}/{}"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "Import"
+msgstr "יבא"
+
+msgid "Import save entry"
+msgstr "ייבא שמירה"
+
+msgid "Imports a zipped save entry"
+msgstr "מייבא קובץ שמירה בפורמט דחוס"
+
+msgid "Info"
+msgstr "מידע"
+
+msgid "Information"
+msgstr "מידע"
+
+msgid "Initializing"
+msgstr "מאתחל"
+
+msgid "Input settings"
+msgstr "הגדרות קלט"
+
+msgid "Install title"
+msgstr "התקן כותר"
+
+msgid "Installed"
+msgstr "מותקן"
+
+msgid "Installed games"
+msgstr "משחקים מותקנים"
+
+msgid "Installing"
+msgstr "מתקין"
+
+msgid "Installing DLC..."
+msgstr "...מתקין הרחבה"
+
+msgid "Installing title..."
+msgstr "...מתקין כותר"
+
+msgid "Installing update..."
+msgstr "...מתקין עדכון"
+
+msgid "Interface"
+msgstr "ממשק"
+
+msgid "Invalid TMD"
+msgstr "TMD לא תקין"
+
+msgid ""
+"IsPasswordCacheEnabled is set to false (The remember password option on your "
+"Wii U must be enabled for this account before dumping it)"
+msgstr ""
+"IsPasswordCacheEnabled מוגדר כבוי (אפשרות \"זכור סיסמא\" צריכה להיות פעילה "
+"במכשיר ה-Wii U לפני שתייצא את המשתמש)"
+
+msgid ""
+"It looks like you're starting Cemu for the first time.\n"
+"This quick setup assistant will help you get the best experience"
+msgstr ""
+"נראה שזאת הפעם הראשונה ש-Cemu מופעל.\n"
+"עוזר ההתקנה יעזור לך לקבל את החוויה הטובה ביותר"
+
+msgid ""
+"It seems that a newer version is already installed, do you still want to "
+"install the older version?"
+msgstr ""
+"נראה שגרסא חדשה יותר כבר מותקנת, הם בכל זאת תרצה להתקין גרסא ישנה יותר?"
+
+msgid ""
+"It seems that the selected title is already installed, do you want to "
+"reinstall it?"
+msgstr "נראה שהכותר הזה כבר מותקן, הם תרצה להתקין אותו שוב?"
+
+msgid ""
+"It seems that there is already a title installed at the target location but "
+"it has a different type.\n"
+"Currently installed: '{}' Installing: '{}'\n"
+"\n"
+"This can happen for titles which were installed with very old Cemu "
+"versions.\n"
+"Do you still want to continue with the installation? It will replace the "
+"currently installed title."
+msgstr ""
+"נראה שכבר קיים כותר במיקום היעד, אך יש לו סוג שונה.\n"
+"מותקן כעת: '{}' מתקין: '{}'\n"
+"\n"
+"זה יכול לקרות עבור כותרים שהותקנו עם גרסאות Cemu ישנות מאוד.\n"
+"האם אתה עדיין רוצה להמשיך עם ההתקנה? זה יחליף את הכותר המותקן כעת."
+
+msgid "Italian"
+msgstr "איטלקית"
+
+msgid "JSON file doesn't satisfy needed schema"
+msgstr "קובץ ה-JSON אינו עומד בסכימה הנדרשת"
+
+msgid "JSON parse error: {}"
+msgstr "שגיאת קובץ JSON: {}"
+
+msgid "Japan"
+msgstr "יפן"
+
+msgid "Japanese"
+msgstr "יפנית"
+
+msgid "Keep outdated cache file"
+msgstr "שמור על קובץ המטמון הישן"
+
+msgid "Korea"
+msgstr "קוריאה"
+
+msgid "Korean"
+msgstr "קוריאנית"
+
+msgid "Language"
+msgstr "שפה"
+
+msgid "Last played"
+msgstr "שוחק לאחרונה"
+
+msgid "Launch with gamepad view"
+msgstr "הפעל עם תצוגת gamepad"
+
+msgid "Left Axis"
+msgstr "ציר שמאלי"
+
+msgid "Lite"
+msgstr "חלקי"
+
+msgid "Load"
+msgstr "טען"
+
+msgid "Load shared libraries"
+msgstr "טען סיפריות משותפות"
+
+msgid "Logging in.."
+msgstr "מתחבר.."
+
+msgid "Logging window"
+msgstr "חלון יומן אירועים"
+
+msgid "Login failed. Outdated or incomplete online files?"
+msgstr "ההתחברות נכשלה. האם הגרסא שלך מיושנת?"
+
+msgid "Low battery"
+msgstr "סוללה נמוכה"
+
+msgid "MLC Path"
+msgstr "נתיב MLC"
+
+msgid "Male"
+msgstr "זכר"
+
+msgid "Memory Dump"
+msgstr "Memory Dump"
+
+msgid "Memory Searcher"
+msgstr "מחפש זיכרון"
+
+msgid "Memory breakpoint"
+msgstr "נקודת שבירה של זיכרון"
+
+msgid "Mii name"
+msgstr "שם Mii"
+
+msgid "Mode"
+msgstr "מצב"
+
+msgid "Module"
+msgstr "מודולים"
+
+msgid "Module&list"
+msgstr "רשימת&מודולים"
+
+msgid "Modules"
+msgstr "מודלים"
+
+msgid "Mono"
+msgstr "מונו"
+
+msgid "MotionPlus"
+msgstr "MotionPlus"
+
+msgid ""
+"Multiple issues with your game files have been found!\n"
+"Do you want to export them to a file?"
+msgstr ""
+"נמצאו מספר בעיות בקבצי המשחק שלך!\n"
+"האם ברצונך לייצא אותם לקובץ?"
+
+msgid "Name"
+msgstr "שם"
+
+msgid "Next"
+msgstr "הבא"
+
+msgid "No account selected"
+msgstr "לא נבחר משתמש"
+
+msgid "No update available!"
+msgstr "!אין עדכונים זמינים"
+
+msgid "No updates available."
+msgstr "אין עדכונים זמינים."
+
+msgid "None"
+msgstr "אין"
+
+msgid "Not a valid NFC NTAG215 file"
+msgstr "קובץ NFC NTAG215 לא תקף"
+
+msgid ""
+"Not enough space available.\n"
+"Required: {0} MB\n"
+"Available: {1} MB"
+msgstr ""
+"אין מספיק שטח אחסון זמין.\n"
+" נדרש: {0} MB\n"
+"זמין: {1} MB"
+
+msgid "Not installed"
+msgstr "לא מותקן"
+
+msgid "Not installed (Partially downloaded)"
+msgstr "לא מותקן (הורד חלקית)"
+
+msgid "Notifications"
+msgstr "הודעות"
+
+msgid "Nunchuck"
+msgstr "נונצ'אקה"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Off"
+msgstr "כבוי"
+
+msgid "On"
+msgstr "דלוק"
+
+msgid "Online Status"
+msgstr "מצב מקוון"
+
+msgid "Online play tutorial"
+msgstr "מדריך למשחק מקוון"
+
+msgid "Online settings"
+msgstr "הגדרות רשת"
+
+msgid "Open checksum entry"
+msgstr "פתח רשומת סיכום בדיקה"
+
+msgid "Open directory"
+msgstr "פתח תיקיית נתיב"
+
+msgid "Open file to launch"
+msgstr "פתח קובץ להפעלה"
+
+msgid "Open file to load"
+msgstr "פתח קובץ לטעינה"
+
+msgid "Open separate pad screen"
+msgstr "פתח מסך פד נפרד"
+
+msgid "Open the directory of the save entry"
+msgstr "פתח את תיקיית הנתיב של השמירה"
+
+msgid "Options"
+msgstr "אפשרויות"
+
+msgid "Outdated shader cache"
+msgstr "מטמון של בקרת צללים ישן"
+
+msgid "Overlay"
+msgstr "הצג כיסוי מידע על המסך"
+
+msgid "PPC Debugger"
+msgstr "דיבאגר PPC"
+
+msgid "PPC threads"
+msgstr "PPC threads"
+
+msgid "Packet delay"
+msgstr "עיכוב חבילה"
+
+msgid "Paused"
+msgstr "מושהה"
+
+msgid "Permanently delete the save entry"
+msgstr "מחק את השמירה לצמיתות"
+
+msgid "Port"
+msgstr "יציאה"
+
+msgid "Portugese"
+msgstr "פורטוגזית"
+
+msgid "Position"
+msgstr "מיקום"
+
+msgid ""
+"Pressing the screenshot key (F12) will save a screenshot directly to the "
+"screenshots folder"
+msgstr "לחיצה על מקש צילום המסך (F12) תשמור צילום מסך ישירות לתיקיית הצילומים"
+
+msgid "Previous"
+msgstr "הקודם"
+
+msgid "PrincipalId missing"
+msgstr "PrincipalId חסר"
+
+msgid "Profile"
+msgstr "פרופיל"
+
+msgid "Progress"
+msgstr "תהליך"
+
+msgid "Queued"
+msgstr "בתור"
+
+msgid "RAM usage"
+msgstr "שימוש בזיכרון RAM"
+
+msgid "Range"
+msgstr "טווח"
+
+msgid "Reading game image: {0}/{1} kB"
+msgstr "קורא תמונת משחק: {0}/{1} kB"
+
+msgid "Reading game image: {}"
+msgstr "קורא קבצי משחק: {}"
+
+msgid "Refresh"
+msgstr "רענן"
+
+msgid "Region"
+msgstr "אזור"
+
+msgid "Reload edited shaders"
+msgstr "טען מחדש shadares שנערכו"
+
+msgid "Remember main window position"
+msgstr "זכור את מיקום החלון הראשי"
+
+msgid "Remember pad window position"
+msgstr "זכור את מיקום חלון המשחק"
+
+msgid "Remove"
+msgstr "הסר"
+
+msgid "Removes the currently selected game path from the game list"
+msgstr "מסיר את נתיב המשחק הנבחר כעת מרשימת המשחקים"
+
+msgid "Reset &order"
+msgstr "אפס &סדר"
+
+msgid "Reset &width"
+msgstr "אפס &רוחב"
+
+msgid "Restart"
+msgstr "הפעל מחדש"
+
+msgid "Restart of Cemu required for changes to take effect"
+msgstr "נדרש אתחול של Cemu כדי שהשינויים יכנסו לתוקף"
+
+msgid "Restores the last known pad window position and size when opening it"
+msgstr ""
+"משחזר את מיקום וגודל חלון המשחק איך שהוא היה פעם אחרונה כאשר פותחים אותו"
+
+msgid "Restores the last known window position and size when starting Cemu"
+msgstr ""
+"משחזר את מיקום וגודל החלון איך שהוא היה פעם אחרונה כאשר מפעילים את Cemu"
+
+msgid "Results"
+msgstr "תוצאות"
+
+msgid "Results ({0})"
+msgstr "תוצאות ({0})"
+
+msgid "Resume"
+msgstr "המשך"
+
+msgid "Retrieving update information..."
+msgstr "...מאחזר מידע עדכון"
+
+msgid "Right Axis"
+msgstr "ציר ימני"
+
+msgid "Rotation"
+msgstr "סיבוב"
+
+msgid "Rumble"
+msgstr "רטט"
+
+msgid "Run (F5)"
+msgstr "הרצה (F5)"
+
+msgid "Russian"
+msgstr "רוסית"
+
+msgid "Save"
+msgstr "שמור"
+
+msgid "Save entry (*.zip)"
+msgstr "שמור רשומה (*.zip)"
+
+msgid "Save screenshot"
+msgstr "שמור צילום מסך"
+
+msgid "Save transfer"
+msgstr "שמור העברה"
+
+msgid "Scale"
+msgstr "גודל"
+
+msgid "Search"
+msgstr "חפש"
+
+msgid "Searching for controllers..."
+msgstr "מחפש בקרים..."
+
+msgid "Searching for titles..."
+msgstr "...מחפש כותרים"
+
+msgid ""
+"Select a custom mlc path\n"
+"The mlc path is used to store Wii U related files like save games, game "
+"updates and dlc data"
+msgstr ""
+"בחר נתיב mlc מותאם אישית\n"
+"נתיב ה-mlc משמש לאחסון קבצים הקשורים ל-Wii U, כמו קבצי שמירה, עדכוני משחקים "
+"ונתוני תוספות"
+
+msgid "Select a directory"
+msgstr "בחר תיקיה"
+
+msgid "Select a file"
+msgstr "בחר קובץ"
+
+msgid "Select a file to export the errors"
+msgstr "בחר קובץ לייצוא השגיאות"
+
+msgid "Select a folder"
+msgstr "בחר תיקיה"
+
+msgid "Select a mlc directory"
+msgstr "בחר נתיב תיקיית mlc"
+
+msgid "Select a target file to export the save entry"
+msgstr "בחר קובץ לייצוא השמירה"
+
+msgid "Select a zipped save file"
+msgstr "בחר קובץ ארכיון דחוס"
+
+msgid "Select an account and press Connect"
+msgstr "בחר חשבון ולחץ התחבר"
+
+msgid "Select folder of title to install"
+msgstr "בחר תיקיית להתקנת הכותר"
+
+msgid "Select one of the available graphic back ends"
+msgstr "בחר אחד מממשקי הגרפיקה הזמינים"
+
+msgid "Select the active audio output device for Wii U GamePad"
+msgstr "בחירת התקן פלט של הגיימפד של Wii U"
+
+msgid "Select the active audio output device for Wii U TV"
+msgstr "בחר את יציאת השמע ל-Wii U TV"
+
+msgid "Select the folder that stores your update, DLC or base game files"
+msgstr "בחר את התיקיה שמאחסנת את קבצי העדכון, ההרחבה או הבסיס"
+
+msgid "Select the used graphic device"
+msgstr "בחר את כרטיס המסך"
+
+msgid "Select title to install"
+msgstr "בחר כותר להתקנה"
+
+msgid "Set comment for breakpoint at address %08x"
+msgstr "הזן תגובה לנקודת השבירה בכתובת %08x"
+
+msgid "Sets the scale of the notification text"
+msgstr "הגדרת גודל טקסט ההודעות"
+
+msgid "Sets the scale of the overlay text"
+msgstr "הגדרת גודל טקסט הכיסוי"
+
+msgid "Sets the text color of notifications"
+msgstr "הגדרת צבע טקסט ההודעות"
+
+msgid "Sets the text color of the overlay"
+msgstr "הגדרת צבע טקסט הכיסוי"
+
+msgid "Settings"
+msgstr "הגדרות"
+
+msgid "Shader compiler"
+msgstr "מהדר הגאומטריות"
+
+msgid "Show &dlc"
+msgstr "הצג &הרחבות"
+
+msgid "Show &game time"
+msgstr "הצג &זמן משחק"
+
+msgid "Show &last played"
+msgstr "הצג &שוחק לאחרונה"
+
+msgid "Show &name"
+msgstr "הצג &שם"
+
+msgid "Show &version"
+msgstr "הצג &גרסה"
+
+msgid "Show available titles"
+msgstr "הצג כותרים זמינים"
+
+msgid "Show available updates"
+msgstr "הצג עדכונים זמינים"
+
+msgid "Show installed"
+msgstr "הצג מותקנים"
+
+msgid "Show only active"
+msgstr "הראה רק פעיל"
+
+msgid "Show views"
+msgstr "הראה צפיות"
+
+msgid "Shows a notification after shaders have been compiled"
+msgstr "הצגת הודעה לאחר הסיום בניית הגאומטריות"
+
+msgid "Shows a notification when a low controller battery has been detected"
+msgstr "הצגת הודעה כאשר נמצאה סוללה נמוכה בבקר המשחק"
+
+msgid "Shows friend list related data if online"
+msgstr "הצגת מידע קשור לרשימת החברים, אם מחוברים"
+
+msgid "Size"
+msgstr "גודל"
+
+msgid "Source"
+msgstr "מקור"
+
+msgid "Spanish"
+msgstr "ספרדית"
+
+msgid "Special thanks:"
+msgstr "תודות מיוחדות:"
+
+msgid "Start games with fullscreen"
+msgstr "התחל משחקים במסך מלא"
+
+msgid "Status"
+msgstr "סטטוס"
+
+msgid "Step Into (F11)"
+msgstr "כנס לתוך (F11)"
+
+msgid "Step Over (F10)"
+msgstr "דלג מעל (F10)"
+
+msgid "Stereo"
+msgstr "סטריאו"
+
+msgid "Stored Entries"
+msgstr "רשומות שמורות"
+
+msgid "Style: &Icons"
+msgstr "סגנון: &אייקונים"
+
+msgid "Style: &List"
+msgstr "סגנון: &רשימה"
+
+msgid "Style: &Small Icons"
+msgstr "סגנון: &אייקונים קטנים"
+
+msgid "Success"
+msgstr "הצלחה"
+
+msgid "Surround"
+msgstr "סראונד"
+
+msgid "Suspend"
+msgstr "השהה"
+
+msgid "Symbols"
+msgstr "סימנים"
+
+msgid "TMD download failed"
+msgstr "נכשלה הורדת TMD"
+
+msgid "TV"
+msgstr "טלוויזיה"
+
+msgid "Taiwan"
+msgstr "טייוואן"
+
+msgid "Taiwanese"
+msgstr "טייוואנית"
+
+msgid "Target"
+msgstr "יעד"
+
+msgid "Test if the controller is connected"
+msgstr "בדיקה אם הבקר שלך מחובר"
+
+msgid "Text Color"
+msgstr "צבע טקסט"
+
+msgid "Texture cache"
+msgstr "מטמון טקסטורות"
+
+msgid "Thanks to our Patreon supporters:"
+msgstr "תודה לתורמים שלנו ב-Patreon:"
+
+msgid ""
+"The (parent) folder of the title you selected is missing at least one of the "
+"required subfolders (\"code\", \"content\" and \"meta\")\n"
+"Make sure that the files are complete."
+msgstr ""
+"בתיקית האם של הכותר שבחרת חסרה לפחות אחת מהתיקיות המשניות הנדרשות (\"code\", "
+"\"content\" ו- \"meta\")\n"
+"ודא את שלמות הקבצים."
+
+msgid "The VRAM usage of Cemu in MB"
+msgstr "שימוש של Cemu בזיכרון VRAM ב-MB"
+
+msgid "The controller is already added!"
+msgstr "הבקר כבר נוסף!"
+
+msgid ""
+"The currently installed graphics driver does not support the Vulkan "
+"extension necessary for asynchronous shader compilation. Asynchronous "
+"compilation cannot be used.\n"
+" \n"
+"Required extension: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Installing the latest graphics driver may solve this error."
+msgstr ""
+"מנהל התצוגה המותקן כעת אינו תומך בהרחבת Vulkan הנדרשת לקמפול של בקרת צללים "
+"אסינכרונית. לא ניתן להשתמש בקמפול אסינכרוני.\n"
+" \n"
+"הרחבה נדרשת: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"התקנת מנהל התצוגה העדכני עשוי לפתור את השגיאה הזו."
+
+msgid "The file you are comparing with is for a different title."
+msgstr "הקובץ שאיתו אתה משווה מיועד לכותר אחר."
+
+msgid "The folder you have selected cannot be found on your system."
+msgstr "התיקייה שבחרת לא נמצאה."
+
+msgid "The following files are damaged:"
+msgstr "הקבצים הללו לא תקינים:"
+
+msgid "The following files are missing:"
+msgstr "הקבצים הללו חסרים:"
+
+msgid ""
+"The following prefixes are supported:\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+msgstr ""
+"התחיליות הבאות נתמכות:\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+
+msgid ""
+"The game path is scanned by Cemu to locate your games. We recommend creating "
+"a dedicated directory in which\n"
+"you place all your Wii U games. (example: C:\\wiiu\\games\\)\n"
+"\n"
+"You can also set additional paths in the general settings of Cemu."
+msgstr ""
+"נתיב המשחקים נסרק על ידי Cemu כדי לאתר את המשחקים שלך. אנו ממליצים ליצור "
+"תיקייה מיועדת\n"
+"בה תמקם את כל המשחקי ה-Wii U שלך. (לדוגמא C:\\wiiu\\games)\n"
+"\n"
+"בנוסף, ניתן להגדיר נתיבים נוספים בהגדרות הכלליות של Cemu."
+
+msgid ""
+"The given account id is not valid!\n"
+"It must be a hex number bigger or equal than {:08x}"
+msgstr ""
+"מספר זיהוי החשבון שסופק אינו חוקי!\n"
+" חייב להיות מספר בצורת Hex שגדול או שווה למספר {:08x}"
+
+msgid "The mii name is the profile name"
+msgstr "שם Mii הוא שם הפרופיל"
+
+msgid ""
+"The mlc directory contains your save games and installed game update/dlc data"
+msgstr ""
+"תיקיית ה-mlc מכילה את קבצי השמירה ונתוני העדכונים/תוספות של המשחקים המותקנים"
+
+msgid ""
+"The mlc path is the root folder of the emulated Wii U internal flash "
+"storage. It contains all your saves, installed updates and DLCs.\n"
+"It is strongly recommend that you create a dedicated folder for it (example: "
+"C:\\wiiu\\mlc\\) \n"
+"If left empty, the mlc folder will be created inside the Cemu folder."
+msgstr ""
+"הנתיב של mlc הוא תיקיית הבסיס של זיכרון הפלאש הפנימי של Wii U. הוא מכיל את "
+"כל השמירות שלך, העדכונים המותקנים והתוספות החדשות.\n"
+"מומלץ מאוד ליצור תיקייה מיועדת עבורו (למשל: C:\\wiiu\\mlc).\n"
+"אם השדה ישאר ריק, ייצור התיקייה של mlc יתבצע בתוך תיקיית ה-Cemu."
+
+msgid "The number of draw calls per frame. Average over last 5 seconds"
+msgstr "מספר הקריאות לפריים. ממוצע על החמש שניות האחרונות"
+
+msgid "The number of frames per second. Average over last 5 seconds"
+msgstr "מספר הפריימים בשניה. ממוצע על החמש שניות האחרונות"
+
+msgid "The verification data doesn't include a WUD hash!"
+msgstr "נתוני האימות אינם כוללים סיכום בדיקה של WUD!"
+
+msgid ""
+"There's a new update available.\n"
+"Do you want to update?"
+msgstr ""
+"גרסא חדשה זמינה.\n"
+"האם ברצונך לעדכן?"
+
+msgid ""
+"There's already a file at the target directory:\n"
+"{}"
+msgstr ""
+"קובץ כבר קיים בתיקיית היעד:\n"
+"{}"
+
+msgid ""
+"There's already a save game available for the target account, do you want to "
+"overwrite it?\n"
+"This will delete the existing save files for the account and replace them."
+msgstr ""
+"כבר קיימת שמירת משחק עבור החשבון המקורי, האם ברצונך להחליף אותה?\n"
+" פעולה זו תמחק את קבצי השמירה הקיימים עבור החשבון ותחליף אותם."
+
+msgid "This account is not linked with an NNID"
+msgstr "חשבון זה אינו מקושר ל-NNID"
+
+msgid ""
+"This game entry seems to be either an update or the base game was merged "
+"with update data\n"
+"Broken game dumps cause various problems during emulation and may even stop "
+"working at all in future Cemu versions\n"
+"Please make sure the base game is intact and install updates only with the "
+"File->Install Update/DLC option"
+msgstr ""
+"נראה שגרסאת המשחק הזו היא או עדכון, או שהמשחק הבסיסי מוזג עם נתוני עדכון\n"
+"יציאות משחק שבורות גורמות לבעיות שונות במהלך האמולציה ואפשר שלא יעבדו בכלל "
+"בגרסאות Cemu עתידיות\n"
+"אנא וודא שהמשחק הבסיסי שלם והתקן עדכונים רק באמצעות האפשרות קובץ->התקן "
+"עדכון/תוספת"
+
+msgid "This graphic pack has no description"
+msgstr "לחבילת הגרפיקה הזו אין תיאור"
+
+msgid "This option requires Win8.1+"
+msgstr "האפשרות הזאת דורשת את חלונות 8.1 ומעלה"
+
+msgid "This update removed or renamed the following graphic packs:"
+msgstr "עדכון זה הסיר או שינה את שמות החבילות הגרפיות הבאות:"
+
+msgid "Title ID"
+msgstr "מזהה כותר"
+
+msgid "Title Manager"
+msgstr "מנהל כותרים"
+
+msgid "Title checksum of {:08x}-{:08x}"
+msgstr "סיכום בדיקת הכותרת של {:08x}-{:08x}"
+
+msgid "Title installation has been canceled!"
+msgstr "התקנת הכותר בוטל!"
+
+msgid "Title installed!"
+msgstr "כותר הותקן!"
+
+msgid "Title manager"
+msgstr "מנהל כותרים"
+
+msgid "Toggle Breakpoint (F9)"
+msgstr "בחר נקודת שבירה (F9"
+
+msgid "Top center"
+msgstr "למעלה במרכז"
+
+msgid "Top left"
+msgstr "בצד שמאל למעלה"
+
+msgid "Top right"
+msgstr "בצד ימין למעלה"
+
+msgid "Total cpu usage in percent for each core"
+msgstr "שימוש במעבד לכל ליבה באחוזים"
+
+msgid "Transfer"
+msgstr "העבר"
+
+msgid "Transfers the save entry to another persistent account id"
+msgstr "העבר את השמירה למשתמש אחר בעל account id שונה"
+
+msgid "Trigger"
+msgstr "הדק"
+
+msgid "Type"
+msgstr "סוג"
+
+msgid "USA"
+msgstr "ארה\"ב"
+
+msgid "Unable to find the /meta/meta.xml file inside the selected folder."
+msgstr "לא נמצא קובץ /meta/meta.xml בתוך התיקיה שנבחרה."
+
+msgid ""
+"Unable to launch game\n"
+"Path:\n"
+msgstr ""
+"לא ניתן להפעיל את המשחק\n"
+"נתיב:\n"
+
+msgid "Unable to launch game because the base files were not found."
+msgstr "לא ניתן להפעיל את המשחק מכיוון שלא נמצאו קבצי הבסיס."
+
+msgid ""
+"Unable to launch title.\n"
+"Make sure the configured game paths are still valid and refresh the game "
+"list.\n"
+"\n"
+"Path which failed to load:\n"
+msgstr ""
+"לא ניתן להפעיל את הכותר.\n"
+"ודא שנתיבי המשחק המוגדרים עדיין נכונים ורענן את רשימת המשחקים.\n"
+"\n"
+"נתיב שנכשל בטעינה:\n"
+
+msgid ""
+"Unable to mount title.\n"
+"Make sure the configured game paths are still valid and refresh the game "
+"list.\n"
+"\n"
+"File which failed to load:\n"
+msgstr ""
+"לא ניתן לטעון את הכותר.\n"
+"ודא שנתיבי המשחק המוגדרים עדיין נכונים ורענן את רשימת המשחקים.\n"
+"\n"
+"קובץ שנכשל בטעינה:\n"
+
+msgid "Unknown error occured"
+msgstr "שגיאה לא ידועה"
+
+msgid "Update"
+msgstr "עדכון"
+
+msgid "Update available"
+msgstr "עדכון זמין"
+
+msgid "Update available!"
+msgstr "!עדכונים זמינים"
+
+msgid "Update error"
+msgstr "שגיאת עדכון"
+
+msgid "Update installation has been canceled!"
+msgstr "התקנת העדכונים בוטלה!"
+
+msgid "Update notification"
+msgstr "התראת עדכונים"
+
+msgid ""
+"Updated graphic packs are available. Do you want to download and install "
+"them?"
+msgstr "חבילות גרפיות מעודכנות זמינות. האם ברצונך להוריד ולהתקין אותם?"
+
+msgid "Updating game list..."
+msgstr "...מעדכן רשימת משחקים"
+
+msgid "Updating ticket cache"
+msgstr "מעדכן קבצי מטמון"
+
+msgid "Use motion"
+msgstr "שימוש בתנועה"
+
+msgid "Use permanent storage"
+msgstr "השתמש באחסון קבוע"
+
+msgid "Used libraries and utilities:"
+msgstr "ספריות ועזרים המשומשים בפרוייקט:"
+
+msgid "VRAM usage"
+msgstr "שימוש בזיכרון VRAM"
+
+msgid "VSync"
+msgstr "VSync"
+
+msgid "Value"
+msgstr "ערך"
+
+msgid "Verifies the checksum online"
+msgstr "מאמת את סיכום הבדיקה באופן מקוון"
+
+msgid "Verifies the checksum with a local JSON file you can select"
+msgstr "מאמת את סיכום הבדיקה עם קובץ JSON מקומי שאפשר לבחור"
+
+msgid "Verify online"
+msgstr "אמת באופן מקוון"
+
+msgid "Verify with local file"
+msgstr "מאמת את שלמות קבצי המשחק"
+
+msgid "Verifying"
+msgstr "מאמת"
+
+msgid "Verifying integrity of game files..."
+msgstr "...מאמת את שלמות קבצי המשחק"
+
+msgid "Version"
+msgstr "גרסא"
+
+msgid "Volume"
+msgstr "ווליום"
+
+msgid "WUA"
+msgstr "WUA"
+
+msgid "WUD"
+msgstr "WUD"
+
+msgid "Warning"
+msgstr "אזהרה"
+
+msgid ""
+"Warning: Disabling the accurate barriers option will lead to flickering "
+"graphics but may improve performance. It is highly recommended to leave it "
+"turned on."
+msgstr ""
+"אזהרה: השבתת אפשרות המחסומים המדויקים תביא להבהוב של המסך אך עשויה לשפר "
+"ביצועים. מומלץ מאוד להשאיר אותה מופעלת."
+
+msgid "Wii U executable (*.rpx, *.elf)"
+msgstr "קובץ ביצועי Wii U (*.rpx, *.elf)"
+
+msgid "Write stack trace to log"
+msgstr "Write stack trace to log"
+
+msgid "Wrong region: {}"
+msgstr "אזור שגוי: {}"
+
+msgid "Wrong version: {}"
+msgstr "גרסה שגויה: {}"
+
+msgid ""
+"You are trying to import a savegame for a different title than your "
+"currently selected one: {:016x} vs {:016x}\n"
+"Are you sure that you want to continue?"
+msgstr ""
+"אתה מנסה לייבא שמירת משחק עבור משחק שונה מהמשחק הנבחר כעת: {:016x} נגד "
+"{:016x}\n"
+"האם אתה בטוח שברצונך להמשיך?"
+
+msgid ""
+"You can configure one controller for each player.\n"
+"We advise you to always use GamePad as emulated input for the first player, "
+"since many games expect the GamePad to be present.\n"
+"It is also required for touch functionality.\n"
+"The default global hotkeys are:\n"
+"CTRL - show pad screen\n"
+"CTRL + TAB - toggle pad screen\n"
+"ALT + ENTER - toggle fullscreen\n"
+"ESC - leave fullscreen\n"
+"\n"
+"If you're having trouble configuring your controller, make sure to have it "
+"in idle state and press calibrate.\n"
+"Also don't set the axis deadzone too low."
+msgstr ""
+"אפשר להגדיר בקר משחק אחד עבור כל שחקן.\n"
+"אנו ממליצים להשתמש תמיד ב-GamePad כקלט מדומה עבור השחקן הראשון, מאחר שמשחקים "
+"רבים מצפים שה-GamePad יהיה זמין.\n"
+"זה גם נדרש לפונקציות מסך מגע.\n"
+"קיצורי המקשים הגלובליים הם:\n"
+"CTRL - הצג מסך פד\n"
+"CTRL + TAB - החלף מסך פד\n"
+"ALT + ENTER - החלף מסך מלא\n"
+"ESC - צא ממסך מלא\n"
+"\n"
+"אם נתקלת בבעיות בהגדרת בקר המשחק שלך, ודא שהוא במצב מנוחה ולחץ על כיול.\n"
+"כמו כן אל תגדיר את האזור המת בצירים נמוך מדי."
+
+msgid "You may need to set them up again."
+msgstr "ייתכן שתצטרך להגדיר אותם מחדש."
+
+msgid "You've played"
+msgstr "זמן משחק מצטבר"
+
+msgid "Your account is a valid online account"
+msgstr "החשבון המקוון שלך תקין"
+
+msgid "Your entered value is not valid for the selected datatype."
+msgstr "הערך שהוזן אינו תקף עבור סוג הנתונים שנבחר."
+
+msgid "Your game files are valid"
+msgstr "קבצי המשחק תקינים"
+
+msgid ""
+"Your game image is invalid!\n"
+"\n"
+"Your hash:\n"
+"{}\n"
+"\n"
+"Expected hash:\n"
+"{}"
+msgstr ""
+"תמונת המשחק שלך אינה תקינה!\n"
+"\n"
+"סיכום הבדיקה שלך:\n"
+"{}\n"
+"\n"
+"צפי לסיום הבדיקה:\n"
+"{}"
+
+msgid ""
+"Your mlc01 folder seems to be missing.\n"
+"\n"
+"This is where Cemu stores save files, game updates and other Wii U files.\n"
+"\n"
+"The expected path is:\n"
+"{}\n"
+"\n"
+"Do you want to create the folder at the expected path?"
+msgstr ""
+"נראה שתיקיית ה-mlc01 חסרה.\n"
+"\n"
+"זהו המקום בו Cemu מאחסן קבצי שמירה, עדכוני משחקים וקבצים אחרים של Wii U.\n"
+"\n"
+"הנתיב הצפוי הוא:\n"
+"{}\n"
+"\n"
+"האם ברצונך ליצור את התיקייה בנתיב הצפוי?"
+
+msgid "base"
+msgstr "בסיס"
+
+msgid "blow mic"
+msgstr "blow mic"
+
+msgid "can't delete profile"
+msgstr "לא ניתן למחוק פרופיל"
+
+msgid "click"
+msgstr "לחיצה"
+
+msgid "controller set by gameprofile. changes won't be saved permanently!"
+msgstr "הבקר מוגדר על ידי פרופיל המשחק. שינויים לא יישמרו לצמיתות!"
+
+msgid "couldn't load profile"
+msgstr "לא ניתן לטעון פרופיל"
+
+msgid "couldn't save profile"
+msgstr "לא ניתן לשמור פרופיל"
+
+msgid "dlc"
+msgstr "הרחבה"
+
+msgid "down"
+msgstr "למטה"
+
+msgid "false"
+msgstr "לא"
+
+msgid "home"
+msgstr "בית"
+
+msgid "invalid profile name"
+msgstr "שם פרופיל לא תקין"
+
+msgid "left"
+msgstr "שמאל"
+
+msgid "minimal"
+msgstr "מינימלי"
+
+msgid "mlc01 path"
+msgstr "mlc01 נתיב"
+
+msgid "otp.bin could not be found"
+msgstr "לא ניתן למצוא את קובץ otp.bin"
+
+msgid "otp.bin is corrupted or has invalid size"
+msgstr "קובץ otp.bin פגום או שגודלו לא תקין"
+
+msgid "profile deleted"
+msgstr "פרופיל נמחק"
+
+msgid "profile loaded"
+msgstr "פרופיל נטען"
+
+msgid "profile saved"
+msgstr "פרופיל נשמר"
+
+msgid "registers"
+msgstr "אוגרים"
+
+msgid "right"
+msgstr "ימין"
+
+msgid "save"
+msgstr "שמירה"
+
+msgid "seeprom.bin could not be found"
+msgstr "לא ניתן למצוא את קובץ seeprom.bin"
+
+msgid "seeprom.bin is corrupted or has invalid size"
+msgstr "קובץ seeprom.bin פגום או שגודלו לא תקין"
+
+msgid "show screen"
+msgstr "הראה מסך"
+
+msgid "true"
+msgstr "כן"
+
+msgid "unknown"
+msgstr "לא ידוע"
+
+msgid "up"
+msgstr "למעלה"
+
+msgid "update"
+msgstr "עדכון"
+
+msgid ""
+"{} files have an invalid hash!\n"
+"Do you want to export a list of them to a file?"
+msgstr ""
+"יש ל-{} קבצים האש לא חוקי!\n"
+"האם ברצונך לייצא רשימה שלהם לקובץ?"
