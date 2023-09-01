@@ -3201,10 +3201,7 @@ msgid ""
 "Broken game dumps cause various problems during emulation and may even stop "
 "working at all in future Cemu versions\n"
 "Please make sure the base game is intact and install updates only with the "
-"File
-
-
-Install Update/DLC option"
+"File->Install Update/DLC option"
 msgstr ""
 "이 게임 항목은 업데이트이거나 기본 게임이 업데이트 데이터와 병합된 것 같음\n"
 "손상된 게임 덤프는 에뮬레이션 중 다양한 문제를 일으키며 향후 Cemu 버전에서 전"
