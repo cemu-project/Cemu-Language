@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-08-24 01:00+0900\n"
+"PO-Revision-Date: 2023-09-01 11:50+0900\n"
 "Last-Translator: Hack茶ん <http://blog.naver.com/jhacker>\n"
 "Language-Team: TNC\n"
 "Language: ko\n"
@@ -3201,12 +3201,15 @@ msgid ""
 "Broken game dumps cause various problems during emulation and may even stop "
 "working at all in future Cemu versions\n"
 "Please make sure the base game is intact and install updates only with the "
-"File->Install Update/DLC option"
+"File
+
+
+Install Update/DLC option"
 msgstr ""
 "이 게임 항목은 업데이트이거나 기본 게임이 업데이트 데이터와 병합된 것 같음\n"
 "손상된 게임 덤프는 에뮬레이션 중 다양한 문제를 일으키며 향후 Cemu 버전에서 전"
 "혀 작동하지 않을 수도 있음\n"
-"기본 게임이 손상되지 않았는지 확인하고 파일-> 업데이트/DLC 설치 옵션으로만 업"
+"기본 게임이 손상되지 않았는지 확인하고 파일 → 업데이트/DLC 설치 옵션으로만 업"
 "데이트를 설치"
 
 #: src/gui/components/wxGameList.cpp:386
@@ -3215,7 +3218,7 @@ msgstr "게임"
 
 #: src/gui/components/wxGameList.cpp:406
 msgid "You've played"
-msgstr "플레이"
+msgstr "플레이 시간"
 
 #: src/gui/components/wxGameList.cpp:412
 msgid "Last played"
@@ -3317,6 +3320,18 @@ msgstr "마지막 플레이 표시(&L)"
 #: src/gui/components/wxGameList.cpp:691
 msgid "Show &region"
 msgstr "지역 코드 표시(&R)"
+
+#: src/gui/components/wxGameList.cpp:1016
+msgid "{} seconds"
+msgstr "{}초"
+
+#: src/gui/components/wxGameList.cpp:1018
+msgid "{} minutes"
+msgstr "{}분"
+
+#: src/gui/components/wxGameList.cpp:1020
+msgid "{} hours {} minutes"
+msgstr "{}시 {}분"
 
 #: src/gui/components/wxGameList.cpp:926 src/gui/components/wxGameList.cpp:931
 msgid "never"
