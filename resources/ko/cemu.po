@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-09-01 11:50+0900\n"
+"PO-Revision-Date: 2023-09-02 15:00+0900\n"
 "Last-Translator: Hack茶ん <http://blog.naver.com/jhacker>\n"
 "Language-Team: TNC\n"
 "Language: ko\n"
@@ -69,7 +69,8 @@ msgid "%dms"
 msgstr "%d밀리초"
 
 #: src/gui/GeneralSettings2.cpp:2036
-msgid "The currently selected account is not a valid or dumped online account:\n"
+msgid ""
+"The currently selected account is not a valid or dumped online account:\n"
 msgstr "현재 선택한 계정은 유효하지 않거나 폐기된 온라인 계정 :\n"
 
 #: src/gui/TitleManager.cpp:733
@@ -160,7 +161,8 @@ msgstr "메타 데이터 내려받기"
 
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:569
 msgid "Connected. Right click entries in the list to start downloading"
-msgstr "연결되었습니다. 목록에서 항목을 마우스 오른쪽 버튼으로 클릭하여 내려받기 시작"
+msgstr ""
+"연결되었습니다. 목록에서 항목을 마우스 오른쪽 버튼으로 클릭하여 내려받기 시작"
 
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:655
 msgid "Logging in.."
@@ -943,8 +945,7 @@ msgstr "사용 가능한 업데이트가 없습니다."
 msgid ""
 "Updated graphic packs are available. Do you want to download and install "
 "them?"
-msgstr ""
-"업데이트된 그래픽 팩을 사용할 수 있습니다. 내려받아 설치하시겠습니까?"
+msgstr "업데이트된 그래픽 팩을 사용할 수 있습니다. 내려받아 설치하시겠습니까?"
 
 #: src/gui/DownloadGraphicPacksWindow.cpp:302
 msgid "Checking version..."
@@ -2054,7 +2055,7 @@ msgstr "쌍선형"
 
 #: src/gui/GeneralSettings2.cpp:278
 msgid "Bicubic"
-msgstr "바이큐빅"
+msgstr "쌍입방"
 
 #: src/gui/GeneralSettings2.cpp:278
 msgid "Hermite"
@@ -2789,7 +2790,7 @@ msgstr ""
 "\n"
 "컨트롤러를 구성하는 데 문제가 있는 경우 컨트롤러를 유휴 상태로 설정하고 보정"
 "을 누르세요.\n"
-"또한 축 사각지대를 너무 낮게 설정하지 마세요."
+"그리고 축 데드 존을 너무 낮게 설정하지 마세요."
 
 #: src/gui/GettingStartedDialog.cpp:127
 msgid "Configure input"
@@ -2979,7 +2980,7 @@ msgstr "축"
 #: src/gui/input/settings/WiimoteControllerSettings.cpp:139
 #: src/gui/input/settings/WiimoteControllerSettings.cpp:152
 msgid "Deadzone"
-msgstr "사각지대"
+msgstr "데드 존"
 
 #: src/gui/input/settings/DefaultControllerSettings.cpp:81
 #: src/gui/input/settings/DefaultControllerSettings.cpp:124
