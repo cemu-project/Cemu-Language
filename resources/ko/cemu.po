@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-09-02 15:00+0900\n"
+"PO-Revision-Date: 2023-09-18 23:00+0900\n"
 "Last-Translator: Hack茶ん <http://blog.naver.com/jhacker>\n"
 "Language-Team: TNC\n"
 "Language: ko\n"
@@ -12,110 +12,57 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.3.2\n"
 
-#: src/gui/GeneralSettings2.cpp:681
-msgid "Nintendo"
-msgstr "닌텐도"
+#: src/gui/guiWrapper.cpp:139 src/gui/PadViewFrame.cpp:24
+msgid "GamePad View"
+msgstr "게임패드 보기"
 
-#: src/gui/GeneralSettings2.cpp:681
-msgid "Pretendo"
-msgstr "프리텐도"
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:18
+msgid "Save transfer"
+msgstr "전송 저장"
 
-#: src/gui/GeneralSettings2.cpp:681
-msgid "Custom"
-msgstr "커스텀"
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:27
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:31
+msgid "Source"
+msgstr "소스"
 
-#: src/gui/GeneralSettings2.cpp:682
-msgid "Network Service"
-msgstr "네트워크 서비스"
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:34
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:38
+msgid "Target"
+msgstr "목표"
 
-#: src/gui/GeneralSettings2.cpp:819
-msgid "GDB Stub port"
-msgstr "GDB 스텁 포트"
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:58
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:59
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:38
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:211
+#: src/gui/input/settings/DefaultControllerSettings.cpp:192
+msgid "OK"
+msgstr "확인"
 
-#: src/gui/MainWindow.cpp:2094
-msgid "&Open Cemu folder"
-msgstr "Cemu 폴더 열기(&O)"
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:62
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:63
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:42
+#: src/gui/GameUpdateWindow.cpp:176 src/gui/PairingDialog.cpp:28
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:217
+#: src/gui/input/settings/DefaultControllerSettings.cpp:198
+#: src/gui/input/InputAPIAddWindow.cpp:76
+#: src/gui/DownloadGraphicPacksWindow.cpp:312 src/gui/CemuUpdateWindow.cpp:48
+msgid "Cancel"
+msgstr "취소"
 
-#: src/gui/MainWindow.cpp:2240
-msgid "&Launch with GDB stub"
-msgstr "GDB 스텁으로 실행(&L)"
-
-#: src/gui/MainWindow.cpp:2191
-msgid "&Coreinit File-Access API"
-msgstr "코어이니트 파일 접속 API(&C)"
-
-#: src/gui/MainWindow.cpp:2206
-msgid "&Texture readback"
-msgstr "텍스처 리드백(&T)"
-
-#: src/gui/GeneralSettings2.cpp:178
-msgid "Disable screen saver"
-msgstr "화면보호기 비활성화"
-
-#: src/gui/GeneralSettings2.cpp:59
-msgid "PersistentId"
-msgstr "잔류 ID"
-
-#: src/gui/GeneralSettings2.cpp:62
-msgid "Gender"
-msgstr "성별"
-
-#: src/gui/GeneralSettings2.cpp:460
-msgid "Microphone (Experimental)"
-msgstr "마이크로폰(실험용)"
-
-#: src/gui/GeneralSettings2.cpp:1162
-msgid "%dms"
-msgstr "%d밀리초"
-
-#: src/gui/GeneralSettings2.cpp:2036
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:95
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:161
 msgid ""
-"The currently selected account is not a valid or dumped online account:\n"
-msgstr "현재 선택한 계정은 유효하지 않거나 폐기된 온라인 계정 :\n"
+"The given account id is not valid!\n"
+"It must be a hex number bigger or equal than {:08x}"
+msgstr ""
+"입력한 계정 아이디가 유효하지 않습니다!\n"
+"{:08x}보다 크거나 같은 16진수여야 합니다."
 
-#: src/gui/TitleManager.cpp:733
-msgid "Dumped online files not found"
-msgstr "덤프된 온라인 파일을 찾을 수 없음"
-
-#: src/gui/components/wxTitleManagerList.cpp:162
-msgid "Location"
-msgstr "지역"
-
-#: src/gui/CemuUpdateWindow.cpp:27
-msgid "Cemu update"
-msgstr "Cemu 업데이트"
-
-#: src/gui/CemuUpdateWindow.cpp:38
-msgid "Checking for latest version..."
-msgstr "최신 버전 확인 중..."
-
-#: src/util/helpers/helpers.cpp:69 src/util/helpers/helpers.cpp:86
-#: src/gui/ChecksumTool.cpp:416 src/gui/ChecksumTool.cpp:443
-#: src/gui/ChecksumTool.cpp:464 src/gui/ChecksumTool.cpp:469
-#: src/gui/ChecksumTool.cpp:474 src/gui/ChecksumTool.cpp:481
-#: src/gui/ChecksumTool.cpp:486 src/gui/ChecksumTool.cpp:525
-#: src/gui/ChecksumTool.cpp:561 src/gui/ChecksumTool.cpp:566
-#: src/gui/ChecksumTool.cpp:575 src/gui/ChecksumTool.cpp:587
-#: src/gui/ChecksumTool.cpp:604 src/gui/ChecksumTool.cpp:613
-#: src/gui/ChecksumTool.cpp:632 src/gui/ChecksumTool.cpp:641
-#: src/gui/MainWindow.cpp:263 src/gui/MainWindow.cpp:265
-#: src/gui/MainWindow.cpp:444 src/gui/MainWindow.cpp:457
-#: src/gui/MainWindow.cpp:464 src/gui/MainWindow.cpp:481
-#: src/gui/MainWindow.cpp:489 src/gui/MainWindow.cpp:497
-#: src/gui/MainWindow.cpp:504 src/gui/MainWindow.cpp:2274
-#: src/gui/MainWindow.cpp:2278 src/gui/MainWindow.cpp:2282
-#: src/gui/MainWindow.cpp:2286 src/gui/MainWindow.cpp:2291
-#: src/gui/MainWindow.cpp:2299 src/gui/DownloadGraphicPacksWindow.cpp:145
-#: src/gui/DownloadGraphicPacksWindow.cpp:211 src/gui/TitleManager.cpp:547
-#: src/gui/TitleManager.cpp:638 src/gui/TitleManager.cpp:656
-#: src/gui/TitleManager.cpp:665 src/gui/TitleManager.cpp:671
-#: src/gui/TitleManager.cpp:684 src/gui/debugger/DumpCtrl.cpp:256
-#: src/gui/CemuApp.cpp:361 src/gui/canvas/VulkanCanvas.cpp:32
-#: src/gui/GameUpdateWindow.cpp:96 src/gui/GeneralSettings2.cpp:1100
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:67
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:75
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:84
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:90
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:96
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:112
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:119
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:135
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:191
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:122
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:162
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:174
@@ -123,94 +70,351 @@ msgstr "최신 버전 확인 중..."
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:197
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:217
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:225
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:96
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:112
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:119
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:135
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:191
-#: src/gui/input/InputAPIAddWindow.cpp:131 src/gui/MemorySearcherTool.cpp:198
-#: src/gui/components/wxTitleManagerList.cpp:529
-#: src/gui/components/wxTitleManagerList.cpp:584
-#: src/gui/components/wxTitleManagerList.cpp:826
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:68
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:76
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:85
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:91
+#: src/gui/ChecksumTool.cpp:416 src/gui/ChecksumTool.cpp:443
+#: src/gui/ChecksumTool.cpp:464 src/gui/ChecksumTool.cpp:469
+#: src/gui/ChecksumTool.cpp:474 src/gui/ChecksumTool.cpp:481
+#: src/gui/ChecksumTool.cpp:486 src/gui/ChecksumTool.cpp:525
+#: src/gui/ChecksumTool.cpp:561 src/gui/ChecksumTool.cpp:568
+#: src/gui/ChecksumTool.cpp:579 src/gui/ChecksumTool.cpp:591
+#: src/gui/ChecksumTool.cpp:608 src/gui/ChecksumTool.cpp:617
+#: src/gui/ChecksumTool.cpp:636 src/gui/ChecksumTool.cpp:645
+#: src/gui/GameUpdateWindow.cpp:94 src/gui/MainWindow.cpp:279
+#: src/gui/MainWindow.cpp:281 src/gui/MainWindow.cpp:332
+#: src/gui/MainWindow.cpp:509 src/gui/MainWindow.cpp:522
+#: src/gui/MainWindow.cpp:529 src/gui/MainWindow.cpp:546
+#: src/gui/MainWindow.cpp:554 src/gui/MainWindow.cpp:562
+#: src/gui/MainWindow.cpp:569 src/gui/TitleManager.cpp:549
+#: src/gui/TitleManager.cpp:638 src/gui/TitleManager.cpp:656
+#: src/gui/TitleManager.cpp:665 src/gui/TitleManager.cpp:671
+#: src/gui/TitleManager.cpp:684 src/gui/MemorySearcherTool.cpp:198
+#: src/gui/debugger/DumpCtrl.cpp:245 src/gui/debugger/DisasmCtrl.cpp:791
+#: src/gui/debugger/BreakpointWindow.cpp:283 src/gui/canvas/VulkanCanvas.cpp:42
+#: src/gui/input/InputAPIAddWindow.cpp:131
+#: src/gui/DownloadGraphicPacksWindow.cpp:145
+#: src/gui/DownloadGraphicPacksWindow.cpp:211 src/gui/CemuApp.cpp:273
+#: src/gui/CemuApp.cpp:353 src/gui/CemuApp.cpp:378 src/gui/CemuApp.cpp:422
+#: src/gui/components/wxTitleManagerList.cpp:542
+#: src/gui/components/wxTitleManagerList.cpp:597
+#: src/gui/components/wxTitleManagerList.cpp:839
+#: src/gui/components/wxGameList.cpp:1147
+#: src/gui/components/wxGameList.cpp:1315 src/gui/GeneralSettings2.cpp:1256
+#: src/gui/GeneralSettings2.cpp:1978 src/util/helpers/helpers.cpp:69
+#: src/util/helpers/helpers.cpp:86 src/Cafe/Filesystem/FST/KeyCache.cpp:78
+#: src/Cafe/Filesystem/FST/KeyCache.cpp:112
 msgid "Error"
 msgstr "오류"
 
-#: src/util/helpers/helpers.cpp:74 src/util/helpers/helpers.cpp:91
-msgid "Error code"
-msgstr "오류 코드"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:374
-msgid "Downloading account ticket"
-msgstr "계정 티켓 내려받기"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:427
-msgid "Downloading system tickets..."
-msgstr "시스템 티켓 내려받기..."
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:489
-msgid "Retrieving update information..."
-msgstr "업데이트 정보 검색..."
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:511
-msgid "Downloading ticket"
-msgstr "티켓 내려받기"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:564
-msgid "Downloading meta data"
-msgstr "메타 데이터 내려받기"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:569
-msgid "Connected. Right click entries in the list to start downloading"
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:111
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:173
+msgid ""
+"There's already a file at the target directory:\n"
+"{}"
 msgstr ""
-"연결되었습니다. 목록에서 항목을 마우스 오른쪽 버튼으로 클릭하여 내려받기 시작"
+"대상 디렉터리에 이미 파일 존재 :\n"
+"{}"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:655
-msgid "Logging in.."
-msgstr "로그인 중.."
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:118
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:180
+msgid ""
+"There's already a save game available for the target account, do you want to "
+"overwrite it?\n"
+"This will delete the existing save files for the account and replace them."
+msgstr ""
+"대상 계정에 사용할 수 있는 세이브 게임이 이미 있는데 덮어쓰기를 하시겠습니"
+"까?\n"
+"그러면 해당 계정의 기존 세이브 파일이 삭제되고 대체됩니다."
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:678
-msgid "Login failed. Outdated or incomplete online files?"
-msgstr "로그인에 실패했습니다. 온라인 파일이 오래되었거나 불완전합니까?"
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:134
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:196
+msgid ""
+"Error when trying to delete the former save game:\n"
+"{}"
+msgstr ""
+"이전 저장 게임을 삭제하려고 할 때, 오류 발생 :\n"
+"{}"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:686
-msgid "Failed to query account status. Invalid account information?"
-msgstr "계정 상태를 조회하지 못했습니다. 계정 정보가 잘못되었나요?"
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:190
+msgid ""
+"Error when trying to move the save game:\n"
+"{}"
+msgstr ""
+"저장 게임을 이동하려고 할 때, 오류 발생 :\n"
+"{}"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:690
-msgid "Updating ticket cache"
-msgstr "티켓 캐시 업데이트"
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:22
+msgid "Import save entry"
+msgstr "저장 항목 가져오기"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:695
-msgid "Failed to request tickets (invalid NNID?)"
-msgstr "티켓 요청 실패(잘못된 NNID?)"
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:33
+msgid "Select a zipped save file"
+msgstr "압축된 저장 파일 선택"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:719
-msgid "This account is not linked with an NNID"
-msgstr "이 계정은 NNID와 연결되지 않음"
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:34
+msgid "Save entry (*.zip)"
+msgstr "항목 저장(*.zip)"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:729
-msgid "Failed. Account does not have password set"
-msgstr "실패했습니다. 계정 비밀번호 미설정"
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:121
+msgid ""
+"You are trying to import a savegame for a different title than your "
+"currently selected one: {:016x} vs {:016x}\n"
+"Are you sure that you want to continue?"
+msgstr ""
+"현재 선택한 타이틀이 아닌 다른 타이틀의 저장 게임을 가져오려고 함 : {:016x} "
+"대 {:016x}\n"
+"계속하시겠습니까?"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1057
-msgid "TMD download failed"
-msgstr "TMD 내려받기 실패"
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:216
+msgid ""
+"Error when creating the extraction path:\n"
+"{}"
+msgstr ""
+"추출 경로를 만드는 동안 오류 발생 :\n"
+"{}"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1066
-msgid "Invalid TMD"
-msgstr "유효하지 않은 TMD"
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:224
+msgid ""
+"Error when opening the import zip file:\n"
+"{}"
+msgstr ""
+"zip 파일을 가져올 때, 오류 발생 :\n"
+"{}"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1175
-msgid "Cannot write file. Disk full?"
-msgstr "파일을 쓸 수 없습니다. 디스크가 가득 찼나요?"
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:14
+msgid "Create new account"
+msgstr "신규 계정 만들기"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1196
-msgid "Cannot create file"
-msgstr "파일을 만들 수 없음"
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:24
+msgid ""
+"The persistent id is the internal folder name used for your saves. Only "
+"change this if you are importing saves from a Wii U with a specific id"
+msgstr ""
+"잔류 ID는 저장에 사용되는 내부 폴더 이름입니다. 특정 ID를 가진 Wii U에서 저장"
+"을 가져오는 경우에만 변경"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1201
-msgid "Download failed"
-msgstr "내려받기 실패"
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:68
+msgid "No persistent id entered!"
+msgstr "잔류 ID를 입력하지 않았습니다!"
+
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:75
+msgid "The persistent id must be greater than {:x}!"
+msgstr "잔류 ID는 {:x}보다 커야 합니다!"
+
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:83
+msgid "The persistent id {:x} is already in use by account {}!"
+msgstr "잔류 ID {:x}는 {} 계정에서 이미 사용 중입니다!"
+
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:91
+msgid "Account name may not be empty!"
+msgstr "계정 이름이 비어 있지 않을 수 있습니다!"
+
+#: src/gui/GameProfileWindow.cpp:19 src/gui/GameProfileWindow.cpp:247
+msgid "Edit game profile"
+msgstr "게임 프로필 수정"
+
+#: src/gui/GameProfileWindow.cpp:36 src/gui/GameProfileWindow.cpp:91
+#: src/gui/GeneralSettings2.cpp:262 src/gui/GeneralSettings2.cpp:341
+#: src/gui/GeneralSettings2.cpp:844
+msgid "General"
+msgstr "일반"
+
+#: src/gui/GameProfileWindow.cpp:39
+msgid "Load shared libraries"
+msgstr "공유 라이브러리 불러오기"
+
+#: src/gui/GameProfileWindow.cpp:40
+msgid ""
+"EXPERT OPTION\n"
+"This option will load libraries from the cafeLibs directory"
+msgstr ""
+"전문가 옵션\n"
+"이 옵션은 카페 라이브러리 디렉토리에서 라이브러리를 불러옵니다."
+
+#: src/gui/GameProfileWindow.cpp:43
+msgid "Launch with gamepad view"
+msgstr "게임 패드 보기로 실행"
+
+#: src/gui/GameProfileWindow.cpp:44
+msgid ""
+"Games will be launched with gamepad view toggled as default. The view can be "
+"toggled with CTRL + TAB"
+msgstr ""
+"게임은 기본적으로 게임패드 보기가 전환된 상태로 실행됩니다. 보기는 CTRL + TAB"
+"으로 전환할 수 있습니다."
+
+#: src/gui/GameProfileWindow.cpp:51
+msgid "CPU"
+msgstr "CPU"
+
+#: src/gui/GameProfileWindow.cpp:58
+msgid "Mode"
+msgstr "모드"
+
+#: src/gui/GameProfileWindow.cpp:60
+msgid "Single-core interpreter"
+msgstr "싱글 코어 인터프리터"
+
+#: src/gui/GameProfileWindow.cpp:60
+msgid "Single-core recompiler"
+msgstr "싱글 코어 리컴파일러"
+
+#: src/gui/GameProfileWindow.cpp:60
+msgid "Multi-core recompiler"
+msgstr "싱글 코어 리컴파일러"
+
+#: src/gui/GameProfileWindow.cpp:60
+msgid "Auto (recommended)"
+msgstr "자동(권장)"
+
+#: src/gui/GameProfileWindow.cpp:63
+msgid "Set the CPU emulation mode"
+msgstr "CPU 에뮬레이션 모드 설정"
+
+#: src/gui/GameProfileWindow.cpp:66
+msgid "Thread quantum"
+msgstr "스레드 양자"
+
+#: src/gui/GameProfileWindow.cpp:75
+msgid ""
+"EXPERT OPTION\n"
+"Set the maximum thread slice runtime (in virtual cycles)"
+msgstr ""
+"전문가 옵션\n"
+"최대 스레드 슬라이스 런타임 설정(가상 사이클 단위)"
+
+#: src/gui/GameProfileWindow.cpp:78
+msgid "cycles"
+msgstr "주기"
+
+#: src/gui/GameProfileWindow.cpp:113 src/gui/GeneralSettings2.cpp:269
+msgid "Graphics API"
+msgstr "그래픽 API"
+
+#: src/gui/GameProfileWindow.cpp:119
+msgid "Shader multiplication accuracy"
+msgstr "셰이더 멀티플리케이션 정확도"
+
+#: src/gui/GameProfileWindow.cpp:121
+msgid "false"
+msgstr "거부"
+
+#: src/gui/GameProfileWindow.cpp:121
+msgid "true"
+msgstr "수용"
+
+#: src/gui/GameProfileWindow.cpp:123
+msgid ""
+"EXPERT OPTION\n"
+"Controls the accuracy of floating point multiplication in shaders.\n"
+"\n"
+"Recommended: true"
+msgstr ""
+"전문가 옵션\n"
+"셰이더에서 부동 소수점 곱셈의 정확도를 제어합니다.\n"
+"\n"
+"권장 : 수용"
+
+#: src/gui/GameProfileWindow.cpp:138
+msgid "Graphic"
+msgstr "그래픽"
+
+#: src/gui/GameProfileWindow.cpp:169 src/gui/input/InputSettings2.cpp:82
+msgid "Controller {}"
+msgstr "컨트롤러 {}"
+
+#: src/gui/GameProfileWindow.cpp:174
+msgid "Forces a given controller profile"
+msgstr "지정된 컨트롤러 프로필 강제 적용"
+
+#: src/gui/GameProfileWindow.cpp:183 src/gui/input/InputAPIAddWindow.cpp:53
+#: src/gui/input/InputSettings2.cpp:226
+msgid "Controller"
+msgstr "컨트롤러"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:39
+msgid "PPC threads"
+msgstr "PPC 스레드"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:119
+#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:116
+#: src/gui/TitleManager.cpp:69
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:122
+msgid "Auto refresh"
+msgstr "자동 새로 고침"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:337
+msgid "Profiling thread"
+msgstr "프로파일링 스레드"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:338
+msgid "Capturing samples..."
+msgstr "표본 캡처 중..."
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:368
+msgid ""
+"Capturing samples... ({:})\n"
+"Results will be written to log.txt\n"
+msgstr ""
+"샘플 캡처 중... ({:})\n"
+"결과는 log.txt에 기록됩니다.\n"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:370
+msgid "Click Skip button for early results with lower accuracy"
+msgstr "정확도가 낮은 초기 결과를 보려면 건너뛰기 버튼을 클릭"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:372
+msgid "Click Skip button to finish"
+msgstr "건너뛰기 버튼을 클릭하여 완료"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:459
+msgid "Boost priority (-5)"
+msgstr "우선순위 강화(-5)"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:460
+msgid "Boost priority (-1)"
+msgstr "우선순위 강화(-1)"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:462
+msgid "Decrease priority (+5)"
+msgstr "우선순위 감소(+5)"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:463
+msgid "Decrease priority (+1)"
+msgstr "우선순위 감소(+1)"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:465
+msgid "Resume"
+msgstr "이력"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:466
+msgid "Suspend"
+msgstr "일시 중단"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:468
+msgid "Write stack trace to log"
+msgstr "로그에 스택 추적 기록"
+
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:469
+msgid "Profile thread"
+msgstr "프로필 스레드"
+
+#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:37
+msgid "Texture cache"
+msgstr "텍스처 캐시"
+
+#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:119
+msgid "Show only active"
+msgstr "활성 상태만 표시"
+
+#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:122
+msgid "Show views"
+msgstr "보기 표시"
 
 #: src/gui/ChecksumTool.cpp:85
 msgid "Title checksum of {:08x}-{:08x}"
@@ -220,7 +424,7 @@ msgstr "{:08x}-{:08x}의 타이틀 체크섬"
 msgid "Verifying integrity of game files..."
 msgstr "게임 파일의 무결성 확인..."
 
-#: src/gui/ChecksumTool.cpp:121 src/gui/GraphicPacksWindow2.cpp:275
+#: src/gui/ChecksumTool.cpp:121 src/gui/GraphicPacksWindow2.cpp:278
 msgid "Control"
 msgstr "컨트롤"
 
@@ -314,7 +518,7 @@ msgstr "누락된 파일 :"
 msgid "The following files are damaged:"
 msgstr "손상된 파일 :"
 
-#: src/gui/ChecksumTool.cpp:566
+#: src/gui/ChecksumTool.cpp:567
 msgid ""
 "{} files have an invalid hash!\n"
 "Do you want to export a list of them to a file?"
@@ -322,7 +526,7 @@ msgstr ""
 "{} 파일에 잘못된 해시가 있습니다!\n"
 "해당 목록을 파일로 내보내시겠습니까?"
 
-#: src/gui/ChecksumTool.cpp:575
+#: src/gui/ChecksumTool.cpp:578
 msgid ""
 "Multiple issues with your game files have been found!\n"
 "Do you want to export them to a file?"
@@ -330,86 +534,206 @@ msgstr ""
 "게임 파일에서 여러 가지 문제가 발견되었습니다!\n"
 "파일로 내보내시겠습니까?"
 
-#: src/gui/ChecksumTool.cpp:583
+#: src/gui/ChecksumTool.cpp:587
 msgid "Your game files are valid"
 msgstr "유효한 게임 파일"
 
-#: src/gui/ChecksumTool.cpp:583 src/gui/MainWindow.cpp:407
-#: src/gui/CemuUpdateWindow.cpp:619
+#: src/gui/ChecksumTool.cpp:587 src/gui/MainWindow.cpp:472
+#: src/gui/CemuUpdateWindow.cpp:621
 msgid "Success"
 msgstr "성공"
 
-#: src/gui/ChecksumTool.cpp:587
+#: src/gui/ChecksumTool.cpp:591
 msgid "JSON parse error: {}"
 msgstr "JSON 구문 분석 오류 발생 : {}"
 
-#: src/gui/ChecksumTool.cpp:604 src/gui/ChecksumTool.cpp:632
+#: src/gui/ChecksumTool.cpp:608 src/gui/ChecksumTool.cpp:636
 msgid "Can't open file!"
 msgstr "파일을 열 수 없습니다!"
 
-#: src/gui/ChecksumTool.cpp:613 src/gui/ChecksumTool.cpp:641
-msgid "Can't parse json file!"
-msgstr "json 파일을 구문 분석할 수 없습니다!"
+#: src/gui/ChecksumTool.cpp:617 src/gui/ChecksumTool.cpp:645
+msgid "Can't parse JSON file!"
+msgstr "JSON 파일을 구문 분석할 수 없습니다!"
 
-#: src/gui/ChecksumTool.cpp:624
+#: src/gui/ChecksumTool.cpp:628
 msgid "Open checksum entry"
 msgstr "체크섬 항목 열기"
 
-#: src/gui/ChecksumTool.cpp:683
+#: src/gui/ChecksumTool.cpp:687
 msgid "Reading game image: {}"
 msgstr "게임 이미지 읽기 : {}"
 
-#: src/gui/ChecksumTool.cpp:712
+#: src/gui/ChecksumTool.cpp:716
 msgid "Reading game image: {0}/{1} kB"
 msgstr "게임 이미지 읽기 : {0}/{1}kB"
 
-#: src/gui/ChecksumTool.cpp:716
+#: src/gui/ChecksumTool.cpp:720
 msgid "Generating checksum of game image: {}"
 msgstr "게임 이미지의 체크섬 생성 중 : {}"
 
-#: src/gui/ChecksumTool.cpp:732
+#: src/gui/ChecksumTool.cpp:736
 msgid "Generated checksum of game image: {}"
 msgstr "게임 이미지의 체크섬 생성 완료 : {}"
 
-#: src/gui/ChecksumTool.cpp:739
+#: src/gui/ChecksumTool.cpp:743
 msgid "Grabbing game files"
 msgstr "게임 파일 가져오기"
 
-#: src/gui/ChecksumTool.cpp:768
+#: src/gui/ChecksumTool.cpp:772
 msgid "Hashing game file: {}/{}"
 msgstr "게임 파일 해싱 : {}/{}"
 
-#: src/gui/ChecksumTool.cpp:778
+#: src/gui/ChecksumTool.cpp:782
 msgid "Generated checksum of {} game files"
 msgstr "게임 파일의 {} 체크섬 생성"
 
-#: src/gui/MainWindow.cpp:263 src/gui/MainWindow.cpp:670
-#: src/gui/MainWindow.cpp:693
+#: src/gui/GameUpdateWindow.cpp:19
+#: src/gui/components/wxTitleManagerList.cpp:975
+#: src/gui/components/wxGameList.cpp:93
+#: src/gui/components/wxDownloadManagerList.cpp:513
+msgid "DLC"
+msgstr "DLC"
+
+#: src/gui/GameUpdateWindow.cpp:21
+msgid "Base game"
+msgstr "베이스 게임"
+
+#: src/gui/GameUpdateWindow.cpp:23
+msgid "Demo"
+msgstr "데모"
+
+#: src/gui/GameUpdateWindow.cpp:26
+msgid "System title"
+msgstr "시스템 타이틀"
+
+#: src/gui/GameUpdateWindow.cpp:28
+msgid "System data title"
+msgstr "시스템 데이터 타이틀"
+
+#: src/gui/GameUpdateWindow.cpp:30 src/gui/CemuUpdateWindow.cpp:44
+msgid "Update"
+msgstr "업데이트"
+
+#: src/gui/GameUpdateWindow.cpp:63
+msgid ""
+"It seems that there is already a title installed at the target location but "
+"it has a different type.\n"
+"Currently installed: '{}' Installing: '{}'\n"
+"\n"
+"This can happen for titles which were installed with very old Cemu "
+"versions.\n"
+"Do you still want to continue with the installation? It will replace the "
+"currently installed title."
+msgstr ""
+"대상 위치에 이미 타이틀이 설치되어 있지만 유형이 다른 것 같습니다.\n"
+"현재 설치 : '{}' 설치 중 : '{}'\n"
+"\n"
+"아주 오래된 Cemu 버전으로 설치된 타이틀의 경우 이 문제가 발생할 수 있습니"
+"다.\n"
+"그래도 설치를 계속하시겠습니까? 현재 설치된 타이틀을 대체합니다."
+
+#: src/gui/GameUpdateWindow.cpp:64 src/gui/GameUpdateWindow.cpp:70
+#: src/gui/GameUpdateWindow.cpp:76 src/gui/TitleManager.cpp:498
+#: src/gui/GraphicPacksWindow2.cpp:634 src/gui/CemuApp.cpp:92
+#: src/gui/components/wxTitleManagerList.cpp:799
+#: src/gui/components/wxGameList.cpp:1273
+#: src/gui/components/wxGameList.cpp:1279
+#: src/gui/components/wxGameList.cpp:1290 src/gui/GeneralSettings2.cpp:1682
+msgid "Warning"
+msgstr "경고"
+
+#: src/gui/GameUpdateWindow.cpp:70
+msgid ""
+"It seems that the selected title is already installed, do you want to "
+"reinstall it?"
+msgstr "선택한 타이틀이 이미 설치되어 있는 것 같은데 다시 설치하시겠습니까?"
+
+#: src/gui/GameUpdateWindow.cpp:76
+msgid ""
+"It seems that a newer version is already installed, do you still want to "
+"install the older version?"
+msgstr ""
+"최신 버전이 이미 설치되어 있는 것 같은데 그래도 이전 버전을 설치하시겠습니까?"
+
+#: src/gui/GameUpdateWindow.cpp:93
+msgid ""
+"Error when trying to move former title installation:\n"
+"{}"
+msgstr ""
+"이전 타이틀 설치 이동 시, 오류 발생 :\n"
+"{}"
+
+#: src/gui/GameUpdateWindow.cpp:134
+msgid ""
+"Not enough space available.\n"
+"Required: {0} MB\n"
+"Available: {1} MB"
+msgstr ""
+"사용 가능한 공간이 충분하지 않습니다.\n"
+"필요 : {0}MB\n"
+"여유 : {1}MB"
+
+#: src/gui/GameUpdateWindow.cpp:163
+msgid "Installing DLC..."
+msgstr "DLC 설치..."
+
+#: src/gui/GameUpdateWindow.cpp:165
+msgid "Installing update..."
+msgstr "업데이트 설치..."
+
+#: src/gui/GameUpdateWindow.cpp:167
+msgid "Installing system title..."
+msgstr "시스템 타이틀 설치..."
+
+#: src/gui/GameUpdateWindow.cpp:169
+msgid "Installing title..."
+msgstr "타이틀 설치..."
+
+#: src/gui/GameUpdateWindow.cpp:247
+msgid "Current file:"
+msgstr "현재 파일 :"
+
+#: src/gui/GameUpdateWindow.cpp:279
+msgid ""
+"Do you really want to cancel the installation process?\n"
+"\n"
+"Canceling the process will delete the applied files."
+msgstr ""
+"정말 설치 프로세스를 취소하시겠습니까?\n"
+"\n"
+"프로세스를 취소하면 적용된 파일이 삭제됩니다."
+
+#: src/gui/GameUpdateWindow.cpp:279
+msgid "Info"
+msgstr "정보"
+
+#: src/gui/MainWindow.cpp:279 src/gui/MainWindow.cpp:743
+#: src/gui/MainWindow.cpp:766
 msgid "Cannot open file"
 msgstr "파일을 열 수 없음"
 
-#: src/gui/MainWindow.cpp:265 src/gui/MainWindow.cpp:672
-#: src/gui/MainWindow.cpp:695
+#: src/gui/MainWindow.cpp:281 src/gui/MainWindow.cpp:745
+#: src/gui/MainWindow.cpp:768
 msgid "Not a valid NFC NTAG215 file"
 msgstr "유효한 NFC NTAG215 파일이 아님"
 
-#: src/gui/MainWindow.cpp:407
+#: src/gui/MainWindow.cpp:472
 msgid "Title installed!"
 msgstr "타이틀이 설치되었습니다!"
 
-#: src/gui/MainWindow.cpp:413
+#: src/gui/MainWindow.cpp:478
 msgid "Title installation has been canceled!"
 msgstr "타이틀 설치가 취소되었습니다!"
 
-#: src/gui/MainWindow.cpp:426 src/gui/TitleManager.cpp:401
+#: src/gui/MainWindow.cpp:491 src/gui/TitleManager.cpp:401
 msgid "Update error"
 msgstr "업데이트 오류"
 
-#: src/gui/MainWindow.cpp:443
+#: src/gui/MainWindow.cpp:508
 msgid "Unable to launch game because the base files were not found."
 msgstr "기본 파일을 찾을 수 없어 게임을 시작할 수 없습니다."
 
-#: src/gui/MainWindow.cpp:455
+#: src/gui/MainWindow.cpp:520
 msgid ""
 "Unable to mount title.\n"
 "Make sure the configured game paths are still valid and refresh the game "
@@ -422,15 +746,15 @@ msgstr ""
 "\n"
 "불러오기에 실패한 파일 :\n"
 
-#: src/gui/MainWindow.cpp:462
+#: src/gui/MainWindow.cpp:527
 msgid "Failed to launch game."
 msgstr "게임을 실행하지 못했습니다."
 
-#: src/gui/MainWindow.cpp:479
+#: src/gui/MainWindow.cpp:544
 msgid "Failed to launch executable. Path: "
 msgstr "실행 파일을 실행하지 못했습니다. 경로 : "
 
-#: src/gui/MainWindow.cpp:487
+#: src/gui/MainWindow.cpp:552
 msgid ""
 "Unable to launch title.\n"
 "Make sure the configured game paths are still valid and refresh the game "
@@ -443,7 +767,7 @@ msgstr ""
 "\n"
 "불러오기에 실패한 경로 :\n"
 
-#: src/gui/MainWindow.cpp:495 src/gui/MainWindow.cpp:502
+#: src/gui/MainWindow.cpp:560 src/gui/MainWindow.cpp:567
 msgid ""
 "Unable to launch game\n"
 "Path:\n"
@@ -451,39 +775,39 @@ msgstr ""
 "게임을 실행할 수 없음\n"
 "경로 :\n"
 
-#: src/gui/MainWindow.cpp:581
+#: src/gui/MainWindow.cpp:647
 msgid "All Wii U files (*.wud, *.wux, *.wua, *.iso, *.rpx, *.elf)"
 msgstr "모든 Wii U 파일(*.wud, *.wux, *.wua, *.iso, *.rpx, *.elf)"
 
-#: src/gui/MainWindow.cpp:582
+#: src/gui/MainWindow.cpp:648
 msgid "Wii U image (*.wud, *.wux, *.iso, *.wad)"
 msgstr "Wii U 이미지(*.wud, *.wux, *.iso, *.wad)"
 
-#: src/gui/MainWindow.cpp:583
+#: src/gui/MainWindow.cpp:649
 msgid "Wii U archive (*.wua)"
 msgstr "Wii U 아카이브(*.wua)"
 
-#: src/gui/MainWindow.cpp:584
+#: src/gui/MainWindow.cpp:650
 msgid "Wii U executable (*.rpx, *.elf)"
 msgstr "Wii U 실행 파일(*.rpx, *.elf)"
 
-#: src/gui/MainWindow.cpp:585
+#: src/gui/MainWindow.cpp:651
 msgid "All files (*.*)"
 msgstr "모든 파일(*.*)"
 
-#: src/gui/MainWindow.cpp:588
+#: src/gui/MainWindow.cpp:654
 msgid "Open file to launch"
 msgstr "실행할 파일 열기"
 
-#: src/gui/MainWindow.cpp:620
+#: src/gui/MainWindow.cpp:693
 msgid "Select folder of title to install"
 msgstr "설치할 타이틀 폴더 선택"
 
-#: src/gui/MainWindow.cpp:620
+#: src/gui/MainWindow.cpp:693
 msgid "Select the folder that stores your update, DLC or base game files"
 msgstr "업데이트, DLC 또는 기본 게임 파일이 저장된 폴더를 선택"
 
-#: src/gui/MainWindow.cpp:636
+#: src/gui/MainWindow.cpp:709
 msgid ""
 "The (parent) folder of the title you selected is missing at least one of the "
 "required subfolders (\"code\", \"content\" and \"meta\")\n"
@@ -493,29 +817,29 @@ msgstr ""
 "\") 중 하나 이상이 누락됨\n"
 "파일이 올바른지 확인하세요."
 
-#: src/gui/MainWindow.cpp:644
+#: src/gui/MainWindow.cpp:717
 msgid "The folder you have selected cannot be found on your system."
 msgstr "시스템에서 선택한 폴더를 찾을 수 없습니다."
 
-#: src/gui/MainWindow.cpp:646
+#: src/gui/MainWindow.cpp:719
 msgid "Unable to find the /meta/meta.xml file inside the selected folder."
 msgstr "선택한 폴더에서 /meta/meta.xml 파일을 찾을 수 없습니다."
 
-#: src/gui/MainWindow.cpp:661
+#: src/gui/MainWindow.cpp:734
 msgid "Open file to load"
 msgstr "불러올 파일 열기"
 
-#: src/gui/MainWindow.cpp:797
+#: src/gui/MainWindow.cpp:875
 msgid "Cemu must be restarted to apply the selected UI language."
 msgstr "선택한 UI 언어를 적용하려면 Cemu를 다시 시작해야 합니다."
 
-#: src/gui/MainWindow.cpp:797 src/gui/TitleManager.cpp:282
-#: src/gui/GeneralSettings2.cpp:1662
-#: src/Cafe/HW/Latte/Renderer/Vulkan/VulkanRenderer.cpp:254
+#: src/gui/MainWindow.cpp:875 src/gui/TitleManager.cpp:282
+#: src/gui/GeneralSettings2.cpp:1896
+#: src/Cafe/HW/Latte/Renderer/Vulkan/VulkanRenderer.cpp:287
 msgid "Information"
 msgstr "정보"
 
-#: src/gui/MainWindow.cpp:963
+#: src/gui/MainWindow.cpp:1043
 msgid ""
 "Warning: Disabling the accurate barriers option will lead to flickering "
 "graphics but may improve performance. It is highly recommended to leave it "
@@ -524,15 +848,15 @@ msgstr ""
 "경고 : 정확한 차단 옵션을 비활성화하면 그래픽이 깜박거리지만 성능이 향상될 "
 "수 있습니다. 켜두는 것이 좋습니다."
 
-#: src/gui/MainWindow.cpp:963
+#: src/gui/MainWindow.cpp:1043
 msgid "Accurate barriers are off"
 msgstr "정밀 방벽 해제"
 
-#: src/gui/MainWindow.cpp:1343
+#: src/gui/MainWindow.cpp:1441
 msgid "Updating game list..."
 msgstr "게임 목록 업데이트 중..."
 
-#: src/gui/MainWindow.cpp:1720
+#: src/gui/MainWindow.cpp:1776
 msgid ""
 "There's a new update available.\n"
 "Do you want to update?"
@@ -540,15 +864,15 @@ msgstr ""
 "새로운 업데이트가 있습니다.\n"
 "업데이트하시겠습니까?"
 
-#: src/gui/MainWindow.cpp:1720
+#: src/gui/MainWindow.cpp:1776
 msgid "Update notification"
 msgstr "디렉터리 업데이트"
 
-#: src/gui/MainWindow.cpp:1760
+#: src/gui/MainWindow.cpp:1815
 msgid "About Cemu"
 msgstr "Cemu 정보"
 
-#: src/gui/MainWindow.cpp:1794
+#: src/gui/MainWindow.cpp:1847
 msgid ""
 "Cemu\n"
 "Version {0}\n"
@@ -560,7 +884,7 @@ msgstr ""
 "{1}에 컴파일됨\n"
 "원작자 : {2}"
 
-#: src/gui/MainWindow.cpp:1803
+#: src/gui/MainWindow.cpp:1856
 msgid ""
 "Cemu is a Wii U emulator.\n"
 "\n"
@@ -572,414 +896,384 @@ msgstr ""
 "Wii 및 Wii U는 Nintendo의 상표입니다.\n"
 "Cemu는 닌텐도와 제휴한 바 없습니다."
 
-#: src/gui/MainWindow.cpp:1813
+#: src/gui/MainWindow.cpp:1866
 msgid "Used libraries and utilities:"
 msgstr "사용한 라이브러리 및 유틸리티 :"
 
-#: src/gui/MainWindow.cpp:1954
+#: src/gui/MainWindow.cpp:2007
 msgid "Thanks to our Patreon supporters:"
 msgstr "고마운 후원자분들 :"
 
-#: src/gui/MainWindow.cpp:1984
+#: src/gui/MainWindow.cpp:2037
 msgid "Special thanks:"
 msgstr "고마운 분들 :"
 
-#: src/gui/MainWindow.cpp:2027
+#: src/gui/MainWindow.cpp:2079
 msgid "&Load..."
 msgstr "불러오기(&L)..."
 
-#: src/gui/MainWindow.cpp:2028
+#: src/gui/MainWindow.cpp:2080
 msgid "&Install game title, update or DLC..."
 msgstr "게임 타이틀/업데이트/DLC 설치(&I)"
 
-#: src/gui/MainWindow.cpp:2058
-msgid "End emulation"
-msgstr "에뮬레이션 종료"
+#: src/gui/MainWindow.cpp:2109
+msgid "Stop emulation"
+msgstr "에뮬레이션 중지"
 
-#: src/gui/MainWindow.cpp:2062 src/gui/debugger/DebuggerWindow2.cpp:632
+#: src/gui/MainWindow.cpp:2113
+msgid "&Open Cemu folder"
+msgstr "Cemu 폴더 열기(&O)"
+
+#: src/gui/MainWindow.cpp:2116 src/gui/debugger/DebuggerWindow2.cpp:633
 msgid "&Exit"
 msgstr "종료(&E)"
 
-#: src/gui/MainWindow.cpp:2063 src/gui/debugger/DebuggerWindow2.cpp:635
+#: src/gui/MainWindow.cpp:2117 src/gui/debugger/DebuggerWindow2.cpp:636
 msgid "&File"
 msgstr "파일(&F)"
 
-#: src/gui/MainWindow.cpp:2094
+#: src/gui/MainWindow.cpp:2134
 msgid "&English"
 msgstr "영어(&E)"
 
-#: src/gui/MainWindow.cpp:2095
+#: src/gui/MainWindow.cpp:2135
 msgid "&Japanese"
 msgstr "일본어(&J)"
 
-#: src/gui/MainWindow.cpp:2096
+#: src/gui/MainWindow.cpp:2136
 msgid "&French"
 msgstr "프랑스어(&F)"
 
-#: src/gui/MainWindow.cpp:2097
+#: src/gui/MainWindow.cpp:2137
 msgid "&German"
 msgstr "독일어(G)"
 
-#: src/gui/MainWindow.cpp:2098
+#: src/gui/MainWindow.cpp:2138
 msgid "&Italian"
 msgstr "이탈리아어(&I)"
 
-#: src/gui/MainWindow.cpp:2099
+#: src/gui/MainWindow.cpp:2139
 msgid "&Spanish"
 msgstr "스페인어(&S)"
 
-#: src/gui/MainWindow.cpp:2100
+#: src/gui/MainWindow.cpp:2140
 msgid "&Chinese"
 msgstr "중국어(&C)"
 
-#: src/gui/MainWindow.cpp:2101
+#: src/gui/MainWindow.cpp:2141
 msgid "&Korean"
 msgstr "한국어(&K)"
 
-#: src/gui/MainWindow.cpp:2102
+#: src/gui/MainWindow.cpp:2142
 msgid "&Dutch"
 msgstr "네덜란드어(&D)"
 
-#: src/gui/MainWindow.cpp:2103
+#: src/gui/MainWindow.cpp:2143
 msgid "&Portuguese"
 msgstr "포르투칼어(&P)"
 
-#: src/gui/MainWindow.cpp:2104
+#: src/gui/MainWindow.cpp:2144
 msgid "&Russian"
 msgstr "러시아어(&R)"
 
-#: src/gui/MainWindow.cpp:2105
+#: src/gui/MainWindow.cpp:2145
 msgid "&Taiwanese"
 msgstr "대만어(&T)"
 
-#: src/gui/MainWindow.cpp:2109
+#: src/gui/MainWindow.cpp:2149
 msgid "&Fullscreen"
 msgstr "전체 화면(&F)"
 
-#: src/gui/MainWindow.cpp:2112
+#: src/gui/MainWindow.cpp:2152
 msgid "&Graphic packs"
 msgstr "그래픽 팩(&G)"
 
-#: src/gui/MainWindow.cpp:2114
+#: src/gui/MainWindow.cpp:2153
 msgid "&Separate GamePad view"
 msgstr "별도의 게임패드 보기(&S)"
 
-#: src/gui/MainWindow.cpp:2117
+#: src/gui/MainWindow.cpp:2156
 msgid "&General settings"
 msgstr "일반 설정(&G)"
 
-#: src/gui/MainWindow.cpp:2118
+#: src/gui/MainWindow.cpp:2157
 msgid "&Input settings"
 msgstr "입력 설정(&I)"
 
-#: src/gui/MainWindow.cpp:2121
+#: src/gui/MainWindow.cpp:2160
 msgid "&Active account"
 msgstr "활성 계정(&A)"
 
-#: src/gui/MainWindow.cpp:2123
+#: src/gui/MainWindow.cpp:2161
 msgid "&Console language"
 msgstr "콘솔 언어(&C)"
 
-#: src/gui/MainWindow.cpp:2124 src/gui/debugger/DebuggerWindow2.cpp:641
+#: src/gui/MainWindow.cpp:2162 src/gui/debugger/DebuggerWindow2.cpp:642
 msgid "&Options"
 msgstr "옵션(&O)"
 
-#: src/gui/MainWindow.cpp:2128
+#: src/gui/MainWindow.cpp:2166
 msgid "&Memory searcher"
 msgstr "메모리 검색기(&M)"
 
-#: src/gui/MainWindow.cpp:2130
+#: src/gui/MainWindow.cpp:2168
 msgid "&Title Manager"
 msgstr "타이틀 관리자(&T)"
 
-#: src/gui/MainWindow.cpp:2131
+#: src/gui/MainWindow.cpp:2169
 msgid "&Download Manager"
 msgstr "내려받기 관리자(&D)"
 
-#: src/gui/MainWindow.cpp:2132
+#: src/gui/MainWindow.cpp:2171
 msgid "&Tools"
 msgstr "도구(&T)"
 
-#: src/gui/MainWindow.cpp:2136
+#: src/gui/MainWindow.cpp:2175
 msgid "&1x speed"
 msgstr "&1배속"
 
-#: src/gui/MainWindow.cpp:2137
+#: src/gui/MainWindow.cpp:2176
 msgid "&2x speed"
 msgstr "&2배속"
 
-#: src/gui/MainWindow.cpp:2138
+#: src/gui/MainWindow.cpp:2177
 msgid "&4x speed"
 msgstr "&4배속"
 
-#: src/gui/MainWindow.cpp:2139
+#: src/gui/MainWindow.cpp:2178
 msgid "&8x speed"
 msgstr "&8배속"
 
-#: src/gui/MainWindow.cpp:2140
+#: src/gui/MainWindow.cpp:2179
 msgid "&0.5x speed"
 msgstr "&0.5배속"
 
-#: src/gui/MainWindow.cpp:2141
+#: src/gui/MainWindow.cpp:2180
 msgid "&0.25x speed"
 msgstr "&0.25배속"
 
-#: src/gui/MainWindow.cpp:2142
+#: src/gui/MainWindow.cpp:2181
 msgid "&0.125x speed"
 msgstr "&0.125배속"
 
-#: src/gui/MainWindow.cpp:2146
+#: src/gui/MainWindow.cpp:2185
 msgid "&Timer speed"
 msgstr "타이머 속도(&T)"
 
-#: src/gui/MainWindow.cpp:2147
+#: src/gui/MainWindow.cpp:2186
 msgid "&CPU"
 msgstr "&CPU"
 
-#: src/gui/MainWindow.cpp:2152
+#: src/gui/MainWindow.cpp:2191
 msgid "&Scan NFC tag from file"
 msgstr "파일에서 NFC 태그 스캔(&S)"
 
-#: src/gui/MainWindow.cpp:2153
+#: src/gui/MainWindow.cpp:2192
 msgid "&NFC"
 msgstr "&NFC"
 
-#: src/gui/MainWindow.cpp:2158
+#: src/gui/MainWindow.cpp:2197
 msgid "&Unsupported API calls"
 msgstr "미지원 API 호출(&U)"
 
-#: src/gui/MainWindow.cpp:2159
+#: src/gui/MainWindow.cpp:2198
 msgid "&Coreinit Logging (OSReport/OSConsole)"
 msgstr "코어이니트 로깅(&C) [OSReport/OSConsole]"
 
-#: src/gui/MainWindow.cpp:2160
-msgid "&Coreinit File-Access"
-msgstr "코어이니트 파일 액세스(&C)"
+#: src/gui/MainWindow.cpp:2199
+msgid "&Coreinit File-Access API"
+msgstr "코어이니트 파일 접속 API(&C)"
 
-#: src/gui/MainWindow.cpp:2161
+#: src/gui/MainWindow.cpp:2200
 msgid "&Coreinit Thread-Synchronization API"
 msgstr "코어이니트 스레드 동기화 API(&C)"
 
-#: src/gui/MainWindow.cpp:2162
+#: src/gui/MainWindow.cpp:2201
 msgid "&Coreinit Memory API"
 msgstr "코어이니트 메모리 API(&C)"
 
-#: src/gui/MainWindow.cpp:2163
+#: src/gui/MainWindow.cpp:2202
 msgid "&Coreinit MP API"
 msgstr "코어어니트 메모리 API(&C)"
 
-#: src/gui/MainWindow.cpp:2164
+#: src/gui/MainWindow.cpp:2203
 msgid "&Coreinit Thread API"
 msgstr "코어이니트 메모리 API(&C)"
 
-#: src/gui/MainWindow.cpp:2165
+#: src/gui/MainWindow.cpp:2204
 msgid "&NN NFP"
 msgstr "&NN NFP"
 
-#: src/gui/MainWindow.cpp:2166
+#: src/gui/MainWindow.cpp:2205
 msgid "&GX2 API"
 msgstr "&GX2 API"
 
-#: src/gui/MainWindow.cpp:2167
+#: src/gui/MainWindow.cpp:2206
 msgid "&Audio API"
 msgstr "음향 API(&A)"
 
-#: src/gui/MainWindow.cpp:2168
+#: src/gui/MainWindow.cpp:2207
 msgid "&Input API"
 msgstr "입력 API(&I)"
 
-#: src/gui/MainWindow.cpp:2169
+#: src/gui/MainWindow.cpp:2208
 msgid "&Socket API"
 msgstr "소켓 API(&S)"
 
-#: src/gui/MainWindow.cpp:2170
+#: src/gui/MainWindow.cpp:2209
 msgid "&Save API"
 msgstr "저장 API(&S)"
 
-#: src/gui/MainWindow.cpp:2171
+#: src/gui/MainWindow.cpp:2210
 msgid "&H264 API"
 msgstr "&H264 API"
 
-#: src/gui/MainWindow.cpp:2173
+#: src/gui/MainWindow.cpp:2212
 msgid "&Graphic pack patches"
 msgstr "그래픽 팩 패치(&G)"
 
-#: src/gui/MainWindow.cpp:2174
+#: src/gui/MainWindow.cpp:2213
 msgid "&Texture cache warnings"
 msgstr "텍스처 캐시 경고(&T)"
 
-#: src/gui/MainWindow.cpp:2176
+#: src/gui/MainWindow.cpp:2214
+msgid "&Texture readback"
+msgstr "텍스처 리드백(&T)"
+
+#: src/gui/MainWindow.cpp:2216
 msgid "&OpenGL debug output"
 msgstr "&OpenGL 디버그 출력"
 
-#: src/gui/MainWindow.cpp:2177
+#: src/gui/MainWindow.cpp:2217
 msgid "&Vulkan validation layer (slow)"
 msgstr "&Vulkan 유효성 검사 계층(느림)"
 
-#: src/gui/MainWindow.cpp:2179
+#: src/gui/MainWindow.cpp:2218
 msgid "&Log PPC context for API"
 msgstr "API용 PPC 컨텍스트 로그(&L)"
 
-#: src/gui/MainWindow.cpp:2184
+#: src/gui/MainWindow.cpp:2222
 msgid "&Textures"
 msgstr "텍스처(&T)"
 
-#: src/gui/MainWindow.cpp:2185
+#: src/gui/MainWindow.cpp:2223
 msgid "&Shaders"
 msgstr "셰이더(&S)"
 
-#: src/gui/MainWindow.cpp:2186
+#: src/gui/MainWindow.cpp:2224
 msgid "&nlibcurl HTTP/HTTPS requests"
 msgstr "&nlibcurl HTTP/HTTPS 요청"
 
-#: src/gui/MainWindow.cpp:2190
+#: src/gui/MainWindow.cpp:2228
 msgid "&Logging"
 msgstr "로그 기록(&L)"
 
-#: src/gui/MainWindow.cpp:2191
+#: src/gui/MainWindow.cpp:2229
 msgid "&Dump"
 msgstr "덤프(&D)"
 
-#: src/gui/MainWindow.cpp:2194
+#: src/gui/MainWindow.cpp:2232
 msgid "&Render upside-down"
 msgstr "뒤집어 렌더링(&R)"
 
-#: src/gui/MainWindow.cpp:2199
+#: src/gui/MainWindow.cpp:2237
 msgid "&Accurate barriers (Vulkan)"
 msgstr "정밀 방벽(&A) [Vulkan]"
 
-#: src/gui/MainWindow.cpp:2205
+#: src/gui/MainWindow.cpp:2243
 msgid "&Audio AUX only"
 msgstr "음향 AUX만(&A)"
 
-#: src/gui/MainWindow.cpp:2210
+#: src/gui/MainWindow.cpp:2247
 msgid "&Open logging window"
 msgstr "로깅 창 열기(&O)"
 
-#: src/gui/MainWindow.cpp:2212
+#: src/gui/MainWindow.cpp:2248
+msgid "&Launch with GDB stub"
+msgstr "GDB 스텁으로 실행(&L)"
+
+#: src/gui/MainWindow.cpp:2252
 msgid "&View PPC threads"
 msgstr "PPC 스레드 보기(&V)"
 
-#: src/gui/MainWindow.cpp:2213
+#: src/gui/MainWindow.cpp:2253
 msgid "&View PPC debugger"
 msgstr "PPC 디버거 보기(&V)"
 
-#: src/gui/MainWindow.cpp:2214
+#: src/gui/MainWindow.cpp:2254
 msgid "&View audio debugger"
 msgstr "음향 디버거 보기(&V)"
 
-#: src/gui/MainWindow.cpp:2215
+#: src/gui/MainWindow.cpp:2255
 msgid "&View texture cache info"
 msgstr "텍스처 캐시 정보 표시(&V)"
 
-#: src/gui/MainWindow.cpp:2216
-msgid "&Show frame profiler"
-msgstr "프레임 프로파일러 표시(&S)"
-
-#: src/gui/MainWindow.cpp:2217
+#: src/gui/MainWindow.cpp:2256
 msgid "&Dump current RAM"
 msgstr "현재 RAM 덤프(&D)"
 
-#: src/gui/MainWindow.cpp:2220
+#: src/gui/MainWindow.cpp:2259
 msgid "&Debug"
 msgstr "디버그(&D)"
 
-#: src/gui/MainWindow.cpp:2225
+#: src/gui/MainWindow.cpp:2264
 msgid "&Check for updates"
 msgstr "업데이트 확인(&C)"
 
-#: src/gui/MainWindow.cpp:2226
+#: src/gui/MainWindow.cpp:2268
 msgid "&Getting started"
 msgstr "시작하기(&G)"
 
-#: src/gui/MainWindow.cpp:2228
+#: src/gui/MainWindow.cpp:2270
 msgid "&About Cemu"
 msgstr "Cemu 정보(&A)"
 
-#: src/gui/MainWindow.cpp:2230
+#: src/gui/MainWindow.cpp:2272
 msgid "&Help"
 msgstr "도움말(&H)"
 
-#: src/gui/MainWindow.cpp:2274
-msgid "otp.bin could not be found"
-msgstr "otp.bin을 찾을 수 없음"
+#: src/gui/PairingDialog.cpp:12
+msgid "Pairing..."
+msgstr "페어링..."
 
-#: src/gui/MainWindow.cpp:2278
-msgid "otp.bin is corrupted or has invalid size"
-msgstr "otp.bin의 크기가 손상되었거나 유효하지 않음"
+#: src/gui/PairingDialog.cpp:22 src/gui/input/InputAPIAddWindow.cpp:239
+msgid "Searching for controllers..."
+msgstr "컨트롤러 검색..."
 
-#: src/gui/MainWindow.cpp:2282
-msgid "seeprom.bin could not be found"
-msgstr "seeprom.bin을 찾을 수 없음"
+#: src/gui/PairingDialog.cpp:73
+msgid "Found controller. Pairing..."
+msgstr "컨트롤러를 찾았습니다. 페어링..."
 
-#: src/gui/MainWindow.cpp:2286
-msgid "seeprom.bin is corrupted or has invalid size"
-msgstr "seeprom.bin의 크기가 손상되었거나 유효하지 않음"
+#: src/gui/PairingDialog.cpp:80
+msgid "Successfully paired the controller."
+msgstr "컨트롤러를 성공적으로 페어링했습니다."
 
-#: src/gui/MainWindow.cpp:2299
-msgid "Unknown error occured"
-msgstr "알 수 없는 오류 발생"
+#: src/gui/PairingDialog.cpp:82 src/gui/PairingDialog.cpp:90
+#: src/gui/PairingDialog.cpp:98 src/gui/PairingDialog.cpp:106
+#: src/gui/PairingDialog.cpp:114 src/gui/GettingStartedDialog.cpp:172
+msgid "Close"
+msgstr "닫기"
 
-#: src/gui/DownloadGraphicPacksWindow.cpp:115
-msgid "Graphic packs cannot be updated while a game is running."
-msgstr "게임이 실행 중일 때는 그래픽 팩을 업데이트할 수 없습니다."
+#: src/gui/PairingDialog.cpp:88
+msgid "Failed to find a suitable Bluetooth radio."
+msgstr "적합한 블루투스 라디오를 찾지 못했습니다."
 
-#: src/gui/DownloadGraphicPacksWindow.cpp:115
-#: src/gui/DownloadGraphicPacksWindow.cpp:193
-#: src/gui/DownloadGraphicPacksWindow.cpp:200
-#: src/gui/GettingStartedDialog.cpp:87 src/gui/GettingStartedDialog.cpp:285
-#: src/gui/GraphicPacksWindow2.cpp:190
-msgid "Graphic packs"
-msgstr "그래픽 팩"
+#: src/gui/PairingDialog.cpp:96
+msgid "Failed to search for controllers."
+msgstr "컨트롤러를 검색하지 못했습니다."
 
-#: src/gui/DownloadGraphicPacksWindow.cpp:145
-#: src/gui/DownloadGraphicPacksWindow.cpp:211
-msgid "Failed to connect to server"
-msgstr "서버에 연결하지 못함"
+#: src/gui/PairingDialog.cpp:104
+msgid "Failed to pair with the found controller."
+msgstr "찾은 컨트롤러와 페어링하지 못했습니다."
 
-#: src/gui/DownloadGraphicPacksWindow.cpp:193
-msgid "No updates available."
-msgstr "사용 가능한 업데이트가 없습니다."
-
-#: src/gui/DownloadGraphicPacksWindow.cpp:200
-msgid ""
-"Updated graphic packs are available. Do you want to download and install "
-"them?"
-msgstr "업데이트된 그래픽 팩을 사용할 수 있습니다. 내려받아 설치하시겠습니까?"
-
-#: src/gui/DownloadGraphicPacksWindow.cpp:302
-msgid "Checking version..."
-msgstr "버전 확인 중..."
-
-#: src/gui/DownloadGraphicPacksWindow.cpp:312 src/gui/GameUpdateWindow.cpp:182
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:41
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:63
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:62
-#: src/gui/CemuUpdateWindow.cpp:47
-#: src/gui/input/settings/DefaultControllerSettings.cpp:198
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:216
-#: src/gui/input/InputAPIAddWindow.cpp:76
-msgid "Cancel"
-msgstr "취소"
-
-#: src/gui/DownloadGraphicPacksWindow.cpp:380
-msgid "Downloading graphic packs..."
-msgstr "그래픽 팩 내려받기..."
-
-#: src/gui/DownloadGraphicPacksWindow.cpp:384
-msgid "Extracting..."
-msgstr "추출..."
+#: src/gui/PairingDialog.cpp:112
+msgid "Please use your system's Bluetooth manager instead."
+msgstr "대신 시스템의 블루투스 관리자를 사용하세요."
 
 #: src/gui/TitleManager.cpp:59 src/gui/LoggingWindow.cpp:22
-#: src/gui/GraphicPacksWindow2.cpp:216 src/gui/MemorySearcherTool.cpp:64
+#: src/gui/MemorySearcherTool.cpp:64 src/gui/GraphicPacksWindow2.cpp:219
 msgid "Filter"
 msgstr "필터"
-
-#: src/gui/TitleManager.cpp:69
-#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:111
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:115
-msgid "Refresh"
-msgstr "새로 고침"
 
 #: src/gui/TitleManager.cpp:73
 msgid ""
@@ -1001,7 +1295,7 @@ msgstr ""
 msgid "Install title"
 msgstr "타이틀 설치"
 
-#: src/gui/TitleManager.cpp:103 src/gui/GeneralSettings2.cpp:737
+#: src/gui/TitleManager.cpp:103 src/gui/GeneralSettings2.cpp:848
 msgid "Account"
 msgstr "계정"
 
@@ -1021,8 +1315,8 @@ msgstr "전송"
 msgid "Transfers the save entry to another persistent account id"
 msgstr "저장 항목을 다른 잔류 계정 ID로 전송"
 
-#: src/gui/TitleManager.cpp:122 src/gui/GeneralSettings2.cpp:603
-#: src/gui/input/InputSettings2.cpp:163
+#: src/gui/TitleManager.cpp:122 src/gui/input/InputSettings2.cpp:172
+#: src/gui/GeneralSettings2.cpp:680
 msgid "Delete"
 msgstr "삭제"
 
@@ -1062,11 +1356,7 @@ msgstr "사용 가능한 업데이트 표시"
 msgid "Show installed"
 msgstr "설치 표기"
 
-#: src/gui/TitleManager.cpp:222
-msgid "Title manager"
-msgstr "타이틀 관리자"
-
-#: src/gui/TitleManager.cpp:229
+#: src/gui/TitleManager.cpp:222 src/gui/TitleManager.cpp:229
 msgid "Title Manager"
 msgstr "타이틀 관리자"
 
@@ -1094,19 +1384,11 @@ msgstr "설치할 타이틀 선택"
 msgid "Update installation has been canceled!"
 msgstr "업데이트 설치가 취소되었습니다!"
 
-#: src/gui/TitleManager.cpp:495
+#: src/gui/TitleManager.cpp:497
 msgid "Are you really sure that you want to delete the save entry for {}"
 msgstr "{}에 대한 저장 항목을 정말 삭제하시겠습니까?"
 
-#: src/gui/TitleManager.cpp:496 src/gui/CemuApp.cpp:119
-#: src/gui/GameUpdateWindow.cpp:66 src/gui/GameUpdateWindow.cpp:72
-#: src/gui/GameUpdateWindow.cpp:78 src/gui/GeneralSettings2.cpp:1497
-#: src/gui/GraphicPacksWindow2.cpp:601
-#: src/gui/components/wxTitleManagerList.cpp:786
-msgid "Warning"
-msgstr "경고"
-
-#: src/gui/TitleManager.cpp:546
+#: src/gui/TitleManager.cpp:548
 msgid ""
 "Error when trying to delete the save directory:\n"
 "{}"
@@ -1114,9 +1396,13 @@ msgstr ""
 "저장 디렉터리 삭제 시, 오류 발생 :\n"
 "{}"
 
-#: src/gui/TitleManager.cpp:623
+#: src/gui/TitleManager.cpp:625
 msgid "Select a target file to export the save entry"
 msgstr "저장 항목을 내보낼 대상 파일 선택"
+
+#: src/gui/TitleManager.cpp:626
+msgid "Exported save entry (*.zip)"
+msgstr "내보낸 저장 항목(*.zip)"
 
 #: src/gui/TitleManager.cpp:637
 msgid ""
@@ -1150,129 +1436,85 @@ msgstr ""
 "cemu_meta 파일을 zip에 추가 시, 오류 발생 :\n"
 "{}"
 
+#: src/gui/TitleManager.cpp:734
+msgid "Dumped online files not found"
+msgstr "덤프된 온라인 파일을 찾을 수 없음"
+
+#: src/gui/TitleManager.cpp:738
+msgid "Connecting..."
+msgstr "연결하기..."
+
 #: src/gui/TitleManager.cpp:757
 msgid "Getting installed title information..."
 msgstr "설치된 타이틀 정보 가져오기..."
 
-#: src/gui/debugger/RegisterWindow.cpp:31
-msgid "Registers"
-msgstr "레지스터"
+#: src/gui/LoggingWindow.cpp:16
+msgid "Logging window"
+msgstr "로그 창"
 
-#: src/gui/debugger/RegisterWindow.cpp:78
-msgid "FP view mode"
-msgstr "FP 보기 모드"
+#: src/gui/LoggingWindow.cpp:30
+msgid "Filter messages"
+msgstr "메시지 필터링"
 
-#: src/gui/debugger/RegisterWindow.cpp:342
-#: src/gui/debugger/RegisterWindow.cpp:358
-#: src/gui/debugger/RegisterWindow.cpp:374 src/gui/debugger/DumpCtrl.cpp:199
-#: src/gui/debugger/RegisterCtrl.cpp:204 src/gui/debugger/RegisterCtrl.cpp:223
-#: src/gui/debugger/RegisterCtrl.cpp:237
-msgid "Enter a new value."
-msgstr "새 값을 입력합니다."
+#: src/gui/MemorySearcherTool.cpp:50
+msgid "Memory Searcher"
+msgstr "메모리 검색기"
 
-#: src/gui/debugger/RegisterWindow.cpp:417
-msgid "&Zero"
-msgstr "제로(&Z)"
+#: src/gui/MemorySearcherTool.cpp:63 src/gui/MemorySearcherTool.cpp:419
+msgid "Search"
+msgstr "검색"
 
-#: src/gui/debugger/RegisterWindow.cpp:418
-msgid "&Increment"
-msgstr "증가(&I)"
+#: src/gui/MemorySearcherTool.cpp:81 src/gui/MemorySearcherTool.cpp:420
+msgid "Results"
+msgstr "결과"
 
-#: src/gui/debugger/RegisterWindow.cpp:419
-msgid "&Decrement"
-msgstr "감ㅅ(&D)"
-
-#: src/gui/debugger/RegisterWindow.cpp:421
-msgid "&Copy"
-msgstr "복사(&C)"
-
-#: src/gui/debugger/RegisterWindow.cpp:423
-msgid "&Goto Disasm"
-msgstr "디스 어셈블으로 이동(&G)"
-
-#: src/gui/debugger/RegisterWindow.cpp:424
-msgid "G&oto Dump"
-msgstr "덤프로 이동(&O)"
-
-#: src/gui/debugger/ModuleWindow.cpp:23
-msgid "Modules"
-msgstr "모듈"
-
-#: src/gui/debugger/ModuleWindow.cpp:35 src/gui/debugger/SymbolCtrl.cpp:18
-#: src/gui/components/wxDownloadManagerList.cpp:100
-#: src/gui/components/wxTitleManagerList.cpp:132
-msgid "Name"
-msgstr "이름"
-
-#: src/gui/debugger/ModuleWindow.cpp:41
-#: src/gui/debugger/BreakpointWindow.cpp:47 src/gui/debugger/SymbolCtrl.cpp:24
 #: src/gui/MemorySearcherTool.cpp:87 src/gui/MemorySearcherTool.cpp:103
+#: src/gui/debugger/SymbolCtrl.cpp:24 src/gui/debugger/ModuleWindow.cpp:41
+#: src/gui/debugger/BreakpointWindow.cpp:49
 msgid "Address"
 msgstr "주소"
 
-#: src/gui/debugger/ModuleWindow.cpp:48
-msgid "Size"
-msgstr "크기"
+#: src/gui/MemorySearcherTool.cpp:92 src/gui/MemorySearcherTool.cpp:105
+msgid "Value"
+msgstr "값"
 
-#: src/gui/debugger/DumpWindow.cpp:18
-msgid "Memory Dump"
-msgstr "메모리 덤프"
+#: src/gui/MemorySearcherTool.cpp:97
+msgid "Stored Entries"
+msgstr "저장된 항목"
 
-#: src/gui/debugger/BreakpointWindow.cpp:28
-msgid "Breakpoints"
-msgstr "브레이크 포인트"
+#: src/gui/MemorySearcherTool.cpp:102 src/gui/GraphicPacksWindow2.cpp:265
+msgid "Description"
+msgstr "설명"
 
-#: src/gui/debugger/BreakpointWindow.cpp:41 src/gui/GeneralSettings2.cpp:1295
-msgid "On"
-msgstr "켬"
-
-#: src/gui/debugger/BreakpointWindow.cpp:53 src/gui/MemorySearcherTool.cpp:104
-#: src/gui/components/wxDownloadManagerList.cpp:112
+#: src/gui/MemorySearcherTool.cpp:104 src/gui/debugger/BreakpointWindow.cpp:55
 #: src/gui/components/wxTitleManagerList.cpp:138
+#: src/gui/components/wxDownloadManagerList.cpp:112
 msgid "Type"
 msgstr "유형"
 
-#: src/gui/debugger/BreakpointWindow.cpp:59
-msgid "Comment"
-msgstr "주석"
+#: src/gui/MemorySearcherTool.cpp:106
+msgid "Freeze"
+msgstr "동결"
 
-#: src/gui/debugger/BreakpointWindow.cpp:201
-#: src/gui/debugger/DisasmCtrl.cpp:638
-msgid "Enter a new comment."
-msgstr "새 주석을 입력합니다."
+#: src/gui/MemorySearcherTool.cpp:198
+msgid "Your entered value is not valid for the selected datatype."
+msgstr "입력한 값이 선택한 데이터 유형에 유효하지 않습니다."
 
-#: src/gui/debugger/BreakpointWindow.cpp:201
-#, c-format
-msgid "Set comment for breakpoint at address %08x"
-msgstr "주소 %08x에 브레이크 포인트에 대한 주석 설정"
+#: src/gui/MemorySearcherTool.cpp:204 src/gui/input/InputSettings2.cpp:267
+msgid "Clear"
+msgstr "지우기"
 
-#: src/gui/debugger/BreakpointWindow.cpp:216
-msgid "Create memory breakpoint (read)"
-msgstr "메모리 브레이크 포인트 만들기(읽기)"
+#: src/gui/MemorySearcherTool.cpp:383
+msgid "&Add new entry"
+msgstr "새 항목 추가(&A)"
 
-#: src/gui/debugger/BreakpointWindow.cpp:217
-msgid "Create memory breakpoint (write)"
-msgstr "메모리 브레이크 포인트 만들기(쓰기)"
+#: src/gui/MemorySearcherTool.cpp:384
+msgid "&Remove entry"
+msgstr "항목 제거(&R)"
 
-#: src/gui/debugger/BreakpointWindow.cpp:238
-msgid "Enter a memory address"
-msgstr "메모리 주소 입력"
-
-#: src/gui/debugger/BreakpointWindow.cpp:238
-msgid "Memory breakpoint"
-msgstr "메모리 브레이크 포인트"
-
-#: src/gui/debugger/DisasmCtrl.cpp:616
-msgid "Enter a new instruction."
-msgstr "새 지침을 입력합니다."
-
-#: src/gui/debugger/DisasmCtrl.cpp:762 src/gui/debugger/DumpCtrl.cpp:214
-msgid "Enter a target address."
-msgstr "대상 주소를 입력합니다."
-
-#: src/gui/debugger/DisasmCtrl.cpp:762 src/gui/debugger/DumpCtrl.cpp:214
-msgid "GoTo address"
-msgstr "주소로 이동"
+#: src/gui/MemorySearcherTool.cpp:475
+msgid "Results ({0})"
+msgstr "결과 ({0})"
 
 #: src/gui/debugger/SymbolWindow.cpp:16
 msgid "Symbols"
@@ -1315,260 +1557,163 @@ msgstr "> 알 수 없는 모듈"
 msgid "Run (F5)"
 msgstr "실행(F5)"
 
-#: src/gui/debugger/DebuggerWindow2.cpp:639
+#: src/gui/debugger/DebuggerWindow2.cpp:640
 msgid "&Pin to main window"
 msgstr "기본 창에 고정(&P)"
 
-#: src/gui/debugger/DebuggerWindow2.cpp:640
+#: src/gui/debugger/DebuggerWindow2.cpp:641
 msgid "Break on &entry point"
 msgstr "진입 지점 중단(&E)"
 
-#: src/gui/debugger/DebuggerWindow2.cpp:645
+#: src/gui/debugger/DebuggerWindow2.cpp:646
 msgid "&Registers"
 msgstr "레지스터(&R)"
 
-#: src/gui/debugger/DebuggerWindow2.cpp:646
+#: src/gui/debugger/DebuggerWindow2.cpp:647
 msgid "&Memory Dump"
 msgstr "메모리 덤프(&M)"
 
-#: src/gui/debugger/DebuggerWindow2.cpp:647
+#: src/gui/debugger/DebuggerWindow2.cpp:648
 msgid "&Breakpoints"
 msgstr "브레이크 포인트(&B)"
 
-#: src/gui/debugger/DebuggerWindow2.cpp:648
+#: src/gui/debugger/DebuggerWindow2.cpp:649
 msgid "Module&list"
 msgstr "모듈 목록(&L)"
 
-#: src/gui/debugger/DebuggerWindow2.cpp:649
+#: src/gui/debugger/DebuggerWindow2.cpp:650
 msgid "&Symbols"
 msgstr "기호(&S)"
 
-#: src/gui/debugger/DebuggerWindow2.cpp:651
+#: src/gui/debugger/DebuggerWindow2.cpp:652
 msgid "&Window"
 msgstr "창(&W)"
+
+#: src/gui/debugger/DumpCtrl.cpp:199 src/gui/debugger/RegisterCtrl.cpp:204
+#: src/gui/debugger/RegisterCtrl.cpp:223 src/gui/debugger/RegisterCtrl.cpp:237
+#: src/gui/debugger/RegisterWindow.cpp:342
+#: src/gui/debugger/RegisterWindow.cpp:358
+#: src/gui/debugger/RegisterWindow.cpp:374
+msgid "Enter a new value."
+msgstr "새 값을 입력합니다."
+
+#: src/gui/debugger/DumpCtrl.cpp:214 src/gui/debugger/DisasmCtrl.cpp:760
+msgid "Enter a target address."
+msgstr "대상 주소를 입력합니다."
+
+#: src/gui/debugger/DumpCtrl.cpp:214 src/gui/debugger/DisasmCtrl.cpp:760
+msgid "GoTo address"
+msgstr "주소로 이동"
+
+#: src/gui/debugger/SymbolCtrl.cpp:18 src/gui/debugger/ModuleWindow.cpp:35
+#: src/gui/components/wxTitleManagerList.cpp:132
+#: src/gui/components/wxDownloadManagerList.cpp:100
+msgid "Name"
+msgstr "이름"
 
 #: src/gui/debugger/SymbolCtrl.cpp:31
 msgid "Module"
 msgstr "모듀"
 
-#: src/gui/CemuApp.cpp:30
-msgid "Browse"
-msgstr "찾아보기"
+#: src/gui/debugger/DumpWindow.cpp:18
+msgid "Memory Dump"
+msgstr "메모리 덤프"
 
-#: src/gui/CemuApp.cpp:31
-msgid "Select a file"
-msgstr "파일 선택"
+#: src/gui/debugger/DisasmCtrl.cpp:614
+msgid "Enter a new instruction."
+msgstr "새 지침을 입력합니다."
 
-#: src/gui/CemuApp.cpp:32
-msgid "Select a directory"
-msgstr "디렉터리 저장"
+#: src/gui/debugger/DisasmCtrl.cpp:636
+#: src/gui/debugger/BreakpointWindow.cpp:205
+msgid "Enter a new comment."
+msgstr "새 주석을 입력합니다."
 
-#: src/gui/CemuApp.cpp:34
-msgid "base"
-msgstr "베이스"
+#: src/gui/debugger/RegisterWindow.cpp:31
+msgid "Registers"
+msgstr "레지스터"
 
-#: src/gui/CemuApp.cpp:35
-msgid "update"
-msgstr "업데이트"
+#: src/gui/debugger/RegisterWindow.cpp:78
+msgid "FP view mode"
+msgstr "FP 보기 모드"
 
-#: src/gui/CemuApp.cpp:36
-msgid "dlc"
-msgstr "dlc"
+#: src/gui/debugger/RegisterWindow.cpp:417
+msgid "&Zero"
+msgstr "제로(&Z)"
 
-#: src/gui/CemuApp.cpp:37
-msgid "save"
-msgstr "저장"
+#: src/gui/debugger/RegisterWindow.cpp:418
+msgid "&Increment"
+msgstr "증가(&I)"
 
-#: src/gui/CemuApp.cpp:39
-msgid "Japan"
-msgstr "일본"
+#: src/gui/debugger/RegisterWindow.cpp:419
+msgid "&Decrement"
+msgstr "감ㅅ(&D)"
 
-#: src/gui/CemuApp.cpp:40
-msgid "USA"
-msgstr "미국"
+#: src/gui/debugger/RegisterWindow.cpp:421
+msgid "&Copy"
+msgstr "복사(&C)"
 
-#: src/gui/CemuApp.cpp:41
-msgid "Europe"
-msgstr "유럽"
+#: src/gui/debugger/RegisterWindow.cpp:423
+msgid "&Goto Disasm"
+msgstr "디스 어셈블으로 이동(&G)"
 
-#: src/gui/CemuApp.cpp:42
-msgid "Australia"
-msgstr "호주"
+#: src/gui/debugger/RegisterWindow.cpp:424
+msgid "G&oto Dump"
+msgstr "덤프로 이동(&O)"
 
-#: src/gui/CemuApp.cpp:43
-msgid "China"
-msgstr "중국"
+#: src/gui/debugger/ModuleWindow.cpp:23
+msgid "Modules"
+msgstr "모듈"
 
-#: src/gui/CemuApp.cpp:44
-msgid "Korea"
-msgstr "한국"
+#: src/gui/debugger/ModuleWindow.cpp:48
+msgid "Size"
+msgstr "크기"
 
-#: src/gui/CemuApp.cpp:45
-msgid "Taiwan"
-msgstr "대만"
+#: src/gui/debugger/BreakpointWindow.cpp:30
+msgid "Breakpoints"
+msgstr "브레이크 포인트"
 
-#: src/gui/CemuApp.cpp:46
-msgid "Auto"
-msgstr "자동"
+#: src/gui/debugger/BreakpointWindow.cpp:43 src/gui/GeneralSettings2.cpp:1451
+msgid "On"
+msgstr "켬"
 
-#: src/gui/CemuApp.cpp:47
-msgid "many"
-msgstr "많음"
+#: src/gui/debugger/BreakpointWindow.cpp:61
+msgid "Comment"
+msgstr "주석"
 
-#: src/gui/CemuApp.cpp:49
-msgid "Japanese"
-msgstr "일본어"
+#: src/gui/debugger/BreakpointWindow.cpp:205
+#, c-format
+msgid "Set comment for breakpoint at address %08x"
+msgstr "주소 %08x에 브레이크 포인트에 대한 주석 설정"
 
-#: src/gui/CemuApp.cpp:50 src/gui/GeneralSettings2.cpp:112
-msgid "English"
-msgstr "영어"
+#: src/gui/debugger/BreakpointWindow.cpp:223
+msgid "Create execution breakpoint"
+msgstr "브레이크 포인트 만들기"
 
-#: src/gui/CemuApp.cpp:51
-msgid "French"
-msgstr "프랑스어"
+#: src/gui/debugger/BreakpointWindow.cpp:224
+msgid "Create logging breakpoint"
+msgstr "로그 기록 브레이크 포인트 만들기"
 
-#: src/gui/CemuApp.cpp:52
-msgid "German"
-msgstr "독일어"
+#: src/gui/debugger/BreakpointWindow.cpp:225
+msgid "Create memory breakpoint (read)"
+msgstr "메모리 브레이크 포인트 만들기(읽기)"
 
-#: src/gui/CemuApp.cpp:53
-msgid "Italian"
-msgstr "이탈리아어"
+#: src/gui/debugger/BreakpointWindow.cpp:226
+msgid "Create memory breakpoint (write)"
+msgstr "메모리 브레이크 포인트 만들기(쓰기)"
 
-#: src/gui/CemuApp.cpp:54
-msgid "Spanish"
-msgstr "스페인어"
+#: src/gui/debugger/BreakpointWindow.cpp:237
+msgid "Delete breakpoint"
+msgstr "메모리 브레이크 삭제"
 
-#: src/gui/CemuApp.cpp:55
-msgid "Chinese"
-msgstr "중국어"
+#: src/gui/debugger/BreakpointWindow.cpp:267
+msgid "Enter a memory address"
+msgstr "메모리 주소 입력"
 
-#: src/gui/CemuApp.cpp:56
-msgid "Korean"
-msgstr "한국어"
+#: src/gui/debugger/BreakpointWindow.cpp:267
+msgid "Set breakpoint"
+msgstr "브레이크 포인트 설정"
 
-#: src/gui/CemuApp.cpp:57
-msgid "Dutch"
-msgstr "네덜란드어"
-
-#: src/gui/CemuApp.cpp:58
-msgid "Portugese"
-msgstr "포르투칼어"
-
-#: src/gui/CemuApp.cpp:59
-msgid "Russian"
-msgstr "러시아어"
-
-#: src/gui/CemuApp.cpp:60
-msgid "Taiwanese"
-msgstr "대만어"
-
-#: src/gui/CemuApp.cpp:61
-msgid "unknown"
-msgstr "알 수 없음"
-
-#: src/gui/CemuApp.cpp:65
-msgid "AccountId missing (The account is not connected to a NNID)"
-msgstr "AccountId 누락(계정이 NNID에 연결되어 있지 않음)"
-
-#: src/gui/CemuApp.cpp:66
-msgid ""
-"IsPasswordCacheEnabled is set to false (The remember password option on your "
-"Wii U must be enabled for this account before dumping it)"
-msgstr ""
-"비밀번호 캐시 활성화가 거짓으로 설정되어 있음(덤프하기 전에 이 계정에 대해 "
-"Wii U의 비밀번호 기억 옵션이 활성화되어 있어야 함)"
-
-#: src/gui/CemuApp.cpp:67
-msgid ""
-"AccountPasswordCache is empty (The remember password option on your Wii U "
-"must be enabled for this account before dumping it)"
-msgstr ""
-"계정 비밀번호 캐시가 비어 있음(덤프하기 전에 이 계정에 대해 Wii U의 비밀번호 "
-"기억 옵션이 활성화되어 있어야 함)"
-
-#: src/gui/CemuApp.cpp:68
-msgid "PrincipalId missing"
-msgstr "대표 ID 누락"
-
-#: src/gui/CemuApp.cpp:119
-msgid ""
-"Cemu can't write to its directory.\n"
-"Please move it to a different location or run Cemu as administrator!"
-msgstr ""
-"Cemu가 해당 디렉터리에 쓸 수 없습니다.\n"
-"다른 위치로 옮기거나 관리자 권한으로 Cemu를 실행하세요!"
-
-#: src/gui/CemuApp.cpp:224
-msgid ""
-"Your mlc01 folder seems to be missing.\n"
-"\n"
-"This is where Cemu stores save files, game updates and other Wii U files.\n"
-"\n"
-"The expected path is:\n"
-"{}\n"
-"\n"
-"Do you want to create the folder at the expected path?"
-msgstr ""
-"mlc01 폴더가 누락된 것 같습니다.\n"
-"\n"
-"이 폴더는 Cemu가 저장 파일, 게임 업데이트 및 기타 Wii U 파일을 저장하는 곳입"
-"니다.\n"
-"\n"
-"예상 경로 :\n"
-"{}\n"
-"\n"
-"예상 경로에 폴더를 생성하시겠습니까?"
-
-#: src/gui/CemuApp.cpp:227
-msgid "Yes"
-msgstr "예"
-
-#: src/gui/CemuApp.cpp:227
-msgid "No"
-msgstr "아니오"
-
-#: src/gui/CemuApp.cpp:227
-msgid "Select a custom path"
-msgstr "사용자 지정 경로 선택"
-
-#: src/gui/CemuApp.cpp:300
-msgid ""
-"Couldn't create a required mlc01 subfolder or file!\n"
-"\n"
-"Error: {0}\n"
-"Target path:\n"
-"{1}"
-msgstr ""
-"필수 mlc01 하위 폴더 또는 파일을 만들 수 없습니다!\n"
-"\n"
-"오류 : {0}\n"
-"대상 경로 :\n"
-"{1}"
-
-#: src/gui/CemuApp.cpp:326
-msgid ""
-"Couldn't create a required cemu directory or file!\n"
-"\n"
-"Error: {0}"
-msgstr ""
-"필수 cemu 디렉토리 또는 파일을 만들 수 없습니다!\n"
-"\n"
-"오류 : {0}"
-
-#: src/gui/CemuApp.cpp:353
-msgid "Select a mlc directory"
-msgstr "mlc 디렉터리 선택"
-
-#: src/gui/CemuApp.cpp:361
-msgid ""
-"Cemu can't write to the selected mlc path!\n"
-"Do you want to select another path?"
-msgstr ""
-"Cemu가 선택한 mlc 경로에 쓸 수 없습니다!\n"
-"다른 경로를 선택하시겠습니까?"
-
-#: src/gui/canvas/VulkanCanvas.cpp:30
+#: src/gui/canvas/VulkanCanvas.cpp:41
 msgid ""
 "Error when initializing Vulkan renderer:\n"
 "{}"
@@ -1576,1104 +1721,49 @@ msgstr ""
 "Vulkan 렌더러 초기화 시, 오류 발생 :\n"
 "{}"
 
-#: src/gui/GameProfileWindow.cpp:19 src/gui/GameProfileWindow.cpp:247
-msgid "Edit game profile"
-msgstr "게임 프로필 수정"
-
-#: src/gui/GameProfileWindow.cpp:36 src/gui/GameProfileWindow.cpp:91
-#: src/gui/GeneralSettings2.cpp:226 src/gui/GeneralSettings2.cpp:305
-#: src/gui/GeneralSettings2.cpp:733
-msgid "General"
-msgstr "일반"
-
-#: src/gui/GameProfileWindow.cpp:39
-msgid "Load shared libraries"
-msgstr "공유 라이브러리 불러오기"
-
-#: src/gui/GameProfileWindow.cpp:40
-msgid ""
-"EXPERT OPTION\n"
-"This option will load libraries from the cafeLibs directory"
-msgstr ""
-"전문가 옵션\n"
-"이 옵션은 카페 라이브러리 디렉토리에서 라이브러리를 불러옵니다."
-
-#: src/gui/GameProfileWindow.cpp:43
-msgid "Launch with gamepad view"
-msgstr "게임 패드 보기로 실행"
-
-#: src/gui/GameProfileWindow.cpp:44
-msgid ""
-"Games will be launched with gamepad view toggled as default. The view can be "
-"toggled with CTRL + TAB"
-msgstr ""
-"게임은 기본적으로 게임패드 보기가 전환된 상태로 실행됩니다. 보기는 CTRL + TAB"
-"으로 전환할 수 있습니다."
-
-#: src/gui/GameProfileWindow.cpp:51
-msgid "CPU"
-msgstr "CPU"
-
-#: src/gui/GameProfileWindow.cpp:58
-msgid "Mode"
-msgstr "모드"
-
-#: src/gui/GameProfileWindow.cpp:60
-msgid "Single-core interpreter"
-msgstr "싱글 코어 인터프리터"
-
-#: src/gui/GameProfileWindow.cpp:60
-msgid "Single-core recompiler"
-msgstr "싱글 코어 리컴파일러"
-
-#: src/gui/GameProfileWindow.cpp:60
-msgid "Multi-core recompiler"
-msgstr "싱글 코어 리컴파일러"
-
-#: src/gui/GameProfileWindow.cpp:60
-msgid "Auto (recommended)"
-msgstr "자동(권장)"
-
-#: src/gui/GameProfileWindow.cpp:63
-msgid "Set the CPU emulation mode"
-msgstr "CPU 에뮬레이션 모드 설정"
-
-#: src/gui/GameProfileWindow.cpp:66
-msgid "Thread quantum"
-msgstr "스레드 양자"
-
-#: src/gui/GameProfileWindow.cpp:75
-msgid ""
-"EXPERT OPTION\n"
-"Set the maximum thread slice runtime (in virtual cycles)"
-msgstr ""
-"전문가 옵션\n"
-"최대 스레드 슬라이스 런타임 설정(가상 사이클 단위)"
-
-#: src/gui/GameProfileWindow.cpp:78
-msgid "cycles"
-msgstr "주기"
-
-#: src/gui/GameProfileWindow.cpp:113 src/gui/GeneralSettings2.cpp:233
-msgid "Graphics API"
-msgstr "그래픽 API"
-
-#: src/gui/GameProfileWindow.cpp:119
-msgid "Shader multiplication accuracy"
-msgstr "셰이더 멀티플리케이션 정확도"
-
-#: src/gui/GameProfileWindow.cpp:121
-msgid "false"
-msgstr "거부"
-
-#: src/gui/GameProfileWindow.cpp:121
-msgid "true"
-msgstr "수용"
-
-#: src/gui/GameProfileWindow.cpp:121
-msgid "minimal"
-msgstr "최소"
-
-#: src/gui/GameProfileWindow.cpp:123
-msgid ""
-"EXPERT OPTION\n"
-"Controls the accuracy of floating point multiplication in shaders.\n"
-"\n"
-"Recommended: true"
-msgstr ""
-"전문가 옵션\n"
-"셰이더에서 부동 소수점 곱셈의 정확도를 제어합니다.\n"
-"\n"
-"권장 : 수용"
-
-#: src/gui/GameProfileWindow.cpp:138
-msgid "Graphic"
-msgstr "그래픽"
-
-#: src/gui/GameProfileWindow.cpp:169 src/gui/GameProfileWindow.cpp:183
-#: src/gui/input/InputSettings2.cpp:217 src/gui/input/InputAPIAddWindow.cpp:53
-msgid "Controller"
-msgstr "컨트롤러"
-
-#: src/gui/GameProfileWindow.cpp:174
-msgid "Forces a given controller profile"
-msgstr "지정된 컨트롤러 프로필 강제 적용"
-
-#: src/gui/PadViewFrame.cpp:24
-msgid "GamePad View"
-msgstr "게임패드 보기"
-
-#: src/gui/GameUpdateWindow.cpp:19 src/gui/components/wxGameList.cpp:399
-msgid "DLC"
-msgstr "DLC"
-
-#: src/gui/GameUpdateWindow.cpp:21
-msgid "Base game"
-msgstr "베이스 게임"
-
-#: src/gui/GameUpdateWindow.cpp:23
-msgid "Demo"
-msgstr "데모"
-
-#: src/gui/GameUpdateWindow.cpp:26
-msgid "System title"
-msgstr "시스템 타이틀"
-
-#: src/gui/GameUpdateWindow.cpp:28
-msgid "System data title"
-msgstr "시스템 데이터 타이틀"
-
-#: src/gui/GameUpdateWindow.cpp:30 src/gui/CemuUpdateWindow.cpp:43
-msgid "Update"
-msgstr "업데이트"
-
-#: src/gui/GameUpdateWindow.cpp:65
-msgid ""
-"It seems that there is already a title installed at the target location but "
-"it has a different type.\n"
-"Currently installed: '{}' Installing: '{}'\n"
-"\n"
-"This can happen for titles which were installed with very old Cemu "
-"versions.\n"
-"Do you still want to continue with the installation? It will replace the "
-"currently installed title."
-msgstr ""
-"대상 위치에 이미 타이틀이 설치되어 있지만 유형이 다른 것 같습니다.\n"
-"현재 설치 : '{}' 설치 중 : '{}'\n"
-"\n"
-"아주 오래된 Cemu 버전으로 설치된 타이틀의 경우 이 문제가 발생할 수 있습니"
-"다.\n"
-"그래도 설치를 계속하시겠습니까? 현재 설치된 타이틀을 대체합니다."
-
-#: src/gui/GameUpdateWindow.cpp:72
-msgid ""
-"It seems that the selected title is already installed, do you want to "
-"reinstall it?"
-msgstr "선택한 타이틀이 이미 설치되어 있는 것 같은데 다시 설치하시겠습니까?"
-
-#: src/gui/GameUpdateWindow.cpp:78
-msgid ""
-"It seems that a newer version is already installed, do you still want to "
-"install the older version?"
-msgstr ""
-"최신 버전이 이미 설치되어 있는 것 같은데 그래도 이전 버전을 설치하시겠습니까?"
-
-#: src/gui/GameUpdateWindow.cpp:95
-msgid ""
-"Error when trying to move former title installation:\n"
-"{}"
-msgstr ""
-"이전 타이틀 설치 이동 시, 오류 발생 :\n"
-"{}"
-
-#: src/gui/GameUpdateWindow.cpp:139
-msgid ""
-"Not enough space available.\n"
-"Required: {0} MB\n"
-"Available: {1} MB"
-msgstr ""
-"사용 가능한 공간이 충분하지 않습니다.\n"
-"필요 : {0}MB\n"
-"여유 : {1}MB"
-
-#: src/gui/GameUpdateWindow.cpp:169
-msgid "Installing DLC..."
-msgstr "DLC 설치..."
-
-#: src/gui/GameUpdateWindow.cpp:171
-msgid "Installing update..."
-msgstr "업데이트 설치..."
-
-#: src/gui/GameUpdateWindow.cpp:173
-msgid "Installing system title..."
-msgstr "시스템 타이틀 설치..."
-
-#: src/gui/GameUpdateWindow.cpp:175
-msgid "Installing title..."
-msgstr "타이틀 설치..."
-
-#: src/gui/GameUpdateWindow.cpp:253
-msgid "Current file:"
-msgstr "현재 파일 :"
-
-#: src/gui/GameUpdateWindow.cpp:285
-msgid ""
-"Do you really want to cancel the installation process?\n"
-"\n"
-"Canceling the process will delete the applied files."
-msgstr ""
-"정말 설치 프로세스를 취소하시겠습니까?\n"
-"\n"
-"프로세스를 취소하면 적용된 파일이 삭제됩니다."
-
-#: src/gui/GameUpdateWindow.cpp:285
-msgid "Info"
-msgstr "정보"
-
-#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:37
-msgid "Texture cache"
-msgstr "텍스처 캐시"
-
-#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:114
-msgid "Show only active"
-msgstr "활성 상태만 표시"
-
-#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:117
-msgid "Show views"
-msgstr "보기 표시"
-
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:36
-msgid "PPC threads"
-msgstr "PPC 스레드"
-
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:118
-msgid "Auto refresh"
-msgstr "자동 새로 고침"
-
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:364
-msgid "Boost priority (-5)"
-msgstr "우선순위 강화(-5)"
-
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:365
-msgid "Boost priority (-1)"
-msgstr "우선순위 강화(-1)"
-
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:367
-msgid "Decrease priority (+5)"
-msgstr "우선순위 감소(+5)"
-
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:368
-msgid "Decrease priority (+1)"
-msgstr "우선순위 감소(+1)"
-
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:370
-msgid "Resume"
-msgstr "이력"
-
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:371
-msgid "Suspend"
-msgstr "일시 중단"
-
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:373
-msgid "Write stack trace to log"
-msgstr "로그에 스택 추적 기록"
-
-#: src/gui/GeneralSettings2.cpp:102
-msgid "Interface"
-msgstr "인터페이스"
-
-#: src/gui/GeneralSettings2.cpp:110
-msgid "Language"
-msgstr "언어"
-
-#: src/gui/GeneralSettings2.cpp:112
-msgid "Default"
-msgstr "기본값"
-
-#: src/gui/GeneralSettings2.cpp:115
-msgid ""
-"Changes the interface language of Cemu\n"
-"Available languages are stored in the translation directory\n"
-"A restart will be required after changing the language"
-msgstr ""
-"Cemu의 인터페이스 언어 변경\n"
-"사용 가능한 언어는 번역 디렉토리에 저장\n"
-"언어 변경 후, 다시 시작 필요"
-
-#: src/gui/GeneralSettings2.cpp:132
-msgid "Remember main window position"
-msgstr "기본 창 위치 기억"
-
-#: src/gui/GeneralSettings2.cpp:133
-msgid "Restores the last known window position and size when starting Cemu"
-msgstr "Cemu를 시작할 때, 마지막으로 알려진 창 위치 및 크기 복원"
-
-#: src/gui/GeneralSettings2.cpp:136
-msgid "Remember pad window position"
-msgstr "패드 창 위치 기억"
-
-#: src/gui/GeneralSettings2.cpp:137
-msgid "Restores the last known pad window position and size when opening it"
-msgstr "패드 창을 열 때, 마지막으로 알려진 패드 창 위치 및 크기 복원"
-
-#: src/gui/GeneralSettings2.cpp:141
-msgid "Discord Presence"
-msgstr "디스코드 상태"
-
-#: src/gui/GeneralSettings2.cpp:142
-msgid ""
-"Enables the Discord Rich Presence feature\n"
-"You will also need to enable it in the Discord settings itself!"
-msgstr ""
-"디스코드 활동 상태 기능 활성화\n"
-"또한, 디스코드 설정에서도 이 기능을 활성화해야 합니다!"
-
-#: src/gui/GeneralSettings2.cpp:145
-msgid "Fullscreen menu bar"
-msgstr "전체 화면 메뉴 표시줄"
-
-#: src/gui/GeneralSettings2.cpp:146
-msgid ""
-"Displays the menu bar when Cemu is running in fullscreen mode and the mouse "
-"cursor is moved to the top"
-msgstr ""
-"Cemu가 전체 화면 모드로 실행 중이고 마우스 커서가 상단으로 이동한 경우 메뉴 "
-"표시줄을 표시"
-
-#: src/gui/GeneralSettings2.cpp:149 src/gui/GettingStartedDialog.cpp:147
-msgid "Automatically check for updates"
-msgstr "업데이트 자동 확인"
-
-#: src/gui/GeneralSettings2.cpp:150
-msgid "Automatically checks for new cemu versions on startup"
-msgstr "시작 시, 새로운 cemu 버전 자동 확인"
-
-#: src/gui/GeneralSettings2.cpp:153
-msgid "Save screenshot"
-msgstr "스크린샷 저장"
-
-#: src/gui/GeneralSettings2.cpp:154
-msgid ""
-"Pressing the screenshot key (F12) will save a screenshot directly to the "
-"screenshots folder"
-msgstr "스크린샷 키(F12)를 누르면 스크린샷이 스크린샷 폴더에 바로 저장"
-
-#: src/gui/GeneralSettings2.cpp:157
-msgid "Use permanent storage"
-msgstr "영구 저장 공간 사용"
-
-#: src/gui/GeneralSettings2.cpp:158
-msgid ""
-"Cemu will remember your custom mlc path in %LOCALAPPDATA%/Cemu for new "
-"installations."
-msgstr ""
-"Cemu는 새 설치를 위해 %LOCALAPPDATA%/Cemu에 사용자 지정 mlc 경로를 기억합니"
-"다."
-
-#: src/gui/GeneralSettings2.cpp:168
-msgid "MLC Path"
-msgstr "MLC 경로"
-
-#: src/gui/GeneralSettings2.cpp:174
-msgid ""
-"The mlc directory contains your save games and installed game update/dlc data"
-msgstr ""
-"mlc 디렉터리에는 저장 게임과 설치된 게임 업데이트/dlc 데이터가 들어 있음"
-
-#: src/gui/GeneralSettings2.cpp:180
-msgid ""
-"Select a custom mlc path\n"
-"The mlc path is used to store Wii U related files like save games, game "
-"updates and dlc data"
-msgstr ""
-"커스텀 MLC 경로 선택\n"
-"mlc 경로는 세이브 게임, 게임 업데이트, DLC 데이터와 같은 Wii U 관련 파일을 저"
-"장하는 데 사용"
-
-#: src/gui/GeneralSettings2.cpp:188
-msgid "Game Paths"
-msgstr "게임 경로"
-
-#: src/gui/GeneralSettings2.cpp:193
-msgid ""
-"Add the root directory of your game(s). It will scan all directories in it "
-"for games"
-msgstr ""
-"게임의 루트 디렉터리를 추가합니다. 그 안에 있는 모든 디렉터리에서 게임 검색"
-
-#: src/gui/GeneralSettings2.cpp:200 src/gui/input/InputAPIAddWindow.cpp:71
-msgid "Add"
-msgstr "추가"
-
-#: src/gui/GeneralSettings2.cpp:202
-msgid ""
-"Adds a game path to scan for games displayed in the game list\n"
-"If you have unpacked games, make sure to select the root folder of a game"
-msgstr ""
-"게임 목록에 표시된 게임을 검색할 게임 경로를 추가\n"
-"압축을 푼 게임이 있는 경우, 게임의 루트 폴더를 선택"
-
-#: src/gui/GeneralSettings2.cpp:205
-msgid "Remove"
-msgstr "제거"
-
-#: src/gui/GeneralSettings2.cpp:207
-msgid "Removes the currently selected game path from the game list"
-msgstr "현재 선택된 게임 경로를 게임 목록에서 제거"
-
-#: src/gui/GeneralSettings2.cpp:246
-msgid "Select one of the available graphic back ends"
-msgstr "사용 가능한 그래픽 백엔드 중 하나 선택"
-
-#: src/gui/GeneralSettings2.cpp:250
-msgid "Graphics Device"
-msgstr "그래픽 장치"
-
-#: src/gui/GeneralSettings2.cpp:253
-msgid "Select the used graphic device"
-msgstr "사용 중인 그래픽 장치 선택"
-
-#: src/gui/GeneralSettings2.cpp:256
-msgid "VSync"
-msgstr "수직 동기화"
-
-#: src/gui/GeneralSettings2.cpp:258
-msgid "Controls the vsync state"
-msgstr "수직 동기화 상태 제어"
-
-#: src/gui/GeneralSettings2.cpp:265
-msgid "Async shader compile"
-msgstr "비동기 셰이더 컴파일"
-
-#: src/gui/GeneralSettings2.cpp:266
-msgid ""
-"Enables async shader and pipeline compilation. Reduces stutter at the cost "
-"of objects not rendering for a short time.\n"
-"Vulkan only"
-msgstr ""
-"비동기 셰이더 및 파이프라인 컴파일을 활성화합니다. 오브젝트가 짧은 시간 동안 "
-"렌더링되지 않는 대신 끊김 현상을 줄입니다.\n"
-"Vulkan 전용"
-
-#: src/gui/GeneralSettings2.cpp:269
-msgid "Full sync at GX2DrawDone()"
-msgstr "GX2DrawDone()에서 전체 동기화"
-
-#: src/gui/GeneralSettings2.cpp:270
-msgid ""
-"If synchronization is requested by the game, the emulated CPU will wait for "
-"the GPU to finish all operations.\n"
-"This is more accurate behavior, but may cause lower performance"
-msgstr ""
-"게임에서 동기화를 요청하면 에뮬레이트된 CPU는 GPU가 모든 작업을 완료할 때까"
-"지 기다립니다.\n"
-"이는 더 정확한 동작이지만 성능이 저하될 수 있음"
-
-#: src/gui/GeneralSettings2.cpp:278
-msgid "Bilinear"
-msgstr "쌍선형"
-
-#: src/gui/GeneralSettings2.cpp:278
-msgid "Bicubic"
-msgstr "쌍입방"
-
-#: src/gui/GeneralSettings2.cpp:278
-msgid "Hermite"
-msgstr "에르미트"
-
-#: src/gui/GeneralSettings2.cpp:278
-msgid "Nearest Neighbor"
-msgstr "최근린"
-
-#: src/gui/GeneralSettings2.cpp:279
-msgid "Upscale filter"
-msgstr "업스케일 필터"
-
-#: src/gui/GeneralSettings2.cpp:280
-msgid ""
-"Upscaling filters are used when the game resolution is smaller than the "
-"window size"
-msgstr "업스케일링 필터는 게임 해상도가 창 크기보다 작을 때 사용"
-
-#: src/gui/GeneralSettings2.cpp:283
-msgid "Downscale filter"
-msgstr "다운스케일 필터"
-
-#: src/gui/GeneralSettings2.cpp:284
-msgid ""
-"Downscaling filters are used when the game resolution is bigger than the "
-"window size"
-msgstr "다운스케일링 필터는 게임 해상도가 창 크기보다 클 때 사용"
-
-#: src/gui/GeneralSettings2.cpp:289
-msgid "Keep aspect ratio"
-msgstr "종횡비 유지"
-
-#: src/gui/GeneralSettings2.cpp:289
-msgid "Stretch"
-msgstr "늘이기"
-
-#: src/gui/GeneralSettings2.cpp:290
-msgid "Fullscreen scaling"
-msgstr "전체 화면 크기 조정"
-
-#: src/gui/GeneralSettings2.cpp:291
-msgid ""
-"Controls the output aspect ratio when it doesn't match the ratio of the game"
-msgstr "출력 종횡비가 게임 비율과 일치하지 않을 때 제어"
-
-#: src/gui/GeneralSettings2.cpp:312 src/gui/input/InputAPIAddWindow.cpp:36
-msgid "API"
-msgstr "API"
-
-#: src/gui/GeneralSettings2.cpp:325
-msgid "Select one of the available audio back ends"
-msgstr "사용 가능한 음향 후단부 중 하나를 선택"
-
-#: src/gui/GeneralSettings2.cpp:332
-msgid "Latency"
-msgstr "레이턴시"
-
-#: src/gui/GeneralSettings2.cpp:334
-msgid ""
-"Controls the amount of buffered audio data\n"
-"Higher values will create a delay in audio playback, but may avoid audio "
-"problems when emulation is too slow"
-msgstr ""
-"버퍼링되는 음향 데이터의 양을 제어\n"
-"값이 클수록 오디오 재생이 지연되지만 에뮬레이션이 너무 느릴 때 오디오 문제를 "
-"방지할 수 있음"
-
-#: src/gui/GeneralSettings2.cpp:345
-msgid "Mono"
-msgstr "모노"
-
-#: src/gui/GeneralSettings2.cpp:345 src/gui/GeneralSettings2.cpp:402
-msgid "Stereo"
-msgstr "스테레오"
-
-#: src/gui/GeneralSettings2.cpp:345
-msgid "Surround"
-msgstr "서라운드"
-
-#: src/gui/GeneralSettings2.cpp:347
-msgid "TV"
-msgstr "TV"
-
-#: src/gui/GeneralSettings2.cpp:354 src/gui/GeneralSettings2.cpp:393
-msgid "Device"
-msgstr "장치"
-
-#: src/gui/GeneralSettings2.cpp:357
-msgid "Select the active audio output device for Wii U TV"
-msgstr "Wii U TV용 활성 음향 출력 장치 선택"
-
-#: src/gui/GeneralSettings2.cpp:363 src/gui/GeneralSettings2.cpp:404
-msgid "Channels"
-msgstr "채널"
-
-#: src/gui/GeneralSettings2.cpp:372 src/gui/GeneralSettings2.cpp:413
-#: src/gui/input/panels/WiimoteInputPanel.cpp:89
-#: src/gui/input/panels/VPADInputPanel.cpp:103
-msgid "Volume"
-msgstr "음량"
-
-#: src/gui/GeneralSettings2.cpp:386
-msgid "Gamepad"
-msgstr "게임패드"
-
-#: src/gui/GeneralSettings2.cpp:396
-msgid "Select the active audio output device for Wii U GamePad"
-msgstr "Wii U 게임패드용 활성 음향 출력 장치 선택"
-
-#: src/gui/GeneralSettings2.cpp:435 src/gui/GeneralSettings2.cpp:712
-#: src/gui/GeneralSettings2.cpp:1031 src/gui/GeneralSettings2.cpp:1032
-#: src/gui/input/InputSettings2.cpp:206 src/gui/input/InputSettings2.cpp:382
-#: src/gui/input/InputSettings2.cpp:770
-msgid "Disabled"
-msgstr "비활성화"
-
-#: src/gui/GeneralSettings2.cpp:435
-msgid "Top left"
-msgstr "좌측 상단"
-
-#: src/gui/GeneralSettings2.cpp:435
-msgid "Top center"
-msgstr "상단 중앙"
-
-#: src/gui/GeneralSettings2.cpp:435
-msgid "Top right"
-msgstr "우측 상단"
-
-#: src/gui/GeneralSettings2.cpp:435
-msgid "Bottom left"
-msgstr "좌측 하단"
-
-#: src/gui/GeneralSettings2.cpp:435
-msgid "Bottom center"
-msgstr "하단 중앙"
-
-#: src/gui/GeneralSettings2.cpp:435
-msgid "Bottom right"
-msgstr "우측 하단"
-
-#: src/gui/GeneralSettings2.cpp:438 src/gui/GeneralSettings2.cpp:736
-msgid "Overlay"
-msgstr "중첩"
-
-#: src/gui/GeneralSettings2.cpp:445 src/gui/GeneralSettings2.cpp:526
-msgid "Position"
-msgstr "위치"
-
-#: src/gui/GeneralSettings2.cpp:448
-msgid "Controls the overlay which displays technical information while playing"
-msgstr "플레이하는 동안 기술 정보를 표시하는 중첩 제어"
-
-#: src/gui/GeneralSettings2.cpp:453 src/gui/GeneralSettings2.cpp:535
-msgid "Text Color"
-msgstr "글자 색"
-
-#: src/gui/GeneralSettings2.cpp:455
-msgid "Sets the text color of the overlay"
-msgstr "중첩 글자 색 설정"
-
-#: src/gui/GeneralSettings2.cpp:460 src/gui/GeneralSettings2.cpp:540
-msgid "Scale"
-msgstr "배율"
-
-#: src/gui/GeneralSettings2.cpp:462
-msgid "Sets the scale of the overlay text"
-msgstr "중첩 글자 배율 설정"
-
-#: src/gui/GeneralSettings2.cpp:469
-msgid "FPS"
-msgstr "FPS"
-
-#: src/gui/GeneralSettings2.cpp:470
-msgid "The number of frames per second. Average over last 5 seconds"
-msgstr "초당 프레임 수입니다. 지난 5초 동안의 평균"
-
-#: src/gui/GeneralSettings2.cpp:473
-msgid "Draw calls per frame"
-msgstr "프레임당 호출 그리기"
-
-#: src/gui/GeneralSettings2.cpp:474
-msgid "The number of draw calls per frame. Average over last 5 seconds"
-msgstr "프레임당 그리기 호출 횟수입니다. 지난 5초 동안의 평균"
-
-#: src/gui/GeneralSettings2.cpp:477
-msgid "CPU usage"
-msgstr "CPU 사용량"
-
-#: src/gui/GeneralSettings2.cpp:478
-msgid "CPU usage of Cemu in percent"
-msgstr "Cemu의 CPU 사용량(%)"
-
-#: src/gui/GeneralSettings2.cpp:481
-msgid "CPU per core usage"
-msgstr "코어당 CPU 사용량"
-
-#: src/gui/GeneralSettings2.cpp:482
-msgid "Total cpu usage in percent for each core"
-msgstr "각 코어의 총 CPU 사용량(%)"
-
-#: src/gui/GeneralSettings2.cpp:485
-msgid "RAM usage"
-msgstr "RAM 사용량"
-
-#: src/gui/GeneralSettings2.cpp:486
-msgid "Cemu RAM usage in MB"
-msgstr "Cemu RAM 사용량(MB)"
-
-#: src/gui/GeneralSettings2.cpp:489
-msgid "VRAM usage"
-msgstr "VRAM 사용량"
-
-#: src/gui/GeneralSettings2.cpp:497 src/gui/GeneralSettings2.cpp:504
-msgid "The VRAM usage of Cemu in MB"
-msgstr "Cemu의 VRAM 사용량(MB)"
-
-#: src/gui/GeneralSettings2.cpp:500
-msgid "This option requires Win8.1+"
-msgstr "이 옵션을 사용하려면 윈도8.1 이상 필요"
-
-#: src/gui/GeneralSettings2.cpp:509 src/gui/GeneralSettings2.cpp:738
-msgid "Debug"
-msgstr "디버그"
-
-#: src/gui/GeneralSettings2.cpp:510
-msgid "Displays internal debug information (Vulkan only)"
-msgstr "내부 디버그 정보 표시(Vulkan 전용)"
-
-#: src/gui/GeneralSettings2.cpp:519
-msgid "Notifications"
-msgstr "알림"
-
-#: src/gui/GeneralSettings2.cpp:530
-msgid "Controls the notification position while playing"
-msgstr "재생 중 알림 위치 제어"
-
-#: src/gui/GeneralSettings2.cpp:537
-msgid "Sets the text color of notifications"
-msgstr "알림의 글자 색 설정"
-
-#: src/gui/GeneralSettings2.cpp:542
-msgid "Sets the scale of the notification text"
-msgstr "알림 글자 배율 설정"
-
-#: src/gui/GeneralSettings2.cpp:549
-msgid "Controller profiles"
-msgstr "컨트롤러 프로필"
-
-#: src/gui/GeneralSettings2.cpp:550
-msgid "Displays the active controller profile when starting a game"
-msgstr "게임 시작 시, 활성 컨트롤러 프로필 표시"
-
-#: src/gui/GeneralSettings2.cpp:553
-msgid "Low battery"
-msgstr "배터리 부족"
-
-#: src/gui/GeneralSettings2.cpp:554
-msgid "Shows a notification when a low controller battery has been detected"
-msgstr "컨트롤러 배터리 부족이 감지되면 알림 표시"
-
-#: src/gui/GeneralSettings2.cpp:557
-msgid "Shader compiler"
-msgstr "셰이더 컴파일러"
-
-#: src/gui/GeneralSettings2.cpp:558
-msgid "Shows a notification after shaders have been compiled"
-msgstr "셰이더 컴파일 후 알림 표시"
-
-#: src/gui/GeneralSettings2.cpp:561
-msgid "Friend list"
-msgstr "친구 목록"
-
-#: src/gui/GeneralSettings2.cpp:562
-msgid "Shows friend list related data if online"
-msgstr "온라인 상태인 경우, 친구 목록 관련 데이터 표시"
-
-#: src/gui/GeneralSettings2.cpp:582
-msgid "Account settings"
-msgstr "계정 설정"
-
-#: src/gui/GeneralSettings2.cpp:592
-msgid "Active account"
-msgstr "활성 계정"
-
-#: src/gui/GeneralSettings2.cpp:599
-msgid "Create"
-msgstr "만들기"
-
-#: src/gui/GeneralSettings2.cpp:620
-msgid "Online settings"
-msgstr "온라인 설정"
-
-#: src/gui/GeneralSettings2.cpp:623
-msgid "Enable online mode"
-msgstr "온라인 모드 활성화"
-
-#: src/gui/GeneralSettings2.cpp:636
-msgid "No account selected"
-msgstr "선택한 계정 없음"
-
-#: src/gui/GeneralSettings2.cpp:641
-msgid "Online play tutorial"
-msgstr "온라인 플레이 튜토리얼"
-
-#: src/gui/GeneralSettings2.cpp:649
-msgid "Account information"
-msgstr "계정 정보"
-
-#: src/gui/GeneralSettings2.cpp:663
-msgid "The persistent id is the internal folder name used for your saves"
-msgstr "잔류 ID는 저장에 사용되는 내부 폴더 이름임"
-
-#: src/gui/GeneralSettings2.cpp:666
-msgid "Mii name"
-msgstr "Mii 이름"
-
-#: src/gui/GeneralSettings2.cpp:666
-msgid "The mii name is the profile name"
-msgstr "mii 이름은 프로필 이름"
-
-#: src/gui/GeneralSettings2.cpp:667
-msgid "Birthday"
-msgstr "생일"
-
-#: src/gui/GeneralSettings2.cpp:670
-msgid "Female"
-msgstr "여성"
-
-#: src/gui/GeneralSettings2.cpp:671
-msgid "Male"
-msgstr "남성"
-
-#: src/gui/GeneralSettings2.cpp:674
-msgid "Email"
-msgstr "이메일"
-
-#: src/gui/GeneralSettings2.cpp:685
-msgid "Country"
-msgstr "국가"
-
-#: src/gui/GeneralSettings2.cpp:710
-msgid "Crash dump"
-msgstr "충돌 덤프"
-
-#: src/gui/GeneralSettings2.cpp:712
-msgid "Lite"
-msgstr "라이트"
-
-#: src/gui/GeneralSettings2.cpp:712
-msgid "Full"
-msgstr "풀"
-
-#: src/gui/GeneralSettings2.cpp:715
-msgid ""
-"Creates a dump when Cemu crashes\n"
-"Only enable when requested by a developer!\n"
-"The Full option will create a very large dump file (includes a full RAM dump "
-"of the Cemu process)"
-msgstr ""
-"Cemu 충돌 시, 덤프 생성\n"
-"개발자가 요청할 때만 활성화하세요!\n"
-"전체 옵션은 매우 큰 덤프 파일 생성(Cemu 프로세스의 전체 RAM 덤프 포함)"
-
-#: src/gui/GeneralSettings2.cpp:726
-msgid "General settings"
-msgstr "일반 설정"
-
-#: src/gui/GeneralSettings2.cpp:734
-msgid "Graphics"
-msgstr "그래픽"
-
-#: src/gui/GeneralSettings2.cpp:735
-msgid "Audio"
-msgstr "음향"
-
-#: src/gui/GeneralSettings2.cpp:1100
-msgid "Can't delete the only account!"
-msgstr "유일한 계정을 삭제할 수 없습니다!"
-
-#: src/gui/GeneralSettings2.cpp:1110
-msgid "Are you sure you want to delete the account {} with id {:x}?"
-msgstr "아이디 {:x}의 {} 계정을 삭제하시겠습니까?"
-
-#: src/gui/GeneralSettings2.cpp:1114
-#: src/gui/components/wxTitleManagerList.cpp:315
-msgid "Confirmation"
-msgstr "확인"
-
-#: src/gui/GeneralSettings2.cpp:1216
-msgid "At least one issue has been found"
-msgstr "하나 이상의 문제가 발견"
-
-#: src/gui/GeneralSettings2.cpp:1253
-msgid "Your account is a valid online account"
-msgstr "계정이 유효한 온라인 계정"
-
-#: src/gui/GeneralSettings2.cpp:1294 src/gui/GeneralSettings2.cpp:1313
-msgid "Off"
-msgstr "끔"
-
-#: src/gui/GeneralSettings2.cpp:1314
-msgid "Double buffering"
-msgstr "이중 버퍼링"
-
-#: src/gui/GeneralSettings2.cpp:1315
-msgid "Triple buffering"
-msgstr "삼중 버퍼링"
-
-#: src/gui/GeneralSettings2.cpp:1317
-msgid "Match emulated display (Experimental)"
-msgstr "매치 에뮬레이트 디스플레이(실험적)"
-
-#: src/gui/GeneralSettings2.cpp:1496
-msgid ""
-"Please be aware that online mode lets you connect to OFFICIAL servers and "
-"therefore there is a risk of getting banned.\n"
-"Only proceed if you are willing to risk losing online access with your Wii U "
-"and/or NNID."
-msgstr ""
-"온라인 모드에서는 공식 서버에 연결할 수 있으므로 접속이 차단될 위험이 있다는 "
-"점에 유의하시기 바랍니다.\n"
-"온라인 접속이 차단될 위험을 감수할 의향이 있는 경우에만 Wii U 및/또는 NNID로 "
-"진행하시기 바랍니다."
-
-#: src/gui/GeneralSettings2.cpp:1662
-msgid "You have to restart the game in order to apply the new settings."
-msgstr "새 설정을 적용하려면 게임을 다시 시작해야 합니다."
-
-#: src/gui/GeneralSettings2.cpp:1674
-msgid "Select a directory containing games."
-msgstr "게임이 포함된 디렉터리를 선택합니다."
-
-#: src/gui/GeneralSettings2.cpp:1799
-msgid "Online Status"
-msgstr "온라인 상태"
-
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:13
-msgid "Create new account"
-msgstr "신규 계정 만들기"
-
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:23
-msgid ""
-"The persistent id is the internal folder name used for your saves. Only "
-"change this if you are importing saves from a Wii U with a specific id"
-msgstr ""
-"잔류 ID는 저장에 사용되는 내부 폴더 이름입니다. 특정 ID를 가진 Wii U에서 저장"
-"을 가져오는 경우에만 변경"
-
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:37
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:59
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:58
-#: src/gui/input/settings/DefaultControllerSettings.cpp:192
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:210
-msgid "OK"
-msgstr "확인"
-
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:67
-msgid "No persistent id entered!"
-msgstr "잔류 ID를 입력하지 않았습니다!"
-
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:74
-msgid "The persistent id must be greater than {:x}!"
-msgstr "잔류 ID는 {:x}보다 커야 합니다!"
-
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:82
-msgid "The persistent id {:x} is already in use by account {}!"
-msgstr "잔류 ID {:x}는 {} 계정에서 이미 사용 중입니다!"
-
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:90
-msgid "Account name may not be empty!"
-msgstr "계정 이름이 비어 있지 않을 수 있습니다!"
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:22
-msgid "Import save entry"
-msgstr "저장 항목 가져오기"
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:31
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:27
-msgid "Source"
-msgstr "소스"
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:33
-msgid "Select a zipped save file"
-msgstr "압축된 저장 파일 선택"
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:34
-msgid "Save entry (*.zip)"
-msgstr "항목 저장(*.zip)"
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:38
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:34
-msgid "Target"
-msgstr "목표"
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:121
-msgid ""
-"You are trying to import a savegame for a different title than your "
-"currently selected one: {:016x} vs {:016x}\n"
-"Are you sure that you want to continue?"
-msgstr ""
-"현재 선택한 타이틀이 아닌 다른 타이틀의 저장 게임을 가져오려고 함 : {:016x} "
-"대 {:016x}\n"
-"계속하시겠습니까?"
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:161
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:95
-msgid ""
-"The given account id is not valid!\n"
-"It must be a hex number bigger or equal than {:08x}"
-msgstr ""
-"입력한 계정 아이디가 유효하지 않습니다!\n"
-"{:08x}보다 크거나 같은 16진수여야 합니다."
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:173
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:111
-msgid ""
-"There's already a file at the target directory:\n"
-"{}"
-msgstr ""
-"대상 디렉터리에 이미 파일 존재 :\n"
-"{}"
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:180
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:118
-msgid ""
-"There's already a save game available for the target account, do you want to "
-"overwrite it?\n"
-"This will delete the existing save files for the account and replace them."
-msgstr ""
-"대상 계정에 사용할 수 있는 세이브 게임이 이미 있는데 덮어쓰기를 하시겠습니"
-"까?\n"
-"그러면 해당 계정의 기존 세이브 파일이 삭제되고 대체됩니다."
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:196
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:134
-msgid ""
-"Error when trying to delete the former save game:\n"
-"{}"
-msgstr ""
-"이전 저장 게임을 삭제하려고 할 때, 오류 발생 :\n"
-"{}"
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:216
-msgid ""
-"Error when creating the extraction path:\n"
-"{}"
-msgstr ""
-"추출 경로를 만드는 동안 오류 발생 :\n"
-"{}"
-
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:224
-msgid ""
-"Error when opening the import zip file:\n"
-"{}"
-msgstr ""
-"zip 파일을 가져올 때, 오류 발생 :\n"
-"{}"
-
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:18
-msgid "Save transfer"
-msgstr "전송 저장"
-
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:190
-msgid ""
-"Error when trying to move the save game:\n"
-"{}"
-msgstr ""
-"저장 게임을 이동하려고 할 때, 오류 발생 :\n"
-"{}"
-
-#: src/gui/CemuUpdateWindow.cpp:54
-msgid "Changelog"
-msgstr "변경 로그"
-
-#: src/gui/CemuUpdateWindow.cpp:577 src/gui/CemuUpdateWindow.cpp:594
-msgid "Exit"
-msgstr "종료"
-
-#: src/gui/CemuUpdateWindow.cpp:578
-msgid "No update available!"
-msgstr "업데이트가 없습니다!"
-
-#: src/gui/CemuUpdateWindow.cpp:593
-msgid "Update available!"
-msgstr "업데이트 가능!"
-
-#: src/gui/CemuUpdateWindow.cpp:598
-msgid "Extracting update..."
-msgstr "업데이트 추출..."
-
-#: src/gui/CemuUpdateWindow.cpp:603
-msgid "Couldn't download the update!"
-msgstr "업데이트를 내려받을 수 없습니다!"
-
-#: src/gui/CemuUpdateWindow.cpp:606
-msgid "Applying update..."
-msgstr "업데이트 적용..."
-
-#: src/gui/CemuUpdateWindow.cpp:613
-msgid "Extracting failed!"
-msgstr "추출하지 못했습니다!"
-
-#: src/gui/CemuUpdateWindow.cpp:620
-msgid "Restart"
-msgstr "다시 시작"
-
-#: src/gui/CemuUpdateWindow.cpp:642
-msgid "Downloading update..."
-msgstr "업데이트 내려받기..."
-
-#: src/gui/LoggingWindow.cpp:16
-msgid "Logging window"
-msgstr "로그 창"
-
-#: src/gui/LoggingWindow.cpp:30
-msgid "Filter messages"
-msgstr "메시지 필터링"
+#: src/gui/GraphicPacksWindow2.cpp:193 src/gui/GettingStartedDialog.cpp:87
+#: src/gui/GettingStartedDialog.cpp:288
+#: src/gui/DownloadGraphicPacksWindow.cpp:115
+#: src/gui/DownloadGraphicPacksWindow.cpp:193
+#: src/gui/DownloadGraphicPacksWindow.cpp:200
+msgid "Graphic packs"
+msgstr "그래픽 팩"
+
+#: src/gui/GraphicPacksWindow2.cpp:227
+msgid "Installed games"
+msgstr "설치된 게임"
+
+#: src/gui/GraphicPacksWindow2.cpp:255
+msgid "Graphic pack"
+msgstr "그래픽 팩"
+
+#: src/gui/GraphicPacksWindow2.cpp:281
+msgid "Reload edited shaders"
+msgstr "편집한 셰이더 다시 불러오기"
+
+#: src/gui/GraphicPacksWindow2.cpp:301
+msgid "Download latest community graphic packs"
+msgstr "최신 커뮤니티 그래픽 팩 내려받기"
+
+#: src/gui/GraphicPacksWindow2.cpp:393
+msgid "Active preset"
+msgstr "활성 프리셋"
+
+#: src/gui/GraphicPacksWindow2.cpp:448
+msgid "This graphic pack has no description"
+msgstr "이 그래픽 팩에 대한 설명이 없음"
+
+#: src/gui/GraphicPacksWindow2.cpp:526 src/gui/GraphicPacksWindow2.cpp:588
+msgid "Restart of Cemu required for changes to take effect"
+msgstr "변경 사항을 적용하려면 Cemu 다시 시작 필요"
+
+#: src/gui/GraphicPacksWindow2.cpp:632
+msgid "This update removed or renamed the following graphic packs:"
+msgstr "이 업데이트에서는 다음 그래픽 팩이 제거되거나 이름이 변경됨 :"
+
+#: src/gui/GraphicPacksWindow2.cpp:633
+msgid "You may need to set them up again."
+msgstr "다시 설정해야 할 수도 있습니다."
 
 #: src/gui/GettingStartedDialog.cpp:33
 msgid ""
@@ -2808,188 +1898,104 @@ msgstr "전체 화면으로 게임 시작"
 msgid "Open separate pad screen"
 msgstr "별도의 패드 화면 열기"
 
-#: src/gui/GettingStartedDialog.cpp:161
+#: src/gui/GettingStartedDialog.cpp:147 src/gui/GeneralSettings2.cpp:166
+msgid "Automatically check for updates"
+msgstr "업데이트 자동 확인"
+
+#: src/gui/GettingStartedDialog.cpp:164
 msgid "Don't show this again"
 msgstr "다시 표시 안 함"
 
-#: src/gui/GettingStartedDialog.cpp:165
+#: src/gui/GettingStartedDialog.cpp:168
 msgid "Previous"
 msgstr "이전"
 
-#: src/gui/GettingStartedDialog.cpp:169
-msgid "Close"
-msgstr "닫기"
-
-#: src/gui/GettingStartedDialog.cpp:254
+#: src/gui/GettingStartedDialog.cpp:257
 msgid "Getting started"
 msgstr "시작하기"
 
-#: src/gui/GettingStartedDialog.cpp:285
+#: src/gui/GettingStartedDialog.cpp:288
 msgid "Do you want to view the downloaded graphic packs?"
 msgstr "내려받은 그래픽 팩을 보시겠습니까?"
 
-#: src/gui/input/InputSettings2.cpp:82
-msgid "Controller {}"
-msgstr "컨트롤러 {}"
-
-#: src/gui/input/InputSettings2.cpp:146
-msgid "Profile"
-msgstr "프로필"
-
-#: src/gui/input/InputSettings2.cpp:155
-msgid "Load"
-msgstr "불러오기"
-
-#: src/gui/input/InputSettings2.cpp:159
-msgid "Save"
-msgstr "저장"
-
-#: src/gui/input/InputSettings2.cpp:167
-msgid "controller set by gameprofile. changes won't be saved permanently!"
-msgstr ""
-"게임 프로필에서 설정한 컨트롤러 변경 사항은 영구적으로 저장되지 않습니다!"
-
-#: src/gui/input/InputSettings2.cpp:199
-msgid "Emulated controller"
-msgstr "에뮬레이트 컨트롤러"
-
-#: src/gui/input/InputSettings2.cpp:248
-msgid "Settings"
-msgstr "설정"
-
-#: src/gui/input/InputSettings2.cpp:253
-#: src/gui/input/settings/DefaultControllerSettings.cpp:202
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:220
-msgid "Calibrate"
-msgstr "보정"
-
-#: src/gui/input/InputSettings2.cpp:258 src/gui/MemorySearcherTool.cpp:204
-msgid "Clear"
-msgstr "지우기"
-
-#: src/gui/input/InputSettings2.cpp:266
-msgid "Test if the controller is connected"
-msgstr "컨트롤러가 연결되어 있는지 테스트"
-
-#: src/gui/input/InputSettings2.cpp:593 src/gui/input/InputSettings2.cpp:629
-#: src/gui/input/InputSettings2.cpp:661
-msgid "invalid profile name"
-msgstr "유효하지 않은 프로필 이름"
-
-#: src/gui/input/InputSettings2.cpp:602
-msgid "profile loaded"
-msgstr "프로필 불러옴"
-
-#: src/gui/input/InputSettings2.cpp:607
-msgid "couldn't load profile"
-msgstr "프로필을 불러올 수 없음"
-
-#: src/gui/input/InputSettings2.cpp:637
-msgid "profile saved"
-msgstr "프로필 저장됨"
-
-#: src/gui/input/InputSettings2.cpp:642
-msgid "couldn't save profile"
-msgstr "프로필을 저장할 수 없음"
-
-#: src/gui/input/InputSettings2.cpp:675
-msgid "profile deleted"
-msgstr "프로필 삭제됨"
-
-#: src/gui/input/InputSettings2.cpp:684
-msgid "can't delete profile"
-msgstr "프로필을 삭제할 수 없음"
-
-#: src/gui/input/panels/ProControllerInputPanel.cpp:41
-#: src/gui/input/panels/VPADInputPanel.cpp:61
-#: src/gui/input/panels/ClassicControllerInputPanel.cpp:42
-msgid "Left Axis"
-msgstr "좌측 축"
-
-#: src/gui/input/panels/ProControllerInputPanel.cpp:64
-#: src/gui/input/panels/VPADInputPanel.cpp:84
-#: src/gui/input/panels/ClassicControllerInputPanel.cpp:65
-msgid "Right Axis"
-msgstr "우측 축"
-
-#: src/gui/input/panels/ProControllerInputPanel.cpp:87
-#: src/gui/input/panels/WiimoteInputPanel.cpp:77
-#: src/gui/input/panels/VPADInputPanel.cpp:123
-#: src/gui/input/panels/ClassicControllerInputPanel.cpp:88
-msgid "D-pad"
-msgstr "십자 버튼"
-
-#: src/gui/input/panels/WiimoteInputPanel.cpp:41
-msgid "Extensions:"
-msgstr "확장 :"
-
-#: src/gui/input/panels/WiimoteInputPanel.cpp:44
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:310
-msgid "MotionPlus"
-msgstr "모션 플러스"
-
-#: src/gui/input/panels/WiimoteInputPanel.cpp:48
-#: src/gui/input/panels/WiimoteInputPanel.cpp:110
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:86
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:290
-msgid "Nunchuck"
-msgstr "눈차크"
-
-#: src/gui/input/panels/WiimoteInputPanel.cpp:52
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:129
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:295
-msgid "Classic"
-msgstr "클래식"
-
-#: src/gui/input/panels/VPADInputPanel.cpp:135
-msgid "blow mic"
-msgstr "마이크 불기"
-
-#: src/gui/input/panels/VPADInputPanel.cpp:138
-msgid "show screen"
-msgstr "화면 표시"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:19
 #: src/gui/input/settings/WiimoteControllerSettings.cpp:20
+#: src/gui/input/settings/DefaultControllerSettings.cpp:19
 msgid "Controller settings"
 msgstr "컨트롤러 설정"
 
-#: src/gui/input/settings/DefaultControllerSettings.cpp:31
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:33
+msgid "Connected extension"
+msgstr "연결된 확장"
+
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:36
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:319
+msgid "None"
+msgstr "없음"
+
 #: src/gui/input/settings/WiimoteControllerSettings.cpp:44
+#: src/gui/input/settings/DefaultControllerSettings.cpp:31
 msgid "Options"
 msgstr "옵션"
 
-#: src/gui/input/settings/DefaultControllerSettings.cpp:35
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:50
+#: src/gui/input/settings/DefaultControllerSettings.cpp:44
+msgid "Rumble"
+msgstr "진동"
+
 #: src/gui/input/settings/WiimoteControllerSettings.cpp:57
+#: src/gui/input/settings/DefaultControllerSettings.cpp:35
 msgid "Use motion"
 msgstr "모션 사용"
 
-#: src/gui/input/settings/DefaultControllerSettings.cpp:44
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:50
-msgid "Rumble"
-msgstr "진동"
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:69
+msgid "Packet delay"
+msgstr "패킷 지연"
+
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:87
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:291
+#: src/gui/input/panels/WiimoteInputPanel.cpp:58
+#: src/gui/input/panels/WiimoteInputPanel.cpp:120
+msgid "Nunchuck"
+msgstr "눈차크"
+
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:95
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:140
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:153
+#: src/gui/input/settings/DefaultControllerSettings.cpp:68
+#: src/gui/input/settings/DefaultControllerSettings.cpp:111
+#: src/gui/input/settings/DefaultControllerSettings.cpp:154
+msgid "Deadzone"
+msgstr "데드 존"
+
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:108
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:168
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:181
+#: src/gui/input/settings/DefaultControllerSettings.cpp:81
+#: src/gui/input/settings/DefaultControllerSettings.cpp:124
+#: src/gui/input/settings/DefaultControllerSettings.cpp:167
+msgid "Range"
+msgstr "범위"
+
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:130
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:296
+#: src/gui/input/panels/WiimoteInputPanel.cpp:62
+msgid "Classic"
+msgstr "클래식"
+
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:221
+#: src/gui/input/settings/DefaultControllerSettings.cpp:202
+#: src/gui/input/InputSettings2.cpp:262
+msgid "Calibrate"
+msgstr "보정"
+
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:311
+#: src/gui/input/panels/WiimoteInputPanel.cpp:54
+msgid "MotionPlus"
+msgstr "모션 플러스"
 
 #: src/gui/input/settings/DefaultControllerSettings.cpp:60
 msgid "Axis"
 msgstr "축"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:68
-#: src/gui/input/settings/DefaultControllerSettings.cpp:111
-#: src/gui/input/settings/DefaultControllerSettings.cpp:154
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:94
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:139
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:152
-msgid "Deadzone"
-msgstr "데드 존"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:81
-#: src/gui/input/settings/DefaultControllerSettings.cpp:124
-#: src/gui/input/settings/DefaultControllerSettings.cpp:167
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:107
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:167
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:180
-msgid "Range"
-msgstr "범위"
 
 #: src/gui/input/settings/DefaultControllerSettings.cpp:103
 msgid "Rotation"
@@ -2999,22 +2005,17 @@ msgstr "회전"
 msgid "Trigger"
 msgstr "트리거"
 
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:33
-msgid "Connected extension"
-msgstr "연결된 확장"
+#: src/gui/input/InputSettings2.h:21
+msgid "<profile name>"
+msgstr "<프로필 이름>"
 
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:36
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:318
-msgid "None"
-msgstr "없음"
+#: src/gui/input/InputAPIAddWindow.cpp:36 src/gui/GeneralSettings2.cpp:348
+msgid "API"
+msgstr "API"
 
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:68
-msgid "Packet delay"
-msgstr "패킷 지연"
-
-#: src/gui/input/InputAPIAddWindow.cpp:26
-msgid "Add input API"
-msgstr "입력 API 추가"
+#: src/gui/input/InputAPIAddWindow.cpp:71 src/gui/GeneralSettings2.cpp:236
+msgid "Add"
+msgstr "추가"
 
 #: src/gui/input/InputAPIAddWindow.cpp:92
 msgid "IP"
@@ -3028,104 +2029,710 @@ msgstr "포트"
 msgid "The controller is already added!"
 msgstr "컨트롤러가 이미 추가되어 있습니다!"
 
-#: src/gui/input/InputAPIAddWindow.cpp:239
-msgid "Searching for controllers..."
-msgstr "컨트롤러 검색..."
+#: src/gui/input/panels/WiimoteInputPanel.cpp:43
+msgid "Pair a Wii or Wii U controller"
+msgstr "Wii 또는 Wii U 컨트롤러 페어링하기"
 
-#: src/gui/input/InputSettings2.h:21
-msgid "<profile name>"
-msgstr "<프로필 이름>"
+#: src/gui/input/panels/WiimoteInputPanel.cpp:51
+msgid "Extensions:"
+msgstr "확장 :"
 
-#: src/gui/GraphicPacksWindow2.cpp:224
-msgid "Installed games"
-msgstr "설치된 게임"
+#: src/gui/input/panels/WiimoteInputPanel.cpp:87
+#: src/gui/input/panels/VPADInputPanel.cpp:123
+#: src/gui/input/panels/ClassicControllerInputPanel.cpp:88
+#: src/gui/input/panels/ProControllerInputPanel.cpp:87
+msgid "D-pad"
+msgstr "십자 버튼"
 
-#: src/gui/GraphicPacksWindow2.cpp:252
-msgid "Graphic pack"
-msgstr "그래픽 팩"
+#: src/gui/input/panels/WiimoteInputPanel.cpp:99
+#: src/gui/input/panels/VPADInputPanel.cpp:103 src/gui/GeneralSettings2.cpp:408
+#: src/gui/GeneralSettings2.cpp:449 src/gui/GeneralSettings2.cpp:490
+msgid "Volume"
+msgstr "음량"
 
-#: src/gui/GraphicPacksWindow2.cpp:262 src/gui/MemorySearcherTool.cpp:102
-msgid "Description"
-msgstr "설명"
+#: src/gui/input/panels/VPADInputPanel.cpp:61
+#: src/gui/input/panels/ClassicControllerInputPanel.cpp:42
+#: src/gui/input/panels/ProControllerInputPanel.cpp:41
+msgid "Left Axis"
+msgstr "좌측 축"
 
-#: src/gui/GraphicPacksWindow2.cpp:278
-msgid "Reload edited shaders"
-msgstr "편집한 셰이더 다시 불러오기"
+#: src/gui/input/panels/VPADInputPanel.cpp:84
+#: src/gui/input/panels/ClassicControllerInputPanel.cpp:65
+#: src/gui/input/panels/ProControllerInputPanel.cpp:64
+msgid "Right Axis"
+msgstr "우측 축"
 
-#: src/gui/GraphicPacksWindow2.cpp:298
-msgid "Download latest community graphic packs"
-msgstr "최신 커뮤니티 그래픽 팩 내려받기"
+#: src/gui/input/panels/VPADInputPanel.cpp:135
+msgid "blow mic"
+msgstr "마이크 불기"
 
-#: src/gui/GraphicPacksWindow2.cpp:389
-msgid "Active preset"
-msgstr "활성 프리셋"
+#: src/gui/input/panels/VPADInputPanel.cpp:138
+msgid "show screen"
+msgstr "화면 표시"
 
-#: src/gui/GraphicPacksWindow2.cpp:444
-msgid "This graphic pack has no description"
-msgstr "이 그래픽 팩에 대한 설명이 없음"
+#: src/gui/input/InputSettings2.cpp:146
+msgid "Profile"
+msgstr "프로필"
 
-#: src/gui/GraphicPacksWindow2.cpp:526 src/gui/GraphicPacksWindow2.cpp:556
-msgid "Restart of Cemu required for changes to take effect"
-msgstr "변경 사항을 적용하려면 Cemu 다시 시작 필요"
+#: src/gui/input/InputSettings2.cpp:164
+msgid "Load"
+msgstr "불러오기"
 
-#: src/gui/GraphicPacksWindow2.cpp:600
-msgid "This update removed or renamed the following graphic packs:"
-msgstr "이 업데이트에서는 다음 그래픽 팩이 제거되거나 이름이 변경됨 :"
+#: src/gui/input/InputSettings2.cpp:168
+msgid "Save"
+msgstr "저장"
 
-#: src/gui/GraphicPacksWindow2.cpp:600
-msgid "You may need to set them up again."
-msgstr "다시 설정해야 할 수도 있습니다."
+#: src/gui/input/InputSettings2.cpp:176
+msgid "controller set by gameprofile. changes won't be saved permanently!"
+msgstr ""
+"게임 프로필에서 설정한 컨트롤러 변경 사항은 영구적으로 저장되지 않습니다!"
 
-#: src/gui/MemorySearcherTool.cpp:50
-msgid "Memory Searcher"
-msgstr "메모리 검색기"
+#: src/gui/input/InputSettings2.cpp:208
+msgid "Emulated controller"
+msgstr "에뮬레이트 컨트롤러"
 
-#: src/gui/MemorySearcherTool.cpp:63 src/gui/MemorySearcherTool.cpp:419
-msgid "Search"
-msgstr "검색"
+#: src/gui/input/InputSettings2.cpp:215 src/gui/input/InputSettings2.cpp:391
+#: src/gui/input/InputSettings2.cpp:784 src/gui/GeneralSettings2.cpp:512
+#: src/gui/GeneralSettings2.cpp:802 src/gui/GeneralSettings2.cpp:804
+#: src/gui/GeneralSettings2.cpp:1176 src/gui/GeneralSettings2.cpp:1177
+#: src/gui/GeneralSettings2.cpp:1178
+msgid "Disabled"
+msgstr "비활성화"
 
-#: src/gui/MemorySearcherTool.cpp:81 src/gui/MemorySearcherTool.cpp:420
-msgid "Results"
-msgstr "결과"
+#: src/gui/input/InputSettings2.cpp:257
+msgid "Settings"
+msgstr "설정"
 
-#: src/gui/MemorySearcherTool.cpp:92 src/gui/MemorySearcherTool.cpp:105
-msgid "Value"
-msgstr "값"
+#: src/gui/input/InputSettings2.cpp:275
+msgid "Test if the controller is connected"
+msgstr "컨트롤러가 연결되어 있는지 테스트"
 
-#: src/gui/MemorySearcherTool.cpp:97
-msgid "Stored Entries"
-msgstr "저장된 항목"
+#: src/gui/input/InputSettings2.cpp:608 src/gui/input/InputSettings2.cpp:644
+#: src/gui/input/InputSettings2.cpp:676
+msgid "invalid profile name"
+msgstr "유효하지 않은 프로필 이름"
 
-#: src/gui/MemorySearcherTool.cpp:106
-msgid "Freeze"
-msgstr "동결"
+#: src/gui/input/InputSettings2.cpp:617
+msgid "profile loaded"
+msgstr "프로필 불러옴"
 
-#: src/gui/MemorySearcherTool.cpp:198
-msgid "Your entered value is not valid for the selected datatype."
-msgstr "입력한 값이 선택한 데이터 유형에 유효하지 않습니다."
+#: src/gui/input/InputSettings2.cpp:622
+msgid "couldn't load profile"
+msgstr "프로필을 불러올 수 없음"
 
-#: src/gui/MemorySearcherTool.cpp:383
-msgid "&Add new entry"
-msgstr "새 항목 추가(&A)"
+#: src/gui/input/InputSettings2.cpp:652
+msgid "profile saved"
+msgstr "프로필 저장됨"
 
-#: src/gui/MemorySearcherTool.cpp:384
-msgid "&Remove entry"
-msgstr "항목 제거(&R)"
+#: src/gui/input/InputSettings2.cpp:657
+msgid "couldn't save profile"
+msgstr "프로필을 저장할 수 없음"
 
-#: src/gui/MemorySearcherTool.cpp:477
-msgid "Results ({0})"
-msgstr "결과 ({0})"
+#: src/gui/input/InputSettings2.cpp:690
+msgid "profile deleted"
+msgstr "프로필 삭제됨"
 
-#: src/gui/components/wxDownloadManagerList.cpp:94
+#: src/gui/input/InputSettings2.cpp:699
+msgid "can't delete profile"
+msgstr "프로필을 삭제할 수 없음"
+
+#: src/gui/DownloadGraphicPacksWindow.cpp:115
+msgid "Graphic packs cannot be updated while a game is running."
+msgstr "게임이 실행 중일 때는 그래픽 팩을 업데이트할 수 없습니다."
+
+#: src/gui/DownloadGraphicPacksWindow.cpp:145
+#: src/gui/DownloadGraphicPacksWindow.cpp:211
+msgid "Failed to connect to server"
+msgstr "서버에 연결하지 못함"
+
+#: src/gui/DownloadGraphicPacksWindow.cpp:193
+msgid "No updates available."
+msgstr "사용 가능한 업데이트가 없습니다."
+
+#: src/gui/DownloadGraphicPacksWindow.cpp:200
+msgid ""
+"Updated graphic packs are available. Do you want to download and install "
+"them?"
+msgstr "업데이트된 그래픽 팩을 사용할 수 있습니다. 내려받아 설치하시겠습니까?"
+
+#: src/gui/DownloadGraphicPacksWindow.cpp:302
+msgid "Checking version..."
+msgstr "버전 확인 중..."
+
+#: src/gui/DownloadGraphicPacksWindow.cpp:380
+msgid "Downloading graphic packs..."
+msgstr "그래픽 팩 내려받기..."
+
+#: src/gui/DownloadGraphicPacksWindow.cpp:384
+msgid "Extracting..."
+msgstr "추출..."
+
+#: src/gui/CemuApp.cpp:38
+msgid "Browse"
+msgstr "찾아보기"
+
+#: src/gui/CemuApp.cpp:39
+msgid "Select a file"
+msgstr "파일 선택"
+
+#: src/gui/CemuApp.cpp:40
+msgid "Select a directory"
+msgstr "디렉터리 저장"
+
+#: src/gui/CemuApp.cpp:42
+msgid "Japanese"
+msgstr "일본어"
+
+#: src/gui/CemuApp.cpp:43
+msgid "English"
+msgstr "영어"
+
+#: src/gui/CemuApp.cpp:44
+msgid "French"
+msgstr "프랑스어"
+
+#: src/gui/CemuApp.cpp:45
+msgid "German"
+msgstr "독일어"
+
+#: src/gui/CemuApp.cpp:46
+msgid "Italian"
+msgstr "이탈리아어"
+
+#: src/gui/CemuApp.cpp:47
+msgid "Spanish"
+msgstr "스페인어"
+
+#: src/gui/CemuApp.cpp:48
+msgid "Chinese"
+msgstr "중국어"
+
+#: src/gui/CemuApp.cpp:49
+msgid "Korean"
+msgstr "한국어"
+
+#: src/gui/CemuApp.cpp:50
+msgid "Dutch"
+msgstr "네덜란드어"
+
+#: src/gui/CemuApp.cpp:51
+msgid "Portugese"
+msgstr "포르투칼어"
+
+#: src/gui/CemuApp.cpp:52
+msgid "Russian"
+msgstr "러시아어"
+
+#: src/gui/CemuApp.cpp:53
+msgid "Taiwanese"
+msgstr "대만어"
+
+#: src/gui/CemuApp.cpp:54
+msgid "unknown"
+msgstr "알 수 없음"
+
+#: src/gui/CemuApp.cpp:91
+msgid "Cemu can't write to {}!"
+msgstr "Cemu가 {}에 쓸 수 없습니다!"
+
+#: src/gui/CemuApp.cpp:169
+msgid ""
+"Thank you for testing the in-development build of Cemu for macOS.\n"
+" \n"
+"The macOS port is currently purely experimental and should not be considered "
+"stable or ready for issue-free gameplay. There are also known issues with "
+"degraded performance due to the use of MoltenVk and Rosetta for ARM Macs. We "
+"appreciate your patience while we improve Cemu for macOS."
+msgstr ""
+"개발 중인 macOS용 Cemu 빌드를 테스트해 주셔서 감사합니다.\n"
+" \n"
+"macOS 포트는 현재 순전히 실험적인 단계로, 안정적이거나 문제 없는 게임 플레이"
+"를 위한 준비가 완료된 것으로 간주해서는 안 됩니다. 또한 ARM Mac용 MoltenVk "
+"및 Rosetta 사용으로 인한 성능 저하 문제가 알려져 있습니다. macOS용 Cemu를 개"
+"선하는 동안 기다려주셔서 감사합니다."
+
+#: src/gui/CemuApp.cpp:172
+msgid "Preview version"
+msgstr "미리 보기 버전"
+
+#: src/gui/CemuApp.cpp:173
+msgid "I understand"
+msgstr "알겠음"
+
+#: src/gui/CemuApp.cpp:270
+msgid ""
+"Your mlc01 folder seems to be missing.\n"
+"\n"
+"This is where Cemu stores save files, game updates and other Wii U files.\n"
+"\n"
+"The expected path is:\n"
+"{}\n"
+"\n"
+"Do you want to create the folder at the expected path?"
+msgstr ""
+"mlc01 폴더가 누락된 것 같습니다.\n"
+"\n"
+"이 폴더는 Cemu가 저장 파일, 게임 업데이트 및 기타 Wii U 파일을 저장하는 곳입"
+"니다.\n"
+"\n"
+"예상 경로 :\n"
+"{}\n"
+"\n"
+"예상 경로에 폴더를 생성하시겠습니까?"
+
+#: src/gui/CemuApp.cpp:274 src/gui/components/wxGameList.cpp:1133
+msgid "Yes"
+msgstr "예"
+
+#: src/gui/CemuApp.cpp:274 src/gui/components/wxGameList.cpp:1133
+msgid "No"
+msgstr "아니오"
+
+#: src/gui/CemuApp.cpp:274
+msgid "Select a custom path"
+msgstr "사용자 지정 경로 선택"
+
+#: src/gui/CemuApp.cpp:345
+msgid ""
+"Couldn't create a required mlc01 subfolder or file!\n"
+"\n"
+"Error: {0}\n"
+"Target path:\n"
+"{1}"
+msgstr ""
+"필수 mlc01 하위 폴더 또는 파일을 만들 수 없습니다!\n"
+"\n"
+"오류 : {0}\n"
+"대상 경로 :\n"
+"{1}"
+
+#: src/gui/CemuApp.cpp:370
+msgid ""
+"Couldn't create a required cemu directory or file!\n"
+"\n"
+"Error: {0}"
+msgstr ""
+"필수 cemu 디렉토리 또는 파일을 만들 수 없습니다!\n"
+"\n"
+"오류 : {0}"
+
+#: src/gui/CemuApp.cpp:414
+msgid "Select a mlc directory"
+msgstr "mlc 디렉터리 선택"
+
+#: src/gui/CemuApp.cpp:422
+msgid ""
+"Cemu can't write to the selected mlc path!\n"
+"Do you want to select another path?"
+msgstr ""
+"Cemu가 선택한 mlc 경로에 쓸 수 없습니다!\n"
+"다른 경로를 선택하시겠습니까?"
+
 #: src/gui/components/wxTitleManagerList.cpp:126
+#: src/gui/components/wxGameList.cpp:97
+#: src/gui/components/wxDownloadManagerList.cpp:94
 msgid "Title ID"
 msgstr "타이틀 ID"
 
-#: src/gui/components/wxDownloadManagerList.cpp:106
-#: src/gui/components/wxGameList.cpp:392
 #: src/gui/components/wxTitleManagerList.cpp:144
+#: src/gui/components/wxGameList.cpp:92
+#: src/gui/components/wxDownloadManagerList.cpp:106
 msgid "Version"
 msgstr "버전"
+
+#: src/gui/components/wxTitleManagerList.cpp:150
+#: src/gui/components/wxGameList.cpp:96
+msgid "Region"
+msgstr "지역 코드"
+
+#: src/gui/components/wxTitleManagerList.cpp:156
+msgid "Format"
+msgstr "유형"
+
+#: src/gui/components/wxTitleManagerList.cpp:162
+msgid "Location"
+msgstr "지역"
+
+#: src/gui/components/wxTitleManagerList.cpp:306
+msgid ""
+"The following content will be converted to a compressed Wii U archive file (."
+"wua):"
+msgstr "다음 콘텐츠는 압축된 Wii U 아카이브 파일(.wua)로 변환 :"
+
+#: src/gui/components/wxTitleManagerList.cpp:310
+msgid ""
+"Base game:\n"
+"{}"
+msgstr ""
+"베이스 게임 :\n"
+"{}"
+
+#: src/gui/components/wxTitleManagerList.cpp:312
+msgid ""
+"Base game:\n"
+"Not installed"
+msgstr ""
+"베이스 게임 :\n"
+"설치되지 않음"
+
+#: src/gui/components/wxTitleManagerList.cpp:317
+msgid ""
+"Update:\n"
+"{}"
+msgstr ""
+"없데이트 :\n"
+"{}"
+
+#: src/gui/components/wxTitleManagerList.cpp:319
+msgid ""
+"Update:\n"
+"Not installed"
+msgstr ""
+"업데이트 :\n"
+"설치되지 않음"
+
+#: src/gui/components/wxTitleManagerList.cpp:324
+msgid ""
+"DLC:\n"
+"{}"
+msgstr ""
+"DLC :\n"
+"{}"
+
+#: src/gui/components/wxTitleManagerList.cpp:326
+msgid ""
+"DLC:\n"
+"Not installed"
+msgstr ""
+"DLC :\n"
+"설치되지 않음"
+
+#: src/gui/components/wxTitleManagerList.cpp:328
+#: src/gui/GeneralSettings2.cpp:1270
+msgid "Confirmation"
+msgstr "확인"
+
+#: src/gui/components/wxTitleManagerList.cpp:382
+msgid "Save Wii U game archive file"
+msgstr "Wii U 게임 아카이브 파일 저장"
+
+#: src/gui/components/wxTitleManagerList.cpp:542
+msgid "Unable to create file"
+msgstr "파일을 만들 수 없음"
+
+#: src/gui/components/wxTitleManagerList.cpp:547
+msgid "Counting files..."
+msgstr "파일 계산 중..."
+
+#: src/gui/components/wxTitleManagerList.cpp:559
+msgid "Stopping..."
+msgstr "중지..."
+
+#: src/gui/components/wxTitleManagerList.cpp:570
+msgid "Converting files..."
+msgstr "파일 변환..."
+
+#: src/gui/components/wxTitleManagerList.cpp:574
+msgid "Collecting list of files..."
+msgstr "파일 목록 수집..."
+
+#: src/gui/components/wxTitleManagerList.cpp:580
+msgid "Finalizing..."
+msgstr "마무리..."
+
+#: src/gui/components/wxTitleManagerList.cpp:597
+msgid "Conversion failed\n"
+msgstr "변환 실패\n"
+
+#: src/gui/components/wxTitleManagerList.cpp:613
+msgid "Conversion finished\n"
+msgstr "변환 완료\n"
+
+#: src/gui/components/wxTitleManagerList.cpp:613
+msgid "Complete"
+msgstr "완료"
+
+#: src/gui/components/wxTitleManagerList.cpp:766
+msgid "&Launch title"
+msgstr "실행 타이틀(&L)"
+
+#: src/gui/components/wxTitleManagerList.cpp:768
+msgid "&Open directory"
+msgstr "디렉터리 열기(&O)"
+
+#: src/gui/components/wxTitleManagerList.cpp:770
+msgid "&Verify integrity of game files"
+msgstr "게임 파일의 무결성 확인"
+
+#: src/gui/components/wxTitleManagerList.cpp:776
+msgid "Convert to compressed Wii U archive (.wua)"
+msgstr "압축된 Wii U 아카이브(.wua)로 변환"
+
+#: src/gui/components/wxTitleManagerList.cpp:780
+msgid "&Delete"
+msgstr "삭제(&D)"
+
+#: src/gui/components/wxTitleManagerList.cpp:795
+msgid ""
+"Are you really sure that you want to delete the following folder:\n"
+"{}"
+msgstr ""
+"정말 다음 폴더를 삭제하시겠습니까?\n"
+"{}"
+
+#: src/gui/components/wxTitleManagerList.cpp:797
+msgid ""
+"Are you really sure that you want to delete the following file:\n"
+"{}"
+msgstr ""
+"정말 다음 파일을 삭제하시겠습니까?\n"
+"{}"
+
+#: src/gui/components/wxTitleManagerList.cpp:838
+msgid ""
+"Error when trying to delete the entry:\n"
+"{}"
+msgstr ""
+"항목을 삭제하려고 할 때, 오류 발생 :\n"
+"{}"
+
+#: src/gui/components/wxTitleManagerList.cpp:937
+msgid "Save folder"
+msgstr "폴더 저장"
+
+#: src/gui/components/wxTitleManagerList.cpp:941
+msgid "Folder"
+msgstr "폴더"
+
+#: src/gui/components/wxTitleManagerList.cpp:943
+msgid "WUD"
+msgstr "WUD"
+
+#: src/gui/components/wxTitleManagerList.cpp:945
+msgid "WUA"
+msgstr "WUA"
+
+#: src/gui/components/wxTitleManagerList.cpp:955
+msgid "MLC"
+msgstr "MLC"
+
+#: src/gui/components/wxTitleManagerList.cpp:957
+#: src/gui/GeneralSettings2.cpp:224
+msgid "Game Paths"
+msgstr "게임 경로"
+
+#: src/gui/components/wxTitleManagerList.cpp:971
+#: src/gui/components/wxDownloadManagerList.cpp:509
+msgid "base"
+msgstr "베이스"
+
+#: src/gui/components/wxTitleManagerList.cpp:973
+#: src/gui/components/wxDownloadManagerList.cpp:511
+msgid "update"
+msgstr "업데이트"
+
+#: src/gui/components/wxTitleManagerList.cpp:977
+msgid "save"
+msgstr "저장"
+
+#: src/gui/components/wxTitleManagerList.cpp:979
+msgid "system"
+msgstr "시스템"
+
+#: src/gui/components/wxGameList.cpp:91
+msgid "Game"
+msgstr "게임"
+
+#: src/gui/components/wxGameList.cpp:94
+msgid "You've played"
+msgstr "플레이 시간"
+
+#: src/gui/components/wxGameList.cpp:95
+msgid "Last played"
+msgstr "마지막 플레이"
+
+#: src/gui/components/wxGameList.cpp:114
+msgid ""
+"This game entry seems to be either an update or the base game was merged "
+"with update data\n"
+"Broken game dumps cause various problems during emulation and may even stop "
+"working at all in future Cemu versions\n"
+"Please make sure the base game is intact and install updates only with the "
+"File->Install Update/DLC option"
+msgstr ""
+"이 게임 항목은 업데이트이거나 기본 게임이 업데이트 데이터와 병합된 것 같음\n"
+"손상된 게임 덤프는 에뮬레이션 중 다양한 문제를 일으키며 향후 Cemu 버전에서 전"
+"혀 작동하지 않을 수도 있음\n"
+"기본 게임이 손상되지 않았는지 확인하고 파일 → 업데이트/DLC 설치 옵션으로만 업"
+"데이트를 설치"
+
+#: src/gui/components/wxGameList.cpp:567
+msgid "&Start"
+msgstr "시작(&S)"
+
+#: src/gui/components/wxGameList.cpp:573
+msgid "&Favorite"
+msgstr "즐겨찾기(&F)"
+
+#: src/gui/components/wxGameList.cpp:574
+msgid "&Edit name"
+msgstr "이름 수정(&E)"
+
+#: src/gui/components/wxGameList.cpp:577
+msgid "&Wiki page"
+msgstr "위키 문서(&W)"
+
+#: src/gui/components/wxGameList.cpp:578
+msgid "&Game directory"
+msgstr "게임 디렉터리(&G)"
+
+#: src/gui/components/wxGameList.cpp:579
+msgid "&Save directory"
+msgstr "디렉터리 저장(&V)"
+
+#: src/gui/components/wxGameList.cpp:580
+msgid "&Update directory"
+msgstr "디렉터리 업데이트(&U)"
+
+#: src/gui/components/wxGameList.cpp:581
+msgid "&DLC directory"
+msgstr "&DLC 디렉터리"
+
+#: src/gui/components/wxGameList.cpp:584
+msgid "&Remove shader caches"
+msgstr "셰이더 캐시 제거(&R)"
+
+#: src/gui/components/wxGameList.cpp:587
+msgid "&Edit graphic packs"
+msgstr "그래픽 팩 수정(&E)"
+
+#: src/gui/components/wxGameList.cpp:588
+msgid "&Edit game profile"
+msgstr "게임 프로필 수정(&E)"
+
+#: src/gui/components/wxGameList.cpp:592
+msgid "&Create shortcut"
+msgstr "바로 가기 만들기(&C)"
+
+#: src/gui/components/wxGameList.cpp:598
+msgid "&Refresh game list"
+msgstr "게임 목록 새로 고침(&R)"
+
+#: src/gui/components/wxGameList.cpp:600
+msgid "Style: &List"
+msgstr "스타일 : 목록(&L)"
+
+#: src/gui/components/wxGameList.cpp:601
+msgid "Style: &Icons"
+msgstr "스타일 : 아이콘(&I)"
+
+#: src/gui/components/wxGameList.cpp:602
+msgid "Style: &Small Icons"
+msgstr "스타일 : 작은 아이콘(&S)"
+
+#: src/gui/components/wxGameList.cpp:632
+msgid "Enter a custom game title"
+msgstr "커스텀 게임 타이틀 입력"
+
+#: src/gui/components/wxGameList.cpp:766
+msgid "Reset &width"
+msgstr "너비 재설정(&W)"
+
+#: src/gui/components/wxGameList.cpp:767
+msgid "Reset &order"
+msgstr "순서 재설정(&O)"
+
+#: src/gui/components/wxGameList.cpp:770
+msgid "Show &name"
+msgstr "이름 표시(&N)"
+
+#: src/gui/components/wxGameList.cpp:771
+msgid "Show &version"
+msgstr "버전 표시(&V)"
+
+#: src/gui/components/wxGameList.cpp:772
+msgid "Show &dlc"
+msgstr "&DLC 표시"
+
+#: src/gui/components/wxGameList.cpp:773
+msgid "Show &game time"
+msgstr "게임 시간 표시(&G)"
+
+#: src/gui/components/wxGameList.cpp:774
+msgid "Show &last played"
+msgstr "마지막 플레이 표시(&L)"
+
+#: src/gui/components/wxGameList.cpp:775
+msgid "Show &region"
+msgstr "지역 코드 표시(&R)"
+
+#: src/gui/components/wxGameList.cpp:776
+msgid "Show &title ID"
+msgstr "타이틀 ID 표기(&T)"
+
+#: src/gui/components/wxGameList.cpp:1016
+#: src/gui/components/wxGameList.cpp:1022
+msgid "{} minute"
+msgid_plural "{} minutes"
+msgstr[0] "{}분"
+
+#: src/gui/components/wxGameList.cpp:1021
+msgid "{} hour"
+msgid_plural "{} hours"
+msgstr[0] "{}시"
+
+#: src/gui/components/wxGameList.cpp:1033
+#: src/gui/components/wxGameList.cpp:1038
+msgid "never"
+msgstr "절대 안 함"
+
+#: src/gui/components/wxGameList.cpp:1132
+msgid "Remove the shader caches for {}?"
+msgstr "{}에 대한 셰이더 캐시를 제거하시겠습니까?"
+
+#: src/gui/components/wxGameList.cpp:1132
+msgid "Remove shader caches"
+msgstr "셰이더 캐시 제거"
+
+#: src/gui/components/wxGameList.cpp:1145
+msgid "The shader caches were removed!"
+msgstr "셰이더 캐시가 제거되었습니다!"
+
+#: src/gui/components/wxGameList.cpp:1145
+msgid "Shader caches removed"
+msgstr "셰이더 캐시 제거"
+
+#: src/gui/components/wxGameList.cpp:1147
+msgid ""
+"Failed to remove the shader caches:\n"
+"{}"
+msgstr ""
+"셰이더 캐시 제거 실패 :\n"
+"{}"
+
+#: src/gui/components/wxGameList.cpp:1247
+msgid "Choose desktop entry location"
+msgstr "데스크톱 입력 위치 선택"
+
+#: src/gui/components/wxGameList.cpp:1254
+msgid "Choose shortcut location"
+msgstr "바로 가기 위치 선택"
+
+#: src/gui/components/wxGameList.cpp:1273
+msgid "Icon is yet to load, so will not be used by the shortcut"
+msgstr "아이콘을 아직 불러오지 않았으므로 바로 가기에 사용되지 않음"
+
+#: src/gui/components/wxGameList.cpp:1279
+msgid "Cannot access the icon directory, the shortcut will have no icon"
+msgstr "아이콘 디렉터리에 액세스할 수 없으며 바로 가기에 아이콘이 없음"
+
+#: src/gui/components/wxGameList.cpp:1290
+msgid "The icon was unable to be saved, the shortcut will have no icon"
+msgstr "아이콘을 저장할 수 없으며 바로 가기에 아이콘이 없음"
+
+#: src/gui/components/wxGameList.cpp:1314
+msgid "Failed to save desktop entry to {}"
+msgstr "데스크톱 항목을 {}에 저장하지 못했습니다."
 
 #: src/gui/components/wxDownloadManagerList.cpp:118
 msgid "Progress"
@@ -3147,333 +2754,1077 @@ msgstr "다시 시도(&R)"
 msgid "&Download"
 msgstr "내려받기(&D)"
 
-#: src/gui/components/wxDownloadManagerList.cpp:468
+#: src/gui/components/wxDownloadManagerList.cpp:466
 msgid "Paused"
 msgstr "일시 중지됨"
 
-#: src/gui/components/wxDownloadManagerList.cpp:472
+#: src/gui/components/wxDownloadManagerList.cpp:470
 msgid "Not installed (Partially downloaded)"
 msgstr "설치되지 않음(일부 다운로드됨)"
 
-#: src/gui/components/wxDownloadManagerList.cpp:474
+#: src/gui/components/wxDownloadManagerList.cpp:472
 msgid "Update available"
 msgstr "업데이트 가능"
 
-#: src/gui/components/wxDownloadManagerList.cpp:475
+#: src/gui/components/wxDownloadManagerList.cpp:473
 msgid "Not installed"
 msgstr "설치되지 않음"
 
-#: src/gui/components/wxDownloadManagerList.cpp:478
+#: src/gui/components/wxDownloadManagerList.cpp:476
 msgid "Initializing"
 msgstr "초기화"
 
-#: src/gui/components/wxDownloadManagerList.cpp:480
+#: src/gui/components/wxDownloadManagerList.cpp:478
 msgid "Checking"
 msgstr "확인"
 
-#: src/gui/components/wxDownloadManagerList.cpp:482
+#: src/gui/components/wxDownloadManagerList.cpp:480
 msgid "Queued"
 msgstr "대기열"
 
-#: src/gui/components/wxDownloadManagerList.cpp:484
+#: src/gui/components/wxDownloadManagerList.cpp:482
 msgid "Downloading"
 msgstr "내려받기"
 
-#: src/gui/components/wxDownloadManagerList.cpp:486
+#: src/gui/components/wxDownloadManagerList.cpp:484
 msgid "Verifying"
 msgstr "확인"
 
-#: src/gui/components/wxDownloadManagerList.cpp:488
+#: src/gui/components/wxDownloadManagerList.cpp:486
 msgid "Installing"
 msgstr "설치"
 
-#: src/gui/components/wxDownloadManagerList.cpp:490
+#: src/gui/components/wxDownloadManagerList.cpp:488
 msgid "Installed"
 msgstr "설치됨"
 
-#: src/gui/components/wxDownloadManagerList.cpp:493
+#: src/gui/components/wxDownloadManagerList.cpp:491
 msgid "Error:"
 msgstr "오류 :"
 
-#: src/gui/components/wxGameList.cpp:70
+#: src/gui/CemuUpdateWindow.cpp:55
+msgid "Changelog"
+msgstr "변경 로그"
+
+#: src/gui/CemuUpdateWindow.cpp:579 src/gui/CemuUpdateWindow.cpp:596
+msgid "Exit"
+msgstr "종료"
+
+#: src/gui/CemuUpdateWindow.cpp:580
+msgid "No update available!"
+msgstr "업데이트가 없습니다!"
+
+#: src/gui/CemuUpdateWindow.cpp:595
+msgid "Update available!"
+msgstr "업데이트 가능!"
+
+#: src/gui/CemuUpdateWindow.cpp:600
+msgid "Extracting update..."
+msgstr "업데이트 추출..."
+
+#: src/gui/CemuUpdateWindow.cpp:605
+msgid "Couldn't download the update!"
+msgstr "업데이트를 내려받을 수 없습니다!"
+
+#: src/gui/CemuUpdateWindow.cpp:608
+msgid "Applying update..."
+msgstr "업데이트 적용..."
+
+#: src/gui/CemuUpdateWindow.cpp:615
+msgid "Extracting failed!"
+msgstr "추출하지 못했습니다!"
+
+#: src/gui/CemuUpdateWindow.cpp:622
+msgid "Restart"
+msgstr "다시 시작"
+
+#: src/gui/CemuUpdateWindow.cpp:644
+msgid "Downloading update..."
+msgstr "업데이트 내려받기..."
+
+#: src/gui/GeneralSettings2.cpp:116
+msgid "Interface"
+msgstr "인터페이스"
+
+#: src/gui/GeneralSettings2.cpp:124
+msgid "Language"
+msgstr "언어"
+
+#: src/gui/GeneralSettings2.cpp:126
+msgid "Default"
+msgstr "기본값"
+
+#: src/gui/GeneralSettings2.cpp:129
 msgid ""
-"This game entry seems to be either an update or the base game was merged "
-"with update data\n"
-"Broken game dumps cause various problems during emulation and may even stop "
-"working at all in future Cemu versions\n"
-"Please make sure the base game is intact and install updates only with the "
-"File->Install Update/DLC option"
+"Changes the interface language of Cemu\n"
+"Available languages are stored in the translation directory\n"
+"A restart will be required after changing the language"
 msgstr ""
-"이 게임 항목은 업데이트이거나 기본 게임이 업데이트 데이터와 병합된 것 같음\n"
-"손상된 게임 덤프는 에뮬레이션 중 다양한 문제를 일으키며 향후 Cemu 버전에서 전"
-"혀 작동하지 않을 수도 있음\n"
-"기본 게임이 손상되지 않았는지 확인하고 파일 → 업데이트/DLC 설치 옵션으로만 업"
-"데이트를 설치"
+"Cemu의 인터페이스 언어 변경\n"
+"사용 가능한 언어는 번역 디렉토리에 저장\n"
+"언어 변경 후, 다시 시작 필요"
 
-#: src/gui/components/wxGameList.cpp:386
-msgid "Game"
-msgstr "게임"
+#: src/gui/GeneralSettings2.cpp:146
+msgid "Remember main window position"
+msgstr "기본 창 위치 기억"
 
-#: src/gui/components/wxGameList.cpp:406
-msgid "You've played"
-msgstr "플레이 시간"
+#: src/gui/GeneralSettings2.cpp:147
+msgid "Restores the last known window position and size when starting Cemu"
+msgstr "Cemu를 시작할 때, 마지막으로 알려진 창 위치 및 크기 복원"
 
-#: src/gui/components/wxGameList.cpp:412
-msgid "Last played"
-msgstr "마지막 플레이"
+#: src/gui/GeneralSettings2.cpp:150
+msgid "Remember pad window position"
+msgstr "패드 창 위치 기억"
 
-#: src/gui/components/wxGameList.cpp:418
-#: src/gui/components/wxTitleManagerList.cpp:150
-msgid "Region"
-msgstr "지역 코드"
+#: src/gui/GeneralSettings2.cpp:151
+msgid "Restores the last known pad window position and size when opening it"
+msgstr "패드 창을 열 때, 마지막으로 알려진 패드 창 위치 및 크기 복원"
 
-#: src/gui/components/wxGameList.cpp:501
-msgid "&Start"
-msgstr "시작(&S)"
+#: src/gui/GeneralSettings2.cpp:155
+msgid "Discord Presence"
+msgstr "디스코드 상태"
 
-#: src/gui/components/wxGameList.cpp:507
-msgid "&Favorite"
-msgstr "즐겨찾기(&F)"
-
-#: src/gui/components/wxGameList.cpp:508
-msgid "&Edit name"
-msgstr "이름 수정(&E)"
-
-#: src/gui/components/wxGameList.cpp:511
-msgid "&Wiki page"
-msgstr "위키 문서(&W)"
-
-#: src/gui/components/wxGameList.cpp:512
-msgid "&Game directory"
-msgstr "게임 디렉터리(&G)"
-
-#: src/gui/components/wxGameList.cpp:513
-msgid "&Save directory"
-msgstr "디렉터리 저장(&V)"
-
-#: src/gui/components/wxGameList.cpp:514
-msgid "&Update directory"
-msgstr "디렉터리 업데이트(&U)"
-
-#: src/gui/components/wxGameList.cpp:515
-msgid "&DLC directory"
-msgstr "&DLC 디렉터리"
-
-#: src/gui/components/wxGameList.cpp:518
-msgid "&Edit graphic packs"
-msgstr "그래픽 팩 수정(&E)"
-
-#: src/gui/components/wxGameList.cpp:519
-msgid "&Edit game profile"
-msgstr "게임 프로필 수정(&E)"
-
-#: src/gui/components/wxGameList.cpp:525
-msgid "&Refresh game list"
-msgstr "게임 목록 새로 고침(&R)"
-
-#: src/gui/components/wxGameList.cpp:527
-msgid "Style: &List"
-msgstr "스타일 : 목록(&L)"
-
-#: src/gui/components/wxGameList.cpp:528
-msgid "Style: &Icons"
-msgstr "스타일 : 아이콘(&I)"
-
-#: src/gui/components/wxGameList.cpp:529
-msgid "Style: &Small Icons"
-msgstr "스타일 : 작은 아이콘(&S)"
-
-#: src/gui/components/wxGameList.cpp:559
-msgid "Enter a custom game title"
-msgstr "커스텀 게임 타이틀 입력"
-
-#: src/gui/components/wxGameList.cpp:682
-msgid "Reset &width"
-msgstr "너비 재설정(&W)"
-
-#: src/gui/components/wxGameList.cpp:683
-msgid "Reset &order"
-msgstr "순서 재설정(&O)"
-
-#: src/gui/components/wxGameList.cpp:686
-msgid "Show &name"
-msgstr "이름 표시(&N)"
-
-#: src/gui/components/wxGameList.cpp:687
-msgid "Show &version"
-msgstr "버전 표시(&V)"
-
-#: src/gui/components/wxGameList.cpp:688
-msgid "Show &dlc"
-msgstr "&DLC 표시"
-
-#: src/gui/components/wxGameList.cpp:689
-msgid "Show &game time"
-msgstr "게임 시간 표시(&G)"
-
-#: src/gui/components/wxGameList.cpp:690
-msgid "Show &last played"
-msgstr "마지막 플레이 표시(&L)"
-
-#: src/gui/components/wxGameList.cpp:691
-msgid "Show &region"
-msgstr "지역 코드 표시(&R)"
-
-#: src/gui/components/wxGameList.cpp:1016
-msgid "{} seconds"
-msgstr "{}초"
-
-#: src/gui/components/wxGameList.cpp:1018
-msgid "{} minutes"
-msgstr "{}분"
-
-#: src/gui/components/wxGameList.cpp:1020
-msgid "{} hours {} minutes"
-msgstr "{}시 {}분"
-
-#: src/gui/components/wxGameList.cpp:926 src/gui/components/wxGameList.cpp:931
-msgid "never"
-msgstr "절대 안 함"
-
-#: src/gui/components/wxTitleManagerList.cpp:156
-msgid "Format"
-msgstr "유형"
-
-#: src/gui/components/wxTitleManagerList.cpp:293
+#: src/gui/GeneralSettings2.cpp:156
 msgid ""
-"The following content will be converted to a compressed Wii U archive file (."
-"wua):"
-msgstr "다음 콘텐츠는 압축된 Wii U 아카이브 파일(.wua)로 변환 :"
+"Enables the Discord Rich Presence feature\n"
+"You will also need to enable it in the Discord settings itself!"
+msgstr ""
+"디스코드 활동 상태 기능 활성화\n"
+"또한, 디스코드 설정에서도 이 기능을 활성화해야 합니다!"
 
-#: src/gui/components/wxTitleManagerList.cpp:297
-msgid "Base game: {}"
-msgstr "베이스 게임 : {}"
+#: src/gui/GeneralSettings2.cpp:162
+msgid "Fullscreen menu bar"
+msgstr "전체 화면 메뉴 표시줄"
 
-#: src/gui/components/wxTitleManagerList.cpp:299
-msgid "Base game: Not installed"
-msgstr "베이스 게임 : 설치되지 않음"
+#: src/gui/GeneralSettings2.cpp:163
+msgid ""
+"Displays the menu bar when Cemu is running in fullscreen mode and the mouse "
+"cursor is moved to the top"
+msgstr ""
+"Cemu가 전체 화면 모드로 실행 중이고 마우스 커서가 상단으로 이동한 경우 메뉴 "
+"표시줄을 표시"
 
-#: src/gui/components/wxTitleManagerList.cpp:304
-msgid "Update: {}"
-msgstr "없데이트 : {}"
+#: src/gui/GeneralSettings2.cpp:167
+msgid "Automatically checks for new cemu versions on startup"
+msgstr "시작 시, 새로운 cemu 버전 자동 확인"
 
-#: src/gui/components/wxTitleManagerList.cpp:306
-msgid "Update: Not installed"
-msgstr "업데이트: 설치되지 않음"
+#: src/gui/GeneralSettings2.cpp:173
+msgid "Save screenshot"
+msgstr "스크린샷 저장"
 
-#: src/gui/components/wxTitleManagerList.cpp:311
-msgid "DLC: {}"
-msgstr "DLC : {}"
+#: src/gui/GeneralSettings2.cpp:174
+msgid ""
+"Pressing the screenshot key (F12) will save a screenshot directly to the "
+"screenshots folder"
+msgstr "스크린샷 키(F12)를 누르면 스크린샷이 스크린샷 폴더에 바로 저장"
 
-#: src/gui/components/wxTitleManagerList.cpp:313
-msgid "DLC: Not installed"
-msgstr "DLC : 설치되지 않음"
+#: src/gui/GeneralSettings2.cpp:177
+msgid "Use permanent storage"
+msgstr "영구 저장 공간 사용"
 
-#: src/gui/components/wxTitleManagerList.cpp:369
-msgid "Save Wii U game archive file"
-msgstr "Wii U 게임 아카이브 파일 저장"
+#: src/gui/GeneralSettings2.cpp:178
+msgid ""
+"Cemu will remember your custom mlc path in %LOCALAPPDATA%/Cemu for new "
+"installations."
+msgstr ""
+"Cemu는 새 설치를 위해 %LOCALAPPDATA%/Cemu에 사용자 지정 mlc 경로를 기억합니"
+"다."
 
-#: src/gui/components/wxTitleManagerList.cpp:529
-msgid "Unable to create file"
+#: src/gui/GeneralSettings2.cpp:181
+msgid "Disable screen saver"
+msgstr "화면보호기 비활성화"
+
+#: src/gui/GeneralSettings2.cpp:182
+msgid ""
+"Prevents the system from activating the screen saver or going to sleep while "
+"running a game."
+msgstr ""
+"게임을 실행하는 동안 시스템이 화면 보호기를 활성화하거나 절전 모드로 전환되"
+"는 것을 방지합니다."
+
+#: src/gui/GeneralSettings2.cpp:187
+msgid "Enable Feral GameMode"
+msgstr "페럴 게임 모드 활성화"
+
+#: src/gui/GeneralSettings2.cpp:188
+msgid "Use FeralInteractive GameMode if installed."
+msgstr "설치된 경우, 야성 인터랙티브 게임 모드를 사용합니다."
+
+#: src/gui/GeneralSettings2.cpp:204
+msgid "MLC Path"
+msgstr "MLC 경로"
+
+#: src/gui/GeneralSettings2.cpp:210
+msgid ""
+"The mlc directory contains your save games and installed game update/dlc data"
+msgstr ""
+"mlc 디렉터리에는 저장 게임과 설치된 게임 업데이트/dlc 데이터가 들어 있음"
+
+#: src/gui/GeneralSettings2.cpp:216
+msgid ""
+"Select a custom mlc path\n"
+"The mlc path is used to store Wii U related files like save games, game "
+"updates and dlc data"
+msgstr ""
+"커스텀 MLC 경로 선택\n"
+"mlc 경로는 세이브 게임, 게임 업데이트, DLC 데이터와 같은 Wii U 관련 파일을 저"
+"장하는 데 사용"
+
+#: src/gui/GeneralSettings2.cpp:229
+msgid ""
+"Add the root directory of your game(s). It will scan all directories in it "
+"for games"
+msgstr ""
+"게임의 루트 디렉터리를 추가합니다. 그 안에 있는 모든 디렉터리에서 게임 검색"
+
+#: src/gui/GeneralSettings2.cpp:238
+msgid ""
+"Adds a game path to scan for games displayed in the game list\n"
+"If you have unpacked games, make sure to select the root folder of a game"
+msgstr ""
+"게임 목록에 표시된 게임을 검색할 게임 경로를 추가\n"
+"압축을 푼 게임이 있는 경우, 게임의 루트 폴더를 선택"
+
+#: src/gui/GeneralSettings2.cpp:241
+msgid "Remove"
+msgstr "제거"
+
+#: src/gui/GeneralSettings2.cpp:243
+msgid "Removes the currently selected game path from the game list"
+msgstr "현재 선택된 게임 경로를 게임 목록에서 제거"
+
+#: src/gui/GeneralSettings2.cpp:282
+msgid "Select one of the available graphic back ends"
+msgstr "사용 가능한 그래픽 백엔드 중 하나 선택"
+
+#: src/gui/GeneralSettings2.cpp:286
+msgid "Graphics Device"
+msgstr "그래픽 장치"
+
+#: src/gui/GeneralSettings2.cpp:289
+msgid "Select the used graphic device"
+msgstr "사용 중인 그래픽 장치 선택"
+
+#: src/gui/GeneralSettings2.cpp:292
+msgid "VSync"
+msgstr "수직 동기화"
+
+#: src/gui/GeneralSettings2.cpp:294
+msgid "Controls the vsync state"
+msgstr "수직 동기화 상태 제어"
+
+#: src/gui/GeneralSettings2.cpp:301
+msgid "Async shader compile"
+msgstr "비동기 셰이더 컴파일"
+
+#: src/gui/GeneralSettings2.cpp:302
+msgid ""
+"Enables async shader and pipeline compilation. Reduces stutter at the cost "
+"of objects not rendering for a short time.\n"
+"Vulkan only"
+msgstr ""
+"비동기 셰이더 및 파이프라인 컴파일을 활성화합니다. 오브젝트가 짧은 시간 동안 "
+"렌더링되지 않는 대신 끊김 현상을 줄입니다.\n"
+"Vulkan 전용"
+
+#: src/gui/GeneralSettings2.cpp:305
+msgid "Full sync at GX2DrawDone()"
+msgstr "GX2DrawDone()에서 전체 동기화"
+
+#: src/gui/GeneralSettings2.cpp:306
+msgid ""
+"If synchronization is requested by the game, the emulated CPU will wait for "
+"the GPU to finish all operations.\n"
+"This is more accurate behavior, but may cause lower performance"
+msgstr ""
+"게임에서 동기화를 요청하면 에뮬레이트된 CPU는 GPU가 모든 작업을 완료할 때까"
+"지 기다립니다.\n"
+"이는 더 정확한 동작이지만 성능이 저하될 수 있음"
+
+#: src/gui/GeneralSettings2.cpp:314
+msgid "Bilinear"
+msgstr "쌍선형"
+
+#: src/gui/GeneralSettings2.cpp:314
+msgid "Bicubic"
+msgstr "쌍입방"
+
+#: src/gui/GeneralSettings2.cpp:314
+msgid "Hermite"
+msgstr "에르미트"
+
+#: src/gui/GeneralSettings2.cpp:314
+msgid "Nearest Neighbor"
+msgstr "최근린"
+
+#: src/gui/GeneralSettings2.cpp:315
+msgid "Upscale filter"
+msgstr "업스케일 필터"
+
+#: src/gui/GeneralSettings2.cpp:316
+msgid ""
+"Upscaling filters are used when the game resolution is smaller than the "
+"window size"
+msgstr "업스케일링 필터는 게임 해상도가 창 크기보다 작을 때 사용"
+
+#: src/gui/GeneralSettings2.cpp:319
+msgid "Downscale filter"
+msgstr "다운스케일 필터"
+
+#: src/gui/GeneralSettings2.cpp:320
+msgid ""
+"Downscaling filters are used when the game resolution is bigger than the "
+"window size"
+msgstr "다운스케일링 필터는 게임 해상도가 창 크기보다 클 때 사용"
+
+#: src/gui/GeneralSettings2.cpp:325
+msgid "Keep aspect ratio"
+msgstr "종횡비 유지"
+
+#: src/gui/GeneralSettings2.cpp:325
+msgid "Stretch"
+msgstr "늘이기"
+
+#: src/gui/GeneralSettings2.cpp:326
+msgid "Fullscreen scaling"
+msgstr "전체 화면 크기 조정"
+
+#: src/gui/GeneralSettings2.cpp:327
+msgid ""
+"Controls the output aspect ratio when it doesn't match the ratio of the game"
+msgstr "출력 종횡비가 게임 비율과 일치하지 않을 때 제어"
+
+#: src/gui/GeneralSettings2.cpp:361
+msgid "Select one of the available audio back ends"
+msgstr "사용 가능한 음향 후단부 중 하나를 선택"
+
+#: src/gui/GeneralSettings2.cpp:368
+msgid "Latency"
+msgstr "레이턴시"
+
+#: src/gui/GeneralSettings2.cpp:370
+msgid ""
+"Controls the amount of buffered audio data\n"
+"Higher values will create a delay in audio playback, but may avoid audio "
+"problems when emulation is too slow"
+msgstr ""
+"버퍼링되는 음향 데이터의 양을 제어\n"
+"값이 클수록 오디오 재생이 지연되지만 에뮬레이션이 너무 느릴 때 오디오 문제를 "
+"방지할 수 있음"
+
+#: src/gui/GeneralSettings2.cpp:381 src/gui/GeneralSettings2.cpp:479
+msgid "Mono"
+msgstr "모노"
+
+#: src/gui/GeneralSettings2.cpp:381 src/gui/GeneralSettings2.cpp:438
+msgid "Stereo"
+msgstr "스테레오"
+
+#: src/gui/GeneralSettings2.cpp:381
+msgid "Surround"
+msgstr "서라운드"
+
+#: src/gui/GeneralSettings2.cpp:383
+msgid "TV"
+msgstr "TV"
+
+#: src/gui/GeneralSettings2.cpp:390 src/gui/GeneralSettings2.cpp:429
+#: src/gui/GeneralSettings2.cpp:470
+msgid "Device"
+msgstr "장치"
+
+#: src/gui/GeneralSettings2.cpp:393
+msgid "Select the active audio output device for Wii U TV"
+msgstr "Wii U TV용 활성 음향 출력 장치 선택"
+
+#: src/gui/GeneralSettings2.cpp:399 src/gui/GeneralSettings2.cpp:440
+#: src/gui/GeneralSettings2.cpp:481
+msgid "Channels"
+msgstr "채널"
+
+#: src/gui/GeneralSettings2.cpp:422
+msgid "Gamepad"
+msgstr "게임패드"
+
+#: src/gui/GeneralSettings2.cpp:432
+msgid "Select the active audio output device for Wii U GamePad"
+msgstr "Wii U 게임패드용 활성 음향 출력 장치 선택"
+
+#: src/gui/GeneralSettings2.cpp:463
+msgid "Microphone (Experimental)"
+msgstr "마이크로폰(실험용)"
+
+#: src/gui/GeneralSettings2.cpp:473
+msgid "Select the active audio input device for Wii U GamePad"
+msgstr "Wii U 게임패드의 활성 오디오 입력 장치 선택"
+
+#: src/gui/GeneralSettings2.cpp:512
+msgid "Top left"
+msgstr "좌측 상단"
+
+#: src/gui/GeneralSettings2.cpp:512
+msgid "Top center"
+msgstr "상단 중앙"
+
+#: src/gui/GeneralSettings2.cpp:512
+msgid "Top right"
+msgstr "우측 상단"
+
+#: src/gui/GeneralSettings2.cpp:512
+msgid "Bottom left"
+msgstr "좌측 하단"
+
+#: src/gui/GeneralSettings2.cpp:512
+msgid "Bottom center"
+msgstr "하단 중앙"
+
+#: src/gui/GeneralSettings2.cpp:512
+msgid "Bottom right"
+msgstr "우측 하단"
+
+#: src/gui/GeneralSettings2.cpp:515 src/gui/GeneralSettings2.cpp:847
+msgid "Overlay"
+msgstr "중첩"
+
+#: src/gui/GeneralSettings2.cpp:522 src/gui/GeneralSettings2.cpp:603
+msgid "Position"
+msgstr "위치"
+
+#: src/gui/GeneralSettings2.cpp:525
+msgid "Controls the overlay which displays technical information while playing"
+msgstr "플레이하는 동안 기술 정보를 표시하는 중첩 제어"
+
+#: src/gui/GeneralSettings2.cpp:530 src/gui/GeneralSettings2.cpp:612
+msgid "Text Color"
+msgstr "글자 색"
+
+#: src/gui/GeneralSettings2.cpp:532
+msgid "Sets the text color of the overlay"
+msgstr "중첩 글자 색 설정"
+
+#: src/gui/GeneralSettings2.cpp:537 src/gui/GeneralSettings2.cpp:617
+msgid "Scale"
+msgstr "배율"
+
+#: src/gui/GeneralSettings2.cpp:539
+msgid "Sets the scale of the overlay text"
+msgstr "중첩 글자 배율 설정"
+
+#: src/gui/GeneralSettings2.cpp:546
+msgid "FPS"
+msgstr "FPS"
+
+#: src/gui/GeneralSettings2.cpp:547
+msgid "The number of frames per second. Average over last 5 seconds"
+msgstr "초당 프레임 수입니다. 지난 5초 동안의 평균"
+
+#: src/gui/GeneralSettings2.cpp:550
+msgid "Draw calls per frame"
+msgstr "프레임당 호출 그리기"
+
+#: src/gui/GeneralSettings2.cpp:551
+msgid "The number of draw calls per frame. Average over last 5 seconds"
+msgstr "프레임당 그리기 호출 횟수입니다. 지난 5초 동안의 평균"
+
+#: src/gui/GeneralSettings2.cpp:554
+msgid "CPU usage"
+msgstr "CPU 사용량"
+
+#: src/gui/GeneralSettings2.cpp:555
+msgid "CPU usage of Cemu in percent"
+msgstr "Cemu의 CPU 사용량(%)"
+
+#: src/gui/GeneralSettings2.cpp:558
+msgid "CPU per core usage"
+msgstr "코어당 CPU 사용량"
+
+#: src/gui/GeneralSettings2.cpp:559
+msgid "Total cpu usage in percent for each core"
+msgstr "각 코어의 총 CPU 사용량(%)"
+
+#: src/gui/GeneralSettings2.cpp:562
+msgid "RAM usage"
+msgstr "RAM 사용량"
+
+#: src/gui/GeneralSettings2.cpp:563
+msgid "Cemu RAM usage in MB"
+msgstr "Cemu RAM 사용량(MB)"
+
+#: src/gui/GeneralSettings2.cpp:566
+msgid "VRAM usage"
+msgstr "VRAM 사용량"
+
+#: src/gui/GeneralSettings2.cpp:574 src/gui/GeneralSettings2.cpp:581
+msgid "The VRAM usage of Cemu in MB"
+msgstr "Cemu의 VRAM 사용량(MB)"
+
+#: src/gui/GeneralSettings2.cpp:577
+msgid "This option requires Win8.1+"
+msgstr "이 옵션을 사용하려면 윈도8.1 이상 필요"
+
+#: src/gui/GeneralSettings2.cpp:586 src/gui/GeneralSettings2.cpp:849
+msgid "Debug"
+msgstr "디버그"
+
+#: src/gui/GeneralSettings2.cpp:587
+msgid "Displays internal debug information (Vulkan only)"
+msgstr "내부 디버그 정보 표시(Vulkan 전용)"
+
+#: src/gui/GeneralSettings2.cpp:596
+msgid "Notifications"
+msgstr "알림"
+
+#: src/gui/GeneralSettings2.cpp:607
+msgid "Controls the notification position while playing"
+msgstr "재생 중 알림 위치 제어"
+
+#: src/gui/GeneralSettings2.cpp:614
+msgid "Sets the text color of notifications"
+msgstr "알림의 글자 색 설정"
+
+#: src/gui/GeneralSettings2.cpp:619
+msgid "Sets the scale of the notification text"
+msgstr "알림 글자 배율 설정"
+
+#: src/gui/GeneralSettings2.cpp:626
+msgid "Controller profiles"
+msgstr "컨트롤러 프로필"
+
+#: src/gui/GeneralSettings2.cpp:627
+msgid "Displays the active controller profile when starting a game"
+msgstr "게임 시작 시, 활성 컨트롤러 프로필 표시"
+
+#: src/gui/GeneralSettings2.cpp:630
+msgid "Low battery"
+msgstr "배터리 부족"
+
+#: src/gui/GeneralSettings2.cpp:631
+msgid "Shows a notification when a low controller battery has been detected"
+msgstr "컨트롤러 배터리 부족이 감지되면 알림 표시"
+
+#: src/gui/GeneralSettings2.cpp:634
+msgid "Shader compiler"
+msgstr "셰이더 컴파일러"
+
+#: src/gui/GeneralSettings2.cpp:635
+msgid "Shows a notification after shaders have been compiled"
+msgstr "셰이더 컴파일 후 알림 표시"
+
+#: src/gui/GeneralSettings2.cpp:638
+msgid "Friend list"
+msgstr "친구 목록"
+
+#: src/gui/GeneralSettings2.cpp:639
+msgid "Shows friend list related data if online"
+msgstr "온라인 상태인 경우, 친구 목록 관련 데이터 표시"
+
+#: src/gui/GeneralSettings2.cpp:659
+msgid "Account settings"
+msgstr "계정 설정"
+
+#: src/gui/GeneralSettings2.cpp:669
+msgid "Active account"
+msgstr "활성 계정"
+
+#: src/gui/GeneralSettings2.cpp:676
+msgid "Create"
+msgstr "만들기"
+
+#: src/gui/GeneralSettings2.cpp:684
+msgid "Nintendo"
+msgstr "닌텐도"
+
+#: src/gui/GeneralSettings2.cpp:684
+msgid "Pretendo"
+msgstr "프리텐도"
+
+#: src/gui/GeneralSettings2.cpp:684
+msgid "Custom"
+msgstr "커스텀"
+
+#: src/gui/GeneralSettings2.cpp:685
+msgid "Network Service"
+msgstr "네트워크 서비스"
+
+#: src/gui/GeneralSettings2.cpp:690
+msgid "Connect to which Network Service"
+msgstr "어떤 네트워크 서비스에 연결"
+
+#: src/gui/GeneralSettings2.cpp:708
+msgid "Online settings"
+msgstr "온라인 설정"
+
+#: src/gui/GeneralSettings2.cpp:711
+msgid "Enable online mode"
+msgstr "온라인 모드 활성화"
+
+#: src/gui/GeneralSettings2.cpp:724
+msgid "No account selected"
+msgstr "선택한 계정 없음"
+
+#: src/gui/GeneralSettings2.cpp:729
+msgid "Online play tutorial"
+msgstr "온라인 플레이 튜토리얼"
+
+#: src/gui/GeneralSettings2.cpp:737
+msgid "Account information"
+msgstr "계정 정보"
+
+#: src/gui/GeneralSettings2.cpp:751
+msgid "The persistent id is the internal folder name used for your saves"
+msgstr "잔류 ID는 저장에 사용되는 내부 폴더 이름임"
+
+#: src/gui/GeneralSettings2.cpp:754
+msgid "Mii name"
+msgstr "Mii 이름"
+
+#: src/gui/GeneralSettings2.cpp:754
+msgid "The mii name is the profile name"
+msgstr "mii 이름은 프로필 이름"
+
+#: src/gui/GeneralSettings2.cpp:755
+msgid "Birthday"
+msgstr "생일"
+
+#: src/gui/GeneralSettings2.cpp:758
+msgid "Female"
+msgstr "여성"
+
+#: src/gui/GeneralSettings2.cpp:759
+msgid "Male"
+msgstr "남성"
+
+#: src/gui/GeneralSettings2.cpp:762
+msgid "Email"
+msgstr "이메일"
+
+#: src/gui/GeneralSettings2.cpp:773
+msgid "Country"
+msgstr "국가"
+
+#: src/gui/GeneralSettings2.cpp:799
+msgid "Crash dump"
+msgstr "충돌 덤프"
+
+#: src/gui/GeneralSettings2.cpp:802
+msgid "Lite"
+msgstr "라이트"
+
+#: src/gui/GeneralSettings2.cpp:802
+msgid "Full"
+msgstr "풀"
+
+#: src/gui/GeneralSettings2.cpp:804
+msgid "Enabled"
+msgstr "활성화"
+
+#: src/gui/GeneralSettings2.cpp:809
+msgid ""
+"Creates a dump when Cemu crashes\n"
+"Only enable when requested by a developer!\n"
+"The Full option will create a very large dump file (includes a full RAM dump "
+"of the Cemu process)"
+msgstr ""
+"Cemu 충돌 시, 덤프 생성\n"
+"개발자가 요청할 때만 활성화하세요!\n"
+"전체 옵션은 매우 큰 덤프 파일 생성(Cemu 프로세스의 전체 RAM 덤프 포함)"
+
+#: src/gui/GeneralSettings2.cpp:811
+msgid ""
+"Creates a core dump when Cemu crashes\n"
+"Only enable when requested by a developer!"
+msgstr ""
+"Cemu 충돌 시, 코어 덤프 생성\n"
+"개발자가 요청할 때만 활성화하세요!"
+
+#: src/gui/GeneralSettings2.cpp:822
+msgid "GDB Stub port"
+msgstr "GDB 스텁 포트"
+
+#: src/gui/GeneralSettings2.cpp:825
+msgid ""
+"Changes the port that the GDB stub will use, which you can use by either "
+"starting Cemu with the --enable-gdbstub option or by enabling it the Debug "
+"tab."
+msgstr ""
+"GDB 스터브가 사용할 포트를 변경하며, --enable-gdbstub 옵션으로 Cemu를 시작하"
+"거나 디버그 탭에서 활성화하여 사용할 수 있습니다."
+
+#: src/gui/GeneralSettings2.cpp:837
+msgid "General settings"
+msgstr "일반 설정"
+
+#: src/gui/GeneralSettings2.cpp:845
+msgid "Graphics"
+msgstr "그래픽"
+
+#: src/gui/GeneralSettings2.cpp:846
+msgid "Audio"
+msgstr "음향"
+
+#: src/gui/GeneralSettings2.cpp:1256
+msgid "Can't delete the only account!"
+msgstr "유일한 계정을 삭제할 수 없습니다!"
+
+#: src/gui/GeneralSettings2.cpp:1266
+msgid "Are you sure you want to delete the account {} with id {:x}?"
+msgstr "아이디 {:x}의 {} 계정을 삭제하시겠습니까?"
+
+#: src/gui/GeneralSettings2.cpp:1372
+msgid "At least one issue has been found"
+msgstr "하나 이상의 문제가 발견"
+
+#: src/gui/GeneralSettings2.cpp:1409
+msgid "Your account is a valid online account"
+msgstr "계정이 유효한 온라인 계정"
+
+#: src/gui/GeneralSettings2.cpp:1450 src/gui/GeneralSettings2.cpp:1469
+msgid "Off"
+msgstr "끔"
+
+#: src/gui/GeneralSettings2.cpp:1470
+msgid "Double buffering"
+msgstr "이중 버퍼링"
+
+#: src/gui/GeneralSettings2.cpp:1471
+msgid "Triple buffering"
+msgstr "삼중 버퍼링"
+
+#: src/gui/GeneralSettings2.cpp:1473
+msgid "Match emulated display (Experimental)"
+msgstr "매치 에뮬레이트 디스플레이(실험적)"
+
+#: src/gui/GeneralSettings2.cpp:1681
+msgid ""
+"Please be aware that online mode lets you connect to OFFICIAL servers and "
+"therefore there is a risk of getting banned.\n"
+"Only proceed if you are willing to risk losing online access with your Wii U "
+"and/or NNID."
+msgstr ""
+"온라인 모드에서는 공식 서버에 연결할 수 있으므로 접속이 차단될 위험이 있다는 "
+"점에 유의하시기 바랍니다.\n"
+"온라인 접속이 차단될 위험을 감수할 의향이 있는 경우에만 Wii U 및/또는 NNID로 "
+"진행하시기 바랍니다."
+
+#: src/gui/GeneralSettings2.cpp:1896
+msgid "You have to restart the game in order to apply the new settings."
+msgstr "새 설정을 적용하려면 게임을 다시 시작해야 합니다."
+
+#: src/gui/GeneralSettings2.cpp:1908
+msgid "Select a directory containing games."
+msgstr "게임이 포함된 디렉터리를 선택합니다."
+
+#: src/gui/GeneralSettings2.cpp:1978
+msgid ""
+"The default MLC path is inaccessible.\n"
+"Do you want to select a different path?"
+msgstr ""
+"기본 MLC 경로에 액세스할 수 없습니다.\n"
+"다른 경로를 선택하시겠습니까?"
+
+#: src/gui/GeneralSettings2.cpp:2005
+msgid "The following error(s) have been found:"
+msgstr "다음 오류가 발견됨 :"
+
+#: src/gui/GeneralSettings2.cpp:2008
+msgid "otp.bin missing in Cemu root directory"
+msgstr "Cemu 루트 디렉터리에 otp.bin 누락"
+
+#: src/gui/GeneralSettings2.cpp:2010
+msgid "otp.bin is invalid"
+msgstr "otp.bin이 유효하지 않음"
+
+#: src/gui/GeneralSettings2.cpp:2013
+msgid "seeprom.bin missing in Cemu root directory"
+msgstr "Cemu 루트 디렉터리에 seeprom.bin 누락"
+
+#: src/gui/GeneralSettings2.cpp:2015
+msgid "seeprom.bin is invalid"
+msgstr "seeprom.bin이 유효하지 않음"
+
+#: src/gui/GeneralSettings2.cpp:2019
+msgid "Missing certificate and key files:"
+msgstr "인증서 및 키 파일 누락 :"
+
+#: src/gui/GeneralSettings2.cpp:2039
+msgid "The currently selected account is not a valid or dumped online account:"
+msgstr "현재 선택한 계정이 유효하지 않거나 폐기된 온라인 계정 :"
+
+#: src/gui/GeneralSettings2.cpp:2043
+msgid "Online Status"
+msgstr "온라인 상태"
+
+#: src/gui/GeneralSettings2.cpp:2050
+msgid "AccountId missing (The account is not connected to a NNID)"
+msgstr "AccountId 누락(계정이 NNID에 연결되어 있지 않음)"
+
+#: src/gui/GeneralSettings2.cpp:2052
+msgid ""
+"IsPasswordCacheEnabled is set to false (The remember password option on your "
+"Wii U must be enabled for this account before dumping it)"
+msgstr ""
+"비밀번호 캐시 활성화가 거짓으로 설정되어 있음(덤프하기 전에 이 계정에 대해 "
+"Wii U의 비밀번호 기억 옵션이 활성화되어 있어야 함)"
+
+#: src/gui/GeneralSettings2.cpp:2054
+msgid ""
+"AccountPasswordCache is empty (The remember password option on your Wii U "
+"must be enabled for this account before dumping it)"
+msgstr ""
+"계정 비밀번호 캐시가 비어 있음(덤프하기 전에 이 계정에 대해 Wii U의 비밀번호 "
+"기억 옵션이 활성화되어 있어야 함)"
+
+#: src/gui/GeneralSettings2.cpp:2056
+msgid "PrincipalId missing"
+msgstr "대표 ID 누락"
+
+#: src/audio/audioDebuggerWindow.cpp:25
+msgid "AX voice viewer"
+msgstr "AX 음성 뷰어"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:374
+msgid "Downloading account ticket"
+msgstr "계정 티켓 내려받기"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:427
+msgid "Downloading system tickets..."
+msgstr "시스템 티켓 내려받기..."
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:489
+msgid "Retrieving update information..."
+msgstr "업데이트 정보 검색..."
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:511
+msgid "Downloading ticket"
+msgstr "티켓 내려받기"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:564
+msgid "Downloading meta data"
+msgstr "메타 데이터 내려받기"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:569
+msgid "Connected. Right click entries in the list to start downloading"
+msgstr ""
+"연결되었습니다. 목록에서 항목을 마우스 오른쪽 버튼으로 클릭하여 내려받기 시작"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:655
+msgid "Logging in..."
+msgstr "로그인 중.."
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:678
+msgid "Login failed. Outdated or incomplete online files?"
+msgstr "로그인에 실패했습니다. 온라인 파일이 오래되었거나 불완전합니까?"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:686
+msgid "Failed to query account status. Invalid account information?"
+msgstr "계정 상태를 조회하지 못했습니다. 계정 정보가 잘못되었나요?"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:690
+msgid "Updating ticket cache"
+msgstr "티켓 캐시 업데이트"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:695
+msgid "Failed to request tickets (invalid NNID?)"
+msgstr "티켓 요청 실패(잘못된 NNID?)"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:719
+msgid "This account is not linked with an NNID"
+msgstr "이 계정은 NNID와 연결되지 않음"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:729
+msgid "Failed. Account does not have password set"
+msgstr "실패했습니다. 계정 비밀번호 미설정"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1057
+msgid "TMD download failed"
+msgstr "TMD 내려받기 실패"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1066
+msgid "Invalid TMD"
+msgstr "유효하지 않은 TMD"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1175
+msgid "Cannot write file. Disk full?"
+msgstr "파일을 쓸 수 없습니다. 디스크가 가득 찼나요?"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1196
+msgid "Cannot create file"
 msgstr "파일을 만들 수 없음"
 
-#: src/gui/components/wxTitleManagerList.cpp:534
-msgid "Counting files..."
-msgstr "파일 계산 중..."
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1201
+msgid "Download failed"
+msgstr "내려받기 실패"
 
-#: src/gui/components/wxTitleManagerList.cpp:546
-msgid "Stopping..."
-msgstr "중지..."
+#: src/util/helpers/helpers.cpp:74 src/util/helpers/helpers.cpp:91
+msgid "Error code"
+msgstr "오류 코드"
 
-#: src/gui/components/wxTitleManagerList.cpp:557
-msgid "Converting files..."
-msgstr "파일 변환..."
+#: src/input/emulated/ProController.cpp:78
+#: src/input/emulated/ProController.cpp:84
+#: src/input/emulated/ProController.cpp:88
+#: src/input/emulated/VPADController.cpp:370
+#: src/input/emulated/VPADController.cpp:376
+#: src/input/emulated/VPADController.cpp:380
+#: src/input/emulated/ClassicController.cpp:75
+#: src/input/emulated/ClassicController.cpp:80
+#: src/input/emulated/ClassicController.cpp:85
+#: src/input/emulated/WiimoteController.cpp:166
+#: src/input/emulated/WiimoteController.cpp:174
+msgid "up"
+msgstr "↑"
 
-#: src/gui/components/wxTitleManagerList.cpp:561
-msgid "Collecting list of files..."
-msgstr "파일 목록 수집..."
+#: src/input/emulated/ProController.cpp:79
+#: src/input/emulated/ProController.cpp:85
+#: src/input/emulated/ProController.cpp:89
+#: src/input/emulated/VPADController.cpp:371
+#: src/input/emulated/VPADController.cpp:377
+#: src/input/emulated/VPADController.cpp:381
+#: src/input/emulated/ClassicController.cpp:76
+#: src/input/emulated/ClassicController.cpp:81
+#: src/input/emulated/ClassicController.cpp:86
+#: src/input/emulated/WiimoteController.cpp:167
+#: src/input/emulated/WiimoteController.cpp:175
+msgid "down"
+msgstr "↓"
 
-#: src/gui/components/wxTitleManagerList.cpp:567
-msgid "Finalizing..."
-msgstr "마무리..."
+#: src/input/emulated/ProController.cpp:80
+#: src/input/emulated/ProController.cpp:86
+#: src/input/emulated/ProController.cpp:90
+#: src/input/emulated/VPADController.cpp:372
+#: src/input/emulated/VPADController.cpp:378
+#: src/input/emulated/VPADController.cpp:382
+#: src/input/emulated/ClassicController.cpp:77
+#: src/input/emulated/ClassicController.cpp:82
+#: src/input/emulated/ClassicController.cpp:87
+#: src/input/emulated/WiimoteController.cpp:168
+#: src/input/emulated/WiimoteController.cpp:176
+msgid "left"
+msgstr "←"
 
-#: src/gui/components/wxTitleManagerList.cpp:584
-msgid "Conversion failed\n"
-msgstr "변환 실패\n"
+#: src/input/emulated/ProController.cpp:81
+#: src/input/emulated/ProController.cpp:87
+#: src/input/emulated/ProController.cpp:91
+#: src/input/emulated/VPADController.cpp:373
+#: src/input/emulated/VPADController.cpp:379
+#: src/input/emulated/VPADController.cpp:383
+#: src/input/emulated/ClassicController.cpp:78
+#: src/input/emulated/ClassicController.cpp:83
+#: src/input/emulated/ClassicController.cpp:88
+#: src/input/emulated/WiimoteController.cpp:169
+#: src/input/emulated/WiimoteController.cpp:177
+msgid "right"
+msgstr "→"
 
-#: src/gui/components/wxTitleManagerList.cpp:600
-msgid "Conversion finished\n"
-msgstr "변환 완료\n"
+#: src/input/emulated/ProController.cpp:82
+#: src/input/emulated/ProController.cpp:83
+#: src/input/emulated/VPADController.cpp:374
+#: src/input/emulated/VPADController.cpp:375
+msgid "click"
+msgstr "클릭"
 
-#: src/gui/components/wxTitleManagerList.cpp:600
-msgid "Complete"
-msgstr "완료"
+#: src/input/emulated/ProController.cpp:92
+#: src/input/emulated/VPADController.cpp:384
+#: src/input/emulated/ClassicController.cpp:73
+#: src/input/emulated/WiimoteController.cpp:162
+msgid "home"
+msgstr "홈"
 
-#: src/gui/components/wxTitleManagerList.cpp:753
-msgid "&Launch title"
-msgstr "실행 타이틀(&L)"
+#: src/config/CemuConfig.h:262
+msgid "Japan"
+msgstr "일본"
 
-#: src/gui/components/wxTitleManagerList.cpp:755
-msgid "&Open directory"
-msgstr "디렉터리 열기(&O)"
+#: src/config/CemuConfig.h:263
+msgid "USA"
+msgstr "미국"
 
-#: src/gui/components/wxTitleManagerList.cpp:757
-msgid "&Verify integrity of game files"
-msgstr "게임 파일의 무결성 확인"
+#: src/config/CemuConfig.h:264
+msgid "Europe"
+msgstr "유럽"
 
-#: src/gui/components/wxTitleManagerList.cpp:763
-msgid "Convert to compressed Wii U archive (.wua)"
-msgstr "압축된 Wii U 아카이브(.wua)로 변환"
+#: src/config/CemuConfig.h:265
+msgid "Australia"
+msgstr "호주"
 
-#: src/gui/components/wxTitleManagerList.cpp:767
-msgid "&Delete"
-msgstr "삭제(&D)"
+#: src/config/CemuConfig.h:266
+msgid "China"
+msgstr "중국"
 
-#: src/gui/components/wxTitleManagerList.cpp:782
-msgid ""
-"Are you really sure that you want to delete the following folder:\n"
-"{}"
-msgstr ""
-"정말 다음 폴더를 삭제하시겠습니까?\n"
-"{}"
+#: src/config/CemuConfig.h:267
+msgid "Korea"
+msgstr "한국"
 
-#: src/gui/components/wxTitleManagerList.cpp:784
-msgid ""
-"Are you really sure that you want to delete the following file:\n"
-"{}"
-msgstr ""
-"정말 다음 파일을 삭제하시겠습니까?\n"
-"{}"
+#: src/config/CemuConfig.h:268
+msgid "Taiwan"
+msgstr "대만"
 
-#: src/gui/components/wxTitleManagerList.cpp:825
-msgid ""
-"Error when trying to delete the entry:\n"
-"{}"
-msgstr ""
-"항목을 삭제하려고 할 때, 오류 발생 :\n"
-"{}"
+#: src/config/CemuConfig.h:269
+msgid "Auto"
+msgstr "자동"
 
-#: src/gui/components/wxTitleManagerList.cpp:924
-msgid "Save folder"
-msgstr "폴더 저장"
+#: src/config/CemuConfig.h:270
+msgid "many"
+msgstr "많음"
 
-#: src/gui/components/wxTitleManagerList.cpp:928
-msgid "Folder"
-msgstr "폴더"
-
-#: src/gui/components/wxTitleManagerList.cpp:930
-msgid "WUD"
-msgstr "WUD"
-
-#: src/gui/components/wxTitleManagerList.cpp:932
-msgid "WUA"
-msgstr "WUA"
-
-#: src/Cafe/CafeSystem.cpp:164
+#: src/Cafe/CafeSystem.cpp:171
 msgid "Failed to run this title because the executable is damaged"
 msgstr "실행 파일이 손상되어 이 타이틀 실행 실패"
 
-#: src/Cafe/HW/Latte/Renderer/Vulkan/VulkanRenderer.cpp:254
+#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:47
+msgid "Failed to load patches for graphic pack '{}'"
+msgstr "그래픽 팩 '{}' 패치를 불러오기 실패"
+
+#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:49
+msgid "Failed to apply patches for graphic pack '{}'"
+msgstr "그래픽 팩 '{}' 패치 적용 실패"
+
+#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:58
+msgid "Details:"
+msgstr "디테일 :"
+
+#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:67
+msgid "Graphic pack error"
+msgstr "그래픽 팩 오류"
+
+#: src/Cafe/Filesystem/FST/KeyCache.cpp:78
+msgid ""
+"Unable to create file keys.txt\n"
+"This can happen if Cemu does not have write permission to its own directory, "
+"the disk is full or if anti-virus software is blocking Cemu."
+msgstr ""
+"keys.txt 파일 생성 불가\n"
+"이 문제는 Cemu에 자체 디렉터리에 대한 쓰기 권한이 없거나 디스크가 꽉 찼거나 "
+"바이러스 백신 소프트웨어가 Cemu를 차단하는 경우 발생할 수 있습니다."
+
+#: src/Cafe/Filesystem/FST/KeyCache.cpp:111
+msgid "Error in keys.txt at line {}"
+msgstr "{}번째 줄에서 keys.txt 오류 발생"
+
+#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:795
+msgid ""
+"Cemu detected that the shader cache for this game is outdated.\n"
+"Only shader caches generated with Cemu 1.25.0 or above are supported.\n"
+"\n"
+"We recommend deleting the outdated cache file as it will no longer be used "
+"by Cemu."
+msgstr ""
+"이 게임의 셰이더 캐시가 오래된 것으로 감지되었습니다.\n"
+"Cemu 1.25.0 이상에서 생성된 셰이더 캐시만 지원됩니다.\n"
+"\n"
+"오래된 캐시 파일은 더 이상 Cemu에서 사용되지 않으므로 삭제하는 것이 좋습니다."
+
+#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:797
+msgid "Outdated shader cache"
+msgstr "오래된 셰이더 캐시"
+
+#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:800
+msgid "Delete outdated cache file [recommended]"
+msgstr "오래된 캐시 파일 삭제 [권장]"
+
+#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:800
+msgid "Keep outdated cache file"
+msgstr "오래된 캐시 파일 보관"
+
+#: src/Cafe/HW/Latte/Renderer/Vulkan/VulkanRenderer.cpp:287
 msgid ""
 "The currently installed graphics driver does not support the Vulkan "
 "extension necessary for asynchronous shader compilation. Asynchronous "
@@ -3490,91 +3841,60 @@ msgstr ""
 "\n"
 "최신 그래픽 드라이버를 설치하면 이 오류가 해결될 수 있습니다."
 
-#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:766
-msgid "Outdated shader cache"
-msgstr "오래된 셰이더 캐시"
+#~ msgid "PersistentId"
+#~ msgstr "잔류 ID"
 
-#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:769
-msgid "Delete outdated cache file [recommended]"
-msgstr "오래된 캐시 파일 삭제 [권장]"
+#~ msgid "Gender"
+#~ msgstr "성별"
 
-#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:769
-msgid "Keep outdated cache file"
-msgstr "오래된 캐시 파일 보관"
+#~ msgid "%dms"
+#~ msgstr "%d밀리초"
 
-#: src/audio/audioDebuggerWindow.cpp:25
-msgid "AX voice viewer"
-msgstr "AX 음성 뷰어"
+#~ msgid "Cemu update"
+#~ msgstr "Cemu 업데이트"
 
-#: src/input/emulated/ProController.cpp:78
-#: src/input/emulated/ProController.cpp:84
-#: src/input/emulated/ProController.cpp:88
-#: src/input/emulated/VPADController.cpp:370
-#: src/input/emulated/VPADController.cpp:376
-#: src/input/emulated/VPADController.cpp:380
-#: src/input/emulated/WiimoteController.cpp:166
-#: src/input/emulated/WiimoteController.cpp:174
-#: src/input/emulated/ClassicController.cpp:75
-#: src/input/emulated/ClassicController.cpp:80
-#: src/input/emulated/ClassicController.cpp:85
-msgid "up"
-msgstr "↑"
+#~ msgid "Checking for latest version..."
+#~ msgstr "최신 버전 확인 중..."
 
-#: src/input/emulated/ProController.cpp:79
-#: src/input/emulated/ProController.cpp:85
-#: src/input/emulated/ProController.cpp:89
-#: src/input/emulated/VPADController.cpp:371
-#: src/input/emulated/VPADController.cpp:377
-#: src/input/emulated/VPADController.cpp:381
-#: src/input/emulated/WiimoteController.cpp:167
-#: src/input/emulated/WiimoteController.cpp:175
-#: src/input/emulated/ClassicController.cpp:76
-#: src/input/emulated/ClassicController.cpp:81
-#: src/input/emulated/ClassicController.cpp:86
-msgid "down"
-msgstr "↓"
+#~ msgid "&Coreinit File-Access"
+#~ msgstr "코어이니트 파일 액세스(&C)"
 
-#: src/input/emulated/ProController.cpp:80
-#: src/input/emulated/ProController.cpp:86
-#: src/input/emulated/ProController.cpp:90
-#: src/input/emulated/VPADController.cpp:372
-#: src/input/emulated/VPADController.cpp:378
-#: src/input/emulated/VPADController.cpp:382
-#: src/input/emulated/WiimoteController.cpp:168
-#: src/input/emulated/WiimoteController.cpp:176
-#: src/input/emulated/ClassicController.cpp:77
-#: src/input/emulated/ClassicController.cpp:82
-#: src/input/emulated/ClassicController.cpp:87
-msgid "left"
-msgstr "←"
+#~ msgid "&Show frame profiler"
+#~ msgstr "프레임 프로파일러 표시(&S)"
 
-#: src/input/emulated/ProController.cpp:81
-#: src/input/emulated/ProController.cpp:87
-#: src/input/emulated/ProController.cpp:91
-#: src/input/emulated/VPADController.cpp:373
-#: src/input/emulated/VPADController.cpp:379
-#: src/input/emulated/VPADController.cpp:383
-#: src/input/emulated/WiimoteController.cpp:169
-#: src/input/emulated/WiimoteController.cpp:177
-#: src/input/emulated/ClassicController.cpp:78
-#: src/input/emulated/ClassicController.cpp:83
-#: src/input/emulated/ClassicController.cpp:88
-msgid "right"
-msgstr "→"
+#~ msgid "otp.bin could not be found"
+#~ msgstr "otp.bin을 찾을 수 없음"
 
-#: src/input/emulated/ProController.cpp:82
-#: src/input/emulated/ProController.cpp:83
-#: src/input/emulated/VPADController.cpp:374
-#: src/input/emulated/VPADController.cpp:375
-msgid "click"
-msgstr "클릭"
+#~ msgid "seeprom.bin could not be found"
+#~ msgstr "seeprom.bin을 찾을 수 없음"
 
-#: src/input/emulated/ProController.cpp:92
-#: src/input/emulated/VPADController.cpp:384
-#: src/input/emulated/WiimoteController.cpp:162
-#: src/input/emulated/ClassicController.cpp:73
-msgid "home"
-msgstr "홈"
+#~ msgid "Unknown error occured"
+#~ msgstr "알 수 없는 오류 발생"
+
+#~ msgid "Title manager"
+#~ msgstr "타이틀 관리자"
+
+#~ msgid "dlc"
+#~ msgstr "dlc"
+
+#~ msgid ""
+#~ "Cemu can't write to its directory.\n"
+#~ "Please move it to a different location or run Cemu as administrator!"
+#~ msgstr ""
+#~ "Cemu가 해당 디렉터리에 쓸 수 없습니다.\n"
+#~ "다른 위치로 옮기거나 관리자 권한으로 Cemu를 실행하세요!"
+
+#~ msgid "minimal"
+#~ msgstr "최소"
+
+#~ msgid "Add input API"
+#~ msgstr "입력 API 추가"
+
+#~ msgid "{} seconds"
+#~ msgstr "{}초"
+
+#~ msgid "{} hours {} minutes"
+#~ msgstr "{}시 {}분"
 
 #~ msgid "<double click to add a new entry>"
 #~ msgstr "<더블 클릭으로 새 항목 추가>"
@@ -3587,9 +3907,6 @@ msgstr "홈"
 
 #~ msgid "Controller API:"
 #~ msgstr "컨트롤러 API :"
-
-#~ msgid "Reset the default state of the controller"
-#~ msgstr "컨트롤러 기본 상태 초기화"
 
 #~ msgid "Clear all currently set input settings"
 #~ msgstr "현재 설정된 모든 입력 설정 지우기"
