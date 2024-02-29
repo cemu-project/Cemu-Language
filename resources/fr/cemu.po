@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-10-05 00:17+0200\n"
+"PO-Revision-Date: 2024-02-29 12:30+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -12,51 +12,13 @@ msgstr ""
 "X-Generator: Poedit 1.8.7\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/config/CemuConfig.h:262
-msgid "Japan"
-msgstr "Japon"
-
-#: src/config/CemuConfig.h:263
-msgid "USA"
-msgstr "USA"
-
-#: src/config/CemuConfig.h:264
-msgid "Europe"
-msgstr "Europe"
-
-#: src/config/CemuConfig.h:265
-msgid "Australia"
-msgstr "Australie"
-
-#: src/config/CemuConfig.h:266
-msgid "China"
-msgstr "Chine"
-
-#: src/config/CemuConfig.h:267
-msgid "Korea"
-msgstr "Corée"
-
-#: src/config/CemuConfig.h:268
-msgid "Taiwan"
-msgstr "Taïwan"
-
-#: src/config/CemuConfig.h:269
-msgid "Auto"
-msgstr "Auto"
-
-#: src/config/CemuConfig.h:270
-msgid "many"
-msgstr "plusieurs"
-
-#: src/input/emulated/WiimoteController.cpp:162
 #: src/input/emulated/ClassicController.cpp:73
 #: src/input/emulated/VPADController.cpp:384
 #: src/input/emulated/ProController.cpp:92
+#: src/input/emulated/WiimoteController.cpp:162
 msgid "home"
 msgstr "home"
 
-#: src/input/emulated/WiimoteController.cpp:166
-#: src/input/emulated/WiimoteController.cpp:174
 #: src/input/emulated/ClassicController.cpp:75
 #: src/input/emulated/ClassicController.cpp:80
 #: src/input/emulated/ClassicController.cpp:85
@@ -66,11 +28,11 @@ msgstr "home"
 #: src/input/emulated/ProController.cpp:78
 #: src/input/emulated/ProController.cpp:84
 #: src/input/emulated/ProController.cpp:88
+#: src/input/emulated/WiimoteController.cpp:166
+#: src/input/emulated/WiimoteController.cpp:174
 msgid "up"
 msgstr "haut"
 
-#: src/input/emulated/WiimoteController.cpp:167
-#: src/input/emulated/WiimoteController.cpp:175
 #: src/input/emulated/ClassicController.cpp:76
 #: src/input/emulated/ClassicController.cpp:81
 #: src/input/emulated/ClassicController.cpp:86
@@ -80,11 +42,11 @@ msgstr "haut"
 #: src/input/emulated/ProController.cpp:79
 #: src/input/emulated/ProController.cpp:85
 #: src/input/emulated/ProController.cpp:89
+#: src/input/emulated/WiimoteController.cpp:167
+#: src/input/emulated/WiimoteController.cpp:175
 msgid "down"
 msgstr "bas"
 
-#: src/input/emulated/WiimoteController.cpp:168
-#: src/input/emulated/WiimoteController.cpp:176
 #: src/input/emulated/ClassicController.cpp:77
 #: src/input/emulated/ClassicController.cpp:82
 #: src/input/emulated/ClassicController.cpp:87
@@ -94,11 +56,11 @@ msgstr "bas"
 #: src/input/emulated/ProController.cpp:80
 #: src/input/emulated/ProController.cpp:86
 #: src/input/emulated/ProController.cpp:90
+#: src/input/emulated/WiimoteController.cpp:168
+#: src/input/emulated/WiimoteController.cpp:176
 msgid "left"
 msgstr "gauche"
 
-#: src/input/emulated/WiimoteController.cpp:169
-#: src/input/emulated/WiimoteController.cpp:177
 #: src/input/emulated/ClassicController.cpp:78
 #: src/input/emulated/ClassicController.cpp:83
 #: src/input/emulated/ClassicController.cpp:88
@@ -108,6 +70,8 @@ msgstr "gauche"
 #: src/input/emulated/ProController.cpp:81
 #: src/input/emulated/ProController.cpp:87
 #: src/input/emulated/ProController.cpp:91
+#: src/input/emulated/WiimoteController.cpp:169
+#: src/input/emulated/WiimoteController.cpp:177
 msgid "right"
 msgstr "droite"
 
@@ -118,92 +82,132 @@ msgstr "droite"
 msgid "click"
 msgstr "clic"
 
-#: src/audio/audioDebuggerWindow.cpp:25
-msgid "AX voice viewer"
-msgstr "Afficheur de voix AX"
+#: src/gui/CemuApp.cpp:38
+msgid "Browse"
+msgstr "Parcourir"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:374
-msgid "Downloading account ticket"
-msgstr "Téléchargement du ticket du compte"
+#: src/gui/CemuApp.cpp:39
+msgid "Select a file"
+msgstr "Sélectionner un fichier"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:427
-msgid "Downloading system tickets..."
-msgstr "Téléchargement des tickets du système..."
+#: src/gui/CemuApp.cpp:40
+msgid "Select a directory"
+msgstr "Sélectionner un dossier"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:489
-msgid "Retrieving update information..."
-msgstr "Récupération des informations de mise à jour..."
+#: src/gui/CemuApp.cpp:42
+msgid "Japanese"
+msgstr "Japonais"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:511
-msgid "Downloading ticket"
-msgstr "Téléchargement du ticket"
+#: src/gui/CemuApp.cpp:43
+msgid "English"
+msgstr "Anglais"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:564
-msgid "Downloading meta data"
-msgstr "Téléchargement des métadonnées"
+#: src/gui/CemuApp.cpp:44
+msgid "French"
+msgstr "Français"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:569
-msgid "Connected. Right click entries in the list to start downloading"
+#: src/gui/CemuApp.cpp:45
+msgid "German"
+msgstr "Allemand"
+
+#: src/gui/CemuApp.cpp:46
+msgid "Italian"
+msgstr "Italien"
+
+#: src/gui/CemuApp.cpp:47
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: src/gui/CemuApp.cpp:48
+msgid "Chinese"
+msgstr "Chinois"
+
+#: src/gui/CemuApp.cpp:49
+msgid "Korean"
+msgstr "Coréen"
+
+#: src/gui/CemuApp.cpp:50
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: src/gui/CemuApp.cpp:51
+msgid "Portugese"
+msgstr "Portugais"
+
+#: src/gui/CemuApp.cpp:52
+msgid "Russian"
+msgstr "Russe"
+
+#: src/gui/CemuApp.cpp:53
+msgid "Taiwanese"
+msgstr "Taïwanais"
+
+#: src/gui/CemuApp.cpp:54
+msgid "unknown"
+msgstr "inconnu"
+
+#: src/gui/CemuApp.cpp:102
+msgid "Cemu can't write to {}!"
+msgstr "Cemu ne peut pas écrire vers {} !"
+
+#: src/gui/CemuApp.cpp:103 src/gui/GameUpdateWindow.cpp:64
+#: src/gui/GameUpdateWindow.cpp:70 src/gui/GameUpdateWindow.cpp:76
+#: src/gui/TitleManager.cpp:498 src/gui/components/wxTitleManagerList.cpp:802
+#: src/gui/components/wxGameList.cpp:1319
+#: src/gui/components/wxGameList.cpp:1325
+#: src/gui/components/wxGameList.cpp:1336 src/gui/GeneralSettings2.cpp:1680
+#: src/gui/GraphicPacksWindow2.cpp:629
+msgid "Warning"
+msgstr "Attention"
+
+#: src/gui/CemuApp.cpp:158
+msgid ""
+"Thank you for testing the in-development build of Cemu for macOS.\n"
+" \n"
+"The macOS port is currently purely experimental and should not be considered "
+"stable or ready for issue-free gameplay. There are also known issues with "
+"degraded performance due to the use of MoltenVk and Rosetta for ARM Macs. We "
+"appreciate your patience while we improve Cemu for macOS."
 msgstr ""
-"Connecté. Faites un clic droit sur les entrées dans la liste pour démarrer "
-"le téléchargement"
+"Merci de tester cette version en développement de Cemu pour macOS.\n"
+"\n"
+"Le portage vers macOS est actuellement purement expérimental et ne doit pas "
+"être considéré comme stable ou vous permettre de jouer sans problème. Il y a "
+"également des problèmes connus avec des performances dégradées à cause de "
+"l'utilisation de MoltenVk et Rosetta pour les Mac avec des puces ARM. Nous "
+"apprécions votre patience le temps que nous améliorions Cemu pour macOS."
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:655
-msgid "Logging in..."
-msgstr "Connexion..."
+#: src/gui/CemuApp.cpp:161
+msgid "Preview version"
+msgstr "Préversion"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:678
-msgid "Login failed. Outdated or incomplete online files?"
+#: src/gui/CemuApp.cpp:162
+msgid "I understand"
+msgstr "J'ai compris"
+
+#: src/gui/CemuApp.cpp:269
+msgid ""
+"Your mlc01 folder seems to be missing.\n"
+"\n"
+"This is where Cemu stores save files, game updates and other Wii U files.\n"
+"\n"
+"The expected path is:\n"
+"{}\n"
+"\n"
+"Do you want to create the folder at the expected path?"
 msgstr ""
-"La connection a échoué. Les fichiers en-ligne sont-ils périmés ou "
-"incomplets ?"
+"Votre dossier mlc01 semble manquer.\n"
+"\n"
+"C'est l'endroit où Cemu enregistre les fichiers de sauvegarde, mises à jour "
+"des jeux et autres fichiers Wii U.\n"
+"\n"
+"Le dossier attendu est :\n"
+"{}\n"
+"\n"
+"Souautez-vous créer le dossier dans le chemin attendu ?"
 
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:686
-msgid "Failed to query account status. Invalid account information?"
-msgstr ""
-"Impossible d'obtenir l'état du compte. Information de compte non valide ?"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:690
-msgid "Updating ticket cache"
-msgstr "Mise à jour du cache des tickets"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:695
-msgid "Failed to request tickets (invalid NNID?)"
-msgstr "Impossible de demander les tickets (NNID non valide ?)"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:719
-msgid "This account is not linked with an NNID"
-msgstr "Ce compte n'est pas lié à un NNID"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:729
-msgid "Failed. Account does not have password set"
-msgstr "Échec. Le compte n'a pas de mot de passe défini"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1057
-msgid "TMD download failed"
-msgstr "Échec du téléchargement du TMD"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1066
-msgid "Invalid TMD"
-msgstr "TMD non valide"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1175
-msgid "Cannot write file. Disk full?"
-msgstr "Impossible d'écrire le fichier. Disque plein ?"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1196
-msgid "Cannot create file"
-msgstr "Impossible de créer le fichier"
-
-#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1201
-msgid "Download failed"
-msgstr "Échec du téléchargement"
-
-#: src/util/helpers/helpers.cpp:69 src/util/helpers/helpers.cpp:86
-#: src/Cafe/Filesystem/FST/KeyCache.cpp:78
-#: src/Cafe/Filesystem/FST/KeyCache.cpp:112 src/gui/debugger/DumpCtrl.cpp:245
-#: src/gui/debugger/DisasmCtrl.cpp:791
-#: src/gui/debugger/BreakpointWindow.cpp:283 src/gui/ChecksumTool.cpp:416
+#: src/gui/CemuApp.cpp:272 src/gui/CemuApp.cpp:352 src/gui/CemuApp.cpp:377
+#: src/gui/CemuApp.cpp:421 src/gui/ChecksumTool.cpp:416
 #: src/gui/ChecksumTool.cpp:443 src/gui/ChecksumTool.cpp:464
 #: src/gui/ChecksumTool.cpp:469 src/gui/ChecksumTool.cpp:474
 #: src/gui/ChecksumTool.cpp:481 src/gui/ChecksumTool.cpp:486
@@ -211,25 +215,20 @@ msgstr "Échec du téléchargement"
 #: src/gui/ChecksumTool.cpp:568 src/gui/ChecksumTool.cpp:579
 #: src/gui/ChecksumTool.cpp:591 src/gui/ChecksumTool.cpp:608
 #: src/gui/ChecksumTool.cpp:617 src/gui/ChecksumTool.cpp:636
-#: src/gui/ChecksumTool.cpp:645 src/gui/canvas/VulkanCanvas.cpp:42
-#: src/gui/input/InputAPIAddWindow.cpp:131 src/gui/CemuApp.cpp:273
-#: src/gui/CemuApp.cpp:353 src/gui/CemuApp.cpp:378 src/gui/CemuApp.cpp:422
+#: src/gui/ChecksumTool.cpp:645 src/gui/GameUpdateWindow.cpp:94
+#: src/gui/TitleManager.cpp:549 src/gui/TitleManager.cpp:638
+#: src/gui/TitleManager.cpp:656 src/gui/TitleManager.cpp:665
+#: src/gui/TitleManager.cpp:671 src/gui/TitleManager.cpp:684
 #: src/gui/components/wxTitleManagerList.cpp:545
 #: src/gui/components/wxTitleManagerList.cpp:600
 #: src/gui/components/wxTitleManagerList.cpp:842
-#: src/gui/components/wxGameList.cpp:1147
-#: src/gui/components/wxGameList.cpp:1315 src/gui/MainWindow.cpp:271
-#: src/gui/MainWindow.cpp:273 src/gui/MainWindow.cpp:324
-#: src/gui/MainWindow.cpp:500 src/gui/MainWindow.cpp:513
-#: src/gui/MainWindow.cpp:520 src/gui/MainWindow.cpp:537
-#: src/gui/MainWindow.cpp:545 src/gui/MainWindow.cpp:563
-#: src/gui/MainWindow.cpp:570 src/gui/MemorySearcherTool.cpp:198
-#: src/gui/GeneralSettings2.cpp:1256 src/gui/GeneralSettings2.cpp:1978
+#: src/gui/components/wxGameList.cpp:1192
+#: src/gui/components/wxGameList.cpp:1370 src/gui/GeneralSettings2.cpp:1254
+#: src/gui/GeneralSettings2.cpp:1976 src/gui/input/InputAPIAddWindow.cpp:131
+#: src/gui/debugger/DisasmCtrl.cpp:791
+#: src/gui/debugger/BreakpointWindow.cpp:283 src/gui/debugger/DumpCtrl.cpp:245
 #: src/gui/DownloadGraphicPacksWindow.cpp:145
-#: src/gui/DownloadGraphicPacksWindow.cpp:211 src/gui/TitleManager.cpp:549
-#: src/gui/TitleManager.cpp:638 src/gui/TitleManager.cpp:656
-#: src/gui/TitleManager.cpp:665 src/gui/TitleManager.cpp:671
-#: src/gui/TitleManager.cpp:684 src/gui/GameUpdateWindow.cpp:94
+#: src/gui/DownloadGraphicPacksWindow.cpp:211
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:68
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:76
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:85
@@ -246,387 +245,65 @@ msgstr "Échec du téléchargement"
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:197
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:217
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:225
+#: src/gui/MemorySearcherTool.cpp:198 src/gui/MainWindow.cpp:273
+#: src/gui/MainWindow.cpp:275 src/gui/MainWindow.cpp:326
+#: src/gui/MainWindow.cpp:502 src/gui/MainWindow.cpp:515
+#: src/gui/MainWindow.cpp:522 src/gui/MainWindow.cpp:539
+#: src/gui/MainWindow.cpp:547 src/gui/MainWindow.cpp:565
+#: src/gui/MainWindow.cpp:572 src/gui/canvas/VulkanCanvas.cpp:42
+#: src/Cafe/Filesystem/FST/KeyCache.cpp:78
+#: src/Cafe/Filesystem/FST/KeyCache.cpp:112 src/util/helpers/helpers.cpp:69
+#: src/util/helpers/helpers.cpp:86
 msgid "Error"
 msgstr "Erreur"
 
-#: src/util/helpers/helpers.cpp:74 src/util/helpers/helpers.cpp:91
-msgid "Error code"
-msgstr "Code d'erreur"
+#: src/gui/CemuApp.cpp:273 src/gui/components/wxGameList.cpp:1178
+msgid "Yes"
+msgstr "Oui"
 
-#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:47
-msgid "Failed to load patches for graphic pack '{}'"
-msgstr "Impossible de charger les patches pour le pack graphique '{}'"
+#: src/gui/CemuApp.cpp:273 src/gui/components/wxGameList.cpp:1178
+msgid "No"
+msgstr "Non"
 
-#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:49
-msgid "Failed to apply patches for graphic pack '{}'"
-msgstr "Impossible d'appliquer les patchs pour le pack graphique '{}'"
+#: src/gui/CemuApp.cpp:273
+msgid "Select a custom path"
+msgstr "Sélectionner un chemin personnalisé"
 
-#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:58
-msgid "Details:"
-msgstr "Détails :"
-
-#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:67
-msgid "Graphic pack error"
-msgstr "Erreur du pack graphique"
-
-#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:795
+#: src/gui/CemuApp.cpp:344
 msgid ""
-"Cemu detected that the shader cache for this game is outdated.\n"
-"Only shader caches generated with Cemu 1.25.0 or above are supported.\n"
+"Couldn't create a required mlc01 subfolder or file!\n"
 "\n"
-"We recommend deleting the outdated cache file as it will no longer be used "
-"by Cemu."
+"Error: {0}\n"
+"Target path:\n"
+"{1}"
 msgstr ""
-"Cemu a détecté que le cache des shaders est périmé pour ce jeu.\n"
-"Seuls les caches de shaders générés à partir de Cemu 1.25.0 sont pris en "
-"charge.\n"
+"Impossible de créer un sous-dossier ou fichier requis dans mlc01 !\n"
 "\n"
-"Nous recommandons de supprimer le cache périmé car il ne sera plus utilisé "
-"par Cemu."
+"Erreur : {0}\n"
+"Dossier cible :\n"
+"{1}"
 
-#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:797
-msgid "Outdated shader cache"
-msgstr "Cache de shaders périmé"
-
-#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:800
-msgid "Delete outdated cache file [recommended]"
-msgstr "Supprimer le fichier de cache périmé [recommandé]"
-
-#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:800
-msgid "Keep outdated cache file"
-msgstr "Garder le fichier de cache périmé"
-
-#: src/Cafe/HW/Latte/Renderer/Vulkan/VulkanRenderer.cpp:287
+#: src/gui/CemuApp.cpp:369
 msgid ""
-"The currently installed graphics driver does not support the Vulkan "
-"extension necessary for asynchronous shader compilation. Asynchronous "
-"compilation cannot be used.\n"
-" \n"
-"Required extension: VK_EXT_pipeline_creation_cache_control\n"
+"Couldn't create a required cemu directory or file!\n"
 "\n"
-"Installing the latest graphics driver may solve this error."
+"Error: {0}"
 msgstr ""
-"Le pilote de la carte graphique installé ne prend pas en charge l'extension "
-"Vulkan nécessaire pour la compilation asynchrone des shaders. La compilation "
-"asynchrone ne peut pas être utilisée.\n"
+"Impossible de créer un dossier ou fichier requis pour Cemu !\n"
 "\n"
-"Extension requise : VK_EXT_pipeline_creation_cache_control\n"
-"\n"
-"Il est possible de résoudre cette erreur en installant les derniers pilotes "
-"disponibles pour votre carte graphique."
+"Erreur : {0}"
 
-#: src/Cafe/HW/Latte/Renderer/Vulkan/VulkanRenderer.cpp:287
-#: src/gui/MainWindow.cpp:878 src/gui/GeneralSettings2.cpp:1896
-#: src/gui/TitleManager.cpp:282
-msgid "Information"
-msgstr "Information"
+#: src/gui/CemuApp.cpp:413
+msgid "Select a mlc directory"
+msgstr "Sélectionner le dossier contenant la MLC"
 
-#: src/Cafe/Filesystem/FST/KeyCache.cpp:78
+#: src/gui/CemuApp.cpp:421
 msgid ""
-"Unable to create file keys.txt\n"
-"This can happen if Cemu does not have write permission to its own directory, "
-"the disk is full or if anti-virus software is blocking Cemu."
+"Cemu can't write to the selected mlc path!\n"
+"Do you want to select another path?"
 msgstr ""
-"Impossible de créer le fichier keys.txt\n"
-"Ceci peut arriver si Cemu n'a pas les permissions d'écriture dans son propre "
-"dossier, ou que le disque est plein ou qu'un anti-virus bloque Cemu."
-
-#: src/Cafe/Filesystem/FST/KeyCache.cpp:111
-msgid "Error in keys.txt at line {}"
-msgstr "Erreur dans le fichier keys.txt à la ligne {}"
-
-#: src/Cafe/CafeSystem.cpp:171
-msgid "Failed to run this title because the executable is damaged"
-msgstr "Impossible de démarrer ce titre parce que l'exécutable est endommagé"
-
-#: src/gui/guiWrapper.cpp:139 src/gui/PadViewFrame.cpp:24
-msgid "GamePad View"
-msgstr "Vue du GamePad"
-
-#: src/gui/debugger/DumpCtrl.cpp:199 src/gui/debugger/RegisterWindow.cpp:342
-#: src/gui/debugger/RegisterWindow.cpp:358
-#: src/gui/debugger/RegisterWindow.cpp:374
-#: src/gui/debugger/RegisterCtrl.cpp:204 src/gui/debugger/RegisterCtrl.cpp:223
-#: src/gui/debugger/RegisterCtrl.cpp:237
-msgid "Enter a new value."
-msgstr "Entrez une nouvelle valeur."
-
-#: src/gui/debugger/DumpCtrl.cpp:214 src/gui/debugger/DisasmCtrl.cpp:760
-msgid "Enter a target address."
-msgstr "Entrez une adresse cible."
-
-#: src/gui/debugger/DumpCtrl.cpp:214 src/gui/debugger/DisasmCtrl.cpp:760
-msgid "GoTo address"
-msgstr "GoTo adresse"
-
-#: src/gui/debugger/DumpWindow.cpp:18
-msgid "Memory Dump"
-msgstr "Dump de la mémoire"
-
-#: src/gui/debugger/SymbolCtrl.cpp:18 src/gui/debugger/ModuleWindow.cpp:35
-#: src/gui/components/wxTitleManagerList.cpp:132
-#: src/gui/components/wxDownloadManagerList.cpp:100
-msgid "Name"
-msgstr "Nom"
-
-#: src/gui/debugger/SymbolCtrl.cpp:24 src/gui/debugger/ModuleWindow.cpp:41
-#: src/gui/debugger/BreakpointWindow.cpp:49 src/gui/MemorySearcherTool.cpp:87
-#: src/gui/MemorySearcherTool.cpp:103
-msgid "Address"
-msgstr "Adresse"
-
-#: src/gui/debugger/SymbolCtrl.cpp:31
-msgid "Module"
-msgstr "Module"
-
-#: src/gui/debugger/DisasmCtrl.cpp:614
-msgid "Enter a new instruction."
-msgstr "Entrez une nouvelle instruction."
-
-#: src/gui/debugger/DisasmCtrl.cpp:636
-#: src/gui/debugger/BreakpointWindow.cpp:205
-msgid "Enter a new comment."
-msgstr "Entrez un nouveau commentaire."
-
-#: src/gui/debugger/ModuleWindow.cpp:23
-msgid "Modules"
-msgstr "Modules"
-
-#: src/gui/debugger/ModuleWindow.cpp:48
-msgid "Size"
-msgstr "Taille"
-
-#: src/gui/debugger/SymbolWindow.cpp:16
-msgid "Symbols"
-msgstr "Symboles"
-
-#: src/gui/debugger/RegisterWindow.cpp:31
-msgid "Registers"
-msgstr "Registres"
-
-#: src/gui/debugger/RegisterWindow.cpp:78
-msgid "FP view mode"
-msgstr "Mode de vue à la première personne"
-
-#: src/gui/debugger/RegisterWindow.cpp:417
-msgid "&Zero"
-msgstr "&Zéro"
-
-#: src/gui/debugger/RegisterWindow.cpp:418
-msgid "&Increment"
-msgstr "&Incrémenter"
-
-#: src/gui/debugger/RegisterWindow.cpp:419
-msgid "&Decrement"
-msgstr "&Décrémenter"
-
-#: src/gui/debugger/RegisterWindow.cpp:421
-msgid "&Copy"
-msgstr "&Copier"
-
-#: src/gui/debugger/RegisterWindow.cpp:423
-msgid "&Goto Disasm"
-msgstr "&Goto Disasm"
-
-#: src/gui/debugger/RegisterWindow.cpp:424
-msgid "G&oto Dump"
-msgstr "G&oto Dump"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:222
-msgid "GoTo (CTRL + G)"
-msgstr "GoTo (CTRL + G)"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:225
-msgid "Toggle Breakpoint (F9)"
-msgstr "Activer les points d'arrêts (F9)"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:230
-#: src/gui/debugger/DebuggerWindow2.cpp:493
-msgid "Break (F5)"
-msgstr "Arrêt (F5)"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:232
-msgid "Step Into (F11)"
-msgstr "Aller dedans (F11)"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:233
-msgid "Step Over (F10)"
-msgstr "Aller par-dessus (F10)"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:269
-msgid "PPC Debugger"
-msgstr "Débogeur PPC"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:300
-msgid "> no modules loaded"
-msgstr "> aucun module chargé"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:307
-msgid "> unknown module"
-msgstr "> module inconnu"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:482
-msgid "Run (F5)"
-msgstr "Exécuter (F5)"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:633 src/gui/MainWindow.cpp:2112
-msgid "&Exit"
-msgstr "&Quitter"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:636 src/gui/MainWindow.cpp:2113
-msgid "&File"
-msgstr "&Fichier"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:640
-msgid "&Pin to main window"
-msgstr "&Attacher à la fenêtre principale"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:641
-msgid "Break on &entry point"
-msgstr "Arrêter au point d'&entrée"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:642 src/gui/MainWindow.cpp:2158
-msgid "&Options"
-msgstr "&Options"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:646
-msgid "&Registers"
-msgstr "&Registres"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:647
-msgid "&Memory Dump"
-msgstr "Dumper la &mémoire"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:648
-msgid "&Breakpoints"
-msgstr "&Points d'arrêts"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:649
-msgid "Module&list"
-msgstr "&Liste de modules"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:650
-msgid "&Symbols"
-msgstr "&Symboles"
-
-#: src/gui/debugger/DebuggerWindow2.cpp:652
-msgid "&Window"
-msgstr "&Fenêtre"
-
-#: src/gui/debugger/BreakpointWindow.cpp:30
-msgid "Breakpoints"
-msgstr "Points d'arrêt"
-
-#: src/gui/debugger/BreakpointWindow.cpp:43 src/gui/GeneralSettings2.cpp:1451
-msgid "On"
-msgstr "Actif"
-
-#: src/gui/debugger/BreakpointWindow.cpp:55
-#: src/gui/components/wxTitleManagerList.cpp:138
-#: src/gui/components/wxDownloadManagerList.cpp:112
-#: src/gui/MemorySearcherTool.cpp:104
-msgid "Type"
-msgstr "Type"
-
-#: src/gui/debugger/BreakpointWindow.cpp:61
-msgid "Comment"
-msgstr "Commentaires"
-
-#: src/gui/debugger/BreakpointWindow.cpp:205
-#, c-format
-msgid "Set comment for breakpoint at address %08x"
-msgstr "Définit un commentaire pour le point d'arrêt à l'adresse %08x"
-
-#: src/gui/debugger/BreakpointWindow.cpp:223
-msgid "Create execution breakpoint"
-msgstr "Créer un point d'arrêt d'exécution"
-
-#: src/gui/debugger/BreakpointWindow.cpp:224
-msgid "Create logging breakpoint"
-msgstr "Créer un point d'arrêt de journal"
-
-#: src/gui/debugger/BreakpointWindow.cpp:225
-msgid "Create memory breakpoint (read)"
-msgstr "Créer un point d'arrêt mémoire (lecture)"
-
-#: src/gui/debugger/BreakpointWindow.cpp:226
-msgid "Create memory breakpoint (write)"
-msgstr "Créer un point d'arrêt mémoire (écriture)"
-
-#: src/gui/debugger/BreakpointWindow.cpp:237
-msgid "Delete breakpoint"
-msgstr "Supprimer le point d'arrêt"
-
-#: src/gui/debugger/BreakpointWindow.cpp:267
-msgid "Enter a memory address"
-msgstr "Entrez une adresse mémoire"
-
-#: src/gui/debugger/BreakpointWindow.cpp:267
-msgid "Set breakpoint"
-msgstr "Définir le point d'arrêt"
-
-#: src/gui/PairingDialog.cpp:12
-msgid "Pairing..."
-msgstr "Jumelage..."
-
-#: src/gui/PairingDialog.cpp:22 src/gui/input/InputAPIAddWindow.cpp:239
-msgid "Searching for controllers..."
-msgstr "Recherche de manettes..."
-
-#: src/gui/PairingDialog.cpp:28 src/gui/input/InputAPIAddWindow.cpp:76
-#: src/gui/input/settings/DefaultControllerSettings.cpp:198
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:216
-#: src/gui/DownloadGraphicPacksWindow.cpp:312 src/gui/GameUpdateWindow.cpp:176
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:42
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:62
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:63
-#: src/gui/CemuUpdateWindow.cpp:48
-msgid "Cancel"
-msgstr "Annuler"
-
-#: src/gui/PairingDialog.cpp:73
-msgid "Found controller. Pairing..."
-msgstr "Manette détectée. Jumelage en cours..."
-
-#: src/gui/PairingDialog.cpp:80
-msgid "Successfully paired the controller."
-msgstr "Manette correctement jumelée."
-
-#: src/gui/PairingDialog.cpp:82 src/gui/PairingDialog.cpp:90
-#: src/gui/PairingDialog.cpp:98 src/gui/PairingDialog.cpp:106
-#: src/gui/PairingDialog.cpp:114 src/gui/GettingStartedDialog.cpp:172
-msgid "Close"
-msgstr "Fermer"
-
-#: src/gui/PairingDialog.cpp:88
-msgid "Failed to find a suitable Bluetooth radio."
-msgstr "Impossible de trouver le matériel Bluetooth."
-
-#: src/gui/PairingDialog.cpp:96
-msgid "Failed to search for controllers."
-msgstr "Impossible de rechercher des manettes."
-
-#: src/gui/PairingDialog.cpp:104
-msgid "Failed to pair with the found controller."
-msgstr "Impossible de jumeler la manette détectée."
-
-#: src/gui/PairingDialog.cpp:112
-msgid "Please use your system's Bluetooth manager instead."
-msgstr ""
-"Veuillez utiliser le gestionnaire de Bluetooth de votre système à la place."
-
-#: src/gui/LoggingWindow.cpp:16
-msgid "Logging window"
-msgstr "Fenêtre de journalisation"
-
-#: src/gui/LoggingWindow.cpp:22 src/gui/MemorySearcherTool.cpp:64
-#: src/gui/TitleManager.cpp:59 src/gui/GraphicPacksWindow2.cpp:219
-msgid "Filter"
-msgstr "Filtrer"
-
-#: src/gui/LoggingWindow.cpp:30
-msgid "Filter messages"
-msgstr "Filtrer les messages"
+"Cemu ne peut écrire dans le dossier de la mlc choisi !\n"
+"Souhaitez-vous sélectionner un autre dossier ?"
 
 #: src/gui/ChecksumTool.cpp:85
 msgid "Title checksum of {:08x}-{:08x}"
@@ -753,8 +430,8 @@ msgstr ""
 msgid "Your game files are valid"
 msgstr "Les fichiers de votre jeu ne sont pas valides"
 
-#: src/gui/ChecksumTool.cpp:587 src/gui/MainWindow.cpp:464
-#: src/gui/CemuUpdateWindow.cpp:621
+#: src/gui/ChecksumTool.cpp:587 src/gui/CemuUpdateWindow.cpp:621
+#: src/gui/MainWindow.cpp:466
 msgid "Success"
 msgstr "Succès"
 
@@ -802,449 +479,612 @@ msgstr "Hashage du fichier du jeu : {}/{}"
 msgid "Generated checksum of {} game files"
 msgstr "Somme de contrôle générée pour {} fichiers du jeu"
 
-#: src/gui/canvas/VulkanCanvas.cpp:41
+#: src/gui/GameUpdateWindow.cpp:19
+#: src/gui/components/wxDownloadManagerList.cpp:513
+#: src/gui/components/wxTitleManagerList.cpp:978
+#: src/gui/components/wxGameList.cpp:95
+msgid "DLC"
+msgstr "DLC"
+
+#: src/gui/GameUpdateWindow.cpp:21
+msgid "Base game"
+msgstr "Jeu de base"
+
+#: src/gui/GameUpdateWindow.cpp:23
+msgid "Demo"
+msgstr "Démo"
+
+#: src/gui/GameUpdateWindow.cpp:26
+msgid "System title"
+msgstr "Titre du système"
+
+#: src/gui/GameUpdateWindow.cpp:28
+msgid "System data title"
+msgstr "Titre de données du système"
+
+#: src/gui/GameUpdateWindow.cpp:30 src/gui/CemuUpdateWindow.cpp:44
+msgid "Update"
+msgstr "Mise à jour"
+
+#: src/gui/GameUpdateWindow.cpp:63
 msgid ""
-"Error when initializing Vulkan renderer:\n"
+"It seems that there is already a title installed at the target location but "
+"it has a different type.\n"
+"Currently installed: '{}' Installing: '{}'\n"
+"\n"
+"This can happen for titles which were installed with very old Cemu "
+"versions.\n"
+"Do you still want to continue with the installation? It will replace the "
+"currently installed title."
+msgstr ""
+"Il semble qu'il y a déjà un titre installé à l'emplacement cible mais il a "
+"un type différent.\n"
+"Actuellement installé : '{}' , Installation en cours : '{}'\n"
+"\n"
+"Cela peut arriver pour des titres qui ont été installés sur de très "
+"anciennes versions de Cemu.\n"
+"Voulez-vous toujours procéder à l'installation ? Ceci remplacera le titre "
+"actuellement installé."
+
+#: src/gui/GameUpdateWindow.cpp:70
+msgid ""
+"It seems that the selected title is already installed, do you want to "
+"reinstall it?"
+msgstr ""
+"Il semble que le titre sélectionné soit déjà installé, souhaitez-vous le "
+"réinstaller ?"
+
+#: src/gui/GameUpdateWindow.cpp:76
+msgid ""
+"It seems that a newer version is already installed, do you still want to "
+"install the older version?"
+msgstr ""
+"Il semble qu'une version plus récente soit déjà installée, souhaitez-vous "
+"tout de même installer la version plus ancienne ?"
+
+#: src/gui/GameUpdateWindow.cpp:93
+msgid ""
+"Error when trying to move former title installation:\n"
 "{}"
 msgstr ""
-"Erreur lors de l'initialisation du moteur Vulkan :\n"
+"Erreur lors de la tentative de déplacement de l'ancienne installation du "
+"titre :\n"
 "{}"
 
-#: src/gui/input/InputAPIAddWindow.cpp:36 src/gui/GeneralSettings2.cpp:348
-msgid "API"
-msgstr "Moteur"
+#: src/gui/GameUpdateWindow.cpp:134
+msgid ""
+"Not enough space available.\n"
+"Required: {0} MB\n"
+"Available: {1} MB"
+msgstr ""
+"Pas assez d'espace disponible.\n"
+"Requis : {0} Mio\n"
+"Disponible : {1} Mio"
 
-#: src/gui/input/InputAPIAddWindow.cpp:53 src/gui/input/InputSettings2.cpp:226
-#: src/gui/GameProfileWindow.cpp:183
-msgid "Controller"
-msgstr "Manette"
+#: src/gui/GameUpdateWindow.cpp:163
+msgid "Installing DLC..."
+msgstr "Installation du DLC..."
 
-#: src/gui/input/InputAPIAddWindow.cpp:71 src/gui/GeneralSettings2.cpp:236
-msgid "Add"
-msgstr "Ajouter"
+#: src/gui/GameUpdateWindow.cpp:165
+msgid "Installing update..."
+msgstr "Installation de la mise à jour..."
 
-#: src/gui/input/InputAPIAddWindow.cpp:92
-msgid "IP"
-msgstr "IP"
+#: src/gui/GameUpdateWindow.cpp:167
+msgid "Installing system title..."
+msgstr "Installation du titre du système..."
 
-#: src/gui/input/InputAPIAddWindow.cpp:96
-msgid "Port"
-msgstr "Port"
+#: src/gui/GameUpdateWindow.cpp:169
+msgid "Installing title..."
+msgstr "Installation du titre..."
 
-#: src/gui/input/InputAPIAddWindow.cpp:131
-msgid "The controller is already added!"
-msgstr "La manette est déjà ajoutée !"
+#: src/gui/GameUpdateWindow.cpp:176
+#: src/gui/input/settings/DefaultControllerSettings.cpp:198
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:216
+#: src/gui/input/InputAPIAddWindow.cpp:76 src/gui/CemuUpdateWindow.cpp:48
+#: src/gui/DownloadGraphicPacksWindow.cpp:312
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:42
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:62
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:63
+#: src/gui/PairingDialog.cpp:28
+msgid "Cancel"
+msgstr "Annuler"
 
-#: src/gui/input/InputSettings2.h:21
-msgid "<profile name>"
-msgstr "<nom du profil>"
+#: src/gui/GameUpdateWindow.cpp:247
+msgid "Current file:"
+msgstr "Fichier actuel :"
 
-#: src/gui/input/InputSettings2.cpp:65 src/gui/GettingStartedDialog.cpp:123
+#: src/gui/GameUpdateWindow.cpp:279
+msgid ""
+"Do you really want to cancel the installation process?\n"
+"\n"
+"Canceling the process will delete the applied files."
+msgstr ""
+"Souhaitez-vous vraiment annuler la procédure d'installation ?\n"
+"\n"
+"Cela supprimera les fichiers déjà installés."
+
+#: src/gui/GameUpdateWindow.cpp:279
+msgid "Info"
+msgstr "Info"
+
+#: src/gui/GettingStartedDialog.cpp:33
+msgid ""
+"It looks like you're starting Cemu for the first time.\n"
+"This quick setup assistant will help you get the best experience"
+msgstr ""
+"On dirait que c'est la première fois que vous démarrez Cemu.\n"
+"Cet assistant de configuration rapide va vous aider à en obtenir le meilleur."
+
+#: src/gui/GettingStartedDialog.cpp:41
+msgid "mlc01 path"
+msgstr "Chemin de mlc01"
+
+#: src/gui/GettingStartedDialog.cpp:42
+msgid ""
+"The mlc path is the root folder of the emulated Wii U internal flash "
+"storage. It contains all your saves, installed updates and DLCs.\n"
+"It is strongly recommend that you create a dedicated folder for it (example: "
+"C:\\wiiu\\mlc\\) \n"
+"If left empty, the mlc folder will be created inside the Cemu folder."
+msgstr ""
+"Le chemin de la mlc est le dossier racine de la mémoire flash interne de la "
+"Wii U.\n"
+"Il contient toutes vos sauvegardes, mises à jour installées et les DLC.\n"
+"Il est fortement conseillé de créer un dossier dédié pour cela (exemple : C:"
+"\\wiiu\\mlc\\) \n"
+"Si vous laissez ce champ vide, le dossier de la mlc sera créé dans le "
+"dossier de Cemu.\n"
+" "
+
+#: src/gui/GettingStartedDialog.cpp:44
+msgid ""
+"A custom mlc path from a previous Cemu installation has been found and "
+"filled in."
+msgstr ""
+"Un chemin personnalisé de la mlc renseigné dans une installation antérieure "
+"de Cemu a été trouvé et réutilisé."
+
+#: src/gui/GettingStartedDialog.cpp:50
+msgid "Custom mlc01 path"
+msgstr "Chemin personnalisé de mlc01"
+
+#: src/gui/GettingStartedDialog.cpp:53 src/gui/GettingStartedDialog.cpp:78
+msgid "Select a folder"
+msgstr "Sélectionnez un dossier"
+
+#: src/gui/GettingStartedDialog.cpp:62
+msgid "(optional)"
+msgstr "(facultatif)"
+
+#: src/gui/GettingStartedDialog.cpp:70
+msgid "Game paths"
+msgstr "Dossiers de jeux"
+
+#: src/gui/GettingStartedDialog.cpp:72
+msgid ""
+"The game path is scanned by Cemu to locate your games. We recommend creating "
+"a dedicated directory in which\n"
+"you place all your Wii U games. (example: C:\\wiiu\\games\\)\n"
+"\n"
+"You can also set additional paths in the general settings of Cemu."
+msgstr ""
+"Le chemin des jeux est analysé par Cemu pour localiser vos jeux. Nous "
+"recommandons de créer un dossier dédié\n"
+"dans lequel vous placerez tous vos jeux Wii U (exemple : C:\\wiiu\\jeux\\).\n"
+"\n"
+"Vous pourrez également ajouter des chemins supplémentaires dans les "
+"paramètres de Cemu."
+
+#: src/gui/GettingStartedDialog.cpp:76
+msgid "Game path"
+msgstr "Chemin des jeux"
+
+#: src/gui/GettingStartedDialog.cpp:87 src/gui/GettingStartedDialog.cpp:288
+#: src/gui/DownloadGraphicPacksWindow.cpp:115
+#: src/gui/DownloadGraphicPacksWindow.cpp:193
+#: src/gui/DownloadGraphicPacksWindow.cpp:200
+#: src/gui/GraphicPacksWindow2.cpp:193
+msgid "Graphic packs"
+msgstr "Packs graphiques"
+
+#: src/gui/GettingStartedDialog.cpp:89
+msgid ""
+"Graphic packs improve games by offering the possibility to change "
+"resolution, tweak FPS or add other visual or gameplay modifications.\n"
+"Download the community graphic packs to get started.\n"
+msgstr ""
+"Les packs graphiques améliorent les jeux en donnant la possibilité de "
+"changer la résolution,\n"
+"d'augmenter les FPS, ou d'ajouter des modifications visuelles ou de "
+"gameplay.\n"
+"Téléchargez les packs graphiques de la communauté pour commencer.\n"
+
+#: src/gui/GettingStartedDialog.cpp:91
+msgid "Download community graphic packs"
+msgstr "Télécharger les packs graphiques de la communauté"
+
+#: src/gui/GettingStartedDialog.cpp:105
+msgid "Next"
+msgstr "Suivant"
+
+#: src/gui/GettingStartedDialog.cpp:123 src/gui/input/InputSettings2.cpp:65
 msgid "Input settings"
 msgstr "Paramètres des manettes"
 
-#: src/gui/input/InputSettings2.cpp:82 src/gui/GameProfileWindow.cpp:169
-msgid "Controller {}"
-msgstr "Manette {}"
+#: src/gui/GettingStartedDialog.cpp:125
+msgid ""
+"You can configure one controller for each player.\n"
+"We advise you to always use GamePad as emulated input for the first player, "
+"since many games expect the GamePad to be present.\n"
+"It is also required for touch functionality.\n"
+"The default global hotkeys are:\n"
+"CTRL - show pad screen\n"
+"CTRL + TAB - toggle pad screen\n"
+"ALT + ENTER - toggle fullscreen\n"
+"ESC - leave fullscreen\n"
+"\n"
+"If you're having trouble configuring your controller, make sure to have it "
+"in idle state and press calibrate.\n"
+"Also don't set the axis deadzone too low."
+msgstr ""
+"Vous pouvez configurer une manette pour chaque joueur.\n"
+"Nous vous conseillons de toujours utiliser le GamePad comme manette émulée "
+"pour le premier joueur,\n"
+"car beaucoup de jeux considèrent que le GamePad est présent. Il est aussi "
+"requis pour les fonctionnalités tactiles.\n"
+"Les touches de raccourcis générales par défaut sont :\n"
+"CTRL  : afficher l'écran du GamePad\n"
+"CTRL + TAB  : (dés)activer l'écran du GamePad\n"
+"ALT + ENTRÉE  : passer en Plein écran\n"
+"ÉCHAP  : sortir du mode Plein écran\n"
+"\n"
+"Si vous rencontrez des problèmes pour configurer votre manette, vérifiez "
+"qu'elle n'est pas utilisée et appuyez sur Calibrer.\n"
+"Veillez également à ne pas régler de manière trop faible la zone morte des "
+"axes."
 
-#: src/gui/input/InputSettings2.cpp:146
-msgid "Profile"
-msgstr "Profil"
+#: src/gui/GettingStartedDialog.cpp:127
+msgid "Configure input"
+msgstr "Paramétrer les manettes"
 
-#: src/gui/input/InputSettings2.cpp:164
-msgid "Load"
-msgstr "Charger"
+#: src/gui/GettingStartedDialog.cpp:135
+msgid "Additional options"
+msgstr "Options supplémentaires"
 
-#: src/gui/input/InputSettings2.cpp:168
-msgid "Save"
-msgstr "Sauvegarder"
+#: src/gui/GettingStartedDialog.cpp:141
+msgid "Start games with fullscreen"
+msgstr "Démarrer les jeux en plein écran"
 
-#: src/gui/input/InputSettings2.cpp:172 src/gui/GeneralSettings2.cpp:680
-#: src/gui/TitleManager.cpp:122
+#: src/gui/GettingStartedDialog.cpp:144
+msgid "Open separate pad screen"
+msgstr "Afficher l'écran du GamePad dans une seconde fenêtre"
+
+#: src/gui/GettingStartedDialog.cpp:147 src/gui/GeneralSettings2.cpp:166
+msgid "Automatically check for updates"
+msgstr "Vérifier automatiquement la disponibilité de mises à jour"
+
+#: src/gui/GettingStartedDialog.cpp:164
+msgid "Don't show this again"
+msgstr "Ne plus afficher"
+
+#: src/gui/GettingStartedDialog.cpp:168
+msgid "Previous"
+msgstr "Précédent"
+
+#: src/gui/GettingStartedDialog.cpp:172 src/gui/PairingDialog.cpp:82
+#: src/gui/PairingDialog.cpp:90 src/gui/PairingDialog.cpp:98
+#: src/gui/PairingDialog.cpp:106 src/gui/PairingDialog.cpp:114
+msgid "Close"
+msgstr "Fermer"
+
+#: src/gui/GettingStartedDialog.cpp:257
+msgid "Getting started"
+msgstr "Pour commencer"
+
+#: src/gui/GettingStartedDialog.cpp:288
+msgid "Do you want to view the downloaded graphic packs?"
+msgstr "Souhaitez-vous voir les packs graphiques téléchargés ?"
+
+#: src/gui/TitleManager.cpp:59 src/gui/LoggingWindow.cpp:22
+#: src/gui/MemorySearcherTool.cpp:64 src/gui/GraphicPacksWindow2.cpp:219
+msgid "Filter"
+msgstr "Filtrer"
+
+#: src/gui/TitleManager.cpp:69
+#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:116
+#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:119
+msgid "Refresh"
+msgstr "Rafraîchir"
+
+#: src/gui/TitleManager.cpp:73
+msgid ""
+"The following prefixes are supported:\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+msgstr ""
+"Les préfixes suivants sont pris en charge :\n"
+"{0}\n"
+"{1}\n"
+"{2}\n"
+"{3}\n"
+"{4}"
+
+#: src/gui/TitleManager.cpp:93
+msgid "Install title"
+msgstr "Installer un titre"
+
+#: src/gui/TitleManager.cpp:103 src/gui/GeneralSettings2.cpp:848
+msgid "Account"
+msgstr "Compte"
+
+#: src/gui/TitleManager.cpp:110
+msgid "Open directory"
+msgstr "Ouvrir le dossier"
+
+#: src/gui/TitleManager.cpp:112
+msgid "Open the directory of the save entry"
+msgstr "Ouvrir le dossier de la sauvegarde"
+
+#: src/gui/TitleManager.cpp:116
+msgid "Transfer"
+msgstr "Transfert"
+
+#: src/gui/TitleManager.cpp:118
+msgid "Transfers the save entry to another persistent account id"
+msgstr "Transfère l'entrée de la sauvegarde vers un autre compte persistant"
+
+#: src/gui/TitleManager.cpp:122 src/gui/GeneralSettings2.cpp:680
+#: src/gui/input/InputSettings2.cpp:172
 msgid "Delete"
 msgstr "Supprimer"
 
-#: src/gui/input/InputSettings2.cpp:176
-msgid "controller set by gameprofile. changes won't be saved permanently!"
+#: src/gui/TitleManager.cpp:124
+msgid "Permanently delete the save entry"
+msgstr "Supprimer définitivement l'entrée de sauvegarde"
+
+#: src/gui/TitleManager.cpp:128
+msgid "Import"
+msgstr "Importer"
+
+#: src/gui/TitleManager.cpp:130
+msgid "Imports a zipped save entry"
+msgstr "Importe une sauvegarde compressée au format ZIP"
+
+#: src/gui/TitleManager.cpp:135
+msgid "Exports the selected save entry as zip file"
+msgstr "Exporte la sauvegarde sélectionnée en fichier compressé ZIP"
+
+#: src/gui/TitleManager.cpp:176
+msgid "Connect"
+msgstr "Connection"
+
+#: src/gui/TitleManager.cpp:183
+msgid "Select an account and press Connect"
+msgstr "Sélectionnez un compte et appuyez sur Connection"
+
+#: src/gui/TitleManager.cpp:191
+msgid "Show available titles"
+msgstr "Afficher les titres disponibles"
+
+#: src/gui/TitleManager.cpp:197
+msgid "Show available updates"
+msgstr "Afficher les mises à jour disponibles"
+
+#: src/gui/TitleManager.cpp:203
+msgid "Show installed"
+msgstr "Afficher les titres installés"
+
+#: src/gui/TitleManager.cpp:222 src/gui/TitleManager.cpp:229
+msgid "Title Manager"
+msgstr "Gestionnaire de titres"
+
+#: src/gui/TitleManager.cpp:230
+msgid "Download Manager"
+msgstr "Gestionnaire de téléchargement"
+
+#: src/gui/TitleManager.cpp:235 src/gui/TitleManager.cpp:363
+msgid "Searching for titles..."
+msgstr "Recherche de titres..."
+
+#: src/gui/TitleManager.cpp:282
+msgid "Currently active downloads will continue in the background."
+msgstr "Les téléchargements actifs continuent en arrière-plan"
+
+#: src/gui/TitleManager.cpp:282 src/gui/GeneralSettings2.cpp:1894
+#: src/gui/MainWindow.cpp:883
+#: src/Cafe/HW/Latte/Renderer/Vulkan/VulkanRenderer.cpp:287
+msgid "Information"
+msgstr "Information"
+
+#: src/gui/TitleManager.cpp:331
+msgid "Found {0} games, {1} updates, {2} DLCs and {3} save entries"
 msgstr ""
-"Manette réglée par le profil du jeu. Les changements ne seront pas "
-"sauvegardés de façon permanente !"
+"Trouvé {0} jeux, {1} mises à jour, {2} DLC et {3} entrées de sauvegardes"
 
-#: src/gui/input/InputSettings2.cpp:208
-msgid "Emulated controller"
-msgstr "Manette émulée"
+#: src/gui/TitleManager.cpp:369
+msgid "Select title to install"
+msgstr "Sélectionnez le titre à installer"
 
-#: src/gui/input/InputSettings2.cpp:215 src/gui/input/InputSettings2.cpp:391
-#: src/gui/input/InputSettings2.cpp:784 src/gui/GeneralSettings2.cpp:512
-#: src/gui/GeneralSettings2.cpp:802 src/gui/GeneralSettings2.cpp:804
-#: src/gui/GeneralSettings2.cpp:1176 src/gui/GeneralSettings2.cpp:1177
-#: src/gui/GeneralSettings2.cpp:1178
-msgid "Disabled"
-msgstr "Désactivé"
+#: src/gui/TitleManager.cpp:388
+msgid "Update installation has been canceled!"
+msgstr "L'installation de la mise à jour a été annulée !"
 
-#: src/gui/input/InputSettings2.cpp:257
-msgid "Settings"
-msgstr "Réglages"
+#: src/gui/TitleManager.cpp:401 src/gui/MainWindow.cpp:485
+msgid "Update error"
+msgstr "Erreur lors de la mise à jour"
 
-#: src/gui/input/InputSettings2.cpp:262
-#: src/gui/input/settings/DefaultControllerSettings.cpp:202
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:220
-msgid "Calibrate"
-msgstr "Étalonner"
+#: src/gui/TitleManager.cpp:497
+msgid "Are you really sure that you want to delete the save entry for {}"
+msgstr ""
+"Êtes-vous vraiment sûr de vouloir supprimer l'entrée de la sauvegarde pour {}"
 
-#: src/gui/input/InputSettings2.cpp:267 src/gui/MemorySearcherTool.cpp:204
-msgid "Clear"
-msgstr "Effacer"
-
-#: src/gui/input/InputSettings2.cpp:275
-msgid "Test if the controller is connected"
-msgstr "Teste si la manette est connectée"
-
-#: src/gui/input/InputSettings2.cpp:608 src/gui/input/InputSettings2.cpp:644
-#: src/gui/input/InputSettings2.cpp:676
-msgid "invalid profile name"
-msgstr "Nom de profil non valide"
-
-#: src/gui/input/InputSettings2.cpp:617
-msgid "profile loaded"
-msgstr "Profil chargé"
-
-#: src/gui/input/InputSettings2.cpp:622
-msgid "couldn't load profile"
-msgstr "Impossible de charger le profil"
-
-#: src/gui/input/InputSettings2.cpp:652
-msgid "profile saved"
-msgstr "Profil sauvegardé"
-
-#: src/gui/input/InputSettings2.cpp:657
-msgid "couldn't save profile"
-msgstr "Impossible de sauvegarder le profil"
-
-#: src/gui/input/InputSettings2.cpp:690
-msgid "profile deleted"
-msgstr "Profil supprimé"
-
-#: src/gui/input/InputSettings2.cpp:699
-msgid "can't delete profile"
-msgstr "Impossible de supprimer le profil"
-
-#: src/gui/input/panels/ClassicControllerInputPanel.cpp:42
-#: src/gui/input/panels/ProControllerInputPanel.cpp:41
-#: src/gui/input/panels/VPADInputPanel.cpp:61
-msgid "Left Axis"
-msgstr "Axe gauche"
-
-#: src/gui/input/panels/ClassicControllerInputPanel.cpp:65
-#: src/gui/input/panels/ProControllerInputPanel.cpp:64
-#: src/gui/input/panels/VPADInputPanel.cpp:84
-msgid "Right Axis"
-msgstr "Axe droit"
-
-#: src/gui/input/panels/ClassicControllerInputPanel.cpp:88
-#: src/gui/input/panels/WiimoteInputPanel.cpp:87
-#: src/gui/input/panels/ProControllerInputPanel.cpp:87
-#: src/gui/input/panels/VPADInputPanel.cpp:123
-msgid "D-pad"
-msgstr "Croix directionnelle"
-
-#: src/gui/input/panels/WiimoteInputPanel.cpp:43
-msgid "Pair a Wii or Wii U controller"
-msgstr "Jumeler une manette Wii ou WiiU"
-
-#: src/gui/input/panels/WiimoteInputPanel.cpp:51
-msgid "Extensions:"
-msgstr "Extensions :"
-
-#: src/gui/input/panels/WiimoteInputPanel.cpp:54
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:310
-msgid "MotionPlus"
-msgstr "MotionPlus"
-
-#: src/gui/input/panels/WiimoteInputPanel.cpp:58
-#: src/gui/input/panels/WiimoteInputPanel.cpp:120
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:86
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:290
-msgid "Nunchuck"
-msgstr "Nunchuck"
-
-#: src/gui/input/panels/WiimoteInputPanel.cpp:62
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:129
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:295
-msgid "Classic"
-msgstr "Classique"
-
-#: src/gui/input/panels/WiimoteInputPanel.cpp:99
-#: src/gui/input/panels/VPADInputPanel.cpp:103 src/gui/GeneralSettings2.cpp:408
-#: src/gui/GeneralSettings2.cpp:449 src/gui/GeneralSettings2.cpp:490
-msgid "Volume"
-msgstr "Volume"
-
-#: src/gui/input/panels/VPADInputPanel.cpp:135
-msgid "blow mic"
-msgstr "Souffle sur micro"
-
-#: src/gui/input/panels/VPADInputPanel.cpp:138
-msgid "show screen"
-msgstr "Afficher l'écran"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:19
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:20
-msgid "Controller settings"
-msgstr "Réglages des manettes"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:31
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:44
-msgid "Options"
-msgstr "Options"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:35
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:57
-msgid "Use motion"
-msgstr "Utiliser les mouvements"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:44
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:50
-msgid "Rumble"
-msgstr "Vibreur"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:60
-msgid "Axis"
-msgstr "Axe"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:68
-#: src/gui/input/settings/DefaultControllerSettings.cpp:111
-#: src/gui/input/settings/DefaultControllerSettings.cpp:154
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:94
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:139
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:152
-msgid "Deadzone"
-msgstr "Zone morte"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:81
-#: src/gui/input/settings/DefaultControllerSettings.cpp:124
-#: src/gui/input/settings/DefaultControllerSettings.cpp:167
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:107
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:167
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:180
-msgid "Range"
-msgstr "Radius"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:103
-msgid "Rotation"
-msgstr "Rotation"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:146
-msgid "Trigger"
-msgstr "Gachette"
-
-#: src/gui/input/settings/DefaultControllerSettings.cpp:192
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:210
-#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:38
-#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:58
-#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:59
-msgid "OK"
-msgstr "OK"
-
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:33
-msgid "Connected extension"
-msgstr "Extension connectée"
-
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:36
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:318
-msgid "None"
-msgstr "Aucune"
-
-#: src/gui/input/settings/WiimoteControllerSettings.cpp:68
-msgid "Packet delay"
-msgstr "Délai du paquet"
-
-#: src/gui/CemuApp.cpp:38
-msgid "Browse"
-msgstr "Parcourir"
-
-#: src/gui/CemuApp.cpp:39
-msgid "Select a file"
-msgstr "Sélectionner un fichier"
-
-#: src/gui/CemuApp.cpp:40
-msgid "Select a directory"
-msgstr "Sélectionner un dossier"
-
-#: src/gui/CemuApp.cpp:42
-msgid "Japanese"
-msgstr "Japonais"
-
-#: src/gui/CemuApp.cpp:43
-msgid "English"
-msgstr "Anglais"
-
-#: src/gui/CemuApp.cpp:44
-msgid "French"
-msgstr "Français"
-
-#: src/gui/CemuApp.cpp:45
-msgid "German"
-msgstr "Allemand"
-
-#: src/gui/CemuApp.cpp:46
-msgid "Italian"
-msgstr "Italien"
-
-#: src/gui/CemuApp.cpp:47
-msgid "Spanish"
-msgstr "Espagnol"
-
-#: src/gui/CemuApp.cpp:48
-msgid "Chinese"
-msgstr "Chinois"
-
-#: src/gui/CemuApp.cpp:49
-msgid "Korean"
-msgstr "Coréen"
-
-#: src/gui/CemuApp.cpp:50
-msgid "Dutch"
-msgstr "Néerlandais"
-
-#: src/gui/CemuApp.cpp:51
-msgid "Portugese"
-msgstr "Portugais"
-
-#: src/gui/CemuApp.cpp:52
-msgid "Russian"
-msgstr "Russe"
-
-#: src/gui/CemuApp.cpp:53
-msgid "Taiwanese"
-msgstr "Taïwanais"
-
-#: src/gui/CemuApp.cpp:54
-msgid "unknown"
-msgstr "inconnu"
-
-#: src/gui/CemuApp.cpp:91
-msgid "Cemu can't write to {}!"
-msgstr "Cemu ne peut pas écrire vers {} !"
-
-#: src/gui/CemuApp.cpp:92 src/gui/components/wxTitleManagerList.cpp:802
-#: src/gui/components/wxGameList.cpp:1273
-#: src/gui/components/wxGameList.cpp:1279
-#: src/gui/components/wxGameList.cpp:1290 src/gui/GeneralSettings2.cpp:1682
-#: src/gui/TitleManager.cpp:498 src/gui/GraphicPacksWindow2.cpp:634
-#: src/gui/GameUpdateWindow.cpp:64 src/gui/GameUpdateWindow.cpp:70
-#: src/gui/GameUpdateWindow.cpp:76
-msgid "Warning"
-msgstr "Attention"
-
-#: src/gui/CemuApp.cpp:169
+#: src/gui/TitleManager.cpp:548
 msgid ""
-"Thank you for testing the in-development build of Cemu for macOS.\n"
-" \n"
-"The macOS port is currently purely experimental and should not be considered "
-"stable or ready for issue-free gameplay. There are also known issues with "
-"degraded performance due to the use of MoltenVk and Rosetta for ARM Macs. We "
-"appreciate your patience while we improve Cemu for macOS."
+"Error when trying to delete the save directory:\n"
+"{}"
 msgstr ""
-"Merci de tester cette version en développement de Cemu pour macOS.\n"
-"\n"
-"Le portage vers macOS est actuellement purement expérimental et ne doit pas "
-"être considéré comme stable ou vous permettre de jouer sans problème. Il y a "
-"également des problèmes connus avec des performances dégradées à cause de "
-"l'utilisation de MoltenVk et Rosetta pour les Mac avec des puces ARM. Nous "
-"apprécions votre patience le temps que nous améliorions Cemu pour macOS."
+"Erreur lors de la tentative de suppression du dossier de la sauvegarde :\n"
+"{}"
 
-#: src/gui/CemuApp.cpp:172
-msgid "Preview version"
-msgstr "Préversion"
+#: src/gui/TitleManager.cpp:625
+msgid "Select a target file to export the save entry"
+msgstr "Sélectionnez un fichier de destination pour l'export de la sauvegarde"
 
-#: src/gui/CemuApp.cpp:173
-msgid "I understand"
-msgstr "J'ai compris"
+#: src/gui/TitleManager.cpp:626
+msgid "Exported save entry (*.zip)"
+msgstr "Entrée de sauvegarde exportée (*.zip)"
 
-#: src/gui/CemuApp.cpp:270
+#: src/gui/TitleManager.cpp:637
 msgid ""
-"Your mlc01 folder seems to be missing.\n"
-"\n"
-"This is where Cemu stores save files, game updates and other Wii U files.\n"
-"\n"
-"The expected path is:\n"
-"{}\n"
-"\n"
-"Do you want to create the folder at the expected path?"
+"Error when creating the zip for the save entry:\n"
+"{}"
 msgstr ""
-"Votre dossier mlc01 semble manquer.\n"
-"\n"
-"C'est l'endroit où Cemu enregistre les fichiers de sauvegarde, mises à jour "
-"des jeux et autres fichiers Wii U.\n"
-"\n"
-"Le dossier attendu est :\n"
-"{}\n"
-"\n"
-"Souautez-vous créer le dossier dans le chemin attendu ?"
+"Erreur lors de la création de la sauvegarde compressée (ZIP):\n"
+"{}"
 
-#: src/gui/CemuApp.cpp:274 src/gui/components/wxGameList.cpp:1133
-msgid "Yes"
-msgstr "Oui"
-
-#: src/gui/CemuApp.cpp:274 src/gui/components/wxGameList.cpp:1133
-msgid "No"
-msgstr "Non"
-
-#: src/gui/CemuApp.cpp:274
-msgid "Select a custom path"
-msgstr "Sélectionner un chemin personnalisé"
-
-#: src/gui/CemuApp.cpp:345
+#: src/gui/TitleManager.cpp:655
 msgid ""
-"Couldn't create a required mlc01 subfolder or file!\n"
-"\n"
-"Error: {0}\n"
-"Target path:\n"
-"{1}"
+"Error when trying to add a directory to the zip:\n"
+"{}"
 msgstr ""
-"Impossible de créer un sous-dossier ou fichier requis dans mlc01 !\n"
-"\n"
-"Erreur : {0}\n"
-"Dossier cible :\n"
-"{1}"
+"Erreur lors de la tentative d'ajout d'un dossier au fichier ZIP :\n"
+"{}"
 
-#: src/gui/CemuApp.cpp:370
+#: src/gui/TitleManager.cpp:664 src/gui/TitleManager.cpp:670
 msgid ""
-"Couldn't create a required cemu directory or file!\n"
-"\n"
-"Error: {0}"
+"Error when trying to add a file to the zip:\n"
+"{}"
 msgstr ""
-"Impossible de créer un dossier ou fichier requis pour Cemu !\n"
-"\n"
-"Erreur : {0}"
+"Erreur lors de la tentative d'ajout d'un fichier au fichier ZIP :\n"
+"{}"
 
-#: src/gui/CemuApp.cpp:414
-msgid "Select a mlc directory"
-msgstr "Sélectionner le dossier contenant la MLC"
-
-#: src/gui/CemuApp.cpp:422
+#: src/gui/TitleManager.cpp:683
 msgid ""
-"Cemu can't write to the selected mlc path!\n"
-"Do you want to select another path?"
+"Error when trying to add cemu_meta file to the zip:\n"
+"{}"
 msgstr ""
-"Cemu ne peut écrire dans le dossier de la mlc choisi !\n"
-"Souhaitez-vous sélectionner un autre dossier ?"
+"Erreur en essayant d'ajouter le fichier cemu_meta dans le zip :\n"
+"{}"
 
-#: src/gui/components/wxTitleManagerList.cpp:126
-#: src/gui/components/wxGameList.cpp:97
+#: src/gui/TitleManager.cpp:734
+msgid "Dumped online files not found"
+msgstr "Fichiers en ligne dumpés non trouvés"
+
+#: src/gui/TitleManager.cpp:738
+msgid "Connecting..."
+msgstr "Connexion..."
+
+#: src/gui/TitleManager.cpp:757
+msgid "Getting installed title information..."
+msgstr "Obtention de la liste des titres installés..."
+
 #: src/gui/components/wxDownloadManagerList.cpp:94
+#: src/gui/components/wxTitleManagerList.cpp:126
+#: src/gui/components/wxGameList.cpp:99
 msgid "Title ID"
 msgstr "Identifiant du titre"
 
-#: src/gui/components/wxTitleManagerList.cpp:144
-#: src/gui/components/wxGameList.cpp:92
+#: src/gui/components/wxDownloadManagerList.cpp:100
+#: src/gui/components/wxTitleManagerList.cpp:132
+#: src/gui/debugger/SymbolCtrl.cpp:18 src/gui/debugger/ModuleWindow.cpp:35
+msgid "Name"
+msgstr "Nom"
+
 #: src/gui/components/wxDownloadManagerList.cpp:106
+#: src/gui/components/wxTitleManagerList.cpp:144
+#: src/gui/components/wxGameList.cpp:94
 msgid "Version"
 msgstr "Version"
 
+#: src/gui/components/wxDownloadManagerList.cpp:112
+#: src/gui/components/wxTitleManagerList.cpp:138
+#: src/gui/debugger/BreakpointWindow.cpp:55 src/gui/MemorySearcherTool.cpp:104
+msgid "Type"
+msgstr "Type"
+
+#: src/gui/components/wxDownloadManagerList.cpp:118
+msgid "Progress"
+msgstr "Progression"
+
+#: src/gui/components/wxDownloadManagerList.cpp:124
+msgid "Status"
+msgstr "État"
+
+#: src/gui/components/wxDownloadManagerList.cpp:336
+msgid "&Resume"
+msgstr "&Reprendre"
+
+#: src/gui/components/wxDownloadManagerList.cpp:338
+msgid "&Retry"
+msgstr "&Réessayer"
+
+#: src/gui/components/wxDownloadManagerList.cpp:340
+msgid "&Download"
+msgstr "&Télécharger"
+
+#: src/gui/components/wxDownloadManagerList.cpp:466
+msgid "Paused"
+msgstr "En pause"
+
+#: src/gui/components/wxDownloadManagerList.cpp:470
+msgid "Not installed (Partially downloaded)"
+msgstr "Non installé (partiellement téléchargé)"
+
+#: src/gui/components/wxDownloadManagerList.cpp:472
+msgid "Update available"
+msgstr "Mise à jour disponible"
+
+#: src/gui/components/wxDownloadManagerList.cpp:473
+msgid "Not installed"
+msgstr "Non installé"
+
+#: src/gui/components/wxDownloadManagerList.cpp:476
+msgid "Initializing"
+msgstr "Initialisation en cours"
+
+#: src/gui/components/wxDownloadManagerList.cpp:478
+msgid "Checking"
+msgstr "Vérification en cours"
+
+#: src/gui/components/wxDownloadManagerList.cpp:480
+msgid "Queued"
+msgstr "Mis en attente"
+
+#: src/gui/components/wxDownloadManagerList.cpp:482
+msgid "Downloading"
+msgstr "Téléchargement"
+
+#: src/gui/components/wxDownloadManagerList.cpp:484
+msgid "Verifying"
+msgstr "Vérification en cours"
+
+#: src/gui/components/wxDownloadManagerList.cpp:486
+msgid "Installing"
+msgstr "Installation en cours"
+
+#: src/gui/components/wxDownloadManagerList.cpp:488
+msgid "Installed"
+msgstr "Installé"
+
+#: src/gui/components/wxDownloadManagerList.cpp:491
+msgid "Error:"
+msgstr "Erreur :"
+
+#: src/gui/components/wxDownloadManagerList.cpp:509
+#: src/gui/components/wxTitleManagerList.cpp:974
+msgid "base"
+msgstr "Base"
+
+#: src/gui/components/wxDownloadManagerList.cpp:511
+#: src/gui/components/wxTitleManagerList.cpp:976
+msgid "update"
+msgstr "Mise à jour"
+
 #: src/gui/components/wxTitleManagerList.cpp:150
-#: src/gui/components/wxGameList.cpp:96
+#: src/gui/components/wxGameList.cpp:98
 msgid "Region"
 msgstr "Région"
 
@@ -1311,7 +1151,7 @@ msgstr ""
 "Non installé"
 
 #: src/gui/components/wxTitleManagerList.cpp:331
-#: src/gui/GeneralSettings2.cpp:1270
+#: src/gui/GeneralSettings2.cpp:1268
 msgid "Confirmation"
 msgstr "Confirmation"
 
@@ -1428,23 +1268,6 @@ msgstr "MLC"
 msgid "Game Paths"
 msgstr "Dossiers de jeux"
 
-#: src/gui/components/wxTitleManagerList.cpp:974
-#: src/gui/components/wxDownloadManagerList.cpp:509
-msgid "base"
-msgstr "Base"
-
-#: src/gui/components/wxTitleManagerList.cpp:976
-#: src/gui/components/wxDownloadManagerList.cpp:511
-msgid "update"
-msgstr "Mise à jour"
-
-#: src/gui/components/wxTitleManagerList.cpp:978
-#: src/gui/components/wxGameList.cpp:93
-#: src/gui/components/wxDownloadManagerList.cpp:513
-#: src/gui/GameUpdateWindow.cpp:19
-msgid "DLC"
-msgstr "DLC"
-
 #: src/gui/components/wxTitleManagerList.cpp:980
 msgid "save"
 msgstr "Sauvegarde"
@@ -1453,19 +1276,19 @@ msgstr "Sauvegarde"
 msgid "system"
 msgstr "système"
 
-#: src/gui/components/wxGameList.cpp:91
+#: src/gui/components/wxGameList.cpp:93
 msgid "Game"
 msgstr "Jeu"
 
-#: src/gui/components/wxGameList.cpp:94
+#: src/gui/components/wxGameList.cpp:96
 msgid "You've played"
 msgstr "Vous avez joué"
 
-#: src/gui/components/wxGameList.cpp:95
+#: src/gui/components/wxGameList.cpp:97
 msgid "Last played"
 msgstr "Joué la dernière fois le"
 
-#: src/gui/components/wxGameList.cpp:114
+#: src/gui/components/wxGameList.cpp:116
 msgid ""
 "This game entry seems to be either an update or the base game was merged "
 "with update data\n"
@@ -1483,145 +1306,157 @@ msgstr ""
 "en passant uniquement\n"
 "par l'option Fichier -> Installer une mise à jour ou un DLC d'un jeu"
 
-#: src/gui/components/wxGameList.cpp:567
+#: src/gui/components/wxGameList.cpp:574
 msgid "&Start"
 msgstr "&Démarrer"
 
-#: src/gui/components/wxGameList.cpp:573
+#: src/gui/components/wxGameList.cpp:580
 msgid "&Favorite"
 msgstr "&Favoris"
 
-#: src/gui/components/wxGameList.cpp:574
+#: src/gui/components/wxGameList.cpp:581
 msgid "&Edit name"
 msgstr "&Editer le nom"
 
-#: src/gui/components/wxGameList.cpp:577
+#: src/gui/components/wxGameList.cpp:584
 msgid "&Wiki page"
 msgstr "Page &Wiki"
 
-#: src/gui/components/wxGameList.cpp:578
+#: src/gui/components/wxGameList.cpp:585
 msgid "&Game directory"
 msgstr "&Dossier du jeu"
 
-#: src/gui/components/wxGameList.cpp:579
+#: src/gui/components/wxGameList.cpp:586
 msgid "&Save directory"
 msgstr "Dossier de &sauvegarde"
 
-#: src/gui/components/wxGameList.cpp:580
+#: src/gui/components/wxGameList.cpp:587
 msgid "&Update directory"
 msgstr "Dossier de &mise à jour"
 
-#: src/gui/components/wxGameList.cpp:581
+#: src/gui/components/wxGameList.cpp:588
 msgid "&DLC directory"
 msgstr "Dossier du &DLC"
 
-#: src/gui/components/wxGameList.cpp:584
+#: src/gui/components/wxGameList.cpp:591
 msgid "&Remove shader caches"
 msgstr "&Supprimer les caches des shaders"
 
-#: src/gui/components/wxGameList.cpp:587
+#: src/gui/components/wxGameList.cpp:594
 msgid "&Edit graphic packs"
 msgstr "Éditer les packs &graphiques"
 
-#: src/gui/components/wxGameList.cpp:588
+#: src/gui/components/wxGameList.cpp:595
 msgid "&Edit game profile"
 msgstr "Éditer le &profil du jeu"
 
-#: src/gui/components/wxGameList.cpp:592
+#: src/gui/components/wxGameList.cpp:599
 msgid "&Create shortcut"
 msgstr "&Créer un raccourci"
 
-#: src/gui/components/wxGameList.cpp:598
+#: src/gui/components/wxGameList.cpp:602
+msgid "&Copy Title Name"
+msgstr "&Copier le nom du jeu"
+
+#: src/gui/components/wxGameList.cpp:603
+msgid "&Copy Title ID"
+msgstr "&Copier l'identifiant du jeu"
+
+#: src/gui/components/wxGameList.cpp:604
+msgid "&Copy Title Image"
+msgstr "&Copier l'image du jeu"
+
+#: src/gui/components/wxGameList.cpp:609
 msgid "&Refresh game list"
 msgstr "&Rafraîchir la liste des jeux"
 
-#: src/gui/components/wxGameList.cpp:600
+#: src/gui/components/wxGameList.cpp:611
 msgid "Style: &List"
 msgstr "Style : &Liste"
 
-#: src/gui/components/wxGameList.cpp:601
+#: src/gui/components/wxGameList.cpp:612
 msgid "Style: &Icons"
 msgstr "Style : &Icônes"
 
-#: src/gui/components/wxGameList.cpp:602
+#: src/gui/components/wxGameList.cpp:613
 msgid "Style: &Small Icons"
 msgstr "Style : &Petites icônes"
 
-#: src/gui/components/wxGameList.cpp:632
+#: src/gui/components/wxGameList.cpp:643
 msgid "Enter a custom game title"
 msgstr "Entrez un titre personnalisé de jeu"
 
-#: src/gui/components/wxGameList.cpp:766
+#: src/gui/components/wxGameList.cpp:811
 msgid "Reset &width"
 msgstr "Réinitialiser la &longueur"
 
-#: src/gui/components/wxGameList.cpp:767
+#: src/gui/components/wxGameList.cpp:812
 msgid "Reset &order"
 msgstr "Réinitialiser l'&ordre"
 
-#: src/gui/components/wxGameList.cpp:770
+#: src/gui/components/wxGameList.cpp:815
 msgid "Show &name"
 msgstr "Afficher le &nom"
 
-#: src/gui/components/wxGameList.cpp:771
+#: src/gui/components/wxGameList.cpp:816
 msgid "Show &version"
 msgstr "Afficher la &version"
 
-#: src/gui/components/wxGameList.cpp:772
+#: src/gui/components/wxGameList.cpp:817
 msgid "Show &dlc"
 msgstr "Afficher le(s) &DLC"
 
-#: src/gui/components/wxGameList.cpp:773
+#: src/gui/components/wxGameList.cpp:818
 msgid "Show &game time"
 msgstr "Afficher le &temps de jeu"
 
-#: src/gui/components/wxGameList.cpp:774
+#: src/gui/components/wxGameList.cpp:819
 msgid "Show &last played"
 msgstr "Afficher le &dernier démarrage"
 
-#: src/gui/components/wxGameList.cpp:775
+#: src/gui/components/wxGameList.cpp:820
 msgid "Show &region"
 msgstr "Afficher la &région"
 
-#: src/gui/components/wxGameList.cpp:776
+#: src/gui/components/wxGameList.cpp:821
 msgid "Show &title ID"
 msgstr "Afficher l'identifiant du &titre"
 
-#: src/gui/components/wxGameList.cpp:1016
-#: src/gui/components/wxGameList.cpp:1022
+#: src/gui/components/wxGameList.cpp:1061
+#: src/gui/components/wxGameList.cpp:1067
 msgid "{} minute"
 msgid_plural "{} minutes"
 msgstr[0] "{} minute"
 msgstr[1] "{} minutes"
 
-#: src/gui/components/wxGameList.cpp:1021
+#: src/gui/components/wxGameList.cpp:1066
 msgid "{} hour"
 msgid_plural "{} hours"
 msgstr[0] "{} heure"
 msgstr[1] "{} heures"
 
-#: src/gui/components/wxGameList.cpp:1033
-#: src/gui/components/wxGameList.cpp:1038
+#: src/gui/components/wxGameList.cpp:1078
+#: src/gui/components/wxGameList.cpp:1083
 msgid "never"
 msgstr "jamais"
 
-#: src/gui/components/wxGameList.cpp:1132
+#: src/gui/components/wxGameList.cpp:1177
 msgid "Remove the shader caches for {}?"
 msgstr "Supprimer les caches des shaders pour {} ?"
 
-#: src/gui/components/wxGameList.cpp:1132
+#: src/gui/components/wxGameList.cpp:1177
 msgid "Remove shader caches"
 msgstr "Supprimer les caches des shaders"
 
-#: src/gui/components/wxGameList.cpp:1145
+#: src/gui/components/wxGameList.cpp:1190
 msgid "The shader caches were removed!"
 msgstr "Les caches des shaders ont été supprimés !"
 
-#: src/gui/components/wxGameList.cpp:1145
+#: src/gui/components/wxGameList.cpp:1190
 msgid "Shader caches removed"
 msgstr "Caches des shaders supprimés"
 
-#: src/gui/components/wxGameList.cpp:1147
+#: src/gui/components/wxGameList.cpp:1192
 msgid ""
 "Failed to remove the shader caches:\n"
 "{}"
@@ -1629,845 +1464,32 @@ msgstr ""
 "Impossible de supprimer les caches des shaders :\n"
 "{}"
 
-#: src/gui/components/wxGameList.cpp:1247
+#: src/gui/components/wxGameList.cpp:1293
 msgid "Choose desktop entry location"
 msgstr "Choisir l'emplacement de l'entrée du bureau"
 
-#: src/gui/components/wxGameList.cpp:1254
+#: src/gui/components/wxGameList.cpp:1300
 msgid "Choose shortcut location"
 msgstr "Choisir l'emplacement du raccourci"
 
-#: src/gui/components/wxGameList.cpp:1273
+#: src/gui/components/wxGameList.cpp:1319
 msgid "Icon is yet to load, so will not be used by the shortcut"
 msgstr ""
 "L'icône n'est pas encore chargée, elle ne sera donc pas utilisée pour le "
 "raccourci"
 
-#: src/gui/components/wxGameList.cpp:1279
+#: src/gui/components/wxGameList.cpp:1325
 msgid "Cannot access the icon directory, the shortcut will have no icon"
 msgstr ""
 "Impossible d'accéder au dossier des icônes, le raccourci n'aura pas d'icône"
 
-#: src/gui/components/wxGameList.cpp:1290
+#: src/gui/components/wxGameList.cpp:1336
 msgid "The icon was unable to be saved, the shortcut will have no icon"
 msgstr "L'icône n'a pas pu être enregistrée, le raccourci n'aura pas d'icône"
 
-#: src/gui/components/wxGameList.cpp:1314
+#: src/gui/components/wxGameList.cpp:1369
 msgid "Failed to save desktop entry to {}"
 msgstr "Impossible de sauvegarder l'entrée du bureau vers {}"
-
-#: src/gui/components/wxDownloadManagerList.cpp:118
-msgid "Progress"
-msgstr "Progression"
-
-#: src/gui/components/wxDownloadManagerList.cpp:124
-msgid "Status"
-msgstr "État"
-
-#: src/gui/components/wxDownloadManagerList.cpp:336
-msgid "&Resume"
-msgstr "&Reprendre"
-
-#: src/gui/components/wxDownloadManagerList.cpp:338
-msgid "&Retry"
-msgstr "&Réessayer"
-
-#: src/gui/components/wxDownloadManagerList.cpp:340
-msgid "&Download"
-msgstr "&Télécharger"
-
-#: src/gui/components/wxDownloadManagerList.cpp:466
-msgid "Paused"
-msgstr "En pause"
-
-#: src/gui/components/wxDownloadManagerList.cpp:470
-msgid "Not installed (Partially downloaded)"
-msgstr "Non installé (partiellement téléchargé)"
-
-#: src/gui/components/wxDownloadManagerList.cpp:472
-msgid "Update available"
-msgstr "Mise à jour disponible"
-
-#: src/gui/components/wxDownloadManagerList.cpp:473
-msgid "Not installed"
-msgstr "Non installé"
-
-#: src/gui/components/wxDownloadManagerList.cpp:476
-msgid "Initializing"
-msgstr "Initialisation en cours"
-
-#: src/gui/components/wxDownloadManagerList.cpp:478
-msgid "Checking"
-msgstr "Vérification en cours"
-
-#: src/gui/components/wxDownloadManagerList.cpp:480
-msgid "Queued"
-msgstr "Mis en attente"
-
-#: src/gui/components/wxDownloadManagerList.cpp:482
-msgid "Downloading"
-msgstr "Téléchargement"
-
-#: src/gui/components/wxDownloadManagerList.cpp:484
-msgid "Verifying"
-msgstr "Vérification en cours"
-
-#: src/gui/components/wxDownloadManagerList.cpp:486
-msgid "Installing"
-msgstr "Installation en cours"
-
-#: src/gui/components/wxDownloadManagerList.cpp:488
-msgid "Installed"
-msgstr "Installé"
-
-#: src/gui/components/wxDownloadManagerList.cpp:491
-msgid "Error:"
-msgstr "Erreur :"
-
-#: src/gui/GettingStartedDialog.cpp:33
-msgid ""
-"It looks like you're starting Cemu for the first time.\n"
-"This quick setup assistant will help you get the best experience"
-msgstr ""
-"On dirait que c'est la première fois que vous démarrez Cemu.\n"
-"Cet assistant de configuration rapide va vous aider à en obtenir le meilleur."
-
-#: src/gui/GettingStartedDialog.cpp:41
-msgid "mlc01 path"
-msgstr "Chemin de mlc01"
-
-#: src/gui/GettingStartedDialog.cpp:42
-msgid ""
-"The mlc path is the root folder of the emulated Wii U internal flash "
-"storage. It contains all your saves, installed updates and DLCs.\n"
-"It is strongly recommend that you create a dedicated folder for it (example: "
-"C:\\wiiu\\mlc\\) \n"
-"If left empty, the mlc folder will be created inside the Cemu folder."
-msgstr ""
-"Le chemin de la mlc est le dossier racine de la mémoire flash interne de la "
-"Wii U.\n"
-"Il contient toutes vos sauvegardes, mises à jour installées et les DLC.\n"
-"Il est fortement conseillé de créer un dossier dédié pour cela (exemple : C:"
-"\\wiiu\\mlc\\) \n"
-"Si vous laissez ce champ vide, le dossier de la mlc sera créé dans le "
-"dossier de Cemu.\n"
-" "
-
-#: src/gui/GettingStartedDialog.cpp:44
-msgid ""
-"A custom mlc path from a previous Cemu installation has been found and "
-"filled in."
-msgstr ""
-"Un chemin personnalisé de la mlc renseigné dans une installation antérieure "
-"de Cemu a été trouvé et réutilisé."
-
-#: src/gui/GettingStartedDialog.cpp:50
-msgid "Custom mlc01 path"
-msgstr "Chemin personnalisé de mlc01"
-
-#: src/gui/GettingStartedDialog.cpp:53 src/gui/GettingStartedDialog.cpp:78
-msgid "Select a folder"
-msgstr "Sélectionnez un dossier"
-
-#: src/gui/GettingStartedDialog.cpp:62
-msgid "(optional)"
-msgstr "(facultatif)"
-
-#: src/gui/GettingStartedDialog.cpp:70
-msgid "Game paths"
-msgstr "Dossiers de jeux"
-
-#: src/gui/GettingStartedDialog.cpp:72
-msgid ""
-"The game path is scanned by Cemu to locate your games. We recommend creating "
-"a dedicated directory in which\n"
-"you place all your Wii U games. (example: C:\\wiiu\\games\\)\n"
-"\n"
-"You can also set additional paths in the general settings of Cemu."
-msgstr ""
-"Le chemin des jeux est analysé par Cemu pour localiser vos jeux. Nous "
-"recommandons de créer un dossier dédié\n"
-"dans lequel vous placerez tous vos jeux Wii U (exemple : C:\\wiiu\\jeux\\).\n"
-"\n"
-"Vous pourrez également ajouter des chemins supplémentaires dans les "
-"paramètres de Cemu."
-
-#: src/gui/GettingStartedDialog.cpp:76
-msgid "Game path"
-msgstr "Chemin des jeux"
-
-#: src/gui/GettingStartedDialog.cpp:87 src/gui/GettingStartedDialog.cpp:288
-#: src/gui/DownloadGraphicPacksWindow.cpp:115
-#: src/gui/DownloadGraphicPacksWindow.cpp:193
-#: src/gui/DownloadGraphicPacksWindow.cpp:200
-#: src/gui/GraphicPacksWindow2.cpp:193
-msgid "Graphic packs"
-msgstr "Packs graphiques"
-
-#: src/gui/GettingStartedDialog.cpp:89
-msgid ""
-"Graphic packs improve games by offering the possibility to change "
-"resolution, tweak FPS or add other visual or gameplay modifications.\n"
-"Download the community graphic packs to get started.\n"
-msgstr ""
-"Les packs graphiques améliorent les jeux en donnant la possibilité de "
-"changer la résolution,\n"
-"d'augmenter les FPS, ou d'ajouter des modifications visuelles ou de "
-"gameplay.\n"
-"Téléchargez les packs graphiques de la communauté pour commencer.\n"
-
-#: src/gui/GettingStartedDialog.cpp:91
-msgid "Download community graphic packs"
-msgstr "Télécharger les packs graphiques de la communauté"
-
-#: src/gui/GettingStartedDialog.cpp:105
-msgid "Next"
-msgstr "Suivant"
-
-#: src/gui/GettingStartedDialog.cpp:125
-msgid ""
-"You can configure one controller for each player.\n"
-"We advise you to always use GamePad as emulated input for the first player, "
-"since many games expect the GamePad to be present.\n"
-"It is also required for touch functionality.\n"
-"The default global hotkeys are:\n"
-"CTRL - show pad screen\n"
-"CTRL + TAB - toggle pad screen\n"
-"ALT + ENTER - toggle fullscreen\n"
-"ESC - leave fullscreen\n"
-"\n"
-"If you're having trouble configuring your controller, make sure to have it "
-"in idle state and press calibrate.\n"
-"Also don't set the axis deadzone too low."
-msgstr ""
-"Vous pouvez configurer une manette pour chaque joueur.\n"
-"Nous vous conseillons de toujours utiliser le GamePad comme manette émulée "
-"pour le premier joueur,\n"
-"car beaucoup de jeux considèrent que le GamePad est présent. Il est aussi "
-"requis pour les fonctionnalités tactiles.\n"
-"Les touches de raccourcis générales par défaut sont :\n"
-"CTRL  : afficher l'écran du GamePad\n"
-"CTRL + TAB  : (dés)activer l'écran du GamePad\n"
-"ALT + ENTRÉE  : passer en Plein écran\n"
-"ÉCHAP  : sortir du mode Plein écran\n"
-"\n"
-"Si vous rencontrez des problèmes pour configurer votre manette, vérifiez "
-"qu'elle n'est pas utilisée et appuyez sur Calibrer.\n"
-"Veillez également à ne pas régler de manière trop faible la zone morte des "
-"axes."
-
-#: src/gui/GettingStartedDialog.cpp:127
-msgid "Configure input"
-msgstr "Paramétrer les manettes"
-
-#: src/gui/GettingStartedDialog.cpp:135
-msgid "Additional options"
-msgstr "Options supplémentaires"
-
-#: src/gui/GettingStartedDialog.cpp:141
-msgid "Start games with fullscreen"
-msgstr "Démarrer les jeux en plein écran"
-
-#: src/gui/GettingStartedDialog.cpp:144
-msgid "Open separate pad screen"
-msgstr "Afficher l'écran du GamePad dans une seconde fenêtre"
-
-#: src/gui/GettingStartedDialog.cpp:147 src/gui/GeneralSettings2.cpp:166
-msgid "Automatically check for updates"
-msgstr "Vérifier automatiquement la disponibilité de mises à jour"
-
-#: src/gui/GettingStartedDialog.cpp:164
-msgid "Don't show this again"
-msgstr "Ne plus afficher"
-
-#: src/gui/GettingStartedDialog.cpp:168
-msgid "Previous"
-msgstr "Précédent"
-
-#: src/gui/GettingStartedDialog.cpp:257
-msgid "Getting started"
-msgstr "Pour commencer"
-
-#: src/gui/GettingStartedDialog.cpp:288
-msgid "Do you want to view the downloaded graphic packs?"
-msgstr "Souhaitez-vous voir les packs graphiques téléchargés ?"
-
-#: src/gui/MainWindow.cpp:271 src/gui/MainWindow.cpp:746
-#: src/gui/MainWindow.cpp:769
-msgid "Cannot open file"
-msgstr "Impossible d'ouvrir le fichier"
-
-#: src/gui/MainWindow.cpp:273 src/gui/MainWindow.cpp:748
-#: src/gui/MainWindow.cpp:771
-msgid "Not a valid NFC NTAG215 file"
-msgstr "Ceci n'est pas un fichier NFC NTAG215 valide"
-
-#: src/gui/MainWindow.cpp:464
-msgid "Title installed!"
-msgstr "Le titre est installé !"
-
-#: src/gui/MainWindow.cpp:470
-msgid "Title installation has been canceled!"
-msgstr "L'installation du titre a été annulée !"
-
-#: src/gui/MainWindow.cpp:483 src/gui/TitleManager.cpp:401
-msgid "Update error"
-msgstr "Erreur lors de la mise à jour"
-
-#: src/gui/MainWindow.cpp:499
-msgid "Unable to launch game because the base files were not found."
-msgstr ""
-"Impossible de démarrer le jeu car les fichiers de base n'ont pas été trouvés."
-
-#: src/gui/MainWindow.cpp:511
-msgid ""
-"Unable to mount title.\n"
-"Make sure the configured game paths are still valid and refresh the game "
-"list.\n"
-"\n"
-"File which failed to load:\n"
-msgstr ""
-"Impossible de monter le titre.\n"
-"Vérifiez que les chemins configurés pour les jeux sont toujours valides et "
-"rechargez la liste des jeux.\n"
-"\n"
-"Voici le fichier qui n'a pu être chargé :\n"
-
-#: src/gui/MainWindow.cpp:518
-msgid "Failed to launch game."
-msgstr "Impossible de démarrer le jeu."
-
-#: src/gui/MainWindow.cpp:535
-msgid "Failed to launch executable. Path: "
-msgstr "Impossible de démarrer l'exécutable. Chemin : "
-
-#: src/gui/MainWindow.cpp:543
-msgid ""
-"Unable to launch title.\n"
-"Make sure the configured game paths are still valid and refresh the game "
-"list.\n"
-"\n"
-"Path which failed to load:\n"
-msgstr ""
-"Impossible de démarrer le titre.\n"
-"Vérifiez que les chemins configurés pour les jeux sont toujours valides et "
-"rechargez la liste des jeux.\n"
-"\n"
-"Voici le fichier qui n'a pu être chargé :\n"
-
-#: src/gui/MainWindow.cpp:551 src/gui/MainWindow.cpp:568
-msgid ""
-"Unable to launch game\n"
-"Path:\n"
-msgstr ""
-"Impossible de démarrer le jeu\n"
-"Chemin :\n"
-
-#: src/gui/MainWindow.cpp:556
-msgid ""
-"Could not decrypt title. Make sure that keys.txt contains the correct disc "
-"key for this title."
-msgstr ""
-"Impossible de déchiffrer le titre. Vérifiez que le fichier keys.txt contient "
-"une clé correcte de disque pour ce titre."
-
-#: src/gui/MainWindow.cpp:561
-msgid "Could not decrypt title because title.tik is missing."
-msgstr ""
-"Impossible de déchiffrer le titre parce qu'il manque le fichier title.tik."
-
-#: src/gui/MainWindow.cpp:649
-msgid "All Wii U files (*.wud, *.wux, *.wua, *.iso, *.rpx, *.elf)"
-msgstr "Tous les fichiers Wii U (*.wud, *.wux, *.wua, *.iso, *.rpx, *.elf)"
-
-#: src/gui/MainWindow.cpp:650
-msgid "Wii U image (*.wud, *.wux, *.iso, *.wad)"
-msgstr "Image Wii U (*.wud, *.wux, *.iso, *.wad)"
-
-#: src/gui/MainWindow.cpp:651
-msgid "Wii U NUS content"
-msgstr "Contenu WiiU NUS"
-
-#: src/gui/MainWindow.cpp:652
-msgid "Wii U archive (*.wua)"
-msgstr "Archive Wii U (*.wua)"
-
-#: src/gui/MainWindow.cpp:653
-msgid "Wii U executable (*.rpx, *.elf)"
-msgstr "Exécutable Wii U (*.rpx, *.elf)"
-
-#: src/gui/MainWindow.cpp:654
-msgid "All files (*.*)"
-msgstr "Tous les fichiers (*.*)"
-
-#: src/gui/MainWindow.cpp:657
-msgid "Open file to launch"
-msgstr "Ouvrir le fichier à lancer"
-
-#: src/gui/MainWindow.cpp:696
-msgid "Select folder of title to install"
-msgstr "Sélectionnez le dossier du titre à installer"
-
-#: src/gui/MainWindow.cpp:696
-msgid "Select the folder that stores your update, DLC or base game files"
-msgstr ""
-"Sélectionnez le dossier contenant les mises à jour, DLC ou fichiers de base "
-"du jeu"
-
-#: src/gui/MainWindow.cpp:712
-msgid ""
-"The (parent) folder of the title you selected is missing at least one of the "
-"required subfolders (\"code\", \"content\" and \"meta\")\n"
-"Make sure that the files are complete."
-msgstr ""
-"Le dossier (parent) du jeu que vous avez sélectionné ne contient pas au "
-"moins un des sous-dossiers requis (\"code\", \"content\" and \"meta\")\n"
-"Vérifiez que les fichiers sont complets."
-
-#: src/gui/MainWindow.cpp:720
-msgid "The folder you have selected cannot be found on your system."
-msgstr ""
-"Le dossier que vous avez sélectionné ne peut pas être trouvé sur votre "
-"système."
-
-#: src/gui/MainWindow.cpp:722
-msgid "Unable to find the /meta/meta.xml file inside the selected folder."
-msgstr ""
-"Impossible de trouver le fichier /meta/meta.xml dans le dossier sélectionné."
-
-#: src/gui/MainWindow.cpp:737
-msgid "Open file to load"
-msgstr "Ouvrir le fichier à charger"
-
-#: src/gui/MainWindow.cpp:878
-msgid "Cemu must be restarted to apply the selected UI language."
-msgstr "Cemu doit être redémarré afin d'appliquer le changement de langue."
-
-#: src/gui/MainWindow.cpp:1046
-msgid ""
-"Warning: Disabling the accurate barriers option will lead to flickering "
-"graphics but may improve performance. It is highly recommended to leave it "
-"turned on."
-msgstr ""
-"Attention : Désactiver l'option des barrières fiables provoquera des "
-"graphismes clignottants mais peut améliorer les performances. Il est "
-"fortement recommandé de la laisser activée."
-
-#: src/gui/MainWindow.cpp:1046
-msgid "Accurate barriers are off"
-msgstr "Les barrières fiables sont désactivées."
-
-#: src/gui/MainWindow.cpp:1444
-msgid "Updating game list..."
-msgstr "Mise à jour de la liste des jeux..."
-
-#: src/gui/MainWindow.cpp:1779
-msgid ""
-"There's a new update available.\n"
-"Do you want to update?"
-msgstr ""
-"Une mise à jour est disponible.\n"
-"Voulez-vous mettre à jour ?"
-
-#: src/gui/MainWindow.cpp:1779
-msgid "Update notification"
-msgstr "Message de mise à jour"
-
-#: src/gui/MainWindow.cpp:1816
-msgid "About Cemu"
-msgstr "À propos de Cemu"
-
-#: src/gui/MainWindow.cpp:1848
-msgid ""
-"Cemu\n"
-"Version {0}\n"
-"Compiled on {1}\n"
-"Original authors: {2}"
-msgstr ""
-"Cemu\n"
-"Version {0}\n"
-"Compilée le {1}\n"
-"Auteurs d'origine : {2}"
-
-#: src/gui/MainWindow.cpp:1857
-msgid ""
-"Cemu is a Wii U emulator.\n"
-"\n"
-"Wii and Wii U are trademarks of Nintendo.\n"
-"Cemu is not affiliated with Nintendo."
-msgstr ""
-"Cemu est un émulateur de Wii U.\n"
-"\n"
-"Wii et Wii U sont des marques déposées de Nintendo.\n"
-"Cemu n'a aucune affiliation avec Nintendo."
-
-#: src/gui/MainWindow.cpp:1867
-msgid "Used libraries and utilities:"
-msgstr "Bibliothèques et outils utilisés :"
-
-#: src/gui/MainWindow.cpp:2008
-msgid "Thanks to our Patreon supporters:"
-msgstr "Merci à nos supporters sur Patreon :"
-
-#: src/gui/MainWindow.cpp:2038
-msgid "Special thanks:"
-msgstr "Remerciements particuliers :"
-
-#: src/gui/MainWindow.cpp:2080
-msgid "&Load..."
-msgstr "&Charger..."
-
-#: src/gui/MainWindow.cpp:2081
-msgid "&Install game title, update or DLC..."
-msgstr "&Installer un jeu, une mise à jour ou un DLC..."
-
-#: src/gui/MainWindow.cpp:2105
-msgid "Stop emulation"
-msgstr "Arrêter l'émulation"
-
-#: src/gui/MainWindow.cpp:2109
-msgid "&Open Cemu folder"
-msgstr "&Ouvrir le dossier Cemu"
-
-#: src/gui/MainWindow.cpp:2130
-msgid "&English"
-msgstr "&Anglais"
-
-#: src/gui/MainWindow.cpp:2131
-msgid "&Japanese"
-msgstr "&Japonais"
-
-#: src/gui/MainWindow.cpp:2132
-msgid "&French"
-msgstr "&Français"
-
-#: src/gui/MainWindow.cpp:2133
-msgid "&German"
-msgstr "A&llemand"
-
-#: src/gui/MainWindow.cpp:2134
-msgid "&Italian"
-msgstr "&Italien"
-
-#: src/gui/MainWindow.cpp:2135
-msgid "&Spanish"
-msgstr "&Espagnol"
-
-#: src/gui/MainWindow.cpp:2136
-msgid "&Chinese"
-msgstr "&Chinois"
-
-#: src/gui/MainWindow.cpp:2137
-msgid "&Korean"
-msgstr "C&oréen"
-
-#: src/gui/MainWindow.cpp:2138
-msgid "&Dutch"
-msgstr "&Hollandais"
-
-#: src/gui/MainWindow.cpp:2139
-msgid "&Portuguese"
-msgstr "&Portugais"
-
-#: src/gui/MainWindow.cpp:2140
-msgid "&Russian"
-msgstr "&Russe"
-
-#: src/gui/MainWindow.cpp:2141
-msgid "&Taiwanese"
-msgstr "&Taiwanais"
-
-#: src/gui/MainWindow.cpp:2145
-msgid "&Fullscreen"
-msgstr "&Plein écran"
-
-#: src/gui/MainWindow.cpp:2148
-msgid "&Graphic packs"
-msgstr "Packs &graphiques"
-
-#: src/gui/MainWindow.cpp:2149
-msgid "&Separate GamePad view"
-msgstr "&Vue séparée du GamePad"
-
-#: src/gui/MainWindow.cpp:2152
-msgid "&General settings"
-msgstr "Paramètres &généraux"
-
-#: src/gui/MainWindow.cpp:2153
-msgid "&Input settings"
-msgstr "Paramètres des &manettes"
-
-#: src/gui/MainWindow.cpp:2156
-msgid "&Active account"
-msgstr "Compte &actif"
-
-#: src/gui/MainWindow.cpp:2157
-msgid "&Console language"
-msgstr "&Langue de la console"
-
-#: src/gui/MainWindow.cpp:2162
-msgid "&Memory searcher"
-msgstr "&Rechercher dans la mémoire"
-
-#: src/gui/MainWindow.cpp:2164
-msgid "&Title Manager"
-msgstr "&Gestionnaire de titres"
-
-#: src/gui/MainWindow.cpp:2165
-msgid "&Download Manager"
-msgstr "&Gestionnaire de téléchargement"
-
-#: src/gui/MainWindow.cpp:2167
-msgid "&Tools"
-msgstr "&Outils"
-
-#: src/gui/MainWindow.cpp:2171
-msgid "&1x speed"
-msgstr "Vitesse &normale"
-
-#: src/gui/MainWindow.cpp:2172
-msgid "&2x speed"
-msgstr "Vitesse &2x"
-
-#: src/gui/MainWindow.cpp:2173
-msgid "&4x speed"
-msgstr "Vitesse &4x"
-
-#: src/gui/MainWindow.cpp:2174
-msgid "&8x speed"
-msgstr "Vitesse &8x"
-
-#: src/gui/MainWindow.cpp:2175
-msgid "&0.5x speed"
-msgstr "Vitesse &0,5x"
-
-#: src/gui/MainWindow.cpp:2176
-msgid "&0.25x speed"
-msgstr "Vitesse &0,25x"
-
-#: src/gui/MainWindow.cpp:2177
-msgid "&0.125x speed"
-msgstr "Vitesse &0,125x"
-
-#: src/gui/MainWindow.cpp:2181
-msgid "&Timer speed"
-msgstr "&Vitesse de l'horloge"
-
-#: src/gui/MainWindow.cpp:2182
-msgid "&CPU"
-msgstr "&CPU"
-
-#: src/gui/MainWindow.cpp:2187
-msgid "&Scan NFC tag from file"
-msgstr "&Scanner un tag NFC depuis un fichier"
-
-#: src/gui/MainWindow.cpp:2188
-msgid "&NFC"
-msgstr "&NFC"
-
-#: src/gui/MainWindow.cpp:2193
-msgid "&Unsupported API calls"
-msgstr "&Appels d'API non pris en charge"
-
-#: src/gui/MainWindow.cpp:2194
-msgid "&Coreinit Logging (OSReport/OSConsole)"
-msgstr "Journalisation de &Coreinit (OSReport/OSConsole)"
-
-#: src/gui/MainWindow.cpp:2195
-msgid "&Coreinit File-Access API"
-msgstr "API d'accès au fichier &Coreinit"
-
-#: src/gui/MainWindow.cpp:2196
-msgid "&Coreinit Thread-Synchronization API"
-msgstr "API de &synchronisation de flux Coreinit"
-
-#: src/gui/MainWindow.cpp:2197
-msgid "&Coreinit Memory API"
-msgstr "API &mémoire Coreinit"
-
-#: src/gui/MainWindow.cpp:2198
-msgid "&Coreinit MP API"
-msgstr "API &Coreinit MP"
-
-#: src/gui/MainWindow.cpp:2199
-msgid "&Coreinit Thread API"
-msgstr "API Thread &Coreinit"
-
-#: src/gui/MainWindow.cpp:2200
-msgid "&NN NFP"
-msgstr "&NN NFP"
-
-#: src/gui/MainWindow.cpp:2201
-msgid "&GX2 API"
-msgstr "API &GX2"
-
-#: src/gui/MainWindow.cpp:2202
-msgid "&Audio API"
-msgstr "API &audio"
-
-#: src/gui/MainWindow.cpp:2203
-msgid "&Input API"
-msgstr "API des &entrées"
-
-#: src/gui/MainWindow.cpp:2204
-msgid "&Socket API"
-msgstr "API du &socket"
-
-#: src/gui/MainWindow.cpp:2205
-msgid "&Save API"
-msgstr "API des &sauvegardes"
-
-#: src/gui/MainWindow.cpp:2206
-msgid "&H264 API"
-msgstr "API &H264"
-
-#: src/gui/MainWindow.cpp:2208
-msgid "&Graphic pack patches"
-msgstr "Pack de patchs &graphiques"
-
-#: src/gui/MainWindow.cpp:2209
-msgid "&Texture cache warnings"
-msgstr "Avertissements de cache de &texture"
-
-#: src/gui/MainWindow.cpp:2210
-msgid "&Texture readback"
-msgstr "&Renvoi de texture"
-
-#: src/gui/MainWindow.cpp:2212
-msgid "&OpenGL debug output"
-msgstr "Sortie de débogage &OpenGL"
-
-#: src/gui/MainWindow.cpp:2213
-msgid "&Vulkan validation layer (slow)"
-msgstr "Couche de validation &Vulkan (lent)"
-
-#: src/gui/MainWindow.cpp:2214
-msgid "&Log PPC context for API"
-msgstr "&Enregistrer le contexte PPC pour l'API"
-
-#: src/gui/MainWindow.cpp:2218
-msgid "&Textures"
-msgstr "&Textures"
-
-#: src/gui/MainWindow.cpp:2219
-msgid "&Shaders"
-msgstr "&Shaders"
-
-#: src/gui/MainWindow.cpp:2220
-msgid "&nlibcurl HTTP/HTTPS requests"
-msgstr "Requêtes HTTP/HTTPS &nlibcurl"
-
-#: src/gui/MainWindow.cpp:2224
-msgid "&Logging"
-msgstr "&Journaux"
-
-#: src/gui/MainWindow.cpp:2225
-msgid "&Dump"
-msgstr "&Dump"
-
-#: src/gui/MainWindow.cpp:2228
-msgid "&Render upside-down"
-msgstr "&Rendu retourné"
-
-#: src/gui/MainWindow.cpp:2233
-msgid "&Accurate barriers (Vulkan)"
-msgstr "&Barrières fiables (Vulkan)"
-
-#: src/gui/MainWindow.cpp:2239
-msgid "&Audio AUX only"
-msgstr "&Audio AUX uniquement"
-
-#: src/gui/MainWindow.cpp:2243
-msgid "&Open logging window"
-msgstr "&Ouvrir la fenêtre de journalisation"
-
-#: src/gui/MainWindow.cpp:2244
-msgid "&Launch with GDB stub"
-msgstr "&Démarrer avec le stub GDB"
-
-#: src/gui/MainWindow.cpp:2248
-msgid "&View PPC threads"
-msgstr "&Afficher les flux PPC"
-
-#: src/gui/MainWindow.cpp:2249
-msgid "&View PPC debugger"
-msgstr "Afficher le débogueur &PPC"
-
-#: src/gui/MainWindow.cpp:2250
-msgid "&View audio debugger"
-msgstr "Afficher le débogueur &audio"
-
-#: src/gui/MainWindow.cpp:2251
-msgid "&View texture cache info"
-msgstr "&Afficher les infos des caches de texture"
-
-#: src/gui/MainWindow.cpp:2252
-msgid "&Dump current RAM"
-msgstr "&Dumper la RAM"
-
-#: src/gui/MainWindow.cpp:2255
-msgid "&Debug"
-msgstr "&Débug"
-
-#: src/gui/MainWindow.cpp:2258
-msgid "&Check for updates"
-msgstr "&Chercher des mises à jour"
-
-#: src/gui/MainWindow.cpp:2262
-msgid "&Getting started"
-msgstr "&Pour commencer"
-
-#: src/gui/MainWindow.cpp:2264
-msgid "&About Cemu"
-msgstr "&À propos de Cemu"
-
-#: src/gui/MainWindow.cpp:2266
-msgid "&Help"
-msgstr "&Aide"
-
-#: src/gui/MemorySearcherTool.cpp:50
-msgid "Memory Searcher"
-msgstr "Rechercher dans la mémoire"
-
-#: src/gui/MemorySearcherTool.cpp:63 src/gui/MemorySearcherTool.cpp:419
-msgid "Search"
-msgstr "Rechercher"
-
-#: src/gui/MemorySearcherTool.cpp:81 src/gui/MemorySearcherTool.cpp:420
-msgid "Results"
-msgstr "Résultats"
-
-#: src/gui/MemorySearcherTool.cpp:92 src/gui/MemorySearcherTool.cpp:105
-msgid "Value"
-msgstr "Valeur"
-
-#: src/gui/MemorySearcherTool.cpp:97
-msgid "Stored Entries"
-msgstr "Entrées stockées"
-
-#: src/gui/MemorySearcherTool.cpp:102 src/gui/GraphicPacksWindow2.cpp:265
-msgid "Description"
-msgstr "Description"
-
-#: src/gui/MemorySearcherTool.cpp:106
-msgid "Freeze"
-msgstr "Geler"
-
-#: src/gui/MemorySearcherTool.cpp:198
-msgid "Your entered value is not valid for the selected datatype."
-msgstr "La valeur entrée n'est pas valide pour le type de données sélectionné."
-
-#: src/gui/MemorySearcherTool.cpp:383
-msgid "&Add new entry"
-msgstr "&Ajouter une nouvelle entrée"
-
-#: src/gui/MemorySearcherTool.cpp:384
-msgid "&Remove entry"
-msgstr "&Supprimer l'entrée"
-
-#: src/gui/MemorySearcherTool.cpp:475
-msgid "Results ({0})"
-msgstr "Résultats ({0})"
 
 #: src/gui/GeneralSettings2.cpp:116
 msgid "Interface"
@@ -2613,6 +1635,10 @@ msgstr ""
 "Ajoutez le dossier racine de vos jeux. Cemu recherchera vos jeux dans les "
 "sous-dossiers"
 
+#: src/gui/GeneralSettings2.cpp:236 src/gui/input/InputAPIAddWindow.cpp:71
+msgid "Add"
+msgstr "Ajouter"
+
 #: src/gui/GeneralSettings2.cpp:238
 msgid ""
 "Adds a game path to scan for games displayed in the game list\n"
@@ -2750,6 +1776,10 @@ msgstr ""
 "Contrôle le rapport hauteur/largeur de sortie lorsqu'il ne correspond pas à "
 "celui du jeu"
 
+#: src/gui/GeneralSettings2.cpp:348 src/gui/input/InputAPIAddWindow.cpp:36
+msgid "API"
+msgstr "Moteur"
+
 #: src/gui/GeneralSettings2.cpp:361
 msgid "Select one of the available audio back ends"
 msgstr "Sélectionnez un des moteurs audio disponibles"
@@ -2800,6 +1830,12 @@ msgstr ""
 msgid "Channels"
 msgstr "Canaux"
 
+#: src/gui/GeneralSettings2.cpp:408 src/gui/GeneralSettings2.cpp:449
+#: src/gui/GeneralSettings2.cpp:490 src/gui/input/panels/VPADInputPanel.cpp:103
+#: src/gui/input/panels/WiimoteInputPanel.cpp:99
+msgid "Volume"
+msgstr "Volume"
+
 #: src/gui/GeneralSettings2.cpp:422
 msgid "Gamepad"
 msgstr "Manette"
@@ -2817,6 +1853,14 @@ msgstr "Micro (expérimental)"
 #: src/gui/GeneralSettings2.cpp:473
 msgid "Select the active audio input device for Wii U GamePad"
 msgstr "Sélectionne l'entrée audio active pour le GamePad de la WiiU"
+
+#: src/gui/GeneralSettings2.cpp:512 src/gui/GeneralSettings2.cpp:802
+#: src/gui/GeneralSettings2.cpp:804 src/gui/GeneralSettings2.cpp:1174
+#: src/gui/GeneralSettings2.cpp:1175 src/gui/GeneralSettings2.cpp:1176
+#: src/gui/input/InputSettings2.cpp:215 src/gui/input/InputSettings2.cpp:391
+#: src/gui/input/InputSettings2.cpp:784
+msgid "Disabled"
+msgstr "Désactivé"
 
 #: src/gui/GeneralSettings2.cpp:512
 msgid "Top left"
@@ -3136,43 +2180,43 @@ msgstr "Graphismes"
 msgid "Audio"
 msgstr "Audio"
 
-#: src/gui/GeneralSettings2.cpp:848 src/gui/TitleManager.cpp:103
-msgid "Account"
-msgstr "Compte"
-
-#: src/gui/GeneralSettings2.cpp:1256
+#: src/gui/GeneralSettings2.cpp:1254
 msgid "Can't delete the only account!"
 msgstr "Impossible de supprimer l'unique compte !"
 
-#: src/gui/GeneralSettings2.cpp:1266
+#: src/gui/GeneralSettings2.cpp:1264
 msgid "Are you sure you want to delete the account {} with id {:x}?"
 msgstr "Êtes-vous sûr de vouloir supprimer le compte {} avec l'ID {:x} ?"
 
-#: src/gui/GeneralSettings2.cpp:1372
+#: src/gui/GeneralSettings2.cpp:1370
 msgid "At least one issue has been found"
 msgstr "Au moins une erreur a été rencontrée"
 
-#: src/gui/GeneralSettings2.cpp:1409
+#: src/gui/GeneralSettings2.cpp:1407
 msgid "Your account is a valid online account"
 msgstr "Votre compte est un compte en ligne valide"
 
-#: src/gui/GeneralSettings2.cpp:1450 src/gui/GeneralSettings2.cpp:1469
+#: src/gui/GeneralSettings2.cpp:1448 src/gui/GeneralSettings2.cpp:1467
 msgid "Off"
 msgstr "Aucune"
 
-#: src/gui/GeneralSettings2.cpp:1470
+#: src/gui/GeneralSettings2.cpp:1449 src/gui/debugger/BreakpointWindow.cpp:43
+msgid "On"
+msgstr "Actif"
+
+#: src/gui/GeneralSettings2.cpp:1468
 msgid "Double buffering"
 msgstr "Double tampon"
 
-#: src/gui/GeneralSettings2.cpp:1471
+#: src/gui/GeneralSettings2.cpp:1469
 msgid "Triple buffering"
 msgstr "Triple tampon"
 
-#: src/gui/GeneralSettings2.cpp:1473
+#: src/gui/GeneralSettings2.cpp:1471
 msgid "Match emulated display (Experimental)"
 msgstr "Faire correspondre à l'écran émulé (expérimental)"
 
-#: src/gui/GeneralSettings2.cpp:1681
+#: src/gui/GeneralSettings2.cpp:1679
 msgid ""
 "Please be aware that online mode lets you connect to OFFICIAL servers and "
 "therefore there is a risk of getting banned.\n"
@@ -3185,15 +2229,15 @@ msgstr ""
 "en ligne\n"
 "sur votre Wii U et/ou NNID."
 
-#: src/gui/GeneralSettings2.cpp:1896
+#: src/gui/GeneralSettings2.cpp:1894
 msgid "You have to restart the game in order to apply the new settings."
 msgstr "Vous devez redémarrer le jeu pour appliquer les nouveaux réglages."
 
-#: src/gui/GeneralSettings2.cpp:1908
+#: src/gui/GeneralSettings2.cpp:1906
 msgid "Select a directory containing games."
 msgstr "Sélectionner un dossier contenant des jeux."
 
-#: src/gui/GeneralSettings2.cpp:1978
+#: src/gui/GeneralSettings2.cpp:1976
 msgid ""
 "The default MLC path is inaccessible.\n"
 "Do you want to select a different path?"
@@ -3201,45 +2245,45 @@ msgstr ""
 "Le chemin par défaut de la MLC est inaccessible.\n"
 "Souhaitez-vous sélectionner un dossier différent ?"
 
-#: src/gui/GeneralSettings2.cpp:2005
+#: src/gui/GeneralSettings2.cpp:2003
 msgid "The following error(s) have been found:"
 msgstr "Le(s) erreur(s) suivante(s) ont été trouvées :"
 
-#: src/gui/GeneralSettings2.cpp:2008
+#: src/gui/GeneralSettings2.cpp:2006
 msgid "otp.bin missing in Cemu root directory"
 msgstr "Il manque otp.bin dans le dossier racine de Cemu"
 
-#: src/gui/GeneralSettings2.cpp:2010
+#: src/gui/GeneralSettings2.cpp:2008
 msgid "otp.bin is invalid"
 msgstr "otp.bin est invalide"
 
-#: src/gui/GeneralSettings2.cpp:2013
+#: src/gui/GeneralSettings2.cpp:2011
 msgid "seeprom.bin missing in Cemu root directory"
 msgstr "Il manque seeprom.bin dans le dossier racine de Cemu"
 
-#: src/gui/GeneralSettings2.cpp:2015
+#: src/gui/GeneralSettings2.cpp:2013
 msgid "seeprom.bin is invalid"
 msgstr "seeprom.bin est invalide"
 
-#: src/gui/GeneralSettings2.cpp:2019
+#: src/gui/GeneralSettings2.cpp:2017
 msgid "Missing certificate and key files:"
 msgstr "Il manque les fichiers de certificat et de clé :"
 
-#: src/gui/GeneralSettings2.cpp:2039
+#: src/gui/GeneralSettings2.cpp:2037
 msgid "The currently selected account is not a valid or dumped online account:"
 msgstr ""
 "Le compte actuellement sélectionné n'est pas un compte en ligne valide ou "
 "dumpé :"
 
-#: src/gui/GeneralSettings2.cpp:2043
+#: src/gui/GeneralSettings2.cpp:2041
 msgid "Online Status"
 msgstr "Statut en ligne"
 
-#: src/gui/GeneralSettings2.cpp:2050
+#: src/gui/GeneralSettings2.cpp:2048
 msgid "AccountId missing (The account is not connected to a NNID)"
 msgstr "Le AccountID est manquant (le compte n'est pas connecté à un NNID)"
 
-#: src/gui/GeneralSettings2.cpp:2052
+#: src/gui/GeneralSettings2.cpp:2050
 msgid ""
 "IsPasswordCacheEnabled is set to false (The remember password option on your "
 "Wii U must be enabled for this account before dumping it)"
@@ -3248,7 +2292,7 @@ msgstr ""
 "passe sur votre WiiU doit être activée pour ce compte avant d'en faire un "
 "dump)"
 
-#: src/gui/GeneralSettings2.cpp:2054
+#: src/gui/GeneralSettings2.cpp:2052
 msgid ""
 "AccountPasswordCache is empty (The remember password option on your Wii U "
 "must be enabled for this account before dumping it)"
@@ -3256,9 +2300,496 @@ msgstr ""
 "AccountPasswordCache est vide (l'option Se souvenir du mot de passe sur "
 "votre WiiU doit être activée pour ce compte avant d'en faire un dump)"
 
-#: src/gui/GeneralSettings2.cpp:2056
+#: src/gui/GeneralSettings2.cpp:2054
 msgid "PrincipalId missing"
 msgstr "Il manque PrincipalId"
+
+#: src/gui/input/panels/VPADInputPanel.cpp:61
+#: src/gui/input/panels/ProControllerInputPanel.cpp:41
+#: src/gui/input/panels/ClassicControllerInputPanel.cpp:42
+msgid "Left Axis"
+msgstr "Axe gauche"
+
+#: src/gui/input/panels/VPADInputPanel.cpp:84
+#: src/gui/input/panels/ProControllerInputPanel.cpp:64
+#: src/gui/input/panels/ClassicControllerInputPanel.cpp:65
+msgid "Right Axis"
+msgstr "Axe droit"
+
+#: src/gui/input/panels/VPADInputPanel.cpp:123
+#: src/gui/input/panels/WiimoteInputPanel.cpp:87
+#: src/gui/input/panels/ProControllerInputPanel.cpp:87
+#: src/gui/input/panels/ClassicControllerInputPanel.cpp:88
+msgid "D-pad"
+msgstr "Croix directionnelle"
+
+#: src/gui/input/panels/VPADInputPanel.cpp:135
+msgid "blow mic"
+msgstr "Souffle sur micro"
+
+#: src/gui/input/panels/VPADInputPanel.cpp:138
+msgid "show screen"
+msgstr "Afficher l'écran"
+
+#: src/gui/input/panels/WiimoteInputPanel.cpp:43
+msgid "Pair a Wii or Wii U controller"
+msgstr "Jumeler une manette Wii ou WiiU"
+
+#: src/gui/input/panels/WiimoteInputPanel.cpp:51
+msgid "Extensions:"
+msgstr "Extensions :"
+
+#: src/gui/input/panels/WiimoteInputPanel.cpp:54
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:310
+msgid "MotionPlus"
+msgstr "MotionPlus"
+
+#: src/gui/input/panels/WiimoteInputPanel.cpp:58
+#: src/gui/input/panels/WiimoteInputPanel.cpp:120
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:86
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:290
+msgid "Nunchuck"
+msgstr "Nunchuck"
+
+#: src/gui/input/panels/WiimoteInputPanel.cpp:62
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:129
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:295
+msgid "Classic"
+msgstr "Classique"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:19
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:20
+msgid "Controller settings"
+msgstr "Réglages des manettes"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:31
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:44
+msgid "Options"
+msgstr "Options"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:35
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:57
+msgid "Use motion"
+msgstr "Utiliser les mouvements"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:44
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:50
+msgid "Rumble"
+msgstr "Vibreur"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:60
+msgid "Axis"
+msgstr "Axe"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:68
+#: src/gui/input/settings/DefaultControllerSettings.cpp:111
+#: src/gui/input/settings/DefaultControllerSettings.cpp:154
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:94
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:139
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:152
+msgid "Deadzone"
+msgstr "Zone morte"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:81
+#: src/gui/input/settings/DefaultControllerSettings.cpp:124
+#: src/gui/input/settings/DefaultControllerSettings.cpp:167
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:107
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:167
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:180
+msgid "Range"
+msgstr "Radius"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:103
+msgid "Rotation"
+msgstr "Rotation"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:146
+msgid "Trigger"
+msgstr "Gachette"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:192
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:210
+#: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:38
+#: src/gui/dialogs/SaveImport/SaveTransfer.cpp:58
+#: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:59
+msgid "OK"
+msgstr "OK"
+
+#: src/gui/input/settings/DefaultControllerSettings.cpp:202
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:220
+#: src/gui/input/InputSettings2.cpp:262
+msgid "Calibrate"
+msgstr "Étalonner"
+
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:33
+msgid "Connected extension"
+msgstr "Extension connectée"
+
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:36
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:318
+msgid "None"
+msgstr "Aucune"
+
+#: src/gui/input/settings/WiimoteControllerSettings.cpp:68
+msgid "Packet delay"
+msgstr "Délai du paquet"
+
+#: src/gui/input/InputSettings2.cpp:82 src/gui/GameProfileWindow.cpp:169
+msgid "Controller {}"
+msgstr "Manette {}"
+
+#: src/gui/input/InputSettings2.cpp:146
+msgid "Profile"
+msgstr "Profil"
+
+#: src/gui/input/InputSettings2.cpp:164
+msgid "Load"
+msgstr "Charger"
+
+#: src/gui/input/InputSettings2.cpp:168
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: src/gui/input/InputSettings2.cpp:176
+msgid "controller set by gameprofile. changes won't be saved permanently!"
+msgstr ""
+"Manette réglée par le profil du jeu. Les changements ne seront pas "
+"sauvegardés de façon permanente !"
+
+#: src/gui/input/InputSettings2.cpp:208
+msgid "Emulated controller"
+msgstr "Manette émulée"
+
+#: src/gui/input/InputSettings2.cpp:226 src/gui/input/InputAPIAddWindow.cpp:53
+#: src/gui/GameProfileWindow.cpp:183
+msgid "Controller"
+msgstr "Manette"
+
+#: src/gui/input/InputSettings2.cpp:257
+msgid "Settings"
+msgstr "Réglages"
+
+#: src/gui/input/InputSettings2.cpp:267 src/gui/MemorySearcherTool.cpp:204
+msgid "Clear"
+msgstr "Effacer"
+
+#: src/gui/input/InputSettings2.cpp:275
+msgid "Test if the controller is connected"
+msgstr "Teste si la manette est connectée"
+
+#: src/gui/input/InputSettings2.cpp:608 src/gui/input/InputSettings2.cpp:644
+#: src/gui/input/InputSettings2.cpp:676
+msgid "invalid profile name"
+msgstr "Nom de profil non valide"
+
+#: src/gui/input/InputSettings2.cpp:617
+msgid "profile loaded"
+msgstr "Profil chargé"
+
+#: src/gui/input/InputSettings2.cpp:622
+msgid "couldn't load profile"
+msgstr "Impossible de charger le profil"
+
+#: src/gui/input/InputSettings2.cpp:652
+msgid "profile saved"
+msgstr "Profil sauvegardé"
+
+#: src/gui/input/InputSettings2.cpp:657
+msgid "couldn't save profile"
+msgstr "Impossible de sauvegarder le profil"
+
+#: src/gui/input/InputSettings2.cpp:690
+msgid "profile deleted"
+msgstr "Profil supprimé"
+
+#: src/gui/input/InputSettings2.cpp:699
+msgid "can't delete profile"
+msgstr "Impossible de supprimer le profil"
+
+#: src/gui/input/InputSettings2.h:21
+msgid "<profile name>"
+msgstr "<nom du profil>"
+
+#: src/gui/input/InputAPIAddWindow.cpp:92
+msgid "IP"
+msgstr "IP"
+
+#: src/gui/input/InputAPIAddWindow.cpp:96
+msgid "Port"
+msgstr "Port"
+
+#: src/gui/input/InputAPIAddWindow.cpp:131
+msgid "The controller is already added!"
+msgstr "La manette est déjà ajoutée !"
+
+#: src/gui/input/InputAPIAddWindow.cpp:239 src/gui/PairingDialog.cpp:22
+msgid "Searching for controllers..."
+msgstr "Recherche de manettes..."
+
+#: src/gui/debugger/DebuggerWindow2.cpp:222
+msgid "GoTo (CTRL + G)"
+msgstr "GoTo (CTRL + G)"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:225
+msgid "Toggle Breakpoint (F9)"
+msgstr "Activer les points d'arrêts (F9)"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:230
+#: src/gui/debugger/DebuggerWindow2.cpp:493
+msgid "Break (F5)"
+msgstr "Arrêt (F5)"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:232
+msgid "Step Into (F11)"
+msgstr "Aller dedans (F11)"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:233
+msgid "Step Over (F10)"
+msgstr "Aller par-dessus (F10)"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:269
+msgid "PPC Debugger"
+msgstr "Débogeur PPC"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:300
+msgid "> no modules loaded"
+msgstr "> aucun module chargé"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:307
+msgid "> unknown module"
+msgstr "> module inconnu"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:482
+msgid "Run (F5)"
+msgstr "Exécuter (F5)"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:633 src/gui/MainWindow.cpp:2132
+msgid "&Exit"
+msgstr "&Quitter"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:636 src/gui/MainWindow.cpp:2133
+msgid "&File"
+msgstr "&Fichier"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:640
+msgid "&Pin to main window"
+msgstr "&Attacher à la fenêtre principale"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:641
+msgid "Break on &entry point"
+msgstr "Arrêter au point d'&entrée"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:642 src/gui/MainWindow.cpp:2178
+msgid "&Options"
+msgstr "&Options"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:646
+msgid "&Registers"
+msgstr "&Registres"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:647
+msgid "&Memory Dump"
+msgstr "Dumper la &mémoire"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:648
+msgid "&Breakpoints"
+msgstr "&Points d'arrêts"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:649
+msgid "Module&list"
+msgstr "&Liste de modules"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:650
+msgid "&Symbols"
+msgstr "&Symboles"
+
+#: src/gui/debugger/DebuggerWindow2.cpp:652
+msgid "&Window"
+msgstr "&Fenêtre"
+
+#: src/gui/debugger/RegisterWindow.cpp:31
+msgid "Registers"
+msgstr "Registres"
+
+#: src/gui/debugger/RegisterWindow.cpp:78
+msgid "FP view mode"
+msgstr "Mode de vue à la première personne"
+
+#: src/gui/debugger/RegisterWindow.cpp:342
+#: src/gui/debugger/RegisterWindow.cpp:358
+#: src/gui/debugger/RegisterWindow.cpp:374
+#: src/gui/debugger/RegisterCtrl.cpp:204 src/gui/debugger/RegisterCtrl.cpp:223
+#: src/gui/debugger/RegisterCtrl.cpp:237 src/gui/debugger/DumpCtrl.cpp:199
+msgid "Enter a new value."
+msgstr "Entrez une nouvelle valeur."
+
+#: src/gui/debugger/RegisterWindow.cpp:417
+msgid "&Zero"
+msgstr "&Zéro"
+
+#: src/gui/debugger/RegisterWindow.cpp:418
+msgid "&Increment"
+msgstr "&Incrémenter"
+
+#: src/gui/debugger/RegisterWindow.cpp:419
+msgid "&Decrement"
+msgstr "&Décrémenter"
+
+#: src/gui/debugger/RegisterWindow.cpp:421
+msgid "&Copy"
+msgstr "&Copier"
+
+#: src/gui/debugger/RegisterWindow.cpp:423
+msgid "&Goto Disasm"
+msgstr "&Goto Disasm"
+
+#: src/gui/debugger/RegisterWindow.cpp:424
+msgid "G&oto Dump"
+msgstr "G&oto Dump"
+
+#: src/gui/debugger/DisasmCtrl.cpp:614
+msgid "Enter a new instruction."
+msgstr "Entrez une nouvelle instruction."
+
+#: src/gui/debugger/DisasmCtrl.cpp:636
+#: src/gui/debugger/BreakpointWindow.cpp:205
+msgid "Enter a new comment."
+msgstr "Entrez un nouveau commentaire."
+
+#: src/gui/debugger/DisasmCtrl.cpp:760 src/gui/debugger/DumpCtrl.cpp:214
+msgid "Enter a target address."
+msgstr "Entrez une adresse cible."
+
+#: src/gui/debugger/DisasmCtrl.cpp:760 src/gui/debugger/DumpCtrl.cpp:214
+msgid "GoTo address"
+msgstr "GoTo adresse"
+
+#: src/gui/debugger/BreakpointWindow.cpp:30
+msgid "Breakpoints"
+msgstr "Points d'arrêt"
+
+#: src/gui/debugger/BreakpointWindow.cpp:49 src/gui/debugger/SymbolCtrl.cpp:24
+#: src/gui/debugger/ModuleWindow.cpp:41 src/gui/MemorySearcherTool.cpp:87
+#: src/gui/MemorySearcherTool.cpp:103
+msgid "Address"
+msgstr "Adresse"
+
+#: src/gui/debugger/BreakpointWindow.cpp:61
+msgid "Comment"
+msgstr "Commentaires"
+
+#: src/gui/debugger/BreakpointWindow.cpp:205
+#, c-format
+msgid "Set comment for breakpoint at address %08x"
+msgstr "Définit un commentaire pour le point d'arrêt à l'adresse %08x"
+
+#: src/gui/debugger/BreakpointWindow.cpp:223
+msgid "Create execution breakpoint"
+msgstr "Créer un point d'arrêt d'exécution"
+
+#: src/gui/debugger/BreakpointWindow.cpp:224
+msgid "Create logging breakpoint"
+msgstr "Créer un point d'arrêt de journal"
+
+#: src/gui/debugger/BreakpointWindow.cpp:225
+msgid "Create memory breakpoint (read)"
+msgstr "Créer un point d'arrêt mémoire (lecture)"
+
+#: src/gui/debugger/BreakpointWindow.cpp:226
+msgid "Create memory breakpoint (write)"
+msgstr "Créer un point d'arrêt mémoire (écriture)"
+
+#: src/gui/debugger/BreakpointWindow.cpp:237
+msgid "Delete breakpoint"
+msgstr "Supprimer le point d'arrêt"
+
+#: src/gui/debugger/BreakpointWindow.cpp:267
+msgid "Enter a memory address"
+msgstr "Entrez une adresse mémoire"
+
+#: src/gui/debugger/BreakpointWindow.cpp:267
+msgid "Set breakpoint"
+msgstr "Définir le point d'arrêt"
+
+#: src/gui/debugger/DumpWindow.cpp:18
+msgid "Memory Dump"
+msgstr "Dump de la mémoire"
+
+#: src/gui/debugger/SymbolCtrl.cpp:31
+msgid "Module"
+msgstr "Module"
+
+#: src/gui/debugger/ModuleWindow.cpp:23
+msgid "Modules"
+msgstr "Modules"
+
+#: src/gui/debugger/ModuleWindow.cpp:48
+msgid "Size"
+msgstr "Taille"
+
+#: src/gui/debugger/SymbolWindow.cpp:16
+msgid "Symbols"
+msgstr "Symboles"
+
+#: src/gui/LoggingWindow.cpp:16
+msgid "Logging window"
+msgstr "Fenêtre de journalisation"
+
+#: src/gui/LoggingWindow.cpp:30
+msgid "Filter messages"
+msgstr "Filtrer les messages"
+
+#: src/gui/guiWrapper.cpp:139 src/gui/PadViewFrame.cpp:24
+msgid "GamePad View"
+msgstr "Vue du GamePad"
+
+#: src/gui/CemuUpdateWindow.cpp:27
+msgid "Cemu update"
+msgstr "Mise à jour de Cemu"
+
+#: src/gui/CemuUpdateWindow.cpp:38
+msgid "Checking for latest version..."
+msgstr "Recherche de la dernière version..."
+
+#: src/gui/CemuUpdateWindow.cpp:55
+msgid "Changelog"
+msgstr "Changements"
+
+#: src/gui/CemuUpdateWindow.cpp:579 src/gui/CemuUpdateWindow.cpp:596
+msgid "Exit"
+msgstr "Quitter"
+
+#: src/gui/CemuUpdateWindow.cpp:580
+msgid "No update available!"
+msgstr "Aucune mise à jour disponible !"
+
+#: src/gui/CemuUpdateWindow.cpp:595
+msgid "Update available!"
+msgstr "Mise à jour disponible !"
+
+#: src/gui/CemuUpdateWindow.cpp:600
+msgid "Extracting update..."
+msgstr "Extraction de la mise à jour..."
+
+#: src/gui/CemuUpdateWindow.cpp:605
+msgid "Couldn't download the update!"
+msgstr "Impossible de télécharger la mise à jour !"
+
+#: src/gui/CemuUpdateWindow.cpp:608
+msgid "Applying update..."
+msgstr "Application de la mise à jour..."
+
+#: src/gui/CemuUpdateWindow.cpp:615
+msgid "Extracting failed!"
+msgstr "Échec de l'extraction !"
+
+#: src/gui/CemuUpdateWindow.cpp:622
+msgid "Restart"
+msgstr "Redémarrer"
+
+#: src/gui/CemuUpdateWindow.cpp:644
+msgid "Downloading update..."
+msgstr "Téléchargement de la mise à jour..."
 
 #: src/gui/DownloadGraphicPacksWindow.cpp:115
 msgid "Graphic packs cannot be updated while a game is running."
@@ -3294,214 +2825,6 @@ msgstr "Téléchargement des packs graphiques..."
 #: src/gui/DownloadGraphicPacksWindow.cpp:384
 msgid "Extracting..."
 msgstr "Extraction..."
-
-#: src/gui/TitleManager.cpp:69
-#: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:119
-#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:116
-msgid "Refresh"
-msgstr "Rafraîchir"
-
-#: src/gui/TitleManager.cpp:73
-msgid ""
-"The following prefixes are supported:\n"
-"{0}\n"
-"{1}\n"
-"{2}\n"
-"{3}\n"
-"{4}"
-msgstr ""
-"Les préfixes suivants sont pris en charge :\n"
-"{0}\n"
-"{1}\n"
-"{2}\n"
-"{3}\n"
-"{4}"
-
-#: src/gui/TitleManager.cpp:93
-msgid "Install title"
-msgstr "Installer un titre"
-
-#: src/gui/TitleManager.cpp:110
-msgid "Open directory"
-msgstr "Ouvrir le dossier"
-
-#: src/gui/TitleManager.cpp:112
-msgid "Open the directory of the save entry"
-msgstr "Ouvrir le dossier de la sauvegarde"
-
-#: src/gui/TitleManager.cpp:116
-msgid "Transfer"
-msgstr "Transfert"
-
-#: src/gui/TitleManager.cpp:118
-msgid "Transfers the save entry to another persistent account id"
-msgstr "Transfère l'entrée de la sauvegarde vers un autre compte persistant"
-
-#: src/gui/TitleManager.cpp:124
-msgid "Permanently delete the save entry"
-msgstr "Supprimer définitivement l'entrée de sauvegarde"
-
-#: src/gui/TitleManager.cpp:128
-msgid "Import"
-msgstr "Importer"
-
-#: src/gui/TitleManager.cpp:130
-msgid "Imports a zipped save entry"
-msgstr "Importe une sauvegarde compressée au format ZIP"
-
-#: src/gui/TitleManager.cpp:135
-msgid "Exports the selected save entry as zip file"
-msgstr "Exporte la sauvegarde sélectionnée en fichier compressé ZIP"
-
-#: src/gui/TitleManager.cpp:176
-msgid "Connect"
-msgstr "Connection"
-
-#: src/gui/TitleManager.cpp:183
-msgid "Select an account and press Connect"
-msgstr "Sélectionnez un compte et appuyez sur Connection"
-
-#: src/gui/TitleManager.cpp:191
-msgid "Show available titles"
-msgstr "Afficher les titres disponibles"
-
-#: src/gui/TitleManager.cpp:197
-msgid "Show available updates"
-msgstr "Afficher les mises à jour disponibles"
-
-#: src/gui/TitleManager.cpp:203
-msgid "Show installed"
-msgstr "Afficher les titres installés"
-
-#: src/gui/TitleManager.cpp:222 src/gui/TitleManager.cpp:229
-msgid "Title Manager"
-msgstr "Gestionnaire de titres"
-
-#: src/gui/TitleManager.cpp:230
-msgid "Download Manager"
-msgstr "Gestionnaire de téléchargement"
-
-#: src/gui/TitleManager.cpp:235 src/gui/TitleManager.cpp:363
-msgid "Searching for titles..."
-msgstr "Recherche de titres..."
-
-#: src/gui/TitleManager.cpp:282
-msgid "Currently active downloads will continue in the background."
-msgstr "Les téléchargements actifs continuent en arrière-plan"
-
-#: src/gui/TitleManager.cpp:331
-msgid "Found {0} games, {1} updates, {2} DLCs and {3} save entries"
-msgstr ""
-"Trouvé {0} jeux, {1} mises à jour, {2} DLC et {3} entrées de sauvegardes"
-
-#: src/gui/TitleManager.cpp:369
-msgid "Select title to install"
-msgstr "Sélectionnez le titre à installer"
-
-#: src/gui/TitleManager.cpp:388
-msgid "Update installation has been canceled!"
-msgstr "L'installation de la mise à jour a été annulée !"
-
-#: src/gui/TitleManager.cpp:497
-msgid "Are you really sure that you want to delete the save entry for {}"
-msgstr ""
-"Êtes-vous vraiment sûr de vouloir supprimer l'entrée de la sauvegarde pour {}"
-
-#: src/gui/TitleManager.cpp:548
-msgid ""
-"Error when trying to delete the save directory:\n"
-"{}"
-msgstr ""
-"Erreur lors de la tentative de suppression du dossier de la sauvegarde :\n"
-"{}"
-
-#: src/gui/TitleManager.cpp:625
-msgid "Select a target file to export the save entry"
-msgstr "Sélectionnez un fichier de destination pour l'export de la sauvegarde"
-
-#: src/gui/TitleManager.cpp:626
-msgid "Exported save entry (*.zip)"
-msgstr "Entrée de sauvegarde exportée (*.zip)"
-
-#: src/gui/TitleManager.cpp:637
-msgid ""
-"Error when creating the zip for the save entry:\n"
-"{}"
-msgstr ""
-"Erreur lors de la création de la sauvegarde compressée (ZIP):\n"
-"{}"
-
-#: src/gui/TitleManager.cpp:655
-msgid ""
-"Error when trying to add a directory to the zip:\n"
-"{}"
-msgstr ""
-"Erreur lors de la tentative d'ajout d'un dossier au fichier ZIP :\n"
-"{}"
-
-#: src/gui/TitleManager.cpp:664 src/gui/TitleManager.cpp:670
-msgid ""
-"Error when trying to add a file to the zip:\n"
-"{}"
-msgstr ""
-"Erreur lors de la tentative d'ajout d'un fichier au fichier ZIP :\n"
-"{}"
-
-#: src/gui/TitleManager.cpp:683
-msgid ""
-"Error when trying to add cemu_meta file to the zip:\n"
-"{}"
-msgstr ""
-"Erreur en essayant d'ajouter le fichier cemu_meta dans le zip :\n"
-"{}"
-
-#: src/gui/TitleManager.cpp:734
-msgid "Dumped online files not found"
-msgstr "Fichiers en ligne dumpés non trouvés"
-
-#: src/gui/TitleManager.cpp:738
-msgid "Connecting..."
-msgstr "Connexion..."
-
-#: src/gui/TitleManager.cpp:757
-msgid "Getting installed title information..."
-msgstr "Obtention de la liste des titres installés..."
-
-#: src/gui/GraphicPacksWindow2.cpp:227
-msgid "Installed games"
-msgstr "Jeux installés"
-
-#: src/gui/GraphicPacksWindow2.cpp:255
-msgid "Graphic pack"
-msgstr "Packs graphiques"
-
-#: src/gui/GraphicPacksWindow2.cpp:281
-msgid "Reload edited shaders"
-msgstr "Recharger les shaders modifiés"
-
-#: src/gui/GraphicPacksWindow2.cpp:301
-msgid "Download latest community graphic packs"
-msgstr "Télécharger les derniers packs graphiques de la communauté"
-
-#: src/gui/GraphicPacksWindow2.cpp:393
-msgid "Active preset"
-msgstr "Réglage actif"
-
-#: src/gui/GraphicPacksWindow2.cpp:448
-msgid "This graphic pack has no description"
-msgstr "Ce pack graphique n'a aucune description"
-
-#: src/gui/GraphicPacksWindow2.cpp:526 src/gui/GraphicPacksWindow2.cpp:588
-msgid "Restart of Cemu required for changes to take effect"
-msgstr "Vous devez redémarrer Cemu pour que ce changement prenne effet"
-
-#: src/gui/GraphicPacksWindow2.cpp:632
-msgid "This update removed or renamed the following graphic packs:"
-msgstr "Cette mise à jour a supprimé ou renommé ces packs graphiques :"
-
-#: src/gui/GraphicPacksWindow2.cpp:633
-msgid "You may need to set them up again."
-msgstr "Il se peut que vous deviez à nouveau les paramétrer."
 
 #: src/gui/GameProfileWindow.cpp:19 src/gui/GameProfileWindow.cpp:247
 msgid "Edit game profile"
@@ -3607,115 +2930,6 @@ msgstr "Graphismes"
 #: src/gui/GameProfileWindow.cpp:174
 msgid "Forces a given controller profile"
 msgstr "Force un profil défini de manette"
-
-#: src/gui/GameUpdateWindow.cpp:21
-msgid "Base game"
-msgstr "Jeu de base"
-
-#: src/gui/GameUpdateWindow.cpp:23
-msgid "Demo"
-msgstr "Démo"
-
-#: src/gui/GameUpdateWindow.cpp:26
-msgid "System title"
-msgstr "Titre du système"
-
-#: src/gui/GameUpdateWindow.cpp:28
-msgid "System data title"
-msgstr "Titre de données du système"
-
-#: src/gui/GameUpdateWindow.cpp:30 src/gui/CemuUpdateWindow.cpp:44
-msgid "Update"
-msgstr "Mise à jour"
-
-#: src/gui/GameUpdateWindow.cpp:63
-msgid ""
-"It seems that there is already a title installed at the target location but "
-"it has a different type.\n"
-"Currently installed: '{}' Installing: '{}'\n"
-"\n"
-"This can happen for titles which were installed with very old Cemu "
-"versions.\n"
-"Do you still want to continue with the installation? It will replace the "
-"currently installed title."
-msgstr ""
-"Il semble qu'il y a déjà un titre installé à l'emplacement cible mais il a "
-"un type différent.\n"
-"Actuellement installé : '{}' , Installation en cours : '{}'\n"
-"\n"
-"Cela peut arriver pour des titres qui ont été installés sur de très "
-"anciennes versions de Cemu.\n"
-"Voulez-vous toujours procéder à l'installation ? Ceci remplacera le titre "
-"actuellement installé."
-
-#: src/gui/GameUpdateWindow.cpp:70
-msgid ""
-"It seems that the selected title is already installed, do you want to "
-"reinstall it?"
-msgstr ""
-"Il semble que le titre sélectionné soit déjà installé, souhaitez-vous le "
-"réinstaller ?"
-
-#: src/gui/GameUpdateWindow.cpp:76
-msgid ""
-"It seems that a newer version is already installed, do you still want to "
-"install the older version?"
-msgstr ""
-"Il semble qu'une version plus récente soit déjà installée, souhaitez-vous "
-"tout de même installer la version plus ancienne ?"
-
-#: src/gui/GameUpdateWindow.cpp:93
-msgid ""
-"Error when trying to move former title installation:\n"
-"{}"
-msgstr ""
-"Erreur lors de la tentative de déplacement de l'ancienne installation du "
-"titre :\n"
-"{}"
-
-#: src/gui/GameUpdateWindow.cpp:134
-msgid ""
-"Not enough space available.\n"
-"Required: {0} MB\n"
-"Available: {1} MB"
-msgstr ""
-"Pas assez d'espace disponible.\n"
-"Requis : {0} Mio\n"
-"Disponible : {1} Mio"
-
-#: src/gui/GameUpdateWindow.cpp:163
-msgid "Installing DLC..."
-msgstr "Installation du DLC..."
-
-#: src/gui/GameUpdateWindow.cpp:165
-msgid "Installing update..."
-msgstr "Installation de la mise à jour..."
-
-#: src/gui/GameUpdateWindow.cpp:167
-msgid "Installing system title..."
-msgstr "Installation du titre du système..."
-
-#: src/gui/GameUpdateWindow.cpp:169
-msgid "Installing title..."
-msgstr "Installation du titre..."
-
-#: src/gui/GameUpdateWindow.cpp:247
-msgid "Current file:"
-msgstr "Fichier actuel :"
-
-#: src/gui/GameUpdateWindow.cpp:279
-msgid ""
-"Do you really want to cancel the installation process?\n"
-"\n"
-"Canceling the process will delete the applied files."
-msgstr ""
-"Souhaitez-vous vraiment annuler la procédure d'installation ?\n"
-"\n"
-"Cela supprimera les fichiers déjà installés."
-
-#: src/gui/GameUpdateWindow.cpp:279
-msgid "Info"
-msgstr "Info"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:14
 msgid "Create new account"
@@ -3846,6 +3060,599 @@ msgstr ""
 "Erreur lors de l'ouverture du fichier d'import compressé ZIP :\n"
 "{}"
 
+#: src/gui/MemorySearcherTool.cpp:50
+msgid "Memory Searcher"
+msgstr "Rechercher dans la mémoire"
+
+#: src/gui/MemorySearcherTool.cpp:63 src/gui/MemorySearcherTool.cpp:419
+msgid "Search"
+msgstr "Rechercher"
+
+#: src/gui/MemorySearcherTool.cpp:81 src/gui/MemorySearcherTool.cpp:420
+msgid "Results"
+msgstr "Résultats"
+
+#: src/gui/MemorySearcherTool.cpp:92 src/gui/MemorySearcherTool.cpp:105
+msgid "Value"
+msgstr "Valeur"
+
+#: src/gui/MemorySearcherTool.cpp:97
+msgid "Stored Entries"
+msgstr "Entrées stockées"
+
+#: src/gui/MemorySearcherTool.cpp:102 src/gui/GraphicPacksWindow2.cpp:265
+msgid "Description"
+msgstr "Description"
+
+#: src/gui/MemorySearcherTool.cpp:106
+msgid "Freeze"
+msgstr "Geler"
+
+#: src/gui/MemorySearcherTool.cpp:198
+msgid "Your entered value is not valid for the selected datatype."
+msgstr "La valeur entrée n'est pas valide pour le type de données sélectionné."
+
+#: src/gui/MemorySearcherTool.cpp:383
+msgid "&Add new entry"
+msgstr "&Ajouter une nouvelle entrée"
+
+#: src/gui/MemorySearcherTool.cpp:384
+msgid "&Remove entry"
+msgstr "&Supprimer l'entrée"
+
+#: src/gui/MemorySearcherTool.cpp:475
+msgid "Results ({0})"
+msgstr "Résultats ({0})"
+
+#: src/gui/MainWindow.cpp:273 src/gui/MainWindow.cpp:751
+#: src/gui/MainWindow.cpp:774
+msgid "Cannot open file"
+msgstr "Impossible d'ouvrir le fichier"
+
+#: src/gui/MainWindow.cpp:275 src/gui/MainWindow.cpp:753
+#: src/gui/MainWindow.cpp:776
+msgid "Not a valid NFC NTAG215 file"
+msgstr "Ceci n'est pas un fichier NFC NTAG215 valide"
+
+#: src/gui/MainWindow.cpp:466
+msgid "Title installed!"
+msgstr "Le titre est installé !"
+
+#: src/gui/MainWindow.cpp:472
+msgid "Title installation has been canceled!"
+msgstr "L'installation du titre a été annulée !"
+
+#: src/gui/MainWindow.cpp:501
+msgid "Unable to launch game because the base files were not found."
+msgstr ""
+"Impossible de démarrer le jeu car les fichiers de base n'ont pas été trouvés."
+
+#: src/gui/MainWindow.cpp:513
+msgid ""
+"Unable to mount title.\n"
+"Make sure the configured game paths are still valid and refresh the game "
+"list.\n"
+"\n"
+"File which failed to load:\n"
+msgstr ""
+"Impossible de monter le titre.\n"
+"Vérifiez que les chemins configurés pour les jeux sont toujours valides et "
+"rechargez la liste des jeux.\n"
+"\n"
+"Voici le fichier qui n'a pu être chargé :\n"
+
+#: src/gui/MainWindow.cpp:520
+msgid "Failed to launch game."
+msgstr "Impossible de démarrer le jeu."
+
+#: src/gui/MainWindow.cpp:537
+msgid "Failed to launch executable. Path: "
+msgstr "Impossible de démarrer l'exécutable. Chemin : "
+
+#: src/gui/MainWindow.cpp:545
+msgid ""
+"Unable to launch title.\n"
+"Make sure the configured game paths are still valid and refresh the game "
+"list.\n"
+"\n"
+"Path which failed to load:\n"
+msgstr ""
+"Impossible de démarrer le titre.\n"
+"Vérifiez que les chemins configurés pour les jeux sont toujours valides et "
+"rechargez la liste des jeux.\n"
+"\n"
+"Voici le fichier qui n'a pu être chargé :\n"
+
+#: src/gui/MainWindow.cpp:553 src/gui/MainWindow.cpp:570
+msgid ""
+"Unable to launch game\n"
+"Path:\n"
+msgstr ""
+"Impossible de démarrer le jeu\n"
+"Chemin :\n"
+
+#: src/gui/MainWindow.cpp:558
+msgid ""
+"Could not decrypt title. Make sure that keys.txt contains the correct disc "
+"key for this title."
+msgstr ""
+"Impossible de déchiffrer le titre. Vérifiez que le fichier keys.txt contient "
+"une clé correcte de disque pour ce titre."
+
+#: src/gui/MainWindow.cpp:563
+msgid "Could not decrypt title because title.tik is missing."
+msgstr ""
+"Impossible de déchiffrer le titre parce qu'il manque le fichier title.tik."
+
+#: src/gui/MainWindow.cpp:651
+msgid "All Wii U files (*.wud, *.wux, *.wua, *.iso, *.rpx, *.elf)"
+msgstr "Tous les fichiers Wii U (*.wud, *.wux, *.wua, *.iso, *.rpx, *.elf)"
+
+#: src/gui/MainWindow.cpp:652
+msgid "Wii U image (*.wud, *.wux, *.iso, *.wad)"
+msgstr "Image Wii U (*.wud, *.wux, *.iso, *.wad)"
+
+#: src/gui/MainWindow.cpp:653
+msgid "Wii U NUS content"
+msgstr "Contenu WiiU NUS"
+
+#: src/gui/MainWindow.cpp:654
+msgid "Wii U archive (*.wua)"
+msgstr "Archive Wii U (*.wua)"
+
+#: src/gui/MainWindow.cpp:655
+msgid "Wii U executable (*.rpx, *.elf)"
+msgstr "Exécutable Wii U (*.rpx, *.elf)"
+
+#: src/gui/MainWindow.cpp:656
+msgid "All files (*.*)"
+msgstr "Tous les fichiers (*.*)"
+
+#: src/gui/MainWindow.cpp:659
+msgid "Open file to launch"
+msgstr "Ouvrir le fichier à lancer"
+
+#: src/gui/MainWindow.cpp:701
+msgid "Select folder of title to install"
+msgstr "Sélectionnez le dossier du titre à installer"
+
+#: src/gui/MainWindow.cpp:701
+msgid "Select the folder that stores your update, DLC or base game files"
+msgstr ""
+"Sélectionnez le dossier contenant les mises à jour, DLC ou fichiers de base "
+"du jeu"
+
+#: src/gui/MainWindow.cpp:717
+msgid ""
+"The (parent) folder of the title you selected is missing at least one of the "
+"required subfolders (\"code\", \"content\" and \"meta\")\n"
+"Make sure that the files are complete."
+msgstr ""
+"Le dossier (parent) du jeu que vous avez sélectionné ne contient pas au "
+"moins un des sous-dossiers requis (\"code\", \"content\" and \"meta\")\n"
+"Vérifiez que les fichiers sont complets."
+
+#: src/gui/MainWindow.cpp:725
+msgid "The folder you have selected cannot be found on your system."
+msgstr ""
+"Le dossier que vous avez sélectionné ne peut pas être trouvé sur votre "
+"système."
+
+#: src/gui/MainWindow.cpp:727
+msgid "Unable to find the /meta/meta.xml file inside the selected folder."
+msgstr ""
+"Impossible de trouver le fichier /meta/meta.xml dans le dossier sélectionné."
+
+#: src/gui/MainWindow.cpp:742
+msgid "Open file to load"
+msgstr "Ouvrir le fichier à charger"
+
+#: src/gui/MainWindow.cpp:883
+msgid "Cemu must be restarted to apply the selected UI language."
+msgstr "Cemu doit être redémarré afin d'appliquer le changement de langue."
+
+#: src/gui/MainWindow.cpp:1051
+msgid ""
+"Warning: Disabling the accurate barriers option will lead to flickering "
+"graphics but may improve performance. It is highly recommended to leave it "
+"turned on."
+msgstr ""
+"Attention : Désactiver l'option des barrières fiables provoquera des "
+"graphismes clignottants mais peut améliorer les performances. Il est "
+"fortement recommandé de la laisser activée."
+
+#: src/gui/MainWindow.cpp:1051
+msgid "Accurate barriers are off"
+msgstr "Les barrières fiables sont désactivées."
+
+#: src/gui/MainWindow.cpp:1449
+msgid "Updating game list..."
+msgstr "Mise à jour de la liste des jeux..."
+
+#: src/gui/MainWindow.cpp:1798
+msgid ""
+"There's a new update available.\n"
+"Do you want to update?"
+msgstr ""
+"Une mise à jour est disponible.\n"
+"Voulez-vous mettre à jour ?"
+
+#: src/gui/MainWindow.cpp:1798
+msgid "Update notification"
+msgstr "Message de mise à jour"
+
+#: src/gui/MainWindow.cpp:1835
+msgid "About Cemu"
+msgstr "À propos de Cemu"
+
+#: src/gui/MainWindow.cpp:1867
+msgid ""
+"Cemu\n"
+"Version {0}\n"
+"Compiled on {1}\n"
+"Original authors: {2}"
+msgstr ""
+"Cemu\n"
+"Version {0}\n"
+"Compilée le {1}\n"
+"Auteurs d'origine : {2}"
+
+#: src/gui/MainWindow.cpp:1876
+msgid ""
+"Cemu is a Wii U emulator.\n"
+"\n"
+"Wii and Wii U are trademarks of Nintendo.\n"
+"Cemu is not affiliated with Nintendo."
+msgstr ""
+"Cemu est un émulateur de Wii U.\n"
+"\n"
+"Wii et Wii U sont des marques déposées de Nintendo.\n"
+"Cemu n'a aucune affiliation avec Nintendo."
+
+#: src/gui/MainWindow.cpp:1886
+msgid "Used libraries and utilities:"
+msgstr "Bibliothèques et outils utilisés :"
+
+#: src/gui/MainWindow.cpp:2027
+msgid "Thanks to our Patreon supporters:"
+msgstr "Merci à nos supporters sur Patreon :"
+
+#: src/gui/MainWindow.cpp:2057
+msgid "Special thanks:"
+msgstr "Remerciements particuliers :"
+
+#: src/gui/MainWindow.cpp:2099
+msgid "&Load..."
+msgstr "&Charger..."
+
+#: src/gui/MainWindow.cpp:2100
+msgid "&Install game title, update or DLC..."
+msgstr "&Installer un jeu, une mise à jour ou un DLC..."
+
+#: src/gui/MainWindow.cpp:2124
+msgid "Stop emulation"
+msgstr "Arrêter l'émulation"
+
+#: src/gui/MainWindow.cpp:2128
+msgid "&Open Cemu folder"
+msgstr "&Ouvrir le dossier Cemu"
+
+#: src/gui/MainWindow.cpp:2129
+msgid "&Open MLC folder"
+msgstr "&Ouvrir le dossier de la MLC"
+
+#: src/gui/MainWindow.cpp:2150
+msgid "&English"
+msgstr "&Anglais"
+
+#: src/gui/MainWindow.cpp:2151
+msgid "&Japanese"
+msgstr "&Japonais"
+
+#: src/gui/MainWindow.cpp:2152
+msgid "&French"
+msgstr "&Français"
+
+#: src/gui/MainWindow.cpp:2153
+msgid "&German"
+msgstr "A&llemand"
+
+#: src/gui/MainWindow.cpp:2154
+msgid "&Italian"
+msgstr "&Italien"
+
+#: src/gui/MainWindow.cpp:2155
+msgid "&Spanish"
+msgstr "&Espagnol"
+
+#: src/gui/MainWindow.cpp:2156
+msgid "&Chinese"
+msgstr "&Chinois"
+
+#: src/gui/MainWindow.cpp:2157
+msgid "&Korean"
+msgstr "C&oréen"
+
+#: src/gui/MainWindow.cpp:2158
+msgid "&Dutch"
+msgstr "&Hollandais"
+
+#: src/gui/MainWindow.cpp:2159
+msgid "&Portuguese"
+msgstr "&Portugais"
+
+#: src/gui/MainWindow.cpp:2160
+msgid "&Russian"
+msgstr "&Russe"
+
+#: src/gui/MainWindow.cpp:2161
+msgid "&Taiwanese"
+msgstr "&Taiwanais"
+
+#: src/gui/MainWindow.cpp:2165
+msgid "&Fullscreen"
+msgstr "&Plein écran"
+
+#: src/gui/MainWindow.cpp:2168
+msgid "&Graphic packs"
+msgstr "Packs &graphiques"
+
+#: src/gui/MainWindow.cpp:2169
+msgid "&Separate GamePad view"
+msgstr "&Vue séparée du GamePad"
+
+#: src/gui/MainWindow.cpp:2172
+msgid "&General settings"
+msgstr "Paramètres &généraux"
+
+#: src/gui/MainWindow.cpp:2173
+msgid "&Input settings"
+msgstr "Paramètres des &manettes"
+
+#: src/gui/MainWindow.cpp:2176
+msgid "&Active account"
+msgstr "Compte &actif"
+
+#: src/gui/MainWindow.cpp:2177
+msgid "&Console language"
+msgstr "&Langue de la console"
+
+#: src/gui/MainWindow.cpp:2182
+msgid "&Memory searcher"
+msgstr "&Rechercher dans la mémoire"
+
+#: src/gui/MainWindow.cpp:2184
+msgid "&Title Manager"
+msgstr "&Gestionnaire de titres"
+
+#: src/gui/MainWindow.cpp:2185
+msgid "&Download Manager"
+msgstr "&Gestionnaire de téléchargement"
+
+#: src/gui/MainWindow.cpp:2187
+msgid "&Tools"
+msgstr "&Outils"
+
+#: src/gui/MainWindow.cpp:2191
+msgid "&1x speed"
+msgstr "Vitesse &normale"
+
+#: src/gui/MainWindow.cpp:2192
+msgid "&2x speed"
+msgstr "Vitesse &2x"
+
+#: src/gui/MainWindow.cpp:2193
+msgid "&4x speed"
+msgstr "Vitesse &4x"
+
+#: src/gui/MainWindow.cpp:2194
+msgid "&8x speed"
+msgstr "Vitesse &8x"
+
+#: src/gui/MainWindow.cpp:2195
+msgid "&0.5x speed"
+msgstr "Vitesse &0,5x"
+
+#: src/gui/MainWindow.cpp:2196
+msgid "&0.25x speed"
+msgstr "Vitesse &0,25x"
+
+#: src/gui/MainWindow.cpp:2197
+msgid "&0.125x speed"
+msgstr "Vitesse &0,125x"
+
+#: src/gui/MainWindow.cpp:2201
+msgid "&Timer speed"
+msgstr "&Vitesse de l'horloge"
+
+#: src/gui/MainWindow.cpp:2202
+msgid "&CPU"
+msgstr "&CPU"
+
+#: src/gui/MainWindow.cpp:2207
+msgid "&Scan NFC tag from file"
+msgstr "&Scanner un tag NFC depuis un fichier"
+
+#: src/gui/MainWindow.cpp:2208
+msgid "&NFC"
+msgstr "&NFC"
+
+#: src/gui/MainWindow.cpp:2213
+msgid "&Unsupported API calls"
+msgstr "&Appels d'API non pris en charge"
+
+#: src/gui/MainWindow.cpp:2214
+msgid "&Coreinit Logging (OSReport/OSConsole)"
+msgstr "Journalisation de &Coreinit (OSReport/OSConsole)"
+
+#: src/gui/MainWindow.cpp:2215
+msgid "&Coreinit File-Access API"
+msgstr "API d'accès au fichier &Coreinit"
+
+#: src/gui/MainWindow.cpp:2216
+msgid "&Coreinit Thread-Synchronization API"
+msgstr "API de &synchronisation de flux Coreinit"
+
+#: src/gui/MainWindow.cpp:2217
+msgid "&Coreinit Memory API"
+msgstr "API &mémoire Coreinit"
+
+#: src/gui/MainWindow.cpp:2218
+msgid "&Coreinit MP API"
+msgstr "API &Coreinit MP"
+
+#: src/gui/MainWindow.cpp:2219
+msgid "&Coreinit Thread API"
+msgstr "API Thread &Coreinit"
+
+#: src/gui/MainWindow.cpp:2220
+msgid "&NN NFP"
+msgstr "&NN NFP"
+
+#: src/gui/MainWindow.cpp:2221
+msgid "&NN FP"
+msgstr "&NN FP"
+
+#: src/gui/MainWindow.cpp:2222
+msgid "&GX2 API"
+msgstr "API &GX2"
+
+#: src/gui/MainWindow.cpp:2223
+msgid "&Audio API"
+msgstr "API &audio"
+
+#: src/gui/MainWindow.cpp:2224
+msgid "&Input API"
+msgstr "API des &entrées"
+
+#: src/gui/MainWindow.cpp:2225
+msgid "&Socket API"
+msgstr "API du &socket"
+
+#: src/gui/MainWindow.cpp:2226
+msgid "&Save API"
+msgstr "API des &sauvegardes"
+
+#: src/gui/MainWindow.cpp:2227
+msgid "&H264 API"
+msgstr "API &H264"
+
+#: src/gui/MainWindow.cpp:2229
+msgid "&Graphic pack patches"
+msgstr "Pack de patchs &graphiques"
+
+#: src/gui/MainWindow.cpp:2230
+msgid "&Texture cache warnings"
+msgstr "Avertissements de cache de &texture"
+
+#: src/gui/MainWindow.cpp:2231
+msgid "&Texture readback"
+msgstr "&Renvoi de texture"
+
+#: src/gui/MainWindow.cpp:2233
+msgid "&OpenGL debug output"
+msgstr "Sortie de débogage &OpenGL"
+
+#: src/gui/MainWindow.cpp:2234
+msgid "&Vulkan validation layer (slow)"
+msgstr "Couche de validation &Vulkan (lent)"
+
+#: src/gui/MainWindow.cpp:2235
+msgid "&Log PPC context for API"
+msgstr "&Enregistrer le contexte PPC pour l'API"
+
+#: src/gui/MainWindow.cpp:2239
+msgid "&Textures"
+msgstr "&Textures"
+
+#: src/gui/MainWindow.cpp:2240
+msgid "&Shaders"
+msgstr "&Shaders"
+
+#: src/gui/MainWindow.cpp:2241
+msgid "&nlibcurl HTTP/HTTPS requests"
+msgstr "Requêtes HTTP/HTTPS &nlibcurl"
+
+#: src/gui/MainWindow.cpp:2245
+msgid "&Logging"
+msgstr "&Journaux"
+
+#: src/gui/MainWindow.cpp:2246
+msgid "&Dump"
+msgstr "&Dump"
+
+#: src/gui/MainWindow.cpp:2249
+msgid "&Render upside-down"
+msgstr "&Rendu retourné"
+
+#: src/gui/MainWindow.cpp:2254
+msgid "&Accurate barriers (Vulkan)"
+msgstr "&Barrières fiables (Vulkan)"
+
+#: src/gui/MainWindow.cpp:2260
+msgid "&Audio AUX only"
+msgstr "&Audio AUX uniquement"
+
+#: src/gui/MainWindow.cpp:2264
+msgid "&Open logging window"
+msgstr "&Ouvrir la fenêtre de journalisation"
+
+#: src/gui/MainWindow.cpp:2265
+msgid "&Launch with GDB stub"
+msgstr "&Démarrer avec le stub GDB"
+
+#: src/gui/MainWindow.cpp:2269
+msgid "&View PPC threads"
+msgstr "&Afficher les flux PPC"
+
+#: src/gui/MainWindow.cpp:2270
+msgid "&View PPC debugger"
+msgstr "Afficher le débogueur &PPC"
+
+#: src/gui/MainWindow.cpp:2271
+msgid "&View audio debugger"
+msgstr "Afficher le débogueur &audio"
+
+#: src/gui/MainWindow.cpp:2272
+msgid "&View texture cache info"
+msgstr "&Afficher les infos des caches de texture"
+
+#: src/gui/MainWindow.cpp:2273
+msgid "&Dump current RAM"
+msgstr "&Dumper la RAM"
+
+#: src/gui/MainWindow.cpp:2276
+msgid "&Debug"
+msgstr "&Débug"
+
+#: src/gui/MainWindow.cpp:2279
+msgid "&Check for updates"
+msgstr "&Chercher des mises à jour"
+
+#: src/gui/MainWindow.cpp:2283
+msgid "&Getting started"
+msgstr "&Pour commencer"
+
+#: src/gui/MainWindow.cpp:2285
+msgid "&About Cemu"
+msgstr "&À propos de Cemu"
+
+#: src/gui/MainWindow.cpp:2287
+msgid "&Help"
+msgstr "&Aide"
+
+#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:37
+msgid "Texture cache"
+msgstr "Cache de texture"
+
+#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:119
+msgid "Show only active"
+msgstr "N'afficher que l'actif"
+
+#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:122
+msgid "Show views"
+msgstr "Afficher les vues"
+
 #: src/gui/windows/PPCThreadsViewer/DebugPPCThreadsWindow.cpp:39
 msgid "PPC threads"
 msgstr "Flux PPC"
@@ -3912,65 +3719,279 @@ msgstr "Enregistrer la trace de pile dans le journal"
 msgid "Profile thread"
 msgstr "Fil du profil"
 
-#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:37
-msgid "Texture cache"
-msgstr "Cache de texture"
+#: src/gui/PairingDialog.cpp:12
+msgid "Pairing..."
+msgstr "Jumelage..."
 
-#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:119
-msgid "Show only active"
-msgstr "N'afficher que l'actif"
+#: src/gui/PairingDialog.cpp:73
+msgid "Found controller. Pairing..."
+msgstr "Manette détectée. Jumelage en cours..."
 
-#: src/gui/windows/TextureRelationViewer/TextureRelationWindow.cpp:122
-msgid "Show views"
-msgstr "Afficher les vues"
+#: src/gui/PairingDialog.cpp:80
+msgid "Successfully paired the controller."
+msgstr "Manette correctement jumelée."
 
-#: src/gui/CemuUpdateWindow.cpp:27
-msgid "Cemu update"
-msgstr "Mise à jour de Cemu"
+#: src/gui/PairingDialog.cpp:88
+msgid "Failed to find a suitable Bluetooth radio."
+msgstr "Impossible de trouver le matériel Bluetooth."
 
-#: src/gui/CemuUpdateWindow.cpp:38
-msgid "Checking for latest version..."
-msgstr "Recherche de la dernière version..."
+#: src/gui/PairingDialog.cpp:96
+msgid "Failed to search for controllers."
+msgstr "Impossible de rechercher des manettes."
 
-#: src/gui/CemuUpdateWindow.cpp:55
-msgid "Changelog"
-msgstr "Changements"
+#: src/gui/PairingDialog.cpp:104
+msgid "Failed to pair with the found controller."
+msgstr "Impossible de jumeler la manette détectée."
 
-#: src/gui/CemuUpdateWindow.cpp:579 src/gui/CemuUpdateWindow.cpp:596
-msgid "Exit"
-msgstr "Quitter"
+#: src/gui/PairingDialog.cpp:112
+msgid "Please use your system's Bluetooth manager instead."
+msgstr ""
+"Veuillez utiliser le gestionnaire de Bluetooth de votre système à la place."
 
-#: src/gui/CemuUpdateWindow.cpp:580
-msgid "No update available!"
-msgstr "Aucune mise à jour disponible !"
+#: src/gui/canvas/VulkanCanvas.cpp:41
+msgid ""
+"Error when initializing Vulkan renderer:\n"
+"{}"
+msgstr ""
+"Erreur lors de l'initialisation du moteur Vulkan :\n"
+"{}"
 
-#: src/gui/CemuUpdateWindow.cpp:595
-msgid "Update available!"
-msgstr "Mise à jour disponible !"
+#: src/gui/GraphicPacksWindow2.cpp:227
+msgid "Installed games"
+msgstr "Jeux installés"
 
-#: src/gui/CemuUpdateWindow.cpp:600
-msgid "Extracting update..."
-msgstr "Extraction de la mise à jour..."
+#: src/gui/GraphicPacksWindow2.cpp:255
+msgid "Graphic pack"
+msgstr "Packs graphiques"
 
-#: src/gui/CemuUpdateWindow.cpp:605
-msgid "Couldn't download the update!"
-msgstr "Impossible de télécharger la mise à jour !"
+#: src/gui/GraphicPacksWindow2.cpp:281
+msgid "Reload edited shaders"
+msgstr "Recharger les shaders modifiés"
 
-#: src/gui/CemuUpdateWindow.cpp:608
-msgid "Applying update..."
-msgstr "Application de la mise à jour..."
+#: src/gui/GraphicPacksWindow2.cpp:301
+msgid "Download latest community graphic packs"
+msgstr "Télécharger les derniers packs graphiques de la communauté"
 
-#: src/gui/CemuUpdateWindow.cpp:615
-msgid "Extracting failed!"
-msgstr "Échec de l'extraction !"
+#: src/gui/GraphicPacksWindow2.cpp:393
+msgid "Active preset"
+msgstr "Réglage actif"
 
-#: src/gui/CemuUpdateWindow.cpp:622
-msgid "Restart"
-msgstr "Redémarrer"
+#: src/gui/GraphicPacksWindow2.cpp:448
+msgid "This graphic pack has no description"
+msgstr "Ce pack graphique n'a aucune description"
 
-#: src/gui/CemuUpdateWindow.cpp:644
-msgid "Downloading update..."
-msgstr "Téléchargement de la mise à jour..."
+#: src/gui/GraphicPacksWindow2.cpp:526 src/gui/GraphicPacksWindow2.cpp:588
+msgid "Restart of Cemu required for changes to take effect"
+msgstr "Vous devez redémarrer Cemu pour que ce changement prenne effet"
+
+#: src/gui/GraphicPacksWindow2.cpp:627
+msgid "This update removed or renamed the following graphic packs:"
+msgstr "Cette mise à jour a supprimé ou renommé ces packs graphiques :"
+
+#: src/gui/GraphicPacksWindow2.cpp:628
+msgid "You may need to set them up again."
+msgstr "Il se peut que vous deviez à nouveau les paramétrer."
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:374
+msgid "Downloading account ticket"
+msgstr "Téléchargement du ticket du compte"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:427
+msgid "Downloading system tickets..."
+msgstr "Téléchargement des tickets du système..."
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:489
+msgid "Retrieving update information..."
+msgstr "Récupération des informations de mise à jour..."
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:511
+msgid "Downloading ticket"
+msgstr "Téléchargement du ticket"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:564
+msgid "Downloading meta data"
+msgstr "Téléchargement des métadonnées"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:569
+msgid "Connected. Right click entries in the list to start downloading"
+msgstr ""
+"Connecté. Faites un clic droit sur les entrées dans la liste pour démarrer "
+"le téléchargement"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:655
+msgid "Logging in..."
+msgstr "Connexion..."
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:678
+msgid "Login failed. Outdated or incomplete online files?"
+msgstr ""
+"La connection a échoué. Les fichiers en-ligne sont-ils périmés ou "
+"incomplets ?"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:686
+msgid "Failed to query account status. Invalid account information?"
+msgstr ""
+"Impossible d'obtenir l'état du compte. Information de compte non valide ?"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:690
+msgid "Updating ticket cache"
+msgstr "Mise à jour du cache des tickets"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:695
+msgid "Failed to request tickets (invalid NNID?)"
+msgstr "Impossible de demander les tickets (NNID non valide ?)"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:719
+msgid "This account is not linked with an NNID"
+msgstr "Ce compte n'est pas lié à un NNID"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:729
+msgid "Failed. Account does not have password set"
+msgstr "Échec. Le compte n'a pas de mot de passe défini"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1057
+msgid "TMD download failed"
+msgstr "Échec du téléchargement du TMD"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1066
+msgid "Invalid TMD"
+msgstr "TMD non valide"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1175
+msgid "Cannot write file. Disk full?"
+msgstr "Impossible d'écrire le fichier. Disque plein ?"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1196
+msgid "Cannot create file"
+msgstr "Impossible de créer le fichier"
+
+#: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:1201
+msgid "Download failed"
+msgstr "Échec du téléchargement"
+
+#: src/Cafe/Filesystem/FST/KeyCache.cpp:78
+msgid ""
+"Unable to create file keys.txt\n"
+"This can happen if Cemu does not have write permission to its own directory, "
+"the disk is full or if anti-virus software is blocking Cemu."
+msgstr ""
+"Impossible de créer le fichier keys.txt\n"
+"Ceci peut arriver si Cemu n'a pas les permissions d'écriture dans son propre "
+"dossier, ou que le disque est plein ou qu'un anti-virus bloque Cemu."
+
+#: src/Cafe/Filesystem/FST/KeyCache.cpp:111
+msgid "Error in keys.txt at line {}"
+msgstr "Erreur dans le fichier keys.txt à la ligne {}"
+
+#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:47
+msgid "Failed to load patches for graphic pack '{}'"
+msgstr "Impossible de charger les patches pour le pack graphique '{}'"
+
+#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:49
+msgid "Failed to apply patches for graphic pack '{}'"
+msgstr "Impossible d'appliquer les patchs pour le pack graphique '{}'"
+
+#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:58
+msgid "Details:"
+msgstr "Détails :"
+
+#: src/Cafe/GraphicPack/GraphicPack2Patches.cpp:67
+msgid "Graphic pack error"
+msgstr "Erreur du pack graphique"
+
+#: src/Cafe/HW/Latte/Renderer/Vulkan/VulkanRenderer.cpp:287
+msgid ""
+"The currently installed graphics driver does not support the Vulkan "
+"extension necessary for asynchronous shader compilation. Asynchronous "
+"compilation cannot be used.\n"
+" \n"
+"Required extension: VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Installing the latest graphics driver may solve this error."
+msgstr ""
+"Le pilote de la carte graphique installé ne prend pas en charge l'extension "
+"Vulkan nécessaire pour la compilation asynchrone des shaders. La compilation "
+"asynchrone ne peut pas être utilisée.\n"
+"\n"
+"Extension requise : VK_EXT_pipeline_creation_cache_control\n"
+"\n"
+"Il est possible de résoudre cette erreur en installant les derniers pilotes "
+"disponibles pour votre carte graphique."
+
+#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:795
+msgid ""
+"Cemu detected that the shader cache for this game is outdated.\n"
+"Only shader caches generated with Cemu 1.25.0 or above are supported.\n"
+"\n"
+"We recommend deleting the outdated cache file as it will no longer be used "
+"by Cemu."
+msgstr ""
+"Cemu a détecté que le cache des shaders est périmé pour ce jeu.\n"
+"Seuls les caches de shaders générés à partir de Cemu 1.25.0 sont pris en "
+"charge.\n"
+"\n"
+"Nous recommandons de supprimer le cache périmé car il ne sera plus utilisé "
+"par Cemu."
+
+#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:797
+msgid "Outdated shader cache"
+msgstr "Cache de shaders périmé"
+
+#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:800
+msgid "Delete outdated cache file [recommended]"
+msgstr "Supprimer le fichier de cache périmé [recommandé]"
+
+#: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:800
+msgid "Keep outdated cache file"
+msgstr "Garder le fichier de cache périmé"
+
+#: src/Cafe/CafeSystem.cpp:171
+msgid "Failed to run this title because the executable is damaged"
+msgstr "Impossible de démarrer ce titre parce que l'exécutable est endommagé"
+
+#: src/util/helpers/helpers.cpp:74 src/util/helpers/helpers.cpp:91
+msgid "Error code"
+msgstr "Code d'erreur"
+
+#: src/config/CemuConfig.h:262
+msgid "Japan"
+msgstr "Japon"
+
+#: src/config/CemuConfig.h:263
+msgid "USA"
+msgstr "USA"
+
+#: src/config/CemuConfig.h:264
+msgid "Europe"
+msgstr "Europe"
+
+#: src/config/CemuConfig.h:265
+msgid "Australia"
+msgstr "Australie"
+
+#: src/config/CemuConfig.h:266
+msgid "China"
+msgstr "Chine"
+
+#: src/config/CemuConfig.h:267
+msgid "Korea"
+msgstr "Corée"
+
+#: src/config/CemuConfig.h:268
+msgid "Taiwan"
+msgstr "Taïwan"
+
+#: src/config/CemuConfig.h:269
+msgid "Auto"
+msgstr "Auto"
+
+#: src/config/CemuConfig.h:270
+msgid "many"
+msgstr "plusieurs"
+
+#: src/audio/audioDebuggerWindow.cpp:25
+msgid "AX voice viewer"
+msgstr "Afficheur de voix AX"
 
 #~ msgid "Logging in.."
 #~ msgstr "Connection en cours..."
