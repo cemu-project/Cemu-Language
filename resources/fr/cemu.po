@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-10-05 00:17+0200\n"
+"PO-Revision-Date: 2024-03-24 19:35+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: src/config/CemuConfig.h:262
 msgid "Japan"
@@ -155,8 +155,7 @@ msgstr "Connexion..."
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:678
 msgid "Login failed. Outdated or incomplete online files?"
 msgstr ""
-"La connection a échoué. Les fichiers en-ligne sont-ils périmés ou "
-"incomplets ?"
+"La connexion a échoué. Les fichiers en-ligne sont-ils périmés ou incomplets ?"
 
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:686
 msgid "Failed to query account status. Invalid account information?"
@@ -357,7 +356,7 @@ msgstr "Entrez une adresse cible."
 
 #: src/gui/debugger/DumpCtrl.cpp:214 src/gui/debugger/DisasmCtrl.cpp:760
 msgid "GoTo address"
-msgstr "GoTo adresse"
+msgstr "Aller à l'adresse"
 
 #: src/gui/debugger/DumpWindow.cpp:18
 msgid "Memory Dump"
@@ -426,15 +425,15 @@ msgstr "&Copier"
 
 #: src/gui/debugger/RegisterWindow.cpp:423
 msgid "&Goto Disasm"
-msgstr "&Goto Disasm"
+msgstr "&Aller au Disasm"
 
 #: src/gui/debugger/RegisterWindow.cpp:424
 msgid "G&oto Dump"
-msgstr "G&oto Dump"
+msgstr "A&ller au Dump"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:222
 msgid "GoTo (CTRL + G)"
-msgstr "GoTo (CTRL + G)"
+msgstr "Aller à (CTRL + G)"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:225
 msgid "Toggle Breakpoint (F9)"
@@ -751,7 +750,7 @@ msgstr ""
 
 #: src/gui/ChecksumTool.cpp:587
 msgid "Your game files are valid"
-msgstr "Les fichiers de votre jeu ne sont pas valides"
+msgstr "Les fichiers de votre jeu sont valides"
 
 #: src/gui/ChecksumTool.cpp:587 src/gui/MainWindow.cpp:464
 #: src/gui/CemuUpdateWindow.cpp:621
@@ -903,7 +902,7 @@ msgstr "Teste si la manette est connectée"
 #: src/gui/input/InputSettings2.cpp:608 src/gui/input/InputSettings2.cpp:644
 #: src/gui/input/InputSettings2.cpp:676
 msgid "invalid profile name"
-msgstr "Nom de profil non valide"
+msgstr "Nom de profil invalide"
 
 #: src/gui/input/InputSettings2.cpp:617
 msgid "profile loaded"
@@ -1730,7 +1729,8 @@ msgid ""
 "This quick setup assistant will help you get the best experience"
 msgstr ""
 "On dirait que c'est la première fois que vous démarrez Cemu.\n"
-"Cet assistant de configuration rapide va vous aider à en obtenir le meilleur."
+"Cet assistant de configuration rapide va vous aider à obtenir la meilleure "
+"expérience"
 
 #: src/gui/GettingStartedDialog.cpp:41
 msgid "mlc01 path"
@@ -1750,8 +1750,7 @@ msgstr ""
 "Il est fortement conseillé de créer un dossier dédié pour cela (exemple : C:"
 "\\wiiu\\mlc\\) \n"
 "Si vous laissez ce champ vide, le dossier de la mlc sera créé dans le "
-"dossier de Cemu.\n"
-" "
+"dossier de Cemu."
 
 #: src/gui/GettingStartedDialog.cpp:44
 msgid ""
@@ -1812,7 +1811,7 @@ msgid ""
 msgstr ""
 "Les packs graphiques améliorent les jeux en donnant la possibilité de "
 "changer la résolution,\n"
-"d'augmenter les FPS, ou d'ajouter des modifications visuelles ou de "
+"de modifier les FPS, ou d'ajouter des modifications visuelles ou de "
 "gameplay.\n"
 "Téléchargez les packs graphiques de la communauté pour commencer.\n"
 
@@ -2055,7 +2054,7 @@ msgstr ""
 
 #: src/gui/MainWindow.cpp:1046
 msgid "Accurate barriers are off"
-msgstr "Les barrières fiables sont désactivées."
+msgstr "Les barrières fiables sont désactivées"
 
 #: src/gui/MainWindow.cpp:1444
 msgid "Updating game list..."
@@ -2489,7 +2488,7 @@ msgid ""
 msgstr ""
 "Change la langue de l'interface de Cemu\n"
 "Les langues disponibles sont situées dans le répertoire de traduction\n"
-"Un redémarrage sera nécessaire pour appliquer les changements."
+"Un redémarrage sera nécessaire pour appliquer les changements"
 
 #: src/gui/GeneralSettings2.cpp:146
 msgid "Remember main window position"
@@ -2561,8 +2560,8 @@ msgid ""
 "Cemu will remember your custom mlc path in %LOCALAPPDATA%/Cemu for new "
 "installations."
 msgstr ""
-"Cemu se souviendra de votre chemin personnalisé de la mlc dans %LOCALAPPDATA"
-"%/Cemu pour les nouvelles installations."
+"Cemu se souviendra de votre chemin personnalisé de la mlc dans "
+"%LOCALAPPDATA%/Cemu pour les nouvelles installations."
 
 #: src/gui/GeneralSettings2.cpp:181
 msgid "Disable screen saver"
@@ -2880,7 +2879,7 @@ msgstr "FPS"
 msgid "The number of frames per second. Average over last 5 seconds"
 msgstr ""
 "Le nombre d'images par seconde (Frame Per Second). Moyenne sur les 5 "
-"dernières secondes."
+"dernières secondes"
 
 #: src/gui/GeneralSettings2.cpp:550
 msgid "Draw calls per frame"
@@ -3014,7 +3013,7 @@ msgstr "Service réseau"
 
 #: src/gui/GeneralSettings2.cpp:690
 msgid "Connect to which Network Service"
-msgstr "Choisissez la connection à un service Nintendo"
+msgstr "Choisissez la connexion à un service Nintendo"
 
 #: src/gui/GeneralSettings2.cpp:708
 msgid "Online settings"
@@ -3355,11 +3354,11 @@ msgstr "Exporte la sauvegarde sélectionnée en fichier compressé ZIP"
 
 #: src/gui/TitleManager.cpp:176
 msgid "Connect"
-msgstr "Connection"
+msgstr "Connecter"
 
 #: src/gui/TitleManager.cpp:183
 msgid "Select an account and press Connect"
-msgstr "Sélectionnez un compte et appuyez sur Connection"
+msgstr "Sélectionnez un compte et appuyez sur Connecter"
 
 #: src/gui/TitleManager.cpp:191
 msgid "Show available titles"
@@ -3387,7 +3386,7 @@ msgstr "Recherche de titres..."
 
 #: src/gui/TitleManager.cpp:282
 msgid "Currently active downloads will continue in the background."
-msgstr "Les téléchargements actifs continuent en arrière-plan"
+msgstr "Les téléchargements actifs continuent en arrière-plan."
 
 #: src/gui/TitleManager.cpp:331
 msgid "Found {0} games, {1} updates, {2} DLCs and {3} save entries"
@@ -3728,7 +3727,7 @@ msgid ""
 msgstr ""
 "Le persistent ID est le nom du dossier interne utilisé pour vos sauvegardes. "
 "Changez ceci seulement si vous importez des sauvegardes à partir d'une Wii "
-"avec un ID spécifique."
+"avec un ID spécifique"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:68
 msgid "No persistent id entered!"
