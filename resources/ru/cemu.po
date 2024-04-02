@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-03-29 23:03+0300\n"
+"PO-Revision-Date: 2024-04-02 22:14+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -577,7 +577,7 @@ msgstr "Загрузка обновления..."
 #: src/gui/components/wxGameList.cpp:101
 #: src/gui/components/wxDownloadManagerList.cpp:94
 msgid "Title ID"
-msgstr "Идентификатор приложения"
+msgstr "ID приложения"
 
 #: src/gui/components/wxTitleManagerList.cpp:132
 #: src/gui/components/wxDownloadManagerList.cpp:100
@@ -712,7 +712,7 @@ msgstr "Готово"
 
 #: src/gui/components/wxTitleManagerList.cpp:769
 msgid "&Launch title"
-msgstr "&Запустить игру"
+msgstr "&Запустить приложение"
 
 #: src/gui/components/wxTitleManagerList.cpp:771
 msgid "&Open directory"
@@ -898,15 +898,15 @@ msgstr "&Создать ярлык"
 
 #: src/gui/components/wxGameList.cpp:603
 msgid "&Copy Title Name"
-msgstr "&Копировать название приложения"
+msgstr "&Копировать название"
 
 #: src/gui/components/wxGameList.cpp:604
 msgid "&Copy Title ID"
-msgstr "&Копировать идентификатор приложения"
+msgstr "&Копировать ID"
 
 #: src/gui/components/wxGameList.cpp:605
 msgid "&Copy Title Image"
-msgstr "&Копировать образ приложения"
+msgstr "&Копировать изображение"
 
 #: src/gui/components/wxGameList.cpp:610
 msgid "&Refresh game list"
@@ -922,11 +922,11 @@ msgstr "Стиль: &Иконки"
 
 #: src/gui/components/wxGameList.cpp:614
 msgid "Style: &Small Icons"
-msgstr "Стиль: &Меленькие иконки"
+msgstr "Стиль: &Маленькие иконки"
 
 #: src/gui/components/wxGameList.cpp:644
 msgid "Enter a custom game title"
-msgstr "Введите пользовательское название игры"
+msgstr "Введите пользовательское название"
 
 #: src/gui/components/wxGameList.cpp:813
 msgid "Reset &width"
@@ -966,7 +966,7 @@ msgstr "Показывать &регион"
 
 #: src/gui/components/wxGameList.cpp:824
 msgid "Show &title ID"
-msgstr "Показывать &идентификатор игры"
+msgstr "Показывать &ID игры"
 
 #: src/gui/components/wxGameList.cpp:1070
 #: src/gui/components/wxGameList.cpp:1076
@@ -2970,21 +2970,19 @@ msgstr ""
 
 #: src/gui/GameProfileWindow.cpp:78
 msgid "cycles"
-msgstr "циклы"
+msgstr "циклов"
 
 #: src/gui/GameProfileWindow.cpp:119
 msgid "Shader multiplication accuracy"
 msgstr "Точность умножения шейдеров"
 
-# В разных программах данная опция называется по-разному, оставляю "ложь"
 #: src/gui/GameProfileWindow.cpp:121
 msgid "false"
-msgstr "ложь"
+msgstr "false"
 
-# В разных программах данная опция называется по-разному, оставляю "истина"
 #: src/gui/GameProfileWindow.cpp:121
 msgid "true"
-msgstr "истина"
+msgstr "true"
 
 #: src/gui/GameProfileWindow.cpp:123
 msgid ""
@@ -3075,11 +3073,11 @@ msgid ""
 "Do you still want to continue with the installation? It will replace the "
 "currently installed title."
 msgstr ""
-"Похоже, что в целевом месте уже установлено приложение, но у него другой "
+"Похоже, что в выбранном месте уже установлено обновление, но у него другой "
 "тип.\n"
-"Установленный в данный момент: '{}' Установка: '{}'\n"
+"Установленный в данный момент: '{}' Установить: '{}'\n"
 "\n"
-"Это может произойти для приложений, которые были установлены в очень старых "
+"Это может произойти с приложениями, которые были установлены в очень старых "
 "версиях Cemu.\n"
 "Вы всё ещё хотите продолжить установку? Оно заменит установленное в данный "
 "момент приложение."
@@ -3285,7 +3283,7 @@ msgid ""
 "The given account id is not valid!\n"
 "It must be a hex number bigger or equal than {:08x}"
 msgstr ""
-"Указанный идентификатор учётной записи недействителен!\n"
+"Указанный ID учётной записи недействителен!\n"
 "Это должно быть шестнадцатеричное число, большее или равное {:08x}"
 
 #: src/gui/dialogs/SaveImport/SaveTransfer.cpp:111
@@ -3344,8 +3342,8 @@ msgid ""
 "currently selected one: {:016x} vs {:016x}\n"
 "Are you sure that you want to continue?"
 msgstr ""
-"Вы пытаетесь импортировать сохранённую игру для другой игры, отличной от "
-"выбранной вами в данный момент: {:016x} вместо {:016x}\n"
+"Вы пытаетесь импортировать сохранение для другой игры, отличной от выбранной "
+"вами: {:016x} вместо {:016x}\n"
 "Вы уверены, что хотите продолжить?"
 
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:216
@@ -3430,7 +3428,9 @@ msgstr "Перезагрузить изменённые шейдеры"
 
 #: src/gui/GraphicPacksWindow2.cpp:301
 msgid "Download latest community graphic packs"
-msgstr "Обновить пользовательские графические пакеты"
+msgstr ""
+"Обновить пользовательские\n"
+"графические пакеты"
 
 #: src/gui/GraphicPacksWindow2.cpp:394
 msgid "Active preset"
@@ -3830,7 +3830,7 @@ msgstr "Перемещение"
 
 #: src/gui/TitleManager.cpp:118
 msgid "Transfers the save entry to another persistent account id"
-msgstr "Переносит сохранение на другой постоянный идентификатор учётной записи"
+msgstr "Переносит сохранение на другой постоянный ID учётной записи"
 
 #: src/gui/TitleManager.cpp:124
 msgid "Permanently delete the save entry"
