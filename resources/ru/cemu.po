@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-04-02 22:14+0300\n"
+"PO-Revision-Date: 2024-04-03 16:32+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -577,7 +577,7 @@ msgstr "Загрузка обновления..."
 #: src/gui/components/wxGameList.cpp:101
 #: src/gui/components/wxDownloadManagerList.cpp:94
 msgid "Title ID"
-msgstr "ID приложения"
+msgstr "ID"
 
 #: src/gui/components/wxTitleManagerList.cpp:132
 #: src/gui/components/wxDownloadManagerList.cpp:100
@@ -830,7 +830,7 @@ msgstr "Вы играли"
 
 #: src/gui/components/wxGameList.cpp:99
 msgid "Last played"
-msgstr "Последняя игра"
+msgstr "Последний запуск"
 
 #: src/gui/components/wxGameList.cpp:118
 msgid ""
@@ -906,7 +906,7 @@ msgstr "&Копировать ID"
 
 #: src/gui/components/wxGameList.cpp:605
 msgid "&Copy Title Image"
-msgstr "&Копировать изображение"
+msgstr "&Копировать обложку"
 
 #: src/gui/components/wxGameList.cpp:610
 msgid "&Refresh game list"
@@ -938,35 +938,35 @@ msgstr "Сбросить &порядок"
 
 #: src/gui/components/wxGameList.cpp:817
 msgid "Show &icon"
-msgstr "Показывать &ярлык"
+msgstr "Показать &ярлык"
 
 #: src/gui/components/wxGameList.cpp:818
 msgid "Show &name"
-msgstr "Показывать &название"
+msgstr "Показать &название"
 
 #: src/gui/components/wxGameList.cpp:819
 msgid "Show &version"
-msgstr "Показывать &версию"
+msgstr "Показать &версию"
 
 #: src/gui/components/wxGameList.cpp:820
 msgid "Show &dlc"
-msgstr "Показывать &DLC"
+msgstr "Показать &DLC"
 
 #: src/gui/components/wxGameList.cpp:821
 msgid "Show &game time"
-msgstr "Показывать &время игры"
+msgstr "Показать &время игры"
 
 #: src/gui/components/wxGameList.cpp:822
 msgid "Show &last played"
-msgstr "Показывать &последнюю игру"
+msgstr "Показать &последний запуск"
 
 #: src/gui/components/wxGameList.cpp:823
 msgid "Show &region"
-msgstr "Показывать &регион"
+msgstr "Показать &регион"
 
 #: src/gui/components/wxGameList.cpp:824
 msgid "Show &title ID"
-msgstr "Показывать &ID игры"
+msgstr "Показать &ID"
 
 #: src/gui/components/wxGameList.cpp:1070
 #: src/gui/components/wxGameList.cpp:1076
@@ -1627,7 +1627,7 @@ msgstr "&Показать отладчик звука"
 
 #: src/gui/MainWindow.cpp:2285
 msgid "&View texture cache info"
-msgstr "&Показать информацию о кэше текстур"
+msgstr "&Показать данные о кэше текстур"
 
 #: src/gui/MainWindow.cpp:2286
 msgid "&Dump current RAM"
@@ -1868,7 +1868,7 @@ msgid ""
 "Available languages are stored in the translation directory\n"
 "A restart will be required after changing the language"
 msgstr ""
-"Изменён язык интерфейса Cemu\n"
+"Изменяет язык интерфейса Cemu.\n"
 "Доступные языки хранятся в каталоге переводов\n"
 "После смены языка потребуется перезапуск"
 
@@ -1891,14 +1891,14 @@ msgstr ""
 
 #: src/gui/GeneralSettings2.cpp:155
 msgid "Discord Presence"
-msgstr "Статус активности Discord"
+msgstr "Статус активности в Discord"
 
 #: src/gui/GeneralSettings2.cpp:156
 msgid ""
 "Enables the Discord Rich Presence feature\n"
 "You will also need to enable it in the Discord settings itself!"
 msgstr ""
-"Включает функцию статус активности Discord\n"
+"Включает функцию статус активности в Discord.\n"
 "Вам также нужно будет включить её в настройках самого Discord!"
 
 #: src/gui/GeneralSettings2.cpp:162
@@ -1910,8 +1910,8 @@ msgid ""
 "Displays the menu bar when Cemu is running in fullscreen mode and the mouse "
 "cursor is moved to the top"
 msgstr ""
-"Отображает строку меню, когда Cemu работает в полноэкранном режиме, а курсор "
-"мыши перемещается вверх"
+"Отображает строку меню, когда Cemu в полноэкранном режиме, а курсор мыши "
+"находится вверху экрана"
 
 #: src/gui/GeneralSettings2.cpp:166 src/gui/GettingStartedDialog.cpp:147
 msgid "Automatically check for updates"
@@ -1943,7 +1943,7 @@ msgid ""
 "installations."
 msgstr ""
 "Cemu запомнит ваш пользовательский путь к mlc в %LOCALAPPDATA%/Cemu для "
-"новых установок."
+"новых установок"
 
 #: src/gui/GeneralSettings2.cpp:181
 msgid "Disable screen saver"
@@ -1954,8 +1954,8 @@ msgid ""
 "Prevents the system from activating the screen saver or going to sleep while "
 "running a game."
 msgstr ""
-"Предотвращает активацию системой заставки или переход в спящий режим во "
-"время запуска игры."
+"Предотвращает активацию скринсейвера или переход в спящий режим при "
+"запущенной игре"
 
 #: src/gui/GeneralSettings2.cpp:187
 msgid "Enable Feral GameMode"
@@ -2149,7 +2149,7 @@ msgid ""
 "Higher values will create a delay in audio playback, but may avoid audio "
 "problems when emulation is too slow"
 msgstr ""
-"Управляет количеством буферизированных аудио данных\n"
+"Управляет количеством буферизированных аудио данных.\n"
 "Более высокие значения создадут задержку в воспроизведении звука, но помогут "
 "избежать проблем с ним, когда эмуляция слишком медленная"
 
@@ -2265,7 +2265,7 @@ msgstr "Масштаб"
 
 #: src/gui/GeneralSettings2.cpp:539
 msgid "Sets the scale of the overlay text"
-msgstr "Устанавливает масштаб текста оверлея"
+msgstr "Задаёт масштаб текста оверлея"
 
 #: src/gui/GeneralSettings2.cpp:546
 msgid "FPS"
@@ -2341,7 +2341,7 @@ msgstr "Устанавливает цвет текста уведомлений"
 
 #: src/gui/GeneralSettings2.cpp:619
 msgid "Sets the scale of the notification text"
-msgstr "Устанавливает масштаб текста уведомления"
+msgstr "Задаёт масштаб текста уведомления"
 
 #: src/gui/GeneralSettings2.cpp:626
 msgid "Controller profiles"
@@ -2411,7 +2411,7 @@ msgstr "Сетевой сервис"
 
 #: src/gui/GeneralSettings2.cpp:690
 msgid "Connect to which Network Service"
-msgstr "Подключиться к какой сетевой службе"
+msgstr "Подключиться к этой сетевой службе"
 
 #: src/gui/GeneralSettings2.cpp:708
 msgid "Online settings"
@@ -2494,7 +2494,7 @@ msgid ""
 "The Full option will create a very large dump file (includes a full RAM dump "
 "of the Cemu process)"
 msgstr ""
-"Создает дамп при сбое Cemu\n"
+"Создает дамп при сбое Cemu.\n"
 "Включать только по просьбе разработчика!\n"
 "Полный создаёт очень большой файл дампа (включает полный дамп оперативной "
 "памяти процесса Cemu)"
@@ -2504,7 +2504,7 @@ msgid ""
 "Creates a core dump when Cemu crashes\n"
 "Only enable when requested by a developer!"
 msgstr ""
-"Создает дамп ядра при сбое Cemu\n"
+"Создает дамп ядра при сбое Cemu.\n"
 "Включать только по запросу разработчика!"
 
 #: src/gui/GeneralSettings2.cpp:822
@@ -2640,8 +2640,8 @@ msgid ""
 "IsPasswordCacheEnabled is set to false (The remember password option on your "
 "Wii U must be enabled for this account before dumping it)"
 msgstr ""
-"IsPasswordCacheEnabled имеет значение false (опция запоминания пароля на "
-"вашем Wii U должна быть включена для этой учётной записи, прежде чем "
+"IsPasswordCacheEnabled имеет значение false (необходимо включить опцию "
+"запоминания пароля на вашем Wii U для этой учётной записи, прежде чем "
 "сбрасывать её)"
 
 #: src/gui/GeneralSettings2.cpp:2052
@@ -2807,7 +2807,7 @@ msgstr "показать экран"
 
 #: src/gui/input/panels/WiimoteInputPanel.cpp:43
 msgid "Pair a Wii or Wii U controller"
-msgstr "Подключите контроллер Wii или Wii U"
+msgstr "Подключить контроллер Wii или Wii U"
 
 #: src/gui/input/panels/WiimoteInputPanel.cpp:51
 msgid "Extensions:"
@@ -2903,7 +2903,7 @@ msgstr "Изменить игровой профиль"
 
 #: src/gui/GameProfileWindow.cpp:39
 msgid "Load shared libraries"
-msgstr "Загрузить общие библиотеки"
+msgstr "Загружать общие библиотеки"
 
 #: src/gui/GameProfileWindow.cpp:40
 msgid ""
@@ -3304,7 +3304,7 @@ msgid ""
 msgstr ""
 "Для целевой учётной записи уже доступно сохранение игры, хотите ли вы "
 "перезаписать его?\n"
-"Это приведёт к удалению существующих файлов сохранения для учётной записи и "
+"Это приведёт к удалению существующих файлов сохранений для учётной записи и "
 "замене их."
 
 #: src/gui/dialogs/SaveImport/SaveTransfer.cpp:134
@@ -3428,9 +3428,7 @@ msgstr "Перезагрузить изменённые шейдеры"
 
 #: src/gui/GraphicPacksWindow2.cpp:301
 msgid "Download latest community graphic packs"
-msgstr ""
-"Обновить пользовательские\n"
-"графические пакеты"
+msgstr "Обновить пользовательские графические пакеты"
 
 #: src/gui/GraphicPacksWindow2.cpp:394
 msgid "Active preset"
@@ -3497,7 +3495,7 @@ msgid ""
 "This quick setup assistant will help you get the best experience"
 msgstr ""
 "Похоже, вы впервые запускаете Cemu.\n"
-"Помощник по быстрой настройке поможет вам получить лучший опыт"
+"Помощник по быстрой настройке поможет вам получить лучшие впечатления"
 
 #: src/gui/GettingStartedDialog.cpp:41
 msgid "mlc01 path"
@@ -3550,9 +3548,9 @@ msgid ""
 "\n"
 "You can also set additional paths in the general settings of Cemu."
 msgstr ""
-"Cemu сканирует путь к игре, чтобы найти ваши игры. Мы рекомендуем создать "
-"выделенный каталог,\n"
-"в который вы будете помещать все свои игры для Wii U. (пример: C:"
+"Cemu сканирует пааки, чтобы найти ваши игры. Мы рекомендуем создать "
+"выделенный\n"
+"каталог, в который вы будете помещать все свои игры для Wii U. (пример: C:"
 "\\wiiu\\games\\)\n"
 "\n"
 "Вы также можете задать дополнительные пути в общих настройках Cemu."
@@ -3826,7 +3824,7 @@ msgstr "Открыть каталог сохранения"
 
 #: src/gui/TitleManager.cpp:116
 msgid "Transfer"
-msgstr "Перемещение"
+msgstr "Переместить"
 
 #: src/gui/TitleManager.cpp:118
 msgid "Transfers the save entry to another persistent account id"
