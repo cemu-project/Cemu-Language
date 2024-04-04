@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-04-03 21:47+0300\n"
+"PO-Revision-Date: 2024-04-04 17:10+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -1334,8 +1334,8 @@ msgstr ""
 "ESC — выход из полноэкранного режима\n"
 "\n"
 "Если у вас возникли проблемы с настройкой контроллера,\n"
-"убедитесь, что он находится в режиме ожидания, и нажмите «откалибровать».\n"
-"Также не устанавливайте слишком низкую мёртвую зону для оси."
+"убедитесь, что он находится в режиме ожидания, и нажмите «Калибровать».\n"
+"Также не устанавливайте слишком низкую мёртвую зону для осей."
 
 #: src/gui/GettingStartedDialog.cpp:127
 msgid "Configure input"
@@ -2673,7 +2673,7 @@ msgstr "Поворот"
 
 #: src/gui/input/settings/DefaultControllerSettings.cpp:146
 msgid "Trigger"
-msgstr "Куроки"
+msgstr "Курки"
 
 #: src/gui/input/settings/WiimoteControllerSettings.cpp:33
 msgid "Connected extension"
