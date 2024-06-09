@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-05-22 21:01+0300\n"
+"PO-Revision-Date: 2024-06-09 23:49+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 "X-Poedit-Basepath: .\n"
 
 #: src/Cafe/Filesystem/FST/KeyCache.cpp:78
@@ -2880,7 +2880,6 @@ msgid "Are you sure you want to delete the account {} with id {:x}?"
 msgstr "Вы уверены, что хотите удалить аккаунт {} с id {:x}?"
 
 #: src/gui/GeneralSettings2.cpp:1415
-#| msgid "Your account is a valid online account"
 msgid "Selected account is a valid online account"
 msgstr "Выбранная учётная запись является действительной"
 
@@ -3612,178 +3611,190 @@ msgid "&Unsupported API calls"
 msgstr "&Неподдерживаемые вызовы API"
 
 #: src/gui/MainWindow.cpp:2197
+msgid "&Invalid API usage"
+msgstr "&Недопустимое использование API"
+
+#: src/gui/MainWindow.cpp:2198
 msgid "&Coreinit Logging (OSReport/OSConsole)"
 msgstr "&Логирование Coreinit (OSReport/OSConsole)"
 
-#: src/gui/MainWindow.cpp:2198
-msgid "&Coreinit File-Access API"
-msgstr "&API доступа к папкам Coreinit"
-
-#: src/gui/MainWindow.cpp:2199
-msgid "&Coreinit Thread-Synchronization API"
-msgstr "&API синхронизации потоков Coreinit"
-
-#: src/gui/MainWindow.cpp:2200
-msgid "&Coreinit Memory API"
-msgstr "&API памяти Coreinit"
-
-#: src/gui/MainWindow.cpp:2201
-msgid "&Coreinit MP API"
-msgstr "&API MP Coreinit"
-
 #: src/gui/MainWindow.cpp:2202
-msgid "&Coreinit Thread API"
-msgstr "&API потоков Coreinit"
-
-#: src/gui/MainWindow.cpp:2203
-msgid "&NN NFP"
-msgstr "&NN NFP"
+msgid "&Options below are for experts. Leave off if unsure"
+msgstr "&Опции ниже для экспертов. Отключены по умолчанию"
 
 #: src/gui/MainWindow.cpp:2204
-msgid "&NN FP"
-msgstr "&NN FP"
+msgid "coreinit File-Access API"
+msgstr "API доступа к папкам Coreinit"
 
 #: src/gui/MainWindow.cpp:2205
-msgid "&PRUDP (for NN FP)"
-msgstr "&PRUDP (для NN FP)"
+msgid "coreinit Thread-Synchronization API"
+msgstr "API синхронизации потоков Coreinit"
 
 #: src/gui/MainWindow.cpp:2206
-msgid "&NN BOSS"
-msgstr "&NN BOSS"
+msgid "coreinit Memory API"
+msgstr "API памяти Coreinit"
 
 #: src/gui/MainWindow.cpp:2207
-msgid "&GX2 API"
-msgstr "&API GX2"
+msgid "coreinit MP API"
+msgstr "API MP Coreinit"
 
 #: src/gui/MainWindow.cpp:2208
-msgid "&Audio API"
-msgstr "&API звука"
+msgid "coreinit Thread API"
+msgstr "API потоков Coreinit"
 
 #: src/gui/MainWindow.cpp:2209
-msgid "&Input API"
-msgstr "&API ввода"
+msgid "nn_save API"
+msgstr "API nn_save"
 
 #: src/gui/MainWindow.cpp:2210
-msgid "&Socket API"
-msgstr "&API сокетов"
+msgid "nn_nfp API"
+msgstr "API nn_nfp"
 
 #: src/gui/MainWindow.cpp:2211
-msgid "&Save API"
-msgstr "&API сохранений"
+msgid "nn_fp API"
+msgstr "API nn_fp"
 
 #: src/gui/MainWindow.cpp:2212
-msgid "&H264 API"
-msgstr "&API H264"
+msgid "nn_fp PRUDP"
+msgstr "PRUDP nn_fp"
 
 #: src/gui/MainWindow.cpp:2213
-msgid "&NFC API"
-msgstr "&NFC API"
+msgid "nn_boss API"
+msgstr "API nn_boss"
 
 #: src/gui/MainWindow.cpp:2214
-msgid "&NTAG API"
-msgstr "&NTAG API"
+msgid "nfc API"
+msgstr "API NFC"
+
+#: src/gui/MainWindow.cpp:2215
+msgid "ntag API"
+msgstr "API NTag"
 
 #: src/gui/MainWindow.cpp:2216
+msgid "nsysnet API"
+msgstr "API NSysnet"
+
+#: src/gui/MainWindow.cpp:2217
+msgid "h264 API"
+msgstr "API H264"
+
+#: src/gui/MainWindow.cpp:2218
+msgid "gx2 API"
+msgstr "API GX2"
+
+#: src/gui/MainWindow.cpp:2219
+msgid "Audio API"
+msgstr "API аудио"
+
+#: src/gui/MainWindow.cpp:2220
+msgid "Input API"
+msgstr "API ввода"
+
+#: src/gui/MainWindow.cpp:2222
+msgid "&CafeOS modules logging"
+msgstr "&Модули логирования CafeOS"
+
+#: src/gui/MainWindow.cpp:2224
 msgid "&Graphic pack patches"
 msgstr "&Патчи графических пакетов"
 
-#: src/gui/MainWindow.cpp:2217
+#: src/gui/MainWindow.cpp:2225
 msgid "&Texture cache warnings"
 msgstr "&Предупреждения кэша текстур"
 
-#: src/gui/MainWindow.cpp:2218
+#: src/gui/MainWindow.cpp:2226
 msgid "&Texture readback"
 msgstr "&Считывание текстур"
 
-#: src/gui/MainWindow.cpp:2220
+#: src/gui/MainWindow.cpp:2228
 msgid "&OpenGL debug output"
 msgstr "&Отладочный вывод OpenGL"
 
-#: src/gui/MainWindow.cpp:2221
+#: src/gui/MainWindow.cpp:2229
 msgid "&Vulkan validation layer (slow)"
 msgstr "&Слой валидации Vulkan (медленно)"
 
-#: src/gui/MainWindow.cpp:2222
+#: src/gui/MainWindow.cpp:2230
 msgid "&Log PPC context for API"
 msgstr "&Логировать контекст PPC для API"
 
-#: src/gui/MainWindow.cpp:2226
+#: src/gui/MainWindow.cpp:2234
 msgid "&Textures"
 msgstr "&Текстуры"
 
-#: src/gui/MainWindow.cpp:2227
+#: src/gui/MainWindow.cpp:2235
 msgid "&Shaders"
 msgstr "&Шейдеры"
 
-#: src/gui/MainWindow.cpp:2228
+#: src/gui/MainWindow.cpp:2236
 msgid "&nlibcurl HTTP/HTTPS requests"
 msgstr "&HTTP/HTTPS запросы nlibcurl"
 
-#: src/gui/MainWindow.cpp:2232
+#: src/gui/MainWindow.cpp:2240
 msgid "&Logging"
 msgstr "&Логирование"
 
-#: src/gui/MainWindow.cpp:2233
+#: src/gui/MainWindow.cpp:2241
 msgid "&Dump"
 msgstr "&Дамп"
 
-#: src/gui/MainWindow.cpp:2236
+#: src/gui/MainWindow.cpp:2244
 msgid "&Render upside-down"
 msgstr "&Рендер вверх ногами"
 
-#: src/gui/MainWindow.cpp:2241
+#: src/gui/MainWindow.cpp:2249
 msgid "&Accurate barriers (Vulkan)"
 msgstr "&Точные барьеры (Vulkan)"
 
-#: src/gui/MainWindow.cpp:2247
+#: src/gui/MainWindow.cpp:2255
 msgid "&Audio AUX only"
 msgstr "&API AUX-аудио"
 
-#: src/gui/MainWindow.cpp:2251
+#: src/gui/MainWindow.cpp:2259
 msgid "&Open logging window"
 msgstr "&Открыть окно логирования"
 
-#: src/gui/MainWindow.cpp:2252
+#: src/gui/MainWindow.cpp:2260
 msgid "&Launch with GDB stub"
 msgstr "&Запуск с помощью заглушки GDB"
 
-#: src/gui/MainWindow.cpp:2256
+#: src/gui/MainWindow.cpp:2264
 msgid "&View PPC threads"
 msgstr "&Показать потоки IPC"
 
-#: src/gui/MainWindow.cpp:2257
+#: src/gui/MainWindow.cpp:2265
 msgid "&View PPC debugger"
 msgstr "&Показать отладчик PPC"
 
-#: src/gui/MainWindow.cpp:2258
+#: src/gui/MainWindow.cpp:2266
 msgid "&View audio debugger"
 msgstr "&Показать отладчик звука"
 
-#: src/gui/MainWindow.cpp:2259
+#: src/gui/MainWindow.cpp:2267
 msgid "&View texture cache info"
 msgstr "&Показать данные о кэше текстур"
 
-#: src/gui/MainWindow.cpp:2260
+#: src/gui/MainWindow.cpp:2268
 msgid "&Dump current RAM"
 msgstr "&Дамп RAM"
 
-#: src/gui/MainWindow.cpp:2263
+#: src/gui/MainWindow.cpp:2271
 msgid "&Debug"
 msgstr "&Отладка"
 
-#: src/gui/MainWindow.cpp:2266
+#: src/gui/MainWindow.cpp:2274
 msgid "&Check for updates"
 msgstr "&Проверить наличие обновлений"
 
-#: src/gui/MainWindow.cpp:2272
+#: src/gui/MainWindow.cpp:2280
 msgid "&Getting started"
 msgstr "&Начальная настройка"
 
-#: src/gui/MainWindow.cpp:2274
+#: src/gui/MainWindow.cpp:2282
 msgid "&About Cemu"
 msgstr "&О программе"
 
-#: src/gui/MainWindow.cpp:2276
+#: src/gui/MainWindow.cpp:2284
 msgid "&Help"
 msgstr "&Помощь"
 
@@ -4003,6 +4014,27 @@ msgstr ""
 #: src/gui/GameUpdateWindow.cpp:279
 msgid "Info"
 msgstr "Информация"
+
+#~ msgid "&NN NFP"
+#~ msgstr "&NN NFP"
+
+#~ msgid "&NN FP"
+#~ msgstr "&NN FP"
+
+#~ msgid "&PRUDP (for NN FP)"
+#~ msgstr "&PRUDP (для NN FP)"
+
+#~ msgid "&NN BOSS"
+#~ msgstr "&NN BOSS"
+
+#~ msgid "&Socket API"
+#~ msgstr "&API сокетов"
+
+#~ msgid "&NFC API"
+#~ msgstr "&NFC API"
+
+#~ msgid "&NTAG API"
+#~ msgstr "&NTAG API"
 
 #~ msgid "Failed. Account does not have password set"
 #~ msgstr "Не удалось. У аккаунта не установлен пароль"
