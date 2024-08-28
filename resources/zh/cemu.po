@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-09-26 16:01+0800\n"
+"PO-Revision-Date: 2024-03-11 10:43+0800\n"
 "Last-Translator: Genglxy <Genglxy@outlook.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -68,11 +68,11 @@ msgstr "下载账户票证 (Tickets) 中"
 
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:427
 msgid "Downloading system tickets..."
-msgstr "下载系统票证 (Tickets) 中 ..."
+msgstr "下载系统票证 (Tickets) 中..."
 
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:489
 msgid "Retrieving update information..."
-msgstr "检索更新信息中 ..."
+msgstr "检索更新信息中..."
 
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:511
 msgid "Downloading ticket"
@@ -88,7 +88,7 @@ msgstr "已连接。右键单击列表中的条目即可开始下载"
 
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:655
 msgid "Logging in.."
-msgstr "登录中 ..."
+msgstr "登录中..."
 
 #: src/Cemu/Tools/DownloadManager/DownloadManager.cpp:678
 msgid "Login failed. Outdated or incomplete online files?"
@@ -140,7 +140,7 @@ msgstr "{:08x}-{:08x} 的 “档案校验和”"
 
 #: src/gui/ChecksumTool.cpp:105
 msgid "Verifying integrity of game files..."
-msgstr "正在验证游戏文件的完整性 ..."
+msgstr "正在验证游戏文件的完整性..."
 
 #: src/gui/ChecksumTool.cpp:121 src/gui/GraphicPacksWindow2.cpp:275
 msgid "Control"
@@ -450,7 +450,7 @@ msgstr "精确同步屏障 已关闭"
 
 #: src/gui/MainWindow.cpp:1343
 msgid "Updating game list..."
-msgstr "更新游戏列表中 ..."
+msgstr "更新游戏列表中..."
 
 #: src/gui/MainWindow.cpp:1720
 msgid ""
@@ -506,11 +506,11 @@ msgstr "特别感谢："
 
 #: src/gui/MainWindow.cpp:2027
 msgid "&Load..."
-msgstr "载入... (&L)"
+msgstr "载入(&L)..."
 
 #: src/gui/MainWindow.cpp:2028
 msgid "&Install game title, update or DLC..."
-msgstr "安装档案、升级档或 DLC ... (&I)"
+msgstr "安装档案、升级档或 DLC(&I)..."
 
 #: src/gui/MainWindow.cpp:2058
 msgid "End emulation"
@@ -518,107 +518,107 @@ msgstr "停止模拟"
 
 #: src/gui/MainWindow.cpp:2062 src/gui/debugger/DebuggerWindow2.cpp:632
 msgid "&Exit"
-msgstr "退出 (&E)"
+msgstr "退出(&E)"
 
 #: src/gui/MainWindow.cpp:2063 src/gui/debugger/DebuggerWindow2.cpp:635
 msgid "&File"
-msgstr "文件 (&F)"
+msgstr "文件(&F)"
 
 #: src/gui/MainWindow.cpp:2094
 msgid "&English"
-msgstr "英语 (&E)"
+msgstr "英语(&E)"
 
 #: src/gui/MainWindow.cpp:2095
 msgid "&Japanese"
-msgstr "日语 (&J)"
+msgstr "日语(&J)"
 
 #: src/gui/MainWindow.cpp:2096
 msgid "&French"
-msgstr "法语 (&F)"
+msgstr "法语(&F)"
 
 #: src/gui/MainWindow.cpp:2097
 msgid "&German"
-msgstr "德语 (&G)"
+msgstr "德语(&G)"
 
 #: src/gui/MainWindow.cpp:2098
 msgid "&Italian"
-msgstr "意大利语 (&I)"
+msgstr "意大利语(&I)"
 
 #: src/gui/MainWindow.cpp:2099
 msgid "&Spanish"
-msgstr "西班牙语 (&S)"
+msgstr "西班牙语(&S)"
 
 #: src/gui/MainWindow.cpp:2100
 msgid "&Chinese"
-msgstr "简体中文 (&C)"
+msgstr "简体中文(&C)"
 
 #: src/gui/MainWindow.cpp:2101
 msgid "&Korean"
-msgstr "韩语 (&K)"
+msgstr "韩语(&K)"
 
 #: src/gui/MainWindow.cpp:2102
 msgid "&Dutch"
-msgstr "荷兰语 (&D)"
+msgstr "荷兰语(&D)"
 
 #: src/gui/MainWindow.cpp:2103
 msgid "&Portuguese"
-msgstr "葡萄牙语 (&P)"
+msgstr "葡萄牙语(&P)"
 
 #: src/gui/MainWindow.cpp:2104
 msgid "&Russian"
-msgstr "俄语 (&R)"
+msgstr "俄语(&R)"
 
 #: src/gui/MainWindow.cpp:2105
 msgid "&Taiwanese"
-msgstr "繁体中文 (&T)"
+msgstr "繁体中文(&T)"
 
 #: src/gui/MainWindow.cpp:2109
 msgid "&Fullscreen"
-msgstr "全屏 (&F)"
+msgstr "全屏(&F)"
 
 #: src/gui/MainWindow.cpp:2112
 msgid "&Graphic packs"
-msgstr "图形插件 (&G)"
+msgstr "图形插件(&G)"
 
 #: src/gui/MainWindow.cpp:2114
 msgid "&Separate GamePad view"
-msgstr "单独 GamePad 窗口 (&S)"
+msgstr "单独 GamePad 窗口(&S)"
 
 #: src/gui/MainWindow.cpp:2117
 msgid "&General settings"
-msgstr "通用设置 (&G)"
+msgstr "通用设置(&G)"
 
 #: src/gui/MainWindow.cpp:2118
 msgid "&Input settings"
-msgstr "输入设置 (&I)"
+msgstr "输入设置(&I)"
 
 #: src/gui/MainWindow.cpp:2121
 msgid "&Active account"
-msgstr "当前帐户 (&A)"
+msgstr "当前帐户(&A)"
 
 #: src/gui/MainWindow.cpp:2123
 msgid "&Console language"
-msgstr "主机语言 (&C)"
+msgstr "主机语言(&C)"
 
 #: src/gui/MainWindow.cpp:2124 src/gui/debugger/DebuggerWindow2.cpp:641
 msgid "&Options"
-msgstr "选项 (&O)"
+msgstr "选项(&O)"
 
 #: src/gui/MainWindow.cpp:2128
 msgid "&Memory searcher"
-msgstr "内存搜索器 (&M)"
+msgstr "内存搜索器(&M)"
 
 #: src/gui/MainWindow.cpp:2130
 msgid "&Title Manager"
-msgstr "档案管理器 (&T)"
+msgstr "档案管理器(&T)"
 
 #: src/gui/MainWindow.cpp:2131
 msgid "&Download Manager"
-msgstr "下载管理器 (&D)"
+msgstr "下载管理器(&D)"
 
 #: src/gui/MainWindow.cpp:2132
 msgid "&Tools"
-msgstr "工具 (&T)"
+msgstr "工具(&T)"
 
 #: src/gui/MainWindow.cpp:2136
 msgid "&1x speed"
@@ -650,7 +650,7 @@ msgstr "&0.125倍 速度"
 
 #: src/gui/MainWindow.cpp:2146
 msgid "&Timer speed"
-msgstr "时钟速度 (&T)"
+msgstr "时钟速度(&T)"
 
 #: src/gui/MainWindow.cpp:2147
 msgid "&CPU"
@@ -658,7 +658,7 @@ msgstr "&CPU"
 
 #: src/gui/MainWindow.cpp:2152
 msgid "&Scan NFC tag from file"
-msgstr "载入 NFC 文件 (&S)"
+msgstr "载入 NFC 文件(&S)"
 
 #: src/gui/MainWindow.cpp:2153
 msgid "&NFC"
@@ -666,7 +666,7 @@ msgstr "&NFC"
 
 #: src/gui/MainWindow.cpp:2158
 msgid "&Unsupported API calls"
-msgstr "不支持的 API 调用 (&U)"
+msgstr "不支持的 API 调用(&U)"
 
 #: src/gui/MainWindow.cpp:2159
 msgid "&Coreinit Logging (OSReport/OSConsole)"
@@ -702,19 +702,19 @@ msgstr "&GX2 API"
 
 #: src/gui/MainWindow.cpp:2167
 msgid "&Audio API"
-msgstr "音频 API (&A)"
+msgstr "音频 API(&A)"
 
 #: src/gui/MainWindow.cpp:2168
 msgid "&Input API"
-msgstr "输入 API (&I)"
+msgstr "输入 API(&I)"
 
 #: src/gui/MainWindow.cpp:2169
 msgid "&Socket API"
-msgstr "套接 API (&S)"
+msgstr "套接 API(&S)"
 
 #: src/gui/MainWindow.cpp:2170
 msgid "&Save API"
-msgstr "储存 API (&S)"
+msgstr "储存 API(&S)"
 
 #: src/gui/MainWindow.cpp:2171
 msgid "&H264 API"
@@ -722,31 +722,35 @@ msgstr "&H264 API"
 
 #: src/gui/MainWindow.cpp:2173
 msgid "&Graphic pack patches"
-msgstr "图形插件补丁 (&G)"
+msgstr "图形插件补丁(&G)"
 
 #: src/gui/MainWindow.cpp:2174
 msgid "&Texture cache warnings"
-msgstr "纹理缓存警告 (&T)"
+msgstr "纹理缓存警告(&T)"
+
+#: src/gui/MainWindow.cpp:2221
+msgid "&Texture readback"
+msgstr "纹理回读(&T)"
 
 #: src/gui/MainWindow.cpp:2176
 msgid "&OpenGL debug output"
-msgstr "OpenGL 调试输出 (&O)"
+msgstr "OpenGL 调试输出(&O)"
 
 #: src/gui/MainWindow.cpp:2177
 msgid "&Vulkan validation layer (slow)"
-msgstr "Vulkan 验证层 (慢速) (&V)"
+msgstr "Vulkan 验证层 (慢速)(&V)"
 
 #: src/gui/MainWindow.cpp:2179
 msgid "&Log PPC context for API"
-msgstr "为 API 记录 PPC 上下文 (&L)"
+msgstr "为 API 记录 PPC 上下文(&L)"
 
 #: src/gui/MainWindow.cpp:2184
 msgid "&Textures"
-msgstr "纹理 (&T)"
+msgstr "纹理(&T)"
 
 #: src/gui/MainWindow.cpp:2185
 msgid "&Shaders"
-msgstr "着色器 (&S)"
+msgstr "着色器(&S)"
 
 #: src/gui/MainWindow.cpp:2186
 msgid "&nlibcurl HTTP/HTTPS requests"
@@ -754,71 +758,75 @@ msgstr "&nlibcurl HTTP/HTTPS 请求"
 
 #: src/gui/MainWindow.cpp:2190
 msgid "&Logging"
-msgstr "记录日志 (&L)"
+msgstr "记录日志(&L)"
 
 #: src/gui/MainWindow.cpp:2191
 msgid "&Dump"
-msgstr "转储 (&D)"
+msgstr "转储(&D)"
 
 #: src/gui/MainWindow.cpp:2194
 msgid "&Render upside-down"
-msgstr "上下反转渲染 (&R)"
+msgstr "上下反转渲染(&R)"
 
 #: src/gui/MainWindow.cpp:2199
 msgid "&Accurate barriers (Vulkan)"
-msgstr "精确同步屏障 (Vulkan) (&A)"
+msgstr "精确同步屏障 (Vulkan)(&A)"
 
 #: src/gui/MainWindow.cpp:2205
 msgid "&Audio AUX only"
-msgstr "仅 AUX 音频 (&A)"
+msgstr "仅 AUX 音频(&A)"
 
 #: src/gui/MainWindow.cpp:2210
 msgid "&Open logging window"
-msgstr "打开记录窗口 (&O)"
+msgstr "打开记录窗口(&O)"
+
+#: src/gui/MainWindow.cpp:2255
+msgid "&Launch with GDB stub"
+msgstr "使用 GDB 存根启动(&L)"
 
 #: src/gui/MainWindow.cpp:2212
 msgid "&View PPC threads"
-msgstr "查看 PPC 线程 (&V)"
+msgstr "查看 PPC 线程(&V)"
 
 #: src/gui/MainWindow.cpp:2213
 msgid "&View PPC debugger"
-msgstr "查看 PPC 调试器 (&V)"
+msgstr "查看 PPC 调试器(&V)"
 
 #: src/gui/MainWindow.cpp:2214
 msgid "&View audio debugger"
-msgstr "查看音频调试器 (&V)"
+msgstr "查看音频调试器(&V)"
 
 #: src/gui/MainWindow.cpp:2215
 msgid "&View texture cache info"
-msgstr "查看纹理缓存信息 (&V)"
+msgstr "查看纹理缓存信息(&V)"
 
 #: src/gui/MainWindow.cpp:2216
 msgid "&Show frame profiler"
-msgstr "显示帧分析器 (&S)"
+msgstr "显示帧分析器(&S)"
 
 #: src/gui/MainWindow.cpp:2217
 msgid "&Dump current RAM"
-msgstr "转储当前 RAM (&D)"
+msgstr "转储当前 RAM(&D)"
 
 #: src/gui/MainWindow.cpp:2220
 msgid "&Debug"
-msgstr "调试 (&D)"
+msgstr "调试(&D)"
 
 #: src/gui/MainWindow.cpp:2225
 msgid "&Check for updates"
-msgstr "检查更新 (&C)"
+msgstr "检查更新(&C)"
 
 #: src/gui/MainWindow.cpp:2226
 msgid "&Getting started"
-msgstr "运行欢迎向导 (&G)"
+msgstr "运行欢迎向导(&G)"
 
 #: src/gui/MainWindow.cpp:2228
 msgid "&About Cemu"
-msgstr "关于 Cemu (&A)"
+msgstr "关于 Cemu(&A)"
 
 #: src/gui/MainWindow.cpp:2230
 msgid "&Help"
-msgstr "帮助 (&H)"
+msgstr "帮助(&H)"
 
 #: src/gui/MainWindow.cpp:2274
 msgid "otp.bin could not be found"
@@ -844,7 +852,6 @@ msgstr "发生未知错误"
 msgid "Graphic packs cannot be updated while a game is running."
 msgstr "在游戏运行时无法更新图形插件。"
 
-#: src/gui/DownloadGraphicPacksWindow.cpp:115
 #: src/gui/DownloadGraphicPacksWindow.cpp:193
 #: src/gui/DownloadGraphicPacksWindow.cpp:200
 #: src/gui/GettingStartedDialog.cpp:87 src/gui/GettingStartedDialog.cpp:285
@@ -869,7 +876,7 @@ msgstr "有图形插件更新可用，是否下载并更新？"
 
 #: src/gui/DownloadGraphicPacksWindow.cpp:302
 msgid "Checking version..."
-msgstr "检查版本中 ..."
+msgstr "检查版本中..."
 
 #: src/gui/DownloadGraphicPacksWindow.cpp:312 src/gui/GameUpdateWindow.cpp:182
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:41
@@ -884,11 +891,11 @@ msgstr "取消"
 
 #: src/gui/DownloadGraphicPacksWindow.cpp:380
 msgid "Downloading graphic packs..."
-msgstr "正在下载图形插件 ..."
+msgstr "正在下载图形插件..."
 
 #: src/gui/DownloadGraphicPacksWindow.cpp:384
 msgid "Extracting..."
-msgstr "解压中 ..."
+msgstr "解压中..."
 
 #: src/gui/TitleManager.cpp:59 src/gui/LoggingWindow.cpp:22
 #: src/gui/GraphicPacksWindow2.cpp:216 src/gui/MemorySearcherTool.cpp:64
@@ -1072,7 +1079,7 @@ msgstr ""
 
 #: src/gui/TitleManager.cpp:757
 msgid "Getting installed title information..."
-msgstr "正在获取已安装档案的信息 ..."
+msgstr "正在获取已安装档案的信息..."
 
 #: src/gui/debugger/RegisterWindow.cpp:31
 msgid "Registers"
@@ -1092,19 +1099,19 @@ msgstr "输入新值。"
 
 #: src/gui/debugger/RegisterWindow.cpp:417
 msgid "&Zero"
-msgstr "零 (&Z)"
+msgstr "零(&Z)"
 
 #: src/gui/debugger/RegisterWindow.cpp:418
 msgid "&Increment"
-msgstr "增加 (&I)"
+msgstr "增加(&I)"
 
 #: src/gui/debugger/RegisterWindow.cpp:419
 msgid "&Decrement"
-msgstr "减少 (&D)"
+msgstr "减少(&D)"
 
 #: src/gui/debugger/RegisterWindow.cpp:421
 msgid "&Copy"
-msgstr "复制 (&C)"
+msgstr "复制(&C)"
 
 #: src/gui/debugger/RegisterWindow.cpp:423
 msgid "&Goto Disasm"
@@ -1237,35 +1244,35 @@ msgstr "运行 (F5)"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:639
 msgid "&Pin to main window"
-msgstr "贴靠于主视窗 (&P)"
+msgstr "贴靠于主视窗(&P)"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:640
 msgid "Break on &entry point"
-msgstr "在入口点处中断 (&E)"
+msgstr "在入口点处中断(&E)"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:645
 msgid "&Registers"
-msgstr "寄存器 (&R)"
+msgstr "寄存器(&R)"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:646
 msgid "&Memory Dump"
-msgstr "内存转储 (&M)"
+msgstr "内存转储(&M)"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:647
 msgid "&Breakpoints"
-msgstr "断点 (&B)"
+msgstr "断点(&B)"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:648
 msgid "Module&list"
-msgstr "模块列表 (&L)"
+msgstr "模块列表(&L)"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:649
 msgid "&Symbols"
-msgstr "符号 (&S)"
+msgstr "符号(&S)"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:651
 msgid "&Window"
-msgstr "窗口 (&W)"
+msgstr "窗口(&W)"
 
 #: src/gui/debugger/SymbolCtrl.cpp:31
 msgid "Module"
@@ -1693,21 +1700,21 @@ msgstr ""
 "所需空间：{0} MB\n"
 "可用空间：{1} MB"
 
-#: src/gui/GameUpdateWindow.cpp:169
+#: src/gui/GameUpdateWindow.cpp:163
 msgid "Installing DLC..."
-msgstr "安装 DLC 中 ..."
+msgstr "安装 DLC 中..."
 
-#: src/gui/GameUpdateWindow.cpp:171
+#: src/gui/GameUpdateWindow.cpp:165
 msgid "Installing update..."
-msgstr "安装更新档中 ..."
+msgstr "正在安装更新..."
 
 #: src/gui/GameUpdateWindow.cpp:173
 msgid "Installing system title..."
-msgstr "安装系统档案中 ..."
+msgstr "安装系统档案中..."
 
 #: src/gui/GameUpdateWindow.cpp:175
 msgid "Installing title..."
-msgstr "安装档案中 ..."
+msgstr "安装档案中..."
 
 #: src/gui/GameUpdateWindow.cpp:253
 msgid "Current file:"
@@ -2531,46 +2538,6 @@ msgstr ""
 "移动存档过程中出错：\n"
 "{}"
 
-#: src/gui/CemuUpdateWindow.cpp:54
-msgid "Changelog"
-msgstr "更新日志"
-
-#: src/gui/CemuUpdateWindow.cpp:577 src/gui/CemuUpdateWindow.cpp:594
-msgid "Exit"
-msgstr "退出"
-
-#: src/gui/CemuUpdateWindow.cpp:578
-msgid "No update available!"
-msgstr "没有可用更新！"
-
-#: src/gui/CemuUpdateWindow.cpp:593
-msgid "Update available!"
-msgstr "有可用更新！"
-
-#: src/gui/CemuUpdateWindow.cpp:598
-msgid "Extracting update..."
-msgstr "解压更新文件中 ..."
-
-#: src/gui/CemuUpdateWindow.cpp:603
-msgid "Couldn't download the update!"
-msgstr "无法下载更新！"
-
-#: src/gui/CemuUpdateWindow.cpp:606
-msgid "Applying update..."
-msgstr "应用更新中 ..."
-
-#: src/gui/CemuUpdateWindow.cpp:613
-msgid "Extracting failed!"
-msgstr "解压失败！"
-
-#: src/gui/CemuUpdateWindow.cpp:620
-msgid "Restart"
-msgstr "重新启动"
-
-#: src/gui/CemuUpdateWindow.cpp:642
-msgid "Downloading update..."
-msgstr "下载更新中 ..."
-
 #: src/gui/LoggingWindow.cpp:16
 msgid "Logging window"
 msgstr "日志记录窗口"
@@ -2932,7 +2899,7 @@ msgstr "控制器已添加！"
 
 #: src/gui/input/InputAPIAddWindow.cpp:239
 msgid "Searching for controllers..."
-msgstr "搜寻控制器中 ..."
+msgstr "搜寻控制器中..."
 
 #: src/gui/input/InputSettings2.h:21
 msgid "<profile name>"
@@ -3008,11 +2975,11 @@ msgstr "输入的值对所选数据类型无效。"
 
 #: src/gui/MemorySearcherTool.cpp:383
 msgid "&Add new entry"
-msgstr "添加新条目 (&A)"
+msgstr "添加新条目(&A)"
 
 #: src/gui/MemorySearcherTool.cpp:384
 msgid "&Remove entry"
-msgstr "移除条目 (&R)"
+msgstr "移除条目(&R)"
 
 #: src/gui/MemorySearcherTool.cpp:477
 msgid "Results ({0})"
@@ -3039,15 +3006,15 @@ msgstr "状态"
 
 #: src/gui/components/wxDownloadManagerList.cpp:336
 msgid "&Resume"
-msgstr "恢复 (&R)"
+msgstr "恢复(&R)"
 
 #: src/gui/components/wxDownloadManagerList.cpp:338
 msgid "&Retry"
-msgstr "重试 (&R)"
+msgstr "重试(&R)"
 
 #: src/gui/components/wxDownloadManagerList.cpp:340
 msgid "&Download"
-msgstr "下载 (&D)"
+msgstr "下载(&D)"
 
 #: src/gui/components/wxDownloadManagerList.cpp:468
 msgid "Paused"
@@ -3131,15 +3098,15 @@ msgstr "地区"
 
 #: src/gui/components/wxGameList.cpp:501
 msgid "&Start"
-msgstr "启动 (&S)"
+msgstr "启动(&S)"
 
 #: src/gui/components/wxGameList.cpp:507
 msgid "&Favorite"
-msgstr "收藏并置顶 (&F)"
+msgstr "收藏并置顶(&F)"
 
 #: src/gui/components/wxGameList.cpp:508
 msgid "&Edit name"
-msgstr "编辑名称 (&E)"
+msgstr "编辑名称(&E)"
 
 #: src/gui/components/wxGameList.cpp:511
 msgid "&Wiki page"
@@ -3147,15 +3114,15 @@ msgstr "&Wiki 页面"
 
 #: src/gui/components/wxGameList.cpp:512
 msgid "&Game directory"
-msgstr "游戏目录 (&G)"
+msgstr "游戏目录(&G)"
 
 #: src/gui/components/wxGameList.cpp:513
 msgid "&Save directory"
-msgstr "存档目录 (&S)"
+msgstr "存档目录(&S)"
 
 #: src/gui/components/wxGameList.cpp:514
 msgid "&Update directory"
-msgstr "更新档目录 (&U)"
+msgstr "更新档目录(&U)"
 
 #: src/gui/components/wxGameList.cpp:515
 msgid "&DLC directory"
@@ -3163,27 +3130,27 @@ msgstr "&DLC 目录"
 
 #: src/gui/components/wxGameList.cpp:518
 msgid "&Edit graphic packs"
-msgstr "编辑图形插件 (&E)"
+msgstr "编辑图形插件(&E)"
 
 #: src/gui/components/wxGameList.cpp:519
 msgid "&Edit game profile"
-msgstr "编辑游戏设定档 (&E)"
+msgstr "编辑游戏设定档(&E)"
 
 #: src/gui/components/wxGameList.cpp:525
 msgid "&Refresh game list"
-msgstr "刷新游戏列表 (&R)"
+msgstr "刷新游戏列表(&R)"
 
 #: src/gui/components/wxGameList.cpp:527
 msgid "Style: &List"
-msgstr "显示方式：列表 (&L)"
+msgstr "显示方式：列表(&L)"
 
 #: src/gui/components/wxGameList.cpp:528
 msgid "Style: &Icons"
-msgstr "显示方式：普通图标 (&I)"
+msgstr "显示方式：普通图标(&I)"
 
 #: src/gui/components/wxGameList.cpp:529
 msgid "Style: &Small Icons"
-msgstr "显示方式：小图标 (&S)"
+msgstr "显示方式：小图标(&S)"
 
 #: src/gui/components/wxGameList.cpp:559
 msgid "Enter a custom game title"
@@ -3191,19 +3158,19 @@ msgstr "输入一个自定义的游戏档案"
 
 #: src/gui/components/wxGameList.cpp:682
 msgid "Reset &width"
-msgstr "重置 宽度 (&W)"
+msgstr "重置 宽度(&W)"
 
 #: src/gui/components/wxGameList.cpp:683
 msgid "Reset &order"
-msgstr "重置 排序 (&O)"
+msgstr "重置 排序(&O)"
 
 #: src/gui/components/wxGameList.cpp:686
 msgid "Show &name"
-msgstr "显示 名称 (&N)"
+msgstr "显示 名称(&N)"
 
 #: src/gui/components/wxGameList.cpp:687
 msgid "Show &version"
-msgstr "显示 版本 (&V)"
+msgstr "显示 版本(&V)"
 
 #: src/gui/components/wxGameList.cpp:688
 msgid "Show &dlc"
@@ -3211,15 +3178,15 @@ msgstr "显示 &DLC"
 
 #: src/gui/components/wxGameList.cpp:689
 msgid "Show &game time"
-msgstr "显示 游戏时长 (&G)"
+msgstr "显示 游戏时长(&G)"
 
 #: src/gui/components/wxGameList.cpp:690
 msgid "Show &last played"
-msgstr "显示 上次游玩时间 (&L)"
+msgstr "显示 上次游玩时间(&L)"
 
 #: src/gui/components/wxGameList.cpp:691
 msgid "Show &region"
-msgstr "显示 地区 (&R)"
+msgstr "显示 地区(&R)"
 
 #: src/gui/components/wxGameList.cpp:926 src/gui/components/wxGameList.cpp:931
 msgid "never"
@@ -3269,23 +3236,23 @@ msgstr "无法创建文件"
 
 #: src/gui/components/wxTitleManagerList.cpp:534
 msgid "Counting files..."
-msgstr "统计文件中 ..."
+msgstr "统计文件中..."
 
 #: src/gui/components/wxTitleManagerList.cpp:546
 msgid "Stopping..."
-msgstr "停止中 ..."
+msgstr "停止中..."
 
 #: src/gui/components/wxTitleManagerList.cpp:557
 msgid "Converting files..."
-msgstr "转换文件中 ..."
+msgstr "转换文件中..."
 
 #: src/gui/components/wxTitleManagerList.cpp:561
 msgid "Collecting list of files..."
-msgstr "收集文件列表中 ..."
+msgstr "收集文件列表中..."
 
 #: src/gui/components/wxTitleManagerList.cpp:567
 msgid "Finalizing..."
-msgstr "最后处理中 ..."
+msgstr "最后处理中..."
 
 #: src/gui/components/wxTitleManagerList.cpp:584
 msgid "Conversion failed\n"
@@ -3301,15 +3268,15 @@ msgstr "完成"
 
 #: src/gui/components/wxTitleManagerList.cpp:753
 msgid "&Launch title"
-msgstr "载入档案 (&L)"
+msgstr "载入档案(&L)"
 
 #: src/gui/components/wxTitleManagerList.cpp:755
 msgid "&Open directory"
-msgstr "打开目录 (&O)"
+msgstr "打开目录(&O)"
 
 #: src/gui/components/wxTitleManagerList.cpp:757
 msgid "&Verify integrity of game files"
-msgstr "验证游戏文件的完整性 (&V)"
+msgstr "验证游戏文件的完整性(&V)"
 
 #: src/gui/components/wxTitleManagerList.cpp:763
 msgid "Convert to compressed Wii U archive (.wua)"
@@ -3317,7 +3284,7 @@ msgstr "转换为压缩的 Wii U 档案文件 (.wua)"
 
 #: src/gui/components/wxTitleManagerList.cpp:767
 msgid "&Delete"
-msgstr "删除 (&D)"
+msgstr "删除(&D)"
 
 #: src/gui/components/wxTitleManagerList.cpp:782
 msgid ""
@@ -3522,15 +3489,6 @@ msgstr "主页"
 
 #~ msgid "Invalid folder structure"
 #~ msgstr "无效的目录结构"
-
-#~ msgid "Installing DLC ..."
-#~ msgstr "安装 DLC ..."
-
-#~ msgid "Installing update ..."
-#~ msgstr "安装更新档 ..."
-
-#~ msgid "Installing title ..."
-#~ msgstr "安装档案中 ..."
 
 #~ msgid "Precompiled shaders"
 #~ msgstr "预编译着色器"
@@ -3838,7 +3796,7 @@ msgstr "主页"
 #~ msgstr "无法保存控制器 {0} 的设置"
 
 #~ msgid "Searching for wiimotes..."
-#~ msgstr "搜寻 Wii 手柄 ..."
+#~ msgstr "搜寻 Wii 手柄..."
 
 #~ msgid ""
 #~ "All files from the currently running game will be dumped to /dump/"
@@ -3885,31 +3843,131 @@ msgstr "主页"
 #~ msgstr "三核重编译器"
 
 #~ msgid "&Auto"
-#~ msgstr "&自动"
+#~ msgstr "自动(&A)"
 
 #~ msgid "&USA"
-#~ msgstr "&美国"
+#~ msgstr "美国(&U)"
 
 #~ msgid "&Europe"
-#~ msgstr "&欧洲"
+#~ msgstr "欧洲(&E )"
 
 #~ msgid "&Japan"
-#~ msgstr "&日本"
+#~ msgstr "日本(&J)"
 
 #~ msgid "&China"
-#~ msgstr "&中国"
+#~ msgstr "中国(&C)"
 
 #~ msgid "&Korea"
-#~ msgstr "&韩国"
+#~ msgstr "韩国(&K)"
 
 #~ msgid "&Taiwan"
-#~ msgstr "&中国台湾"
+#~ msgstr "中国台湾(&T)"
 
 #~ msgid "&Console region"
-#~ msgstr "&主机地区"
+#~ msgstr "主机地区(&C)"
 
 #~ msgid "&Async compile (Vulkan)"
-#~ msgstr "&异步编译 (Vulkan)"
+#~ msgstr "异步编译(Vulkan)(&A)"
 
 #~ msgid "&Experimental"
-#~ msgstr "&实验性功能"
+#~ msgstr "实验性功能(&E)"
+
+#: src/gui/CemuUpdateWindow.cpp:27
+msgid "Cemu update"
+msgstr "Cemu 更新"
+
+#: src/gui/CemuUpdateWindow.cpp:38
+msgid "Checking for latest version..."
+msgstr "正在检查最新版本..."
+
+#: src/gui/CemuUpdateWindow.cpp:55
+msgid "Changelog"
+msgstr "更改日志"
+
+#: src/gui/CemuUpdateWindow.cpp:579 src/gui/CemuUpdateWindow.cpp:596
+msgid "Exit"
+msgstr "退出"
+
+#: src/gui/CemuUpdateWindow.cpp:580
+msgid "No update available!"
+msgstr "没有可用更新！"
+
+#: src/gui/CemuUpdateWindow.cpp:595
+msgid "Update available!"
+msgstr "更新可用！"
+
+#: src/gui/CemuUpdateWindow.cpp:600
+msgid "Extracting update..."
+msgstr "正在提取更新..."
+
+#: src/gui/CemuUpdateWindow.cpp:605
+msgid "Couldn't download the update!"
+msgstr "无法下载更新！"
+
+#: src/gui/CemuUpdateWindow.cpp:608
+msgid "Applying update..."
+msgstr "正在应用更新..."
+
+#: src/gui/CemuUpdateWindow.cpp:615
+msgid "Extracting failed!"
+msgstr "提取失败！"
+
+#: src/gui/CemuUpdateWindow.cpp:622
+msgid "Restart"
+msgstr "重新启动"
+
+#: src/gui/CemuUpdateWindow.cpp:644
+msgid "Downloading update..."
+msgstr "正在下载更新..."
+
+#: src/gui/MainWindow.cpp:2120
+msgid "&Open Cemu folder"
+msgstr "打开 Cemu 文件夹(&O)"
+
+#: src/gui/MainWindow.cpp:2132
+msgid "&Open MLC folder"
+msgstr "打开 MLC 文件夹(&O)"
+
+#: src/gui/GeneralSettings2.cpp:181
+msgid "Disable screen saver"
+msgstr "禁用屏幕保护程序"
+
+#: src/gui/GeneralSettings2.cpp:463
+msgid "Microphone (Experimental)"
+msgstr "麦克风（实验性）"
+
+#: src/gui/GeneralSettings2.cpp:684
+msgid "Nintendo"
+msgstr "Nintendo"
+
+#: src/gui/GeneralSettings2.cpp:684
+msgid "Pretendo"
+msgstr "Pretendo"
+
+#: src/gui/GeneralSettings2.cpp:684
+msgid "Custom"
+msgstr "自定义"
+
+#: src/gui/GeneralSettings2.cpp:685
+msgid "Network Service"
+msgstr "网络服务"
+
+#: src/gui/GeneralSettings2.cpp:690
+msgid "Connect to which Network Service"
+msgstr "连接到哪个网络服务"
+
+#: src/gui/GeneralSettings2.cpp:822
+msgid "GDB Stub port"
+msgstr "GDB 存根端口"
+
+#: src/gui/GeneralSettings2.cpp:825
+msgid ""
+"Changes the port that the GDB stub will use, which you can use by either starting Cemu with the --"
+"enable-gdbstub option or by enabling it the Debug tab."
+msgstr ""
+"更改 GDB 存根将使用的端口，您可以通过使用 enable-gdbstub 选项"
+"启动 Cemu 或在“调试”选项卡中启用它来使用该端口。"
+
+#: src/gui/GeneralSettings2.cpp:182
+msgid "Prevents the system from activating the screen saver or going to sleep while running a game."
+msgstr "防止系统在运行游戏时激活屏幕保护程序或进入睡眠状态。"
