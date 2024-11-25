@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-24 19:05+0100\n"
+"PO-Revision-Date: 2024-11-25 09:36+0100\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -300,7 +300,7 @@ msgid ""
 "Valid online files are required to download eShop titles. For more "
 "information, go to the Account tab in the General Settings."
 msgstr ""
-"Giltiga online-filer krävs för att hämta eShop-titlar. För mer information, "
+"Giltiga onlinefiler krävs för att hämta eShop-titlar. För mer information, "
 "gå till Konto-fliken i Allmänna inställningar."
 
 #: src/gui/TitleManager.cpp:192
@@ -465,7 +465,7 @@ msgstr ""
 
 #: src/gui/TitleManager.cpp:745
 msgid "Dumped online files not found"
-msgstr "Dumpade online-filer hittades inte"
+msgstr "Dumpade onlinefiler hittades inte"
 
 #: src/gui/TitleManager.cpp:749
 msgid "Connecting..."
@@ -561,7 +561,7 @@ msgstr "DLC"
 
 #: src/gui/GameUpdateWindow.cpp:21
 msgid "Base game"
-msgstr "Grundspel"
+msgstr "Basspel"
 
 #: src/gui/GameUpdateWindow.cpp:23
 msgid "Demo"
@@ -814,7 +814,6 @@ msgid "Input settings"
 msgstr "Inmatningsinställningar"
 
 #: src/gui/input/InputSettings2.cpp:82 src/gui/GameProfileWindow.cpp:169
-#| msgid "Controller:"
 msgid "Controller {}"
 msgstr "Handkontroller {}"
 
@@ -835,6 +834,8 @@ msgstr "Spara"
 #: src/gui/input/InputSettings2.cpp:176
 msgid "controller set by gameprofile. changes won't be saved permanently!"
 msgstr ""
+"handkontroller inställd av spelprofil. ändringar kommer inte sparas "
+"permanent!"
 
 #: src/gui/input/InputSettings2.cpp:208
 msgid "Emulated controller"
@@ -1029,7 +1030,6 @@ msgid "show screen"
 msgstr "visa skärm"
 
 #: src/gui/input/InputSettings2.h:21
-#| msgid "No profile name entered!"
 msgid "<profile name>"
 msgstr "<profilnamn>"
 
@@ -1083,28 +1083,27 @@ msgstr "Verifierar kontrollsumman med en lokal JSON-fil som du kan välja"
 
 #: src/gui/ChecksumTool.cpp:151
 msgid "Export the title checksum data to a local JSON file"
-msgstr ""
+msgstr "Exportera titelns kontrollsummedata till en lokal JSON-fil"
 
 #: src/gui/ChecksumTool.cpp:361
 msgid "Export checksum entry"
-msgstr ""
+msgstr "Exportera kontrollsummeobjekt"
 
 #: src/gui/ChecksumTool.cpp:412
 msgid "Export successful"
 msgstr "Exporten lyckades"
 
 #: src/gui/ChecksumTool.cpp:416
-#| msgid "Can't open the file."
 msgid "Can't write to file: {}"
 msgstr "Kan inte skriva till fil: {}"
 
 #: src/gui/ChecksumTool.cpp:443
 msgid "JSON file doesn't satisfy needed schema"
-msgstr ""
+msgstr "JSON-filen har inte rätt schema"
 
 #: src/gui/ChecksumTool.cpp:464
 msgid "The file you are comparing with is for a different title."
-msgstr ""
+msgstr "Filen som du jämför med är för en annan titel."
 
 #: src/gui/ChecksumTool.cpp:469
 msgid "Wrong version: {}"
@@ -1116,7 +1115,7 @@ msgstr "Fel region: {}"
 
 #: src/gui/ChecksumTool.cpp:481
 msgid "The verification data doesn't include a WUD hash!"
-msgstr ""
+msgstr "Verifieringsdata inkluderar inte en WUD-hash!"
 
 #: src/gui/ChecksumTool.cpp:486
 msgid ""
@@ -1128,10 +1127,17 @@ msgid ""
 "Expected hash:\n"
 "{}"
 msgstr ""
+"Din spelavbild är ogiltig!\n"
+"\n"
+"Din hash:\n"
+"{}\n"
+"\n"
+"Förväntad hash:\n"
+"{}"
 
 #: src/gui/ChecksumTool.cpp:496
 msgid "Select a file to export the errors"
-msgstr ""
+msgstr "Välj en fil för att exportera felen"
 
 #: src/gui/ChecksumTool.cpp:525
 msgid "Can't open file to write!"
@@ -1150,12 +1156,16 @@ msgid ""
 "{} files have an invalid hash!\n"
 "Do you want to export a list of them to a file?"
 msgstr ""
+"{} filer har en ogiltig hash!\n"
+"Vill du exportera en lista över dem till en fil?"
 
 #: src/gui/ChecksumTool.cpp:578
 msgid ""
 "Multiple issues with your game files have been found!\n"
 "Do you want to export them to a file?"
 msgstr ""
+"Flera problem med dina spelfiler har hittats!\n"
+"Vill du exportera dem till en fil?"
 
 #: src/gui/ChecksumTool.cpp:587
 msgid "Your game files are valid"
@@ -1163,7 +1173,7 @@ msgstr "Dina spelfiler är giltiga"
 
 #: src/gui/ChecksumTool.cpp:591
 msgid "JSON parse error: {}"
-msgstr ""
+msgstr "JSON-tolkningsfel: {}"
 
 #: src/gui/ChecksumTool.cpp:608 src/gui/ChecksumTool.cpp:636
 msgid "Can't open file!"
@@ -1175,23 +1185,23 @@ msgstr "Kunde inte tolka JSON-filen!"
 
 #: src/gui/ChecksumTool.cpp:628
 msgid "Open checksum entry"
-msgstr ""
+msgstr "Öppna kontrollsummeobjekt"
 
 #: src/gui/ChecksumTool.cpp:687
 msgid "Reading game image: {}"
-msgstr ""
+msgstr "Läser spelavbild: {}"
 
 #: src/gui/ChecksumTool.cpp:716
 msgid "Reading game image: {0}/{1} kB"
-msgstr ""
+msgstr "Läser spelavbild: {0}/{1} kB"
 
 #: src/gui/ChecksumTool.cpp:720
 msgid "Generating checksum of game image: {}"
-msgstr ""
+msgstr "Genererar kontrollsumma för spelavbild: {}"
 
 #: src/gui/ChecksumTool.cpp:736
 msgid "Generated checksum of game image: {}"
-msgstr ""
+msgstr "Genererad kontrollsumma för spelavbild: {}"
 
 #: src/gui/ChecksumTool.cpp:743
 msgid "Grabbing game files"
@@ -1199,11 +1209,11 @@ msgstr "Hämtar spelfiler"
 
 #: src/gui/ChecksumTool.cpp:772
 msgid "Hashing game file: {}/{}"
-msgstr ""
+msgstr "Hashar spelfil: {}/{}"
 
 #: src/gui/ChecksumTool.cpp:782
 msgid "Generated checksum of {} game files"
-msgstr ""
+msgstr "Genererade kontrollsummor för {} spelfiler"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:14
 msgid "Create new account"
@@ -1214,6 +1224,9 @@ msgid ""
 "The persistent id is the internal folder name used for your saves. Only "
 "change this if you are importing saves from a Wii U with a specific id"
 msgstr ""
+"Bestående id är det interna mappnamnet som används för dina sparningar. "
+"Ändra endast detta om du importerar sparningar från en Wii U med ett "
+"specifikt id"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:27
 #: src/gui/GeneralSettings2.cpp:767
@@ -1222,23 +1235,23 @@ msgstr "Mii-namn"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:68
 msgid "No persistent id entered!"
-msgstr ""
+msgstr "Inget bestående id angivet!"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:75
 msgid "The persistent id must be greater than {:x}!"
-msgstr ""
+msgstr "Bestående id måste vara större än {:x}!"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:83
 msgid "The persistent id {:x} is already in use by account {}!"
-msgstr ""
+msgstr "Bestående id {:x} används redan av kontot {}!"
 
 #: src/gui/dialogs/CreateAccount/wxCreateAccountDialog.cpp:91
 msgid "Account name may not be empty!"
-msgstr ""
+msgstr "Kontonamnet får inte vara tomt!"
 
 #: src/gui/dialogs/SaveImport/SaveTransfer.cpp:18
 msgid "Save transfer"
-msgstr ""
+msgstr "Spara överföring"
 
 #: src/gui/dialogs/SaveImport/SaveTransfer.cpp:27
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:31
@@ -1256,6 +1269,8 @@ msgid ""
 "The given account id is not valid!\n"
 "It must be a hex number bigger or equal than {:08x}"
 msgstr ""
+"Angivet konto-id är inte giltigt!\n"
+"Det måste vara ett hexadecimalt nummer större eller lika med {:08x}"
 
 #: src/gui/dialogs/SaveImport/SaveTransfer.cpp:111
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:173
@@ -1263,6 +1278,8 @@ msgid ""
 "There's already a file at the target directory:\n"
 "{}"
 msgstr ""
+"Det finns redan en fil i målkatalogen:\n"
+"{}"
 
 #: src/gui/dialogs/SaveImport/SaveTransfer.cpp:118
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:180
@@ -1271,6 +1288,9 @@ msgid ""
 "overwrite it?\n"
 "This will delete the existing save files for the account and replace them."
 msgstr ""
+"Det finns redan ett sparat spel tillgängligt för målkontot. Vill du skriva "
+"över det?\n"
+"Detta kommer att ta bort befintliga sparade filer för kontot och ersätta dem."
 
 #: src/gui/dialogs/SaveImport/SaveTransfer.cpp:134
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:196
@@ -1278,24 +1298,28 @@ msgid ""
 "Error when trying to delete the former save game:\n"
 "{}"
 msgstr ""
+"Fel vid försök att ta bort tidigare sparat spel:\n"
+"{}"
 
 #: src/gui/dialogs/SaveImport/SaveTransfer.cpp:190
 msgid ""
 "Error when trying to move the save game:\n"
 "{}"
 msgstr ""
+"Fel vid försök att flytta sparat spel:\n"
+"{}"
 
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:22
 msgid "Import save entry"
-msgstr ""
+msgstr "Importera sparat objekt"
 
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:33
 msgid "Select a zipped save file"
-msgstr ""
+msgstr "Välj en zippad sparad fil"
 
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:34
 msgid "Save entry (*.zip)"
-msgstr ""
+msgstr "Sparat objekt (*.zip)"
 
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:121
 msgid ""
@@ -1303,18 +1327,25 @@ msgid ""
 "currently selected one: {:016x} vs {:016x}\n"
 "Are you sure that you want to continue?"
 msgstr ""
+"Du försöker att importera ett sparat spel för en annan titel än den som du "
+"för närvarande valt: {:016x} vs {:016x}\n"
+"Är du säker på att du vill fortsätta?"
 
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:216
 msgid ""
 "Error when creating the extraction path:\n"
 "{}"
 msgstr ""
+"Fel vid skapande av extraheringssökvägen:\n"
+"{}"
 
 #: src/gui/dialogs/SaveImport/SaveImportWindow.cpp:224
 msgid ""
 "Error when opening the import zip file:\n"
 "{}"
 msgstr ""
+"Fel vid öppnande av zip-filen att importera:\n"
+"{}"
 
 #: src/gui/PadViewFrame.cpp:27 src/gui/guiWrapper.cpp:135
 msgid "GamePad View"
@@ -1356,18 +1387,24 @@ msgid ""
 "The following content will be converted to a compressed Wii U archive file (."
 "wua):"
 msgstr ""
+"Följande innehåll kommer att konverteras till en komprimerad Wii U-arkivfil "
+"(.wua):"
 
 #: src/gui/components/wxTitleManagerList.cpp:313
 msgid ""
 "Base game:\n"
 "{}"
 msgstr ""
+"Basspel:\n"
+"{}"
 
 #: src/gui/components/wxTitleManagerList.cpp:315
 msgid ""
 "Base game:\n"
 "Not installed"
 msgstr ""
+"Basspel:\n"
+"Inte installerat"
 
 #: src/gui/components/wxTitleManagerList.cpp:320
 msgid ""
@@ -1378,7 +1415,6 @@ msgstr ""
 "{}"
 
 #: src/gui/components/wxTitleManagerList.cpp:322
-#| msgid "Update installed!"
 msgid ""
 "Update:\n"
 "Not installed"
@@ -1395,7 +1431,6 @@ msgstr ""
 "{}"
 
 #: src/gui/components/wxTitleManagerList.cpp:329
-#| msgid "Update installed!"
 msgid ""
 "DLC:\n"
 "Not installed"
@@ -1410,7 +1445,7 @@ msgstr "Bekräfta"
 
 #: src/gui/components/wxTitleManagerList.cpp:385
 msgid "Save Wii U game archive file"
-msgstr ""
+msgstr "Spara Wii U-spelarkivfil"
 
 #: src/gui/components/wxTitleManagerList.cpp:545
 msgid "Unable to create file"
@@ -1438,11 +1473,11 @@ msgstr "Färdigställer..."
 
 #: src/gui/components/wxTitleManagerList.cpp:600
 msgid "Conversion failed\n"
-msgstr ""
+msgstr "Konvertering misslyckades\n"
 
 #: src/gui/components/wxTitleManagerList.cpp:616
 msgid "Conversion finished\n"
-msgstr ""
+msgstr "Konvertering färdig\n"
 
 #: src/gui/components/wxTitleManagerList.cpp:616
 msgid "Complete"
@@ -1489,10 +1524,12 @@ msgid ""
 "Error when trying to delete the entry:\n"
 "{}"
 msgstr ""
+"Fel vid försök att ta bort objektet:\n"
+"{}"
 
 #: src/gui/components/wxTitleManagerList.cpp:940
 msgid "Save folder"
-msgstr "Spara mapp"
+msgstr "Sparad mapp"
 
 #: src/gui/components/wxTitleManagerList.cpp:944
 msgid "Folder"
@@ -1515,7 +1552,6 @@ msgid "WUHB"
 msgstr "WUHB"
 
 #: src/gui/components/wxTitleManagerList.cpp:960
-#| msgid "DLC"
 msgid "MLC"
 msgstr "MLC"
 
@@ -1527,7 +1563,7 @@ msgstr "Spelsökvägar"
 #: src/gui/components/wxTitleManagerList.cpp:976
 #: src/gui/components/wxDownloadManagerList.cpp:509
 msgid "base"
-msgstr "grund"
+msgstr "bas"
 
 #: src/gui/components/wxTitleManagerList.cpp:978
 #: src/gui/components/wxDownloadManagerList.cpp:511
@@ -1567,6 +1603,12 @@ msgid ""
 "Please make sure the base game is intact and install updates only with the "
 "File->Install Update/DLC option"
 msgstr ""
+"Detta spelobjekt verkar vara antingen en uppdatering eller att basspelet "
+"slagits samman med uppdateringsdata\n"
+"Trasiga speldumpar orsakar olika problem under emulering och kan även sluta "
+"fungera helt i framtida Cemu-versioner\n"
+"Försäkra dig om att basspelet är intakt och installera endast uppdateringar "
+"med alternativet Arkiv->Installera uppdatering/DLC"
 
 #: src/gui/components/wxGameList.cpp:575
 msgid "&Start"
@@ -1594,7 +1636,7 @@ msgstr "Spa&rkatalog"
 
 #: src/gui/components/wxGameList.cpp:588
 msgid "&Update directory"
-msgstr "&Uppdatera katalog"
+msgstr "&Uppdateringskatalog"
 
 #: src/gui/components/wxGameList.cpp:589
 msgid "&DLC directory"
@@ -1665,7 +1707,6 @@ msgid "Show &name"
 msgstr "Visa &namn"
 
 #: src/gui/components/wxGameList.cpp:819
-#| msgid "Version"
 msgid "Show &version"
 msgstr "Visa &version"
 
@@ -1709,11 +1750,11 @@ msgstr "aldrig"
 
 #: src/gui/components/wxGameList.cpp:1186
 msgid "Remove the shader caches for {}?"
-msgstr ""
+msgstr "Ta bort shadercachar för {}?"
 
 #: src/gui/components/wxGameList.cpp:1186
 msgid "Remove shader caches"
-msgstr ""
+msgstr "Ta bort shadercachar"
 
 #: src/gui/components/wxGameList.cpp:1187
 msgid "Yes"
@@ -1725,17 +1766,19 @@ msgstr "Nej"
 
 #: src/gui/components/wxGameList.cpp:1199
 msgid "The shader caches were removed!"
-msgstr ""
+msgstr "Shadercachar togs bort!"
 
 #: src/gui/components/wxGameList.cpp:1199
 msgid "Shader caches removed"
-msgstr ""
+msgstr "Shadercachar togs bort"
 
 #: src/gui/components/wxGameList.cpp:1201
 msgid ""
 "Failed to remove the shader caches:\n"
 "{}"
 msgstr ""
+"Misslyckades med att ta bort shadercachar:\n"
+"{}"
 
 #: src/gui/components/wxGameList.cpp:1307
 msgid "Choose desktop entry location"
@@ -1747,18 +1790,17 @@ msgstr ""
 
 #: src/gui/components/wxGameList.cpp:1386
 msgid "Choose shortcut location"
-msgstr ""
+msgstr "Välj genvägsplats"
 
 #: src/gui/components/wxGameList.cpp:1459
 msgid "Failed to save shortcut to {}"
-msgstr ""
+msgstr "Misslyckades med att spara genväg till {}"
 
 #: src/gui/components/wxDownloadManagerList.cpp:118
 msgid "Progress"
 msgstr "Förlopp"
 
 #: src/gui/components/wxDownloadManagerList.cpp:124
-#| msgid "State"
 msgid "Status"
 msgstr "Status"
 
@@ -1876,7 +1918,7 @@ msgstr "Titelinstallationen har avbrutits!"
 
 #: src/gui/MainWindow.cpp:482
 msgid "Unable to launch game because the base files were not found."
-msgstr ""
+msgstr "Kunde inte starta spelet därför att basfilerna inte hittades."
 
 #: src/gui/MainWindow.cpp:494
 msgid ""
@@ -1886,6 +1928,11 @@ msgid ""
 "\n"
 "File which failed to load:\n"
 msgstr ""
+"Kunde inte montera titeln.\n"
+"Försäkra dig om att konfigurerade spelsökvägar är giltiga och uppdatera "
+"spellistan.\n"
+"\n"
+"Filen som misslyckades att läsa in:\n"
 
 #: src/gui/MainWindow.cpp:501
 msgid "Failed to launch game."
@@ -1903,22 +1950,31 @@ msgid ""
 "\n"
 "Path which failed to load:\n"
 msgstr ""
+"Kunde inte starta titeln.\n"
+"Försäkra dig om att konfigurerade spelsökvägar är giltiga och uppdatera "
+"spellistan.\n"
+"\n"
+"Sökvägen som misslyckades att läsa in:\n"
 
 #: src/gui/MainWindow.cpp:534 src/gui/MainWindow.cpp:551
 msgid ""
 "Unable to launch game\n"
 "Path:\n"
 msgstr ""
+"Kunde inte starta spelet\n"
+"Sökväg:\n"
 
 #: src/gui/MainWindow.cpp:539
 msgid ""
 "Could not decrypt title. Make sure that keys.txt contains the correct disc "
 "key for this title."
 msgstr ""
+"Kunde inte dekryptera titeln. Försäkra dig om att keys.txt innehåller "
+"korrekt skivnyckel för denna titel."
 
 #: src/gui/MainWindow.cpp:544
 msgid "Could not decrypt title because title.tik is missing."
-msgstr ""
+msgstr "Kunde inte dekryptera titeln därför att title.tik saknas."
 
 #: src/gui/MainWindow.cpp:634
 msgid "All Wii U files (*.wud, *.wux, *.wua, *.wuhb, *.iso, *.rpx, *.elf)"
@@ -1958,7 +2014,7 @@ msgstr "Välj mapp för titel att installera"
 
 #: src/gui/MainWindow.cpp:686
 msgid "Select the folder that stores your update, DLC or base game files"
-msgstr "Välj den mapp som innehåller dina uppdateringar, DLC eller grundspel"
+msgstr "Välj den mapp som innehåller dina uppdateringar, DLC eller basspel"
 
 #: src/gui/MainWindow.cpp:702
 msgid ""
@@ -1966,14 +2022,17 @@ msgid ""
 "required subfolders (\"code\", \"content\" and \"meta\")\n"
 "Make sure that the files are complete."
 msgstr ""
+"Föräldramappen för titeln som du valt saknar minst en av de nödvändiga "
+"undermapparna (\"code\", \"content\" samt \"meta\")\n"
+"Försäkra dig om att filerna är kompletta."
 
 #: src/gui/MainWindow.cpp:710
 msgid "The folder you have selected cannot be found on your system."
-msgstr ""
+msgstr "Mappen som du har valt kan inte hittas på ditt system."
 
 #: src/gui/MainWindow.cpp:712
 msgid "Unable to find the /meta/meta.xml file inside the selected folder."
-msgstr ""
+msgstr "Kunde inte hitta filen /meta/meta.xml inne i vald mapp."
 
 #: src/gui/MainWindow.cpp:727
 msgid "Open file to load"
@@ -1989,10 +2048,13 @@ msgid ""
 "graphics but may improve performance. It is highly recommended to leave it "
 "turned on."
 msgstr ""
+"Varning: Inaktivering av alternativet för exakta barriärer kommer leda till "
+"fladdrande grafik men kan förbättra prestandan. Det rekommenderas varmt att "
+"lämna den aktiverad."
 
 #: src/gui/MainWindow.cpp:1007
 msgid "Accurate barriers are off"
-msgstr ""
+msgstr "Exakta barriärer är av"
 
 #: src/gui/MainWindow.cpp:1405
 msgid "Updating game list..."
@@ -2008,7 +2070,7 @@ msgstr ""
 
 #: src/gui/MainWindow.cpp:1777
 msgid "Update notification"
-msgstr ""
+msgstr "Uppdateringsavisering"
 
 #: src/gui/MainWindow.cpp:1814
 msgid "About Cemu"
@@ -2208,7 +2270,7 @@ msgstr "&0.125x hastighet"
 
 #: src/gui/MainWindow.cpp:2184
 msgid "&Timer speed"
-msgstr ""
+msgstr "&Tidshastighet"
 
 #: src/gui/MainWindow.cpp:2185
 msgid "&CPU"
@@ -2224,99 +2286,99 @@ msgstr "&NFC"
 
 #: src/gui/MainWindow.cpp:2196
 msgid "&Unsupported API calls"
-msgstr ""
+msgstr "Os&upporterade API-anrop"
 
 #: src/gui/MainWindow.cpp:2197
 msgid "&Invalid API usage"
-msgstr ""
+msgstr "Ogilti&g API-användning"
 
 #: src/gui/MainWindow.cpp:2198
 msgid "&Coreinit Logging (OSReport/OSConsole)"
-msgstr ""
+msgstr "&Coreinit-loggning (OSReport/OSConsole)"
 
 #: src/gui/MainWindow.cpp:2202
 msgid "&Options below are for experts. Leave off if unsure"
-msgstr ""
+msgstr "Alte&rnativen nedan är för experter. Lämna av om osäker"
 
 #: src/gui/MainWindow.cpp:2204
 msgid "coreinit File-Access API"
-msgstr ""
+msgstr "coreinit File-Access API"
 
 #: src/gui/MainWindow.cpp:2205
 msgid "coreinit Thread-Synchronization API"
-msgstr ""
+msgstr "coreinit Thread-Synchronization API"
 
 #: src/gui/MainWindow.cpp:2206
 msgid "coreinit Memory API"
-msgstr ""
+msgstr "coreinit Memory API"
 
 #: src/gui/MainWindow.cpp:2207
 msgid "coreinit MP API"
-msgstr ""
+msgstr "coreinit MP API"
 
 #: src/gui/MainWindow.cpp:2208
 msgid "coreinit Thread API"
-msgstr ""
+msgstr "coreinit Thread API"
 
 #: src/gui/MainWindow.cpp:2209
 msgid "nn_save API"
-msgstr ""
+msgstr "nn_save API"
 
 #: src/gui/MainWindow.cpp:2210
 msgid "nn_nfp API"
-msgstr ""
+msgstr "nn_nfp API"
 
 #: src/gui/MainWindow.cpp:2211
 msgid "nn_fp API"
-msgstr ""
+msgstr "nn_fp API"
 
 #: src/gui/MainWindow.cpp:2212
 msgid "nn_fp PRUDP"
-msgstr ""
+msgstr "nn_fp PRUDP"
 
 #: src/gui/MainWindow.cpp:2213
 msgid "nn_boss API"
-msgstr ""
+msgstr "nn_boss API"
 
 #: src/gui/MainWindow.cpp:2214
 msgid "nfc API"
-msgstr ""
+msgstr "nfc API"
 
 #: src/gui/MainWindow.cpp:2215
 msgid "ntag API"
-msgstr ""
+msgstr "ntag API"
 
 #: src/gui/MainWindow.cpp:2216
 msgid "nsysnet API"
-msgstr ""
+msgstr "nsysnet API"
 
 #: src/gui/MainWindow.cpp:2217
 msgid "h264 API"
-msgstr ""
+msgstr "h264 API"
 
 #: src/gui/MainWindow.cpp:2218
 msgid "gx2 API"
-msgstr ""
+msgstr "gx2 API"
 
 #: src/gui/MainWindow.cpp:2219
 msgid "Audio API"
-msgstr ""
+msgstr "Ljud-API"
 
 #: src/gui/MainWindow.cpp:2220
 msgid "Input API"
-msgstr ""
+msgstr "Inmatnings-API"
 
 #: src/gui/MainWindow.cpp:2222
 msgid "&CafeOS modules logging"
-msgstr ""
+msgstr "Loggning av &CafeOS-moduler"
 
 #: src/gui/MainWindow.cpp:2224
 msgid "&Graphic pack patches"
-msgstr ""
+msgstr "Patchar för &grafikpaket"
 
 #: src/gui/MainWindow.cpp:2225
 msgid "&Texture cache warnings"
-msgstr ""
+msgstr "Varningar för &texturcache"
 
 #: src/gui/MainWindow.cpp:2226
 msgid "&Texture readback"
@@ -2328,11 +2390,11 @@ msgstr ""
 
 #: src/gui/MainWindow.cpp:2229
 msgid "&Vulkan validation layer (slow)"
-msgstr ""
+msgstr "&Vulkan valideringslager (långsam)"
 
 #: src/gui/MainWindow.cpp:2230
 msgid "&Log PPC context for API"
-msgstr ""
+msgstr "&Logga PPC-kontext för API"
 
 #: src/gui/MainWindow.cpp:2234
 msgid "&Textures"
@@ -2360,7 +2422,7 @@ msgstr "&Rendera upp-och-ned"
 
 #: src/gui/MainWindow.cpp:2249
 msgid "&Accurate barriers (Vulkan)"
-msgstr ""
+msgstr "E&xakta barriärer (Vulkan)"
 
 #: src/gui/MainWindow.cpp:2255
 msgid "&Audio AUX only"
@@ -2388,7 +2450,7 @@ msgstr "&Visa ljudfelsökaren"
 
 #: src/gui/MainWindow.cpp:2267
 msgid "&View texture cache info"
-msgstr ""
+msgstr "&Visa info om texturcache"
 
 #: src/gui/MainWindow.cpp:2268
 msgid "&Dump current RAM"
@@ -2438,15 +2500,17 @@ msgstr "Kom ihåg position för huvudfönstret"
 
 #: src/gui/GeneralSettings2.cpp:146
 msgid "Restores the last known window position and size when starting Cemu"
-msgstr ""
+msgstr "Återställer senast kända fönsterposition och storlek när Cemu startas"
 
 #: src/gui/GeneralSettings2.cpp:149
 msgid "Remember pad window position"
-msgstr ""
+msgstr "Kom ihåg GamePad-fönstrets position"
 
 #: src/gui/GeneralSettings2.cpp:150
 msgid "Restores the last known pad window position and size when opening it"
 msgstr ""
+"Återställer senast kända GamePad-fönstrets position och storlek när det "
+"öppnas"
 
 #: src/gui/GeneralSettings2.cpp:154
 msgid "Discord Presence"
@@ -2457,6 +2521,8 @@ msgid ""
 "Enables the Discord Rich Presence feature\n"
 "You will also need to enable it in the Discord settings itself!"
 msgstr ""
+"Aktiverar Discord Rich Presence-funktionen\n"
+"Du behöver även aktivera det i själva Discord-inställningarna!"
 
 #: src/gui/GeneralSettings2.cpp:161
 msgid "Fullscreen menu bar"
@@ -2467,6 +2533,8 @@ msgid ""
 "Displays the menu bar when Cemu is running in fullscreen mode and the mouse "
 "cursor is moved to the top"
 msgstr ""
+"Visar menyraden när Cemu körs i helskärmsläge och muspekaren flyttas till "
+"toppen"
 
 #: src/gui/GeneralSettings2.cpp:165 src/gui/GettingStartedDialog.cpp:171
 msgid "Automatically check for updates"
@@ -2474,7 +2542,7 @@ msgstr "Leta automatiskt efter uppdateringar"
 
 #: src/gui/GeneralSettings2.cpp:166
 msgid "Automatically checks for new cemu versions on startup"
-msgstr ""
+msgstr "Letar automatiskt efter nya Cemu-versioner vid uppstart"
 
 #: src/gui/GeneralSettings2.cpp:174
 msgid "Save screenshot"
@@ -2485,6 +2553,8 @@ msgid ""
 "Pressing the screenshot key (F12) will save a screenshot directly to the "
 "screenshots folder"
 msgstr ""
+"Tryck på skärmbildsknappen (F12) för att spara en skärmbild direkt till "
+"skärmbildsmappen"
 
 #: src/gui/GeneralSettings2.cpp:178
 msgid "Disable screen saver"
@@ -2495,6 +2565,8 @@ msgid ""
 "Prevents the system from activating the screen saver or going to sleep while "
 "running a game."
 msgstr ""
+"Förhindrar att systemet aktiverar skärmsläckaren eller går i viloläge när "
+"ett spel körs."
 
 #: src/gui/GeneralSettings2.cpp:184
 msgid "Enable Feral GameMode"
@@ -2502,7 +2574,7 @@ msgstr "Aktivera Feral GameMode"
 
 #: src/gui/GeneralSettings2.cpp:185
 msgid "Use FeralInteractive GameMode if installed."
-msgstr ""
+msgstr "Använd FeralInteractive GameMode om installerat."
 
 #: src/gui/GeneralSettings2.cpp:201
 msgid "Custom MLC path"
@@ -2514,23 +2586,33 @@ msgid ""
 "(MLC).\n"
 "This is where Cemu stores saves, accounts and other Wii U system files."
 msgstr ""
+"Du kan konfigurera en anpassad sökväg för den emulerade interna Wii U-"
+"lagringen (MLC).\n"
+"Det är här som Cemu lagrar sparningar, konton och andra Wii U-systemfiler."
 
 #: src/gui/GeneralSettings2.cpp:210
 msgid ""
 "The mlc directory contains your save games and installed game update/dlc data"
 msgstr ""
+"MLC-katalogen innehåller dina sparade spel och installerade "
+"speluppdateringar/DLC-data"
 
 #: src/gui/GeneralSettings2.cpp:236
 msgid ""
 "Add the root directory of your game(s). It will scan all directories in it "
 "for games"
 msgstr ""
+"Lägg till rotkatalogen för dina spel. Denna kommer att sökas igenom "
+"rekursivt efter spel"
 
 #: src/gui/GeneralSettings2.cpp:245
 msgid ""
 "Adds a game path to scan for games displayed in the game list\n"
 "If you have unpacked games, make sure to select the root folder of a game"
 msgstr ""
+"Lägger till en spelsökväg att söka i efter spel som sedan visas i "
+"spellistan\n"
+"Om du har packat upp spel, försäkra dig om att välja rotmappen för ett spel"
 
 #: src/gui/GeneralSettings2.cpp:248
 msgid "Remove"
@@ -2538,21 +2620,21 @@ msgstr "Ta bort"
 
 #: src/gui/GeneralSettings2.cpp:250
 msgid "Removes the currently selected game path from the game list"
-msgstr ""
+msgstr "Tar bort aktuella markerade spelsökvägen från spellistan"
 
 #: src/gui/GeneralSettings2.cpp:269 src/gui/GeneralSettings2.cpp:348
 #: src/gui/GeneralSettings2.cpp:857 src/gui/GameProfileWindow.cpp:36
 #: src/gui/GameProfileWindow.cpp:91
 msgid "General"
-msgstr "Allmän"
+msgstr "Allmänt"
 
 #: src/gui/GeneralSettings2.cpp:276 src/gui/GameProfileWindow.cpp:113
 msgid "Graphics API"
-msgstr ""
+msgstr "Grafik-API"
 
 #: src/gui/GeneralSettings2.cpp:289
 msgid "Select one of the available graphic back ends"
-msgstr ""
+msgstr "Välj en av de dessa tillgängliga grafikbakändar"
 
 #: src/gui/GeneralSettings2.cpp:293
 msgid "Graphics Device"
@@ -2560,7 +2642,7 @@ msgstr "Grafikenhet"
 
 #: src/gui/GeneralSettings2.cpp:296
 msgid "Select the used graphic device"
-msgstr ""
+msgstr "Välj den grafikenhet att använda"
 
 #: src/gui/GeneralSettings2.cpp:299
 msgid "VSync"
@@ -2568,11 +2650,11 @@ msgstr "VSync"
 
 #: src/gui/GeneralSettings2.cpp:301
 msgid "Controls the vsync state"
-msgstr ""
+msgstr "Kontrollerar vsync-tillståndet"
 
 #: src/gui/GeneralSettings2.cpp:308
 msgid "Async shader compile"
-msgstr ""
+msgstr "Asynk shaderkompilering"
 
 #: src/gui/GeneralSettings2.cpp:309
 msgid ""
@@ -2580,6 +2662,9 @@ msgid ""
 "of objects not rendering for a short time.\n"
 "Vulkan only"
 msgstr ""
+"Aktiverar asynkron kompilering för shader och pipeline. Minskar störningar "
+"på bekostnad av objekt som inte renderas för en kort stund.\n"
+"Endast Vulkan"
 
 #: src/gui/GeneralSettings2.cpp:312
 msgid "Full sync at GX2DrawDone()"
@@ -2591,6 +2676,9 @@ msgid ""
 "the GPU to finish all operations.\n"
 "This is more accurate behavior, but may cause lower performance"
 msgstr ""
+"Om synkronisering begärs av spelet kommer emulerad CPU att vänta på att GPUn "
+"ska färdigställa alla operationer.\n"
+"Detta är ett mer noggrant beteende men kan leda till lägre prestanda"
 
 #: src/gui/GeneralSettings2.cpp:321
 msgid "Bilinear"
@@ -2606,7 +2694,7 @@ msgstr ""
 
 #: src/gui/GeneralSettings2.cpp:321
 msgid "Nearest Neighbor"
-msgstr ""
+msgstr "Närmsta granne"
 
 #: src/gui/GeneralSettings2.cpp:322
 msgid "Upscale filter"
@@ -2617,6 +2705,7 @@ msgid ""
 "Upscaling filters are used when the game resolution is smaller than the "
 "window size"
 msgstr ""
+"Uppskalningsfilter används när spelupplösningen är mindre än fönsterstorleken"
 
 #: src/gui/GeneralSettings2.cpp:326
 msgid "Downscale filter"
@@ -2627,6 +2716,7 @@ msgid ""
 "Downscaling filters are used when the game resolution is bigger than the "
 "window size"
 msgstr ""
+"Nerskalningsfilter används när spelupplösningen är större än fönsterstorleken"
 
 #: src/gui/GeneralSettings2.cpp:332
 msgid "Keep aspect ratio"
@@ -2644,10 +2734,12 @@ msgstr "Helskärmsskalning"
 msgid ""
 "Controls the output aspect ratio when it doesn't match the ratio of the game"
 msgstr ""
+"Kontrollerar bildförhållandet för utmatning när den inte matchar "
+"förhållandet för spelet"
 
 #: src/gui/GeneralSettings2.cpp:368
 msgid "Select one of the available audio back ends"
-msgstr ""
+msgstr "Välj en av dessa tillgängliga ljudbakändar"
 
 #: src/gui/GeneralSettings2.cpp:375
 msgid "Latency"
@@ -2659,6 +2751,9 @@ msgid ""
 "Higher values will create a delay in audio playback, but may avoid audio "
 "problems when emulation is too slow"
 msgstr ""
+"Kontrollerar mängden buffrat ljuddata\n"
+"Högre värden kommer att skapa en fördröjning i ljuduppspelning, men kan "
+"undvika ljudproblem när emuleringen är för låg"
 
 #: src/gui/GeneralSettings2.cpp:388 src/gui/GeneralSettings2.cpp:486
 msgid "Mono"
@@ -2683,7 +2778,7 @@ msgstr "Enhet"
 
 #: src/gui/GeneralSettings2.cpp:400
 msgid "Select the active audio output device for Wii U TV"
-msgstr ""
+msgstr "Välj aktiv ljudutmatningsenhet för Wii U TV"
 
 #: src/gui/GeneralSettings2.cpp:406 src/gui/GeneralSettings2.cpp:447
 #: src/gui/GeneralSettings2.cpp:488
@@ -2696,7 +2791,7 @@ msgstr "Gamepad"
 
 #: src/gui/GeneralSettings2.cpp:439
 msgid "Select the active audio output device for Wii U GamePad"
-msgstr ""
+msgstr "Välj aktiv ljudutmatningsenhet för Wii U GamePad"
 
 #: src/gui/GeneralSettings2.cpp:470
 msgid "Microphone (Experimental)"
@@ -2704,7 +2799,7 @@ msgstr "Mikrofon (experimentell)"
 
 #: src/gui/GeneralSettings2.cpp:480
 msgid "Select the active audio input device for Wii U GamePad"
-msgstr ""
+msgstr "Välj aktiv ljudinmatningsenhet för Wii U GamePad"
 
 #: src/gui/GeneralSettings2.cpp:519
 msgid "Top left"
@@ -2735,13 +2830,12 @@ msgid "Overlay"
 msgstr "Överlägg"
 
 #: src/gui/GeneralSettings2.cpp:529 src/gui/GeneralSettings2.cpp:610
-#| msgid "Description"
 msgid "Position"
 msgstr "Position"
 
 #: src/gui/GeneralSettings2.cpp:532
 msgid "Controls the overlay which displays technical information while playing"
-msgstr ""
+msgstr "Kontrollerar överlägget som visar teknisk information under spel"
 
 #: src/gui/GeneralSettings2.cpp:537 src/gui/GeneralSettings2.cpp:619
 msgid "Text Color"
@@ -2749,7 +2843,7 @@ msgstr "Textfärg"
 
 #: src/gui/GeneralSettings2.cpp:539
 msgid "Sets the text color of the overlay"
-msgstr ""
+msgstr "Ställer in textfärgen för överlägget"
 
 #: src/gui/GeneralSettings2.cpp:544 src/gui/GeneralSettings2.cpp:624
 msgid "Scale"
@@ -2757,7 +2851,7 @@ msgstr "Skala"
 
 #: src/gui/GeneralSettings2.cpp:546
 msgid "Sets the scale of the overlay text"
-msgstr ""
+msgstr "Ställer in skalan för överläggstexten"
 
 #: src/gui/GeneralSettings2.cpp:553
 msgid "FPS"
@@ -2769,11 +2863,11 @@ msgstr "Antalet bildrutor per sekund. Genomsnitt de senaste 5 sekunderna"
 
 #: src/gui/GeneralSettings2.cpp:557
 msgid "Draw calls per frame"
-msgstr ""
+msgstr "Draw calls per bildruta"
 
 #: src/gui/GeneralSettings2.cpp:558
 msgid "The number of draw calls per frame. Average over last 5 seconds"
-msgstr ""
+msgstr "Antalet draw calls per bildruta. Genomsnitt över senaste 5 sekunder"
 
 #: src/gui/GeneralSettings2.cpp:561
 msgid "CPU usage"
@@ -2785,11 +2879,11 @@ msgstr "CPU-användning av Cemu i procent"
 
 #: src/gui/GeneralSettings2.cpp:565
 msgid "CPU per core usage"
-msgstr "Använding av CPU per kärna"
+msgstr "Användning av CPU per kärna"
 
 #: src/gui/GeneralSettings2.cpp:566
 msgid "Total cpu usage in percent for each core"
-msgstr "Total cpu-använding i procent för varje kärna"
+msgstr "Total cpu-användning i procent för varje kärna"
 
 #: src/gui/GeneralSettings2.cpp:569
 msgid "RAM usage"
@@ -2825,15 +2919,15 @@ msgstr "Aviseringar"
 
 #: src/gui/GeneralSettings2.cpp:614
 msgid "Controls the notification position while playing"
-msgstr ""
+msgstr "Kontrollerar aviseringspositionen vid spelande"
 
 #: src/gui/GeneralSettings2.cpp:621
 msgid "Sets the text color of notifications"
-msgstr ""
+msgstr "Ställer in textfärgen för aviseringar"
 
 #: src/gui/GeneralSettings2.cpp:626
 msgid "Sets the scale of the notification text"
-msgstr ""
+msgstr "Ställer in skalan för aviseringstexten"
 
 #: src/gui/GeneralSettings2.cpp:633
 msgid "Controller profiles"
@@ -2850,6 +2944,7 @@ msgstr "Lågt batteri"
 #: src/gui/GeneralSettings2.cpp:638
 msgid "Shows a notification when a low controller battery has been detected"
 msgstr ""
+"Visar en avisering när batteriet i en handkontroller har upptäckts som lågt"
 
 #: src/gui/GeneralSettings2.cpp:641
 msgid "Shader compiler"
@@ -2857,7 +2952,7 @@ msgstr "Shaderkompilerare"
 
 #: src/gui/GeneralSettings2.cpp:642
 msgid "Shows a notification after shaders have been compiled"
-msgstr ""
+msgstr "Visar en avisering efter att shaders har kompilerats"
 
 #: src/gui/GeneralSettings2.cpp:645
 msgid "Friend list"
@@ -2865,7 +2960,7 @@ msgstr "Vänlista"
 
 #: src/gui/GeneralSettings2.cpp:646
 msgid "Shows friend list related data if online"
-msgstr ""
+msgstr "Visar relaterad data för vänlista om online"
 
 #: src/gui/GeneralSettings2.cpp:666
 msgid "Account settings"
@@ -2905,7 +3000,7 @@ msgstr "Nätverkstjänst"
 
 #: src/gui/GeneralSettings2.cpp:710
 msgid "Online functionality disabled for this account"
-msgstr ""
+msgstr "Onlinefunktionalitet är inaktiverat för detta konto"
 
 #: src/gui/GeneralSettings2.cpp:711
 msgid "Connect to the official Nintendo Network Service"
@@ -2924,7 +3019,7 @@ msgstr ""
 
 #: src/gui/GeneralSettings2.cpp:725
 msgid "Online play requirements"
-msgstr ""
+msgstr "Krav för onlinespel"
 
 #: src/gui/GeneralSettings2.cpp:737 src/gui/GeneralSettings2.cpp:1363
 msgid "No account selected"
@@ -2932,7 +3027,7 @@ msgstr "Inget konto valt"
 
 #: src/gui/GeneralSettings2.cpp:742
 msgid "Online play tutorial"
-msgstr ""
+msgstr "Guide för onlinespel"
 
 #: src/gui/GeneralSettings2.cpp:750
 msgid "Account information"
@@ -2940,7 +3035,7 @@ msgstr "Kontoinformation"
 
 #: src/gui/GeneralSettings2.cpp:764
 msgid "The persistent id is the internal folder name used for your saves"
-msgstr ""
+msgstr "Bestående id är det interna mappnamnet som används för dina sparningar"
 
 #: src/gui/GeneralSettings2.cpp:767
 msgid "The mii name is the profile name"
@@ -2993,6 +3088,10 @@ msgid ""
 "The Full option will create a very large dump file (includes a full RAM dump "
 "of the Cemu process)"
 msgstr ""
+"Skapar en dump när Cemu kraschar\n"
+"Aktivera endast om begärt av en utvecklare!\n"
+"Alternativet Fullständig kommer att skapa en mycket stor dumpfil (inkluderar "
+"en full RAM-dump av Cemu-processen)"
 
 #: src/gui/GeneralSettings2.cpp:824
 msgid ""
@@ -3012,6 +3111,9 @@ msgid ""
 "starting Cemu with the --enable-gdbstub option or by enabling it the Debug "
 "tab."
 msgstr ""
+"Ändrar porten som GDB stub kommer att använda, vilket du kan använda genom "
+"att antingen starta Cemu med alternativ --enable-gdbstub eller genom att "
+"aktivera det i fliken Felsökning."
 
 #: src/gui/GeneralSettings2.cpp:850
 msgid "General settings"
@@ -3051,7 +3153,7 @@ msgstr "OTP och SEEPROM finns men inga certifikatfiler hittades"
 
 #: src/gui/GeneralSettings2.cpp:1404
 msgid "Online play is not set up. Follow the guide below to get started"
-msgstr ""
+msgstr "Onlinespel är inte konfigurerat. Följ guiden nedan för att komma igång"
 
 #: src/gui/GeneralSettings2.cpp:1433
 msgid "Network service"
@@ -3075,11 +3177,12 @@ msgstr "Trippelbuffring"
 
 #: src/gui/GeneralSettings2.cpp:1493
 msgid "Match emulated display (Experimental)"
-msgstr ""
+msgstr "Matcha emulerad skärm (experimentell)"
 
 #: src/gui/GeneralSettings2.cpp:1901
 msgid "You have to restart the game in order to apply the new settings."
 msgstr ""
+"Du måste starta om spelet för att kunna verkställa de nya inställningarna."
 
 #: src/gui/GeneralSettings2.cpp:1913
 msgid "Select a directory containing games."
@@ -3087,7 +3190,7 @@ msgstr "Välj en katalog som innehåller spel."
 
 #: src/gui/GeneralSettings2.cpp:1968 src/gui/GeneralSettings2.cpp:2015
 msgid "Can't change MLC path while a game is running!"
-msgstr ""
+msgstr "Kan inte ändra MLC-sökväg när ett spel är igång!"
 
 #: src/gui/GeneralSettings2.cpp:1972
 msgid "Select MLC directory"
@@ -3098,12 +3201,16 @@ msgid ""
 "Note that changing the MLC location will not transfer any accounts or save "
 "files. Are you sure you want to change the path?"
 msgstr ""
+"Observera att ändring av MLC-platsen inte kommer att överföra några konton "
+"eller sparade filer. Är du säker på att du vill ändra sökvägen?"
 
 #: src/gui/GeneralSettings2.cpp:1986 src/gui/GeneralSettings2.cpp:1997
 msgid ""
 "Failed to create default MLC files in the selected directory. The MLC path "
 "has not been changed"
 msgstr ""
+"Misslyckades med att skapa MLC-standardfiler i vald katalog. MLC-sökvägen "
+"har inte ändrats"
 
 #: src/gui/GeneralSettings2.cpp:1993
 msgid ""
@@ -3112,10 +3219,14 @@ msgid ""
 "Note that changing the MLC location will not transfer any accounts or save "
 "files."
 msgstr ""
+"Den valda katalogen innehåller inte den förväntade MLC-strukturen. Vill du "
+"skapa en ny MLC-struktur i denna katalog?\n"
+"Observera att ändring av MLC-platsen inte kommer att överföra några konton "
+"eller sparade filer."
 
 #: src/gui/GeneralSettings2.cpp:2004 src/gui/GeneralSettings2.cpp:2025
 msgid "Cemu needs to be restarted for the changes to take effect."
-msgstr ""
+msgstr "Cemu behöver startas om för att ändringarna ska ha effekt."
 
 #: src/gui/GeneralSettings2.cpp:2047
 msgid "The following error(s) have been found:"
@@ -3159,12 +3270,16 @@ msgid ""
 "IsPasswordCacheEnabled is set to false (The remember password option on your "
 "Wii U must be enabled for this account before dumping it)"
 msgstr ""
+"IsPasswordCacheEnabled är inställd till falskt (Alternativet för komma ihåg "
+"lösenord på din Wii U måste vara aktiverat för detta konto innan det dumpas)"
 
 #: src/gui/GeneralSettings2.cpp:2097
 msgid ""
 "AccountPasswordCache is empty (The remember password option on your Wii U "
 "must be enabled for this account before dumping it)"
 msgstr ""
+"AccountPasswordCache är tomt (Alternativet för komma ihåg lösenord på din "
+"Wii U måste vara aktiverat för detta konto innan det dumpas)"
 
 #: src/gui/GeneralSettings2.cpp:2099
 msgid "PrincipalId missing"
@@ -3180,7 +3295,7 @@ msgstr "Skylanders-portal"
 
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:46
 msgid "Infinity Base"
-msgstr ""
+msgstr "Infinity Base"
 
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:61
 msgid "Skylanders Manager"
@@ -3188,7 +3303,7 @@ msgstr "Skylanders Manager"
 
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:67
 msgid "Emulate Skylander Portal"
-msgstr ""
+msgstr "Emulera Skylander Portal"
 
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:91
 msgid "Infinity Manager"
@@ -3196,7 +3311,7 @@ msgstr "Infinity Manager"
 
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:97
 msgid "Emulate Infinity Base"
-msgstr ""
+msgstr "Emulera Infinity Base"
 
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:129
 msgid "Skylander"
@@ -3208,7 +3323,7 @@ msgstr "Öppna Skylander-dump"
 
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:248
 msgid "Skylander Figure Creator"
-msgstr ""
+msgstr "Skylanders figurskapare"
 
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:273
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:274
@@ -3222,7 +3337,7 @@ msgstr "Skapa Skylander-fil"
 
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:355
 msgid "Infinity Figure Creator"
-msgstr ""
+msgstr "Infinity figurskapare"
 
 #: src/gui/EmulatedUSBDevices/EmulatedUSBDeviceFrame.cpp:407
 msgid "Create Infinity Figure file"
@@ -3259,6 +3374,12 @@ msgid ""
 "you place all your Wii U game files. Additional paths can be set later in "
 "Cemu's general settings. All common Wii U game formats are supported by Cemu."
 msgstr ""
+"Spelsökvägen som söks igenom av Cemu för att automatiskt hitta dina spel, "
+"speluppdateringar och DLCer. Vi rekommenderar att skapa en dedikerad katalog "
+"som\n"
+"du placerar alla dina Wii U-spelfiler i. Ytterligare sökvägar kan ställas in "
+"senare i Cemus allmänna inställningar. Alla vanliga Wii U-spelformat stöds "
+"av Cemu."
 
 #: src/gui/GettingStartedDialog.cpp:100
 msgid "Game path"
@@ -3278,6 +3399,10 @@ msgid ""
 "increase FPS, tweak visuals or add gameplay modifications.\n"
 "Get started by opening the graphic packs configuration window.\n"
 msgstr ""
+"Grafikpaket förbättrar spel genom att ge möjligheten att ändra upplösningen, "
+"öka bildfrekvensen, skruva på det visuella eller lägga till "
+"spelmodifieringar.\n"
+"Kom igång genom att öppna konfigurationsfönstret för grafikpaket.\n"
 
 #: src/gui/GettingStartedDialog.cpp:116
 msgid "Download and configure graphic packs"
@@ -3303,6 +3428,19 @@ msgid ""
 "in idle state and press calibrate.\n"
 "Also don't set the axis deadzone too low."
 msgstr ""
+"You can configure one controller for each player.\n"
+"We advise you to always use GamePad as emulated input for the first player, "
+"since many games expect the GamePad to be present.\n"
+"It is also required for touch functionality.\n"
+"Globala standarder för snabbtangenter är:\n"
+"CTRL - visa GamePad-skärm\n"
+"CTRL + TAB - växla Pad-skärm\n"
+"ALT + ENTER - växla helskärm\n"
+"ESC - lämna helskärm\n"
+"\n"
+"Om du har problem att konfigurera din handkontroller, försäkra dig om att du "
+"har den i påslaget tillstånd och tryck kalibrera.\n"
+"Ställ dock inte i dödläget för axlarna för lågt."
 
 #: src/gui/GettingStartedDialog.cpp:151
 msgid "Configure input"
@@ -3318,7 +3456,7 @@ msgstr "Starta spel i helskärm"
 
 #: src/gui/GettingStartedDialog.cpp:168
 msgid "Open separate pad screen"
-msgstr "Öppna separat paddskärm"
+msgstr "Öppna separat GamePad-skärm"
 
 #: src/gui/GettingStartedDialog.cpp:189
 msgid "Previous"
@@ -3398,6 +3536,9 @@ msgid ""
 "The path is:\n"
 "{}"
 msgstr ""
+"Cemu misslyckades med att skriva till anpassad mlc-katalog.\n"
+"Sökvägen är:\n"
+"{}"
 
 #: src/gui/CemuApp.cpp:202
 msgid ""
@@ -3405,6 +3546,9 @@ msgid ""
 "The path is:\n"
 "{}"
 msgstr ""
+"Cemu misslyckades med att skriva till mlc-katalogen.\n"
+"Sökvägen är:\n"
+"{}"
 
 #: src/gui/CemuApp.cpp:221
 msgid ""
@@ -3416,6 +3560,13 @@ msgid ""
 "Cemu cannot start without a valid mlc path. Do you want to reset the path? "
 "You can later change it again in the General Settings."
 msgstr ""
+"Cemu misslyckades med att skriva till anpassad mlc-katalog.\n"
+"\n"
+"Sökvägen är:\n"
+"{}\n"
+"\n"
+"Cemu kan inte starta utan en giltig mlc-sökväg. Vill du nollställa sökvägen? "
+"Du kan ändra detta senare i Allmänna inställningar."
 
 #: src/gui/CemuApp.cpp:224
 msgid "Reset path"
@@ -3434,6 +3585,12 @@ msgid ""
 "degraded performance due to the use of MoltenVk and Rosetta for ARM Macs. We "
 "appreciate your patience while we improve Cemu for macOS."
 msgstr ""
+"Tack för att du testar utvecklingsversionen av Cemu för macOS.\n"
+" \n"
+"macOS-portningen är rent experimentell och ska inte ses som stabil eller "
+"redo för användning utan problem. Det finns kända problem med minskad "
+"prestanda på grund av användningen av MoltenVk och Rosetta för ARM Macs. Vi "
+"uppskattar ditt tålamod under tiden vi förbättrar Cemu för macOS."
 
 #: src/gui/CemuApp.cpp:335
 msgid "Preview version"
@@ -3449,6 +3606,9 @@ msgid ""
 "\n"
 "Error: {0}"
 msgstr ""
+"Kunde inte skapa en nödvändig Cemu-katalog eller fil!\n"
+"\n"
+"Fel: {0}"
 
 #: src/gui/GameProfileWindow.cpp:19 src/gui/GameProfileWindow.cpp:247
 msgid "Edit game profile"
@@ -3463,6 +3623,8 @@ msgid ""
 "EXPERT OPTION\n"
 "This option will load libraries from the cafeLibs directory"
 msgstr ""
+"EXPERTALTERNATIV\n"
+"Detta alternativ kommer att läsa in bibliotek från cafeLibs-katalogen"
 
 #: src/gui/GameProfileWindow.cpp:43
 msgid "Launch with gamepad view"
@@ -3473,6 +3635,8 @@ msgid ""
 "Games will be launched with gamepad view toggled as default. The view can be "
 "toggled with CTRL + TAB"
 msgstr ""
+"Spel kommer att startas med GamePad-vyn växlad som standard. Vyn kan växlas "
+"med CTRL + TAB"
 
 #: src/gui/GameProfileWindow.cpp:51
 msgid "CPU"
@@ -3484,15 +3648,15 @@ msgstr "Läge"
 
 #: src/gui/GameProfileWindow.cpp:60
 msgid "Single-core interpreter"
-msgstr ""
+msgstr "Enkärnig tolk"
 
 #: src/gui/GameProfileWindow.cpp:60
 msgid "Single-core recompiler"
-msgstr ""
+msgstr "Enkärning omkompilerare"
 
 #: src/gui/GameProfileWindow.cpp:60
 msgid "Multi-core recompiler"
-msgstr ""
+msgstr "Flerkärnig omkompilerare"
 
 #: src/gui/GameProfileWindow.cpp:60
 msgid "Auto (recommended)"
@@ -3500,7 +3664,7 @@ msgstr "Auto (rekommenderas)"
 
 #: src/gui/GameProfileWindow.cpp:63
 msgid "Set the CPU emulation mode"
-msgstr ""
+msgstr "Ställ in CPU-emuleringsläge"
 
 #: src/gui/GameProfileWindow.cpp:66
 msgid "Thread quantum"
@@ -3511,6 +3675,8 @@ msgid ""
 "EXPERT OPTION\n"
 "Set the maximum thread slice runtime (in virtual cycles)"
 msgstr ""
+"EXPERTALTERNATIV\n"
+"Ställ in maximal thread slice runtime (i virtuella cykler)"
 
 #: src/gui/GameProfileWindow.cpp:78
 msgid "cycles"
@@ -3518,7 +3684,7 @@ msgstr "cykler"
 
 #: src/gui/GameProfileWindow.cpp:119
 msgid "Shader multiplication accuracy"
-msgstr ""
+msgstr "Noggrannhet för shadermultiplicering"
 
 #: src/gui/GameProfileWindow.cpp:121
 msgid "false"
@@ -3535,6 +3701,10 @@ msgid ""
 "\n"
 "Recommended: true"
 msgstr ""
+"EXPERTALTERNATIV\n"
+"Kontrollerar noggrannhet för flyttalsmultiplicering i shaders.\n"
+"\n"
+"Rekommenderad: sant"
 
 #: src/gui/GameProfileWindow.cpp:138
 msgid "Graphic"
@@ -3588,7 +3758,7 @@ msgstr "Ange en ny kommentar."
 #: src/gui/debugger/BreakpointWindow.cpp:205
 #, c-format
 msgid "Set comment for breakpoint at address %08x"
-msgstr ""
+msgstr "Ange kommentar för brytpunkt på adress %08x"
 
 #: src/gui/debugger/BreakpointWindow.cpp:223
 msgid "Create execution breakpoint"
@@ -3600,11 +3770,11 @@ msgstr "Skapa brytpunkt för loggning"
 
 #: src/gui/debugger/BreakpointWindow.cpp:225
 msgid "Create memory breakpoint (read)"
-msgstr ""
+msgstr "Skapa minnesbrytpunkt (läs)"
 
 #: src/gui/debugger/BreakpointWindow.cpp:226
 msgid "Create memory breakpoint (write)"
-msgstr ""
+msgstr "Skapa minnesbrytpunkt (skriv)"
 
 #: src/gui/debugger/BreakpointWindow.cpp:237
 msgid "Delete breakpoint"
@@ -3632,15 +3802,15 @@ msgstr ""
 
 #: src/gui/debugger/RegisterWindow.cpp:417
 msgid "&Zero"
-msgstr ""
+msgstr "&Noll"
 
 #: src/gui/debugger/RegisterWindow.cpp:418
 msgid "&Increment"
-msgstr ""
+msgstr "Ö&ka"
 
 #: src/gui/debugger/RegisterWindow.cpp:419
 msgid "&Decrement"
-msgstr ""
+msgstr "&Minska"
 
 #: src/gui/debugger/RegisterWindow.cpp:421
 msgid "&Copy"
@@ -3648,7 +3818,7 @@ msgstr "&Kopiera"
 
 #: src/gui/debugger/RegisterWindow.cpp:423
 msgid "&Goto Disasm"
-msgstr ""
+msgstr "&Gå till Disasm"
 
 #: src/gui/debugger/RegisterWindow.cpp:424
 msgid "G&oto Dump"
@@ -3681,7 +3851,7 @@ msgstr "Stega över (F10)"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:269
 msgid "PPC Debugger"
-msgstr ""
+msgstr "PPC-debugger"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:300
 msgid "> no modules loaded"
@@ -3701,7 +3871,7 @@ msgstr "Fäst till &huvudfönstret"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:641
 msgid "Break on &entry point"
-msgstr ""
+msgstr "Bryt vid &objektpunkt"
 
 #: src/gui/debugger/DebuggerWindow2.cpp:646
 msgid "&Registers"
@@ -3781,6 +3951,9 @@ msgid ""
 "This can happen if Cemu does not have write permission to its own directory, "
 "the disk is full or if anti-virus software is blocking Cemu."
 msgstr ""
+"Kunde inte skapa filen keys.txt\n"
+"Detta kan hända om Cemu inte har skrivbehörighet till sin egna katalog, att "
+"disken är full eller om antivirusprogram blockerar Cemu."
 
 #: src/Cafe/Filesystem/FST/KeyCache.cpp:111
 msgid "Error in keys.txt at line {}"
@@ -3794,6 +3967,11 @@ msgid ""
 "We recommend deleting the outdated cache file as it will no longer be used "
 "by Cemu."
 msgstr ""
+"Cemu har upptäckt att shadercachen för detta spel är utdaterad.\n"
+"Endast shadercachar genererade med Cemu 1.25.0 eller senare stöds.\n"
+"\n"
+"Vi rekommenderar att ta bort utdaterade cachefilen eftersom den inte kan "
+"användas av Cemu."
 
 #: src/Cafe/HW/Latte/Core/LatteShaderCache.cpp:797
 msgid "Outdated shader cache"
@@ -3812,6 +3990,8 @@ msgid ""
 "Async shader compile is enabled but not supported by the graphics driver\n"
 "Cemu will use synchronous compilation which can cause additional stutter"
 msgstr ""
+"Asynkron shaderkompilering är aktiverad men stöds inte av grafikdrivrutinen\n"
+"Cemu kommer att använda synkron kompilering som kan orsaka störningar"
 
 #: src/Cafe/CafeSystem.cpp:174
 msgid "Failed to run this title because the executable is damaged"
@@ -3827,17 +4007,14 @@ msgid "Error code"
 msgstr "Felkod"
 
 #: src/config/CemuConfig.h:264
-#| msgid "&Japan"
 msgid "Japan"
 msgstr "Japan"
 
 #: src/config/CemuConfig.h:265
-#| msgid "&USA"
 msgid "USA"
 msgstr "USA"
 
 #: src/config/CemuConfig.h:266
-#| msgid "&Europe"
 msgid "Europe"
 msgstr "Europa"
 
@@ -3850,17 +4027,14 @@ msgid "China"
 msgstr "Kina"
 
 #: src/config/CemuConfig.h:269
-#| msgid "&Korea"
 msgid "Korea"
 msgstr "Korea"
 
 #: src/config/CemuConfig.h:270
-#| msgid "&Taiwan"
 msgid "Taiwan"
 msgstr "Taiwan"
 
 #: src/config/CemuConfig.h:271
-#| msgid "&Auto"
 msgid "Auto"
 msgstr "Auto"
 
