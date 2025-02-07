@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cemu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-08-28 15:00+0900\n"
+"PO-Revision-Date: 2025-02-07 17:30+0900\n"
 "Last-Translator: Hack茶ん <http://blog.naver.com/jhacker>\n"
 "Language-Team: TNC\n"
 "Language: ko\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 
 #: src/input/emulated/WiimoteController.cpp:162
 #: src/input/emulated/ProController.cpp:92
@@ -2575,8 +2575,7 @@ msgstr ""
 #: src/gui/GeneralSettings2.cpp:210
 msgid ""
 "The mlc directory contains your save games and installed game update/dlc data"
-msgstr ""
-"mlc 디렉터리에는 저장 게임과 설치된 게임 업데이트/dlc 데이터가 들어 있음"
+msgstr "mlc 디렉터리에는 저장 게임과 설치된 게임 업데이트/dlc 데이터가 설치됨"
 
 #: src/gui/GeneralSettings2.cpp:236
 msgid ""
@@ -3587,7 +3586,7 @@ msgid ""
 "This option will load libraries from the cafeLibs directory"
 msgstr ""
 "전문가 옵션\n"
-"이 옵션은 카페 라이브러리 디렉토리에서 라이브러리를 불러옵니다."
+"이 옵션은 카페 라이브러리 디렉토리에서 라이브러리를 불러옴"
 
 #: src/gui/GameProfileWindow.cpp:43
 msgid "Launch with gamepad view"
@@ -3599,7 +3598,7 @@ msgid ""
 "toggled with CTRL + TAB"
 msgstr ""
 "게임은 기본적으로 게임패드 보기가 전환된 상태로 실행됩니다. 보기는 CTRL + TAB"
-"으로 전환할 수 있습니다."
+"으로 전환 가능"
 
 #: src/gui/GameProfileWindow.cpp:51
 msgid "CPU"
@@ -3915,7 +3914,7 @@ msgid ""
 msgstr ""
 "keys.txt 파일 생성 불가\n"
 "이 문제는 Cemu에 자체 디렉터리에 대한 쓰기 권한이 없거나 디스크가 꽉 찼거나 "
-"바이러스 백신 소프트웨어가 Cemu를 차단하는 경우 발생할 수 있습니다."
+"백신 소프트웨어가 Cemu를 차단하는 경우 발생할 수 있습니다."
 
 #: src/Cafe/Filesystem/FST/KeyCache.cpp:111
 msgid "Error in keys.txt at line {}"
@@ -3951,9 +3950,8 @@ msgid ""
 "Async shader compile is enabled but not supported by the graphics driver\n"
 "Cemu will use synchronous compilation which can cause additional stutter"
 msgstr ""
-"비동기 셰이더 컴파일이 활성화되었지만 그래픽 드라이버에서 지원하지 않는 경"
-"우\n"
-"Cemu는 동기 컴파일을 사용하므로 추가적인 버벅거림이 발생할 수 있습니다."
+"비동기 셰이더 컴파일이 활성화지만 그래픽 드라이버에서 지원하지 않는 경우\n"
+"Cemu는 동기 컴파일을 사용하므로 추가적인 버벅거림이 발생할 수 있음"
 
 #: src/Cafe/CafeSystem.cpp:174
 msgid "Failed to run this title because the executable is damaged"
