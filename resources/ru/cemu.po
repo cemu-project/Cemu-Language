@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-12-06 21:14+0300\n"
+"PO-Revision-Date: 2025-12-06 23:00+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -3192,7 +3192,7 @@ msgstr "Автоматическая проверка новых версий С
 
 #: src/gui/wxgui/GeneralSettings2.cpp:260
 msgid "Receive untested updates"
-msgstr "Получать непротестированные обновления"
+msgstr "Получать пререлизные версии"
 
 #: src/gui/wxgui/GeneralSettings2.cpp:261
 msgid ""
@@ -3356,17 +3356,17 @@ msgid ""
 msgstr ""
 "Выберите этот параметр, если Cemu отображается с использованием "
 "покомпонентной гамма-кривой sRGB.\n"
-"Обычно это не так, поэтому, вероятно, вы можете не устанавливать флажок.\n"
+"Обычно это не так, поэтому вы можете не включать это.\n"
 "Исключения составляют дисплеи с HDR (с включенной функцией HDR), "
 "откалиброванные дисплеи SDR с включенным автоматическим управлением цветом в "
 "Windows 11 или при использовании профиля дисплея с тегом VCGT, который "
 "нацелен на покомпонентный sRGB.\n"
-"Когда этот флажок установлен, Cemu компенсирует кусочную кривую, чтобы "
-"приблизить ее к чистой гамма-кривой телевизора."
+"Когда эта функция включена, Cemu компенсирует кривую, чтобы приблизить ее к "
+"чистой гамма-кривой телевизора."
 
 #: src/gui/wxgui/GeneralSettings2.cpp:443
 msgid "Override Gamma"
-msgstr "Переопределенная гамма"
+msgstr "Переопределять гамму"
 
 #: src/gui/wxgui/GeneralSettings2.cpp:445
 msgid "Ignore title's gamma preference"
@@ -4157,11 +4157,15 @@ msgstr "Горячие клавиши"
 
 #: src/gui/wxgui/input/HotkeySettings.cpp:153
 msgid "Hotkey modifier"
-msgstr "Мод. горячих клавиш"
+msgstr ""
+"Модификатор\n"
+"горячих клавиш"
 
 #: src/gui/wxgui/input/HotkeySettings.cpp:157
 msgid "Toggle fullscreen"
-msgstr "Полноэкр. режим"
+msgstr ""
+"Полноэкранный\n"
+"режим"
 
 #: src/gui/wxgui/input/HotkeySettings.cpp:158
 msgid "Take screenshot"
@@ -4169,7 +4173,9 @@ msgstr "Сделать скриншот"
 
 #: src/gui/wxgui/input/HotkeySettings.cpp:159
 msgid "Toggle fast-forward"
-msgstr "Вкл/Выкл быструю перемотку"
+msgstr ""
+"Вкл/Выкл\n"
+"быструю перемотку"
 
 #: src/gui/wxgui/input/HotkeySettings.cpp:217
 msgid "Keyboard"
